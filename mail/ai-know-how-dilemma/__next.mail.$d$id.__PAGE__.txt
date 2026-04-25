@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T969,<h1>专有技术困境与AI代码生成</h1>
+<p>AI擅长应用可编码的“事实知识”，但在需要经验、直觉和情境理解的“专有技术”领域却步履维艰。即使 AI 单次决策的正确率看似很高，但在涉及数百个步骤的复杂工程任务中，错误会迅速累积并导致系统性失败，这揭示了概率模型在处理严谨逻辑结构时的脆弱性。</p>
+<p>此外，研究显示 AI 生成的代码面临严峻的安全与性能挑战。由于模型往往从公共代码库中学习并复制不安全的模式，导致生成产物中潜藏着大量安全漏洞；同时，当通用模型应用于特定专业领域时，因缺乏专门的上下文知识，其质量会出现显著衰减。这表明 AI 学习的是专业技能的“产物”，而非产生这些产物的“过程”或“内化理解”。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ai-know-how-dilemma.html" data-title="交互式分析：专有技术困境与AI代码生成" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式分析：专有技术困境与AI代码生成</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ai-know-how-dilemma.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-know-how-dilemma","sender":"Info Cards","subject":"专有技术困境与AI代码生成","snippet":"深入探讨 AI 在软件工程中的“专有技术困境”。尽管 AI 擅长处理可编码的事实知识，但在涉及经验、直觉和情境理解的复杂任务中，其局限性暴露无遗。本分析通过交互式图表，揭示了 AI 代码生成中存在的复合错误累积、安全漏洞风险以及领域性能衰减等核心问题，并对比了人类专家与 AI 在知识处理机制上的本质差异。","date":"2025-07-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","人工智能","代码生成","软件工程","认知科学"],"tags":["人工智能","代码生成","软件工程","认知科学"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ai-know-how-dilemma.md","prompts":[]},"listPosition":{"index":295,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

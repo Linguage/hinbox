@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Taa1,<h1>解锁AI潜力：吴恩达博士与苏姿丰博士的见解</h1>
+<p>人工智能的飞速发展正在重塑整个科技行业的格局，而开放性与协作精神被认为是推动这一进程的核心动力。本文基于两位行业领袖的深度对话，阐述了构建开放AI生态的重要性，以及如何通过标准化的技术栈降低智能应用的开发门槛。从底层的硬件加速到上层的模型推理，每一个环节的效率提升都在极大地释放开发者的创造力，使得AI不仅仅是大型科技公司的专利，更是全民创新的工具。</p>
+<p>在探讨技术细节的同时，对话也触及了更为宏大的职业发展议题。随着AI工具的普及，工程师的角色正在从单纯的代码编写者转变为系统架构师与AI训练师。这种转变要求从业者不仅要掌握传统的编程逻辑，更要理解数据与模型之间的微妙关系。文章通过直观的数据对比与愿景描述，为我们描绘了一个由算力、算法与人类智慧共同驱动的未来图景，呼吁每一位开发者积极拥抱这场生产力革命。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/Unlocking-AI-Potential-andrew-ng-lisa-su.html" data-title="解锁AI潜力：吴恩达博士与苏姿丰博士的见解" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">解锁AI潜力：吴恩达博士与苏姿丰博士的见解</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/Unlocking-AI-Potential-andrew-ng-lisa-su.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"Unlocking-AI-Potential-andrew-ng-lisa-su","sender":"Linguista","subject":"解锁AI潜力：吴恩达博士与苏姿丰博士的见解","snippet":"本文深入探讨了人工智能的未来发展趋势，重点阐述了开放AI生态系统的战略价值以及AI技术栈各层级的关键变革。通过分析吴恩达博士与苏姿丰博士的对话，文章揭示了从基础设施优化到开发者工具演进的完整路径，展示了AI如何降低开发门槛并重塑软件工程范式。此外，内容还展望了未来职业形态的转变，强调人机协作将成为创新的核心驱动力。","date":"2025-07-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","DeepLearning.AI","AMD","Tech Trends"],"tags":["Artificial Intelligence","DeepLearning.AI","AMD","Tech Trends"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/Unlocking-AI-Potential-andrew-ng-lisa-su.md","prompts":[]},"listPosition":{"index":300,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

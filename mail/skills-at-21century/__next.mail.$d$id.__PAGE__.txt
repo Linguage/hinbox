@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T901,<h1>21世纪技能杠杆</h1>
+<p>随着 AI Agent 展现出惊人的自动化能力，人们普遍担忧人类技能的价值即将归零。当代码撰写、法律检索甚至医疗诊断都能被瞬间完成时，专业人士的传统立足之地似乎正在崩塌。然而，自动化从未消灭技能，而是重塑了它，要求我们将视野从单一任务转向更具价值的全局整合。</p>
+<p>AI 真正的威力在于放大“专业深度”。工程师的核心价值在于理解需求与系统闭环，而非仅仅敲击代码；律师的决胜点在于逻辑构建，而非机械检索。我们需要在脑海中构建完整的心智模型，利用 AI 剥离枯燥的重复性劳动，专注于判断力与创新。技能不会在 21 世纪消失，AI 将赋予专业深度前所未有的扩张杠杆。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/skills-at-21century.html" data-title="21世纪技能杠杆" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">21世纪技能杠杆</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/skills-at-21century.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"skills-at-21century","sender":"Aaron Levie","subject":"21世纪技能杠杆","snippet":"随着AI Agent展现出惊人的自动化能力，人们普遍担忧人类技能的价值即将归零。然而，历史证明自动化从未消灭技能，而是重塑了它。真正的威力在于“专业深度”与“综合集成”，你需要深厚的领域知识来构建心智模型并判断AI输出的优劣。AI不会替代人类，而是赋予专业深度前所未有的扩张杠杆。","date":"2026-01-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Agent","Future of Work","Professional Skills","Automation"],"tags":["AI Agent","Future of Work","Professional Skills","Automation"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/skills-at-21century.md","prompts":[]},"listPosition":{"index":107,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

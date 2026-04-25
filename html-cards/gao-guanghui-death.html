@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统性过劳 · CVTE 案例卡片</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paper: '#F5F2EB',
+                        ink: '#1A1918',
+                        watermark: 'rgba(26, 25, 24, 0.06)',
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans SC"', 'sans-serif'],
+                        serif: ['"Noto Serif SC"', 'serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html { overflow-y: auto; }
+        body { margin: 0; -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-neutral-200 min-h-auto flex flex-col items-center p-6 md:p-10 overflow-x-hidden overflow-y-auto">
+    <div class="flex flex-col items-center gap-10 w-full max-w-[900px] min-[1900px]:flex-row min-[1900px]:items-start min-[1900px]:justify-center min-[1900px]:max-w-none">
+        <article class="relative w-full min-w-0 max-w-[900px] h-[1200px] bg-paper text-ink border-[3px] border-ink flex flex-col overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+            <header class="shrink-0 border-b-[3px] border-ink px-8 pt-8 pb-6">
+                <p class="font-sans text-xs font-bold tracking-[0.35em] uppercase text-ink/70">Case Study · Labor</p>
+                <h1 class="font-sans font-black text-[clamp(2.5rem,8vw,4.5rem)] leading-[0.95] tracking-tight mt-2">
+                    系统性过劳
+                </h1>
+                <p class="font-serif font-bold text-xl md:text-2xl mt-3 text-ink/85">
+                    CVTE 员工高光辉猝死事件 — 薪酬陷阱、证据链与数字化待命
+                </p>
+            </header>
+
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 min-h-0 border-b-[3px] border-ink">
+                <section class="border-b-[3px] md:border-b-0 md:border-r-[3px] border-ink p-6 md:p-8 flex flex-col gap-4 relative overflow-hidden">
+                    <span class="font-sans font-black text-6xl md:text-7xl text-watermark absolute -right-2 top-4 select-none" aria-hidden="true">01</span>
+                    <h2 class="font-sans font-black text-2xl md:text-3xl relative">薪酬陷阱</h2>
+                    <p class="font-serif font-semibold text-lg md:text-xl leading-snug text-justify relative">
+                        极低底薪与账面高实发并存，形式上“自愿”拉长工时才能完成收入闭环。数字被设计成自我归因：不是制度逼人，而是员工“选择”留下。
+                    </p>
+                </section>
+                <section class="p-6 md:p-8 flex flex-col gap-4 relative overflow-hidden">
+                    <span class="font-sans font-black text-6xl md:text-7xl text-watermark absolute -right-2 top-4 select-none" aria-hidden="true">02</span>
+                    <h2 class="font-sans font-black text-2xl md:text-3xl relative">证据隐匿</h2>
+                    <p class="font-serif font-semibold text-lg md:text-xl leading-snug text-justify relative">
+                        以商业机密、数据合规为由快速冻结后台轨迹，工伤认定所需的过程数据被人为抬高获取成本，生命终结后的“第一反应”是防御。
+                    </p>
+                </section>
+                <section class="border-t-[3px] md:border-t-0 border-ink p-6 md:p-8 flex flex-col gap-4 relative overflow-hidden">
+                    <span class="font-sans font-black text-6xl md:text-7xl text-watermark absolute -right-2 top-4 select-none" aria-hidden="true">03</span>
+                    <h2 class="font-sans font-black text-2xl md:text-3xl relative">角色堆叠</h2>
+                    <p class="font-serif font-semibold text-lg md:text-xl leading-snug text-justify relative">
+                        “一人多岗”被常态化为效率；职责边界模糊后，责任却清晰下放到个人，组织容错空间被压缩到物理极限。
+                    </p>
+                </section>
+                <section class="border-t-[3px] md:border-t-0 md:border-l-[3px] border-ink p-6 md:p-8 flex flex-col gap-4 relative overflow-hidden">
+                    <span class="font-sans font-black text-6xl md:text-7xl text-watermark absolute -right-2 top-4 select-none" aria-hidden="true">04</span>
+                    <h2 class="font-sans font-black text-2xl md:text-3xl relative">全时待命</h2>
+                    <p class="font-serif font-semibold text-lg md:text-xl leading-snug text-justify relative">
+                        IM、工单与告警把“下班”改写为待机；边界融化后，过劳不再是单次加班，而是神经系统的长期欠债。
+                    </p>
+                </section>
+            </div>
+
+            <footer class="shrink-0 px-8 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2 text-sm font-sans font-bold uppercase tracking-widest text-ink/75">
+                <span>摘要依据：蓝鲸新闻等公开报道</span>
+                <span>延伸：知乎讨论整理（见正文链接）</span>
+            </footer>
+        </article>
+    </div>
+</body>
+</html>

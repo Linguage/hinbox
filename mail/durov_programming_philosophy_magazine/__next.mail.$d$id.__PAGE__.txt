@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9f9,<h1>帕维尔·杜罗夫从童年到社交帝国的程序人生</h1>
+<p>在这次深度对话中，Telegram 创始人兼 CEO 帕维尔·杜罗夫（Pavel Durov）回顾了他从 10 岁初次接触代码到建立全球社交帝国的完整旅程。他讲述了自己如何在前苏联资源极度匮乏的环境下，利用编程填补娱乐空白，通过开发五子棋游戏和预测算法磨练技艺，这种将匮乏转化为创造力的原生动力贯穿了他后来的创业生涯。</p>
+<p>帕维尔进一步揭示了支撑 Telegram 巨大成功的核心哲学：极简主义与极致效率。他强调产品设计的本质是做减法，只有通过不断删繁就简，才能让用户专注于沟通本身。此外，他还分享了关于团队建设的独特见解，主张只保留具备自驱力和高效率的“A-Players”，认为小而精的团队往往能超越庞大臃肿的组织架构，以更快的速度迭代出卓越的产品。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/durov_programming_philosophy_magazine.html" data-title="帕维尔·杜罗夫从童年到社交帝国的程序人生" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">帕维尔·杜罗夫从童年到社交帝国的程序人生</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/durov_programming_philosophy_magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"durov_programming_philosophy_magazine","sender":"Lex Fridman Interview","subject":"帕维尔·杜罗夫从童年到社交帝国的程序人生","snippet":"本期 Lex Fridman Podcast 深度对谈中，Telegram 创始人 Pavel Durov 分享了他从 10 岁自学编程、开发游戏，到创建 VK 并最终打造出 Telegram 的非凡历程。文章详细阐述了前苏联时期的资源匮乏如何成为他主动创新的催化剂，以及他如何通过自驱力、极简主义和极致效率的理念突破重","date":"2025-10-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Pavel Durov","Telegram","创业哲学","编程思维"],"tags":["Pavel Durov","Telegram","创业哲学","编程思维"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/durov_programming_philosophy_magazine.md","prompts":[]},"listPosition":{"index":191,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

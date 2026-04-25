@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T88f,<h1>AI定价策略分析</h1>
+<p>人工智能行业正在经历一场深刻的战略转型。每月200美元高端会员的出现，远非简单的价格上涨，它揭示了计算成本的显性化、精细化的用户分层，以及整个行业对可持续商业模式的集体追求。本应用将带您互动式地探索这一变革背后的完整逻辑。</p>
+<p>通过从宏观概述到微观成本的层层递进，我们不仅对比了$20与$200套餐的直观差异，更利用动态图表揭示了指数级成本差异带来的经济学挑战。这种结构将线性报告转化为多维度的探索体验，旨在通过“引导式发现”而非“被动阅读”来提升对AI商业未来的理解。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ai-agent-pricing.html" data-title="AI定价策略分析" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">AI定价策略分析</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ai-agent-pricing.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-agent-pricing","sender":"Linguista","subject":"AI定价策略分析","snippet":"人工智能行业正在经历一场深刻的战略转型。随着每月$200高端会员的出现，我们看到的不仅是简单的价格上涨，更是计算成本显性化与精细化用户分层的体现。本文通过互动式可视化图表，深入解构从$20到$200的价格飞跃背后的商业逻辑，揭示了行业对可持续商业模式的集体追求以及未来定价模型的演变趋势。","date":"2025-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Industry","Pricing Strategy","Business Analysis"],"tags":["AI Industry","Pricing Strategy","Business Analysis"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ai-agent-pricing.md","prompts":[]},"listPosition":{"index":309,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

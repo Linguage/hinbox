@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta6b,<h1>AI 数学工作流：陶哲轩的方法</h1>
+<p>在现代数学研究的版图中，陶哲轩对埃尔德什差异问题的探索不仅是一次解题的胜利，更是研究范式的重大革新。通过引入人工智能工具，数学家建立了一套前所未有的工作流程：从模糊的自然语言直觉出发，利用AI将其转化为Lean代码的严格形式化验证，再由AI回译为逻辑严密且可读性更强的自然语言。这种人机“乒乓式”的深度协作，成功填补了传统证明中难以察觉的逻辑间隙，将数学证明的严谨性与叙事的灵活性推向了新的高度。</p>
+<p>这一过程的真正突破在于其重塑了数学文本的本质。AI不再仅仅是辅助计算的工具，而是成为了定义问题边界（如引入约束 (a,b \le (1-\varepsilon)n)）和重构论证逻辑的核心伙伴。无论是处理小常数的特例，还是扩展至全场景的广义覆盖，AI都展现出了惊人的适应性与“验证即修正”的能力。这种动态的、可迭代的高重数论文模式，预示着未来数学知识传播与验证方式的彻底变革。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/terence-tao-erdos728.html" data-title="Swiss Style Infographic - AI Math Workflow" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Style Infographic - AI Math Workflow</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/terence-tao-erdos728.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"terence-tao-erdos728","sender":"Info Cards","subject":"AI 数学工作流：陶哲轩的方法","snippet":"本文深入探讨了陶哲轩在解决埃尔德什差异问题（Erdős Problem）时采用的创新性人机协作模式。内容详细解析了从自然语言猜想出发，利用AI工具Aristotle转化为Lean形式化代码进行严谨验证，再回译为更优自然语言的闭环验证流程。这种'乒乓式'迭代不仅填补了逻辑间隙，更展示了AI在数学证明中的澄清模糊定义、处理","date":"2026-01-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","Mathematics","Terence Tao","Formal Verification"],"tags":["Artificial Intelligence","Mathematics","Terence Tao","Formal Verification"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/terence-tao-erdos728.md","prompts":[]},"listPosition":{"index":103,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

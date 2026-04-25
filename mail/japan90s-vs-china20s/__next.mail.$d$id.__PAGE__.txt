@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta36,<h1>失落年代与数字黎明：中日时空对比</h1>
+<p>当经济停滞的浪潮与技术革命的黎明交汇，历史似乎在押韵，却从未完全重复。这份报告通过交互式对比，将目光投向 1990 年代的日本与当代中国。两者虽然面临着相似的宏观挑战——如资产泡沫破裂后的增长乏力、就业市场的结构性压力以及社会阶层的固化——但在微观层面，两代年轻人的生存状态却呈现出截然不同的光谱。</p>
+<p>报告的核心洞察在于“数字变量”的介入。对于 90 年代的日本青年而言，互联网是边缘化的“新边疆”，是逃避现实压力的避风港；而对于当代中国青年，互联网则是高度中心化的“斗兽场”，是竞争与内卷的主舞台。通过图表数据与关键词卡片的互动展示，我们可以清晰地看到，相似的经济下行压力，在不同的技术与社会语境下，如何塑造了“低欲望”与“高搏杀”两种迥异的代际命运，为我们在当下的迷茫中寻找历史的借镜。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/japan90s-vs-china20s.html" data-title="失落年代与数字黎明：互动式报告" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">失落年代与数字黎明：互动式报告</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/japan90s-vs-china20s.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"japan90s-vs-china20s","sender":"Info Cards","subject":"失落年代与数字黎明：中日时空对比","snippet":"通过对比 1990 年代的日本泡沫经济破灭与当代中国面临的经济转型，本报告深入探讨了两个时代的宏观相似性与微观差异。文章不仅分析了 GDP 增长放缓与青年就业困境的“经济回响”，更关键地剖析了两代年轻人截然不同的心态：日本青年在内向、低欲望的“失落年代”中寻求极简生活，而中国青年则在高度内卷的“数字斗兽场”中通过算法与","date":"2025-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","经济周期","社会心态","中日对比","数字社会学"],"tags":["经济周期","社会心态","中日对比","数字社会学"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/japan90s-vs-china20s.md","prompts":[]},"listPosition":{"index":316,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

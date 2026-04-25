@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T92f,<h1>小平邦彦数学阅读法</h1>
+<p>菲尔兹奖得主小平邦彦揭示了数学学习的深层逻辑，指出真正的理解绝非被动接收信息，而是一场手脑并用的心智苦旅。面对高难度的数学文本，阅读者必须拒绝浅尝辄止，转而投身于“抄读重构”的笨功夫之中，将证明逐字抄录并按个人逻辑重写全章，以此作为通往真理的唯一路径。</p>
+<p>单纯地验证逻辑步骤并不等同于理解，那往往只能看到模糊的局部画面。真正的精通要求学习者突破符号的壁垒，触达背后的数学实体，将抽象的定理内化为一种无需证明的本能直觉。这种如同钢琴家练琴般日复一日的技艺磨练，旨在让数学真理变得像“2+2=4”一样清晰自然，而证明过程本身在此时反而可以被遗忘。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/work-on-notes.html" data-title="Swiss Wireframe: Kodaira Math Reading" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Wireframe: Kodaira Math Reading</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/work-on-notes.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"work-on-notes","sender":"Kunihiko Kodaira","subject":"小平邦彦数学阅读法","snippet":"深入探讨菲尔兹奖得主小平邦彦的数学阅读哲学：从'抄读重构'的笨功夫出发，质疑书本的逻辑编排，最终超越形式化的证明链条，将对定理的理解内化为如同2+2=4般自然清晰的数学直觉。真正的理解并非被动接收逻辑，而是通过手脑并用的苦旅，建立对数学真理的本能把握。","date":"2026-01-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","数学学习","知识管理","直觉构建","深度工作"],"tags":["数学学习","知识管理","直觉构建","深度工作"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/work-on-notes.md","prompts":[]},"listPosition":{"index":116,"total":432},"matchedPerson":{"id":"kunihiko-kodaira","name":"Kunihiko Kodaira","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

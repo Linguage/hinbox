@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T986,<h1>人工智能的下半场</h1>
+<p>人工智能的发展历程可以被清晰地划分为上下两个半场。在上半场中，行业的关注点主要集中在算法的突破与模型能力的极限，我们见证了从 DeepBlue 在国际象棋领域的称霸，到 AlphaGo 在围棋领域的奇迹，再到 GPT 系列大模型展现出的惊人通用性。这一阶段的核心驱动力是“能否训练出更强大的模型”，技术本身的迭代构成了叙事的主线。</p>
+<p>然而，随着基础模型的日益成熟，我们正迈入人工智能的“下半场”。这一阶段的重心将发生根本性转移：从单纯追求模型规模的扩张，转向思考“应该训练模型去做什么”以及“如何科学评价 AI 的真正进步”。定义评测标准和具体任务将成为该领域最重要的方向，标志着 AI 从技术奇观转向为现实世界创造实际效用和价值的全新周期。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ai_second_half_magazine.html" data-title="人工智能的下半场" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">人工智能的下半场</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ai_second_half_magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai_second_half_magazine","sender":"姚顺雨 (Shunyu Yao)","subject":"人工智能的下半场","snippet":"本文深入探讨了人工智能发展阶段的划分，指出当前正处于从“上半场”向“下半场”过渡的关键节点。上半场以 DeepBlue、AlphaGo 及 GPT 系列的算法与模型突破为核心；而下半场的重心将彻底转移至评测体系的完善与实际效用的创造，探索 AI 真正应当解决的任务，从而在现实世界中产生具体价值。","date":"2025-09-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","AI Evaluation","Technology Trends"],"tags":["Artificial Intelligence","AI Evaluation","Technology Trends"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ai_second_half_magazine.md","prompts":[]},"listPosition":{"index":217,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

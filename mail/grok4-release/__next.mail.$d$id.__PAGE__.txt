@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8cd,<h1>xAI Grok 4 演示回顾</h1>
+<p>Grok 4 不仅仅是一次简单的产品迭代，它被官方定义为一场智能的革命。作为 xAI 推出的最新一代旗舰模型，它旨在重新定义智能的边界，将人工智能的应用场景从简单的文本生成推向了深度的科学探索与复杂逻辑推理。</p>
+<p>此次更新的核心亮点在于其无与伦比的学术实力。Grok 4 在多项全球最艰难的学术基准测试中表现卓越，其得分超越了以往的行业标准。通过内置的交互式图表分析，我们可以直观地看到它在知识广度和推理深度上的突破，这标志着 AI 正在具备媲美甚至超越人类专家的潜力，为未来的实际应用奠定了坚实的技术基础。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/grok4-release.html" data-title="交互式报告：xAI Grok 4 演示" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式报告：xAI Grok 4 演示</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/grok4-release.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"grok4-release","sender":"Linguista","subject":"xAI Grok 4 演示回顾","snippet":"xAI 发布的最新一代模型 Grok 4 代表了人工智能领域的一次重大飞跃，不仅在多项全球最艰难的学术基准测试中树立了新标杆，更凭借博士级别的全学科知识储备和超人类的推理能力，开启了由 AI 驱动探索与发现的新纪元。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI","xAI","Grok 4","Technology"],"tags":["AI","xAI","Grok 4","Technology"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/grok4-release.md","prompts":[]},"listPosition":{"index":259,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

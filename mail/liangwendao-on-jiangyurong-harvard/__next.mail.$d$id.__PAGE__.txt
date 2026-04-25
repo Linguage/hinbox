@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta06,<h1>梁文道：哈佛演讲事件深度分析</h1>
+<p>这场由一场毕业演讲引发的风波，迅速超越了个人表达的范畴，演变为一场席卷中文互联网的舆论风暴。梁文道先生敏锐地指出，这一事件并非孤立存在，而是完美契合了当下网络空间中一种反复出现的“精英人设塌房”叙事模式。从最初作为“天才学霸”的高光亮相，到家庭背景被深挖后的争议四起，这种模式化的反转折射出公众对阶层固化的深层焦虑。</p>
+<p>深入分析哈佛校方在这一事件中的处境，我们可以看到更复杂的政治与社会博弈。在美国最高法院推翻平权法案的敏感时期，演讲本身以及校方的态度被置于巨大的政治显微镜下。同时，对演讲者履历的线性梳理与对其演讲内容的逐句剖析，揭示了精英叙事与大众情绪之间的巨大鸿沟，以及跨文化语境下话语表达所面临的严峻挑战。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/liangwendao-on-jiangyurong-harvard.html" data-title="梁文道深度分析：哈佛演讲事件交互式解读" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">梁文道深度分析：哈佛演讲事件交互式解读</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/liangwendao-on-jiangyurong-harvard.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"liangwendao-on-jiangyurong-harvard","sender":"Linguista","subject":"梁文道：哈佛演讲事件深度分析","snippet":"本文基于梁文道先生的深度分析，探讨了蒋雨荣在哈佛毕业演讲引发的中美舆论风暴。通过交互式图表，文章解构了中文互联网特有的“精英人设塌房”叙事模式，分析了哈佛在平权法案取消背景下的政治困境，并详细审视了演讲者履历及其言论中的逻辑漏洞。这不仅是一场关于个人演讲的争议，更是中美话语权冲突与社会情绪的集中爆发。","date":"2025-07-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","社会观察","梁文道","哈佛演讲","精英叙事"],"tags":["社会观察","梁文道","哈佛演讲","精英叙事"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/liangwendao-on-jiangyurong-harvard.md","prompts":[]},"listPosition":{"index":278,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

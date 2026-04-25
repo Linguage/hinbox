@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球清凉鸿沟：交互式报告</title>
+<!-- Injected: Open Graph / Twitter -->
+<meta property="og:title" content="全球清凉鸿沟：交互式报告">
+<meta property="og:url" content="https://linguage.github.io/articles/air-conditioner-around-the-world.html">
+<meta property="og:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@linguista2025">
+<meta name="twitter:creator" content="@linguista2025">
+<meta name="twitter:title" content="全球清凉鸿沟：交互式报告">
+<meta name="twitter:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<link rel="canonical" href="https://linguage.github.io/articles/air-conditioner-around-the-world.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Calm Harmony -->
+    <!-- Application Structure Plan: The SPA is structured as a narrative journey to explain the "Global Cooling Divide." It starts with a high-level data visualization (Global Penetration Chart) to hook the user. The core of the app is a direct, side-by-side comparison of the "China Model" and the "Europe Dilemma" using a two-column layout, which is the most effective way to communicate the central conflict of the report. Following this comparison, "Deep Dive" sections with interactive diagrams (Installation Process Flowchart, Cost Breakdown) allow users to explore the most complex points without cluttering the main view. The story concludes with the "Game Changer" (Climate Change) and a forward-looking summary. This thematic, comparative structure was chosen over a linear report structure to enhance understanding and engagement by focusing on the core contrasts and causal relationships. -->
+    <!-- Visualization & Content Choices: 
+        1.  Report Info: Global AC Penetration Rates. -> Goal: Inform/Compare. -> Viz: Horizontal Bar Chart. -> Interaction: Hover tooltips. -> Justification: Immediately establishes the global disparity. -> Library: Chart.js.
+        2.  Report Info: China vs. Europe Systems. -> Goal: Compare/Organize. -> Viz: Two-column card layout with icons. -> Interaction: Static. -> Justification: Provides a clear, at-a-glance summary of the two opposing models. -> Library/Method: HTML/Tailwind.
+        3.  Report Info: Installation Approval Process. -> Goal: Explain a complex process. -> Viz: HTML/CSS flowchart diagram. -> Interaction: Hover to highlight stages. -> Justification: Makes the bureaucratic hurdles described in the text tangible and easily comparable. -> Library/Method: HTML/Tailwind.
+        4.  Report Info: Economic Barriers in Europe. -> Goal: Compare Costs. -> Viz: Grouped Bar Chart. -> Interaction: Hover tooltips. -> Justification: Visually quantifies the "triple cost" barrier (equipment, installation, electricity). -> Library/Method: Chart.js.
+        5.  Report Info: Climate Change Impact. -> Goal: Show Change. -> Viz: Line Chart & HTML/CSS Triangle Diagram. -> Interaction: Hover tooltips. -> Justification: Represents the "disruptor" force of heatwaves and visually explains the policy "trilemma". -> Library/Method: Chart.js & HTML/Tailwind.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #F8F5F2; /* Warm Neutral Base */
+            color: #3D405B;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px;
+            max-height: 50vh;
+        }
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+            }
+        }
+        .bg-accent-1 { background-color: #81B29A; } /* Gentle Blue */
+        .text-accent-1 { color: #81B29A; }
+        .border-accent-1 { border-color: #81B29A; }
+        .bg-accent-2 { background-color: #E07A5F; } /* Muted Terracotta */
+        .text-accent-2 { color: #E07A5F; }
+        .border-accent-2 { border-color: #E07A5F; }
+        .bg-base-100 { background-color: #F8F5F2; }
+        .bg-base-200 { background-color: #F4F1DE; }
+        .bg-base-300 { background-color: #DFDBC9; }
+        .trilemma-shape {
+            width: 0;
+            height: 0;
+            border-left: 125px solid transparent;
+            border-right: 125px solid transparent;
+            border-bottom: 216.5px solid #F4F1DE;
+            position: relative;
+        }
+    </style>
+
+<!-- Injected: GA4 (only in top window, avoid iframe double counting) -->
+<script>
+  (function () {
+    if (window.top !== window.self) return; // skip when embedded as iframe
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-99PGBGJH4S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-99PGBGJH4S');
+  })();
+</script>
+</head>
+<body class="antialiased">
+
+    <header class="py-8 md:py-12 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl md:text-5xl font-bold text-accent-2">全球清凉鸿沟</h1>
+            <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-gray-700">探索为何在中国安装空调是常态，而在欧洲历史名城却是一种奢侈。这是一个关于工业、文化、法规与气候变化的故事。</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4">
+
+        <section id="global-divide" class="py-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">一个被舒适度分割的世界</h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-8">全球空调普及率存在巨大差异。数据显示，少数发达国家享受着近乎饱和的清凉，而许多最需要制冷的地区却普及率极低。这种“清凉差距”揭示了远超经济水平的复杂因素。</p>
+            <div class="chart-container">
+                <canvas id="penetrationChart"></canvas>
+            </div>
+        </section>
+
+        <section id="two-systems" class="py-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">两种体系的故事：中国 vs. 欧洲</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                
+                <div class="bg-base-200 p-6 rounded-lg shadow-md border-t-4 border-accent-1">
+                    <h3 class="text-2xl font-bold text-accent-1 mb-4">中国模式：“推动”体系</h3>
+                    <p class="mb-6 text-gray-700">这是一个由工业驱动的体系。大规模制造业创造了低价供给，巧妙的零售策略将其“推”向市场，而宽松的监管环境则为其铺平了道路，最终在短时间内实现了现代化便利设施的大众化。</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">🏭</span>
+                            <div>
+                                <h4 class="font-bold">规模化制造</h4>
+                                <p class="text-sm text-gray-600">作为世界工厂，中国拥有巨大的规模经济和整合供应链，显著降低了空调的生产成本。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">💰</span>
+                            <div>
+                                <h4 class="font-bold">“免费安装”策略</h4>
+                                <p class="text-sm text-gray-600">通过免除初装人工费，极大地降低了消费者的初次购买心理门槛，将成本后置于辅材费中。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">📜</span>
+                            <div>
+                                <h4 class="font-bold">宽松的监管</h4>
+                                <p class="text-sm text-gray-600">对建筑外立面美学普遍缺乏严格规定，将安装简化为纯粹的技术任务，而非官僚程序。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-base-200 p-6 rounded-lg shadow-md border-t-4 border-accent-2">
+                    <h3 class="text-2xl font-bold text-accent-2 mb-4">欧洲困境：“拉动”体系</h3>
+                    <p class="mb-6 text-gray-700">这是一个由需求驱动、但受严格限制的体系。个人需求受到强大“守门人”的制约，包括保护遗产的法律、高昂的系统性成本和根深蒂固的文化怀疑，使空调至今仍是奢侈品。</p>
+                     <div class="space-y-4">
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">🏛️</span>
+                            <div>
+                                <h4 class="font-bold">遗产保护法规</h4>
+                                <p class="text-sm text-gray-600">巴黎、佛罗伦萨等古城有严格法律，禁止在外立面安装空调室外机，以保护城市风貌。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">💶</span>
+                            <div>
+                                <h4 class="font-bold">三重成本障碍</h4>
+                                <p class="text-sm text-gray-600">高昂的设备、安装人工费（数千欧元）和欧洲冠绝全球的电价，构成了巨大的经济壁垒。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-4">🌬️</span>
+                            <div>
+                                <h4 class="font-bold">文化抗拒</h4>
+                                <p class="text-sm text-gray-600">传统上将空调视为“美式浪费”，更倾向于使用百叶窗、厚墙等被动方式应对炎热。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="deep-dive" class="py-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">深度剖析：审批流程与成本对比</h2>
+            
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg mb-12">
+                <h3 class="text-xl font-bold text-center mb-2">安装的“攻坚战”：巴黎 vs. 中国城市</h3>
+                <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">在巴黎，安装一台空调需要闯过业主协会和市政厅的双重否决关卡，过程漫长且结果难料。这与中国快速、标准化的流程形成鲜明对比。</p>
+                <div class="grid grid-cols-1 md:grid-cols-11 gap-4 items-center font-sans">
+                    <!-- Paris Flow -->
+                    <div class="col-span-1 md:col-span-5">
+                        <h4 class="text-center font-bold text-lg mb-4 text-accent-2">巴黎公寓</h4>
+                        <div class="space-y-2 text-center">
+                            <div class="bg-base-200 p-2 rounded-md border border-base-300">1. 业主决策 & 准备方案</div>
+                            <div class="text-2xl text-gray-400">↓</div>
+                            <div class="bg-red-100 p-2 rounded-md border border-red-300 relative">
+                                <span class="absolute -top-3 -right-3 bg-red-500 text-white rounded-full h-6 w-6 flex items-center justify-center text-sm font-bold">!</span>
+                                2. 共同业主大会投票【关键否决点】
+                            </div>
+                            <div class="text-2xl text-gray-400">↓</div>
+                            <div class="bg-red-100 p-2 rounded-md border border-red-300 relative">
+                               <span class="absolute -top-3 -right-3 bg-red-500 text-white rounded-full h-6 w-6 flex items-center justify-center text-sm font-bold">!</span>
+                                3. 市政厅规划部门审批【关键否决点】
+                            </div>
+                            <div class="text-2xl text-gray-400">↓</div>
+                            <div class="bg-yellow-100 p-2 rounded-md border border-yellow-300">4. 昂贵且复杂的专业安装</div>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:flex justify-center items-center">
+                        <div class="w-px h-full bg-gray-300"></div>
+                        <span class="absolute bg-white px-2 font-bold text-gray-500">VS</span>
+                    </div>
+
+                     <!-- China Flow -->
+                    <div class="col-span-1 md:col-span-5 mt-8 md:mt-0">
+                         <h4 class="text-center font-bold text-lg mb-4 text-accent-1">中国现代化公寓</h4>
+                         <div class="space-y-2 text-center">
+                            <div class="bg-base-200 p-2 rounded-md border border-base-300">1. 业主决策</div>
+                            <div class="text-2xl text-gray-400">↓</div>
+                            <div class="bg-green-100 p-2 rounded-md border border-green-300">2. 预约品牌方</div>
+                            <div class="text-2xl text-gray-400">↓</div>
+                             <div class="bg-green-100 p-2 rounded-md border border-green-300">3. 快速、标准化安装</div>
+                             <div class="text-2xl text-gray-400 opacity-0">↓</div>
+                             <div class="p-2 opacity-0">Placeholder</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                 <h3 class="text-xl font-bold text-center mb-2">经济障碍：欧洲的成本三重打击</h3>
+                 <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">除了法规，经济成本是另一大障碍。以下图表直观展示了在法国安装一套空调系统与在中国的典型花费对比，以及欧洲高昂的电价如何进一步加重了长期负担。</p>
+                 <div class="chart-container" style="max-height: 40vh;">
+                    <canvas id="costChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="game-changer" class="py-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">伟大的统一者：气候变化</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">然而，一股不可抗拒的力量正在改变游戏规则。前所未有的热浪冲击着欧洲的传统观念和法规壁垒，迫使社会重新审视空调的角色，使其从“奢侈品”向“必需品”转变。</p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-center mb-4">当传统遭遇空前热浪</h3>
+                     <div class="chart-container" style="height: 300px; max-height: 40vh;">
+                        <canvas id="heatwaveChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center h-full">
+                    <h3 class="text-xl font-bold text-center mb-4">欧洲面临的政策“三难困境”</h3>
+                    <p class="text-center text-sm text-gray-600 mb-6">需求的激增带来了一个危险的反馈循环和棘手的政策冲突，在保护公民、保护遗产和实现气候目标之间难以抉择。</p>
+                    <div class="relative w-[250px] h-[220px] flex items-center justify-center">
+                        <div class="trilemma-shape"></div>
+                        <div class="absolute top-[-20px] text-center">
+                            <span class="text-2xl">🛡️</span>
+                            <p class="font-bold text-accent-1">保护公民健康</p>
+                        </div>
+                        <div class="absolute bottom-[-10px] left-[-20px] text-center">
+                            <span class="text-2xl">🏛️</span>
+                            <p class="font-bold text-accent-2">保护建筑遗产</p>
+                        </div>
+                        <div class="absolute bottom-[-10px] right-[-20px] text-center">
+                            <span class="text-2xl">🌍</span>
+                            <p class="font-bold text-gray-600">实现气候目标</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="py-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">清凉的未来：在三难困境中航行</h2>
+            <div class="max-w-3xl mx-auto text-center text-gray-700 space-y-4">
+                <p>全球空调的故事，是技术、文化、经济和法律相互作用的深刻案例。随着气候变化重塑我们的世界，对空调的文化抵触情绪正在消融，这将倒逼技术创新和法规调整。但无论如何，制冷需求带来的巨大能源挑战，将是未来几十年全球，尤其是欧洲，必须面对的核心议题。</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-8 border-t border-gray-200">
+        <p class="text-gray-500">交互式报告根据“全球空调普及与影响因素”调研生成。</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const chartData = {
+                penetration: {
+                    labels: ['日本', '美国', '韩国', '中国', '墨西哥', '巴西', '印尼', '欧盟', '南非', '印度'],
+                    data: [91, 90, 86, 60, 16, 16, 9, 19, 6, 5],
+                    totalUnits: [150, 375, 60, 570, 16, 30, 12, 100, 3, 30]
+                },
+                costs: {
+                    labels: ['设备', '安装人工', '辅材', '年均电费 (估算)'],
+                    china: [3000, 0, 800, 500],
+                    france: [12000, 9000, 2000, 3500] 
+                },
+                heatwaves: {
+                    labels: ['1980s', '1990s', '2000s', '2010s', '2020s'],
+                    data: [1, 2, 5, 9, 15] 
+                }
+            };
+            
+            Chart.defaults.font.family = "'Noto Sans SC', sans-serif";
+
+            if (document.getElementById('penetrationChart')) {
+                new Chart(document.getElementById('penetrationChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: chartData.penetration.labels,
+                        datasets: [{
+                            label: '家庭普及率 (%)',
+                            data: chartData.penetration.data,
+                            backgroundColor: '#81B29A',
+                            borderColor: '#6a947e',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: '部分国家/地区家庭空调普及率 (%)',
+                                font: { size: 16 }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.x !== null) {
+                                            label += context.parsed.x + '%';
+                                        }
+                                        return label;
+                                    },
+                                    afterLabel: function(context) {
+                                        const units = chartData.penetration.totalUnits[context.dataIndex];
+                                        return `总保有量 (约): ${units} 百万台`;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: '%'
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            if (document.getElementById('costChart')) {
+                 new Chart(document.getElementById('costChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: ['单套系统总成本(元)', '年均电费(元)'],
+                        datasets: [
+                            {
+                                label: '中国 (估算)',
+                                data: [
+                                    chartData.costs.china[0] + chartData.costs.china[1] + chartData.costs.china[2],
+                                    chartData.costs.china[3]
+                                ],
+                                backgroundColor: '#81B29A',
+                            },
+                            {
+                                label: '法国 (估算)',
+                                data: [
+                                    (chartData.costs.france[0] + chartData.costs.france[1] + chartData.costs.france[2]) / 10, // simplified conversion
+                                    chartData.costs.france[3]
+                                ],
+                                backgroundColor: '#E07A5F',
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: '中法空调成本对比 (单位: 人民币元)',
+                                font: { size: 16 }
+                            },
+                             tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.y !== null) {
+                                            label += new Intl.NumberFormat('zh-CN', { style: 'currency', currency: 'CNY' }).format(context.parsed.y);
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: '成本 (元)'
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            if (document.getElementById('heatwaveChart')) {
+                new Chart(document.getElementById('heatwaveChart'), {
+                    type: 'line',
+                    data: {
+                        labels: chartData.heatwaves.labels,
+                        datasets: [{
+                            label: '欧洲十年间主要热浪事件数量 (示意)',
+                            data: chartData.heatwaves.data,
+                            fill: true,
+                            borderColor: '#E07A5F',
+                            backgroundColor: 'rgba(224, 122, 95, 0.2)',
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                             title: {
+                                display: true,
+                                text: '欧洲热浪事件频率增加趋势 (示意图)',
+                                font: { size: 16 }
+                            },
+                            legend: {
+                                display: false,
+                            }
+                        },
+                         scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

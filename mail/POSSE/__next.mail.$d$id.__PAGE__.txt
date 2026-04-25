@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9b5,<h1>POSSE 原则：自有平台发布，全网分发</h1>
+<p>POSSE（自有发布，它处同步）不仅仅是一种发布策略，更是一种确立个人数字主权的宣言。在平台垄断与算法控制日益加剧的今天，它提倡将个人网站作为内容的唯一源头（Source of Truth），将 Twitter、Mastodon 等社交平台视为“佃农”般的分发节点。通过这种方式，创作者能够避免被封号或平台倒闭带来的数据丢失风险，从根本上拒绝做“数字租客”。</p>
+<p>这一策略的核心在于流量与注意力的“归巢”。通过在同步副本中嵌入指向原帖的规范化链接（Permalink），创作者能够利用 SEO 优势将搜索引擎的权重导向个人域名，甚至通过 Webmention 技术将外部平台的互动抓取回自己的博客。这是一种用最原始的链接价值对抗围墙花园的手段，确保无论外部副本如何流浪，数字资产的核心始终稳固地掌握在自己手中。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/POSSE.html" data-title="Swiss Style Wireframe Cards - POSSE" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Style Wireframe Cards - POSSE</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/POSSE.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"POSSE","sender":"DESIGNED WITH AI","subject":"POSSE 原则：自有平台发布，全网分发","snippet":"POSSE（Publish (on your) Own Site, Syndicate Elsewhere）是构建独立网络的核心架构，旨在通过确立个人网站为内容的唯一信源，将社交媒体降级为单纯的分发渠道。这不仅能让我们摆脱算法推荐与平台条款的束缚，确保数据资产的永久主权，还能通过规范化链接将流量与注意力引回个人域名，实","date":"2026-01-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","IndieWeb","数字主权","Web3","POSSE"],"tags":["IndieWeb","数字主权","Web3","POSSE"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/POSSE.md","prompts":[]},"listPosition":{"index":128,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9c8,<h1>德文：让AI实习生成为软件团队的无限力量</h1>
+<p>本期视频由Cognition Labs联合创始人兼CEO Scott Wu带来，他深入讲解了公司AI代理产品Devin（德文）如何“像实习生一样”集成于开发团队，成为高效的工程助手。Scott以丰富案例展示了Devin在实际研发流程中的应用，包括自动化常规开发任务、缩减机械性工作负担、提升团队协作效率等，并探讨了AI与团队成员在流程和心智上的全新协作方式。</p>
+<p>Devin作为Cognition Labs自主研发的AI工程代理，主要面向“初级工程师”角色，即不负责复杂架构设计，但能高效承接明确定义的任务。它不同于传统的AI代码助手，更像一位可委派具体事项、能独立开展工作的团队成员，支持工程师将微任务打包交付、自主跟踪并异步推进，从而让团队将精力集中在更具创造性的核心业务上。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/devin-ai-magazine.html" data-title="德文：让AI实习生成为软件团队的无限力量" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">德文：让AI实习生成为软件团队的无限力量</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/devin-ai-magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"devin-ai-magazine","sender":"Scott Wu","subject":"德文：让AI实习生成为软件团队的无限力量","snippet":"本期内容深入探讨了Cognition Labs推出的AI代理产品Devin（德文），它被定位为软件团队的“无限实习生”。Scott Wu详细阐述了Devin如何通过异步多线程协作和人机混合Debug模式，重新定义AI在软件工程中的角色。文章重点分析了Devin在前端修复、依赖升级及文档生成等五大黄金场景中的应用，强调其","date":"2025-09-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Agent","Software Engineering","Cognition Labs","Developer Tools"],"tags":["AI Agent","Software Engineering","Cognition Labs","Developer Tools"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/devin-ai-magazine.md","prompts":[]},"listPosition":{"index":222,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tae8,<h1>香港文化困局：才子与大师的探讨</h1>
+<p>在香港的文化光谱中，“才子”一词占据着特殊的位置，而“大师”却似乎总是缺席。这种独特的文化现象引发了关于香港文化深度的长期争论。报告指出，“香江四大才子”这一称号实际上是“内地制造”的文化标签，在香港本地并无统一的对应说法。这种标签化的视角，往往简化了香港文化的复杂性，并引向了“香港文化肤浅”的刻板印象。实际上，这种差异根植于香港特有的城市气质与务实精神。</p>
+<p>作家“小西”认为，香港的城市气质决定了其文化繁荣是一种“浅诚”的繁荣。才子们与流行文化紧密结合，精通世俗，追求“活得自在真诚”，体现了城市小市民的智慧与趣味；而大师则需要深沉反思、承担民族苦难，追求的是永恒与形而上。两者在价值取向上存在根本差异，这也解释了为何香港这片务实且商业化的土壤，更容易孕育出深受大众喜爱的“才子”，而非传统意义上苦行僧式的“大师”。通过互动图表对比与蔡澜案例的解构，我们可以更直观地理解这两种文化范式的分野。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/liangwendao-cailan-hk.html" data-title="香港文化困局：才子与大师的探讨" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">香港文化困局：才子与大师的探讨</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/liangwendao-cailan-hk.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"liangwendao-cailan-hk","sender":"Info Cards","subject":"香港文化困局：才子与大师的探讨","snippet":"本文深入探讨了香港独特的文化生态，剖析了“才子”与“大师”两种文化角色的根本差异。通过对比分析，文章揭示了“香江四大才子”这一标签背后的文化误读，以及香港务实商业化土壤为何易于孕育才子而难产大师的深层逻辑，重点解读了蔡澜作为才子代表的处世哲学与文化争议。","date":"2025-07-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","香港文化","蔡澜","文化评论","社会观察"],"tags":["香港文化","蔡澜","文化评论","社会观察"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/liangwendao-cailan-hk.md","prompts":[]},"listPosition":{"index":284,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

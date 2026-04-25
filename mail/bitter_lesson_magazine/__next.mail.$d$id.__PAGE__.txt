@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta2a,<h1>苦涩教训 - Rich Sutton核心解读</h1>
+<p>《The Bitter Lesson》是 AI 权威学者 Rich Sutton 于 2019 年撰写的深刻文章，深刻总结了长达 70 年的 AI 研究历史。文章的核心观点在于，尽管许多研究者倾向于将自身对特定领域的知识注入 AI 系统以期在短期内更快见效，但从长远的发展历程来看，这种做法往往会成为技术演进的障碍。</p>
+<p>Sutton 指出，在 AI 的多个前沿领域，最终脱颖而出的并非依赖人类先验知识的方法，而是那些能够充分利用计算资源（算力）的通用算法与技术。这一现象被称为“苦涩的教训”，因为它迫使我们承认，我们精心设计的领域知识在巨大的算力和通用学习面前显得苍白无力。文章利用国际象棋和围棋等历史案例，详细阐述了基于搜索和学习的通用方法如何随着计算能力的指数级增长（摩尔定律）而碾压基于人类知识的专家系统，从而揭示了通用计算加大规模算力才是长期胜利的根本方程。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/bitter_lesson_magazine.html" data-title="苦涩教训 - Rich Sutton核心解读" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">苦涩教训 - Rich Sutton核心解读</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/bitter_lesson_magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"bitter_lesson_magazine","sender":"Rich Sutton","subject":"苦涩教训 - Rich Sutton核心解读","snippet":"本文深入解读 Rich Sutton 的经典文章《苦涩教训》，总结了过去 70 年人工智能发展的核心经验：从长远来看，利用通用计算能力的方法最终总是会战胜依赖人类特定领域知识的方法。文章通过国际象棋和围棋等历史案例，揭示了摩尔定律推动下的通用算法（如搜索和学习）如何通过规模化算力实现突破，并警示研究者克服利用自身先验知","date":"2025-10-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","Deep Learning","Rich Sutton","AI History"],"tags":["Artificial Intelligence","Deep Learning","Rich Sutton","AI History"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/bitter_lesson_magazine.md","prompts":[]},"listPosition":{"index":183,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9ef,<h1>2026 AI 工程师路线图</h1>
+<p>这张卡片深刻地揭示了 2026 年技术演进的残酷真相：仅仅停留在 GPT 的薄层封装和简单的 API 调用上，不仅是创造力的枯竭，更是商业上的自杀行为。在巨头垄断的基础设施之上构建“玩具”般的应用，注定会在下一次技术更新中失去价值。唯一的出路是拒绝做一名 API 调用者，转而成为系统构建者，向技术深处挖掘，建立属于自己的技术护城河。</p>
+<p>为了在未来的竞争中保持不可替代性，工程师必须跨越简单的提示词工程，掌握能够处理生产级复杂度的自主系统架构。这意味着你需要具备编排复杂工作流的能力，管理长期与短期记忆，并精通本地推理技术以优化成本与性能。卡片中详细拆解的六大战术——从端侧智能的离线优先架构，到具备自我修复能力的代码代理，再到多模态内容流与企业级编排系统——为渴望进化的开发者提供了一条清晰的实战路径。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ai-roadmap-2026.html" data-title="Swiss Wireframe AI Roadmap" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Wireframe AI Roadmap</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ai-roadmap-2026.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-roadmap-2026","sender":"Rohit (@rohit4verse)","subject":"2026 AI 工程师路线图","snippet":"这是一份针对 2026 年 AI 工程师的生存与发展指南。文章犀利地指出了当前市场充斥着薄层封装和 API 依赖的“套壳陷阱”，并指出这种缺乏护城河的舒适区注定被巨头吞噬。真正的出路在于向深处构建，掌握编排、长短期记忆管理及本地推理等核心技术，从简单的提示词工程跨越到生产级自主系统架构。文中不仅提供了宏观的战略思维，更","date":"2026-01-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Engineering","System Architecture","Career Growth"],"tags":["AI Engineering","System Architecture","Career Growth"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ai-roadmap-2026.md","prompts":[]},"listPosition":{"index":108,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

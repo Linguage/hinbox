@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9f7,<h1>Windsurf: AI驱动开发的未来</h1>
+<p>Windsurf 代表了 AI 辅助编程领域的重大范式转移。不同于仅限于代码自动补全的传统 Copilots，Windsurf 旨在成为覆盖整个软件开发生命周期的智能伙伴。通过引入“心智融合”的概念，它致力于解决开发者工作中那些琐碎且耗时的“长尾”任务，从而释放创造力，提升工程效率。本报告基于 VB Transform 2025 的演讲内容，深入探讨了这一下一代 Agentic IDE 的核心逻辑。</p>
+<p>该产品不仅在理念上实现了从“工具”到“队友”的跨越，更在实际数据上展示了惊人的增长潜力——上线仅四个月便吸引了超过 100 万开发者，且在客户代码库中，超过 50% 的代码由 AI 参与编写。文章进一步通过可视化图表和交互式流程，详细解析了 Windsurf 如何在审查、测试和调试环节赋能开发者，并展望了其在企业级应用与组织创新中的广阔前景。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/windsurf-AI-driven-future.html" data-title="Windsurf: AI驱动开发的未来 | 互动报告" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Windsurf: AI驱动开发的未来 | 互动报告</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/windsurf-AI-driven-future.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"windsurf-AI-driven-future","sender":"Varun Mohan","subject":"Windsurf: AI驱动开发的未来","snippet":"本文详细介绍了 Varun Mohan 在 VB Transform 2025 上提出的 AI 驱动开发新范式。报告指出，Windsurf 通过 '心智融合'（Flow）技术，超越了传统的 Copilot 模式，将 AI 的能力从单一编码扩展到审查、测试和调试等 '长尾' 任务，重塑了软件开发的全生命周期。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI IDE","Windsurf","Developer Tools","Flow Technology"],"tags":["AI IDE","Windsurf","Developer Tools","Flow Technology"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/windsurf-AI-driven-future.md","prompts":[]},"listPosition":{"index":264,"total":432},"matchedPerson":{"id":"varun-mohan","name":"Varun Mohan","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

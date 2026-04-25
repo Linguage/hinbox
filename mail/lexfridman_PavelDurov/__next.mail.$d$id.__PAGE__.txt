@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T95a,<h1>自由的代价与创新的坚守：杜罗夫的数字独立之路</h1>
+<p>在数字浪潮席卷全球的当下，信息洪流裹挟着我们前行，算法支配着我们的注意力。然而，在这看似无边无际的"丰饶之地"中，有一位特立独行的思想家和建设者。他以一己之力，铸就了一个亿万级用户赖以交流的堡垒，并持续为人类最珍贵的财富——自由——而战。</p>
+<p>杜罗夫在对话中揭示了"数字独立"的真正代价：这不仅仅是技术上的去中心化，更是一场对内心的修行。他展示了如何通过二十年的极度自律、保持极简的核心团队以及对抗物质主义的贪婪，来维持精神的自由。他的经历证明，真正的创新源于对原则的坚守，而非对外部妥协的产物。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/lexfridman_PavelDurov.html" data-title="自由的代价与创新的坚守：杜罗夫的数字独立之路" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">自由的代价与创新的坚守：杜罗夫的数字独立之路</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/lexfridman_PavelDurov.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"lexfridman_PavelDurov","sender":"Based on Lex Fridman Interview","subject":"自由的代价与创新的坚守：杜罗夫的数字独立之路","snippet":"本文深入探讨了 Telegram 创始人帕维尔·杜罗夫在 Lex Fridman 播客中揭示的数字独立理念。文章详细阐述了他如何通过极度的自律、精简的团队结构以及对自由的坚定信仰，构建了一个拥有十万余台服务器的去中心化通信帝国。杜罗夫分享了关于摆脱物质成瘾、维护数字隐私以及如何在科技巨头垄断下保持独立运作的深刻洞察。","date":"2025-10-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Pavel Durov","Telegram","Digital Independence","Self-Discipline"],"tags":["Pavel Durov","Telegram","Digital Independence","Self-Discipline"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/lexfridman_PavelDurov.md","prompts":[]},"listPosition":{"index":194,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

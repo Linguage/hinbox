@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta46,<h1>刘志军的高铁神话：权力崛起与腐败深渊</h1>
+<p>这篇深度调查报告聚焦于原铁道部部长刘志军的执政生涯，详细记录了他如何利用个人魄力推动中国高铁网络的快速扩张。在他的主导下，中国高铁创造了时速486.1公里的世界纪录，构建了庞大的国家交通动脉，使中国在极短时间内拥有了世界上最大的高铁网络。然而，这种大跃进式的发展并非没有代价，文章揭示了辉煌成就背后所隐含的激进投资策略与日益缺乏监管的权力体系。</p>
+<p>然而，伴随着“高铁神话”的破灭，刘志军个人的腐败问题也随之浮出水面，形成强烈的时代讽刺。报告披露了他通过权力寻租获取的巨额贿赂，以及因盲目扩张所累积的沉重债务负担。从2003年掌权到2011年落马，这短短八年的“黄金时代”最终以政治生命的终结和巨大的经济隐患收场。这不仅是一个个人的悲剧，更是对那个特定时期中国基础设施建设模式的一次深刻反思。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/liu_zhijun_magazine.html" data-title="刘志军的高铁神话：权力崛起与腐败深渊" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">刘志军的高铁神话：权力崛起与腐败深渊</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/liu_zhijun_magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"liu_zhijun_magazine","sender":"Linguista","subject":"刘志军的高铁神话：权力崛起与腐败深渊","snippet":"本文深度回顾了原铁道部部长刘志军的政治生涯，剖析了中国高铁飞速发展的辉煌历程与其背后惊人的权力寻租与腐败深渊。文章通过详实的数据，展示了在他任职期间留下的2万亿巨额债务与6460万受贿金额，揭示了这位“高铁之父”如何从一位立志改变中国交通面貌的改革者，一步步沦为阶下囚的悲剧轨迹。","date":"2025-09-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","深度调查","铁道部","高铁","反腐"],"tags":["深度调查","铁道部","高铁","反腐"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/liu_zhijun_magazine.md","prompts":[]},"listPosition":{"index":219,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta71,<h1>达芬奇的诅咒与祝福：多元潜能者生存指南</h1>
+<p>你是否也曾因兴趣广泛、才华横溢而自豪，却在现实的高度专业化职场中感到迷茫与挫败？这种感觉并不孤单。这正是“达芬奇人格”的典型特征——一种与生俱来的天赋，也是一种与时代错配的挑战。本文将带你回顾达芬奇充满矛盾的职业生涯，剖析“全才”在现代KPI导向体系下的四重痛苦，并提供战略性的自我管理工具，助你在商业世界中安身立命。</p>
+<p>尽管达芬奇留下了无尽的艺术与科学蓝图，但他的一生也是一部与拖延症和完美主义斗争的血泪史。从在佛罗伦萨因屡次拖稿而声名狼藉，到在米兰享受自由却难产众多军事发明，再到晚年因逃避竞争而流亡，他的经历揭示了多元潜能者在专业分工社会中的典型困境。文章不仅对比了他与同时代大师的产出数据，更深刻指出了通才在委托代理关系和职场竞争中的弱势，最终给出了如何将兴趣转化为战略优势的实用建议。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/davinci-style-character.html" data-title="达芬奇的诅咒与祝福：多元潜能者生存指南" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">达芬奇的诅咒与祝福：多元潜能者生存指南</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/davinci-style-character.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"davinci-style-character","sender":"Linguista","subject":"达芬奇的诅咒与祝福：多元潜能者生存指南","snippet":"这是一份写给“什么都知道，却一事无成”的多元潜能者的生存指南。文章回顾了达芬奇在佛罗伦萨、米兰及晚年的职业生涯，分析了他作为全才在专业化社会中的困境与挣扎。通过数据图表展示了其“高概念、低产出”的创作模式，并总结了当代多元潜能者在职场定位、价值评估及心理建设上面临的四重痛苦，提出了利用波士顿矩阵管理天赋的破局之道。","date":"2025-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","达芬奇","多元潜能者","职业规划","自我管理"],"tags":["达芬奇","多元潜能者","职业规划","自我管理"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/davinci-style-character.md","prompts":[]},"listPosition":{"index":314,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

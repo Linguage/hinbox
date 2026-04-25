@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8dc,<h1>DHH 论 AI 智能体</h1>
+<p>DHH 在 2026 年初提出了对 AI 辅助编程的深刻反思。他认为传统的“自动补全”和过于热情的结对编程往往会打断开发者的心流。真正的变革不在于字符的预测，而在于赋予 AI 终端控制权，使其成为能够独立执行测试、检索文档和编写代码的数字团队成员。</p>
+<p>这张信息图表详细阐述了从“交互重构”到“终端解放”的六大战术。随着 2026 年模型（如 Opus 4.5）能力的质变，AI 已从辅助工具进化为可独立工作的智能体。这不仅改变了编程的方式，更重新定义了开发者的角色——不再纠结于细节的实现，而是专注于最终的成果验收与方向指引。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/dhh-ai-agent.html" data-title="Swiss Wireframe Infographic - DHH AI Agents" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Wireframe Infographic - DHH AI Agents</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/dhh-ai-agent.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"dhh-ai-agent","sender":"David Heinemeier Hansson","subject":"DHH 论 AI 智能体","snippet":"David Heinemeier Hansson (DHH) 探讨了 2026 年 AI 交互模式的范式转移。从“抢夺键盘”的结对编程，转向“异步交付”的智能体协作。通过赋予 AI 终端控制权，开发者角色将从代码编写者晋升为数字团队的管理者，专注于成果验收与战略规划。","date":"2026-01-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Agents","DHH","Workflow","Programming"],"tags":["AI Agents","DHH","Workflow","Programming"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/dhh-ai-agent.md","prompts":[]},"listPosition":{"index":114,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

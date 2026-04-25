@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta18,<h1>格非：节制欲望需要大智慧</h1>
+<p>中国社会正经历着从乡村向城市的剧烈转型，这不仅是地理空间的迁移，更是文化、价值观与生活方式的深刻裂变。在这个充满不确定性的时代洪流中，我们每个人都在被动地适应着快速变迁的外部环境，面临着价值冲突与新旧观念混杂的挑战。文章首先带领我们审视这种宏观的社会背景，指出现代生活的焦虑往往源于我们与过往传统的断裂，以及在快节奏的都市生活中对“安稳感”的缺失。</p>
+<p>然而，外部世界的动荡并不意味着内心必须随之起伏。格非的智慧在于教导我们在喧嚣中通过文学与思考寻找安身立命之本。通过辨析“伟大的文学”与“通俗文学”的区别，我们得以窥见超越日常琐碎的精神向度；通过理解压力与能力的辩证关系，我们学会了节制欲望并非消极避世，而是一种需要大智慧支撑的积极人生态度。这种内求诸己的安宁，才是应对无常生活的终极力量。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/gefei-2019.html" data-title="格非：节制欲望需要大智慧" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">格非：节制欲望需要大智慧</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/gefei-2019.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"gefei-2019","sender":"Linguista","subject":"格非：节制欲望需要大智慧","snippet":"本文是对格非关于时代转型、内心安顿、文学价值及生活智慧哲学的深度解读。通过对比乡村与城市的剧烈变迁，文章探讨了在不确定的时代洪流中如何寻找内心的平衡，区分了伟大文学与通俗文学的差异，并揭示了大智慧对于节制欲望、应对生活压力的关键作用，引导读者思考如何在世界中诗意地栖居。","date":"2025-07-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","格非","哲学思考","时代转型","文学评论","生活智慧"],"tags":["格非","哲学思考","时代转型","文学评论","生活智慧"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/gefei-2019.md","prompts":[]},"listPosition":{"index":304,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T98e,<h1>黄仁勋对话Transformer八子</h1>
+<p>在2024年的GTC大会上，英伟达创始人黄仁勋与缔造了现代AI基石的Transformer模型八位作者进行了一场深度对话。这次对话不仅回顾了十年前那篇改变世界的论文《Attention Is All You Need》的诞生历程，更揭示了当时团队如何打破循环神经网络（RNN）的效率桎梏，通过纯粹的自注意力机制实现了计算规模的大爆发。</p>
+<p>除了回顾历史，这场对话还重点聚焦于“Transformer八子”离开谷歌后的多元探索。从致力于将大模型装进手机的创业尝试，到探索超越Transformer的新型神经网络架构，八位先锋正试图在数据效率、推理能力和算力优化等维度定义AI的下一个前沿。本页面通过交互式卡片、动态内容展示及雷达图可视化，将这场关于过去与未来的探索之旅进行了结构化呈现。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/jensen-huang-Transformer8.html" data-title="黄仁勋对话Transformer八子" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">黄仁勋对话Transformer八子</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/jensen-huang-Transformer8.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"jensen-huang-Transformer8","sender":"Info Cards","subject":"黄仁勋对话Transformer八子","snippet":"本文记录了英伟达CEO黄仁勋在GTC 2024大会上与Transformer论文八位作者的史诗级对话。文章深入探讨了该架构如何通过自注意力机制解决并行计算瓶颈，八位作者离开谷歌后的创业历程，以及他们对未来AI发展的多维展望，涵盖推理、数据效率及新架构形态。","date":"2025-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","人工智能","Transformer","深度学习","科技访谈"],"tags":["人工智能","Transformer","深度学习","科技访谈"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/jensen-huang-Transformer8.md","prompts":[]},"listPosition":{"index":317,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

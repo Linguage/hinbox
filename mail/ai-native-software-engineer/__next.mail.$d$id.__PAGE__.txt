@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9e2,<h1>AI原生软件工程师指南</h1>
+<p>AI原生软件工程师代表了一种全新的职业范式，其核心在于将AI深度融入日常工作流程，将其视为能够放大自身能力的合作伙伴。这种转变超越了单纯的技术升级，本质上是一场关于“如何构建软件”的思维革命。在这个新时代，工程师不再仅仅依赖直觉和经验编写代码，而是学会向AI智能体提出正确的问题，并有效地管理和验证其输出。</p>
+<p>这一角色演变的基础在于两大核心原则：首先是认知的转变，即将AI视为一位知识渊博但经验尚浅的结对编程伙伴，遵循“信任但验证”的策略；其次是职能的升维，工程师从单纯的代码编写者转变为工作的分配者和监督者。通过这种协作模式，生产力可实现2至10倍的显著提升，同时将工作重心转移至更具创造性的架构设计与决策制定，重新定义了软件工程的价值边界。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ai-native-software-engineer.html" data-title="AI原生软件工程师：交互式指南" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">AI原生软件工程师：交互式指南</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ai-native-software-engineer.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-native-software-engineer","sender":"Info Cards","subject":"AI原生软件工程师指南","snippet":"AI原生软件工程师不仅是一个技术角色，更代表了一种思维方式的深刻变革。通过将AI视为协作者而非简单的替代品，工程师能够将自身从代码执行者转变为流程管理者，从而实现生产力的指数级提升。本指南深入探讨了这一角色转变的核心原则，揭示了如何在人机协作中保持主导地位，并有效验证AI产出。文章还通过可视化图表直观展示了AI带来的2","date":"2025-07-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Engineering","Software Development","Productivity","Future of Work"],"tags":["AI Engineering","Software Development","Productivity","Future of Work"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ai-native-software-engineer.md","prompts":[]},"listPosition":{"index":273,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

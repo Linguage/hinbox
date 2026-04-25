@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9e3,<h1>扩散语言模型解析</h1>
+<p>传统的语言模型多采用自回归方式逐字生成，而扩散语言模型提出了一种全新的范式，即通过从噪音中逐步恢复有序信息来构建文本。本报告深入探讨了这一领域的核心技术，揭示了其如何摆脱传统生成模式的顺序依赖，从而在推理效率和生成多样性上寻求突破。我们将通过交互式的方式，剖析其从噪声到清晰文本的去噪机制，以及它如何处理文本生成中的不确定性。</p>
+<p>文章重点比较了扩散模型与传统自回归模型在架构设计上的根本差异。通过直观的动画演示，我们可以看到模型如何在每一步迭代中 refine 预测结果，而非一次性生成定局。这种机制不仅让生成过程更加可控，也为了解模型内部决策过程提供了窗口。此外，我们还探讨了通过增加迭代步数来提升生成质量的代价，以及在实际应用中如何平衡计算资源与输出效果。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/zed-diffustion-model.html" data-title="交互式报告：扩散语言模型" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式报告：扩散语言模型</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/zed-diffustion-model.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"zed-diffustion-model","sender":"Linguista","subject":"扩散语言模型解析","snippet":"本文深入探讨了扩散语言模型这一文本生成的新范式。文章通过交互式图表和对比分析，阐述了非自回归模型如何通过迭代去噪过程生成文本，并重点分析了模型在生成质量与推理速度之间的关键权衡，以及其在文本生成领域的独特优势与潜在挑战。","date":"2025-07-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","扩散模型","自然语言处理","非自回归","深度学习"],"tags":["扩散模型","自然语言处理","非自回归","深度学习"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/zed-diffustion-model.md","prompts":[]},"listPosition":{"index":277,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

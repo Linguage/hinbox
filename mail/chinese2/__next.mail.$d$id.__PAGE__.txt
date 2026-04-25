@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8b6,<h1>王朝的烙印——汉人及其变体的固化</h1>
+<p>“汉人”这一称谓不仅是对一个历史朝代的追忆，更是中华民族身份认同的核心符号。本文深入剖析了这一概念是如何跨越两千年的历史长河，从最初的政治隶属关系，逐渐内化为一种稳固的文化基因与血脉记忆。</p>
+<p>通过从汉朝、南北朝、唐朝直至近现代的时间线梳理，我们可以清晰地看到“汉人”、“唐人”及“华人”等称谓的更迭与演变。这不仅仅是名称的变换，更反映了中国历史上独特的政治与文化交融机制，即王朝的烙印如何深刻地影响了族群身份的形成与固化。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/chinese2.html" data-title="王朝的烙印——&lt;汉人&gt;及其变体的固化" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">王朝的烙印——&lt;汉人&gt;及其变体的固化</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/chinese2.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"chinese2","sender":"Linguista","subject":"王朝的烙印——汉人及其变体的固化","snippet":"本文探讨了“汉人”这一称谓如何从汉朝的政治身份演变为现代的文化符号。文章通过梳理从汉朝建立到“唐人”、“华人”等称谓的历史变迁，揭示了王朝兴衰如何深刻地塑造了中华民族的身份认同与文化基因，展现了中国历史中政治实体向文化共同体转化的独特路径。","date":"2025-09-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","历史演变","民族认同","文化传承"],"tags":["历史演变","民族认同","文化传承"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/chinese2.md","prompts":[]},"listPosition":{"index":225,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

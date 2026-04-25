@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T93a,<h1>Yann LeCun：自监督学习世界模型与AI未来</h1>
+<p>Yann LeCun 在哈佛 CMSA 的讲座中深刻剖析了当前人工智能技术面临的根本性挑战。他明确指出，尽管大语言模型（LLM）在文本生成上取得了巨大成功，但它们并非通往通用人工智能（AGI）的终极方案，因为 AI 系统目前距离人类甚至动物的认知与推理能力仍有巨大差距。</p>
+<p>为了突破这一瓶颈，LeCun 提出了基于自监督学习（Self-Supervised Learning）和“世界模型”的下一代 AI 架构。他详细介绍了联合嵌入预测架构（JEPA），这是一种旨在让机器通过学习世界如何运作的抽象表征来预测未来状态的方法，从而赋予 AI 系统类似人类的常识、推理能力和规划能力。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/yann_lecun_jepa_harvard_2025.html" data-title="Yann LeCun：自监督学习世界模型与AI未来" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Yann LeCun：自监督学习世界模型与AI未来</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/yann_lecun_jepa_harvard_2025.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"yann_lecun_jepa_harvard_2025","sender":"Yann LeCun","subject":"Yann LeCun：自监督学习世界模型与AI未来","snippet":"Yann LeCun在哈佛CMSA的讲座深入剖析了当前AI技术的局限，指出大语言模型（LLM）并非通往通用人工智能（AGI）的终极路径。他提出自监督学习、JEPA架构和世界模型是实现类人认知与推理能力的关键，通过模拟人类与物理世界的交互方式，AI才能真正理解现实并具备常识推理。","date":"2025-10-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Deep Learning","World Models","JEPA","Self-Supervised Learning"],"tags":["Deep Learning","World Models","JEPA","Self-Supervised Learning"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/yann_lecun_jepa_harvard_2025.md","prompts":[]},"listPosition":{"index":189,"total":432},"matchedPerson":{"id":"yann-lecun","name":"Yann LeCun","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

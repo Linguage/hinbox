@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Code: AI编程的未来之路</title>
+<!-- Injected: Open Graph / Twitter -->
+<meta property="og:title" content="Cloud Code: AI编程的未来之路">
+<meta property="og:url" content="https://linguage.github.io/articles/claudecode-and-the-future-of-ai-coding.html">
+<meta property="og:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@linguista2025">
+<meta name="twitter:creator" content="@linguista2025">
+<meta name="twitter:title" content="Cloud Code: AI编程的未来之路">
+<meta name="twitter:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<link rel="canonical" href="https://linguage.github.io/articles/claudecode-and-the-future-of-ai-coding.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Calm Harmony -->
+    <!-- Application Structure Plan: The application is structured thematically to guide the user on a journey of discovery. It starts with the "Evolution" of programming to set the context, explains the "Why" behind Cloud Code's terminal interface, teaches the "How" with an interactive 3-step guide, offers practical "Prompting" tips in a card format, visualizes the "Boundaries" of AI with a chart, and concludes with the "Revolution" analogy. This non-linear, thematic structure with a top navigation bar allows for both guided and self-directed exploration, making complex concepts more digestible and engaging than a linear report. -->
+    <!-- Visualization & Content Choices: 
+        - Report Info: Evolution of editors (2000-2025). Goal: Show change. Viz: Interactive HTML timeline. Interaction: Click on year to reveal details. Justification: More engaging than a list. Library: Vanilla JS.
+        - Report Info: "谋、定、动" framework. Goal: Organize a process. Viz: Interactive 3-step diagram. Interaction: Click on a step to see its description. Justification: Clearly illustrates the workflow. Library: Vanilla JS.
+        - Report Info: AI Boundaries (Model, Tool, Human). Goal: Compare components of a whole. Viz: Doughnut Chart. Interaction: Hover over segments to display details. Justification: Visually represents the composition of the AI programming ecosystem. Library: Chart.js.
+        - Report Info: Prompting tips. Goal: Inform. Viz: Card layout. Interaction: Static display for clarity. Justification: Presents distinct tips in a clean, organized manner. Library: N/A.
+        - Report Info: Film to digital analogy. Goal: Compare concepts. Viz: Side-by-side text columns. Interaction: Static display. Justification: Direct comparison enhances understanding of the paradigm shift. Library: N/A.
+        - CONFIRMATION: NO SVG graphics used. NO Mermaid JS used.
+    -->
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #f4f4f5; /* stone-100 */
+            color: #27272a; /* zinc-800 */
+        }
+        .nav-link {
+            transition: color 0.3s, border-bottom-color 0.3s;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #a16207; /* yellow-700 */
+            border-bottom-color: #a16207;
+        }
+        .timeline-item.active .timeline-dot {
+            background-color: #a16207; /* yellow-700 */
+        }
+        .timeline-item.active .timeline-content h3 {
+            color: #a16207; /* yellow-700 */
+        }
+        .step-card.active {
+            border-color: #a16207; /* yellow-700 */
+            background-color: #fefce8; /* yellow-50 */
+        }
+        .step-card.active h3 {
+             color: #a16207; /* yellow-700 */
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 350px;
+            width: 100%;
+            max-width: 350px;
+        }
+        section {
+            scroll-margin-top: 80px;
+        }
+    </style>
+
+<!-- Injected: GA4 (only in top window, avoid iframe double counting) -->
+<script>
+  (function () {
+    if (window.top !== window.self) return; // skip when embedded as iframe
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-99PGBGJH4S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-99PGBGJH4S');
+  })();
+</script>
+</head>
+<body class="antialiased">
+
+    <header class="bg-stone-100/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-yellow-800">Cloud Code 探索</h1>
+            <div class="hidden md:flex space-x-8">
+                <a href="#evolution" class="nav-link font-medium border-b-2 border-transparent">演进之路</a>
+                <a href="#why" class="nav-link font-medium border-b-2 border-transparent">为何是终端</a>
+                <a href="#how" class="nav-link font-medium border-b-2 border-transparent">使用法则</a>
+                <a href="#prompts" class="nav-link font-medium border-b-2 border-transparent">提示词魔法</a>
+                <a href="#boundaries" class="nav-link font-medium border-b-2 border-transparent">AI的边界</a>
+                <a href="#revolution" class="nav-link font-medium border-b-2 border-transparent">编程的变革</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col space-y-2">
+            <a href="#evolution" class="nav-link font-medium block">演进之路</a>
+            <a href="#why" class="nav-link font-medium block">为何是终端</a>
+            <a href="#how" class="nav-link font-medium block">使用法则</a>
+            <a href="#prompts" class="nav-link font-medium block">提示词魔法</a>
+            <a href="#boundaries" class="nav-link font-medium block">AI的边界</a>
+            <a href="#revolution" class="nav-link font-medium block">编程的变革</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <section id="hero" class="text-center mb-24">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-yellow-800">Cloud Code: AI 编程的未来之路</h2>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-stone-600">
+                一份深入的体验报告，解析为何一个看似原始的“黑框”工具，正成为最强大的 AI 编程伙伴，并引领我们进入编程的“数码时代”。
+            </p>
+        </section>
+
+        <section id="evolution" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-2">编程编辑器的进化</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-2xl mx-auto">从手动敲击到 AI 协作，编程工具经历了翻天覆地的变化。点击下方时间轴上的年份，探索每个阶段的核心特征，感受这场技术演进的浪潮。</p>
+            <div class="relative">
+                <div class="border-l-4 border-stone-300 absolute h-full top-0 left-1/2 -ml-0.5"></div>
+                <div id="timeline-container" class="space-y-12">
+                </div>
+            </div>
+        </section>
+
+        <section id="why" class="mb-24 bg-white p-8 md:p-12 rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold text-center mb-2">为何 Cloud Code 选择「黑框」终端？</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-3xl mx-auto">当所有工具都在追求华丽的图形界面时，Cloud Code 却反其道而行之，选择了最朴素的命令行。这并非倒退，而是基于深刻洞察的战略选择，旨在挣脱 UI 的枷锁，释放 AI 的全部潜能。</p>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div class="text-5xl mb-4 text-yellow-700">🕊️</div>
+                    <h3 class="text-xl font-semibold mb-2">最大自由度</h3>
+                    <p class="text-stone-600">AI 可以直接调用一切系统级能力，不受任何 UI 框架的限制，执行最复杂、最底层的任务。</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-5xl mb-4 text-yellow-700">🧠</div>
+                    <h3 class="text-xl font-semibold mb-2">最小认知负担</h3>
+                    <p class="text-stone-600">用户只需专注于用自然语言描述“我想要什么”，而无需学习任何复杂的界面和操作逻辑。</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-5xl mb-4 text-yellow-700">⚙️</div>
+                    <h3 class="text-xl font-semibold mb-2">天然契合工具链</h3>
+                    <p class="text-stone-600">所有的开发者工具本质上都是命令行的，终端能够与现有工作流无缝集成，浑然天成。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-2">高效使用法则：「谋、定、动」三字诀</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-3xl mx-auto">要真正发挥 AI 的威力，不能只是简单地提问。这套“谋、定、动”三步法，是一个经过实战检验的系统性策略，能将你与 AI 的协作效率提升数倍。点击每个步骤，查看详细的操作心法。</p>
+            <div class="flex flex-col md:flex-row justify-center items-start gap-4">
+                <div id="step-cards" class="w-full md:w-1/3 flex md:flex-col gap-4">
+                    <div id="step-谋" class="step-card w-full p-6 border-2 border-stone-200 rounded-lg cursor-pointer transition-all duration-300">
+                        <h3 class="text-2xl font-bold">1. 谋 (规划)</h3>
+                        <p class="text-stone-500 mt-1">把需求聊透，系统化。</p>
+                    </div>
+                    <div id="step-定" class="step-card w-full p-6 border-2 border-stone-200 rounded-lg cursor-pointer transition-all duration-300">
+                        <h3 class="text-2xl font-bold">2. 定 (决定)</h3>
+                        <p class="text-stone-500 mt-1">规划清晰路径，拆分任务。</p>
+                    </div>
+                    <div id="step-动" class="step-card w-full p-6 border-2 border-stone-200 rounded-lg cursor-pointer transition-all duration-300">
+                        <h3 class="text-2xl font-bold">3. 动 (行动)</h3>
+                        <p class="text-stone-500 mt-1">一旦清晰，快速执行。</p>
+                    </div>
+                </div>
+                <div id="step-details" class="w-full md:w-2/3 bg-white p-8 rounded-2xl shadow-lg min-h-[300px]">
+                </div>
+            </div>
+        </section>
+
+        <section id="prompts" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-2">提示词魔法</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-2xl mx-auto">与聪明的 AI 沟通，复杂的框架有时反而是束缚。关键在于“把话说明白”。以下是几个简单却极其有效的提示词技巧，能让你的 AI 瞬间“开窍”。</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">魔法咒语: "Think Harder"</h3>
+                    <p class="text-stone-600">当你感觉 AI 回答草率时，一句“你给我好好想想”会触发其深度思考模式，答案质量显著提升。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">链式思考</h3>
+                    <p class="text-stone-600">面对复杂问题，让 AI 先“尝试拆解一下”，它会像人一样，将大任务分解为小步骤，思路更清晰，不易出错。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">正面表达</h3>
+                    <p class="text-stone-600">多说“要做什么”，少说“不要做什么”。明确的指令比模糊的禁令更有效，能更好地引导 AI 的行为。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">明确生产标准</h3>
+                    <p class="text-stone-600">若需要生产级代码，请提前告知标准，如“代码要健壮、可维护、可扩展”，能有效降低 AI“投机取巧”的概率。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">长文本优化</h3>
+                    <p class="text-stone-600">处理长文本（如错误日志）时，遵循“内容在前，指令在后”的原则。AI 对结尾的指令更敏感。</p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2 text-yellow-800">Token 优势</h3>
+                    <p class="text-stone-600">Cloud Code 的一大杀手锏是其慷慨的 Token 供给，作者一天能“烧掉”价值200美元的量，成本优势巨大。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="boundaries" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-2">AI 编程的边界</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-3xl mx-auto">AI 并非万能，它的能力边界由三个核心要素共同决定。理解这个框架，可以帮助我们更理性地看待 AI、更高效地与之协作。将鼠标悬停在图表的每个部分上，以了解其作用。</p>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="w-full lg:w-1/2">
+                    <div class="chart-container">
+                        <canvas id="boundariesChart"></canvas>
+                    </div>
+                </div>
+                <div id="boundary-details" class="w-full lg:w-1/2 text-lg p-6 bg-white rounded-xl shadow-lg min-h-[350px] flex items-center justify-center">
+                    <p class="text-stone-500 text-center">将鼠标悬停在图表上查看详情</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="revolution" class="mb-24">
+            <h2 class="text-3xl font-bold text-center mb-2">编程的变革：从“胶卷”到“数码”</h2>
+            <p class="text-center text-stone-600 mb-12 max-w-3xl mx-auto">作者在一次 Cloud Code 当机后，深刻体会到编程范式的转变。我们正经历一场类似摄影从胶卷到数码的革命，创作方式、思考路径和核心技能都在被重新定义。</p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-stone-800 text-white p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-300">📷 胶卷时代 (传统编程)</h3>
+                    <ul class="space-y-2 list-disc list-inside text-stone-300">
+                        <li>每行代码都需深思熟虑。</li>
+                        <li>Bug 修复依赖经验和直觉。</li>
+                        <li>底层原理必须烂熟于心。</li>
+                        <li>创作成本高，试错机会少。</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-800">📱 数码时代 (AI 编程)</h3>
+                    <ul class="space-y-2 list-disc list-inside text-stone-600">
+                        <li>AI 快速生成多版本方案。</li>
+                        <li>快速验证、快速迭代成为常态。</li>
+                        <li>核心能力转为识别好坏、需求定义。</li>
+                        <li>提示词工程成为基础技能。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-200 text-center py-6">
+        <p class="text-stone-600">交互式报告根据“海拉鲁编程客”的分享内容生成。</p>
+    </footer>
+
+    <script>
+        const timelineData = [
+            { year: "2000s", title: "手动编码时代", text: "程序员主要依靠手动编写代码，辅以简单的代码片段补全功能。复制粘贴是常态。" },
+            { year: "2018", title: "整行补全出现", text: "基于 GPT-2 的 TabNine 诞生，能够补全整行代码，并初步理解开发者意图，是一次巨大突破。" },
+            { year: "2022", title: "ChatGPT 引爆", text: "ChatGPT 的发布引爆了整个科技界，其强大的自然语言处理和代码生成能力改变了游戏规则。" },
+            { year: "2023", title: "GPT-4 的震撼", text: "GPT-4 发布，代码能力大幅增强，在许多场景下生成的代码质量甚至超越了中级程序员。 “代码搬运工”模式开始盛行。" },
+            { year: "2024", title: "AI 入驻编辑器", text: "AI 作为助手被深度集成到编辑器中，实现了随时随地的聊天式编程，无需再来回切换窗口和复制粘贴。" },
+            { year: "2025", title: "智能体编程伙伴", text: "AI 编程工具进入“神仙打架”阶段。它们能理解整个项目，拆解复杂任务，成为真正的“编程伙伴”。" }
+        ];
+
+        const stepDetailsData = {
+            '谋': {
+                title: '谋 (规划): 把需求聊透',
+                points: [
+                    '切换到最强模型 (如OPUS) 处理复杂需求。',
+                    '与 AI 反复沟通，用对话理清自己的思路，并让 AI 完全理解意图。',
+                    '让 AI 完整复述一遍需求，确保双方理解完全一致。',
+                    '通过沟通发现逻辑漏洞，可将返工率降低80%。'
+                ]
+            },
+            '定': {
+                title: '定 (决定): 拆分任务',
+                points: [
+                    '需求聊透后，让 AI 将其拆分为具体的执行步骤。',
+                    '要求 AI 输出一份执行计划，例如一个清晰的流程图或任务列表。',
+                    '在计划中，明确哪些任务可以并行处理，以提高效率。',
+                    '这一步是连接模糊需求和具体行动的关键桥梁。'
+                ]
+            },
+            '动': {
+                title: '动 (行动): 快速执行',
+                points: [
+                    '计划一旦确定，就让 AI 进入“狂飙模式”，速度拉满。',
+                    '相信版本控制 (Git) 会为你兜底，大胆尝试。',
+                    '若执行出错，可按 ESC 中断，或通过微调指令进行纠偏。',
+                    '适时使用 `clear_memory` 清除上下文，避免 AI 变得“糊涂”。'
+                ]
+            }
+        };
+
+        const boundaryData = {
+            labels: ['大模型 (能力天花板)', '工程工具 (交互外壳)', '人 (定义与把关)'],
+            datasets: [{
+                label: 'AI 编程的边界',
+                data: [33.3, 33.3, 33.4],
+                backgroundColor: ['#fde047', '#facc15', '#eab308'],
+                borderColor: '#f4f4f5',
+                hoverOffset: 4
+            }]
+        };
+
+        const boundaryDetailsData = [
+            { title: '大模型：决定能力天花板', text: 'AI 的核心能力上限由底层大模型（如 GPT-4, Claude 3 Opus）决定。就像赛车手无法让家用车跑出 F1 的速度一样，顶级的模型决定了 AI 能写出代码的复杂度和创新性。' },
+            { title: '工程工具：优化交互的外壳', text: 'Cloud Code, Copilot 等工具是模型的“套壳”。它们的作用是优化交互体验、管理上下文、集成到开发流程中。工具再好，也无法突破模型的硬性限制。' },
+            { title: '人（工程师）：扮演关键角色', text: '人是最终的定义者（描述需求）、把关者（审核质量）和创新者（处理 AI 未训练过的新问题）。人的专业程度，决定了最终产出的专业水准。' }
+        ];
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const timelineContainer = document.getElementById('timeline-container');
+            timelineData.forEach((item, index) => {
+                const isLeft = index % 2 === 0;
+                const alignmentClass = isLeft ? 'md:items-end' : 'md:items-start';
+                const textAlignmentClass = isLeft ? 'md:text-right' : 'md:text-left';
+                const timelineItem = document.createElement('div');
+                timelineItem.className = `timeline-item relative flex flex-col ${alignmentClass}`;
+                timelineItem.innerHTML = `
+                    <div class="md:w-1/2 ${isLeft ? 'md:pr-8' : 'md:pl-8'}">
+                        <div data-year="${item.year}" class="timeline-content bg-white p-6 rounded-lg shadow-lg cursor-pointer transition-transform duration-300 hover:scale-105">
+                            <h3 class="font-bold text-xl mb-1">${item.year} - ${item.title}</h3>
+                            <p class="text-stone-600 hidden">${item.text}</p>
+                        </div>
+                    </div>
+                    <div class="timeline-dot absolute bg-stone-300 w-4 h-4 rounded-full mt-7 -ml-2 top-0 left-1/2"></div>
+                `;
+                timelineContainer.appendChild(timelineItem);
+            });
+
+            const timelineItems = document.querySelectorAll('.timeline-content');
+            timelineItems.forEach((item, index) => {
+                item.addEventListener('click', () => {
+                    timelineItems.forEach(el => {
+                        el.parentElement.parentElement.classList.remove('active');
+                        el.querySelector('p').classList.add('hidden');
+                    });
+                    item.parentElement.parentElement.classList.add('active');
+                    item.querySelector('p').classList.remove('hidden');
+                });
+                if(index === timelineData.length - 1) {
+                    item.click();
+                }
+            });
+
+            const stepCards = document.querySelectorAll('.step-card');
+            const stepDetailsContainer = document.getElementById('step-details');
+
+            function updateStepDetails(stepId) {
+                const detail = stepDetailsData[stepId];
+                if (!detail) return;
+
+                stepDetailsContainer.innerHTML = `
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-800">${detail.title}</h3>
+                    <ul class="space-y-3 list-disc list-inside text-stone-700">
+                        ${detail.points.map(p => `<li>${p}</li>`).join('')}
+                    </ul>
+                `;
+            }
+            
+            stepCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    stepCards.forEach(c => c.classList.remove('active'));
+                    card.classList.add('active');
+                    const stepId = card.id.split('-')[1];
+                    updateStepDetails(stepId);
+                });
+            });
+
+            document.getElementById('step-谋').click();
+            
+            const boundaryDetails = document.getElementById('boundary-details');
+            const boundariesChartCtx = document.getElementById('boundariesChart').getContext('2d');
+            const boundariesChart = new Chart(boundariesChartCtx, {
+                type: 'doughnut',
+                data: boundaryData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                             labels: {
+                                font: {
+                                    size: 14,
+                                    family: "'Noto Sans SC', sans-serif"
+                                }
+                            }
+                        },
+                        tooltip: {
+                            enabled: false
+                        }
+                    },
+                    onHover: (event, chartElement) => {
+                        if (chartElement.length) {
+                            const index = chartElement[0].index;
+                            const detail = boundaryDetailsData[index];
+                            boundaryDetails.innerHTML = `
+                                <div class="text-center">
+                                  <h3 class="font-bold text-xl mb-2 text-yellow-800">${detail.title}</h3>
+                                  <p class="text-stone-600">${detail.text}</p>
+                                </div>`;
+                        } else {
+                             boundaryDetails.innerHTML = `<p class="text-stone-500 text-center">将鼠标悬停在图表上查看详情</p>`;
+                        }
+                    }
+                }
+            });
+
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('section');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href').substring(1) === entry.target.id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            sections.forEach(section => {
+                if(section.id) observer.observe(section);
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    if(mobileMenu.offsetParent !== null){
+                         mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

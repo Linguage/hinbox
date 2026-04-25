@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>中美普通人七大恨对比可视化</title>
+<!-- Injected: Open Graph / Twitter -->
+<meta property="og:title" content="中美普通人七大恨对比可视化">
+<meta property="og:url" content="https://linguage.github.io/articles/visual-article-chinese-people-seven-hate.html">
+<meta property="og:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@linguista2025">
+<meta name="twitter:creator" content="@linguista2025">
+<meta name="twitter:title" content="中美普通人七大恨对比可视化">
+<meta name="twitter:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<link rel="canonical" href="https://linguage.github.io/articles/visual-article-chinese-people-seven-hate.html">
+
+        <style>
+            :root {
+                --primary-bg: #f8f9fa;
+                --secondary-bg: #ffffff;
+                --text-primary: #2c3e50;
+                --text-secondary: #6c757d;
+                --border-color: #e9ecef;
+                --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+                --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+
+                --china-primary: #d62d20;
+                --china-secondary: #ffd700;
+                --china-light: #ffebee;
+                --china-accent: #f44336;
+
+                --usa-primary: #0a3161;
+                --usa-secondary: #b31942;
+                --usa-light: #e3f2fd;
+                --usa-accent: #1976d2;
+
+                --common-color: #2e7d32;
+                --difference-color: #ed6c02;
+                --neutral-light: #f8f9fa;
+                --neutral-dark: #495057;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    "Microsoft YaHei",
+                    "Segoe UI",
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    sans-serif;
+                line-height: 1.6;
+                background: var(--primary-bg);
+                color: var(--text-primary);
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            header {
+                text-align: center;
+                margin-bottom: 40px;
+                padding: 40px 0;
+                background: linear-gradient(
+                    135deg,
+                    var(--china-primary) 0%,
+                    var(--china-secondary) 100%
+                );
+                color: white;
+                border-radius: 12px;
+                box-shadow: var(--shadow);
+            }
+
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 12px;
+                font-weight: 600;
+                letter-spacing: -0.5px;
+            }
+
+            .subtitle {
+                font-size: 1.1em;
+                opacity: 0.95;
+                font-weight: 300;
+            }
+
+            .section {
+                margin-bottom: 40px;
+                padding: 30px;
+                border-radius: 12px;
+                background: var(--secondary-bg);
+                box-shadow: var(--shadow);
+                border: 1px solid var(--border-color);
+            }
+
+            .china-section {
+                background: linear-gradient(
+                    135deg,
+                    var(--china-light) 0%,
+                    #ffffff 100%
+                );
+                border-left: 4px solid var(--china-primary);
+            }
+
+            .usa-section {
+                background: linear-gradient(
+                    135deg,
+                    var(--usa-light) 0%,
+                    #ffffff 100%
+                );
+                border-left: 4px solid var(--usa-primary);
+            }
+
+            .comparison-section {
+                background: var(--secondary-bg);
+                border: 1px solid var(--border-color);
+            }
+
+            .section-title {
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 1.8em;
+                font-weight: 600;
+                color: var(--text-primary);
+                padding-bottom: 15px;
+                border-bottom: 2px solid var(--border-color);
+            }
+
+            .hates-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 24px;
+                margin-bottom: 30px;
+            }
+
+            .hate-card {
+                background: var(--secondary-bg);
+                padding: 24px;
+                border-radius: 12px;
+                box-shadow: var(--shadow);
+                transition: all 0.3s ease;
+                cursor: pointer;
+                border: 1px solid var(--border-color);
+            }
+
+            .hate-card:hover {
+                transform: translateY(-4px);
+                box-shadow: var(--shadow-hover);
+            }
+
+            .china-card {
+                border-left: 4px solid var(--china-primary);
+            }
+
+            .usa-card {
+                border-left: 4px solid var(--usa-primary);
+            }
+
+            .hate-number {
+                font-size: 2em;
+                font-weight: 700;
+                margin-bottom: 12px;
+                line-height: 1;
+            }
+
+            .china-number {
+                color: var(--china-primary);
+            }
+
+            .usa-number {
+                color: var(--usa-primary);
+            }
+
+            .hate-name {
+                font-size: 1.2em;
+                font-weight: 600;
+                margin-bottom: 12px;
+                color: var(--text-primary);
+            }
+
+            .hate-description {
+                font-size: 0.95em;
+                line-height: 1.6;
+                color: var(--text-secondary);
+            }
+
+            .comparison-table {
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 0;
+                margin-top: 30px;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: var(--shadow);
+            }
+
+            .comparison-table th,
+            .comparison-table td {
+                padding: 16px;
+                text-align: left;
+                border: 1px solid var(--border-color);
+            }
+
+            .comparison-table th {
+                background: var(--neutral-light);
+                color: var(--text-primary);
+                font-weight: 600;
+                border-bottom: 2px solid var(--border-color);
+            }
+
+            .comparison-table tr:nth-child(even) {
+                background: var(--neutral-light);
+            }
+
+            .china-cell {
+                background: rgba(214, 45, 32, 0.05);
+                border-left: 3px solid var(--china-primary);
+            }
+
+            .usa-cell {
+                background: rgba(10, 49, 97, 0.05);
+                border-left: 3px solid var(--usa-primary);
+            }
+
+            .common-cell {
+                background: rgba(46, 125, 50, 0.05);
+                border-left: 3px solid var(--common-color);
+            }
+
+            .difference-cell {
+                background: rgba(237, 108, 2, 0.05);
+                border-left: 3px solid var(--difference-color);
+            }
+
+            .summary {
+                margin-top: 40px;
+                padding: 32px;
+                background: var(--secondary-bg);
+                border-radius: 12px;
+                box-shadow: var(--shadow);
+                border: 1px solid var(--border-color);
+            }
+
+            .summary h3 {
+                color: var(--text-primary);
+                margin-bottom: 24px;
+                text-align: center;
+                font-size: 1.5em;
+                font-weight: 600;
+            }
+
+            .summary-points {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 24px;
+            }
+
+            .common-points,
+            .difference-points {
+                padding: 24px;
+                border-radius: 8px;
+                border: 1px solid var(--border-color);
+            }
+
+            .common-points {
+                background: rgba(46, 125, 50, 0.03);
+                border-left: 4px solid var(--common-color);
+            }
+
+            .difference-points {
+                background: rgba(237, 108, 2, 0.03);
+                border-left: 4px solid var(--difference-color);
+            }
+
+            .summary-points h4 {
+                margin-bottom: 16px;
+                color: var(--text-primary);
+                font-weight: 600;
+                font-size: 1.1em;
+            }
+
+            .summary-points ul {
+                list-style-type: none;
+            }
+
+            .summary-points li {
+                margin-bottom: 12px;
+                padding-left: 20px;
+                position: relative;
+                color: var(--text-secondary);
+                line-height: 1.5;
+            }
+
+            .summary-points li:before {
+                content: "•";
+                position: absolute;
+                left: 0;
+                color: var(--text-primary);
+                font-weight: bold;
+            }
+
+            .summary-points strong {
+                color: var(--text-primary);
+                font-weight: 600;
+            }
+
+            @media (max-width: 768px) {
+                .hates-grid {
+                    grid-template-columns: 1fr;
+                    gap: 20px;
+                }
+
+                .summary-points {
+                    grid-template-columns: 1fr;
+                    gap: 20px;
+                }
+
+                h1 {
+                    font-size: 2em;
+                }
+
+                .section-title {
+                    font-size: 1.5em;
+                }
+
+                .section {
+                    padding: 24px 20px;
+                }
+
+                .hate-card {
+                    padding: 20px;
+                }
+            }
+
+            .emoji {
+                font-size: 1.1em;
+                margin-right: 6px;
+            }
+        </style>
+    
+<!-- Injected: GA4 (only in top window, avoid iframe double counting) -->
+<script>
+  (function () {
+    if (window.top !== window.self) return; // skip when embedded as iframe
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-99PGBGJH4S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-99PGBGJH4S');
+  })();
+</script>
+</head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>中美普通人七大恨对比可视化</h1>
+                <div class="subtitle">从日常生活与心理视角的深度分析</div>
+            </header>
+
+            <section class="section china-section">
+                <h2 class="section-title">🇨🇳 中国普通人的"七大恨"</h2>
+                <div class="hates-grid">
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">1</div>
+                        <div class="hate-name">🏢 工作之恨</div>
+                        <div class="hate-description">
+                            996工作制、加班文化、职场倾轧和被拖欠工资。心理上导致焦虑和无力感——明明努力了，却总觉得"越努力越穷"。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">2</div>
+                        <div class="hate-name">🏠 住房之恨</div>
+                        <div class="hate-description">
+                            房价高企和房贷压力：买房像"赌命"，30年贷款让生活经不起任何风险。心理上带来"无根感"。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">3</div>
+                        <div class="hate-name">🎓 教育之恨</div>
+                        <div class="hate-description">
+                            考试和教育的竞争烈度：从小中考高考，到孩子补课和"内卷"。心理上制造了终身焦虑。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">4</div>
+                        <div class="hate-name">👨‍👩‍👧‍👦 家庭之恨</div>
+                        <div class="hate-description">
+                            家庭内耗和关系破裂：父母吵架、离婚、亲子冲突常见，制造孤独和怨气。心理上让家成"战场"而非港湾。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">5</div>
+                        <div class="hate-name">🏥 医疗之恨</div>
+                        <div class="hate-description">
+                            看病难贵和资源不均：排队挂号、昂贵费用让普通人"不敢生病"。心理上放大恐惧——小病拖成大病。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">6</div>
+                        <div class="hate-name">🌐 社会之恨</div>
+                        <div class="hate-description">
+                            贫富差距和不公：资源分配倾斜，底层努力却"勤劳不致富"。心理上引发嫉妒和自责。
+                        </div>
+                    </div>
+
+                    <div class="hate-card china-card">
+                        <div class="hate-number china-number">7</div>
+                        <div class="hate-name">💔 生活之恨</div>
+                        <div class="hate-description">
+                            整体焦虑和无意义感：失业、孤独、麻木充斥日常，刷手机成逃避。心理上让心气消磨。
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section usa-section">
+                <h2 class="section-title">🇺🇸 美国普通人的"七大恨"</h2>
+                <div class="hates-grid">
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">1</div>
+                        <div class="hate-name">💼 工作之恨</div>
+                        <div class="hate-description">
+                            长通勤、职场竞争、低工资增长和裁员风险。心理上导致焦虑和
+                            burnout——努力工作却难以为继。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">2</div>
+                        <div class="hate-name">💰 财务之恨</div>
+                        <div class="hate-description">
+                            学生贷款、房租上涨、日常开支让许多人"月光族"。心理上制造恐惧和自责——看到物价飞涨却工资滞后。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">3</div>
+                        <div class="hate-name">🏥 医疗之恨</div>
+                        <div class="hate-description">
+                            医疗费用高企和保险复杂：看病贵、慢性病管理让普通人"不敢生病"。心理上放大不确定感。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">4</div>
+                        <div class="hate-name">🎓 教育之恨</div>
+                        <div class="hate-description">
+                            高压教育和债务负担：标准化测试、大学贷款让毕业生"起步即负债"。心理上引发后悔和焦虑。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">5</div>
+                        <div class="hate-name">👨‍👩‍👧‍👦 家庭之恨</div>
+                        <div class="hate-description">
+                            关系疏离和内耗：离婚率高、亲子冲突常见，屏幕时间加剧孤立。心理上让家成"压力源"而非慰藉。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">6</div>
+                        <div class="hate-name">🌐 社会之恨</div>
+                        <div class="hate-description">
+                            贫富差距和匿名仇恨：社交媒体FOMO、社区疏离让底层觉得"被遗忘"。心理上引发嫉妒和怨气。
+                        </div>
+                    </div>
+
+                    <div class="hate-card usa-card">
+                        <div class="hate-number usa-number">7</div>
+                        <div class="hate-name">💔 生活之恨</div>
+                        <div class="hate-description">
+                            不健康饮食、缺乏运动、屏幕成瘾充斥日常。心理上消磨心气——年轻时有梦想，成年后只剩"消费与疲惫"。
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section comparison-section">
+                <h2 class="section-title">📊 中美"七大恨"对比分析</h2>
+
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>恨之名</th>
+                            <th>中国特点</th>
+                            <th>美国特点</th>
+                            <th>共同点</th>
+                            <th>差异</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>工作之恨</strong></td>
+                            <td class="china-cell">
+                                996加班文化、职场倾轧、工资拖欠，对稳定渴望强
+                            </td>
+                            <td class="usa-cell">
+                                长通勤、裁员风险、工资增长慢，职业倦怠突出
+                            </td>
+                            <td class="common-cell">
+                                工作压力大，心理上造成疲惫与无力，感觉努力回报低
+                            </td>
+                            <td class="difference-cell">
+                                中国更突出加班文化；美国更关注裁员风险与通勤
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>财务之恨</strong></td>
+                            <td class="china-cell">
+                                高房价、房贷压力、"掏空六个钱包"，无根感与自责
+                            </td>
+                            <td class="usa-cell">
+                                学生贷款、房租上涨、通胀压力，"月光"与被剥削感
+                            </td>
+                            <td class="common-cell">
+                                财务压力导致焦虑、自责，感觉"勤劳不致富"
+                            </td>
+                            <td class="difference-cell">
+                                中国聚焦买房压力；美国突出学生贷款和通胀
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>医疗之恨</strong></td>
+                            <td class="china-cell">
+                                看病难、挂号与资源不均，"不敢生病"的恐惧
+                            </td>
+                            <td class="usa-cell">
+                                医疗费用高、保险复杂和账单风险，长期压力与焦虑
+                            </td>
+                            <td class="common-cell">
+                                医疗成本高、体系复杂导致"不能安心就医"
+                            </td>
+                            <td class="difference-cell">
+                                中国强调就诊可及性；美国强调保险复杂性
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>教育之恨</strong></td>
+                            <td class="china-cell">
+                                高考竞争、补课内卷、毕业后就业不稳，后悔与空虚
+                            </td>
+                            <td class="usa-cell">
+                                标准化考试、大学贷款与学历贬值，毕业即负债
+                            </td>
+                            <td class="common-cell">
+                                教育高压且回报不确定，带来焦虑、后悔与空虚
+                            </td>
+                            <td class="difference-cell">
+                                中国侧重内卷与高考；美国侧重学贷负担
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>家庭之恨</strong></td>
+                            <td class="china-cell">
+                                父母控制、代际冲突、亲子矛盾，家不再是港湾
+                            </td>
+                            <td class="usa-cell">
+                                离婚率、亲子疏离、屏幕时间多，家庭情感疏离
+                            </td>
+                            <td class="common-cell">
+                                家庭关系紧张导致孤独与抑郁，家由慰藉变为压力源
+                            </td>
+                            <td class="difference-cell">
+                                中国多因父母期望；美国更多因离婚与科技隔离
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>社会之恨</strong></td>
+                            <td class="china-cell">
+                                贫富差距、资源倾斜、维权难，产生嫉妒与无力感
+                            </td>
+                            <td class="usa-cell">
+                                贫富差距、社区解体、社交媒体放大比较，被遗忘感
+                            </td>
+                            <td class="common-cell">
+                                社会不公与信任缺失引发边缘化、嫉妒与怨气
+                            </td>
+                            <td class="difference-cell">
+                                中国强调维权难；美国强调社交媒体效应
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>生活之恨</strong></td>
+                            <td class="china-cell">
+                                整体焦虑、刷手机逃避、躺平或放弃理想，"空心人"
+                            </td>
+                            <td class="usa-cell">
+                                不健康饮食、屏幕成瘾、消费主义盛行，意义感缺失
+                            </td>
+                            <td class="common-cell">
+                                生活压力和无意义感消磨心气，导致麻木与逃避现实
+                            </td>
+                            <td class="difference-cell">
+                                中国凸显经济压力；美国聚焦不健康生活方式
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="summary">
+                    <h3>📝 总结分析</h3>
+                    <div class="summary-points">
+                        <div class="common-points">
+                            <h4>🤝 共同点</h4>
+                            <ul>
+                                <li>
+                                    <strong>经济与生存压力：</strong
+                                    >都被财务、工作、医疗、教育等结构性问题压得喘不过气
+                                </li>
+                                <li>
+                                    <strong>社会与心理断裂：</strong
+                                    >贫富差距、家庭疏离和社会不信任让人们感到孤独和边缘化
+                                </li>
+                                <li>
+                                    <strong>意义危机：</strong
+                                    >现代生活的高压和快节奏消磨梦想，普遍有"空心感"
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="difference-points">
+                            <h4>🔍 差异</h4>
+                            <ul>
+                                <li>
+                                    <strong>文化与制度根源：</strong
+                                    >中国源于集体主义压力；美国来自个人主义下的债务陷阱
+                                </li>
+                                <li>
+                                    <strong>表达与应对方式：</strong
+                                    >中国人"内卷"或"躺平"；美国人抱怨或寻求个人出路
+                                </li>
+                                <li>
+                                    <strong>具体痛点：</strong
+                                    >中国聚焦房价、加班；美国突出学生贷款、不健康生活
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const hateCards = document.querySelectorAll(".hate-card");
+
+                hateCards.forEach((card) => {
+                    card.addEventListener("click", function () {
+                        this.classList.toggle("expanded");
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

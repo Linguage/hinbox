@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta74,<h1>交互即智能：深度研究中的人机伙伴关系</h1>
+<p>本研究系列探讨了从“交互作为界面”到“交互即智能”的根本性范式转变。文章指出，传统视角往往将交互视为人机之间的单向传导机制，但在处理复杂的深度研究任务时，这种静态模式已显不足。相比之下，将交互本身视为智能的一个基本维度，意味着 AI 系统能够通过持续的对话与反馈，动态调整其行为模式，从而与人类研究者形成真正的认知伙伴关系。</p>
+<p>基于这一理念，文中提出的“认知监督范式”在实际应用中展现出了显著的性能提升。数据显示，这种强调透明可控与细粒度双向对话的交互模式，使得系统的交互精度提升了 29.2%，协作效率提升了 27.7%。这不仅验证了共享认知上下文的有效性，也为未来构建更具动态自主性的 AI 研究助手指明了方向，即通过强化交互过程本身来涌现出更高层级的集体智能。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/Interaction-as-Intelligence-Deep-Research-With-Human-AI-Partnership.html" data-title="交互即智能：深度研究中的人机伙伴关系" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互即智能：深度研究中的人机伙伴关系</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/Interaction-as-Intelligence-Deep-Research-With-Human-AI-Partnership.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"Interaction-as-Intelligence-Deep-Research-With-Human-AI-Partnership","sender":"Linguista","subject":"交互即智能：深度研究中的人机伙伴关系","snippet":"本研究系列探讨了从“交互作为界面”到“交互即智能”的根本性范式转变。文章提出，在深度研究任务中，动态的人机交互不应仅被视为工具使用，而应被视为智能系统的一个核心维度。通过引入“认知监督范式”，AI 系统在透明度、交互精度和协作效率上实现了显著提升，为解决复杂的长周期研究任务提供了新的人机共生框架。","date":"2025-08-31","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI-Human Collaboration","Cognitive Supervision","Human-Computer Interaction","Deep Research"],"tags":["AI-Human Collaboration","Cognitive Supervision","Human-Computer Interaction","Deep Research"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/Interaction-as-Intelligence-Deep-Research-With-Human-AI-Partnership.md","prompts":[]},"listPosition":{"index":228,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

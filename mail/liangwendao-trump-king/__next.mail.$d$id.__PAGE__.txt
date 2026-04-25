@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T910,<h1>解析美国新威权主义</h1>
+<p>本报告通过解构梁文道播客的核心观点，揭示了在民主制度的外壳下，一种新型的威权主义是如何通过“忠诚”测试和机构清洗逐步确立根基的。特朗普政府的人事任命逻辑不仅打破了传统的政治平衡，更通过构建对抗性的政治文化，使得“深层政府”这一理论成为了重塑权力格局的工具。</p>
+<p>我们将通过四个维度的交互式分析——充满争议的人事任命、颠倒黑白的政治文化、报复性机制引发的寒蝉效应，以及对“深层政府”叙事的批判性审视——来全方位展示这一政治现象的内在机理。这不仅是对当前时局的记录，更是对民主制度脆弱性的深刻反思。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/liangwendao-trump-king.html" data-title="交互式报告：解析美国新威权主义" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式报告：解析美国新威权主义</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/liangwendao-trump-king.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"liangwendao-trump-king","sender":"Linguista","subject":"解析美国新威权主义","snippet":"本报告基于梁文道播客内容深度解析，揭示了特朗普政府如何通过以“忠诚”而非能力为标准的人事清洗，在美国民主制度内部构建新型权力结构。文章详细探讨了这种政治清洗如何引发了政治文化的深刻反转，导致社会舆论出现“寒蝉效应”，并通过互动图表深入剖析了其背后的“深层政府”理论及新威权主义的崛起逻辑。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","美国政治","新威权主义","特朗普","深层政府"],"tags":["美国政治","新威权主义","特朗普","深层政府"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/liangwendao-trump-king.md","prompts":[]},"listPosition":{"index":260,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

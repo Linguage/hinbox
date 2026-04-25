@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T94c,<h1>DeepSeek-V3.2-Exp 深度解析</h1>
+<p>随着大语言模型参数规模的持续扩张，如何在有限的算力资源下实现长文本的高效处理已成为学术界与工业界共同关注的焦点。DeepSeek-V3.2-Exp 版本通过引入先进的稀疏注意力机制与闪电索引器，打破了传统稠密模型在处理超长序列时的算力瓶颈，为构建高效的 AI 推理系统提供了全新的技术范式。</p>
+<p>该模型的核心突破在于将注意力机制的复杂度从常规的 O(L²) 优化至 O(Lk)，这一跨越式的进步使其能够轻松支撑 128K 的上下文窗口。这种架构设计不仅保留了模型对全局信息的感知能力，更通过多查询注意力等技术手段，在维持卓越性能的同时大幅降低了推理延时，标志着通用人工智能模型在工程化落地方面迈出了坚实的一步。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/deepseek-v3-2-report-magazine.html" data-title="深度探索V3.2-Exp" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">深度探索V3.2-Exp</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/deepseek-v3-2-report-magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"deepseek-v3-2-report-magazine","sender":"DeepSeek-AI","subject":"DeepSeek-V3.2-Exp 深度解析","snippet":"DeepSeek-V3.2-Exp 通过引入稀疏注意力和闪电索引器技术，成功将长文本处理的计算复杂度从 O(L²) 显著降低至 O(Lk)，实现了高达 128K 上下文窗口的高效推理。本文深入解析了其多查询注意力机制背后的设计理念，展示了在保持高性能的同时，如何通过算法创新优化大模型的效率瓶颈，为下一代 AI 基础设施","date":"2025-09-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","DeepSeek","Sparse Attention","AI Research","Model Architecture"],"tags":["DeepSeek","Sparse Attention","AI Research","Model Architecture"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/deepseek-v3-2-report-magazine.md","prompts":[]},"listPosition":{"index":199,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

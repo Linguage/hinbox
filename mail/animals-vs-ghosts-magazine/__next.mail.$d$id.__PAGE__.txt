@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta22,<h1>Animals vs Ghosts | AI心智差异解读</h1>
+<p>本文是对Richard Sutton“苦涩教训”理论的深度审视，聚焦于大语言模型（LLM）研究者与强化学习先驱之间的认知鸿沟。Karpathy敏锐地捕捉到了Sutton观点中的核心张力：尽管LLM取得了巨大成功，但它们是否真正践行了“最大化利用算力而非人类先验知识”的教训？文章揭示了当前AI模型可能并非在复制生物的“动物性”智能，而是在通过人类文本构建一种依赖于人类文明的“幽灵”智能。</p>
+<p>核心论点在于“幽灵不是动物”。Sutton对LLM的依赖人类数据表示怀疑，认为这种路径终将面临数据枯竭的瓶颈。真正的动物智能在于通过感知与行动在与环境的交互中持续进化，而当前的LLM更像是对人类思维的模拟与召唤。这引发了对AI未来的深刻隐喻：正如飞机不需要扇动翅膀也能飞翔，人工智能或许注定要走上一条与生物智能完全不同、更加工程化的独立分支。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/animals-vs-ghosts-magazine.html" data-title="Animals vs Ghosts | AI心智差异解读" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Animals vs Ghosts | AI心智差异解读</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/animals-vs-ghosts-magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"animals-vs-ghosts-magazine","sender":"Andrej Karpathy","subject":"Animals vs Ghosts | AI心智差异解读","snippet":"本文基于Karpathy对Sutton播客的解读，深入探讨了人工智能领域“动物”与“幽灵”两条发展路径的本质区别。文章指出了当前大语言模型（LLM）研究在应用“苦涩教训”时的偏差，即通过海量人类文本“召唤”智能，而非像动物一样在环境中通过感知与行动自我进化。Sutton与LLM研究者之间存在理念鸿沟，前者追求脱离人类知","date":"2025-10-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Cognition","Bitter Lesson","Andrej Karpathy","Machine Learning"],"tags":["AI Cognition","Bitter Lesson","Andrej Karpathy","Machine Learning"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/animals-vs-ghosts-magazine.md","prompts":[]},"listPosition":{"index":182,"total":432},"matchedPerson":{"id":"andrej-karpathy","name":"Andrej Karpathy","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

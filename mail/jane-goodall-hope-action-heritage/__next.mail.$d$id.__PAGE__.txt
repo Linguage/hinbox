@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta91,<h1>珍·古道尔：希望与行动的遗产</h1>
+<p>珍·古道尔于2025年10月离世，这标志着科学界与环保运动失去了一位真正的灯塔人物。她从1960年开始在贡贝溪对野生黑猩猩进行了长达数十年的开创性研究，以没有大学本科学历的背景，凭借对自然的热爱和敏锐的观察力，打破了当时科学界对动物行为学的认知壁垒。她著名的发现——黑猩猩能够制造和使用工具——不仅震惊了路易斯·利基，更重新定义了人类与自然世界的界限。</p>
+<p>除了在学术领域的卓越贡献，珍·古道尔更将生命的后半段完全奉献给了环保事业。她于1977年创立珍·古道尔研究所，致力于野生动物保护与研究；1991年启动"根与芽"项目，激励全球青少年投身环境与社区服务。她的一生横跨91载春秋，不仅收获了京都奖、邓普顿奖及联合国和平使者等至高荣誉，更用行动践行着她的信条："绝望是最大的敌人，因为它会让人放弃行动。" 这份关于希望与行动的遗产，将继续滋养未来世代对地球的敬畏之心。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/jane-goodall-hope-action-heritage.html" data-title="珍·古道尔：希望与行动的遗产" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">珍·古道尔：希望与行动的遗产</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/jane-goodall-hope-action-heritage.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"jane-goodall-hope-action-heritage","sender":"Linguista","subject":"珍·古道尔：希望与行动的遗产","snippet":"珍·古道尔于2025年10月去世，享年91岁。她是世界上最著名的灵长类动物学家，也是一位坚定的环保主义者。她早年深入坦桑尼亚贡贝溪国家公园，对野生黑猩猩进行了开创性的研究，不仅发现了黑猩猩制造和使用工具的能力，打破了人类独有的迷思，还揭示了它们复杂的社会结构与情感。她91年的生命旅程跨越了科研与环保的界限，用行动证明个","date":"2025-10-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","人物纪念","环保主义","黑猩猩研究"],"tags":["人物纪念","环保主义","黑猩猩研究"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/jane-goodall-hope-action-heritage.md","prompts":[]},"listPosition":{"index":177,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

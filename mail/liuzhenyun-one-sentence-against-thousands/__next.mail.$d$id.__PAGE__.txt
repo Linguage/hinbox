@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9f0,<h1>刘震云：关于“一句顶一万句”</h1>
+<p>刘震云先生在演讲中犀利地指出，世界上确实存在“一句话顶一万句”的真理，但这绝非空洞的心灵鸡汤，而是那些能在危机时刻解密困局、一语点醒梦中人的金玉良言。无论是在个人成长的道路上，还是民族命运的转折点，总有那么一句关键的话语，以其穿透时间的洞察力，彻底改变了人生的轨迹。</p>
+<p>这种改变命运的力量往往隐藏在生活的细微之处。文章通过三位亲人——大舅、二舅和外祖母的故事，生动展示了这种朴素的智慧。从大舅指明“必须离开家乡”才能有出路，到二舅诠释“热爱”是技艺精湛的源头，再到外祖母用“不直腰”的专注成就传奇，这些话语看似平常，却在关键时刻成为了指引方向的人生灯塔，揭示了从平庸走向卓越的核心秘诀。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/liuzhenyun-one-sentence-against-thousands.html" data-title="刘震云：关于“一句顶一万句” | 交互式解读" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">刘震云：关于“一句顶一万句” | 交互式解读</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/liuzhenyun-one-sentence-against-thousands.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"liuzhenyun-one-sentence-against-thousands","sender":"Linguista","subject":"刘震云：关于“一句顶一万句”","snippet":"本文基于刘震云的演讲，通过交互式解读探讨了“一句话顶一万句”的深刻内涵。文章从危机解密的角度切入，讲述了三位普通亲人（赶马车的舅舅、木匠舅舅、割麦子的外祖母）如何用朴素的言语在人生拐点上给予关键指引，揭示了热爱、专注与改变命运之间的内在联系。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Linguista","刘震云","人生智慧","文学解读","交互式叙事"],"tags":["Linguista","刘震云","人生智慧","文学解读","交互式叙事"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/liuzhenyun-one-sentence-against-thousands.md","prompts":[]},"listPosition":{"index":261,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

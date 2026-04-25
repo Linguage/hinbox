@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T940,<h1>秩序断裂</h1>
+<p>加拿大总理马克·卡尼在达沃斯2026特别致辞中指出，基于规则的国际秩序已成明日黄花。大国将经济整合异化为胁迫武器，供应链从互惠的桥梁变成了被利用的软肋。全球化不仅不再提供庇护，反而成为了危险的源头。</p>
+<p>面对这一现实，卡尼提出中间力量必须拒绝活在谎言中，建立绝对的战略自主。以价值观现实主义为核心，对内重铸硬实力，对外构建务实联盟。他提出了六大战术行动：停止假装旧规则仍在运作、确保经济主权不被胁迫、根据价值观契合度校准关系深度、十年内国防开支翻倍、针对不同议题构建意愿联盟、通过集体行动维持规则合法性。</p>
+<p><a href="https://linguista.bearblog.dev/davos-2026-special-address-by-mark-carney-pm-of-canada/">演讲全文翻译</a></p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/davos_canada_premier.html" data-title="秩序断裂" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">秩序断裂</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/davos_canada_premier.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"davos_canada_premier","sender":"Mark Carney","subject":"秩序断裂","snippet":"加拿大总理马克·卡尼在达沃斯2026特别致辞中提出：基于规则的国际秩序已经崩塌，全球化从庇护变为威胁。中间力量必须以价值观现实主义为核心，通过拒绝谎言、战略自主、原则与务实、硬实力重置、可变几何和中间道路六大策略，在强权博弈中开辟第三条道路。","date":"2026-01-20","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Geopolitics","Strategy","Davos"],"tags":["Geopolitics","Strategy","Davos"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/davos_canada_premier.md","prompts":[]},"listPosition":{"index":96,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

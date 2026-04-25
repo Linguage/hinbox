@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8b1,<h1>财富变动与全球经济洞察</h1>
+<p>随着经济环境的变化，中国富裕阶层的财富正经历显著调整，胡润财富报告数据显示超过三成的高净值人群资产出现缩水。这不仅是数字的减少，更是财富结构性调整的信号，标志着过去依赖房地产和资本市场快速增值的时代面临挑战。</p>
+<p>在全球层面，经济格局也在悄然重塑。通过实地调研日本、澳大利亚和新西兰等经济体，我们可以发现表象数据之下的真实经济脉动。从日本的新陈代谢机制到澳新的滞胀风险，理解这些宏观背景对于把握未来的投资机遇与规避生活风险至关重要。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/fupeng-richs-getting-less-2025.html" data-title="财富变动与全球经济洞察" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">财富变动与全球经济洞察</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/fupeng-richs-getting-less-2025.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"fupeng-richs-getting-less-2025","sender":"Linguista","subject":"财富变动与全球经济洞察","snippet":"本文深入探讨了当前全球经济格局下的财富变动现象，重点分析了中国富裕阶层资产缩水的结构性原因，包括房地产退潮与金融产品风险。同时，结合付鹏老师的实地调研，对比分析了日本、澳大利亚及新西兰等经济体的宏观现状，揭示了表象数据之下的真实经济脉动，为个人投资与生活提供新的思考维度。","date":"2025-07-22","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","宏观经济","财富管理","付鹏","全球经济"],"tags":["宏观经济","财富管理","付鹏","全球经济"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/fupeng-richs-getting-less-2025.md","prompts":[]},"listPosition":{"index":239,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

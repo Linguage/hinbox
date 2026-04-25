@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T893,<h1>Claude Code 工作流：31天进阶指南</h1>
+<p>AI 不是替代者，而是高阶杠杆。通过 Plan Mode 规划路径，利用 Sandbox 设定安全边界，将模糊的人类意图转化为精准、可控的工程现实。开发者不应臣服于工具的生成能力，而应驾驭其深度与边界，找到最精准的发力点。</p>
+<p>消除上下文切换的摩擦力，从 !Bash 指令直达系统底层，到 Vim 模式的指尖律动。在终端内完成思考与构建，让开发重回绝对专注的心流状态。核心战术包括使用 /init 让 AI 主动生成项目记忆，利用 @ 符号实现毫秒级上下文引用，以及双击 Esc 键回滚至安全检查点。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/cc-31days.html" data-title="Claude Code Workflow - Swiss Wireframe" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Claude Code Workflow - Swiss Wireframe</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/cc-31days.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"cc-31days","sender":"Ado Kukic","subject":"Claude Code 工作流：31天进阶指南","snippet":"探讨 Claude Code 的深度协作模式与开发工作流优化。本文详细介绍了如何利用 Plan Mode 和 Sandbox 将人类意图转化为工程现实，以及如何通过 Bash 指令和 Vim 模式消除上下文切换，实现绝对专注的心流状态。文中还涵盖了自动初始化、瞬时终端、时光回溯等核心战术功能，展示开发者如何驾驭 AI","date":"2026-01-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Workflow","Claude Code","Developer Tools","Productivity"],"tags":["AI Workflow","Claude Code","Developer Tools","Productivity"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/cc-31days.md","prompts":[]},"listPosition":{"index":117,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

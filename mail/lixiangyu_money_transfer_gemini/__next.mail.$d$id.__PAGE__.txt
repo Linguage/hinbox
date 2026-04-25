@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T96b,<h1>创作者收益损耗揭秘</h1>
+<p>对于跨境流动的创作者收益而言，金融系统的隐形成本往往比想象中更为沉重。文章通过详实的账目记录，揭示了从美元到人民币的兑换过程中，资金如何经历汇率差、银行对敲以及SWIFT通道费的三重“收割”。原本应得的收入在经过层层关卡后，实际损耗超过了3.5%，这种系统性的价值缩水无疑是对劳动者权益的侵蚀。</p>
+<p>面对传统金融体系在跨境支付上的低效与高昂成本，文章发出了强烈的质疑。在数字时代，资金依然需要漫长的“在路上”时间，而每一次转换都伴随着不可忽视的手续费损失。这种现状不仅令人沮丧，更成为了推动创作者探索Web3支付和稳定币等新兴金融工具的直接动力，以期在价值交换中获得应有的公平与效率。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/lixiangyu_money_transfer_gemini.html" data-title="创作者收益损耗揭秘" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">创作者收益损耗揭秘</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/lixiangyu_money_transfer_gemini.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"lixiangyu_money_transfer_gemini","sender":"Linguista","subject":"创作者收益损耗揭秘","snippet":"本文深入剖析了Twitter创作者收益提现过程中惊人的隐形损耗。从USD到HKD的首次汇率收割，再到SWIFT国际通道的高昂费用，层层剥皮导致最终到手金额缩水超过3.5%。文章通过具体的账目对比，揭示了传统金融系统在跨境支付中利用汇率差和手续费进行的系统性“吸血”，并指出这种低效且昂贵的价值传输方式，正促使创作者转向W","date":"2025-10-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Finance","Web3","Creator Economy","Cross-border Payment"],"tags":["Finance","Web3","Creator Economy","Cross-border Payment"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/lixiangyu_money_transfer_gemini.md","prompts":[]},"listPosition":{"index":175,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

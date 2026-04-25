@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T985,<h1>李强总理达沃斯致辞深度解读</h1>
+<p>在充满不确定性的世界经济十字路口，李强总理在第十六届夏季达沃斯论坛上的致辞为我们指明了方向。本次深度解读通过交互式数据看板，生动展现了世界经贸格局的深刻变革。从“全球南方”贸易额占比的历史性跃升，到全球贸易壁垒的严峻反弹，数据清晰地表明我们正站在历史的转折点上。</p>
+<p>面对碎片化的风险，中国没有选择退回到封闭隔绝的孤岛，而是发出了“同舟共济，共迎挑战”的呼吁。文章详细拆解了中国提出的三大方案，旨在重建桥梁与连接，同时通过动态数据强调了中国经济回升向好的态势。无论是庞大的消费市场还是不断优化的营商环境，中国都将继续为全球企业家提供广阔的发展机遇，共同弘扬企业家精神。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/premier-davos.html" data-title="李强总理达沃斯致辞：交互式深度解读" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">李强总理达沃斯致辞：交互式深度解读</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/premier-davos.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"premier-davos","sender":"Linguista","subject":"李强总理达沃斯致辞深度解读","snippet":"本文深度解读了李强总理在第十六届夏季达沃斯论坛上的致辞，重点分析了全球经贸新格局下“全球南方”的崛起、贸易壁垒增加的趋势，以及中国为重振世界经济提出的三大方案。页面通过可视化数据与动态交互，生动展示了中国对多边主义的坚定支持及巨大的市场机遇。","date":"2025-07-20","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Economy","Davos","Global Trade","Geopolitics"],"tags":["Economy","Davos","Global Trade","Geopolitics"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/premier-davos.md","prompts":[]},"listPosition":{"index":242,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

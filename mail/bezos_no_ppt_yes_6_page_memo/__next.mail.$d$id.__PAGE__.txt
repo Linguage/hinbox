@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta70,<h1>贝索斯"无PPT"会议文化解读 | 企业管理深度分析</h1>
+<p>在现代企业管理中，PowerPoint 演示文稿几乎是会议的标准配置，但亚马逊创始人杰夫·贝索斯却反其道而行之，早在早期就立下了著名的“PPT 禁令”。他主导的会议模式要求所有参会者在会议开始前，静默阅读长达六页的叙述性备忘录。这一做法的核心逻辑在于，PPT 的项目符号往往容易掩盖逻辑漏洞，使作者逃避严谨的思考，而连贯的写作则是检验思维清晰度的最佳试金石。</p>
+<p>这种制度将会议的重点从“推销”转移到了“寻真”上。通过要求员工用完整的句子和段落阐述背景、问题、解决方案和论点，亚马逊有效地避免了虚假的共识和模糊的沟通。虽然在初期，员工可能需要花费两周的时间来打磨一份高质量的备忘录，但这种高标准的认知投入确保了决策基于深度分析而非表面的展示技巧，从而建立了一种以事实和逻辑为核心的企业文化。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/bezos_no_ppt_yes_6_page_memo.html" data-title="贝索斯\&lt;无PPT\&gt;会议文化解读 | 企业管理深度分析" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">贝索斯\&lt;无PPT\&gt;会议文化解读 | 企业管理深度分析</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/bezos_no_ppt_yes_6_page_memo.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"bezos_no_ppt_yes_6_page_memo","sender":"TextToSlides.ai Team","subject":"贝索斯\\\"无PPT\\\"会议文化解读 | 企业管理深度分析","snippet":"本文深入解析亚马逊创始人杰夫·贝索斯在内部会议中禁止使用 PowerPoint 的独特管理哲学。通过强制推行叙述性的“六页备忘录”制度，贝索斯旨在消除形式主义，迫使高管与员工进行深度思考，从而在复杂的商业决策中追求逻辑严密的事实真相，而非依赖项目符号进行模糊的推销与汇报。","date":"2025-09-17","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Management","Jeff Bezos","Amazon","Productivity"],"tags":["Management","Jeff Bezos","Amazon","Productivity"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/bezos_no_ppt_yes_6_page_memo.md","prompts":[]},"listPosition":{"index":203,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8ce,<h1>澈言 | 从北京到东京的逃离之路</h1>
+<p>文章核心围绕作者从北京的居住困境中寻求突破，最终选择东京作为新的人生起点展开。通过对自己在北京生活状态的深刻反思，作者揭示了逃离不仅仅是为了换个环境，更是为了在东京寻找内心深处的平静与重生的机会，展现了对未来生活的美好愿景与坚定决心。</p>
+<p>这段旅程不仅是物理上的迁徙，更是一次精神上的洗礼。作者以细腻的笔触描绘了从决定离开到重新开始的心理变化，为读者呈现了一幅关于勇气、选择与希望的动人画卷，鼓励每一个处于迷茫中的人勇敢迈出改变的一步。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/escape-to-tokyo-from-beijing.html" data-title="澈言 | 从北京到东京的逃离之路" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">澈言 | 从北京到东京的逃离之路</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/escape-to-tokyo-from-beijing.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"escape-to-tokyo-from-beijing","sender":"澈言","subject":"澈言 | 从北京到东京的逃离之路","snippet":"这篇文章讲述了一位居住在北京群租房的年轻人澈言，决定改变现状并前往东京开启全新生活的旅程。文中详细记录了他从北京拥挤不堪的居住环境中逃离的心路历程，以及对未来在东京生活无限可能的憧憬与规划。这不仅是一次地理位置的迁移，更是一场关于寻找自我、追求更好生活质量的勇敢尝试。","date":"2025-08-31","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Lifestyle","Migration","Tokyo","Beijing"],"tags":["Lifestyle","Migration","Tokyo","Beijing"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/escape-to-tokyo-from-beijing.md","prompts":[]},"listPosition":{"index":230,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

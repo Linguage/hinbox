@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T983,<h1>凯文·杜兰特访谈：篮球效率与比赛未来</h1>
+<p>这篇访谈文章深入探讨了凯文·杜兰特（KD）作为NBA历史上最高效得分手之一的篮球哲学。通过与勒布朗·詹姆斯和史蒂夫·纳什的对话，文章不仅量化展示了KD在不同区域的统治力，还分析了他是如何通过“装备齐全”的技能包来适应现代比赛的演变。这种多维度的展示方式，使得复杂的篮球理念变得生动且易于理解。</p>
+<p>除了回顾KD个人的技术特点，文章还触及了更宏大的篮球主题。它对比了数据分析派与明星球员派对于“中距离”这一消失艺术的看法，回顾了雷霆时期的关键转折点，并大胆展望了比赛的未来——即“有组织的混乱”与空间重构。这不仅是一份数据报告，更是一次关于现代篮球战术进化的深刻洞察。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/kd-lbj-jnash-p1.html" data-title="凯文·杜兰特访谈：篮球效率与比赛未来" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">凯文·杜兰特访谈：篮球效率与比赛未来</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/kd-lbj-jnash-p1.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"kd-lbj-jnash-p1","sender":"Info Cards","subject":"凯文·杜兰特访谈：篮球效率与比赛未来","snippet":"本期内容基于对凯文·杜兰特的深度访谈，展示了KD在NBA历史上罕见的得分效率与比赛进化历程。文章不仅对比了勒布朗·詹姆斯和史蒂夫·纳什对KD的评价，还通过交互式图表探讨了“50/40/90”俱乐部的独特性、现代篮球对中距离的取舍争议，以及雷霆时期的建队思路与演变。最后，文章展望了篮球比赛的未来，分析了“有组织的混乱”进","date":"2025-07-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Kevin Durant","Basketball Analytics","NBA History","Game Evolution"],"tags":["Kevin Durant","Basketball Analytics","NBA History","Game Evolution"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/kd-lbj-jnash-p1.md","prompts":[]},"listPosition":{"index":297,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

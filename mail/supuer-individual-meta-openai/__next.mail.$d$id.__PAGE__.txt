@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T897,<h1>AI时代的超级个体经济</h1>
+<p>人工智能革命正在深刻重塑经济结构，催生了一种被称为“超级个体”的新现象。在这个新时代，技术杠杆使得极少数顶尖人才能够创造和获取不成比例的巨大价值，导致劳动市场呈现出剧烈的“赢家通吃”趋势。</p>
+<p>本互动报告通过Meta与OpenAI之间的人才争夺战，以及Ilya Sutskever创立SSI即获天价估值的案例，实证了“人”作为核心资产的地位正在空前上升。这种变化不仅是薪酬数字的跳动，更代表着从线性增长向非线性指数级增长的价值逻辑根本转变。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/supuer-individual-meta-openai.html" data-title="互动报告：AI时代的超级个体经济" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">互动报告：AI时代的超级个体经济</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/supuer-individual-meta-openai.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"supuer-individual-meta-openai","sender":"Info Cards","subject":"AI时代的超级个体经济","snippet":"本报告深入探讨了人工智能如何重塑劳动市场，催生“超级个体”现象。文章通过Meta与OpenAI的薪酬竞争、SSI的巨额估值等案例，揭示了顶尖人才价值的指数级放大，并分析了这种非线性增长背后的逻辑及未来的行业分野。","date":"2025-07-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Economy","Super Individual","Labor Market","Future Trends"],"tags":["AI Economy","Super Individual","Labor Market","Future Trends"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/supuer-individual-meta-openai.md","prompts":[]},"listPosition":{"index":307,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

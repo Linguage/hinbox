@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8f6,<h1>AI时代的三次进化</h1>
+<p>人工智能的学习范式正在经历深刻的变革，这一过程被划分为三个核心的进化阶段。最初的预训练时代以大规模互联网文本为基础，构建了模型对世界的广泛理解。随后，通过监督微调（SFT），模型开始在人类对话数据的引导下，优化其指令遵循和交互能力。</p>
+<p>然而，真正的飞跃在于第三阶段：强化学习。在这一阶段，AI不再仅仅处理静态数据，而是通过与环境进行交互、根据反馈调整行动，从而实现智能体的自主进化。这种从静态文本理解到动态环境交互的转变，标志着AI从单纯的预测工具向具备行动能力的智能体迈进。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/karpathy-From-Pre-training-to-Reinforcement-Learning.html" data-title="AI时代的三次进化" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">AI时代的三次进化</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/karpathy-From-Pre-training-to-Reinforcement-Learning.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"karpathy-From-Pre-training-to-Reinforcement-Learning","sender":"Andrej Karpathy","subject":"AI时代的三次进化","snippet":"本文深入解析了人工智能发展的三个关键进化阶段：从依赖海量互联网文本的预训练时代，到对话数据驱动的监督微调，再到基于环境交互的强化学习。文章详细阐述了每个阶段的核心特征与数据要素，揭示了AI从被动理解世界到主动与环境交互的演进轨迹，为理解现代大模型的训练逻辑提供了清晰的框架。","date":"2025-08-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","Deep Learning","Model Training","Karpathy"],"tags":["Artificial Intelligence","Deep Learning","Model Training","Karpathy"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/karpathy-From-Pre-training-to-Reinforcement-Learning.md","prompts":[]},"listPosition":{"index":233,"total":432},"matchedPerson":{"id":"andrej-karpathy","name":"Andrej Karpathy","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

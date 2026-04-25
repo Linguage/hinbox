@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta7e,<h1>ThePrimeTime vs Andrej Karpathy: 软件正在改变（又一次）</h1>
+<p>软件的定义正在被重塑。随着人工智能技术的飞速发展，我们正处于一个从传统手写代码向神经网络驱动范式转变的关键节点。本文深入探索了 Andrej Karpathy 关于软件未来的革命性观点，特别是“软件 2.0”的概念以及大型语言模型（LLM）在其中的核心地位，同时也呈现了 ThePrimeTime 对此的审慎评论，旨在为读者提供一个关于代码、神经网络和智能未来的平衡视角。</p>
+<p>文章详细回顾了软件演变的三个时代：以 C++ 和 Python 为代表的、由显式人类指令构成的传统代码时代；以神经网络权重为核心、通过数据训练而非直接编写逻辑的 2.0 时代；以及我们正在迈入的、由生成式 AI 定义的 3.0 时代。通过直观的对比和精妙的类比，我们不仅能够理解 LLM 如何像一个新的操作系统一样运作，还能看到技术先驱们对于这一变革带来的挑战与机遇的深刻洞察。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/theprimetime-ak-software-changed-again.html" data-title="ThePrimeTime vs Andrej Karpathy: 软件正在改变（又一次）" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">ThePrimeTime vs Andrej Karpathy: 软件正在改变（又一次）</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/theprimetime-ak-software-changed-again.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"theprimetime-ak-software-changed-again","sender":"Linguista","subject":"ThePrimeTime vs Andrej Karpathy: 软件正在改变（又一次）","snippet":"这篇文章深入探讨了 Andrej Karpathy 提出的关于“软件 2.0”及大型语言模型（LLM）未来的革命性观点，并整合了 ThePrimeTime 对此议题的审慎评论。文章通过回顾软件从传统代码到神经网络，再到当今生成式 AI 的演变历程，展示了软件定义的重塑过程。内容不仅剖析了神经网络权重如何取代传统逻辑，还","date":"2025-07-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Software Evolution","Andrej Karpathy","AI","LLM"],"tags":["Software Evolution","Andrej Karpathy","AI","LLM"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/theprimetime-ak-software-changed-again.md","prompts":[]},"listPosition":{"index":294,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

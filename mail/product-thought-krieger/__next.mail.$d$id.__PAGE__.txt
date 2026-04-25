@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9cc,<h1>Mike Krieger: 产品思维大师班</h1>
+<p>Mike Krieger 的产品思维之旅始于他对技术底层逻辑的早期好奇，并在斯坦福大学独特的“符号系统”项目中得到了系统化的锤炼。这种融合了计算机科学、认知心理学、设计与哲学的跨学科背景，赋予了他超越单纯代码的视野，使他能够敏锐地洞察到技术在人类行为背后的深层意义，为后来重新定义社交互动方式奠定了坚实的认知基石。</p>
+<p>从 Instagram 时代追求极致简洁与即时满足的设计美学，到在 Artifact 项目中对算法驱动新闻阅读的沉思，再到如今在 Anthropic 探索 AI 安全与对齐的前沿领域，Krieger 始终坚持着“以人为中心”的技术信仰。他的职业生涯不仅是产品成功的范例，更是一份关于如何在快速变化的科技浪潮中保持产品初心的思想指南，展示了优秀产品人如何在不同技术周期中持续创造价值。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/product-thought-krieger.html" data-title="Mike Krieger: 产品思维大师班" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Mike Krieger: 产品思维大师班</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/product-thought-krieger.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"product-thought-krieger","sender":"Linguista","subject":"Mike Krieger: 产品思维大师班","snippet":"深入探索 Instagram 联合创始人 Mike Krieger 的产品哲学与职业生涯。本文回顾了他从斯坦福符号系统的跨学科背景，到缔造 Instagram 的极简主义设计原则，再到 Artifact 和 Anthropic 时期对 AI 与信息分发的深度思考，揭示了技术、设计与人文关怀的完美融合。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Product Design","Mike Krieger","Instagram","Artificial Intelligence"],"tags":["Product Design","Mike Krieger","Instagram","Artificial Intelligence"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/product-thought-krieger.md","prompts":[]},"listPosition":{"index":263,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8e1,<h1>乔布斯论垄断企业的成功陷阱</h1>
+<p>史蒂夫·乔布斯深刻地指出了垄断企业面临的"成功陷阱"：当一家公司占据市场主导地位后，往往会对产品质量失去敏锐度。这种表面上的风光无限，实际上可能埋下致命的隐患，因为公司不再追求"更成功"，反而陷入了自我消耗的怪圈。</p>
+<p>权力的转移是这一危机的核心，销售和营销人员逐渐掌控了公司的话语权，成为管理层眼中的"功臣"，而真正懂产品的人却被挤出决策核心。当不懂产品的人指挥产品方向，公司赖以生存的创新基因和产品直觉便会被流程崇拜所取代，最终导致外表看似强大、内里早已腐烂的局面。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/steve_jobs_monopoly_90s.html" data-title="乔布斯论垄断企业的成功陷阱" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">乔布斯论垄断企业的成功陷阱</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/steve_jobs_monopoly_90s.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"steve_jobs_monopoly_90s","sender":"Linguista","subject":"乔布斯论垄断企业的成功陷阱","snippet":"史蒂夫·乔布斯深刻揭示了垄断企业面临的成功陷阱：当公司占据市场主导地位后，往往会对产品质量失去敏锐度，导致销售和营销人员取代产品专家成为决策核心。这种权力的危险转移会侵蚀公司赖以生存的创新基因，使企业陷入流程崇拜和自我消耗的怪圈。","date":"2025-10-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Business Strategy","Steve Jobs","Management","Innovation"],"tags":["Business Strategy","Steve Jobs","Management","Innovation"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/steve_jobs_monopoly_90s.md","prompts":[]},"listPosition":{"index":167,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

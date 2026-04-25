@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta05,<h1>Claude Code 工作流可视化 (一)</h1>
+<p>在当今的 AI 辅助编程领域，如何突破单点交互的局限，将碎片化的个人经验转化为可复用的团队资产，是开发者面临的核心挑战。这套卡片不仅揭示了 Claude Code 的设计哲学，更展示了如何通过共享上下文与工具链，构建出并行化、自动化且具备自我验证能力的现代化编程工作流。作者 Boris Cherny 指出，关键在于建立一个完善的反馈闭环，让 AI 能够自我验证其工作成果，从而将最终交付的代码质量提升两到三倍。</p>
+<p>为了实现这一目标，卡片提出了具体的工程战术，包括在终端与网页端同时运行多个实例以实现上下文流转，全面采用 Opus 4.5 Thinking 模型以减少人工纠偏成本，以及将团队的 CLAUDE.md 纳入 Git 版本控制。这种做法不仅规范了协作流程，更重要的是将 AI 在实践中遇到的错误转化为全员共享的避坑指南，真正实现了从个人智慧到团队自动化标准的升华。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/cc-cheney-1.html" data-title="Claude Code Workflow - Visual Cards" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Claude Code Workflow - Visual Cards</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/cc-cheney-1.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"cc-cheney-1","sender":"Boris Cherny","subject":"Claude Code 工作流可视化 (一)","snippet":"本卡片系列深入探讨了 Boris Cherny 提出的 Claude Code 编程范式，旨在解决传统 AI 编程中单点交互与碎片化经验的局限性。通过建立并行作业流、共享上下文以及引入 Opus Thinking 模型，开发者可以构建自动化且具备自我验证能力的协作体系。文中强调了反馈闭环的重要性，即提供验证方法以将代码","date":"2026-01-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Workflow","Claude Code","Engineering Ops","Prompt Engineering"],"tags":["AI Workflow","Claude Code","Engineering Ops","Prompt Engineering"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/cc-cheney-1.md","prompts":[]},"listPosition":{"index":130,"total":432},"matchedPerson":{"id":"boris-cherny","name":"Boris Cherny","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

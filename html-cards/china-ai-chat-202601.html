@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGI NEXT · 范式裂变与中国机遇</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paper: '#F5F2EB',
+                        ink: '#1A1918',
+                        accent: '#2563eb',
+                        watermark: 'rgba(26, 25, 24, 0.06)',
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans SC"', 'sans-serif'],
+                        serif: ['"Noto Serif SC"', 'serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html { overflow-y: auto; }
+        body { margin: 0; -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-neutral-200 min-h-auto flex flex-col items-center p-6 md:p-10 overflow-x-hidden overflow-y-auto">
+    <div class="flex flex-col items-center gap-10 w-full max-w-[900px] min-[1900px]:flex-row min-[1900px]:items-start min-[1900px]:justify-center min-[1900px]:max-w-none">
+        <article class="relative w-full min-w-0 max-w-[900px] h-[1200px] bg-paper text-ink border-[3px] border-ink flex flex-col overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+            <header class="shrink-0 border-b-[3px] border-ink px-8 pt-8 pb-5 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+                <div>
+                    <p class="font-sans text-xs font-bold tracking-[0.35em] uppercase text-ink/70">Roundtable · Early 2026</p>
+                    <h1 class="font-sans font-black text-[clamp(2rem,6vw,3.5rem)] leading-tight mt-2">
+                        AGI NEXT
+                    </h1>
+                    <p class="font-serif font-bold text-lg md:text-xl mt-2 text-ink/85">
+                        范式裂变与中国机遇
+                    </p>
+                </div>
+                <div class="font-sans font-black text-5xl md:text-6xl text-accent/30 leading-none select-none" aria-hidden="true">20%</div>
+            </header>
+
+            <div class="flex-1 flex flex-col min-h-0">
+                <div class="grid grid-cols-1 md:grid-cols-2 flex-1 min-h-0 border-b-[3px] border-ink">
+                    <section class="p-6 md:p-8 border-b-[3px] md:border-b-0 md:border-r-[3px] border-ink flex flex-col justify-center gap-3 relative overflow-hidden">
+                        <h2 class="font-sans font-black text-2xl">路径分化</h2>
+                        <p class="font-serif font-semibold text-lg leading-snug text-justify">
+                            硅谷与中国 AI 生态走向不同进化节奏：一端追逐极致智商与生产力溢价，另一端在算力约束下押注效率、数据清洗与架构微创新。
+                        </p>
+                        <span class="text-watermark font-black text-8xl absolute right-2 bottom-0 select-none" aria-hidden="true">A</span>
+                    </section>
+                    <section class="p-6 md:p-8 flex flex-col justify-center gap-3 relative overflow-hidden">
+                        <h2 class="font-sans font-black text-2xl">ToB / ToC 分野</h2>
+                        <p class="font-serif font-semibold text-lg leading-snug text-justify">
+                            ToB 继续堆叠可靠性与可控性；ToC 更仰赖情境感知、记忆与个性化连续体验，“一个通用模型通吃”的假设正在退潮。
+                        </p>
+                        <span class="text-watermark font-black text-8xl absolute right-2 bottom-0 select-none" aria-hidden="true">B</span>
+                    </section>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 flex-1 min-h-0">
+                    <section class="p-6 md:p-8 border-b-[3px] md:border-b-0 md:border-r-[3px] border-ink flex flex-col justify-center gap-3 relative overflow-hidden">
+                        <h2 class="font-sans font-black text-2xl">训练后收益</h2>
+                        <p class="font-serif font-semibold text-lg leading-snug text-justify">
+                            Pre-training 收益递减语境下，Post-training 与 Test-time Scaling 承接增长；智能体具备更高主动性：自写代码、自纠错与“降噪”式自我整理。
+                        </p>
+                    </section>
+                    <section class="p-6 md:p-8 flex flex-col justify-center gap-3 relative overflow-hidden">
+                        <h2 class="font-sans font-black text-2xl">概率命题</h2>
+                        <p class="font-serif font-semibold text-lg leading-snug text-justify">
+                            未来数年：全球顶尖 AI 公司诞生在中国的概率被讨论为约 20%——取决于新一代研究者的冒险精神、应用层长尾创新与产学边界的持续溶解。
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+            <footer class="shrink-0 px-8 py-4 border-t-[3px] border-ink font-sans text-xs font-bold uppercase tracking-widest text-ink/65">
+                Themes distilled from post body · Not a verbatim transcript
+            </footer>
+        </article>
+    </div>
+</body>
+</html>

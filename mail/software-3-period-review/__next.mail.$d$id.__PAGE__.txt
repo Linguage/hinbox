@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9d5,<h1>软件的三次浪潮</h1>
+<p>软件开发的历史可以被清晰地划分为三个具有本质区别的浪潮，每一次浪潮都重塑了人机交互的基本逻辑与软件的核心价值。从最初基于确定性指令的代码构建，到后来通过数据驱动实现的自我优化，再到如今以生成式语言为核心的自然交互，软件正在从一种被动的执行工具演变为具备主动协作能力的智能体。这种演进不仅是技术架构的升级，更是人类思维与机器智能融合方式的深刻变革。</p>
+<p>通过直观的交互式对比与数据可视化，我们可以深入洞察这三次浪潮背后的演进动力。这不仅仅是算力的提升，更是从“教机器做事”到“让机器理解意图”的范式转移。本文将带领读者跨越时间线，通过动态雷达图与多维视角，审视这一波澜壮阔的技术演进史，并探讨在生成式 AI 崛起的当下，软件的未来将走向何方。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/software-3-period-review.html" data-title="软件的三次浪潮：交互式分析" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">软件的三次浪潮：交互式分析</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/software-3-period-review.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"software-3-period-review","sender":"Info Cards","subject":"软件的三次浪潮","snippet":"本文通过交互式可视化方式，深入剖析了软件开发的三个核心范式：确定性指令的 1.0 时代、数据驱动优化的 2.0 时代，以及生成式语言交互的 3.0 时代。文章详细对比了不同浪潮下的核心设计哲学、演进动力及未来图景，揭示了软件从被动执行工具向主动协作智能体的根本性转变。","date":"2025-07-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Software Evolution","AI","Paradigm Shift"],"tags":["Software Evolution","AI","Paradigm Shift"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/software-3-period-review.md","prompts":[]},"listPosition":{"index":306,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

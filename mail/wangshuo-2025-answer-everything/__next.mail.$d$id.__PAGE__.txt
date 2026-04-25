@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T92d,<h1>王朔：2025，回答所有</h1>
+<p>时隔十八年，67岁的王朔再次接受了访谈。这一次，他收起了往日的锋芒，更多地展现出一种阅尽沧桑后的坦荡与通透。在视频中，他谈到了对死亡的豁达态度，甚至设想着自己"死在屋里"的场景，并用一种特有的黑色幽默来消解生命的沉重。他坦言每天花大量时间刷短视频，内容从军事历史到生活琐碎无所不包，这种接地气的真实感拉近了与观众的距离。</p>
+<p>除了个人的生死观，王朔还对社会现状和文坛往事发表了见解。他依然保持着犀利的视角，观察着这个变化的世界，同时也坦诚地面对着自己内心的变化与坚持。这是一份关于2025年的答案，来自一个不再年轻、但依然真诚的灵魂。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/wangshuo-2025-answer-everything.html" data-title="王朔：2025，回答所有" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">王朔：2025，回答所有</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/wangshuo-2025-answer-everything.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"wangshuo-2025-answer-everything","sender":"Linguista","subject":"王朔：2025，回答所有","snippet":"<\"时隔十八年，67岁的王朔在2025年再次接受访谈。面对镜头，他不再是那个充满攻击性的顽主，而是一个坦荡谈论生死、沉迷短视频、对文坛圈地自萌感到疲惫的老人。他用黑色幽默消解死亡的沉重，直言\"生活没有什么好留恋的\"，同时也对社会现状与人工智能侃侃而谈。这篇文章记录了他对生命终点的坦然、对世间百态的犀利观察，以及对自身过","date":"2025-07-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","王朔","访谈","人生感悟","文坛观察"],"tags":["王朔","访谈","人生感悟","文坛观察"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/wangshuo-2025-answer-everything.md","prompts":[]},"listPosition":{"index":271,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

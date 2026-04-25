@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9f9,<h1>Weierstrass Monster Function - High Density</h1>
+<p>在微积分发展的早期，数学家们往往依赖几何直觉作为逻辑的安全网，普遍认为连续函数在大部分情况下是可导的，或者至少曲线看起来应该是“光滑”的。这种视觉经验成为了一种思维定势，掩盖了数学逻辑深层的潜在危机。然而，魏尔斯特拉斯在 1872 年构造出的“怪物函数”，如同一枚逻辑核弹，无情地粉碎了这种脆弱的直觉。</p>
+<p>魏尔斯特拉斯函数证明了“连续”与“可导”是两个完全独立的性质，一个曲线可以在每一点都连续，却在没有任何一点拥有切线。这一发现迫使数学语言从含糊的自然描述进化为精确的符号体系（ε-δ 语言）。这些看似病态的数学怪物，最初被视为逻辑上的丑闻，最终却在布朗运动和现代金融模型中找到了现实世界的归宿，揭示了真实数学世界的本质并不在于迎合人类的直觉，而在于逻辑的一致与可证明性。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/weiss.html" data-title="Weierstrass Monster Function - High Density" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Weierstrass Monster Function - High Density</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/weiss.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"weiss","sender":"Gemini","subject":"Weierstrass Monster Function - High Density","snippet":"本文深入探讨了数学分析史上的著名反例——魏尔斯特拉斯函数。这一“处处连续却处处不可导”的函数彻底摧毁了 19 世纪关于曲线光滑性的几何直觉，迫使数学界放弃含糊的自然语言描述，转而拥抱严格的 ε-δ 语言体系，从而完成了数学分析学的严密化重建。","date":"2026-01-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Mathematics","Analysis","History","Weierstrass"],"tags":["Mathematics","Analysis","History","Weierstrass"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/weiss.md","prompts":[]},"listPosition":{"index":135,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

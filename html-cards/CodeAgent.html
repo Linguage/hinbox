@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- Chosen Palette: Energetic & Playful (Customized Reds/Oranges) -->
+    <!-- Application Structure Plan: The infographic follows a narrative structure to guide the user. It starts with a high-impact 'Hook' (15x productivity) to establish the core claim. It then explains the 'How' through the 'Paradigm Shift' and a detailed 'AI Workflow' flowchart. Next, it provides evidence and context with 'The Toolkit' (agent rankings) and 'The Impact' (quantified output and synergy visualization). Finally, it distills the 'Core Principles' of this new engineering mindset. This narrative flow is more engaging and logical for understanding the concept than a simple report summary. -->
+    <!-- Visualization & Content Choices: 1. Productivity -> Inform -> Big Number/Icon Comparison -> High impact. 2. Weekly Output -> Compare Composition -> Donut Chart (Chart.js) -> Clear part-to-whole relationship. 3. Agent Ranking -> Compare Values -> Horizontal Bar Chart (Chart.js) -> Best for comparing numerous categories with long labels. 4. Workflow -> Organize Process -> HTML/CSS Flowchart -> Best for sequential steps, avoids SVG/Mermaid. 5. Synergy -> Show Relationship -> HTML/CSS Venn Diagram -> Strong visual metaphor for overlapping concepts. 6. Core Principle -> Organize Hierarchy -> HTML/CSS Pyramid -> Classic representation of foundational levels. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 驱动的工程新纪元：两位工程师如何实现15人团队的效率</title>
+<!-- Injected: Open Graph / Twitter -->
+<meta property="og:title" content="AI 驱动的工程新纪元：两位工程师如何实现15人团队的效率">
+<meta property="og:url" content="https://linguage.github.io/articles/CodeAgent.html">
+<meta property="og:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@linguista2025">
+<meta name="twitter:creator" content="@linguista2025">
+<meta name="twitter:title" content="AI 驱动的工程新纪元：两位工程师如何实现15人团队的效率">
+<meta name="twitter:image" content="https://linguage.github.io/img/Linguista_imresizer.png">
+<link rel="canonical" href="https://linguage.github.io/articles/CodeAgent.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+                max-height: 500px;
+            }
+        }
+        .flowchart-step {
+            position: relative;
+            padding-left: 40px;
+            margin-bottom: 2rem;
+        }
+        .flowchart-step:not(:last-child)::before {
+            content: '';
+            position: absolute;
+            left: 14px;
+            top: 40px;
+            width: 2px;
+            height: calc(100% + 1rem);
+            background-color: #FF4E50;
+            opacity: 0.3;
+        }
+        .flowchart-icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+        }
+        .pyramid-level {
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+    </style>
+
+<!-- Injected: GA4 (only in top window, avoid iframe double counting) -->
+<script>
+  (function () {
+    if (window.top !== window.self) return; // skip when embedded as iframe
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-99PGBGJH4S';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-99PGBGJH4S');
+  })();
+</script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-black text-[#FF4E50] mb-4">AI 驱动的工程新纪元</h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">两位工程师如何借助 Claude Code 实现15人团队的交付效率</p>
+        </header>
+
+        <section id="paradigm" class="mb-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">生产力飞跃</h2>
+                    <div class="text-8xl md:text-9xl font-black text-[#FC913A] my-4">15x</div>
+                    <p class="text-gray-600">一个由 **2** 名工程师组成的团队，其产出效率堪比传统的 **15** 人团队。</p>
+                    <div class="flex justify-center items-end space-x-4 mt-6 text-6xl">
+                        <div>
+                            <span title="2位工程师">👤👤</span>
+                            <p class="text-sm font-bold mt-2">Kora 团队</p>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-400 pb-2">=</div>
+                        <div class="text-gray-400">
+                            <span title="15人团队">👤👤👤👤👤👤👤👤👤👤👤👤👤👤👤</span>
+                             <p class="text-sm font-bold mt-2">传统团队</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" p-8">
+                    <h3 class="text-3xl font-bold text-[#FF4E50] mb-4">核心理念：复利式工程</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        “复利式工程” (Compounding Engineering) 是一种全新的工作模式。其核心在于，利用 AI 将研究、规划、编码到审查的整个流程自动化，使得每一项完成的任务都能为后续工作累积优势，从而实现效率的指数级提升。AI 不再仅仅是编码的辅助工具，而是贯穿整个工程生命周期的核心引擎。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflow" class="mb-20 bg-white rounded-2xl shadow-lg p-8 md:p-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FF4E50]">AI 驱动的自动化工作流</h2>
+            <div class="max-w-2xl mx-auto">
+                <div class="flowchart-step">
+                    <div class="flowchart-icon bg-[#FF4E50]">💡</div>
+                    <h3 class="text-xl font-bold mb-2">1. 构思与输入</h3>
+                    <p class="text-gray-600">团队通过语音转文字，将功能需求或一个模糊的想法直接输入 Claude Code。</p>
+                </div>
+                <div class="flowchart-step">
+                    <div class="flowchart-icon bg-[#FC913A]">🤖</div>
+                    <h3 class="text-xl font-bold mb-2">2. AI 研究与规划</h3>
+                    <p class="text-gray-600">Claude Code 自动研究现有代码库和网络上的最佳实践，然后提出一份详尽的实施计划。</p>
+                </div>
+                <div class="flowchart-step">
+                    <div class="flowchart-icon bg-[#F9D423]">👨‍⚖️</div>
+                    <h3 class="text-xl font-bold mb-2">3. 人工审核</h3>
+                    <p class="text-gray-600">工程师对 AI 提出的计划进行审查。这是确保方向正确、融入人类经验和直觉的关键环节。</p>
+                </div>
+                <div class="flowchart-step">
+                    <div class="flowchart-icon bg-[#EDE574] text-gray-700">📝</div>
+                    <h3 class="text-xl font-bold mb-2">4. 自动生成任务</h3>
+                    <p class="text-gray-600">计划一经批准，Claude Code 会自动创建包含所有细节的 GitHub Issue，并将其放入开发看板。</p>
+                </div>
+                <div class="flowchart-step">
+                    <div class="flowchart-icon bg-[#E1F5C4] text-gray-700">💻</div>
+                    <h3 class="text-xl font-bold mb-2">5. AI 实现与测试</h3>
+                    <p class="text-gray-600">AI 代理根据 Issue 实现代码，并运行测试（如冒烟测试）来验证代码质量和功能的正确性。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="mb-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FF4E50]">主流 AI 编码代理排名</h2>
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <p class="text-center text-gray-600 mb-8">Kieran Klaassen 基于其广泛的使用经验，对市面上的主流 AI 编码代理进行了评级。结果显示，Claude Code 凭借其强大的通用性和深度集成能力独占鳌头。</p>
+                <div class="chart-container">
+                    <canvas id="agentRankingChart"></canvas>
+                </div>
+            </div>
+        </section>
+        
+        <section id="impact" class="mb-20 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                 <h2 class="text-3xl font-bold text-center mb-6 text-[#FF4E50]">量化产出：一周成果</h2>
+                 <p class="text-center text-gray-600 mb-8">在 AI 的加持下，这个两人团队在一周内完成了惊人的工作量，覆盖了产品功能、错误修复和底层架构的全面推进。</p>
+                <div class="chart-container h-80 md:h-96">
+                    <canvas id="weeklyOutputChart"></canvas>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-center mb-6 text-[#FF4E50]">人机协同新范式</h2>
+                <p class="text-center text-gray-600 mb-8">成功并非完全依赖 AI，而是源于人类智慧与 AI 能力的深度融合。AI 负责执行和加速，人类则负责指导、审查和注入创造力。</p>
+                 <div class="relative w-full h-80 md:h-96 flex items-center justify-center">
+                    <div class="absolute w-48 h-48 md:w-64 md:h-64 bg-[#FF4E50] rounded-full opacity-60 " style="left: 15%; top: 20%;"></div>
+                    <div class="absolute w-48 h-48 md:w-64 md:h-64 bg-[#FC913A] rounded-full opacity-60" style="right: 15%; top: 20%;"></div>
+                    <div class="z-10 text-center">
+                        <div class="font-bold text-xl md:text-2xl text-white mb-2" style="transform: translate(-90%, -100%);">AI 能力</div>
+                        <div class="font-bold text-xl md:text-2xl text-white mb-2" style="transform: translate(90%, -100%);">人类智慧</div>
+                        <div class="font-black text-2xl md:text-3xl text-white mt-16">最优成果</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="mb-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-[#FF4E50]">新时代的核心工程原则</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">在价值最低的阶段修复问题</h3>
+                    <p class="text-gray-600 mb-6">借鉴《高产出管理》的理念，在 AI 生成实施计划的早期阶段就进行审查和修正，其成本远低于在编码完成后返工。</p>
+                    <div class="w-full h-48 space-y-1 flex flex-col justify-end">
+                        <div class="pyramid-level bg-[#FF4E50] h-1/4 w-1/3 mx-auto">生产</div>
+                        <div class="pyramid-level bg-[#FC913A] h-1/3 w-2/3 mx-auto">编码</div>
+                        <div class="pyramid-level bg-[#F9D423] h-1/2 w-full mx-auto">规划/构思</div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">像测试代码一样评估提示词</h3>
+                    <p class="text-gray-600 mb-6">“Evals for Prompts” 是确保 AI 输出稳定可靠的关键。通过对提示词进行系统性评估，可以发现并让 AI 自行修复不稳定的输出，从而保证工作流的健壮性。</p>
+                    <div class="text-6xl mt-12">
+                        <span>🧪</span> <span class="text-3xl font-bold mx-4">+</span> <span>"提示词"</span> <span class="text-3xl font-bold mx-4">=</span> <span class="text-green-500">✅</span>
+                    </div>
+                     <p class="text-sm text-gray-500 mt-4">可靠的 AI 输出</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-16 pt-8 border-t border-gray-200">
+            <p class="text-gray-600">信息图基于 Every 公司的访谈视频制作。</p>
+            <p class="text-sm text-gray-400 mt-2">创建时间：2025年6月12日</p>
+        </footer>
+
+    </div>
+
+<script>
+    const wrapLabel = (label, maxLength = 16) => {
+        if (label.length <= maxLength) {
+            return label;
+        }
+        const words = label.split(' ');
+        const lines = [];
+        let currentLine = '';
+        for (const word of words) {
+            if ((currentLine + ' ' + word).trim().length > maxLength) {
+                lines.push(currentLine.trim());
+                currentLine = word;
+            } else {
+                currentLine = (currentLine + ' ' + word).trim();
+            }
+        }
+        if (currentLine) {
+            lines.push(currentLine.trim());
+        }
+        return lines;
+    };
+
+    const tooltipTitleCallback = (tooltipItems) => {
+        const item = tooltipItems[0];
+        let label = item.chart.data.labels[item.dataIndex];
+        return Array.isArray(label) ? label.join(' ') : label;
+    };
+    
+    const chartColors = {
+        red: '#FF4E50',
+        orange: '#FC913A',
+        yellow: '#F9D423',
+        lightYellow: '#EDE574',
+        lightGreen: '#E1F5C4',
+        gray: '#a0aec0'
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const agentRankingCtx = document.getElementById('agentRankingChart').getContext('2d');
+        new Chart(agentRankingCtx, {
+            type: 'bar',
+            data: {
+                labels: [
+                    'Claude Code',
+                    'AMP',
+                    'Friday',
+                    'Cursor (with Claude 4)',
+                    'Charlie (as reviewer)',
+                    'Devin',
+                    'Codex',
+                    'Factory',
+                    'Windsurf',
+                    'GitHub Copilot (old)'
+                ].map(label => wrapLabel(label)),
+                datasets: [{
+                    label: '代理评级',
+                    data: [10, 9.5, 9.0, 8.5, 8.0, 7.0, 6.5, 6.0, 5.0, 4.0],
+                    backgroundColor: [
+                        chartColors.red,
+                        chartColors.red,
+                        chartColors.orange,
+                        chartColors.orange,
+                        chartColors.yellow,
+                        chartColors.yellow,
+                        chartColors.lightYellow,
+                        chartColors.lightYellow,
+                        chartColors.lightGreen,
+                        chartColors.gray
+                    ],
+                    borderColor: 'rgba(255, 255, 255, 0.5)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        title: { display: true, text: '评级分数 (越高越好)' },
+                        grid: { display: false }
+                    },
+                    y: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                           title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+
+        const weeklyOutputCtx = document.getElementById('weeklyOutputChart').getContext('2d');
+        new Chart(weeklyOutputCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['主要功能', '重要错误修复', '基础设施更新'],
+                datasets: [{
+                    data: [6, 5, 3],
+                    backgroundColor: [chartColors.red, chartColors.orange, chartColors.yellow],
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    },
+                    title: {
+                        display: false
+                    }
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

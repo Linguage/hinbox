@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9dd,<h1>深度互动 | 许知远对话罗翔：法律、道德与自我反思</h1>
+<p>在这场深度对话中，罗翔与许知远共同探讨了法律与道德之间微妙而复杂的边界。罗翔指出，过度的“泛道德化”倾向往往会摧毁道德本身，因为道德应当是自律的产物，而非强加于人的完美主义标尺。通过辨析“积极道德主义”与“消极道德主义”，文章揭示了法律作为最低道德标准的意义，并展示了在司法实践中如何通过法律体现对人性的关怀。</p>
+<p>除了理论辨析，本文还可视化地呈现了正义的实现路径与法治的根基。通过对比程序正义与大众情感的冲突，读者可以直观地看到法治建设面临的挑战与选择。最终，对话回归于个体的自我认知，探讨了在有限的理性中如何审视自我，从而在复杂的社会现实中寻找到内心的平静与方向。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/13yao-xuzhiyuan-luoxiang.html" data-title="深度互动 | 许知远对话罗翔：法律、道德与自我反思" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">深度互动 | 许知远对话罗翔：法律、道德与自我反思</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/13yao-xuzhiyuan-luoxiang.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"13yao-xuzhiyuan-luoxiang","sender":"Info Cards","subject":"深度互动 | 许知远对话罗翔：法律、道德与自我反思","snippet":"本文通过交互式卡片与图表，深入探讨了许知远与罗翔对话中的四大核心议题：道德与法律的边界、正义的实现路径、法治的根基以及自我认知与成长。文章辨析了积极与消极道德主义，展示了法律作为最低道德标准的复杂性，并引导读者反思如何在理性的指引下追求正义与内心的平静。","date":"2025-07-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","罗翔","许知远","法律与道德","自我反思","法治"],"tags":["罗翔","许知远","法律与道德","自我反思","法治"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/13yao-xuzhiyuan-luoxiang.md","prompts":[]},"listPosition":{"index":254,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

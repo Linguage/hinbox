@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta53,<h1>AI辅助编码时代下的新型生产力与职业发展 | 吴恩达</h1>
+<p>吴恩达在斯坦福大学CS230课程中深入剖析了AI辅助编码工具对编程模式的颠覆性影响。他指出，随着Copilot、Gemini CLI等工具的普及，开发者的工作方式正在被重塑，个体生产力呈现指数级增长，快速原型开发与创新迭代变得前所未有地高效。他坦言，现在的开发体验已发生质的飞跃，手动编码的时代正在远去。</p>
+<p>在职业发展方面，吴恩达提出了“有策略的谨慎”原则。他将编程工作明确区分为“快速原型开发”和“生产级软件开发”：在前者中，AI工具大幅降低了试错成本，允许开发者以极低代价验证海量创意；而在后者中，则必须警惕AI可能引入的潜在风险，强调代码审查与架构设计的重要性。他认为，未来的开发者将更像是在高维空间中工作的建筑师和产品经理，而非传统的砌砖工人。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/andrew_ng_ai_coding_career_advices_stanford_2025.html" data-title="AI辅助编码时代下的新型生产力与职业发展 | 吴恩达" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">AI辅助编码时代下的新型生产力与职业发展 | 吴恩达</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/andrew_ng_ai_coding_career_advices_stanford_2025.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"andrew_ng_ai_coding_career_advices_stanford_2025","sender":"吴恩达","subject":"AI辅助编码时代下的新型生产力与职业发展 | 吴恩达","snippet":"吴恩达在斯坦福CS230课程中指出，AI辅助编码工具已彻底改变开发模式。他强调区分“快速原型开发”与“生产级开发”，并提倡利用AI降低试错成本。文章还探讨了开发者角色的转变，即从编写代码转向审查与架构设计，以及AI时代对技能差距的深远影响。","date":"2025-10-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI Programming","Career Advice","Andrew Ng","CS230"],"tags":["AI Programming","Career Advice","Andrew Ng","CS230"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/andrew_ng_ai_coding_career_advices_stanford_2025.md","prompts":[]},"listPosition":{"index":190,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T99c,<h1>查理·芒格的智慧：最后一次访谈</h1>
+<p>这份报告提炼了查理·芒格在百岁人生最后一次访谈中留下的宝贵智慧。它不仅仅是一份投资指南，更是一套关于如何通过理性与克制过上充实生活的完整哲学。芒格强调，成功并非偶然，而是源于对人性深刻的理解，例如保持低预期以获得满足感，以及利用幽默感来化解生活中的荒谬与艰难。</p>
+<p>在这个数字化探索中，我们将看到芒格如何将多学科思维模型应用于投资决策与社会观察。通过互动卡片和图表，我们揭示了他所谓的“普世智慧”——即避免愚蠢比追求聪明更为重要。无论是在市场波动中保持耐心，还是在个人逆境中选择“坚韧前行”，芒格的思想都提供了一种冷静而务实的视角，帮助我们在复杂的现代生活中找到确定的方向。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/charlie-munger-last-interview.html" data-title="交互式报告: 查理·芒格的智慧" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式报告: 查理·芒格的智慧</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/charlie-munger-last-interview.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"charlie-munger-last-interview","sender":"Linguista","subject":"查理·芒格的智慧：最后一次访谈","snippet":"这份交互式报告深入探索了查理·芒格生前最后一次访谈中的核心思想。文章详细解析了芒格关于成功条件的独特见解——包括保持低预期、培养幽默感以及亲友环绕的重要性，并重点阐述了其面对生活苦难时“坚韧前行”的生存哲学。通过可视化的方式，报告展示了他在学习之道、投资洞察以及社会观察方面的智慧结晶，为读者提供了一份关于理性、耐心与长","date":"2025-07-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Charlie Munger","Investment Wisdom","Life Philosophy","Mental Models"],"tags":["Charlie Munger","Investment Wisdom","Life Philosophy","Mental Models"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/charlie-munger-last-interview.md","prompts":[]},"listPosition":{"index":289,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9db,<h1>吴恩达课程构建指南</h1>
+<p>随着人工智能技术的飞速发展，软件构建的底层逻辑正在经历一场前所未有的范式转移。Andrew Ng 提出的“Build with Andrew”理念，揭示了技术祛魅后的核心真相：我们正在从复杂的语法编写中解放出来，转向纯粹的意图描述。在这个新阶段，理解算法不再是前置条件，取而代之的是对逻辑的清晰表达，以及通过连续对话与 AI 协作来完成应用开发。</p>
+<p>这一转变不仅是效率的数量级提升，更是开发者身份的本质重构。开发过程不再是一次性完成的考试，而变成了不断修订的草稿与试错。通过“意图优先”、“草稿思维”和“自然调试”等六大法则，创作者可以极大压缩试错成本。技术的高墙已被推倒，只要能提出正确的问题并准确描述现象，每个人都能凭借人类语言的直觉，掌控代码的生成与修复，从而进化为真正的数字建造者。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/build-with-andrew-course.html" data-title="Swiss Style Wireframe Cards" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Swiss Style Wireframe Cards</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/build-with-andrew-course.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"build-with-andrew-course","sender":"Andrew Ng","subject":"吴恩达课程构建指南","snippet":"本文档展示了 Andrew Ng 提出的“零代码革命”下的构建新范式。核心观点在于软件开发正在从“手动编写代码”向“纯粹意图描述”转变，技术门槛的打破让每个人都能从被动使用者进化为主动建造者。文中详细拆解了意图优先、草稿思维、自然调试等六大实操法则，阐述了在 VIBE Coding 模式下，如何通过自然语言与 AI 的","date":"2026-01-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","VIBE Coding","AI Development","Andrew Ng","No-Code"],"tags":["VIBE Coding","AI Development","Andrew Ng","No-Code"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/build-with-andrew-course.md","prompts":[]},"listPosition":{"index":113,"total":432},"matchedPerson":{"id":"andrew-ng","name":"Andrew Ng","email":""}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

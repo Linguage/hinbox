@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T951,<h1>黑莓手机记忆 | 一个时代的背景板</h1>
+<p>2008年，19岁的大一学生因厌倦枯燥的课程和家庭的压力，毅然选择退学并借钱北上，成为了一名“北漂”。在地下室的日子里，一台银色的黑莓8300成为了他眼中的奢侈品，那个小小的轨迹球和独特的外观，让他第一次意识到手机可以作为彰显个性的符号，而不仅仅是通讯工具。</p>
+<p>随着生活轨迹的转变，手机逐渐演变成了欲望与身份的象征。从最初购买廉价的“洋垃圾”黑莓8800，到后来为了融入写字楼里的商务圈层而不断更换设备，黑莓手机见证了主角从地下室走向创业维艰的十年历程。在这个科技飞速迭代的年代，手机早已超越了工具属性，成为了时代背景板下人们奋斗、迷茫与追求的缩影。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/blackberry_story.html" data-title="黑莓手机记忆 | 一个时代的背景板" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">黑莓手机记忆 | 一个时代的背景板</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/blackberry_story.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"blackberry_story","sender":"徹言@iamcheyan","subject":"黑莓手机记忆 | 一个时代的背景板","snippet":"这篇文章回顾了2008年至2016年间，作者从一名北漂青年到创业者的成长历程，并以黑莓手机作为这一时代变迁的见证。从最初在地下室见到银色黑莓8300时的震撼，到为了融入所谓的商务圈层而执着于拥有一台黑莓8800，黑莓不仅是通讯工具，更成为了那个年代年轻人渴望摆脱困境、向上流动的欲望投射与身份象征。","date":"2025-09-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","黑莓记忆","北漂经历","科技变迁","个人叙事"],"tags":["黑莓记忆","北漂经历","科技变迁","个人叙事"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/blackberry_story.md","prompts":[]},"listPosition":{"index":211,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

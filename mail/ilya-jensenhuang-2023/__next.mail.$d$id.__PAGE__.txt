@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T997,<h1>AI 的当下与未来: Ilya Sutskever 与 Jensen Huang 炉边谈话</h1>
+<p>这场对话生动地还原了人工智能发展史上最激动人心的篇章，从 Ilya Sutskever 早期对神经网络潜力的直觉，到 2012 年 AlexNet 引发的深度学习革命。文章详细阐述了规模效应如何成为现代 AI 性能突破的关键驱动力，以及 OpenAI 如何通过将深度学习与人类反馈相结合，催生了像 ChatGPT 这样的颠覆性产品。</p>
+<p>通过对 GPT-3.5 与 GPT-4 在 AMC 12 数学竞赛中表现的量化分析，读者可以直观地看到多模态模型能力的巨大飞跃。讨论并未止步于现状，双方还深入探讨了通用人工智能（AGI）的未来路径，直面数据枯竭、推理能力扩展及能源消耗等亟待解决的技术瓶颈，为理解下一代 AI 提供了宏观视角与关键洞察。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/ilya-jensenhuang-2023.html" data-title="AI 的当下与未来: Ilya Sutskever 与 Jensen Huang 炉边谈话" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">AI 的当下与未来: Ilya Sutskever 与 Jensen Huang 炉边谈话</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/ilya-jensenhuang-2023.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ilya-jensenhuang-2023","sender":"Info Cards","subject":"AI 的当下与未来: Ilya Sutskever 与 Jensen Huang 炉边谈话","snippet":"这场炉边谈话深入探讨了人工智能从早期边缘概念到现代技术核心的演变历程。Ilya Sutskever 回溯了深度学习的起源，特别是 AlexNet 如何点燃了现代 AI 的“大爆炸”。对话不仅揭示了神经网络规模对性能的指数级影响，还讨论了 OpenAI 核心理念的融合与演进。通过 GPT-3.5 与 GPT-4 在高难度","date":"2025-07-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","Artificial Intelligence","Deep Learning","OpenAI","NVIDIA"],"tags":["Artificial Intelligence","Deep Learning","OpenAI","NVIDIA"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/ilya-jensenhuang-2023.md","prompts":[]},"listPosition":{"index":287,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T923,<h1>人工智能时代下的数学发现</h1>
+<p>数学，长期以来被认为是人类纯粹智慧的堡垒，现在正开始感受到人工智能的影响。与AI在其他学科中的转变不同，它对数学的影响迄今为止还很微妙。在其核心，纯数学是一项充满创造力和直觉的人类活动，而AI的角色更多体现在辅助验证与计算处理上。</p>
+<p>这种新型的合作范式正在改变数学家的工作方式。AI聊天机器人已经展示了在国际数学奥林匹克竞赛中达到金牌水平的非凡能力，同时像Lean这样的开源形式化工具正在帮助研究者构建可验证的数学知识库。这些工具将繁琐的计算和验证过程自动化，让数学家能够更专注于真正的原创性思维和理论突破。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/math-discovery-shaped-by-AI-nature.html" data-title="人工智能时代下的数学发现" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">人工智能时代下的数学发现</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/math-discovery-shaped-by-AI-nature.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"math-discovery-shaped-by-AI-nature","sender":"Bartosz Nasrecki & Ken Ono","subject":"人工智能时代下的数学发现","snippet":"数学作为人类智慧的堡垒，正迎来人工智能的微妙重塑。本文探讨了AI在数学研究中的新角色：从计算验证到定理形式化，AI不再是替代者，而是提升数学家直觉与创造力的助手。文章重点介绍了AI在国际奥林匹克竞赛中达到的金牌水平，以及Lean等证明助手如何构建可验证的数学知识库，标志着数学研究范式的潜在转变。","date":"2025-10-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","人工智能","数学研究","形式化验证","Nature Physics"],"tags":["人工智能","数学研究","形式化验证","Nature Physics"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/math-discovery-shaped-by-AI-nature.md","prompts":[]},"listPosition":{"index":178,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

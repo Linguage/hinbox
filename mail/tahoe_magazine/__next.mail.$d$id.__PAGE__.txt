@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T97c,<h1>太浩湖 | 数字时代的印刷品</h1>
+<p>太浩湖（Lake Tahoe）坐落于加州与内华达州的边界，海拔约 1,900 米，是北美最大的高山湖泊。这片被称为“上帝遗落的蓝宝石”的水域，以其能见度极高的清澈湖水和内华达山脉的壮丽背景闻名于世。作为四季皆宜的度假胜地，它不仅提供世界级的滑雪场和水上运动，还拥有翡翠湾和 Vikingsholm 城堡等令人惊叹的自然与人文地标。</p>
+<p>除了自然风光，太浩湖在流行文化与科技史上亦占据独特席位。它是电影史经典《教父2》中弗雷多划船情节的取景地，赋予了这片水域深沉的叙事感；同时，这里也是见证人工智能历史的特殊场所——著名的 AlexNet 拍卖曾在此举行。文章通过“数字时代的印刷品”这一视角，重新审视了实体景观在虚拟信息流中的锚点价值。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/tahoe_magazine.html" data-title="太浩湖 | 数字时代的印刷品" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">太浩湖 | 数字时代的印刷品</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/tahoe_magazine.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"tahoe_magazine","sender":"Linguista","subject":"太浩湖 | 数字时代的印刷品","snippet":"太浩湖不仅是北美最大的高山湖泊，更是自然景观与流行文化的交汇点。本文深入解析了这片位于加州与内华达州边界的“蓝宝石”为何闻名遐迩：从其如宝石般透明的高山湖水与四季分明的户外旅游资源，到作为《教父2》经典取景地的电影文化地位，再到作为 AI 历史转折点 AlexNet 拍卖现场的独特科技标签，展现了太浩湖如何将壮丽地理与","date":"2025-09-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","太浩湖","旅游地理","电影文化","科技史"],"tags":["太浩湖","旅游地理","电影文化","科技史"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/tahoe_magazine.md","prompts":[]},"listPosition":{"index":215,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

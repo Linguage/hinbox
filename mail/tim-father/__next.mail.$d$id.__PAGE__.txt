@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T945,<h1>Tim创业路上的父亲智慧与支持</h1>
+<p>Tim 的创业之路生动诠释了如何将单纯的创作激情转化为可持续的商业帝国。这不仅仅是内容的胜利，更是顶层商业思维的胜利。通过及时的公司化运营心智和严格的数据驱动模型，创作者能够迅速捕捉增长节点，将灵感转化为可复制的成功公式，实现从个人 IP 到组织运营的跨越。</p>
+<p>在这一过程中，家庭的支持与智慧扮演了不可或缺的角色。从早期的硬件投入到现金流的无息借款，物质支持为梦想起飞提供了跑道；而“穷养儿”的教育哲学和限额生活费的训练，则塑造了谦逊、自律且具备强大抗风险能力的人格特质。这种“利润先分、股权后置”的务实策略，更是化解合伙人分歧、维持团队稳定的定海神针。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/tim-father.html" data-title="Tim创业路上的父亲智慧与支持" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">Tim创业路上的父亲智慧与支持</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/tim-father.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"tim-father","sender":"Kimi","subject":"Tim创业路上的父亲智慧与支持","snippet":"本卡片深入剖析了内容创作者向 CEO 转型过程中的关键要素。从顶层的商业与内容策略，到数据驱动的成长模型，再到财务与物质支持的坚实后盾，揭示了如何将激情转化为可持续商业。特别强调了分账优先的合伙人智慧、及时公司化运营的心智，以及“穷养儿”教育背景下的自律与抗风险能力，为创业之路提供了从思维到人格的全方位指南。","date":"2025-10-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","创业指南","商业思维","家庭教育","合伙人制度"],"tags":["创业指南","商业思维","家庭教育","合伙人制度"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/tim-father.md","prompts":[]},"listPosition":{"index":172,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

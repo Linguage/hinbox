@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/2507795e1fd4d5e1.js","/hinbox/_next/static/chunks/e14c4b19384a0ca4.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T890,<h1>AI编程工具底层逻辑剖析</h1>
+<p>这份交互式报告深入剖析了以Claude和Cursor为代表的AI编程助手背后的核心技术与设计哲学，揭示了代码大模型从通用预测器转变为专业编程工具的技术演进路径。</p>
+<p>AI编码工具并非简单地将代码灌输给模型，而是一个多阶段的转化过程。它通过在亿万行代码的全球数据上进行预训练，学习通用语法与模式；随后通过监督微调（SFT），使用"指令-代码-测试"数据对，教会模型遵循指令与逻辑，从而为AI注入结构化和逻辑化的"灵魂"，使其能够理解复杂编程指令并生成高质量代码。</p>
+<div class="embedded-html-card border border-subtle rounded-xl my-6 bg-surface min-w-0" data-hinbox-html-card="true" data-src="/hinbox/html-cards/claudecode-1.html" data-title="交互式AI编程工具底层逻辑剖析" data-height="1200px">
+  <div class="rounded-t-xl overflow-hidden bg-surface-soft px-4 py-2 border-b border-subtle flex justify-between items-center">
+    <span class="font-semibold text-sm text-main">交互式AI编程工具底层逻辑剖析</span>
+    <div class="flex items-center gap-3">
+      <a href="#" class="inline-flex items-center rounded-full border border-subtle px-3 py-1 text-xs text-main no-underline hover:bg-surface" data-html-card-toggle="true">
+        展开
+      </a>
+      <a href="/hinbox/html-cards/claudecode-1.html" target="_blank" rel="noopener noreferrer" class="text-xs text-accent hover:underline flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        全屏查看
+      </a>
+    </div>
+  </div>
+  <div class="px-4 py-4 text-xs text-muted bg-surface-soft/40" data-html-card-preview="true">
+    已折叠
+  </div>
+  <div class="rounded-b-xl overflow-x-auto min-w-0 max-w-full" data-html-card-frame="true"></div>
+</div>
+0:{"buildId":"TmkCQFL-7nckKvcpvM04M","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"claudecode-1","sender":"Info Cards","subject":"AI编程工具底层逻辑剖析","snippet":"深入解析Claude与Cursor等AI编程助手的底层技术架构。本文探讨代码大模型如何从通用预测器转变为专业编程工具，详细剖析预训练、监督微调等关键阶段的技术流程，揭示AI编码助手背后的核心设计理念与能力演进逻辑。","date":"2025-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","HTML Cards","AI编程","代码大模型","Claude","Cursor"],"tags":["AI编程","代码大模型","Claude","Cursor"],"body":"$3","mdTheme":"magazine","sourcePath":"infocards/claudecode-1.md","prompts":[]},"listPosition":{"index":311,"total":432}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/e14c4b19384a0ca4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
