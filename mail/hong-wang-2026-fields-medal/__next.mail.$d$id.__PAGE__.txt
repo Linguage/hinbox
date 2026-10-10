@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta4d,<h1>王虹获2026年菲尔兹奖：第三位女性得主</h1>
+<h2>摘要</h2>
+<p>文章讲述数学家王虹与Zahl证明三维Kakeya猜想后，接连斩获多项大奖并于2026年获得菲尔兹奖，成为史上第三位女性得主。文章既回顾她从桂林童年、北京大学到巴黎与MIT的求学历程，也解释Kakeya类问题为何处于调和分析、几何测度论与偏微分方程的交汇点。</p>
+<h2>内容框架与概述</h2>
+<p>文章以获奖消息切入，先写王虹2025年与合作者发布127页三维Kakeya猜想证明的过程，以及随之而来的奖项连锁反应，点出她作为菲尔兹奖史上第三位女性得主的身份与压力。随后转入人物成长：桂林的童年阅读与乒乓球、六岁解出植树趣题、对数学确定性的偏爱，以及在北大转专业、赴法求学、短暂转向建筑又回归数学的曲折。
+接着文章描绘她的治学状态与内心世界：如修女或运动员般的专注，拒绝读书养狗等耗费时间的嗜好，靠瑜伽、朋友与清晨散步缓解自我怀疑。她对数学的执着，源于对确定性的渴求——这是她眼中最不容怀疑的东西。
+最后文章回到学术脉络，说明Kakeya类问题为何居于多个数学分支的交叉中心，并借由导师Guth关于Erdős不同距离问题的清晰讲解，交代她如何被引入关联几何这一核心领域。</p>
+<h2>核心概念及解读</h2>
+<p><strong>Kakeya集猜想</strong>：关于在平面或空间中旋转指针所扫过最小面积或体积的猜想，是Kakeya类问题的基础。</p>
+<p><strong>关联几何</strong>：研究点、线、面等几何对象如何相交与重叠的数学分支，是Kakeya问题的内核。</p>
+<p><strong>调和分析</strong>：研究信号如何分解为不同频率成分的学科，与Kakeya问题关系密切。</p>
+<p><strong>几何测度论</strong>：处理非光滑集合形状与大小的理论，为Kakeya估计提供工具。</p>
+<p><strong>菲尔兹奖</strong>：被视为数学界最高荣誉，每四年颁发给40岁以下的杰出数学家。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/">Hong Wang Wins 2026 Fields Medal, the Third Woman Ever</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Natalie Wolchover</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-23</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"hong-wang-2026-fields-medal","sender":"henri","author":"henri","sourceAuthor":"Natalie Wolchover","authorAliases":["henri","Natalie Wolchover","Henri","Hinbox"],"subject":"王虹获2026年菲尔兹奖：第三位女性得主","snippet":"华人数学家王虹因证明三维Kakeya猜想获2026年菲尔兹奖，成为该奖90年历史上第三位女性得主。文章追溯她从桂林童年到北大、巴黎与MIT的成长轨迹，并解读Kakeya问题如何串联调和分析、几何测度论与偏微分方程。","date":"2026-07-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["Kakeya猜想","调和分析","几何测度论","科研生涯"],"mdTheme":"magazine","sourcePath":"notes/hong-wang-2026-fields-medal.md","sourceUrl":"https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/","body":"$3","prompts":[]},"listPosition":{"index":86,"total":571},"matchedPerson":{"id":"natalie-wolchover","name":"Natalie Wolchover","email":"","contentCount":1,"topTags":[{"id":"kakeya猜想","name":"Kakeya猜想","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},"relatedArticles":[{"id":"wang-hong-fields-medal-profile","subject":"从北大数学系小透明到菲尔兹奖得主王虹专访","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["Kakeya猜想","科研生涯"]},{"id":"hong-wang-2026-fields-medal-2","subject":"王虹获2026年菲尔兹奖与三维Kakeya猜想告破","sender":"henri","date":"2026-07-23","matchedPeople":[],"matchedTags":["Kakeya猜想","调和分析"]},{"id":"princeton-alumni-2026-fields-medals","subject":"普林斯顿校友斩获2026年四分之三菲尔兹奖","sender":"henri","date":"2026-07-30","matchedPeople":[],"matchedTags":["科研生涯"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

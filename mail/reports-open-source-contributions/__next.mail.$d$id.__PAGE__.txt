@@ -1,0 +1,74 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T37b0,<p><em>Vercel的AI SDK、Astro、Flue和tldraw正用软件工厂取代社区随手提交的PR，由成组的智能体完成修复和功能开发。</em></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!s9oN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png" alt="文章插图1"></p>
+<p><em>图中文字译文（译者补充）：智能体时代的开源——我们不要你的代码。外部PR关闭后进入议题／讨论；智能体依次进行分诊、复现、修复、审查；由人类合并。</em></p>
+<p>GitHub发明了拉取请求（pull request，PR），18年来，这项功能一直默认向外部开放。但如今，一些顶尖的AI原生开源项目正在<strong>关闭PR入口</strong>，因为它们找到了更好的办法。</p>
+<p>这些项目包括Flue和tldraw，它们<strong>拒绝接受外部贡献者的PR</strong>，部分原因在于这些PR通常由AI生成。维护者更愿意<strong>用自己的智能体（agent）</strong> 创建和管理PR。</p>
+<p>此外，许多项目开始<strong>使用“<a href="https://www.latent.space/p/software-factories">软件工厂（software factory）</a>”管理社区贡献</strong>。通常，这意味着由一支智能体“团队”对PR进行分诊（triage），复现问题（如果它是一个bug），实施修复或开发新功能，审查结果，然后交还给人类合并。</p>
+<h2>Vercel为AI SDK打造的软件工厂</h2>
+<p>Vercel最近发表了一篇题为“<a href="https://vercel.com/blog/building-a-software-factory-for-ai-sdk">为AI SDK打造软件工厂</a>”的文章。文章介绍了开源AI SDK项目如何<strong>部署智能体，以控制积压的PR和议题（issue）</strong>。这个项目每周在npm上的下载量超过2000万次；截至6月下旬，积压规模已达到“超过1000个尚未关闭的议题和接近800个拉取请求”。</p>
+<p>Vercel的系统中有多种智能体，每一种都<strong>专注于不同任务</strong>。例如，一个智能体复现bug，另一个实施修复，还有一个审查修复。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!rcrq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddfc8420-bc44-436f-b11c-06fd4aa42928_2048x940.png" alt="文章插图2"></p>
+<p><em>图由Vercel提供；批注由Latent Space添加。</em></p>
+<p><em>图中文字译文（译者补充）：批注：由一个大语言模型（LLM）分类；每个智能体都在沙盒中运行；智能体完成全部工作；始终由人类合并。bug流程为复现、创建修复、审查修复；功能流程为分析、实施、审查；文档流程为实施文档修改。</em></p>
+<p>Vercel建立这座软件工厂的一个关键原因，是它<strong>信任自己的智能体来完成工作</strong>，而且这种信任超过了对社区成员运行的智能体的信任。</p>
+<p>“如果我们有一个非常特定的智能体，配备了一个经过我们优化的、非常特定的提示词，而且从以往的情况中知道，它在修复某一类bug时非常成功，那么<strong>我们就会对这个特定的智能体配置建立起信任</strong>，”Vercel工程师<a href="https://x.com/lgrammel">Lars Grammel</a>在<a href="https://www.youtube.com/watch?v=wnydmnIYo1Y">一段YouTube视频</a>中解释道。</p>
+<p>“对于开源项目，值得考虑拥有自己的智能体和自己的配置，<strong>不一定要信任社区</strong>，因为这确实可以减少你审查所花的时间，”他补充道。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!nMrD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feae371b6-70b4-4087-b32b-5adc85cb14f8_2048x1104.png" alt="文章插图3"></p>
+<p><em>AI SDK项目中的软件工厂工作流示例。</em></p>
+<p><em>图中文字译文（译者补充）：批注：社区成员创建的是议题，而非PR；全部这些工作都由智能体完成；智能体创建PR；人类负责将其投入生产。示例功能请求：支持在网页搜索中屏蔽域名。</em></p>
+<p>Grammel还展示了这个系统的<strong>部署架构</strong>，指出“有一个用户界面（UI），有一个Web应用，有底层应用程序接口（API），有执行空间，还有沙盒（sandbox）”。随后，系统与GitHub同步，由GitHub自动触发其他操作。Grammel提到的UI是定制开发的。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!OqyX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d560091-2ef8-4955-8c8a-4df181f5e63e_2048x926.png" alt="文章插图4"></p>
+<p><em>Vercel的软件工厂部署架构；图由Lars Grammel绘制。</em></p>
+<p><em>图中文字译文（译者补充）：组件包括工厂UI、SvelteKit服务器、工厂API、任务执行队列、任务工作进程、日志、智能体工作区、工厂数据，以及用于GitHub同步的Webhook入口、GitHub Webhook队列和GitHub同步工作进程。</em></p>
+<p>这座软件工厂实施仅四周后，<a href="https://vercel.com/blog/building-a-software-factory-for-ai-sdk">Vercel便声称</a>，工厂如今“<strong>编写了我们合并的PR中的25%至35%，并关闭了70%至80%的议题</strong>”。</p>
+<h2>Astro的自动分诊系统</h2>
+<p>在GitHub上拥有6.2万颗星的<a href="https://github.com/withastro/astro">Astro Web框架</a>，也采用了其创始人<a href="https://x.com/FredKSchott">Fred Schott</a>所称的“那个软件工厂思路”。</p>
+<p>“五年来，我们一直处于这样的境地：<strong>议题涌入的速度比我们处理的速度更快</strong>，”Schott对Latent Space说。</p>
+<p>但如今，<strong>随着智能体接手分诊工作，他们重新掌握了局面</strong>。</p>
+<p>“过去六个月里，情况完全变了，”他说。“我们现在可以借助这些自动化来解决议题——处理分诊、复现，<strong>甚至在我们查看之前，就让用户实际验证机器人提出的修复方案</strong>。”</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!JC4n!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feec8857c-0523-44db-920e-3f229cc5e109_2048x1119.png" alt="文章插图5"></p>
+<p><em>Astro工厂机器人运行示例。</em></p>
+<p><em>图中文字译文（译者补充）：批注：Astro的工厂机器人对新提交的社区议题进行分诊；机器人建议的下一步操作；优先级被定为轻微。截图中的议题涉及带有<code>.astro</code> frontmatter时Vite依赖扫描偶发失败。机器人报告已完成分诊，因缺少最小可复现示例而跳过复现，将状态设为<code>triage: needs reproduction</code>。</em></p>
+<p>结果不仅是尚未关闭的议题大幅减少，Astro团队处理新提交的社区请求的方式也彻底改变了。</p>
+<p><strong>“在我十多年参与开源的经历里，我从来没见过这种情况，”</strong> Schott说。“基本上，你能够把议题视为每周都要安排优先级的事情——无论如何都要处理——而不再把它们当成你得不断削减的积压事项。”</p>
+<p>此外，Astro的“自动分诊”系统直接促使Schott创建了<a href="https://www.latent.space/p/flue-2">一个全新的智能体框架，名为Flue</a>。</p>
+<h2>Flue不接受你的PR，但欢迎讨论</h2>
+<p>在Flue上，Schott正在尝试一种更激进的PR处理方式。<a href="https://github.com/withastro/flue?tab=contributing-ov-file">Flue的贡献者指南</a>写道：“我们打算尝试重新构想这件事”，部分目的是防止指南所说的 <strong>“随手扔过来的AI垃圾PR（Drive-by AI slop PRs）”</strong>。</p>
+<p>Schott解释说，基本做法是：<strong>Flue项目中的每一个外部拉取请求都会自动关闭，并转成议题或讨论</strong>。bug报告和修复提案会转成议题，功能请求会转成讨论。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!7zpD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07ff67a9-8771-4b6f-a8e6-8c7613470547_1604x396.png" alt="文章插图6"></p>
+<p><em>根据Flue的贡献者指南，智能体如今能够完成大多数PR任务。</em></p>
+<p><em>图中文字译文（译者补充）：批注：Flue中人类维护者的角色。图中原文的译文：“在一个AI智能体能够在我们睡觉时编写和审查代码的世界里，这一点比以往更重要。新的瓶颈（至少目前如此）是：1. 决定接下来做什么；2. 决定如何实现。至于其他一切（设计、研究、实现、审查），我们发现，如今的智能体已经足够胜任，可以独立负责，或在维护者的协助和指导下推进。”</em></p>
+<p>“如果你提交一个PR，别介意，我们会把它转成议题和讨论，替你把内容呈现出来。然后从那里出发，尝试找到吸纳大家参与的合适方式。”</p>
+<p>这有点像是把新提交的请求当成<strong>线索</strong>，而不是一项让维护者觉得有义务审查的工作。贡献者指南解释说，团队将自身的专业知识与 <strong>“我们能用到的、目前最先进的（State-of-the-Art，SOTA）大语言模型（LLM）”</strong> 相结合，帮助他们决定下一步做什么。</p>
+<p>一旦议题或讨论中做出了决定，就会部署智能体，进行“研究、设计、实现和初步审查”。</p>
+<h2>如果我们的智能体来写代码，你的外部PR就毫无价值</h2>
+<p>与Flue一样，“源码可用（source available）”的React绘图工具<a href="https://github.com/tldraw/tldraw">tldraw</a>（5万颗星）也会<strong>自动关闭外部PR</strong>。</p>
+<p>项目创始人Steve Ruiz在<a href="https://github.com/tldraw/tldraw/issues/7695">1月宣布了这项政策</a>，五个月后又<a href="https://github.com/tldraw/tldraw/issues/9422">重申了一次</a>。他指出，这是“一个体现了明确立场的决定，回应的是我们编码方式的变化（更多讨论、更多智能体）、围绕公开贡献的社会实践，以及代码安全格局的变化”。</p>
+<blockquote>
+<p><a href="https://x.com/steveruizok/status/2063290888055398516">Steve Ruiz（@steveruizok）</a></p>
+<p>我现在这些议题里发生的事可真荒唐。</p>
+<p>2026年6月6日</p>
+</blockquote>
+<p><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHKJIHKEXwAAJyeL.jpg" alt="文章插图7"></p>
+<p><em>图中文字译者摘译：Steve Ruiz推文所附截图：“为通过<code>/issue</code> skill创建的议题添加slop标签”。截图说明，这个skill会根据简短描述创建GitHub议题，再扩展成完整的bug报告或功能请求；这些由智能体编写的议题无法与人工撰写的议题区分，维护者无法据此筛选或分别分诊。提议的解决办法是为该skill创建的所有议题添加<code>slop</code>标签。</em></p>
+<p>HashiCorp联合创始人、Ghostty创始人Mitchell Hashimoto，如今也是<a href="https://mitchellh.com/writing/superlogical">Superlogical的联合创始人</a>，则更进一步。<a href="https://x.com/mitchellh/status/2064361174196682789">他认为</a>，“未来，<strong>大型开源项目会彻底关闭外部贡献</strong>”。</p>
+<p><a href="https://x.com/steveruizok/status/2064381300572672450">Ruiz回应道</a>：“如果议题描述得已经足够清楚，而代码又可以由智能体编写，那么让别人贡献代码就更没什么道理了。”</p>
+<h2>但是……社区会怎么样？</h2>
+<p>传统开源项目中，维护者审查拉取请求，不仅是为了审查代码，<strong>也为了指导贡献者，并评估他们能否成为未来的维护者</strong>。如果AI SDK和Astro这样的项目，用自己的智能体完成大量代码审查和实现工作，那么想要更积极参与的社区成员该何去何从？</p>
+<p>Schott承认这是一个风险。</p>
+<p>“这仍然留下了一个缺口：如果你一直把项目收窄，到了某个时候，你和我都去度假了——会怎么样？它并不能真正解决所有问题。”</p>
+<p>不过，Flue和tldraw虽然都不接受PR，<strong>却接受新议题和讨论</strong>，这一事实或许指向了一种解决办法。也就是通过更多地交谈，社区成员能够更好地了解彼此、信任彼此；这既是<strong>向同行学习</strong>的方式，也可能是<strong>证明自己够格成为维护者</strong>的方式。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!n46D!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e03bfa0-9dae-4561-9f9a-bcd9da0d67b4_2048x1269.png" alt="文章插图8"></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!obLG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35f066d9-4eb4-40ac-a143-680adf57c6b8_2048x1267.png" alt="文章插图9"></p>
+<p><em>tldraw议题（上图）被转成PR（下图）的示例。</em></p>
+<p><em>图中文字译文（译者补充）：上图批注：社区贡献者添加新议题，报告高亮文字在深色模式下显示描边。下图批注：使用Codex帮助将议题转成拉取请求；主要维护者将议题转成PR。修复标题为“修复（编辑器）：移除深色模式下高亮文字的描边”。</em></p>
+<p>至于代码，如果维护者自己使用AI，比接受外部代码贡献更容易，那么正如tldraw创始人<a href="https://tldraw.dev/blog/stay-away-from-my-trash">Steve Ruiz所说</a>：<strong>“最好把社区贡献限制在它仍然重要的那些地方：报告问题、讨论、视角，以及关心。”</strong></p>
+<hr>
+<p><em>此文章由AI翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-open-source-contributions","sender":"Latent.Space","author":"Richard MacManus","authorAliases":["Richard MacManus"],"publisher":"Latent.Space","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","snippet":"Richard MacManus通过开源项目案例介绍贡献者管理、PR政策与维护负担，讨论AI代码贡献带来的治理问题。","date":"2026-09-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["开源","AI编程","社区治理"],"mdTheme":"magazine","sourcePath":"reports/open-source-contributions.md","sourceUrl":"https://www.latent.space/p/pr-not-welcome","body":"$3","prompts":[]},"listPosition":{"index":45,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-interview-software-factories","subject":"Warp CEO Zach Lloyd：为什么软件工厂是编程的下一阶段","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["AI编程"]},{"id":"talks-interview-cursor-forward-deployed-engineers","subject":"Cursor 如何在企业内部部署 AI","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["AI编程"]},{"id":"talks-latent-runway","subject":"Runway 的 WorldPrompt 与实时世界的工程实现","sender":"Richard MacManus","date":"2026-09-25","matchedPeople":["Richard MacManus"],"matchedTags":[]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

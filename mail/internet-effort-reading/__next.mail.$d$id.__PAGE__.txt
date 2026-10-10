@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tf1b,<p>Andrey Mir在<a href="https://default.blog/p/the-internet-doesnt-want-your-attention">《The Internet Doesn't Want Your Attention. It Wants Your Effort.》</a>中，把点击、点赞和分享称为数字平台上的劳动。这篇文章于2026年4月9日刊登在default.blog，节选自他2025年的《The Digital Reversal》。</p>
+<h2>从使用媒介到帮助媒介发展</h2>
+<p>Mir的起点是互惠：媒介帮人完成越来越多的工作，人则把腾出的时间继续投入媒介。点击和反应为平台提供参与和数据，平台再用便利与反馈吸引用户参与。在<a href="https://default.blog/p/the-internet-doesnt-want-your-attention">文章开头</a>，他借用McLuhan关于人与机器、蜜蜂与植物的比喻，描述这种共同发展。</p>
+<p>“劳动”在这里指用户活动产生可被平台利用的参与和数据。Mir把早晨第一次点击比作打卡，强调日常使用也参与了平台价值的形成。这一比喻把读者的注意力引向用户提供了什么，以及平台如何取得这些东西。</p>
+<h2>从微小动作到即时奖励</h2>
+<p>Mir接着讨论点击的低成本。用户可以迅速试一个选项，不满意就再点一次；点赞和他人的反应，又不断提供微小、即时的反馈。按他的解释，奖励量小而不易满足，人便会增加互动次数，逐渐习惯低投入、快反馈的节奏。</p>
+<p>文章在这里转引Michel Desmurget关于试错的说法，又转引Douglas Rushkoff对点赞、关注数与社会接纳感的评论。两者承担的作用不同：前者解释选择方式，后者解释用户怎样通过可见指标感知他人的认可。相关书目可见<a href="https://default.blog/p/the-internet-doesnt-want-your-attention">原文脚注</a>。</p>
+<h2>从存在感到身份竞争</h2>
+<p>在<a href="https://default.blog/p/the-internet-doesnt-want-your-attention">文章后半部分</a>，Mir把论证延伸到社会价值判断：数字平台只需用户表明自己在场，就能获得参与，因此，身份表达也可能成为获取认可的手段。多人争取认可时，声音容易被其他声音淹没；他据此解释更强烈的自我标识、愤怒与极化。</p>
+<p>Mir由此提出，平台持续奖励的动作，可能影响人们怎样理解努力、认可和自身价值。Mir也把年轻人的行为变化归因于媒介环境，反对把它简单归结为个人品格。</p>
+<h2>两处需要更多证据的跨越</h2>
+<p>第一处是从即时反馈跨到长期认知变化。Mir写到点击会重塑决策回路、削弱专注与坚持，还提到大脑对点赞的反应。他在这一段使用了“研究显示”，却没有给出可定位的实验或论文。判断这种因果关系，需要知道研究如何测量使用习惯和认知能力、是否有长期追踪，以及怎样区分原有差异和使用后的变化。文章所列的书目不能直接补足这些具体条件。</p>
+<p>第二处是从平台奖励跨到代际生活与政治变化。更少组建家庭、晚离开父母，以及身份政治和极化，都是Mir沿着“点击—奖励—价值判断”继续展开的解释。原文没有列出能区分这些结果与其他原因的比较材料。平台互动的描述可以支持这一研究问题，但距离确认整条因果链还有多项待验证的关系。</p>
+<p>阅读这篇<a href="https://default.blog/p/the-internet-doesnt-want-your-attention">原作</a>时，可以分别追踪三个层次：平台从用户动作中获得的东西，用户如何体验反馈，以及作者据此解释的社会变化。前两层帮助界定观察对象；第三层需要与具体研究、时间和群体相联系，才足以承担更广的结论。</p>
+<hr>
+<p><em>本文为AI辅助整理的阅读笔记；原作观点归于Andrey Mir，论证评议归于编者。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"internet-effort-reading","sender":"Default Friend","author":"henri","sourceAuthor":"Andrey Mir","authorAliases":["henri","Andrey Mir","Henri","Hinbox"],"publisher":"Default Friend","subject":"点击作为劳动的解释与限度","snippet":"梳理Andrey Mir从点击劳动到即时奖励与身份竞争的论证，区分媒介隐喻、行为解释和需要实证支持的因果判断。","date":"2026-10-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["数字劳动","媒介生态","身份认同"],"mdTheme":"magazine","sourcePath":"notes/internet-effort-reading.md","sourceUrl":"https://default.blog/p/the-internet-doesnt-want-your-attention","body":"$3","prompts":[]},"listPosition":{"index":21,"total":571},"matchedPerson":{"id":"andrey-mir","name":"Andrey Mir","email":"","contentCount":1,"topTags":[{"id":"媒介生态","name":"媒介生态","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"身份认同","name":"身份认同","count":1}]},"relatedArticles":[]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

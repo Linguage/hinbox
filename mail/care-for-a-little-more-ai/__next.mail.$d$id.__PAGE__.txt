@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta2a,<h1>AI碾压猜想之后数学何去何从</h1>
+<h2>摘要</h2>
+<p>作者以渗流理论猜想θ(p_c)=0为线索，指出前沿AI在众多数学任务上已远超自己，其生成的证明可能在一个领域尚未成熟前就将其斩首。他认为数学的珍宝是探索过程、失败与人际相遇催生的思想，而非定理产量，因此呼吁数学家坚持由人探索，不把认知与创造力交给机器。</p>
+<h2>内容框架与概述</h2>
+<p>作者先作声明，只谈AI对数学共同体的直接影响，承认AI进步惊人、部分问题确实会因之受益，随即抛出核心疑问：数学中大量涌现的AI生成证明，真的是我们需要的吗。</p>
+<p>他以渗流理论猜想θ(p_c)=0为主线索，讲述自己多年未解却因此结识合作者、重启随机流工具、收获无数想法的经历，说明一个问题远不只是待证的定理，更是照亮研究道路的灯塔。</p>
+<p>他批评当下用法让人僵住：人工发现可能在领域充分发展前将其斩首，如核爆般令数学版图难以居住，并伤害青年学者的选题、能力培养与职业文化。</p>
+<p>最后他坦言没有解决方案，但主张数学家的使命是生产理解而非仅生产定理，应继续教授怀疑、实验与失败，并表明自己已选择不依靠AI替代创造过程。</p>
+<h2>核心概念及解读</h2>
+<p><strong>θ(p_c)=0 猜想</strong>：渗流理论最著名的未解猜想，陈述极简却难度极高，被视为最适合前沿模型攻克的候选问题。</p>
+<p><strong>斩首效应</strong>：AI生成的发现可能在一个研究领域尚未充分发展前就终结其核心问题，压缩后人的探索空间。</p>
+<p><strong>过程重于答案</strong>：作者主张数学的价值在于反复失败、绕路与思想流动，而非快速产出定理。</p>
+<p><strong>生产理解</strong>：数学家的真正使命是让抽象概念经共同体逐步内化，并传递给下一代文化。</p>
+<p><strong>认知让渡</strong>：把创造力哪怕部分交给机器，意味着放弃人类智力探索的自主边界。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/?utm_source=chatgpt.com">Care for a little more AI?</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-08-30</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"care-for-a-little-more-ai","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"AI碾压猜想之后数学何去何从","snippet":"菲尔兹奖得主Hugo Duminil-Copin以渗流理论著名猜想为例，反思生成式AI对数学的直接冲击：AI或将抢先完成核心证明，使尚未成熟的研究领域被提前斩首，并侵蚀以过程与理解为本的数学文化与年轻学者的成长路径。","date":"2026-08-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","数学研究","渗流理论","数学教育"],"mdTheme":"magazine","sourcePath":"notes/care-for-a-little-more-ai.md","sourceUrl":"https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/?utm_source=chatgpt.com","body":"$3","prompts":[]},"listPosition":{"index":47,"total":571},"relatedArticles":[{"id":"talks-hugo-duminil-copin-ai-future-mathematics","subject":"AI 会杀死数学吗？——雨果·迪米尼尔-科潘访谈","sender":"Hugo Duminil-Copin, David Louapre","date":"2026-10-08","matchedPeople":[],"matchedTags":["人工智能","数学研究","渗流理论","数学教育"]},{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"henri","date":"2026-08-30","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

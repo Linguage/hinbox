@@ -1,0 +1,48 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8fc,<h1>世界杯赛事夜谷歌搜索量创历史峰值</h1>
+<h2>摘要</h2>
+<p>谷歌宣布世界杯淘汰赛阿根廷绝杀埃及后，搜索每秒查询量创历史新高，峰值出现在制胜球之后。官方未公布具体数字，仅称赛后查询量冲至顶峰。文章指出，该里程碑被谷歌用于回应AI聊天机器人带来的搜索业务质疑，同期其仍占约九成市场份额，股价一年翻倍，一季度营收增速为2022年以来最快。</p>
+<h2>内容框架与概述</h2>
+<p>报道以一条纪录切入：世界杯淘汰赛阿根廷对埃及的补时逆转，使谷歌搜索每秒查询量登上历史峰值，公司高管在社交平台公开发声，却未提供任何具体数据。</p>
+<p>随后文章交代赛事细节与用户行为，列出赛后的热门查询，包括阿根廷对埃及、阿根廷对哥伦比亚、梅西世界杯进球数等，呈现重大体育事件如何集中引爆检索需求。</p>
+<p>最后转入行业背景，指出谷歌正努力证明传统搜索在AI聊天机器人时代仍具相关性，并援引市场份额、股价涨幅与季度营收增速等数据佐证，把一次瞬时流量峰值与长期的竞争叙事勾连起来。</p>
+<h2>核心概念及解读</h2>
+<p><strong>每秒查询量</strong>：衡量搜索引擎瞬时并发请求规模的核心指标，此处被当作历史峰值的证据。</p>
+<p><strong>AI聊天机器人冲击</strong>：生成式对话产品分流信息获取入口，动摇传统搜索的使用习惯。</p>
+<p><strong>搜索市场份额</strong>：谷歌仍握有约九成份额，是其回应竞争质疑的关键底气。</p>
+<p><strong>体育事件流量脉冲</strong>：重大赛事瞬时汇聚全球注意力，形成可预测的流量尖峰。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.cnbc.com/2026/07/08/world-cup-drives-google-search-to-record-queries-per-second.html">World Cup drives Google Search to record queries per second</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Jennifer Elias</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-09</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>58/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"google-search-record-world-cup","sender":"henri","author":"henri","sourceAuthor":"Jennifer Elias","authorAliases":["henri","Jennifer Elias","Henri","Hinbox"],"subject":"世界杯赛事夜谷歌搜索量创历史峰值","snippet":"世界杯阿根廷绝杀埃及后，谷歌搜索每秒查询量创历史新高，官方未公布具体数字，此举被视为传统搜索在AI聊天机器人冲击下仍具活力的证明。","date":"2026-07-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["搜索系统","足球","网络流量"],"mdTheme":"magazine","sourcePath":"notes/google-search-record-world-cup.md","sourceUrl":"https://www.cnbc.com/2026/07/08/world-cup-drives-google-search-to-record-queries-per-second.html","body":"$3","prompts":[]},"listPosition":{"index":119,"total":571},"matchedPerson":{"id":"jennifer-elias","name":"Jennifer Elias","email":"","contentCount":1,"topTags":[{"id":"搜索系统","name":"搜索系统","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"足球","name":"足球","count":1}]},"relatedArticles":[{"id":"manuel-neuer-bayern-preseason-training-camp","subject":"诺伊尔季前集训谈新赛季目标与退役计划","sender":"FC Bayern München AG","date":"2026-07-29","matchedPeople":[],"matchedTags":["足球"]},{"id":"talks-interview-regret-superstition-and-trauma-bonding","subject":"遗憾、迷信与共同创伤带来的联结：两位冠军谈参加世界杯的真实体验","sender":"Welcome to the Party","date":"2026-07-16","matchedPeople":[],"matchedTags":["足球"]},{"id":"essays-really-good-search-is-hard","subject":"真正优秀的搜索系统实属难得","sender":"Abhi@abh1a0","date":"2025-12-02","matchedPeople":[],"matchedTags":["搜索系统"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Taeb,<h1>传奇Erdős问题为何接连被AI攻克</h1>
+<h2>摘要</h2>
+<p>2026年，OpenAI的未公开模型给出Erdős单位距离猜想的反例，另一模型又解决多个Erdős难题，一些数学家将这些进展视为AI数学能力的相变。文章回溯Thomas Bloom所建问题网站的社区化过程，记录业余者与陶哲轩的平等协作，以及AI如何从代码工具变成解题主角。</p>
+<h2>内容框架与概述</h2>
+<p>文章以2026年OpenAI模型破解Erdős单位距离猜想开篇，指出这一成果虽非定论，却是首个有历史意义的AI数学证明，且在数日内催生更多相关突破，数学界由此承认研究方式正被根本改变。</p>
+<p>接着回溯Erdős其人：终身漂泊、悬赏出题、生活方式怪异而慷慨，其遗留的数千问题因一位英国数学家整理的清单而获得新的组织形态，并意外成为科技巨头展示能力的公共舞台。</p>
+<p>作者随后讲述Bloom在2023年搭建erdosproblems.com，本为自用，2025年加上评论功能后逐渐形成社区。业余者van Doorn在此与陶哲轩交锋并获认可，展现互联网最民主的一面：学位与头衔不再决定谁能参与。</p>
+<p>最后笔锋转向冬季之后的转变。Barreto与Price等年轻人用特定提示技巧让模型误判题目难度，使GPT系列给出Erdős问题的解答；原先的人类协作社区开始面对AI批量解题带来的变化。</p>
+<h2>核心概念及解读</h2>
+<p><strong>单位距离问题</strong>：Erdős于1946年提出的离散几何猜想，2026年被AI模型给出反例，是AI首个有历史意义的数学成果。</p>
+<p><strong>Erdős问题</strong>：Erdős一生提出并悬赏的数千个问题，横跨数论与组合数学，如今成为检验AI能力的公共基准。</p>
+<p><strong>erdosproblems.com</strong>：Bloom整理的问题清单网站，其评论区意外催生了职业与业余者共处的研究社区。</p>
+<p><strong>提示诱导</strong>：让模型误以为问题已被解决或比实际更简单，以促使其尝试解题的一种提示策略。</p>
+<p><strong>数学研究的相变</strong>：指AI从写代码的辅助工具跃升为能提出新证明与反例的合作者，进而改变分工与社区结构。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/">Why the Legendary Erdős Problems Are Falling to AI</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Konstantin Kakaes</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-08-03</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"erdos-problems-falling-to-ai","sender":"henri","author":"henri","sourceAuthor":"Konstantin Kakaes","authorAliases":["henri","Konstantin Kakaes","Henri","Hinbox"],"subject":"传奇Erdős问题为何接连被AI攻克","snippet":"从Thomas Bloom搭建的问题清单网站，到OpenAI模型接连破解Erdős猜想与难题，文章讲述业余爱好者、陶哲轩与AI如何共同改写数学研究的方式。","date":"2026-08-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","数学研究","开放问题"],"mdTheme":"magazine","sourcePath":"notes/erdos-problems-falling-to-ai.md","sourceUrl":"https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/","body":"$3","prompts":[]},"listPosition":{"index":66,"total":571},"matchedPerson":{"id":"konstantin-kakaes","name":"Konstantin Kakaes","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/konstantin-kakaes/","bio":"为 Quanta 撰写数学与人工智能报道，曾负责该刊数学编辑工作，也曾在《经济学人》等媒体工作。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"代数几何","name":"代数几何","count":1},{"id":"开放问题","name":"开放问题","count":1}]},"relatedArticles":[{"id":"grothendieck-mathematics-revolution","subject":"格罗滕迪克如何重塑现代数学的空间观","sender":"henri","date":"2026-05-20","matchedPeople":["Konstantin Kakaes"],"matchedTags":[]},{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究"]},{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"henri","date":"2026-08-30","matchedPeople":[],"matchedTags":["人工智能","数学研究"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

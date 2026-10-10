@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta6b,<h1>八十年后数学家为埃尔德什概率方法升级</h1>
+<h2>摘要</h2>
+<p>1947年埃尔德什提出概率方法，用随机性证明满足条件的图必然存在，却无法给出具体构造。此后八十年，对角拉姆齐数的下界几乎停滞。清华研究生沈维杰联合同行，借助高维球面几何建立相关性染色模型，按节点间距离决定边色，改进了近对角拉姆齐数的下界，并可能反哺图论其他问题。</p>
+<h2>内容框架与概述</h2>
+<p>文章从埃尔德什1947年的概率方法讲起：他不构造具体对象，只证明随机取一个图时命中目标的概率大于零，由此推出拉姆齐数下界。方法仅数行，却颠覆了必须有实例的旧观念，后来成为离散数学与计算机科学的通用工具。</p>
+<p>接着交代问题的难点。单色团是禁止出现的结构，图足够大时无论如何染色都躲不开，因此拉姆齐数极难精确计算，只能不断逼近。而在埃尔德什最初关注的对角情形，八十年努力仅把下界从二的五百次方推到二的五百零一次方。</p>
+<p>随后是突破线索。沈维杰把节点随机撒在高维球面上，再按距离远近给边染色，使需要彼此远离的红色团难以形成；代价是蓝色团增多，但权衡之后在近对角情形仍有收益。这种几何化的相关性舍弃了各边独立同分布的假设。</p>
+<h2>核心概念及解读</h2>
+<p><strong>概率方法</strong>：用随机取样命中目标的概率大于零，来证明对象存在，绕开显式构造。</p>
+<p><strong>拉姆齐数</strong>：图大到一定程度必然出现单色团的最小规模，衡量无序中的必然结构。</p>
+<p><strong>单色团</strong>：由同色边两两相连的节点集合，是染色图中被禁止出现的模式。</p>
+<p><strong>高维球面几何</strong>：高维球面体积小、表面积大、点集中于赤道，违背低维直觉，被用作染色模型。</p>
+<p><strong>相关性染色</strong>：按节点间距离决定边的颜色，使红蓝两类坏结构的概率不再对称。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/">After 80 Years, Mathematicians Give Famed Erdős Method an Upgrade</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Leila Sloman</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-06-26</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>85/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"erdos-probabilistic-method-ramsey-upgrade","sender":"henri","author":"henri","sourceAuthor":"Leila Sloman","authorAliases":["henri","Leila Sloman","Henri","Hinbox"],"subject":"八十年后数学家为埃尔德什概率方法升级","snippet":"八十年后，数学家借助高维球面几何改造埃尔德什的概率方法，改进了长期停滞的近对角拉姆齐数下界。","date":"2026-06-26","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["概率方法","拉姆齐理论","高维几何"],"mdTheme":"magazine","sourcePath":"notes/erdos-probabilistic-method-ramsey-upgrade.md","sourceUrl":"https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/","body":"$3","prompts":[]},"listPosition":{"index":150,"total":571},"matchedPerson":{"id":"leila-sloman","name":"Leila Sloman","email":"","contentCount":1,"topTags":[{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"高维几何","name":"高维几何","count":1}]},"relatedArticles":[]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

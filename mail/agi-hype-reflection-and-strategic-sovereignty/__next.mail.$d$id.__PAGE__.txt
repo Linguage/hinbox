@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta91,<h1>朱松纯谈AI热潮反思与思想自主</h1>
+<h2>摘要</h2>
+<p>文章系朱松纯2026年世界人工智能大会思想者论坛演讲整理。作者从叙事、营销、泡沫三层解构当前AI热潮，指出大模型即AGI、规模定律、人类危机叙事均为资本驱动的营销杠杆，本质是美国以AI为杠杆虹吸全球资源的战略。进而主张回到智能由内在价值驱动这一第一性原理，构建AGI的哲学、数理、模型、算法、执行五层架构，探索人机共生时代的何以为人与何以生活。</p>
+<h2>内容框架与概述</h2>
+<p>全文分三章。第一章回望与反思，梳理国际叙事如何从全球化转向美国优先，AI如何成为大国竞争的战略锚点，并指出泡沫的本质是技术价值被过早过度折现。第二章进一步拆解市场层面的营销手法，将大模型即AGI、规模定律、人类灭绝叙事归为三类技术误判，认为它们经商业包装成为撬动资本投入的杠杆。第三章转向思想自主，主张从哲学层回到智能的主观性、内生性与价值驱动本质，提出AGI创新的五个层次，并强调科技与产业创新深度融合及主权AI建设。最后展望人机共生的文明形态，追问智能时代的工作方式、人生价值与意义。整体逻辑由现象批判走向原理重建，再落到文明命题，兼具产业分析与哲学思辨色彩。</p>
+<h2>核心概念及解读</h2>
+<p><strong>三重奏</strong>：硅谷技术、华尔街资本与华盛顿政策捆绑，合力把全球资本虹吸至美国AI基础设施。</p>
+<p><strong>大模型即AGI</strong>：把语言序列的概率分布拟合等同于通用人工智能，属概念偷换，不具备因果认知能力。</p>
+<p><strong>规模定律</strong>：认为数据、参数与算力无限扩张即可涌现AGI，作者指其已被实践证伪。</p>
+<p><strong>第一性原理</strong>：智能是主观、内生的，由内在价值体系驱动的主动探索，而非对外部数据的被动拟合。</p>
+<p><strong>主权AI</strong>：前沿模型被升级为国家战略管控资源后，各国追求自主可控全栈技术体系的诉求。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://zhuanlan.zhihu.com/p/2062329106776298946">朱松纯两万字演讲：AI热潮的回望与反思、思想自主、未来展望</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>知识分子​</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-21</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>82/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"agi-hype-reflection-and-strategic-sovereignty","sender":"知识分子","author":"henri","authorAliases":["henri","Henri","Hinbox"],"publisher":"知识分子","subject":"朱松纯谈AI热潮反思与思想自主","snippet":"朱松纯在2026世界人工智能大会思想者论坛的演讲整理，解构AI热潮背后的国际叙事、硅谷华尔街华盛顿三重奏与产业泡沫，主张回到智能的第一性原理，构建AGI的战略主动与中国叙事。","date":"2026-07-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["通用人工智能","科技政策","产业经济"],"mdTheme":"magazine","sourcePath":"notes/agi-hype-reflection-and-strategic-sovereignty.md","sourceUrl":"https://zhuanlan.zhihu.com/p/2062329106776298946","body":"$3","prompts":[]},"listPosition":{"index":92,"total":571},"relatedArticles":[{"id":"talks-interview-a16z-clarity","subject":"Marc Andreessen 与 Chris Dixon：美国为什么需要 CLARITY 法案","sender":"a16z","date":"2026-08-03","matchedPeople":[],"matchedTags":["科技政策"]},{"id":"open-weights-and-american-ai-leadership","subject":"开放权重与美国AI领导力之辩","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["科技政策"]},{"id":"essays-alphago-at-10-how-ai-innovation-is-paving-the-path-to-agi","subject":"AlphaGo 十周年：AI 创新如何铺就通向 AGI 之路","sender":"Demis Hassabis","date":"2026-03-10","matchedPeople":[],"matchedTags":["通用人工智能"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tabc,<h1>林纳斯自述不再是程序员：只用两个工具</h1>
+<h2>摘要</h2>
+<p>在开源峰会上，林纳斯表示Linux走的是九到十周一次的稳步节奏，刻意避免大张旗鼓的新特性。他认为AI找漏洞给社区带来了压力，并坚持淘汰无人使用的过时硬件与协议。他已自认不再是程序员，而是开发主管，日常只用Git和邮件，写补丁仅为建议。他看好C的验证工具，并警告Rust无法修复逻辑错误。</p>
+<h2>内容框架与概述</h2>
+<p>文章以林纳斯与老友对谈形式展开，先谈Linux 7.1的定位。他强调发布只是持续增量的改进，而非轰动性功能，这种模式正被AI不断挖出漏洞的压力所扰动。
+随后话题转向他的日常工作方式。他描述合并窗口内约两百次合并的节奏，希望维护者不要把非关键修复压到最后提交。他坦言真正让人疲惫的不是技术问题，而是人际与性格问题。
+接着是身份转变的自述。他几乎不再读代码，只写带有建议性质的小补丁，更关注拉取请求背后的意图和整体图景，愿意在构建中断或冲突时才深入代码。
+最后是技术与生态判断。他认为自己不是多愁善感的人，主张清理博物馆级硬件和ISDN、ATM等旧标准；同时质疑Rust能包治百病的说法，强调语言无法纠正逻辑错误，而混合代码边界上其保证会失效。</p>
+<h2>核心概念及解读</h2>
+<p><strong>开发主管</strong>：林纳斯的自我定位，几乎不读代码，重心转向理解意图、协调人与推进流程。</p>
+<p><strong>稳步演进模型</strong>：自Git诞生后确立的发布哲学，拒绝大特性，追求每九到十周一次的持续增量改进。</p>
+<p><strong>博物馆级硬件</strong>：指几乎无人使用、仅存于收藏场景的旧设备与协议，维护成本超过价值后即被移除。</p>
+<p><strong>Rust的保证边界</strong>：其内存安全等保证只在纯Rust代码内成立，与C交互处失效，且无法修复逻辑错误。</p>
+<p><strong>自动化验证工具</strong>：如补丁校验与邮件检查类工具，被视为比换语言更能提升C代码质量的方向。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.zdnet.com/article/open-source-summit-linus-torvalds/">Im not a programmer anymore: Linus Torvalds on the only two tools he uses now</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Steven Vaughan-Nichols</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-09</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>78/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"linus-torvalds-development-lead-two-tools","sender":"henri","author":"henri","sourceAuthor":"Steven Vaughan-Nichols","authorAliases":["henri","Steven Vaughan-Nichols","Henri","Hinbox"],"subject":"林纳斯自述不再是程序员：只用两个工具","snippet":"林纳斯在开源峰会上谈论Linux稳步演进、AI带来的压力、淘汰过时硬件，以及他自认不再是程序员而是开发主管，日常只用Git和邮件两件工具。","date":"2026-07-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["Linux","Git","开源","软件维护"],"mdTheme":"magazine","sourcePath":"notes/linus-torvalds-development-lead-two-tools.md","sourceUrl":"https://www.zdnet.com/article/open-source-summit-linus-torvalds/","body":"$3","prompts":[]},"listPosition":{"index":120,"total":571},"matchedPerson":{"id":"steven-vaughan-nichols","name":"Steven Vaughan-Nichols","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"linux","name":"Linux","count":1},{"id":"开源","name":"开源","count":1}]},"relatedArticles":[{"id":"essays-why-i-still-love-linux","subject":"Why I (still) love Linux","sender":"henri","date":"2025-12-02","matchedPeople":[],"matchedTags":["Linux","开源"]},{"id":"flathub-anti-llm-submission-abandonment-study","subject":"反人工智能提交政策下的开源维护困境","sender":"henri","date":"2026-07-05","matchedPeople":[],"matchedTags":["开源","软件维护"]},{"id":"talks-git-20th-anniversary-linus-torvalds-interview","subject":"Git 诞生二十周年访谈","sender":"Linus Torvalds","date":"2025-04-07","matchedPeople":[],"matchedTags":["Git","开源"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

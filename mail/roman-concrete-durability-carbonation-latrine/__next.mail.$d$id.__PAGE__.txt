@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb7c,<h1>罗马混凝土千年不倒的碳化之谜</h1>
+<h2>摘要</h2>
+<p>科学家长期认为罗马混凝土的耐久性源于火山灰与石灰、水的火山灰反应。最新发表于Science Advances的研究从哈德良别墅一座1900年前的厕所取样，发现大气二氧化碳与混凝土中钙化合物生成的方解石才是主要粘结物，可填充孔隙与裂缝，使结构随岁月自我修复。这一发现为降低现代水泥碳排放提供了新思路。</p>
+<h2>内容框架与概述</h2>
+<p>文章以古今对比切入：现代混凝土通常约百年即损毁，而罗马的道路、渡槽与建筑屹立近两千年，耐久性之谜长期困扰学界，过去普遍归因于火山灰反应。</p>
+<p>研究者选择哈德良别墅的公共厕所作为样本，理由是厕所从无人修复，材料在十九个世纪里未曾受现代干预，等于一场无人能复制的天然实验。他们借助高倍显微镜、X射线与化学成分分析展开检测。</p>
+<p>结果表明，除火山灰反应外，长期碳化形成的方解石构成主要粘结相，能封堵微孔与裂隙并促成自愈。这一结论延续并深化了2023年关于生石灰遗留钙质沉积可自修复裂缝的研究，使碳酸盐从边缘角色走向核心。</p>
+<p>文末转向现实意义：水泥生产约占全球碳排放的百分之八，而2050年前仍有大量建筑尚未建成，理解古法有助于开发更低碳、更耐久的建筑材料。</p>
+<h2>核心概念及解读</h2>
+<p><strong>碳化反应</strong>：大气二氧化碳与混凝土中钙化合物反应生成碳酸钙，长期累积可封堵裂缝并增强耐久性。</p>
+<p><strong>火山灰反应</strong>：火山灰与石灰、水发生反应生成胶凝物质，是学界公认的罗马混凝土强度来源。</p>
+<p><strong>方解石</strong>：含钙、碳、氧的矿物，在本研究样本中充当主要粘结物，是自愈能力的物质基础。</p>
+<p><strong>自愈混凝土</strong>：材料内部钙质沉积遇水重结晶，自动填补裂缝，使古罗马结构随时间强化。</p>
+<p><strong>哈德良别墅</strong>：罗马皇帝哈德良于蒂沃利的庞大庄园，其未修复的厕所提供了原始状态的混凝土样本。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/">How Has Roman Concrete Lasted for Millennia? A 1,900-Year-Old Latrine Offers New Clues About the Materials Impressive Durability</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Sara Hashemi</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-14</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>78/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"roman-concrete-durability-carbonation-latrine","sender":"henri","author":"henri","sourceAuthor":"Sara Hashemi","authorAliases":["henri","Sara Hashemi","Henri","Hinbox"],"subject":"罗马混凝土千年不倒的碳化之谜","snippet":"新研究从哈德良别墅一座1900年前的厕所混凝土取样，发现除火山灰反应外，长期碳化生成的方解石也是关键粘结物，能自动封堵裂缝，为低碳水泥研发提供线索。","date":"2026-07-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["混凝土","材料科学","低碳技术"],"mdTheme":"magazine","sourcePath":"notes/roman-concrete-durability-carbonation-latrine.md","sourceUrl":"https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/","body":"$3","prompts":[]},"listPosition":{"index":110,"total":571},"matchedPerson":{"id":"sara-hashemi","name":"Sara Hashemi","email":"","contentCount":1,"topTags":[{"id":"低碳技术","name":"低碳技术","count":1},{"id":"材料科学","name":"材料科学","count":1},{"id":"混凝土","name":"混凝土","count":1}]},"relatedArticles":[{"id":"reports-why-solid-state-batteries-keep-short-circuiting","subject":"固态电池为何反复短路","sender":"MIT News","date":"2026-03-26","matchedPeople":[],"matchedTags":["材料科学"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

@@ -1,0 +1,106 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3c56,<p>这几年来，我一直在尝试各种在沙箱（sandbox）中运行代码的方法。最近这次尝试让我觉得，它也许终于具备了我一直寻找的全部特性。我已经把它作为一个名为 <a href="https://github.com/simonw/micropython-wasm">micropython-wasm</a> 的 alpha 包发布出来，并且正用它为 <a href="https://github.com/datasette/datasette-agent">Datasette Agent</a> 开发一个代码执行沙箱插件，名为 <a href="https://github.com/datasette/datasette-agent-micropython">datasette-agent-micropython</a>。</p>
+<ul>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#why-do-i-want-a-sandbox-">我为什么想要一个沙箱？</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#what-i-want-from-a-sandbox">我希望沙箱具备什么</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#webassembly-looks-really-promising-here">WebAssembly 在这方面很有希望</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#micropython-in-webassembly">WebAssembly 中的 MicroPython</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#building-the-first-version">构建第一个版本</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself">自己试一试</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#should-you-trust-my-vibe-coded-sandbox-">你应该信任我靠氛围编程做出的沙箱吗？</a></li>
+</ul>
+<h2>我为什么想要一个沙箱？</h2>
+<p>我的几个主要开源项目——<a href="https://datasette.io/">Datasette</a>、<a href="https://llm.datasette.io/">LLM</a>，甚至 <a href="https://sqlite-utils.datasette.io/">sqlite-utils</a>——都支持插件。</p>
+<p>我非常喜欢用插件来扩展软件。经过精心设计的插件系统，能把尝试新事物的风险降到几乎为零：即使是最疯狂的想法，也不会对核心应用本身留下持久影响。我的软件可以一夜之间长出一个新功能，我甚至不需要审查拉取请求（pull request）！</p>
+<p>不过，这有一个很大的缺点：我的插件系统都使用 Python 和 <a href="https://pluggy.readthedocs.io/en/latest/">Pluggy</a>，插件代码在我的应用中执行时拥有完整权限。有缺陷或恶意的插件可能把一切都搞坏，或者泄露私人数据。</p>
+<p>我希望能在一种环境中运行类似插件的代码，让它无法读取未经批准的文件、连接网络，也无法以其他可能给应用的其余部分或用户电脑带来风险或伤害的方式运行。</p>
+<p>我的兴趣不只在插件上。尤其对 Datasette 而言，我想支持的许多功能都能用上任意代码执行。我已经在 <a href="https://enrichments.datasette.io/">Datasette Enrichments</a> 中做过这方面的实验，在那里可以用代码转换表中存储的值。我想做出这样一种机制：按计划运行代码，从经过批准的位置获取 JSON，运行一小段代码，把它重新整理成字典列表，再把这些字典作为行插入 SQLite 数据库表。</p>
+<h2>我希望沙箱具备什么</h2>
+<p>我的目标是在自己的 Python 应用中安全地执行代码。我需要的是：</p>
+<ul>
+<li>依赖项能够直接从 PyPI 顺利安装；如有必要，也要有覆盖多个平台的二进制 wheel 包。我不希望软件用户除了直接安装我的 Python 包以外，还必须做任何额外操作。</li>
+<li>执行的代码必须同时受到内存和 CPU 限制。我不想让 <code>while True: s += "longer string"</code> 把我的应用或用户的电脑弄崩溃。</li>
+<li>必须严格控制文件访问。要么完全不能访问文件系统，要么由我准确规定哪些文件可以读取、哪些文件可以写入。</li>
+<li>网络访问也要受到控制。沙箱中的代码与任何对象通信，都应该经过一个完全由我控制的层。</li>
+<li>支持与宿主函数（host functions）交互。如果我无法谨慎地把选定的平台功能提供给沙箱运行的代码，沙箱也就没有多大用处。</li>
+<li>它必须稳健、有维护支持，而且文档清晰。我已经记不清看过多少个沙箱项目，其代码仓库里都警告说项目没有在积极维护了！</li>
+</ul>
+<h2>WebAssembly 在这方面很有希望</h2>
+<p>说到恶意代码，Web 浏览器是在能想象到的最恶劣环境中工作的。它们的工作，就是几乎每次加载页面时都从网上下载并执行不可信的代码。</p>
+<p>照这样看，JavaScript 引擎应该是极好的沙箱候选。可惜这些引擎也极其复杂，而且并不是为了方便嵌入其他项目而设计的。我见过的大多数 v8-in-Python 项目都很少维护，并且警告不要用它们运行完全不可信的代码。</p>
+<p>WebAssembly 是一个好得多的候选。它从一开始就是为了支持我所关心的全部特性而设计的，而且已经在浏览器中经受了近十年的检验。<a href="https://pypi.org/project/wasmtime">wasmtime</a> 这个 Python 库有积极的维护，也提供二进制 wheel 包。</p>
+<h2>WebAssembly 中的 MicroPython</h2>
+<p>像 wasmtime 这样的 WebAssembly 引擎运行的是 WebAssembly 二进制文件。有些编程语言，比如 Rust，很容易直接编译为 WebAssembly。JavaScript 和 Python 这样的动态语言就更困难了：它们支持 <code>eval()</code> 这样的语言原语，这意味着运行时需要有一个完整的解释器。</p>
+<p>要运行 Python，我们需要把完整的 Python 解释器编译成 WebAssembly，再把它连接起来，使我们可以方便地向它提供代码、接入宿主函数，并获取结果。</p>
+<p>Pyodide 是一个出色的包，可以在浏览器中通过 WebAssembly 运行 Python，但它不支持在服务端 Python 中使用。我能找到的最新说明来自 <a href="https://github.com/pyodide/pyodide/discussions/5145">2024 年 10 月</a>，其中说：“Pyodide 由 Emscripten 工具链构建，只能在浏览器或 Node.js 中运行。”</p>
+<p>前几天，我决定看看 <a href="https://micropython.org/">MicroPython</a> 能不能用来做这件事。MicroPython 网站上写道：</p>
+<blockquote>
+<p>MicroPython 是 Python 3 编程语言的一种精简、高效的实现，包含 Python 标准库的一个小型子集，并针对微控制器和受限环境中的运行进行了优化。</p>
+</blockquote>
+<p>对我来说，WebAssembly 确实很像一种受限环境！</p>
+<h2>构建第一个版本</h2>
+<p>我让 GPT-5.5 Pro <a href="https://chatgpt.com/share/6a1e2a5c-58b8-8328-ba1c-0e6aadb0a051">帮我做了一些研究</a>，它找到了 <a href="https://github.com/yamt">Yamamoto Takahashi</a> 向 MicroPython 提交的<a href="https://github.com/micropython/micropython/pull/13676">这个 PR</a>，标题是“Experimental WASI support for ports/unix”（为 ports/unix 提供实验性 WASI 支持）。</p>
+<p>随后它生成了这份 <a href="https://github.com/simonw/micropython-wasm/blob/c08fbd2276b15dc8c9bdff82845f750971f45647/research.md">research.md 文档</a>。于是我让 Codex Desktop 和 GPT-5.5 high <a href="https://gist.github.com/simonw/27461a16d76f28f8619c609444d544fe">放手去做</a>，看看会怎样：</p>
+<blockquote>
+<p>阅读 research.md 文档，并把它做出来。作为这个项目的一部分，你可能需要编写一个脚本，编译定制的 MicroPython WASM 版本；在这个脚本中，把 MicroPython 代码获取到 /tmp 目录。</p>
+</blockquote>
+<p>成功了。现在我有了一个 Python 库原型，可以在 WebAssembly 沙箱中执行 Python 代码！</p>
+<p>最棘手的问题是解释器状态的持久化（persistent interpreter state）。我们这里使用的 WASM 构建只暴露一个入口点：启动解释器，运行代码，最后停止解释器。</p>
+<p>对一次性脚本来说，这样没问题。但在 Datasette Agent 中，我希望变量和函数常驻内存，以便在多次代码执行调用之间复用它们。</p>
+<p>与编程智能体一起工作，有一点很妙：你可以很快从一个想法做到概念验证。我给出的提示是：</p>
+<blockquote>
+<p>关于让变量常驻：如果我们在 micropython 内部运行代码，让它调用宿主函数 get_next_python_code()，再把结果传给 eval()，而那个宿主函数会一直阻塞，直到有新的代码可用——也许可以让它在线程中运行，配上一个队列——会怎么样？这个想法或者类似的想法，在这里能帮上忙吗？</p>
+</blockquote>
+<p>迭代了几轮之后，我们得到了一个可用的版本！现在你可以在 Python 代码中这样做：</p>
+<pre><code class="language-python">from micropython_wasm import MicroPythonSession
+
+with MicroPythonSession() as session:
+    print(session.run("x = 10\nprint(x)").stdout)
+    print(session.run("x += 5\nprint(x)").stdout)
+    print(session.run("print(x * 2)").stdout)
+</code></pre>
+<p><em>译者注：代码的字符串定界引号按<a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/">作者公开原文</a>恢复为ASCII引号。</em></p>
+<p>其内部实现会启动一个线程，建立请求队列，然后针对 <code>session.run()</code> 命令向这个队列发送消息，每次都在回复队列上等待此次执行的结果。在 WASM 内部，MicroPython 解释器会阻塞，等待 <code>__session_next__()</code> 宿主函数返回下一行代码，然后对这行代码运行 <code>eval()</code>；每个代码块成功执行后，再调用 <code>__session_result__({"id": request_id, "ok": True})</code>。</p>
+<p>另一个复杂之处是支持宿主函数，让我的 Python 库能够有选择地暴露一些函数，供 MicroPython 中运行的代码调用。</p>
+<p>Codex 最终用 <a href="https://github.com/simonw/micropython-wasm/blob/0.1a1/micropython_wasm/usercmodule/host/hostmodule.c">78 行 C 代码</a>解决了这个问题。这些代码最终被编译进了我随包分发的 <a href="https://github.com/simonw/micropython-wasm/blob/0.1a1/micropython_wasm/artifacts/micropython-wasi.wasm">362KB WebAssembly 二进制文件</a>。</p>
+<p>我绝对算不上 C 程序员，但我读过这些 C 代码，让两个不同的模型向我解释过它们（这里是 <a href="https://claude.ai/share/62f74371-cc3c-44f2-b406-33d03513de9e">Claude 的解释</a>），还让它们经受了大量测试。</p>
+<p>使用 WebAssembly 的好处是，如果这些 C 代码最终被发现有致命缺陷，最坏的结果也就是 WebAssembly 执行抛出异常并失败。这种风险我可以接受。</p>
+<p>wasmtime 直接支持内存限制。CPU 限制稍微难一点：wasmtime 提供了一个“燃料”（fuel）概念，用来限制一次 WebAssembly 调用能够执行多少次操作，它很适合解决这个问题，但这些单位很难直观理解。我目前正在尝试把默认“燃料”设为 2000 万，不过我并没有把握这就是最合适的数值。</p>
+<h2>自己试一试</h2>
+<p>micropython-wasm 的 alpha 版本现在已经<a href="https://pypi.org/project/micropython-wasm">在 PyPI 上发布</a>。</p>
+<p>你可以按照 <a href="https://github.com/simonw/micropython-wasm">README 中的说明</a>，在自己的 Python 代码中试用它。我还在 <a href="https://github.com/simonw/micropython-wasm/releases/tag/0.1a2">0.1a2 版本</a>中加入了一个简单的命令行界面（CLI）模式，这意味着你可以使用 uvx 来试用，无需先安装，像这样：</p>
+<pre><code class="language-bash">uvx micropython-wasm -c 'print("Hello world")'
+# To see it run out of fuel:
+uvx micropython-wasm -c 's = ""; while True: s += "longer"'
+# Outputs: micropython-wasm: guest exited with code 1
+</code></pre>
+<p><em>译者校注：<a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/">公开原文</a>的“耗尽燃料”示例同样把<code>while</code>放在分号后，这不符合Python语法，不能按原样复制运行；此处保留原例的排列。</em></p>
+<p>你也可以像下面这样在 <a href="https://agent.datasette.io/">Datasette Agent</a> 中试用：</p>
+<pre><code class="language-bash">uvx llm keys set openai
+# Paste in an OpenAI key, then:
+uvx --with datasette-agent \
+  --with datasette-agent-micropython \
+  --prerelease allow \
+  datasette --internal internal.db \
+    -s plugins.datasette-llm.default_model gpt-5.5 \
+    --root -o
+</code></pre>
+<p>然后打开 <code>http://127.0.0.1:8001/-/agent</code>，输入提示：</p>
+<pre><code class="language-text">show me some micropython
+</code></pre>
+<p><img src="https://substackcdn.com/image/fetch/$s_!UEaC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a7150cd-6697-4e13-b1fa-160db02edb00_1650x1776.jpeg" alt="聊天应用界面截图：深蓝灰色页眉左侧写着 home，右侧是 root 和汉堡菜单图标。下方导航行左侧有 ← Back 和 Chat，右侧有 EXPORT 按钮。蓝色用户消息气泡写着 show me some micropython。下面折叠的思考区写着 ▸Thinking: … to show the result clearly. After that, I can wrap up with a brief explanation!，其后是 ▶ Tool: execute_micropython 标签。接着是代码块：# A tiny MicroPython example: blink-style logic + Fibonacci / def fib(n): / a, b = 0, 1 / out = [] / for _ in range(n): / out.append(a) / a, b = b, a + b / return out / print(&#x22;Hello from MicroPython!&#x22;) / print(&#x22;First 10 Fibonacci numbers:&#x22;, fib(10)) / # MicroPython often runs on microcontrollers, e.g.: / # from machine import Pin / # led = Pin(2, Pin.OUT) / # led.value(1) # turn LED on / # led.value(0) # turn LED off。横线下方是输出：Hello from MicroPython! / First 10 Fibonacci numbers: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]，接着是 ▶ Result: execute_micropython 标签。最下方是占位文字为 Type a message... 的输入框，以及蓝色 Send 按钮。"></p>
+<h2>你应该信任我靠氛围编程（vibe coding）做出的沙箱吗？</h2>
+<p>我抱怨过那些不成熟、维护松散的沙箱库，如今却自己做了一个，这实在很讽刺！</p>
+<p>我特意给它贴上了 alpha 发布版本的标签。对于不愿承担重大风险的人，我还没有准备好向他们推荐它。</p>
+<p>我已经做了足够多的测试，自己用它是可以接受的。我发布了第一个使用它的插件，<a href="https://github.com/datasette/datasette-agent-micropython">datasette-agent-micropython</a>。我还把 GPT-5.5 xhigh 关在那个 Datasette Agent 插件里，<a href="https://gist.github.com/simonw/5de497c44d25f9fd459c8aa2c959fe4a">挑战它逃出沙箱</a>，到目前为止它还没能做到。</p>
+<p>我希望这个实现能说服一些拥有专业安全团队、面临高风险问题的公司，投入使用在 WebAssembly 中运行 Python 这种沙箱方案，并开源它们自己的解决方案。</p>
+<h2>译者说明</h2>
+<p>作者关于对代码调用<code>eval()</code>的描述按<a href="https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/">公开原文</a>保留。关于WebAssembly故障边界的判断、模型迄今未能逃逸的结果与alpha风险提示均为作者当时的判断和实验叙述。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-micropython-wasm-sandbox","sender":"Simon Willison","author":"Simon Willison","authorAliases":["Simon Willison"],"publisher":"Simon Willison","subject":"用 MicroPython 和 WASM 在沙箱中运行 Python 代码","snippet":"Simon Willison 介绍实验性的 MicroPython 与 WebAssembly 沙箱，说明实现方式、资源限制和 alpha 阶段的风险。","date":"2026-06-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["Python","WebAssembly","沙箱安全"],"mdTheme":"magazine","sourcePath":"reports/micropython-wasm-sandbox.md","sourceUrl":"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/","body":"$3","prompts":[]},"listPosition":{"index":162,"total":571},"matchedPerson":{"id":"simon-willison","name":"Simon Willison","email":"","occupation":"开源软件开发者","website":"https://simonwillison.net/","bio":"Django 联合创建者和 Datasette 作者，开发数据探索与发布工具，并记录编程和大语言模型实践。","contentCount":3,"topTags":[{"id":"claude","name":"Claude","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"python","name":"Python","count":1}]},"relatedArticles":[{"id":"reports-anthropics-project-glasswingrestricting-claude-mythos-to-sec","subject":"Anthropic 的 Project Glasswing：限制 Claude Mythos 访问——我认为很有必要","sender":"Simon Willison","date":"2026-04-07","matchedPeople":["Simon Willison"],"matchedTags":[]},{"id":"essays-claude-opus-4-5-evaluation-difficulty","subject":"Claude Opus 4.5，以及为什么评估新的大语言模型越来越困难","sender":"Simon Willison","date":"2025-12-02","matchedPeople":["Simon Willison"],"matchedTags":[]},{"id":"talks-interview-vercel-agents-new-software","subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","sender":"Richard MacManus","date":"2026-07-03","matchedPeople":[],"matchedTags":["沙箱安全"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

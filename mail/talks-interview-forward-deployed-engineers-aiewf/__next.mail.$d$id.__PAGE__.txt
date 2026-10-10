@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T26d6,<p><img src="https://substackcdn.com/image/fetch/$s_!FQL_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf8be96e-5c79-4412-baaa-e987da5ef53a_1280x960.jpeg" alt=""></p>
+<p>Sierra 的 Natalie Meurer 在当天的 AI Engineer World's Fair 现场。</p>
+<p><a href="https://www.linkedin.com/in/nataliemeurer/">Natalie Meurer</a> 是 Sierra 的智能体工程主管，领导一支超过 120 名工程师的全球团队，为企业客户服务构建对话式 AI 智能体。加入 Sierra 之前，她从事技术政策工作，自学了编程，并在 Palantir 工作了五年。</p>
+<p>前线部署工程（forward deployed engineering，FDE）是当天 <a href="https://www.ai.engineer/worldsfair/2026">AI Engineer World's Fair</a> 的一个专题方向。Meurer 在演讲前向 Latent Space 解释说，FDE 最初是一种把技术能力很强的员工安排到客户身边的模式。但如今，这个称谓涵盖了 AI 行业中各种各样的角色，包括 Sierra 所称的<strong>智能体工程师</strong>：把系统集成与智能体开发能力，同对客户运营、产品及最终用户体验的理解结合起来的工程师。</p>
+<p>在这篇问答中，Meurer 认为，相比某一组特定技能，FDE 更应由对客户承担的责任来定义。她还指出，产品工程与面向客户的工程可能正在开始融合。</p>
+<h2>定义前线部署工程</h2>
+<p><strong>Latent Space：</strong> 你如何定义前线部署工程师？</p>
+<p><strong>Natalie Meurer：</strong> 这其实就是我这场演讲的主题：这个角色缺乏一致的定义。</p>
+<p>如果从它的历史发展一路看到今天，相比角色的具体形态或你所做的工作，对客户承担的责任更能清楚地定义它。</p>
+<p>承担这种责任会带来力量。但相关技能的范围已经变得非常宽泛，宽泛到这个称谓几乎可能失去意义。</p>
+<p><strong>Latent Space：</strong> 你是如何进入这类岗位的？</p>
+<p><strong>Meurer：</strong> 我最初从事技术政策工作。我是一个热衷政策的人，在业余时间学会了编程，因此获得了 Palantir 隐私团队的工程师职位。</p>
+<p>我在那里工作了大约五年，涉及执法、国防和基础设施工程。之后，我去读商学院，因为我希望把商业维度也融入进来。再后来，我加入 Sierra，建立了智能体工程职能。</p>
+<h2>为什么 Sierra 称他们为智能体工程师</h2>
+<p><strong>Latent Space：</strong> Palantir 的前线部署工程模式，影响了 Sierra 的这个岗位吗？</p>
+<p><strong>Meurer：</strong> 有一些影响，不过我们有意把这个岗位叫作<strong>智能体工程师</strong>，而不是前线部署工程师。</p>
+<p>前线部署工程可以指太多事情。我们认为，这个称谓应该体现技术工作的形态，而不仅仅是全心关注客户这一点。因此，我们选择了智能体工程师这个名称。</p>
+<p>在我看来，智能体工程是前线部署工程的一个子集，或者是与它相邻的领域。它描述了一种更具体的、专注于智能体开发的面向客户的工程工作。</p>
+<h2>智能体工程师做什么</h2>
+<p><strong>Latent Space：</strong> 与客户合作时，你的团队具体做什么？</p>
+<p><strong>Meurer：</strong> Sierra 为呼入和呼出式客户服务构建对话式 AI 智能体。我们的工作包括把客户系统与低延迟的语音及聊天智能体集成，也包括通过电子邮件工作的智能体。</p>
+<p>这个岗位需要数据集成等技术能力，也需要判断品质的眼光。在设计语音智能体时，你需要理解什么听起来舒服，什么会让人感觉像是在与人交流。这一点是智能体工程特有的。</p>
+<p><strong>Latent Space：</strong> 合作一开始就有明确的用例吗？还是你们会帮助客户决定要构建什么？</p>
+<p><strong>Meurer：</strong> 我们会和客户一起探索需求。我们努力寻找两类问题的交集：真正困难的问题，因为我们擅长解决困难的问题；以及能够产生实质商业影响的问题。</p>
+<p>例如，在金融服务中，可能从争议处理开始。这件事很复杂，需要正确处理，同时也是一种需要很高情商的交互。如果有人在信用卡账单上看到了一笔欺诈性消费，可能会害怕，智能体需要让他们平静下来。</p>
+<p>几乎每一个 Sierra 客户也都在不同程度上朝着同一个方向发展：让智能体成为作为服务入口的交互式语音应答系统，成为客户打来电话时第一个接听的实体。</p>
+<h2>困难的工作往往在模型层之上</h2>
+<p><strong>Latent Space：</strong> 有多少工作涉及底层 AI 模型？</p>
+<p><strong>Meurer：</strong> 我们把自己的智能体看作一组经过编排的模型。在内部，我们不断评估哪种模型最适合某项工作，再把其中最好的成果带给客户。</p>
+<p>实际中，大部分针对特定客户的工作发生在编排层，而非模型本身。我们有时会与客户自己的模型集成，也会帮助客户使用平台、自己构建智能体。</p>
+<p>很多工作是帮助他们应用自己的内部知识和上下文。</p>
+<h2>定制部署与可复用的模式</h2>
+<p><strong>Latent Space：</strong> 有多少工作是针对特定客户的，又有多少可以复用？</p>
+<p><strong>Meurer：</strong> 两者都有。</p>
+<p>每个客户都在构建一个有意针对自身组织定制的智能体。它应该代表与这个特定品牌交互时所能获得的最好体验。</p>
+<p>其他能力更容易复制。例如，根据知识库回答问题，是一个相当普遍的问题。我们还有金融服务、医疗保健、旅行与酒店业、零售等行业的专家，带来领域知识与最佳实践。</p>
+<p>但我们所销售的东西，根本吸引力就在于定制。我们已经看到不同行业的大型组织，最快只用 40 到 60 天就进入了生产环境。</p>
+<p>每个智能体仍然围绕客户的 API、系统、标准操作流程、品牌和语气来定制。</p>
+<h2>作为企业系统的智能体</h2>
+<p><strong>Latent Space：</strong> 智能体开发正在主要变成一个编排问题吗？</p>
+<p><strong>Meurer：</strong> 多智能体架构有许多不同形态。“智能体”这个词可以指接听电话的那个实体，也可以指子智能体，甚至只是一个配备工具的提示词。</p>
+<p>我们合作的每一家企业，都想知道如何持续维护其智能体生态系统所具备的一切能力。它需要管理所有集成，以及所有为智能体做出贡献的团队。</p>
+<p>这其中一部分是变更管理问题。</p>
+<p>在 Sierra，我们倾向于认为，单个智能体负责整个客户交互，无论其中涉及什么具体子任务。我们把这些子任务叫作 <strong>journey，即流程旅程</strong>。</p>
+<p>不过，企业仍然需要一种方式，让数百甚至数千人能够为这些系统做出贡献，理解发生了哪些变化，并遵循独立、明确的发布流程。</p>
+<h2>产品工程与 FDE 正在融合</h2>
+<p><strong>Latent Space：</strong> 随着公司积累更多内部专业能力，FDE 岗位会怎样演变？</p>
+<p><strong>Meurer：</strong> 我认为它仍然会面向客户。但当编写代码变得便宜时，把对客户的洞察直接转化成产品，也会更容易。</p>
+<p>因此，产品工程与前线部署工程在某些方面正在融合，至少这两类岗位中最优秀的人是如此。</p>
+<p>如果你是产品工程师，你应该与客户交流。如果你是前线部署工程师，你应该构建产品。我认为这是新的变化。</p>
+<p>面向客户仍然很重要。即使你拥有一个类似 AGI 的推理模型，每次都能推导出如何执行某个流程，你仍然需要恰当地把这个流程编码进去。</p>
+<p>你不会希望系统在一周中第 100,000 次处理订单退货时，还要独立思考该怎么做。你希望它遵循一个一致的流程。</p>
+<p>这让客户服务有别于其他一些智能体用例。编程智能体通常是在第一次尝试解决一个新问题。而在客户服务中，你解决的本质上是同一个问题，只是表达略有不同，一周可能要解决 100,000 次。</p>
+<p>这会让平台，以及帮助客户把规则编码进去的合作伙伴，面对不同的需求。智能体会更容易构建，但那些能够与客户合作，并把所学转化为产品的人，始终会有用武之地。</p>
+<h2>为什么通才可能更有价值</h2>
+<p><strong>Latent Space：</strong> 开发者是否会越来越需要产品能力和面向客户的能力？</p>
+<p><strong>Meurer：</strong> 我相信会。我认为最优秀的开发者会发展这些能力。</p>
+<p>许多人都在问，一两年后工程岗位会是什么样。一种看法是，专家会变得更重要，因为他们拥有智能体不容易获得的知识。</p>
+<p>另一种看法，也是我更倾向的看法，是通才会变得更有价值。</p>
+<p>从历史上看，前线部署工程一直是典型的通才岗位，因为它把工程能力与工作的客户属性结合起来。</p>
+<p>因此，前线部署工程师，或者智能体工程师，处在 AI 和工程中最面向未来的领域之一。</p>
+<p><strong>Latent Space：</strong> “智能体工程师”最终会成为默认称谓吗？</p>
+<p><strong>Meurer：</strong> 我不确定。我预计整个工程领域会走向一种更全面的定义，其中可能会包含更多我们目前称为前线部署工程的内容。</p>
+<p>现在市场上有市场拓展工程师（go-to-market engineers）、前线部署工程师、智能体工程师和 AI 工程师。</p>
+<p>我认为，这些都会成为工程技艺的不同组成部分。我们还会发现全新的工程师岗位。</p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-forward-deployed-engineers-aiewf","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"前线部署工程师与软件工程的未来","snippet":"Sierra 的 Natalie Meurer 谈客户责任、智能体工程以及产品工程与 FDE 的融合。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["软件工程","智能体","职业发展"],"mdTheme":"magazine","sourcePath":"talks/interview-forward-deployed-engineers-aiewf.md","sourceUrl":"https://www.latent.space/p/forward-deployed-engineers-aiewf","body":"$3","prompts":[]},"listPosition":{"index":140,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-interview-cursor-forward-deployed-engineers","subject":"Cursor 如何在企业内部部署 AI","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体","职业发展"]},{"id":"talks-interview-vercel-agents-new-software","subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","sender":"Richard MacManus","date":"2026-07-03","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]},{"id":"talks-interview-autoresearch-introspection","subject":"Autoresearch：自我改进智能体背后的反馈循环","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

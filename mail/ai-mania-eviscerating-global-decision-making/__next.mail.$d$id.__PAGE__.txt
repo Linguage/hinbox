@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb57,<h1>AI狂热正在瓦解全球组织的理性决策</h1>
+<h2>摘要</h2>
+<p>作者以自身在销售与技术一线的观察指出，所接触的AI项目一年半内成功率为零，多数失败源于企业本身糟糕的项目能力，而非AI技术。更严重的是，企业内部已将信仰式表态当作晋升与留任的前提，质疑者被边缘化甚至解雇。真正危险的不是技术泡沫，而是组织因此丧失了评估现实与做出理性决策的能力。</p>
+<h2>内容框架与概述</h2>
+<p>文章先立论：掌权者要么没有计划，要么只能低头自保，公共与私营机构普遍陷入一种集体狂热，理性讨论的空间正在消失。作者的特殊位置使其无需靠迎合 madness 谋生，因此试图描述这种动态并安慰仍在其中挣扎的人。</p>
+<p>接着用事实层面拆解AI投资。作者称一年半内观察到的AI项目无一成功，内部聊天机器人乏人使用，客服机器人看似流畅实则把请求丢进虚空，而项目方刻意回避可被验证的使用率指标，公开宣称的生产力提升多属不实。</p>
+<p>随后转向制度层面：在五百人以上企业中，晋升与留任日益依赖于对AI变革力的信仰告白，而非技术判断。作者举出高管从没用过任何AI工具却制定以AI为核心的二十亿美元级战略，以及有人解雇不用LLM的高绩效员工，说明真信者比撒谎者更难对付。</p>
+<p>最后落点是决策能力的崩坏。当质疑等同于攻击指挥链，组织便无法在危机显现前纠偏，作者因此建议同行干脆不要询问任何在建AI项目的进展，因为那时已无可行干预手段。</p>
+<h2>核心概念及解读</h2>
+<p><strong>AI狂热</strong>：一种类似宗教的组织氛围，成员以信仰告白替代技术判断与成效验证。</p>
+<p><strong>信仰告白</strong>：非技术背景者反复宣称AI正在改变一切，用以换取晋升与留任的资格。</p>
+<p><strong>零成功率观察</strong>：作者团队一年半内所见AI项目无一成功，且失败常与AI本身无关。</p>
+<p><strong>不可追问的项目</strong>：在建AI项目一旦启动便无法挽救，任何理性询问都被视为对指挥链的攻击。</p>
+<p><strong>自我强化的沉默</strong>：董事会、高管、员工、供应商与顾问均有动机掩盖失败率，使真实数据无法流通。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/">AI Mania Is Eviscerating Global Decision-Making</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-18</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>84/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-mania-eviscerating-global-decision-making","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"AI狂热正在瓦解全球组织的理性决策","snippet":"作者基于一年半上百次企业接触，指出AI项目几乎全线失败，但企业内部已将信仰式表态作为晋升与留任前提，异议者被边缘化，导致组织丧失理性决策能力，并警告这种集体狂热正在侵蚀公共与私营机构的长期健康。","date":"2026-07-18","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","理性决策","企业管理"],"mdTheme":"magazine","sourcePath":"notes/ai-mania-eviscerating-global-decision-making.md","sourceUrl":"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/","body":"$3","prompts":[]},"listPosition":{"index":98,"total":571},"relatedArticles":[{"id":"essays-continual-learning-predictions","subject":"持续学习时代的8项预测","sender":"Dwarkesh Patel","date":"2026-08-07","matchedPeople":[],"matchedTags":["人工智能","企业管理"]},{"id":"essays-ai-strategy-trust-problem","subject":"你的 AI 战略有信任问题，而不是工具问题","sender":"Elena's Growth Scoop","date":"2026-06-05","matchedPeople":[],"matchedTags":["人工智能","企业管理"]},{"id":"ai-results-in-china","subject":"中国企业AI转型的真实关口","sender":"人民公园说AI","date":"2026-05-28","matchedPeople":[],"matchedTags":["人工智能","企业管理"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

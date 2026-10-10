@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta98,<h1>量子证明为何强于经典证明</h1>
+<h2>摘要</h2>
+<p>二十多年来，研究者追问量子证明是否本质上强于经典证明。四人团队以谱forrelation问题为靶，借助量子测量扰动与经典证明可反复读取之间的张力构造反证，在预言机模型中证明存在需要量子证明、经典证明无法替代的计算问题，论文获2026年STOC最佳论文奖。</p>
+<h2>内容框架与概述</h2>
+<p>文章先厘清证明在复杂度理论中的含义：这里指可被高效核验的证书。由此引出核心追问，如果某些问题的唯一证明是难以写下的量子态，那么经典证明究竟是否根本不可能存在，这正是量子复杂度理论悬置二十余年的公开难题。</p>
+<p>难点在于要排除所有可能的组合，即任意经典证明搭配任意量子验证算法。由于量子叠加使状态描述复杂度可能超过宇宙原子总数，研究者难以给出无条件的全面结论，只能退而寻找不依赖异常假设的强证据，此前二零零六年的工作仅取得部分进展。</p>
+<p>突破围绕谱forrelation问题展开，它要求判断两个影子是否来自同一量子态的两种测量。策略是反证：假设经典证明存在，则证明的可重复读取性会让持有者反复完成一项极难任务，而该任务的困难性又构成矛盾。二零二四年迈出第一步，二零二五年四人补齐最后一环，最终给出了预言机模型下的分离结果。</p>
+<h2>核心概念及解读</h2>
+<p><strong>量子证明</strong>：以量子态充当证书，可被量子计算机高效核验，但难以写成经典文档。</p>
+<p><strong>经典证明</strong>：可写下的文档或生成量子态的过程，能被反复读取和重复使用。</p>
+<p><strong>谱forrelation问题</strong>：比较同一量子态在两种测量下的影子，判断二者能否同源。</p>
+<p><strong>测量扰动</strong>：测量会不可逆地改变量子态，使量子证明无法被多次复用。</p>
+<p><strong>反证法</strong>：假设经典证明存在并推出矛盾，从而否定原假设，完成困难性证明。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/?mc_cid=8bb5409531&#x26;mc_eid=9ed96560c1">Researchers Reveal the Power of Quantum Proofs</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Ben Brubaker</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-06</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"quantum-proofs-power-classical-limit","sender":"henri","author":"henri","sourceAuthor":"Ben Brubaker","authorAliases":["henri","Ben Brubaker","Henri","Hinbox"],"subject":"量子证明为何强于经典证明","snippet":"四名研究者以谱forrelation问题给出QMA与QCMA的预言机分离，为量子证明强于经典证明提供了重要证据；论文获2026年STOC最佳论文奖。","date":"2026-07-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["量子计算","计算复杂性","量子证明"],"mdTheme":"magazine","sourcePath":"notes/quantum-proofs-power-classical-limit.md","sourceUrl":"https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/?mc_cid=8bb5409531&mc_eid=9ed96560c1","body":"$3","prompts":[]},"listPosition":{"index":126,"total":571},"matchedPerson":{"id":"ben-brubaker","name":"Ben Brubaker","email":"","occupation":"科学记者","website":"https://www.quantamagazine.org/authors/brubaker_ben/","bio":"在 Quanta 报道计算机科学，曾从事物理学研究，拥有耶鲁大学物理学博士学位。","contentCount":2,"topTags":[{"id":"计算复杂性","name":"计算复杂性","count":2},{"id":"人工智能","name":"人工智能","count":1},{"id":"独特博弈","name":"独特博弈","count":1}]},"relatedArticles":[{"id":"ai-unique-games-conjecture-human-mathematicians-race","subject":"人类学者抢跑AI发布独特博弈新进展","sender":"henri","date":"2026-10-09","matchedPeople":["Ben Brubaker"],"matchedTags":["计算复杂性"]},{"id":"avi-wigderson-complexity-theory","subject":"从P vs NP到零知识证明：计算复杂性的边界","sender":"henri","date":"2026-06-01","matchedPeople":[],"matchedTags":["量子计算","计算复杂性"]},{"id":"fastest-way-to-multiply-numbers","subject":"数学家仍未找到最快的乘法算法","sender":"henri","date":"2026-07-13","matchedPeople":[],"matchedTags":["计算复杂性"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

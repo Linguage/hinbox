@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb15,<h1>邓煜获2026菲尔兹奖：随机数据问题的突破</h1>
+<h2>摘要</h2>
+<p>文章讲述数学家邓煜因随机数据问题上的突破斩获2026年菲尔兹奖。他与合作者研究随机初始条件下偏微分方程解的存在性与长期演化行为，把概率论引入确定性的偏微分方程世界。文章以其钟爱的唐代格律诗为隐喻，回溯他从深圳少年、围棋冲段失败到奥赛夺金、最终转向数学研究的成长历程。</p>
+<h2>内容框架与概述</h2>
+<p>开篇以李商隐的格律诗作比：在严格的对仗、声调与韵律约束下仍能表达无穷意涵，恰如邓煜研究中的数学形式之美。他试图用单个方程压缩描述庞大的波动与粒子系统，而解本身蕴含着丰富的对称与巧合。</p>
+<p>随后进入获奖成果本身。随机数据问题追问：无论初始波形如何随机，方程能否始终准确预测其未来演化，失效情形是否极度罕见。邓煜与同行证明了一系列重要定理，部分论文逾百页，被评价为超前预期约十年的突破。</p>
+<p>文章后半回溯其人生路径。他在深圳长大，自幼痴迷阅读，因围棋冲段最后一轮连败而转向数学，历经国际数学奥赛的落选与重来终获金牌，保送北大后又转学至麻省理工。</p>
+<p>在麻省理工，一场关于随机数据问题的报告奠定了他此后的研究方向。他由此与合作者长期深耕，把概率的灵活与波动方程的刚性结合，最终走上数学最高领奖台。</p>
+<h2>核心概念及解读</h2>
+<p><strong>随机数据问题</strong>：追问随机初始条件下偏微分方程是否总有解、在何时失效，失效应极其罕见。</p>
+<p><strong>偏微分方程</strong>：描述海洋波浪、光纤光波等复杂波动系统随时间演化的数学方程。</p>
+<p><strong>概率与确定性的融合</strong>：以随机起点把概率论工具带入确定性的方程世界，提供全新视角。</p>
+<p><strong>格律诗</strong>：唐代讲究对仗、声调与韵律的诗体，成为受限形式中仍可自由表达的隐喻。</p>
+<p><strong>数学归纳法</strong>：通常高中才教的证明方法，七岁的邓煜已用它解决方格分割问题。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/yu-deng-wins-the-fields-medal-2026-for-his-work-on-the-random-data-problem-20260723/">Yu Deng Wins the Fields Medal 2026 for His Work on the Random Data Problem</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Jordana Cepelewicz</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-23</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"yu-deng-fields-medal-2026-random-data-problem","sender":"henri","author":"henri","sourceAuthor":"Jordana Cepelewicz","authorAliases":["henri","Jordana Cepelewicz","Henri","Hinbox"],"subject":"邓煜获2026菲尔兹奖：随机数据问题的突破","snippet":"华裔数学家邓煜因在随机数据问题上的突破性工作获得2026年菲尔兹奖，文章讲述他以概率工具研究偏微分方程，并回溯其从深圳少年到围棋冲段失败、再到奥赛夺金的成长轨迹。","date":"2026-07-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["偏微分方程","概率论","科研生涯"],"mdTheme":"magazine","sourcePath":"notes/yu-deng-fields-medal-2026-random-data-problem.md","sourceUrl":"https://www.quantamagazine.org/yu-deng-wins-the-fields-medal-2026-for-his-work-on-the-random-data-problem-20260723/","body":"$3","prompts":[]},"listPosition":{"index":88,"total":571},"matchedPerson":{"id":"jordana-cepelewicz","name":"Jordana Cepelewicz","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/jordana-cepelewicz/","bio":"曾为 Quanta 报道数学与生物学，拥有耶鲁大学数学与比较文学双学位，亦为科学刊物撰稿。","contentCount":2,"topTags":[{"id":"科研生涯","name":"科研生涯","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},"relatedArticles":[{"id":"essays-june-huh-high-school-dropout-wins-the-fields-medal","subject":"高中辍学生许埈珥，斩获菲尔兹奖","sender":"Jordana Cepelewicz","date":"2022-07-05","matchedPeople":["Jordana Cepelewicz"],"matchedTags":["科研生涯"]},{"id":"reports-fanout-tail-latency","subject":"第136期：你的P99为何会骗你：扇出延迟的数学原理（上）","sender":"The Architect’s Notebook","date":"2026-08-20","matchedPeople":[],"matchedTags":["概率论"]},{"id":"princeton-alumni-2026-fields-medals","subject":"普林斯顿校友斩获2026年四分之三菲尔兹奖","sender":"henri","date":"2026-07-30","matchedPeople":[],"matchedTags":["科研生涯"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

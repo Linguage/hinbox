@@ -1,0 +1,366 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T51b7,<p>原文：<a href="https://on.substack.com/p/model-behavior-taylor-lorenz">Model Behavior: Taylor Lorenz</a></p>
+<p>译者说明：本文完整翻译已发表的编辑版问答，原文已为篇幅和可读性作编辑，非未经删节的录音逐字稿。</p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ri2K!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcec94bdd-2a21-4e5b-9c18-a18bb174c6b4_6480x4320.png" alt=""></p>
+<p>插画：Substack 品牌设计师 Joro Chen。</p>
+<p>我们想坦诚地聊聊，出版者如何看待和使用 AI。这些工具还处于早期，关于使用和披露的规范正在迅速变化。我们认为，有必要向优秀的作家、创作者和思想者询问他们的工作、业务，以及这些事情与今天的 AI 发展到了什么地步有何交集。</p>
+<p>因此，我们推出了“模型行为”（Model Behavior）系列，请公共知识分子、评论家、作家和创作者聊聊此刻如何工作。我们会坦率地询问他们对科技行业的看法、使用 AI 时最烦什么，以及 AI 如何影响他们的身份认同和生计。我们也会请每位嘉宾带我们看看创作过程的幕后，解释自己是否使用这些工具，以及如何使用。从完全排斥 AI 的人到资深用户，我们会深入了解他们选择的提示词、所用工具，或者 100% 采用非数字方式的工作流程。</p>
+<p>本周第一位嘉宾是 <a href="https://www.usermag.co/">User Mag</a> 创办人 <a href="https://open.substack.com/users/1153079-taylor-lorenz">Taylor Lorenz</a>。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!dOMi!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b118a74-814b-44bb-bf94-6d5de652ceba_1915x201.png" alt=""></p>
+<p><strong>你会不会改变自己的写作风格，让它听起来“没那么像 AI”？</strong></p>
+<p>天哪。前阵子，我给《名利场》（Vanity Fair）写了一篇文章，用了“deeply human”（深具人性）这个说法。其实我经常用这个说法，也经常用副词。有人就说：“这是 AI 写的。”我还真得把编辑记录拿出来，证明那是我自己写的烂文字。</p>
+<p><strong>你每个月在 AI 工具上花多少钱？</strong></p>
+<p>大概每月 300 美元。</p>
+<p><strong>使用 AI 到什么程度，就从“工具”变成了“我应该向读者披露的事情”？</strong></p>
+<p>我认为越透明越好，也相信应该回答读者的问题、保持开放。我接受这个访谈，就是因为我很乐意谈自己怎么用这些工具。不把这些信息告诉读者，就等于不让他们结合背景来判断正在阅读的信息。很多作者使用 AI，却不愿意说，因为他们觉得自己会被抵制，招来大量反对，人们会讨厌他们、取消订阅。反 AI 的情绪确实很多，但我觉得，要度过眼下这个阶段，其中一部分就是保持透明和开放，公开进行这些对话，公开讨论这些事情。</p>
+<p><strong>你会读一份文案 100% 由 AI 生成的通讯吗？</strong></p>
+<p>当然，我很喜欢好几份 AI 生成的通讯。我订阅了一个社交媒体监听工具的通讯，每周自动发送热门内容汇总和相关分析。完全由 AI 生成，我觉得非常有用。有些通讯作者，我关注的就是他们的品位、声音或独特的文字。还有些通讯，我觉得可能是自动生成的，或者公开声明自动生成——也许该说部分自动生成——我也从中获得了很多价值。</p>
+<p><strong>使用 AI 时最让你烦的是什么？看到同行使用 AI，有哪些事会让你不舒服？</strong></p>
+<p>我在很多记者群里，记者一直都在使用 AI。我觉得，网上有很多人对 AI 的态度特别像在表演。他们一天到晚、24/7 都在骂 AI，转头就进群问：“对了，有人知道这个新的 Claude 工具怎么用吗？”我觉得这对读者很不负责，尤其如果你是科技记者。我强烈批评大规模监控，也批评这些 AI 公司、它们的游说活动，对 AI 行业的报道非常批判。但我也报道消费产品，我希望人们了解这些产品如何运作。我不想用夸张的说法或错误信息吓唬人，也不想只做那些我明知道能给自己带来更多互动的事。</p>
+<p>如果我每天上网，痛骂 AI 行业多么邪恶，或者嚷嚷 AI 都是假的、是泡沫、根本没人真拿它做什么、整个东西都要垮了——我没开玩笑，有人靠这样做成了百万富翁。让这些讨论更细致，并不赚钱。但我觉得这很重要。</p>
+<p><strong>AI 有没有改变你对自己作为作者的价值的信心？</strong></p>
+<p>其实我的文笔很糟。我觉得现在进步了些，但刚开始时我真的写得很差。《纽约时报》一位非常有名的编辑告诉我：如果你想当记者，关键是揭示新的信息。大语言模型（LLM）还做不到的，是像真正的记者那样挖出事情。AI 让我的职业生涯变得非常不稳定。我确实怀疑自己能不能继续靠记者工作谋生。读者取消订阅时，我会问他们原因，很多人说，现在直接用 AI 获取信息了。这对我的打击很大；我想，我已经失去了大约四分之一的收入。</p>
+<p><strong>你有没有调整编辑策略来应对这件事？</strong></p>
+<p>我还在想办法。到目前为止，我试着通过这些工具提高效率，作为一种适应方式。但我不知道该怎么对抗这个趋势。如果照目前的速度持续下去，到今年年底，我会失去一半的收入。这很可怕，但这并不是在指责 Substack 之类的某个平台；人们获取信息的方式正在全面改变。我觉得科技记者，尤其是报道网络文化的人，正在大量经历这些事。因为我的通讯大部分是推荐内容，而 AI 在这方面能做得比我好。它能搜遍互联网，比[我]更容易找到一篇报道。我不用 AI 来做这一部分，是因为我想告诉读者，你付费得到的是我的头脑、我个人认为有趣的新闻。但我觉得大家没那么在意，如果能获得更符合他们自己兴趣、而不是我兴趣的内容，他们就会选择那个。所以我试着多写原创文章，并向读者说：“如果你希望我继续当独立记者、继续制作这些内容，请支持我，因为我为之写稿的新闻机构根本不给什么钱。”</p>
+<p>我做过的每一项大型调查，都让我亏损了数千美元。听上去很惨淡，但与此同时，我热爱技术。我希望技术让世界变得更好，也支持人们从 AI 获取信息。我觉得，我们这个社会需要承认，它正在扰乱我们的信息生态，然后想想能建立什么商业模式来支持新闻业。现在很多记者将无法继续当记者。我也在调整报道内容，因为我以前报道了很多政治话题，不利于吸引广告商，所以现在试着多报道一些更基础的科技内容，这些更容易赚钱。我个人并不是特别介意，但我就不会再揭露那么多政治生态中的不当行为了，而且作出这个决定的人不只我一个。</p>
+<p><strong>你觉得科技行业推出 AI 的方式，促进了还是妨碍了它的普及？</strong></p>
+<p>两方面都有一点。想想这个事实：ChatGPT 是有史以来增长最快的消费产品。当然，如今增长已经放缓，但人们对这项技术的兴趣非常大。看看 Anthropic，虽然主要是 B2B 商业模式，也有庞大的消费者业务。数百万人正在从 AI 产品中获益，这一点不能忽视。单看 ChatGPT 的评价，它在 iPhone 应用商店就有超过 600 万条评价，我想评分大概是 4.8。人们喜欢这些工具，每天都用它们改善生活。</p>
+<p>与此同时，这些科技公司的掌舵者都在追求自己的利益。他们往往行为不端，我也不同意他们的意识形态。他们会不惜一切代价赚钱，并不总把用户放在心上。我觉得，他们没能向许多怀疑者说清楚这项技术的好处。大家需要记住，AI 不只是 OpenAI 和 Anthropic，大语言模型是一项新技术。就我自己来说，DeepSeek 的使用量可能比其他那些工具都多。因此，这些人还有另一个问题：一想到 AI，就想到 Sam Altman。</p>
+<p><strong>平台和 AI 公司对作者与创作者负有什么责任？</strong></p>
+<p>我认为，平台应该尽一切可能支持创作者。有些平台很掠夺性，比如 Meta，根本不给创作者实质支持。X 也一直不是支持创作者的平台，希望他们开始这样做。还有些平台，比如我认为 Substack，甚至 YouTube，可以提供随规模增长的收入。Substack 是我收入的一部分，足够让我生活。</p>
+<p>我也觉得，如何资助新闻业还是一个悬而未决的问题，我不认为一定该由科技公司来解决——它们的工作是开发这些产品，而不是拯救新闻业。但看看 Craig Newmark。Craigslist 在很多方面重创了地方新闻业，而他资助了大量新闻项目，让很多媒体脱离困境。因此，我觉得这些科技亿万富翁应该想一想自己对世界造成的影响；如果能用自己数十亿美元的财富减轻影响，就考虑这样做。到目前为止，他们都没有，我希望这能改变。</p>
+<p><strong>对于想在这一切发生之际进入新闻业的人，你有什么建议？</strong></p>
+<p>我会告诉他们，新闻业的商业模式正在变化。如果想当记者，第一件事是和读者建立直接关系。这是你能做的最有价值的事情。也不要回避新技术。刚起步时，你的一个优势就是从零开始，因此你可以按照自己的想法建立商业模式。如今我聊过的很多年轻人，都知道新闻工作对自己来说会是一个业余爱好。他们会去做暖通空调技术员，再在业余时间做新闻，或者做其他产品，用它来资助自己的新闻工作。我不知道我们还会不会拥有过去 50 或 60 年那样的新闻业。但我们可以建立更好的东西。我们就是得展开这些对话。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!9tUh!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff024f8f9-2d53-4dea-92c1-c6e4d57f59fe_1920x198.png" alt=""></p>
+<p><em><strong>我们请 Taylor Lorenz 带我们看看，她从播客到通讯，一天如何开展研究和写作，让我们了解她的过程，以及一路上在哪些地方作出决定。</strong></em></p>
+<p><strong>播客</strong></p>
+<p><em>我的播客 Power User 是一档每周两期的科技文化播客；周五还有名为 Free Speech Fridays 的特别节目，讨论数字权利和网络言论自由。</em></p>
+<p>研究</p>
+<ul>
+<li>
+<p>汇集资料：当我需要快速了解一个不熟悉的话题，比如本周关于中国开源模型争论的节目涉及的安全和大语言模型，我会找自己信任的人的文章——这次是 <a href="https://open.substack.com/users/1589222-alex-stamos">Alex Stamos</a>——让 AI 汇集他对这个话题说过的所有内容。</p>
+</li>
+<li>
+<p>用 Gemini 搜索，也在 Grok 上查询，检查有没有遗漏。</p>
+</li>
+<li>
+<p>把收集到的东西贴进 Claude，让它整理信息。</p>
+</li>
+<li>
+<p>在不同模型里做类似搜索，观察它们回答的差异，更好地了解各自的能力。</p>
+</li>
+</ul>
+<p>录制</p>
+<ul>
+<li>
+<p>和当周嘉宾约好在 Riverside 上对话。</p>
+</li>
+<li>
+<p>录制对话本身，真人和真人交流，没有 AI。我不会提前写好问题；这样聊起来更自然。</p>
+</li>
+</ul>
+<p>剪辑</p>
+<ul>
+<li>
+<p>有时自己用 Adobe Premiere 做初剪，有时直接发给我的真人播客剪辑师。</p>
+</li>
+<li>
+<p>剪辑师调整音量、剪掉口误、拼出节目的初稿。他在这个过程中会使用 AI 工具，尤其是音频处理，但剪辑还是在 Premiere 里手动完成。</p>
+</li>
+</ul>
+<p>转写</p>
+<ul>
+<li>
+<p>把剪好的视频保存到我的电脑。</p>
+</li>
+<li>
+<p>接下来由我用 Claude Code 写的脚本接手，把视频复制到正确的文件夹，自动转写文件，生成文字稿。</p>
+</li>
+</ul>
+<p>标题和简介</p>
+<ul>
+<li>
+<p>把文字稿交给五个不同的模型——Claude、Gemini、Grok、DeepSeek 和 ChatGPT——使用相同的提示词。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+</li>
+<li>
+<p>选出我最喜欢的标题和简介，再自己调整。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+</li>
+</ul>
+<p>缩略图</p>
+<ul>
+<li>
+<p>把生成的缩略图建议和我自己的想法结合起来，用 Canva 制作缩略图。这至少要花一个多小时，我不擅长数字设计。Canva 的 AI 工具可以帮我自动扩展、变换图像，直到做出一个协调的结果。</p>
+</li>
+<li>
+<p>把视频初稿上传到 VidIQ，它会分析视频，建议如何调整缩略图，并给出其他标题。</p>
+</li>
+<li>
+<p>回到 Canva，按 VidIQ 的建议修改。我通常要这样来回大约三轮，才能得到能用的缩略图和标题。</p>
+</li>
+</ul>
+<p>发布</p>
+<ul>
+<li>
+<p>用自己的措辞修改经过搜索引擎优化（SEO）的简介，或者改写那些读起来不顺的地方。</p>
+</li>
+<li>
+<p>把视频上传到 YouTube，再分别上传一份到 Patreon 和 Spotify。</p>
+</li>
+</ul>
+<p>短片</p>
+<ul>
+<li>
+<p>先检查 Spotify，因为它的自动剪辑工具通常最会挑选精彩片段。</p>
+</li>
+<li>
+<p>由于 Spotify 的短视频片段无法下载，我会从头在 CapCut 里重做这些片段，调整画面比例，再加上 Pexels 的素材视频。</p>
+</li>
+<li>
+<p>把每条短视频交给 VidIQ，优化标题和话题标签。</p>
+</li>
+<li>
+<p>我也一直在试用 OpusClip 来生成短视频。</p>
+</li>
+</ul>
+<p>整个过程要花好几天。我基本上是一个人包办所有工作，每周发布两期视频节目。</p>
+<p><strong>通讯</strong></p>
+<p>制作视频和播客占了我 95% 的时间，所以每期通讯都单独写原创内容，剩余的时间不太够。我的通讯是播客的补充，也是我为播客和视频内容提供资金的方式，因为我没有任何赞助商。我写文章或较长的作品时，都是 100% 人工写作。通常，我报道的是自己注意到的现象或趋势，为此进行采访、查找资料，做传统的、低技术含量的报道。最近我一直在思考智能体。我很想搭建某种智能体系统，快速浏览我的文章，自动用我的邮件地址给所有需要联系的人发信，征求他们的意见，不过我还没有做出来。</p>
+<p>构建通讯开头</p>
+<ul>
+<li>
+<p>把经过 SEO 优化的 YouTube 视频简介放在通讯开头，有时稍微调整，或者加上一两句开场白。</p>
+</li>
+<li>
+<p>在下面嵌入 YouTube 视频。这一部分放在付费墙之外，这样设计是为了让开头部分更适合搜索。</p>
+</li>
+</ul>
+<p>我在读什么</p>
+<p>列出我正在读的文章标题和链接，大部分是深度报道和长文。在付费墙后面，没有 AI 参与。</p>
+<p>新闻速览</p>
+<ul>
+<li>
+<p>挑选当周我关注的大约 30 到 40 条新闻，始终 100% 由我人工挑选。</p>
+</li>
+<li>
+<p>交给 Claude 分类，这是读者专门提出的要求。Claude 在这方面还不太好，所以之后还需要整理。</p>
+</li>
+</ul>
+<p>速览中的每一条，都是一个句子，带上回到原始来源的链接——某件引起我兴趣、让我觉得值得注意或好笑的事。有时是我复制的一条推文，老实说，我并不总知道这条推文本身是不是 AI 写的。不是我写的，所以我不能确定。有时是一个标题；有时是我自己写的句子。最重要的是，我始终链接到原始来源，让读者自己看看信息从哪里来。</p>
+<p><em>访谈和工作流程介绍为篇幅与表述清晰度作了编辑。</em></p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p><strong>我的提示词：</strong>
+附件是一段 YouTube 视频的文字稿。你的任务是充当 YouTube 增长策略师，专门研究长篇新闻、政治和科技视频。
+在生成任何内容之前，先完成以下工作：</p>
+<ul>
+<li>
+<p>阅读整份文字稿。</p>
+</li>
+<li>
+<p>找出视频的：</p>
+</li>
+<li>
+<p>核心论点</p>
+</li>
+<li>
+<p>最大的揭示</p>
+</li>
+<li>
+<p>最能打动情绪的时刻</p>
+</li>
+<li>
+<p>最有争议的主张</p>
+</li>
+<li>
+<p>最能激发好奇心的未解问题</p>
+</li>
+<li>
+<p>最令人惊讶的引语或事实</p>
+</li>
+<li>
+<p>在 YouTube 上搜索近期同类话题表现最好的视频，分析：</p>
+</li>
+<li>
+<p>常见的标题模式</p>
+</li>
+<li>
+<p>信息缺口带来的好奇心</p>
+</li>
+<li>
+<p>情绪框架</p>
+</li>
+<li>
+<p>用词</p>
+</li>
+<li>
+<p>长度</p>
+</li>
+<li>
+<p>搜索当前与此话题有关的新闻标题和网络讨论，找出人们正在积极搜索的热门表达、姓名和关键词。</p>
+</li>
+<li>
+<p>用这些发现优化每一项建议，而不是只描述视频。以当前趋势为依据，但不得编造事实，也不得承诺视频没有提供的内容。</p>
+</li>
+</ul>
+<p>接下来，生成 10 个 YouTube 标题。
+要求：</p>
+<ul>
+<li>
+<p>少于 60 个字符</p>
+</li>
+<li>
+<p>不用句号</p>
+</li>
+<li>
+<p>不用冒号</p>
+</li>
+<li>
+<p>每个标题都应给人不同的感觉</p>
+</li>
+<li>
+<p>按潜在点击率（CTR，click-through rate）从高到低排序</p>
+</li>
+<li>
+<p>每个标题应着重采用下列一种方式：</p>
+</li>
+<li>
+<p>好奇心</p>
+</li>
+<li>
+<p>震惊</p>
+</li>
+<li>
+<p>冲突</p>
+</li>
+<li>
+<p>恐惧</p>
+</li>
+<li>
+<p>利害关系</p>
+</li>
+<li>
+<p>揭示</p>
+</li>
+<li>
+<p>叙事</p>
+</li>
+<li>
+<p>神秘感</p>
+</li>
+<li>
+<p>权威</p>
+</li>
+<li>
+<p>搜索意图</p>
+</li>
+<li>
+<p>避免泛泛而谈或公司宣传式用语。</p>
+</li>
+<li>
+<p>让它们听起来像当前在这一领域表现出色的标题。</p>
+</li>
+<li>
+<p>不要多次重复同一结构。</p>
+</li>
+</ul>
+<p>每个标题应包含：</p>
+<ul>
+<li>预估的点击率潜力（1-10）</li>
+</ul>
+<p>生成 10 个缩略图构想。
+每个构想应包含：</p>
+<ul>
+<li>
+<p>准确的画面构图</p>
+</li>
+<li>
+<p>镜头取景</p>
+</li>
+<li>
+<p>面部表情</p>
+</li>
+<li>
+<p>背景</p>
+</li>
+<li>
+<p>光线</p>
+</li>
+<li>
+<p>配色</p>
+</li>
+<li>
+<p>出现的物体</p>
+</li>
+<li>
+<p>文字放置的位置</p>
+</li>
+<li>
+<p>确切的缩略图文字（1-4 个词）</p>
+</li>
+</ul>
+<p>规则：</p>
+<ul>
+<li>
+<p>不用分屏缩略图</p>
+</li>
+<li>
+<p>不要杂乱</p>
+</li>
+<li>
+<p>只有一个主导的视觉想法</p>
+</li>
+<li>
+<p>文字必须能在手机上读清</p>
+</li>
+<li>
+<p>缩略图应该激发好奇心，由标题来补全，而不是重复标题。</p>
+</li>
+</ul>
+<p>SEO 简介
+撰写一段 YouTube 简介，要求：</p>
+<ul>
+<li>
+<p>用引人入胜的两句话开场</p>
+</li>
+<li>
+<p>自然融入 5 个以上与话题有关的热门搜索词</p>
+</li>
+<li>
+<p>解释观众将了解到什么</p>
+</li>
+<li>
+<p>包含关键词，但不要堆砌</p>
+</li>
+<li>
+<p>结尾强烈呼吁订阅</p>
+</li>
+</ul>
+<p>生成：</p>
+<ul>
+<li>
+<p>30 个高价值 YouTube 搜索关键词</p>
+</li>
+<li>
+<p>20 个长尾关键词短语</p>
+</li>
+<li>
+<p>10 个话题标签</p>
+</li>
+</ul>
+<p>假定目标是在最大限度提高搜索流量的同时，让 YouTube 视频获得最大的长期表现。优先考虑点击率和观众的好奇心，同时完全忠于文字稿内容。与描述性概述相比，更偏好能制造“信息缺口”的标题。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>我每个模型都用，但常常更喜欢 DeepSeek。我觉得它在某些事情上更好。每个工具都有各自更擅长的地方：Gemini 更擅长生成图片。Grok 更擅长处理含有争议内容的节目。一位记者朋友告诉我，Grok“没有那么多护栏，所以如果你做的事情需要更少的护栏，也许可以用 Grok”。Claude 擅长生成简介中的要点列表，而在真正的 SEO 优化、建议最佳话题标签方面，ChatGPT 和 Gemini 不相上下。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-taylor-lorenz","sender":"Substack Team","author":"Substack Team","authorAliases":["Substack Team"],"subject":"模型行为：Taylor Lorenz","snippet":"Taylor Lorenz 谈 AI、记者收入与创作流程，并分享播客及通讯制作步骤。","date":"2026-07-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["AI写作","新闻业","内容创作"],"mdTheme":"magazine","sourcePath":"talks/interview-taylor-lorenz.md","sourceUrl":"https://on.substack.com/p/model-behavior-taylor-lorenz","body":"$3","prompts":[]},"listPosition":{"index":73,"total":571},"relatedArticles":[{"id":"talks-interview-model-behavior-george-saunders","subject":"模型行为：George Saunders","sender":"On Substack","date":"2026-09-30","matchedPeople":[],"matchedTags":["AI写作"]},{"id":"talks-interview-publishing-ai-discussion","subject":"200万美元书约因涉嫌使用AI被撤回：出版业将走向何方？","sender":"John Paul Brammer, Kathleen Schmidt, Lincoln Michel, Danya Issawi","date":"2026-08-06","matchedPeople":[],"matchedTags":["AI写作"]},{"id":"ai-slop-writing-social-media-study","subject":"四分之一长文由AI代笔：社交平台内容失守","sender":"henri","date":"2026-07-10","matchedPeople":[],"matchedTags":["AI写作"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,54 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T261f,<p>原文：<a href="https://www.latent.space/p/wayfinder-skill">The /wayfinder Skill: Navigating the “Fog of War” of Planning</a></p>
+<p>译者说明：本文完整翻译已发表的编辑版问答，原文已为篇幅和可读性作编辑，非未经删节的录音逐字稿。</p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!gjWE!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png" alt=""></p>
+<p>我们正在筹划一个介绍技能的新系列，希望定期为你的项目带来可以使用的新技能。系列从一次访谈和一项超级实用的技能开始，嘉宾是 <strong>Matt Pocock</strong>。他的“<a href="https://www.aihero.dev/skills">AI Skills for Real Engineers</a>”项目在 <a href="https://github.com/mattpocock/skills">GitHub 上</a>已获得超过 220,000 颗星。他也会在<a href="https://www.youtube.com/@mattpocockuk">自己的 YouTube 频道</a>向 347,000 名订阅者介绍这些技能。</p>
+<p>Pocock 最近发布了一项名为 <strong><a href="https://www.aihero.dev/skills-wayfinder">/wayfinder</a></strong> 的新技能，用来帮助你和智能体（agent）理清那些最终状态还不完全明确的项目。用他在访谈中的话说，<strong>/wayfinder 帮你穿越“战争迷雾”</strong>：你手上有一个项目，但**“没法在一开始就把所有事情都决定好”。**</p>
+<p>以下访谈为方便阅读略作删节。你可以读一读，吸收 Matt 的见解，再亲自试试 /wayfinder！</p>
+<p><strong>Latent Space:</strong> wayfinder 想实现什么目标？</p>
+<p><strong>Pocock:</strong> 我注意到，自己在大量使用 AFK 智能体 <em>[Away From Keyboard，离开键盘时运行的智能体]</em>，试着安排一大堆工作，让它们几乎可以跑上一整夜。我会先规划一批事情，写成规格说明，再把规格拆成工单。我已经有一套很成熟的技能，可以把工作转化成排好的任务，让智能体直接开干。</p>
+<p>但 [...] 我发现规划阶段实在很费劲，因为我必须一直想着会话管理的问题。比如，我在上下文窗口里已经用了多少词元（token）？这次已经深入到什么程度了？</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!wVS2!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bf25fab-cb0d-422f-a6f0-1f255aabbe37_1606x418.png" alt=""></p>
+<p>Matt Pocock 的 wayfinder 技能，见 <a href="https://github.com/mattpocock/skills/blob/9c9f36ccd3995266cd675468af71639c8dde1ec5/skills/engineering/wayfinder/SKILL.md">GitHub 上的文档</a>。</p>
+<p>我不想再在规划阶段感到束手束脚。我想要一个编排层（orchestrator layer），基本上它会说：好，不管你想规划什么，我都会替你管理规划会话。我会把工作拆到多个不同的线程里，做原型、做研究，再把结果收拢到一起，让你规划时不再受到这些限制。</p>
+<p>这样，你的规格说明就能写得更详细，随后直接派一个 AFK 智能体去做更多工作就行。</p>
+<p><strong>Latent Space:</strong> 设计这项技能的过程是怎样的？</p>
+<p><strong>Pocock:</strong> 我最初有个小想法：要是我不用自己管理交接，会是什么样？然后，如果有一份集中的文档，把所有这些部分放在一起，又会是什么样？</p>
+<p>只要你在考虑上下文管理——因为技能本质上做的就是管理当前所用智能体的上下文——<strong>你就得考虑信息如何流动。</strong> 所以我想的是：假如一个追问会话（grilling session）可以管理其他追问会话，会是什么样？</p>
+<p>第一步就是想清楚，被管理的追问会话需要什么。在这种情况下，子会话需要什么？它大概得对其他正在发生的事情有一个粗略的总体认识，也得知道自己具体要做的任务。</p>
+<p>于是，这里有两份文档。一份是<strong>地图（map）</strong>，放着其余所有事情、已经作出的全部决定；另一份是具体的<strong>工单（ticket）</strong>，送进实际的会话里。你会发现，这些词指得很准确。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!_LFN!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70e1c1a0-f565-40f5-8caf-03535d0eaea2_1702x512.png" alt=""></p>
+<p>摘自 <a href="https://github.com/mattpocock/skills/blob/9c9f36ccd3995266cd675468af71639c8dde1ec5/skills/engineering/wayfinder/SKILL.md">wayfinder 文档</a>。</p>
+<p>你有地图、有工单，还有<strong>会话（session）</strong>。一旦有了一个想法的雏形，就得为它找出合适的词。因为词一旦定下来，智能体就能把这些实体的关系梳理得很清楚。</p>
+<p>如果你把所有东西都叫作工单，或者在不同地方用不同说法指同一个东西，它就会很困惑，行为也会变得奇怪。反过来，如果你用这些很明确的词——我把它们叫作引导词——引导智能体准确理解每个部分是什么，又想明白了信息流，那么你的技能就有了。</p>
+<p><strong>Latent Space:</strong> 你觉得 wayfinder 适用于哪些场景？</p>
+<p><strong>Pocock:</strong> 我已经用它做各种各样的事情了，也用它来规划课程。wayfinder 有不同类型的工单。</p>
+<p>有**追问（grilling）<strong>工单，也就是一个追问会话；有用于制作原型的</strong>原型（prototype）<strong>工单，用于创建[并开展]研究的</strong>研究（research）<strong>工单，还有</strong>任务（task）**工单。最后一种范围很广……基本上就是任何需要人来做、智能体做不了的事情。这样一想，你就会发现：好，我可以把它用在任何事情上。</p>
+<p>wayfinder 一个很关键的想法就是“战争迷雾”。意思是，你没法在最开始就把所有事情都决定下来。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!wEzM!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa45ec9e2-70f8-4949-9169-9c6a40d2e51a_1602x690.png" alt=""></p>
+<p>我决定用一个重构个人网站架构的项目来测试 /wayfinder。这是最初的项目设置，这次用的是 Claude Code。</p>
+<p>你可以先作出某些决定，这些决定会引着你往前走，把你进一步推进战争迷雾里——有点像《魔兽争霸 III》里探索地图。想到“战争迷雾”和“地图”之后，我发现这两个词搭配得非常好，能把智能体引向正确的思路。所以我一直用它来做工程工作、工程之外的事情、课程规划，各种事情。</p>
+<p><strong>Latent Space:</strong> 战争迷雾这个概念——想一想那些“你不知道自己不知道”的事，感觉很奇妙。也许大语言模型（LLM）善于捕捉这类事情。</p>
+<p><strong>Pocock:</strong> 我觉得，我还在做的这些追问功能，就抓住了这么一个想法：你有些事不知道，但智能体也许能贡献点什么，照亮房间里你还不太了解的部分。</p>
+<p>wayfinder 就是在这个基础上再加一层。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!IBmD!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3700b86a-c697-485f-8715-5aaf4c810d98_2032x1168.png" alt=""></p>
+<p>用 /wayfinder 推进我的网站架构重构项目。有 20 多年的内容要重新整理！</p>
+<p><strong>Latent Space:</strong> 是啊，还有所有这些产物。你花多少时间教模型这些术语？</p>
+<p><strong>Pocock:</strong> 最近几个月，我一直非常着迷于术语，想为某些东西找到正确的叫法。我整理了一本 AI 编程词典，基本收录了 AI 编程的所有术语，不过还没发布。它是一张漂亮的图谱，你可以探索它，准确理解什么是智能体、什么是运行框架（harness）、什么是模型，等等。</p>
+<p>我把所有课程都重新做了一遍，用上这本词典，把术语基础打牢。我的所有技能也使用一套一致的词典，因此它们都基于[相同的]假设、相同的引导词运行。</p>
+<p>我意识到，我和智能体之间需要一套通用语言（ubiquitous language）。我们之间有沟通障碍。我做技能时一直想解决的，就是找到合适的词。</p>
+<p>智能体非常擅长向你展示有哪些换一种说法的机会，实际上也非常擅长领域建模（domain modeling）。</p>
+<p><strong>Latent Space:</strong> 什么情况下直接用 grill-me 技能，什么情况下用 wayfinder？</p>
+<p><strong>Pocock:</strong> 如果你觉得能在一次会话里把整件事规划清楚，只是在动手前需要对齐，就用“grill me”。大多数小功能都属于这一类。大多数你能看清前路、只是想确保智能体跟你想法一致的事情，用“grill me”就可以。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!upep!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2f54f3f-fdcf-4771-822a-93042ba23614_1556x316.png" alt=""></p>
+<p>来自 <a href="https://www.aihero.dev/skills-wayfinder">wayfinder 文档</a>。</p>
+<p>如果你看不清前路，感觉面前是一片战争迷雾，就用 wayfinder。你会靠 wayfinder 找到自己的路。它就是这么工作的。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-matt-pocock-wayfinder","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"/wayfinder 技能：穿越项目规划的“战争迷雾”","snippet":"Matt Pocock 介绍 /wayfinder 如何拆解开放式项目规划、原型探索与多智能体协作。","date":"2026-08-20","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["项目规划","原型设计","多智能体"],"mdTheme":"magazine","sourcePath":"talks/interview-matt-pocock-wayfinder.md","sourceUrl":"https://www.latent.space/p/wayfinder-skill","body":"$3","prompts":[]},"listPosition":{"index":57,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-latent-runway","subject":"Runway 的 WorldPrompt 与实时世界的工程实现","sender":"Richard MacManus","date":"2026-09-25","matchedPeople":["Richard MacManus"],"matchedTags":[]},{"id":"reports-open-source-contributions","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","sender":"Latent.Space","date":"2026-09-01","matchedPeople":["Richard MacManus"],"matchedTags":[]},{"id":"talks-interview-vercel-agents-new-software","subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","sender":"Richard MacManus","date":"2026-07-03","matchedPeople":["Richard MacManus"],"matchedTags":[]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

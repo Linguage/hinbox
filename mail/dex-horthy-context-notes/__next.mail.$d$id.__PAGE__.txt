@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1c8d,<p>Gergely Orosz在<a href="https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy">2026年7月15日的The Pragmatic Engineer节目</a>中采访了HumanLayer联合创始人兼CEO Dex Horthy。以下译自Orosz随节目发表的十二条观察；完整访谈可在<a href="https://youtu.be/Usufn8IQJgw">YouTube</a>观看。</p>
+<h2>1. 从真实工程师的实践中提炼原则</h2>
+<p>Dex与约100名实际交付AI项目的工程师交谈后，写出了<a href="https://github.com/humanlayer/12-factor-agents">《12-Factor Agents》</a>。他在2024年8月前后开始构建AI智能体，当时常见的做法是使用LangChain、CrewAI等框架。他接触的工程师中，有人承接价值超过10万美元的合同，为企业交付AI方案。他们试过这些框架，后来放弃框架，改为构建自己的流水线。Dex把这些经验整理进了这份指南。</p>
+<h2>2. 交付无人读过的代码会在几个月内酿成灾难</h2>
+<p>2025年7月，Dex试着让模型编写代码，人类完全不审查。四个月后，他们停掉了整个系统，把它全部丢弃。生产环境出了故障，无论团队怎样提示Opus 4.1，模型都找不到根因。</p>
+<p>团队花了几天时间梳理纠缠的代码，才发现一个主键在整个代码库中被错误传递。修复后，他们又花了三周重新熟悉这个从未被任何人读过的代码库。Dex认为，较新的模型生成代码更快，这类问题今天可能连四个月都用不了就会出现。</p>
+<h2>3. 单元测试难以衡量架构的长期代价</h2>
+<p>Dex认为，当前编程模型的训练方式很可能让代码库随时间变差。他猜测，原因之一是模型被优化为在SWE-bench一类基准上表现良好。这些基准奖励模型在Django等代码库中复现一个已知修复，却无法衡量糟糕的架构决策：坏架构和坏程序设计的代价，不能靠运行一个单元测试来评估。</p>
+<p>他设想的评估方式，是让模型在同一个代码库中连续实现20项功能，并且事先不知道下一项功能是什么。</p>
+<h2>4. 找到上下文的“变笨区”</h2>
+<p>Dex的经验是，上下文窗口用得越少，结果通常越好。Orosz在此提到自注意力随上下文长度增加而出现的计算开销，并链接到自己的<a href="https://newsletter.pragmaticengineer.com/i/141865286/scalability-challenge-from-self-attention">ChatGPT技术介绍</a>。</p>
+<p>对于上下文窗口为100万词元的模型，Dex在感觉合适时会用到30万—40万词元；对于窗口较小的模型，他会在约10万词元处停下。这些是他的使用经验。超过合适范围后，模型表现开始下降，可能做出越来越不合理的动作，例如删除<code>.env</code>文件；他把这段范围称为“变笨区”。</p>
+<h2>5. 更大的窗口不等于更聪明的模型</h2>
+<p>模型的智能还体现在能否利用窗口里的词元，判断哪些上下文与下一次决策相关。Dex建议通过实际试验，了解合适的上下文用量，以及模型从哪里开始退化。</p>
+<h2>6. 经常进行有意的上下文压缩</h2>
+<p>处理较复杂的项目时，Dex会把冗长、嘈杂的上下文压缩成一份Markdown文档，再开启新会话，让模型从这份压缩后的文档重新开始。</p>
+<p>他使用的一种流程是：</p>
+<ol>
+<li>一个会话阅读大量代码，在模型仍表现良好的范围内填充上下文，然后输出研究文档。</li>
+<li>下一个会话读取描述工作要求的任务单，将其转成设计文档。</li>
+<li>随后的会话结合两份文档生成计划。</li>
+<li>人在影响较大的环节参与审查，尤其是设计文档和架构；Dex认为模型在这些方面较弱。</li>
+</ol>
+<h2>7. 在成本成为实际问题后再优化模型用量</h2>
+<p>Dex建议先用当时最聪明的可用模型解决问题，因为工程时间几乎总是瓶颈。业务增长、规模扩大或成本足够高后，再优化模型与上下文用量。他举的例子是把流程中较简单的步骤交给GPT-OSS-120B，并称其成本约为Opus的千分之一。这是节目当时的比较，具体费用随服务、任务和计费方式变化。</p>
+<h2>8. 反复迎合可能意味着该换会话了</h2>
+<p>Dex把“你完全正确！”或“你反驳得对”一类反复回应视为会话轨迹已经受污染的信号。模型先犯错，用户责骂，模型继续犯错，用户再次责骂，这样的模式可能不断延续。</p>
+<p>他用模型的自回归特征解释这种现象：模型根据先前的消息预测后续消息，已经形成的对话模式会影响接下来的输出。Dex会选择重开会话，避免继续把时间和词元花在这个循环里。</p>
+<h2>9. 上下文中的四项要素</h2>
+<p>Orosz把Dex的关注点整理为四项：</p>
+<ul>
+<li><strong>大小</strong>：窗口越大，通常能在进入“变笨区”前容纳更多内容。</li>
+<li><strong>信息质量</strong>：进入上下文的信息会影响后续回合；错误可能累积。</li>
+<li><strong>缺失信息</strong>：智能体缺少完成任务所需的信息时，可能用猜测填补空白，结果随之变差。</li>
+<li><strong>轨迹</strong>：模型根据先前消息预测下一条消息。如果智能体已经反复做出不希望出现的行为，Dex会重新开始。</li>
+</ul>
+<h2>10. 使用较慢的自动化循环</h2>
+<p>HumanLayer团队最初设置了一项夜间自动化任务：智能体修复代码库中的一个问题，然后提交PR。团队早晨起床时就有一个PR等待合并。</p>
+<p>经过调整，他们让四个智能体在夜间各提交一个PR，主要改进代码质量。合并前仍有人阅读每一个PR。Dex把这种留出人工审查时间的做法称为“慢循环”。</p>
+<h2>11. 多消耗词元与更好地使用词元</h2>
+<p>Dex加入了一个名为“Hyper Engineering”的群聊，成员分享怎样把Claude订阅额度用到上限。他称这种方式为“token harder”，即加大词元使用量。另一种方向是“token smarter”：在保持控制的同时，从AI中获得尽可能多的价值。他认为后者更难做到。</p>
+<h2>12. 三种软件工厂</h2>
+<p>Dex提出三种做法：</p>
+<ul>
+<li><strong>关灯运行</strong>：完全投入智能体编程，不读代码，希望AI不要制造过多低质量内容。Dex尝试过，并且失败了。</li>
+<li><strong>阅读和审查全部AI生成代码</strong>：速度受人类阅读能力限制。Dex估计，相比AI出现前的工程方式，这种做法可能带来30%—50%的生产率提升。</li>
+<li><strong>寻找投入产出更高的环节并保留人工参与</strong>：例如，一小时的规划能否通过减少错误，节省四小时的实现工作。把更多时间放在设计、架构和关键决策上，再让智能体生成代码，减少逐行审查的要求。Dex认为，这种方式可能比开发者手写所有代码快两到三倍。</li>
+</ul>
+<p>这些效率数字是Dex在<a href="https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy">本期节目</a>中的估计；Orosz的节目观察没有提供统一的任务样本与对照测量。</p>
+<hr>
+<p><em>节目观察由Gergely Orosz撰写，AI翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"dex-horthy-context-notes","sender":"The Pragmatic Engineer","author":"henri","sourceAuthor":"Gergely Orosz","authorAliases":["henri","Gergely Orosz","Henri","Hinbox"],"publisher":"The Pragmatic Engineer","subject":"Dex Horthy的上下文工程实践","snippet":"Gergely Orosz整理的十二条访谈观察，涉及代码审查、上下文压缩、会话轨迹和软件工厂的人工参与。","date":"2026-07-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["上下文工程","AI编程","代码审查"],"mdTheme":"magazine","sourcePath":"notes/dex-horthy-context-notes.md","sourceUrl":"https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy","body":"$3","prompts":[]},"listPosition":{"index":105,"total":571},"matchedPerson":{"id":"gergely-orosz","name":"Gergely Orosz","email":"","occupation":"软件工程师、科技作者","website":"https://blog.pragmaticengineer.com/about/","bio":"撰写 Pragmatic Engineer 通讯，报道软件工程实践与科技行业，曾负责 Uber 的工程团队。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"代码审查","name":"代码审查","count":1}]},"relatedArticles":[{"id":"essays-napkin-math-engineering","subject":"用‘餐巾纸估算’突破软件工程的极限","sender":"The Pragmatic Engineer","date":"2026-07-21","matchedPeople":["Gergely Orosz"],"matchedTags":[]},{"id":"talks-cursor-coding-agents-tutorial-2026","subject":"掌握AI编程智能体：Cursor使用进阶指南","sender":"leerob","date":"2026-04-16","matchedPeople":[],"matchedTags":["上下文工程","AI编程","代码审查"]},{"id":"ai-code-review-slowly","subject":"用 AI 慢一点写出更好的代码","sender":"henri","date":"2026-05-25","matchedPeople":[],"matchedTags":["AI编程","代码审查"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

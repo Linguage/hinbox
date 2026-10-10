@@ -1,0 +1,222 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T20f4,<p><strong>“在添加那个抽象（abstraction）之前，先问问：谁会永远支付这笔维护税（maintenance tax）？”</strong></p>
+<p>软件工程中有一个危险的时刻。</p>
+<p>你发现了一个问题。</p>
+<p>你找到了一个巧妙的抽象，可能解决它。</p>
+<p>它优雅。<br>
+可复用。<br>
+可扩展。<br>
+能应对未来。</p>
+<p>你对这个设计很满意。</p>
+<p>然后你把它加了进去。</p>
+<p>六个月后，没人记得它为什么存在。</p>
+<p>但每个人都得维护它。</p>
+<p>这就是<strong>复杂度</strong>的隐性成本。</p>
+<hr>
+<h2>复杂度并不免费</h2>
+<p>当工程师谈论成本时，我们通常想到的是：</p>
+<ul>
+<li>云基础设施</li>
+<li>数据库容量</li>
+<li>开发者薪资</li>
+<li>许可证</li>
+<li>运营开支</li>
+</ul>
+<p>但还有一种成本，很少出现在电子表格上：</p>
+<blockquote>
+<p><strong>理解和维护系统的成本。</strong></p>
+</blockquote>
+<p>你引入的每一个抽象、框架、服务、队列、缓存、事件和配置，都会产生一笔小额维护账单。</p>
+<p>而这笔账单<strong>每一天</strong>都得支付。</p>
+<p>总得有人：</p>
+<ul>
+<li>理解它</li>
+<li>测试它</li>
+<li>监控它</li>
+<li>为它编写文档</li>
+<li>升级它</li>
+<li>调试它</li>
+<li>帮助新工程师熟悉它</li>
+</ul>
+<p>最初的开发者可能花了两天把它构建出来。</p>
+<p>接下来的20位工程师，可能要花上数年为它付出代价。</p>
+<hr>
+<h2>本质复杂度与偶发复杂度</h2>
+<p>这里就涉及一个重要的区分。</p>
+<h3>本质复杂度（essential complexity）</h3>
+<p>这是<strong>问题本身所要求</strong>的复杂度。</p>
+<p>支付系统需要处理：</p>
+<ul>
+<li>幂等性（idempotency）</li>
+<li>重试（retries）</li>
+<li>一致性（consistency）</li>
+<li>欺诈（fraud）</li>
+<li>对账（reconciliation）</li>
+</ul>
+<p>你不能仅仅因为这些事情麻烦，就把它们去掉。</p>
+<p>这个领域本来就复杂。</p>
+<p>这就是<strong>本质复杂度</strong>。</p>
+<h3>偶发复杂度（accidental complexity）</h3>
+<p>这是<strong>我们自己引入</strong>的复杂度。</p>
+<p>例如：</p>
+<blockquote>
+<p>“我们要为规模扩张做准备，所以创建12个微服务（microservices）吧。”</p>
+</blockquote>
+<p>但你的系统只有500位用户。</p>
+<p>现在你有了：</p>
+<ul>
+<li>服务发现（service discovery）</li>
+<li>网络调用（network calls）</li>
+<li>分布式追踪（distributed tracing）</li>
+<li>部署流水线（deployment pipelines）</li>
+<li>重试</li>
+<li>超时（timeouts）</li>
+<li>服务责任归属（service ownership）</li>
+<li>分布式调试（distributed debugging）</li>
+</ul>
+<p>业务问题并不要求这一切。</p>
+<p><strong>是我们要求的。</strong></p>
+<p>这就是偶发复杂度。</p>
+<p>而偶发复杂度是最昂贵的一种，因为它不提供任何业务价值。</p>
+<hr>
+<h2>抽象陷阱</h2>
+<p>有一种模式，我见过许多次。</p>
+<p>一位工程师说：</p>
+<blockquote>
+<p>“我们构建一个抽象吧，这样将来就能支持多种实现。”</p>
+</blockquote>
+<p>听起来合理。</p>
+<p>但请问：</p>
+<p><strong>我们今天真的有多种实现吗？</strong></p>
+<p>如果答案是“没有”，你可能正在为一个永远不会到来的未来付出代价。</p>
+<p>看看下面这个例子：</p>
+<pre><code class="language-text">Today:
+
+PaymentProvider
+      ↓
+Stripe
+
+Over-engineered:
+
+PaymentProvider
+      ↓
+PaymentStrategy
+      ↓
+PaymentFactory
+      ↓
+PaymentResolver
+      ↓
+ProviderRegistry
+      ↓
+StripeAdapter
+</code></pre>
+<p>恭喜。</p>
+<p>你成功地为将来某一天可能替换Stripe的情况做了设计。</p>
+<p>但现在，每位工程师仅仅为了处理一笔支付，就需要理解六层结构。</p>
+<p>这个抽象最终可能会派上用场。</p>
+<p>也可能变成<strong>架构考古（architecture archaeology）</strong>。</p>
+<hr>
+<h2>每个抽象都有一笔维护税</h2>
+<p>在引入一个新抽象之前，先问：</p>
+<h3>1. 它今天解决什么问题？</h3>
+<p>不是明年。</p>
+<p><strong>今天。</strong></p>
+<h3>2. 它引入了什么复杂度？</h3>
+<p>别只统计代码行数。</p>
+<p>想想：</p>
+<ul>
+<li>认知负荷（cognitive load）</li>
+<li>运维负担（operational burden）</li>
+<li>测试</li>
+<li>部署</li>
+<li>调试</li>
+</ul>
+<h3>3. 谁来维护它？</h3>
+<p>创建它的那个人？</p>
+<p>多半不会。</p>
+<p>会有别人接手它。</p>
+<h3>4. 如果我们不构建它，会怎么样？</h3>
+<p>这是最重要的问题。</p>
+<p>如果答案是：</p>
+<blockquote>
+<p>“没什么大不了的。”</p>
+</blockquote>
+<p>那就别构建它。</p>
+<hr>
+<h2>复杂度会累积</h2>
+<p>复杂度可怕的地方在于，它很少单独出现。</p>
+<p>一个抽象带来了另一个需求。</p>
+<p>那个需求又带来了另一个抽象。</p>
+<p>突然间：</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/7aba0aa4-1b5c-4d9f-a918-57ec2d8f0f77_6519x432.png" alt="新需求 → 新抽象 → 新配置 → 新故障模式 → 新监控 → 新运维成本 → 更多认知负荷 → 更多复杂度"></p>
+<p><em>图中文字（译）：新需求 → 新抽象 → 新配置 → 新故障模式 → 新监控 → 新运维成本 → 更多认知负荷 → 更多复杂度。图中箭头从“更多复杂度”回到“新抽象”。</em></p>
+<p>系统就是这样变得难以修改的。</p>
+<p>不是因为有人故意设计了一个糟糕的系统。</p>
+<p>而是因为<strong>每一个单独的决定，在当时看起来都合理</strong>。</p>
+<hr>
+<h2>“能应对未来”往往是一个警示信号</h2>
+<p>我最喜欢的架构问题之一是：</p>
+<blockquote>
+<p><strong>“我们是在解决一个真实的问题，还是在保护自己免受一个假设问题的影响？”</strong></p>
+</blockquote>
+<p>为未来做设计没有什么错。</p>
+<p>但未来有它发生的概率。</p>
+<p>如果你只有5%的概率会需要某样东西，今天就应该承担它100%的复杂度吗？</p>
+<p>有时应该。</p>
+<p>通常不应该。</p>
+<p>好的架构并不在于完美地预测未来。</p>
+<p>它在于让系统<strong>在未来变得明朗时，依然能以低成本修改</strong>。</p>
+<hr>
+<h2>资深工程师的优势</h2>
+<p>这就是为什么有经验的工程师有时会选择乏味的解决方案。</p>
+<p>他们明白一件在职业生涯初期并不显而易见的事：</p>
+<blockquote>
+<p><strong>简单的代码不一定是不成熟的代码。</strong></p>
+</blockquote>
+<p>有时候，简单是经验的结果。</p>
+<p>一位资深工程师可能会说：</p>
+<blockquote>
+<p>“今天先实现最简单的版本。如果第二个用例出现，我们到时候再提取抽象。”</p>
+</blockquote>
+<p>这不是懒惰。</p>
+<p>这是<strong>把复杂度推迟到它能够证明自身价值的时候</strong>。</p>
+<hr>
+<h2>复杂度预算</h2>
+<p>把复杂度当作一笔预算。</p>
+<p>你应该把它花在业务确实需要的地方。</p>
+<p>把复杂度花在：</p>
+<ul>
+<li>正确性（correctness）</li>
+<li>安全性（security）</li>
+<li>可靠性（reliability）</li>
+<li>有需要时的可扩展性（scalability）</li>
+<li>特定领域的约束（domain-specific constraints）</li>
+</ul>
+<p>对于因以下原因引入的复杂度，要保持怀疑：</p>
+<ul>
+<li>假设的需求</li>
+<li>流行的架构</li>
+<li>过早优化（premature optimization）</li>
+<li>不必要的抽象</li>
+<li>“大家都用这个”的推理</li>
+</ul>
+<p>每多一个活动部件，都应该证明自己存在的理由。</p>
+<hr>
+<h2>架构师的问题</h2>
+<p>在添加另一个服务、抽象、框架、队列、缓存或层之前，先问：</p>
+<blockquote>
+<p><strong>“我在解决什么问题，五年后谁会为这个决定付出代价？”</strong></p>
+</blockquote>
+<p>因为架构的成本不只是<strong>构建</strong>系统需要付出的代价。</p>
+<p>还包括<strong>长期与这个系统打交道</strong>需要付出的代价。</p>
+<p>而这笔成本，通常由那些在决定做出时甚至都不在场的人支付。</p>
+<p><strong>复杂度是一个成本中心（cost centre）。</strong></p>
+<p>谨慎地花这笔预算。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-complexity-cost-centre","sender":"The Architect’s Notebook","authorAliases":[],"publisher":"The Architect’s Notebook","subject":"复杂度是一个成本中心","snippet":"The Architect’s Notebook讨论抽象、框架和服务带来的长期维护成本，区分问题本身的复杂度与设计引入的复杂度。","date":"2026-08-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["软件工程","软件架构","复杂度","软件维护"],"mdTheme":"magazine","sourcePath":"essays/complexity-cost-centre.md","sourceUrl":"https://thearchitectsnotebook.substack.com/p/complexity-is-a-cost-centre","body":"$3","prompts":[]},"listPosition":{"index":49,"total":571},"relatedArticles":[{"id":"your-job-isnt-programming","subject":"你的工作不是编程：管理复杂度才是核心","sender":"henri","date":"2026-05-10","matchedPeople":[],"matchedTags":["软件工程","软件架构","复杂度"]},{"id":"talks-software-fundamentals-matter-more-than-ever-matt-pocock","subject":"AI 时代的软件基本功","sender":"Alex Kantrowitz","date":"2026-04-23","matchedPeople":[],"matchedTags":["软件工程","软件架构"]},{"id":"reports-ai-code-verification","subject":"为何在AI时代，代码验证比以往更重要","sender":"ByteByteGo","date":"2026-08-24","matchedPeople":[],"matchedTags":["软件工程"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

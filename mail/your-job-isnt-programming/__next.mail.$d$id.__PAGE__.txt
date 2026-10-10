@@ -1,0 +1,39 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tafb,<h1>你的工作不是编程：管理复杂度才是核心</h1>
+<h2>摘要</h2>
+<p>这篇文章挑战了程序员的传统认知，指出软件开发的真正瓶颈不在于编写代码，而在于人类理解复杂系统的能力。作者认为，仅仅通过更换技术栈（如 React 或 Rust）无法根治代码库质量差的问题。解决之道在于构建优质的抽象——即能够改变思考方式、隐藏次要细节并突出重要核心的 思想模型 。开发者的核心职责应当是管理复杂度，而非单纯地进行编码工作。</p>
+<h2>内容框架与概述</h2>
+<h3>抽象的本质与价值</h3>
+<p>文章首先引用了 John Ousterhout 的观点，强调软件开发最大的限制是理解力。所谓的 烂代码库 往往是因为复杂度超出了人的理解范畴。作者定义了真正的 抽象 应该是 思想 而非代码本身。一个成功的抽象必须能改变开发者思考代码的方式，否则它只是一层徒增烦恼的 间接层 。</p>
+<h3>如何设计与重构抽象</h3>
+<p>在实践层面，作者建议从业务逻辑和数据模型中寻找抽象灵感。业务中已存在的概念（如订单、客户）通常是最好的起点。对于难以处理的陈旧代码，作者引用了 Sandi Metz 的建议：与其在错误的抽象上修补，不如先消除抽象并回归代码重复，从而在重复中发现更契合的逻辑。他强调设计抽象是一个需要反复试错的创造性过程。</p>
+<h3>程序员的真实角色</h3>
+<p>最后，文章总结了职业角色的转变：编程的本质是管理复杂度。通过不断发现复杂度、提取核心思想并进行封装，开发者可以从 溺水 的状态中解脱出来。如果能做好抽象的设计与精炼，实际的编码环节将会变得非常简单；反之，项目则会随着时间推移变得不可维护。</p>
+<h2>核心概念及解读</h2>
+<ul>
+<li><strong>Abstraction（抽象）</strong>：一种隐藏非重要细节并强调重要信息的 思想模型 。它不仅是代码封装，更是一种简化系统认知负担的手段。</li>
+<li><strong>Layer of Indirection（间接层）</strong>：如果一个新引入的代码层没有简化思考过程或隐藏复杂度，仅仅是将调用转发到另一处，那么它只是无效的间接层。</li>
+<li><strong>Complexity Management（复杂度管理）</strong>：开发者通过设计、精炼和重新设计抽象来控制系统混乱程度的核心任务。</li>
+</ul>
+<h2>基本信息</h2>
+<table>
+<thead>
+<tr>
+<th>原标题</th>
+<th>作者</th>
+<th>发布日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://codeandcake.dev/posts/2025-12-12-your-job-isnt-programming">Your job isnt programming</a></td>
+<td>Code and Cake</td>
+<td>2025-12-12</td>
+</tr>
+</tbody>
+</table>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"your-job-isnt-programming","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"你的工作不是编程：管理复杂度才是核心","snippet":"这篇文章挑战了程序员的传统认知，指出软件开发的真正瓶颈不在于编写代码，而在于人类理解复杂系统的能力。作者认为，仅仅通过更换技术栈（如 React 或 Rust）无法根治代码库质量差的问题。解决之道在于构建优质的抽象——即能够改变思考方式、隐藏次要细节并突出重要核心的 思想模型 。开发者的核心职责应当是管理复杂度，而非单纯地进行编码工作。","date":"2026-05-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["软件工程","复杂度","软件架构"],"mdTheme":"magazine","sourcePath":"notes/your-job-isnt-programming.md","sourceUrl":"https://codeandcake.dev/posts/2025-12-12-your-job-isnt-programming","body":"$3","prompts":[]},"listPosition":{"index":221,"total":571},"relatedArticles":[{"id":"essays-complexity-cost-centre","subject":"复杂度是一个成本中心","sender":"The Architect’s Notebook","date":"2026-08-30","matchedPeople":[],"matchedTags":["软件工程","复杂度","软件架构"]},{"id":"talks-software-fundamentals-matter-more-than-ever-matt-pocock","subject":"AI 时代的软件基本功","sender":"Alex Kantrowitz","date":"2026-04-23","matchedPeople":[],"matchedTags":["软件工程","软件架构"]},{"id":"reports-ai-code-verification","subject":"为何在AI时代，代码验证比以往更重要","sender":"ByteByteGo","date":"2026-08-24","matchedPeople":[],"matchedTags":["软件工程"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

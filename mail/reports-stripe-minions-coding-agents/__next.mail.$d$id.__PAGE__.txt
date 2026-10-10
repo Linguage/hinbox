@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T302b,<p>Stripe 每周合并超过 1,300 个拉取请求（pull request，PR），其中没有任何人工编写的代码。一行都没有。这些 PR 由 Stripe 内部的编程智能体（coding agents）“Minions”生成，它们完全在无人值守的情况下工作。</p>
+<p>工程师在 Slack 里发一条消息，离开一会儿，回来时就能看到一个已经完成的拉取请求：它通过了自动化测试，正等待人工审查。这种提高生产力的场景颇有吸引力。</p>
+<p>实际使用时是这样的：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!VLnO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdd99d30-98d4-42a2-9fcf-d28bffa6cba4_1592x728.png" alt="在 Slack 中向 Minions 发送任务的截图"></p>
+<p>来源：<a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents">Stripe 工程博客</a></p>
+<p>设想一位值班的 Stripe 工程师，一夜之间积压了五个小问题。他没有依次处理，而是打开 Slack，连发五条消息，每条都提及 Minions 机器人并描述要做的修复。然后，他去喝杯咖啡。等他回来时，五个智能体各自在不到十秒的时间内启动了一台隔离的云端机器，读取了相关文档，编写了代码，运行了代码检查工具（linters），将代码推送到持续集成（continuous integration，CI）系统，并准备好了拉取请求。开发者审查这些请求，批准三个，对其中一个提出反馈，并放弃最后一个。换句话说，他用手动修复两个问题所需的时间，处理了五个问题。</p>
+<p>不过，Minions 之所以能发挥作用，主要原因几乎与驱动它们的 AI 模型无关。关键完全在于 Stripe 为人类工程师搭建的基础设施，而这些设施在大语言模型（LLM）出现前很多年就已经建好了。本文将介绍 Stripe 如何达到这一水平。</p>
+<p>免责声明：本文依据 Stripe 工程团队公开分享的细节撰写。如发现任何不准确之处，请在评论中指出。</p>
+<h2>为什么现成的智能体不够用</h2>
+<p>你可能接触过的 AI 编程工具，属于有人值守的智能体（attended agents）这一类。Cursor 和 Claude Code 等工具会与你一起工作。开发者看着它们运行，在它们偏离方向时加以引导，并批准每一步操作。</p>
+<p>下图展示了 AI 智能体通常的工作方式：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!AEb8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64f5fc53-0189-42c3-9a94-4e7464e2f26c_2114x1374.png" alt="AI 智能体如何工作"></p>
+<p>Stripe 的工程师也使用这些工具。不过，Minions 属于所谓无人值守的智能体（unattended agents）。没有人看着或引导它们。智能体接收任务，独自完成处理，再交付一个完成的结果。这一区别改变了后续所有环节的设计要求。</p>
+<p>Stripe 的代码库也让这件事比听起来更难。代码库包含数亿行代码，大部分使用 Ruby 编写，并以 Sorbet 提供类型支持，这是一个相对少见的技术栈。代码中有大量自研库，LLM 在训练数据里从未见过它们，而其生产系统每年处理的支付金额远超 1 万亿美元。风险之高与复杂度之高不相上下。</p>
+<p>从零搭建原型，与向如此庞大且成熟的代码库贡献代码，有着根本区别。因此，Stripe 专门为无人值守的工作构建了 Minions，把有人值守的编程交给第三方工具。</p>
+<h2>运行智能体的环境</h2>
+<p>Stripe 决定自行构建后，第一个问题是：这些智能体究竟在哪里运行？</p>
+<p>无人值守的智能体要求运行环境具备三个特性：</p>
+<ul>
+<li>隔离性（isolation），使错误无法波及生产环境。</li>
+<li>并行性（parallelism），使多个智能体能同时处理不同任务。</li>
+<li>可预测性（predictability），使每个智能体都从干净、一致的状态开始工作。</li>
+</ul>
+<p>Stripe 已经具备这三个条件。它们的“开发机（devboxes）”是预装了整个代码库、工具和服务的云端机器。它们能在十秒内启动，是因为 Stripe 主动预配并预热了一个开发机池，提前克隆代码仓库、预热缓存、启动后台服务。工程师原本就会为每项任务使用一台开发机，单个工程师可能同时运行六台。智能体直接沿用这一模式。</p>
+<p>由于开发机在质量保证（QA）环境中运行，它们原本就与生产数据、真实用户信息及不受限制的网络访问隔离。这意味着智能体可以拥有完整权限，运行时无需确认提示。任何错误的影响范围（blast radius）都被限制在一台可随时丢弃的机器内。</p>
+<p>需要理解的关键在于：Stripe 并不是为智能体搭建这套设施的，而是为人类搭建的。早在 LLM 登场之前，并行性、可预测性和隔离性就已经是工程师希望拥有的特性。换句话说，对人类有益的，也同样对智能体有益。</p>
+<h2>智能体不能随意发挥</h2>
+<p>良好的环境给智能体提供了工作的地方，却没有告诉它该如何工作。</p>
+<p>编排 LLM 系统通常有两种方式：</p>
+<ul>
+<li>工作流（workflow）由固定的步骤图组成，每一步只做一件范围很小的事，执行顺序预先确定。</li>
+<li>智能体（agent）则是一个循环，LLM 根据之前操作的结果，决定接下来做什么。</li>
+</ul>
+<p>工作流可预测，但僵化。智能体灵活，但不可靠。</p>
+<p>Stripe 构建了一种介于两者之间的机制，称为“蓝图（blueprints）”。蓝图是一系列节点，其中一些节点运行确定性代码（deterministic code），另一些节点运行智能体循环（agentic loop）。可以把它理解为一种让固定步骤与创造性步骤交替执行的结构。例如，“实现功能”或“修复 CI 失败”的步骤，获得的是完整的智能体循环，可以使用工具，也有行动自由。另一方面，“运行代码检查工具”的步骤是硬编码的，“推送分支”的步骤也是硬编码的。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!TXE2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06a82da8-3ae2-4ca0-b228-910029a1dcbb_2086x1504.png" alt="蓝图示例"></p>
+<p>这种分离很重要，因为有些任务始终不应交给智能体自行判断。你希望代码检查工具每次都运行，也希望分支始终按特定方式推送，遵循公司的 PR 模板。让这些步骤确定地执行，可以节省 token、减少错误，并保证每次都会执行关键步骤。在每天数百次运行中，每增加一个确定性节点，就少一个可能出错的地方，累积起来便能显著提高可靠性。</p>
+<h2>合适的上下文</h2>
+<p>蓝图告诉智能体如何工作，但智能体还需要知道自己面对的是什么。在一个数亿行代码的代码库中，把合适的信息送入智能体有限的上下文窗口（context window），是一项工程挑战。</p>
+<p>LLM 一次能容纳的文本有限。如果试图把所有编码规则和约定都全局载入，智能体甚至还没开始工作，上下文就已经被塞满。正因如此，Stripe“非常审慎地”使用全局规则。它们把规则的作用范围限定在特定子目录和文件模式中。当智能体在文件系统中移动时，它会自动获取与当前工作位置有关的规则。这些规则文件与 Cursor、Claude Code 等由人类引导的工具所读取的文件相同，因此既没有重复维护，也没有智能体专用的额外开销。</p>
+<p>对于文件系统之外的信息，Stripe 构建了一台名为 Toolshed 的集中式内部服务器。它通过 MCP 提供近 500 个工具。MCP 是模型上下文协议（Model Context Protocol）的缩写，本质上是一项行业标准，为智能体调用外部服务提供统一方式。通过 MCP，智能体可以获取内部文档、工单详情、构建状态、代码搜索结果等信息。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!qLuB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6688d4c-3e5a-460f-84f4-9393af599c0f_2772x1708.png" alt="模型上下文协议示意图"></p>
+<p>不过，工具并不是越多越好。为智能体提供经过精心挑选、与任务有关的工具子集时，它们表现最好。Stripe 默认给 Minions 配置一小组工具，工程师可在需要时添加更多。</p>
+<h2>快速反馈，明确上限</h2>
+<p>此时，智能体已经有了环境、执行结构和合适的上下文。不过，代码仍然必须正确，这意味着还需要更多反馈回路。</p>
+<p>Stripe 的反馈架构分层运行：</p>
+<ul>
+<li>第一层，每次推送都会运行本地代码检查（linting），耗时不到五秒。一个后台守护进程会预先计算哪些检查规则适用，并缓存结果，因此这一步几乎瞬间就能完成。</li>
+<li>第二层，CI 从 Stripe 的三百多万个测试中选择性地运行测试，并针对已知的失败模式自动应用修复。</li>
+<li>第三层，如果仍有失败且没有相应的自动修复，智能体会再获得一次修复并重新推送的机会。</li>
+</ul>
+<p>然后就停止。CI 最多运行两轮。如果第二次推送后代码仍未通过，分支就交回给人类工程师。</p>
+<p>这一上限是有意设置的。LLM 反复重试同一个问题时，收益会逐渐递减。增加轮次会消耗更多 token 和计算资源，却无法获得相应程度的改善。知道何时停止，与知道如何开始同样重要。</p>
+<p>即使一次 Minions 运行没有完全成功，它往往仍能提供一个有用的起点。一个部分正确、工程师花二十分钟就能完善的 PR，仍然是显著的收获。Stripe 的设计考虑了这一现实，而不是假装每次运行都会完美成功。</p>
+<h2>结论</h2>
+<p>Stripe 的 Minions 之所以能发挥作用，靠的是四个层面：</p>
+<ul>
+<li>隔离的环境，为智能体提供安全、可并行工作的空间。</li>
+<li>混合编排（hybrid orchestration），把确定性的约束与智能体的灵活性结合起来。</li>
+<li>精选的上下文，为智能体提供合适的信息，同时避免信息过载。</li>
+<li>快速反馈回路，并为迭代次数设置明确上限。</li>
+</ul>
+<p>每个层面都不可或缺，单靠其中任何一个都不够。</p>
+<p>Stripe 方法中的主要启示是：多年来对开发者生产力的投入，在智能体加入工作流后，可能带来意想不到的回报。人工审查也没有消失，只是发生了转移。工程师从编写代码转向审查代码。</p>
+<p>考虑部署编程智能体时，一个关键教训是不要从选择模型开始。先从开发环境、测试基础设施和反馈回路入手。如果这些基础扎实，智能体就能从中受益。如果基础不扎实，任何模型都救不了你。Stripe 的经验表明，答案与 AI 突破的关系较小，更多取决于那些本来就应该受到重视的工程基本功。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents">Minions：Stripe 的一次性端到端编程智能体——第 1 部分</a></li>
+<li><a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2">Minions：Stripe 的一次性端到端编程智能体——第 2 部分</a></li>
+</ul>
+<h2>译者说明</h2>
+<p>每周超过 1,300 个 PR、支付金额、代码库规模、工具与测试数量等，均为<a href="https://blog.bytebytego.com/p/how-stripes-minions-ship-1300-prs">2026 年 3 月 16 日原文</a>发表时的叙述。Stripe 的官方说明见<a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents">第 1 部分</a>和<a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2">第 2 部分</a>。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-stripe-minions-coding-agents","sender":"ByteByteGo","authorAliases":[],"publisher":"ByteByteGo","subject":"Stripe 的 Minions 如何每周交付 1,300 个 PR","snippet":"Stripe 通过隔离且预热的开发环境、混合执行蓝图、精选上下文和有迭代上限的反馈回路，支持无人值守的编程智能体。","date":"2026-03-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["AI编程","智能体","开发基础设施"],"mdTheme":"magazine","sourcePath":"reports/stripe-minions-coding-agents.md","sourceUrl":"https://blog.bytebytego.com/p/how-stripes-minions-ship-1300-prs","body":"$3","prompts":[]},"listPosition":{"index":350,"total":571},"relatedArticles":[{"id":"talks-extreme-harness-engineering-token-billionaires-ryan-lopopolo","subject":"极限缰绳工程：百万行代码、十亿 Token 与零人工审查","sender":"Latent.Space","date":"2026-04-08","matchedPeople":[],"matchedTags":["AI编程","智能体","开发基础设施"]},{"id":"zeta-process-orrery-visualization-apps","subject":"陶哲轩论智能体编程与数学可视化应用","sender":"henri","date":"2026-07-16","matchedPeople":[],"matchedTags":["AI编程","智能体"]},{"id":"essays-polish-agent-built-software","subject":"我如何打磨智能体构建的软件","sender":"Every","date":"2026-07-13","matchedPeople":[],"matchedTags":["AI编程","智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

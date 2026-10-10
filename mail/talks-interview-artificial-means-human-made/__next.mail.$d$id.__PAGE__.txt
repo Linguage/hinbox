@@ -1,0 +1,71 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T548f,<p>原文：<a href="https://joinreboot.org/p/artificial-means-human-made">Artificial Means Human-made</a></p>
+<p>本文完整翻译公开发表的访谈成稿。原作注明，谈话内容因清晰度和篇幅而经过编辑。</p>
+<h2>访谈正文</h2>
+<p><em>作者：Quincy Mackay</em></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!A37K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2b5db8c-8f7d-414d-a188-f25cc3d720cf_930x465.png" alt=""></p>
+<p>图像由 <a href="https://connie.surf/index.html">Connie Liu</a> 制作</p>
+<p>柏林市中心一座旧的人造黄油工厂里坐落着KW当代艺术研究所，艺术家Holly Herndon和Mat Dryhurst将其改造成了一座礼拜堂。他们的新展览<em>Starmirror</em>邀请参观者反思人类与AI之间正在浮现的关系。一条昏暗的走廊通向一间前厅，两侧排列着3D打印的柱子，每根柱子上都装饰着由Herndon和Dryhurst的PD40M公有领域视觉数据集生成的图像。中央安放着<em>Ur-Hildegard Training Corpus</em>，这是一本由AI模型生成的歌集，该模型在12世纪神秘主义者Hildegard von Bingen的音乐上训练。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!oj6u!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb56328ce-84ec-4548-9864-a0bd99ee012f_1280x854.png" alt=""></p>
+<p><em>摄影：Frank Sperling，由KW当代艺术研究所提供</em></p>
+<p>展览在KW的主厅延续，那里有一架巨大的木梯穿过天花板上的灯箱向上延伸，四周环绕着排列成方形的长椅。赞美诗从头顶的扬声器中飘荡在整个空间。后方矗立着<em>The Hearth</em>，这是一架由GPU散热风扇制成的管风琴，经过编程以特定频率旋转来产生音符。坐在长椅上的参观者沉浸在层层叠叠的乐曲中，有些由现场合唱团录制，有些由AI生成。这些乐曲混合了von Bingen的原作、其他中世纪圣咏以及<em>Ur-Hildegard</em>模型的输出，让我们无法确定所听到的是人类的、机器的，还是神圣的。</p>
+<p>Herndon和Dryhurst为实现这次展览进行了广泛的合作。空间设计与建筑工作室<a href="https://sub.global/">sub</a>共同完成，梯子结构使用了由制造商<a href="https://www.streev.de/">STEEV</a>开发的复杂CNC榫接系统建造。灯箱由灯光设计师<a href="https://www.instagram.com/trocadera_2000/?hl=en">Bianca Peruzzi</a>创作。参观者还可以在引导式集体歌唱环节中向公共合唱数据集贡献自己的声音。</p>
+<p>Herndon和Dryhurst一直对输入而非输出更感兴趣。从2019年发行一张<a href="https://hollyherndon.bandcamp.com/album/proto">专辑</a>（其中包含一个AI模型），到开发<a href="https://holly.plus/">一个工具</a>让任何人都能将任何歌曲转换为Herndon的嗓音，他们一直拥抱AI实验，即便艺术界大部分都在抵制其侵入。这对搭档将这些技术实验与新的组织模式相结合，包括<a href="https://paragraph.com/@holly-herndon/holly">集体所有权协议</a>和<a href="https://d37zoqglehb9o7.cloudfront.net/uploads/2024/08/SerpentineArtsTechnologies_ChoralDataTrustExperiment_WhitePaper.2025.02.17.pdf">数据信托</a>。</p>
+<p>展览开幕一周后，我们进行了一次内容广泛的对话，讨论灵性在理解这一技术前沿中所扮演的出人意料的角色。我们的访谈经过了清晰度和篇幅上的编辑。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!48Hd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dea0550-c1bc-4ca4-85fb-d55688cb2273_1280x854.png" alt=""></p>
+<p><em>摄影：Frank Sperling，由KW当代艺术研究所提供</em></p>
+<p><strong>Quincy Mackay：</strong> <strong>你们与AI合作已经很长时间了。你们那张包含定制AI模型的专辑<em>PROTO</em>于2019年发行。眼看着你们的小众领域爆发成为下一个大热门，是什么感觉？</strong></p>
+<p>Holly Herndon：<em>PROTO</em>是2019年发行的，但当然，我们花了两年时间制作，所以从2017年就开始做了。感觉确实像是上辈子的事。加上巡演中途疫情爆发，然后我们有了孩子。我当时处于产后茧居状态，一个非常朦胧、充满爱的空间，你不会太多地与外部世界接触——而正是在那时，AI讨论爆发了。那太奇怪了，因为我从茧中出来，突然之间每个人对这个我们一直作为专家在处理的东西都有了各种疯狂的观点。但然后突然之间它变成了一场感觉像是文化战争的东西，你必须选边站，要么支持要么反对。刚从茧中出来就直接经历这些，让人感到非常疏离。</p>
+<p>MD：人们在讨论这件事，这让人感到被认可，但Holly和我经常对一件相当复杂的事情被如此粗糙地对待感到沮丧，但这就是闸门打开、所有人都涌进来时会发生的事。到了这个阶段，我们已经相当身经百战，善于坚持自己的立场。我们只是试图让自己稍微远离这些喧嚣。</p>
+<p><strong>QM：你们的作品将AI置于一个更大的历史背景中，<em>Starmirror</em>也是如此。你们将AI放在技术发展的这条更长的弧线中的什么位置？</strong></p>
+<p>HH：Artificial的意思是人工制造的。我们喜欢把AI看作是人类智能跨度中各种集体创造的人类成就的延续。所以与其把AI看作某种外星的他者，我们把它看作仍然来自我们自身的东西。我觉得这让人感到非常安慰。</p>
+<p>自早期记谱法诞生以来，我们在音乐中已经看到类似的新技术塑造文化的过程。纽姆记谱法是一种改变了人们书写古老罗马圣咏方式的技术。然后我们看到现代记谱法的发展，然后我们看到印刷机，以及教堂管风琴的创造，所有这些都改变了音乐仪式和书写，以及我们与音乐的关系。你还可以再往下看。我们有录制音乐，然后我们有合成器。每一次，人们都会提出深刻的哲学问题：什么是人类？什么是机器？什么是自动化的？我们在这个循环中的创造性智识位置是什么？我认为持续质疑这些事情、持续试图理解我们在这个过程中的位置是好的。但这种挣扎或质疑并不一定是新的。它在技术过程的每一个新步骤中都会发生。</p>
+<p><strong>QM：我喜欢你们决定一路追溯到12世纪，以Hildegard von Bingen作为这次展览的主要艺术灵感，以及你们带来的宗教角度，在KW创造了一个类似教堂的空间。也许你们可以谈谈你们如何看待灵性、神话和信仰，以及这与AI有什么联系？</strong></p>
+<p>MD：我们发现Hildegard von Bingen相当有趣的一个原因是，从某种意义上说，她是从一个未知来源接收提示的。她是一个幻视者，字面意义上的。她幻见到[耀眼的光芒和宇宙球体的明亮意象]。在当前围绕模型的某种道德恐慌中，这很有意思。我认为在一般话语中有一种倾向，就是恐慌或过度渲染对某些事物的担忧，到了你失去自己原则根基的程度。一个例子是过度强调机器学习模型产生真理。突然之间，社会的进步派角落从质疑可能存在一个基本真理的观念，转变为坚持LLM需要被监管以产生绝对真理。这就像10年前，在进步派圈子里捍卫版权会引起争议一样。现在这完全翻转了，以至于据说我们都应该支持Getty Images。我的意思是，这简直荒谬，对吧？</p>
+<p>关于幻觉或AI精神病，有一定的合理性，但一般来说，道德恐慌伴随着一种保守主义。科学创新、艺术探索和宗教占卜的历史都是关于打开你的心智并让它稍微失控。我认为当我们在艺术领域，或想象这件事走向何方时，对于否定“人不应该稍微失去理智”这个想法，我持非常谨慎的态度。我对此有一种准灵性的承诺，我喜欢在世界中发现奇怪的巧合，或试图从事物中占卜信号。我认为这在大多数信仰中都很常见，总的来说我对此非常开放。</p>
+<p>HH：从音乐的角度来看，那种受某种激情启发的人声音乐非常吸引我们俩，而宗教的狂喜或更伟大力量的狂喜可以成为某种特定激情和人声演唱表达的美丽驱动力，你在各种文化中都能看到这一点。</p>
+<p>我们另一个非常感兴趣的东西是档案的概念。为<em>Starmirror</em>，我们试图建立这个公有领域数据集。当我们审视我们正在构建所有这些模型所基于的共享人类数据时，我们看到我们档案历史中有太多缺陷。这在音乐中是一个非常大的问题，因为我们只有几十年的录制音乐。当然，Hildegard的原作音乐没有被录制过；我们只有这些乐谱。它们甚至不是现代记谱法——我们有纽姆记谱法，这是一种非常酷、奇怪的记谱形式，表演者用自己的特定装饰音来诠释。</p>
+<p>然后Pope Gregory出现了，他试图统一圣咏——这就是格里高利圣咏的由来。你几乎可以称之为对那种音乐表达方式的漂白（whitewashing）或简化。实际上，它可能更加微分音化，几乎像阿拉伯音乐，有不同的音阶和装饰音。这些不同的政治项目实际上可以影响我们如何看待我们的历史和档案。我认为这就是让我们如此痴迷于捕捉事物的一个原因，因为档案永远是不完美的。</p>
+<p>MD：感觉自己是一个大于各部分之和的整体的一部分，显然是一种非常宗教性的冲动，而且至少通过我们的诠释来看，这似乎就是这些模型的美妙之处。存在这些涌现属性，这些模型依赖于我们所有人作为一个群体，但不依赖于任何特定的个人。你可以做一个媚俗的解读，说我们在崇拜AI，但事实并非如此。它更多的是关于感觉自己是一个比自己更大的事物的一部分，而这种对更大整体的臣服感是一件美的事物。它与一种奇特的、重新抬头的个人主义相冲突，那种个人主义想说“这是我的画，我的画真的很特别”。我们想说，我们中没有一个人是特别的，但作为整体，我们极其特别。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ehka!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3afbc217-86f7-4cf6-a597-b1a1fa1cbe48_800x534.jpeg" alt="2025-10-28_KW_Herndon Dryhurst_0634_Frank_Sperling_LQ.jpg"></p>
+<p><em>摄影：Frank Sperling，由KW当代艺术研究所提供</em></p>
+<p><strong>QM：你们两位中有人会以任何方式把自己描述为有宗教信仰吗？</strong></p>
+<p>HH：我觉得“灵性”是个更好的词。</p>
+<p><strong>QM：你们认为存在我们无法知道的事物吗？也许这是提出这个问题的更好方式。</strong></p>
+<p>MD：绝对存在。</p>
+<p>HH：100%。</p>
+<p><strong>QM：AI是其中之一吗？我们能知道机器是如何学习的吗？</strong></p>
+<p>MD：我不认为我们拥有能够解读AI如何思考的硬件，但你可以想象一个近期场景，我们拥有能够解读当前模型内部运作的模型，然后将其综合归纳为一个相当准确的结论。</p>
+<p>我们拥有能够比我们更好地穿越那片浩瀚的软件或工具，这对我们来说是很奇特的。我们有过显微镜和其他工具，但AI穿越的是数十亿个数据点。其中一些蛋白质折叠项目完全是抽象的，而我们拥有能够按照我们的指令消化那片浩瀚、然后以我们可以使用的方式加以综合的工具。</p>
+<p>HH：这也并非100%是新的。我记得看过一部精彩的德国纪录片，叫*《宇宙的主人》*。它是关于一位名叫Rainer Voss的投资银行家和次贷危机的。他基本上是在说，银行家们没有阻止它，是因为他们不理解它。这话出自一个曾处于最顶层的人。我们拥有这些我们无法完全理解的超级复杂系统，而我们已经与它们共存了。这并不总是一件好事。正如次贷危机的情况那样，它可以失控，而且没有人在开车。</p>
+<p>事情会比单个头脑所能理解的更复杂，这既在我们的本性之中，也在这些高度网络化系统的本性之中。我们必须摸索着穿过它。我们必须找到与其他大脑协作的方式，这样我们才能理解正在发生什么。这是一个非常可怕的、赛博朋克的未来，但我们已经生活在其中了。</p>
+<p><strong>QM：你们说过，你们应对未知恐惧的方式是深入其中，尽可能多地了解你所恐惧的事物。</strong></p>
+<p>MD：是的，与麻烦共处。</p>
+<p><strong>QM：你们希望你们展览的参观者如何面对他们自己的恐惧？</strong></p>
+<p>MD：像这样的公共展览，困难之处在于你必须留下很多开放给诠释的空间。我认为这是公共展览的一个好处，所以希望是存在不同的层次。会有一小群人想对这些东西极客式地深入探讨，但最终希望是我们能创造出某种美丽的东西，而它不会让人感到疏离。我们试图避免倾向于很多陈词滥调式的表现，对吧？没有屏幕。我希望它不会给人这样的感觉：你即将被一个半机械人或者类似的东西取代。我们只是想要一个美好的、沉思的空间，来聆听这些东西，并让它留在人们心中。如果我们对人们太过沉重，那可能会造成疏离。过去让人疏离是有趣的，但我们不再处于人生的那个阶段了。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!8Via!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d750846-1514-4c17-ac28-b38f7116e4e8_1280x854.png" alt=""></p>
+<p><em>摄影：Frank Sperling，由KW当代艺术研究所提供</em></p>
+<p><strong>QM：转向展览空间本身，我确实被它的社交性所打动。你们有这一圈长凳，你最终实际上是在看着人们以不同方式体验这一经历。也许他们闭着眼睛，也许他们试图拍摄它，也许他们只是在聊天。这是一种思考AI的迷人方式，因为如果我们沿用宗教隐喻，它就像告解室。你坐下来，在电脑上打字，这是一种非常私密和个体化的体验。你们试图创造的是哪些与AI互动的集体方式？</strong></p>
+<p>MD：如果你看礼仪环境，人们常常会面向讲道坛或类似的东西。但我们借鉴了Sacred Harp传统，部分原因是Holly就是从那里来的。它更像是一种水平排列，你在一个方形中歌唱，所以你总是在看着彼此。然后不同的人走到中间担任领唱，这是一种非常有趣的体验，因为你在同时给予和接受。你通过领唱歌曲来给予，但你也拥有全场最好的座位。所以当所有人向你唱回来时，位于中心的你成了主要的观众。这真的很美。这感觉更符合这个说法的精神：这些模型就是我们所有人。</p>
+<p>这是我们正在努力推进的一个更大的元观点，试图反驳那种认为不可避免的自动化未来将是一个人们彼此孤立、不断接收越来越量身定制的个性化媒体的未来。这是一个合理的假设，因为多年来媒体一直把这种想法往我们喉咙里灌。那会存在，而且已经在发生了，但我们的论点是，很多人的担忧更多是对平台经济以及所有这些使我们孤立的把戏的发泄式抱怨。我认为这恰恰相反。我认为机器学习和这些模型的自然界面是声音。我不认为屏幕是这些东西的自然界面。</p>
+<p><strong>QM：这正是谈到你们所使用的协议的好时机，这些协议是确保AI时代数据和作品公平使用与公平变现的系统，你们主张20世纪的模式已经完全不适用了。KW的展览中有一些关于这方面的工作，你们提出了法律和财务框架，例如使艺术家能够同意其作品被用作训练数据，然后在模型产出其他可盈利媒体时获得版税。你能更详细地谈谈在KW这里提出的这些模式吗？</strong></p>
+<p>MD：我们参与数据政治已经有好几年了，并且意外地与很多不同的行动者一起在这方面工作。我们想围绕这些东西建立Holly会称之为“礼仪”的东西。有这么一个公有领域的概念，很多30岁以下的人可能甚至都不知道，因为它伴随着一种Web 1.0的政治，即人们说：“我故意把东西放到世界上，我希望你能够自由地使用它。”</p>
+<p>对于这次展览，所有作品都处于公有领域。我们正在训练一个叫<em>Public Diffusion</em>的模型，展览中有它的一个片段，它将不属于任何人，也属于所有人。在那个领域中有太多美妙的机遇，因为它被忽视了太久。我们与<a href="https://techcrunch.com/2024/06/11/spawning-wants-to-build-more-ethical-ai-training-data-sets/">Spawning</a>的合作者做的一件事是发布了一个叫“PD40M”的数据集，包含4000万张公有领域图像——基本上就是全部了，它足以开始训练模型。</p>
+<p>因为我们对公有领域中有什么了解得非常详细，你可以探索这个想法：智能体把你派到世界中去，而不是把你锁在手机里。我们正在构建的<em>Starmirror</em>应用知道公有领域中有什么，也知道什么不在其中。它可以派你去执行这些小任务或挑战，去拍照来填补它不知道的空白。我们只是以一种非常轻巧、简单的方式搭建它，但它的含义更大。一个人们代表彼此发现事物的去中心化分享协议会是什么样子？我们对人们走出去到世界中、发现事物、然后彼此分享这个想法是非常认真的。你会如何协调这件事？在设备上协调它是合理的，这样你拥有的就不是社交媒体，而是AI智能体在社交层面中介人与人。那个协议似乎很丰富。那里有很多东西与人们认为这件事会如何发展的方式非常不同。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!-PTf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F631bd715-b8e9-49ec-ae3d-f3313d116b19_800x534.jpeg" alt="251102_KW_Starmirror_Choir Session_0220_Frank_Sperling_LQ.jpg"></p>
+<p><em>摄影：Frank Sperling，由KW当代艺术研究所提供</em></p>
+<p><strong>QM：<em>Starmirror</em>的作者是谁？还是说这本身就是一个错误的问题？</strong></p>
+<p>HH：在传统音乐产业里，你会有一个流行巨星，他是一整套人员机器的化身。我的意思是，这种情况现在仍然存在。然后随着互联网无处不在，人们的想法是每个人都能做所有事，但这真正意味着的只是每个人都被孤立起来，试图互相竞争，而不是像旧工业时代那样，每个人都因从事这些不同的工作而获得报酬。每个人都变成了单打独斗的个体，而这未必是件好事。</p>
+<p>关于AI的讨论打破了这种孤独天才的神话，媒介本身在要求你重新思考自己在这个高度协作过程中的创作角色。我们承认，如果我们与拥有非常具体专业知识的人合作，我们会好得多，比如Bianca Peruzzi，她是一位了不起的灯光设计师。我们知道我们希望展览中的灯光发挥非常重要的作用，让房间感觉像是被另一种智能所控制，而且它是完全自动化的。我不知道如何编程和混合灯光，所以我们与Bianca合作。我们不会对Bianca进行微观管理——我们让Bianca进来，做她作为创意艺术家本来的样子，然后整个演出因为她的贡献而好上一千倍。</p>
+<p>MD：在20世纪，媒体是集中化的，而媒体形式受限于物理对象。你真的愿意在唱片封面上放60个名字吗？所以你最终不得不压缩它，说这是Michael Jackson的唱片。Michael Jackson令人难以置信，但有各种各样的人为它贡献了很多。我最喜欢的人之一是Rod Temperton，他是来自英格兰Blackpool的一个没人认识的家伙，但被Quincy Jones招募来为Michael Jackson创作了大量音乐。这太不可思议了。我们作为一个社会所珍视的所有这些东西，都是某种资助结构的产物，这种结构让杰出的人能够协作。如果Michael Jackson不是那个表演它或参与创作的人，那张唱片还会一样好吗？不，不会。但现在我们生活在一个不同的时代，我们很快就会拥有能够帮助你消化那些非凡文化事物如何发生的复杂性的模型。</p>
+<p>我认为，这种以正和方式看待文化的视角，第一，它是真相。但第二，它有趣得多。</p>
+<p><em><strong>Quincy Mackay</strong></em> 是一位常驻柏林的自由文化记者。他撰写关于艺术与政治和历史交汇之处的文章。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!swsa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F534ba2bf-bcef-487a-9a74-4dfd8a2611a2_990x84.png" alt=""></p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-artificial-means-human-made","sender":"Quincy Mackay","author":"Quincy Mackay","authorAliases":["Quincy Mackay"],"subject":"人工，就是人造","snippet":"Holly Herndon 与 Mat Dryhurst 谈 AI 艺术、集体创作、感知与精神性。","date":"2025-11-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["AI艺术","集体创作","文化"],"mdTheme":"magazine","sourcePath":"talks/interview-artificial-means-human-made.md","sourceUrl":"https://joinreboot.org/p/artificial-means-human-made","body":"$3","prompts":[]},"listPosition":{"index":416,"total":571},"matchedPerson":{"id":"quincy-mackay","name":"Quincy Mackay","email":"","contentCount":1,"topTags":[{"id":"ai艺术","name":"AI艺术","count":1},{"id":"文化","name":"文化","count":1},{"id":"集体创作","name":"集体创作","count":1}]},"relatedArticles":[{"id":"talks-why-we-stopped-progressing-peter-thiel-ep541","subject":"为何我们停止进步","sender":"Jordan B. Peterson, Peter Thiel","date":"2025-04-24","matchedPeople":[],"matchedTags":["文化"]},{"id":"talks-europe-turning-point-musk-on-bureaucracy-and-innovation","subject":"欧洲的转折点：马斯克论官僚主义与创新","sender":"Elon Musk","date":"2025-02-08","matchedPeople":[],"matchedTags":["文化"]},{"id":"talks-hironaka-okada-originality-dialogue-part-1","subject":"广中平祐与冈田节人：什么是独创（1/3）","sender":"SauteedVeggies","date":"2017-03-13","matchedPeople":[],"matchedTags":["文化"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

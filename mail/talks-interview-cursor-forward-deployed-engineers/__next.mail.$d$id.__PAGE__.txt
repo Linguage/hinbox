@@ -1,0 +1,75 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T260a,<p>原文：<a href="https://www.latent.space/p/cursor-forward-deployed-engineers">How Cursor deploys AI inside the enterprise</a></p>
+<h2>访谈正文</h2>
+<p><em>更新：<a href="https://www.youtube.com/watch?v=APqXGyCoGW4&#x26;t=610s">她的完整演讲</a>现已发布</em>！</p>
+<hr>
+<p><img src="https://substackcdn.com/image/fetch/$s_!e2BU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a8c541c-264c-476f-b47c-029cd970acf9_1280x720.jpeg" alt=""></p>
+<p>Pauline Brunet，Cursor 前线部署工程副总裁，在 AIEWF 上。</p>
+<p>前线部署工程已迅速成为企业 AI 领域最突出的角色之一。前线部署工程师 [FDE] 处于软件工程、产品开发和客户实施之间的某个位置，直接与各组织合作实施 AI 能力。</p>
+<p>在 Cursor，这一角色的雄心尤为宏大。该公司的前线部署工程副总裁 <a href="https://www.linkedin.com/in/pauline-brunet/">Pauline Brunet</a> 正在组建一支团队，与各组织合作，在整个软件开发生命周期中部署智能体。</p>
+<p>在 AI Engineer World's Fair 上接受 Latent Space 采访时，Brunet 讨论了 Cursor 对“AI 软件工厂”的愿景、将智能体采用范围扩展到个人爱好者之外的挑战，以及工程师若想转向前线部署工作，需要展示哪些能力。</p>
+<h2>前线部署工程在 Cursor 意味着什么</h2>
+<p><strong>Latent Space：</strong> 首先，你如何定义前线部署工程？</p>
+<p><strong>Pauline Brunet：</strong> 前线部署工程取决于业务、产品和客户。你必须考虑应用程序的可配置程度。它是客户开箱即用的东西，还是你在部署某种复杂且高度可配置的东西？</p>
+<p>你还必须考虑客户处于其旅程的哪个阶段。</p>
+<p>我不把前线部署工程视为一个支持传统、开箱即用部署的团队。我把它视为一个前往现场、在客户的系统和工具内部工作，并部署应用程序或平台以帮助大规模解决挑战的团队。</p>
+<p>这些部署是高度可配置的，并围绕客户的工作流、流程、系统和工具进行定制。</p>
+<p><strong>Latent Space：</strong> Cursor 的客户主要是工程师。FDE 角色如何适用于他们使用产品的方式？</p>
+<p><strong>Brunet：</strong> Cursor 是一个 AI 编码平台和编码助手。我们帮助人们使用 AI 辅助编程、同步和异步智能体，最终朝着 AI 软件工厂的理念发展。</p>
+<p>如今，我们与许多行业的客户合作，包括金融服务、电信、软件开发、技术和半导体。</p>
+<p>我们帮助转型负责人、IT 负责人和 CTO 组织在其运营中创建 AI 软件工厂。这包括他们如何规划和设计软件、如何编写代码、如何测试和审查代码，以及如何大规模部署和维护应用程序。所以，非常专注于从头到尾的软件开发生命周期。</p>
+<h2>组建 Cursor 的 FDE 团队</h2>
+<p><strong>Latent Space：</strong> Cursor 的 FDE 团队有多大？</p>
+<p><strong>Brunet：</strong> 我们正在快速增长。我们的目标是在 12 月底前将团队规模扩大到现在的十倍。</p>
+<p><strong>Latent Space：</strong> 你们目前的 FDE 员工主要是工程师，还是团队也包括产品专家？</p>
+<p><strong>Brunet：</strong> 他们都是工程师。我们招聘拥有至少五年经验和丰富面向客户经验的软件工程师。</p>
+<p>这些人在生产环境中开发和交付过代码。他们构建和设计过系统，能够做出权衡决策，并评估应该使用哪些系统或技术。</p>
+<p>他们还需要面向客户的经验。我们有曾在 Spotify、Rippling 和 Palantir 等公司工作过、并为客户部署过生产系统的人。</p>
+<h2>从编码助手到软件工厂</h2>
+<p><strong>Latent Space：</strong> 你提到了“<a href="https://www.latent.space/p/software-factories">软件工厂</a>”这个术语，它已开始更频繁地出现在行业中。这个术语对 Cursor 意味着什么？</p>
+<p><strong>Brunet：</strong> 对 Cursor 来说，它关乎从头到尾的软件开发生命周期：你如何规划、设计、编写、审查、测试和部署代码。</p>
+<p>如今，这些阶段通常由不同团队处理。你可能有一个设计团队、一个开发团队，以及与他们并肩工作的产品经理。每个群体可能都在用 AI 辅助编码优化自己的工作，但流程仍然是孤立的。</p>
+<p>我们希望在整个生命周期中帮助客户。你应该能够说：“这是我想开发的功能”，然后让长时间运行的智能体在每一步与你合作。这可能包括创建计划和产品需求文档、生成该功能可能样貌的演示、编写和测试代码、将其投入生产并维护它。</p>
+<p>问题和产品反馈也应该回流到同一个生命周期中。对我们来说，软件工厂意味着长时间运行的智能体在整个过程中帮助人们。</p>
+<p><strong>Latent Space：</strong> 所以它比单纯的智能体编排更广泛？</p>
+<p><strong>Brunet：</strong> 正确。正是如此。</p>
+<h2>超越个人 AI 采用者</h2>
+<p><strong>Latent Space：</strong> 企业在尝试实施智能体技术时遇到了哪些问题？</p>
+<p><strong>Brunet：</strong> 一个挑战是，采用仍然集中在早期采用者中。</p>
+<p>在一个组织内，可能有 10% 或 20% 的人是热情的早期采用者。他们使用本地智能体和云智能体为自己的任务做出了出色的工作，并变得非常高效。</p>
+<p>下一阶段缺少的是跨团队、流程和工作流使用长时间运行智能体的能力。</p>
+<p>这需要组织高层更多的支持。领导层必须说：“这是优先事项，这就是我们希望自动化或改变这一流程的方式。”</p>
+<p>因此，对 FDE 团队来说，重要的是在组织内找到合适的拥护者：那些想要有意义地改变业务，并愿意与我们及其内部团队合作以转变工作方式的人。</p>
+<h2>用云智能体标准化工作</h2>
+<p><strong>Latent Space：</strong> <a href="https://www.latent.space/p/ahmad-osman-local-ai">本地 AI</a> 似乎正在获得动力，部分原因是开源模型的可用性不断提高。你们是否在与客户开展更多本地 AI 实施工作？</p>
+<p><strong>Brunet：</strong> 我们有本地智能体，人们通过桌面应用程序或 CLI 运行，这种体验在很大程度上是自助式的。人们以惊人的速度采用了这项技术，尤其是在 Cursor 的用户群中。</p>
+<p>我们也看到人们采用云智能体，因为他们对能够在不把笔记本电脑半开着的情况下运行任务感到兴奋。智能体现在可以在云端处理以前在本地运行的任务。</p>
+<p>当这超越智能体帮助一个人的工作，就变得有趣了。下一个问题是智能体如何跨职能、团队或组织工作，以便流程被一致地自动化。例如，你可以有一个 QA 智能体在多个开发团队中应用相同的流程。</p>
+<p>我们收到客户关于这类用例的许多问题。</p>
+<h2>客户部署如何影响 Cursor 的路线图</h2>
+<p><strong>Latent Space：</strong> 这些部署的经验教训是否会回流到 Cursor 核心产品中？</p>
+<p><strong>Brunet：</strong> 是的。前线部署工程团队在客户的用例上与客户密切合作，所以我们自然是产品和工程团队了解客户接下来想构建什么的好途径。</p>
+<p>我们与这些团队密切合作，并在帮助塑造 Cursor 的产品路线图方面发挥重要作用。</p>
+<h2>前线部署工程师角色的变化</h2>
+<p><strong>Latent Space：</strong> 随着智能体变得更加自主，你预计 FDE 角色将如何演变？</p>
+<p><strong>Brunet：</strong> 我认为这个角色将发生巨大变化。我总是说，如果我们还在做六个月前做的工作，那我们就做错了什么。</p>
+<p>现在，人们仍在寻找他们可以解决的用例的灵感，所以我们想提出新的可能性。</p>
+<p>例如，在软件开发中，我们可以展示设计师和产品经理如何与开发人员和测试团队一起在 Cursor 中无缝工作。</p>
+<p>我们还可能问一家公司是否考虑过使用长时间运行的智能体从头到尾处理呼叫中心或工单流程。</p>
+<p>随着我们在医疗保健、生命科学、公共部门、零售和消费品等行业开展工作，我们将继续在营销、销售和供应链运营中识别用例。FDE 角色将随着这些可能性而演变。</p>
+<h2>工程师如何为 FDE 职业做准备</h2>
+<p><strong>Latent Space：</strong> 这次会议大约有 7,000 名 AI 工程师。对于想转向前线部署工程的开发者，你会给什么建议？</p>
+<p><strong>Brunet：</strong> 我今天已经进行过五六次这样的对话了。我们在寻找有软件工程经验的构建者：那些发现问题并从头到尾构建了生产级应用程序或系统的人。</p>
+<p>你应该设计过它、开发过它、测试过它，并将它投入生产供真实用户使用。</p>
+<p>我的建议是在你的组织内找到这类项目，并从头到尾对它们负责。确保你理解自己为什么做出每一个设计决策。</p>
+<p>你如何选择数据库？你如何选择不同的服务？你为什么以那种特定方式设计系统？权衡是什么？</p>
+<p>你还应该理解可衡量的投资回报，既从传统商业指标的角度理解，也通过评估展示你为内部客户创造的价值。</p>
+<p>如果你想进入前线部署工程，就要熟悉这类项目，获得交付它们的经验，并学会解释你所做的决策。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-cursor-forward-deployed-engineers","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"Cursor 如何在企业内部部署 AI","snippet":"Pauline Brunet 谈前线部署工程师、企业智能体实施与软件工厂。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["AI编程","企业软件","智能体","职业发展"],"mdTheme":"magazine","sourcePath":"talks/interview-cursor-forward-deployed-engineers.md","sourceUrl":"https://www.latent.space/p/cursor-forward-deployed-engineers","body":"$3","prompts":[]},"listPosition":{"index":139,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-interview-forward-deployed-engineers-aiewf","subject":"前线部署工程师与软件工程的未来","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体","职业发展"]},{"id":"reports-open-source-contributions","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","sender":"Latent.Space","date":"2026-09-01","matchedPeople":["Richard MacManus"],"matchedTags":["AI编程"]},{"id":"talks-interview-vercel-agents-new-software","subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","sender":"Richard MacManus","date":"2026-07-03","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tabd,<h1>陶哲轩论智能体编程与数学可视化应用</h1>
+<h2>摘要</h2>
+<p>陶哲轩认为，制作数学与科学可视化应用是编码智能体特别适合的场景，因其非关键任务、独立、运行确定且沙箱化、不替代主业技能、也不与人类既有工作重复。他据此用智能体做了两个应用：可视化新提出的 zeta 过程，以及展示天体运动的天象仪。</p>
+<h2>内容框架与概述</h2>
+<p>文章先给出立论基础：作者认为可视化应用是编码智能体的理想用武之地，并列出五条有利条件，包括结果允许小误差、不并入大型代码库、成品确定且沙箱化、不涉及自身核心技能、也没有与既有的人类工作重复。</p>
+<p>随后作者提出反向告诫：当上述五条中有一条不成立时，就应谨慎对待不受限制的智能体使用，这构成全文的判断框架，而不只是经验之谈。</p>
+<p>在应用部分，第一个应用把 zeta 分布链成单一随机过程即 zeta 过程，用每个素数上的指数随机变量来生成，可展示各 s 的分布与命中概率，并用于快速解答埃尔德什第 1196 号问题。</p>
+<p>第二个应用天象仪则从人的尺度一路放大到天文尺度，动机略带游戏趣味，作者在与人机多轮对话后实现了月相、地球自转相对恒星等天文现象，只允许观察者改变自身尺度。</p>
+<h2>核心概念及解读</h2>
+<p><strong>zeta 过程</strong>：把各阶 zeta 分布链为单一随机过程的无限可分链，由每个素数上的指数随机变量生成。</p>
+<p><strong>zeta 分布</strong>：取值 k 的概率为 zeta(s) 的倒数乘以 k 的负 s 次方，具良好数论性质。</p>
+<p><strong>命中概率</strong>：素数指数变量低于给定阈值的概率分布，可用于解答埃尔德什第 1196 号问题。</p>
+<p><strong>天象仪</strong>：在最大时空尺度上呈现行星运动的经典图示，可展示月相与地球自转等天象。</p>
+<p><strong>沙箱化确定性产出</strong>：应用以 Javascript 运行、隔绝文件与网络并且不在运行时调用大模型，因而安全且易于维护。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://terrytao.wordpress.com/2026/07/16/two-more-apps-visualizing-the-zeta-process-and-the-motions-of-the-heavens/">Two more apps: visualizing the zeta process and the motions of the heavens</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Terence Tao</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-16</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>82/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"zeta-process-orrery-visualization-apps","sender":"henri","author":"henri","sourceAuthor":"Terence Tao","authorAliases":["henri","Terence Tao","Henri","Hinbox","陶哲轩","陶哲轩（Terence Tao）"],"subject":"陶哲轩论智能体编程与数学可视化应用","snippet":"陶哲轩用编码智能体制作两个可视化应用，并给出适合委托给大模型的五条判断标准，认为可视化程序是智能体编程的优良场景。","date":"2026-07-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["AI编程","数学可视化","智能体"],"mdTheme":"magazine","sourcePath":"notes/zeta-process-orrery-visualization-apps.md","sourceUrl":"https://terrytao.wordpress.com/2026/07/16/two-more-apps-visualizing-the-zeta-process-and-the-motions-of-the-heavens/","body":"$3","prompts":[]},"listPosition":{"index":103,"total":571},"matchedPerson":{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":7,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"数学研究","name":"数学研究","count":3},{"id":"形式化数学","name":"形式化数学","count":2}]},"relatedArticles":[{"id":"talks-terence-tao-yves-meyer-wavelets-abel-2017","subject":"陶哲轩谈伊夫·梅耶的小波：从纯数学到信号处理","sender":"Terence Tao","date":"2026-10-10","matchedPeople":["Terence Tao"],"matchedTags":[]},{"id":"talks-terence-tao-sair-open-math-model","subject":"陶哲轩：开放数学模型与 AI 时代的数学价值","sender":"Terence Tao","date":"2026-09-18","matchedPeople":["Terence Tao"],"matchedTags":[]},{"id":"talks-terence-tao-the-paradox-at-the-heart-of-ai-and-science","subject":"陶哲轩：AI 与科学的核心悖论","sender":"Terence Tao","date":"2026-09-03","matchedPeople":["Terence Tao"],"matchedTags":[]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

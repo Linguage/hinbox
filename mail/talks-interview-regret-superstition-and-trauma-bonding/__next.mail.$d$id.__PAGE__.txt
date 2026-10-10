@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T34d9,<p>原文：<a href="https://post.substack.com/p/regret-superstition-and-trauma-bonding">Regret, superstition, and trauma-bonding: two champions on what it’s really like to play in the World Cup</a></p>
+<p>本文完整翻译公开发表的访谈成稿。原作注明，谈话内容经过编辑和删节。</p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!mDxn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91982bc0-2e5c-4d68-9071-aef6be9ca86b_2160x1440.jpeg" alt=""></p>
+<p><em>插图由 <a href="https://substack.com/@miawu2">Mia Wu</a> 绘制</em></p>
+<p>2026年世界杯的比赛迄今在全球已被观看近120亿次。这是一个每四年才到来的时刻，一个将国家自豪感与体育自豪感、抱负与愤慨、希望与心碎交织在一起的时刻。而支撑这一切的，是那些球员，他们试图在铺天盖地的压力浪潮中保持不沉，甚至力争上游。</p>
+<p>Julie Foudy 和 Abby Wambach 对那是什么滋味略知一二。Foudy 曾在1988年至2004年间效力于美国国家女子足球队，Wambach 则在2003年至2015年间效力于球队，并保持着国际进球数第二高的纪录。她们不仅为女子足球开辟了道路，而且两人加起来共参加了八届世界杯，为祖国赢得了三个冠军头衔。在球场上，她们应对着精英赛事所伴随的那种压力——从证明自己的价值到消化遗憾。</p>
+<p>如今，她们与网球传奇 Billie Jean King 一起，在 Substack 上共同主持一档每周两期的女子体育播客 <a href="https://welcometothepartyshow.substack.com/">Welcome to the Party</a>。《The Post》邀请 Foudy 和 Wambach 为我们揭秘在最高水平踢球是什么感觉，胜利带来的狂喜与失败带来的毁灭，以及她们如何应对在世界舞台上表现所带来的种种混乱。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!KPze!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67b93f59-da78-467c-a5b1-8a7e1235f453_1026x292.webp" alt=""></p>
+<h4><strong>当你们身处赛事之中时，休息时间是什么样的？尤其是在国外，你们有没有机会稍微探索一下，还是说你们完全专注于比赛？</strong></h4>
+<p><strong>Julie:</strong> 嗯，你[Abby]可能和我不同，但真的没有探索的机会，因为参加女足世界杯时，我们两场比赛之间的间隔天数没那么多。男足的比赛间隔稍微拉长了一些。我们每三天或第四天就踢一场，累积起来量很大——所以我就干脆把自己关掉，这完全不像我，因为我是一个爱探索、爱冒险的人。我想去看一切，我特别好奇，但你就是做不到。你的身体不允许。</p>
+<p>我会花很多时间躺着，看世界杯。或者如果是奥运会，就看奥运会。</p>
+<p><strong>Abby:</strong> 真的吗？你会看？</p>
+<p><strong>Julie:</strong> 我会关掉自己。我很乐意看各种不同的比赛，还有随便什么电影。什么都行。但我一点精力都不想消耗。</p>
+<p><strong>Abby:</strong> 我做了很多躺着什么都不干的事。但我非常、非常、非常擅长什么都不干。你知道我这一点吗？</p>
+<p><strong>Julie:</strong> 不过那时候可没有《爱情岛》可看。</p>
+<p><strong>Abby:</strong> 没有，但说到世界杯，取决于我们说的是哪一年，我们会带一大堆DVD来看电影和看剧。那还是在每个电视剧都有40集的年代。太棒了。Jules，你退役之后，我们出行时的条件稍微好了一些，所以我们会有球队休息室，里面有电子游戏机和可以闲逛的地方，大家可以聚在一起。但我从来没看过其他任何世界杯比赛。你想知道我唯一一次看世界杯比赛是什么时候吗？我看的是日本击败了——我想是德国——在2011年女足世界杯上。我记得看了那场比赛的结尾，我记得日本获胜时——我们刚刚击败了日本——我记得我看着我妈，我说：“我们会赢得世界杯的。”然后我就给我们下了咒。我永远不会原谅自己。</p>
+<p><strong>Julie:</strong> 如果你不像我们这样关注女足世界杯的历史，[美国队]在2011年决赛中于点球大战输给了日本。不过，我要说那一年日本经历了海啸带来的巨大苦难。</p>
+<p><strong>Abby:</strong> 那场比赛她们配得上胜利。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Bgga!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79171671-95fc-40a9-9a24-9744d04b60e0_1200x44.webp" alt=""></p>
+<h4><strong>对你们每个人来说，你们有没有什么赛前仪式，从一场比赛带到另一场比赛，从一届赛事带到另一届赛事？</strong></h4>
+<p><strong>Julie:</strong> 我在职业生涯的尾声和 Abby 职业生涯的开端与她一起踢过球。我们在2004年奥运会上有重叠，我知道她有一些迷信，但直到我们做了一期关于这些迷信的节目我才了解。她一直在说：“然后，然后，然后我有这个，然后我做那个。”</p>
+<p><strong>Abby:</strong> 我其实把它归结为一种成功计量器，因为每次我在比赛中进球或做了什么好事，我就会重复当时的做法。</p>
+<p><strong>Julie:</strong> 而她进了很多球。</p>
+<p>我在高中队时确实有一个迷信，因为我们一直在赢、赢、赢、赢——赢了很多。每场比赛我都必须穿同一条内裤，上面有泰迪熊和足球图案，那真是太痛苦了。大家千万别有那种迷信。如果你要有个迷信，别选内裤。因为有时候你那一周忘了洗衣服，然后你就得想：“天哪。我得在水槽里洗，还得把它弄干。”太糟糕了。到我高中最后一年时它们都快散架了。当我们终于输了一场时，我把那些内裤烧了，我说：“我再也不搞那个迷信了。”</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!RNJ8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbefbd076-4c6d-4a14-8881-8a9b26a9098c_1200x44.webp" alt=""></p>
+<h4><strong>这项赛事本质上是世界上最大的舞台。你们在比赛时是否感受到过外部压力？你们又是如何应对那么多目光和意见落在你们身上的？</strong></h4>
+<p><strong>Abby:</strong> 是的，确实有外部压力。昨天我们美国男队输了之后，我不得不反复提醒自己的一件事就是：“哦，你不是球员，Abby。你没有上场。”这件事，他们输了，不会以任何方式对你的生活产生负面影响。你是安全的。我不得不提醒自己。</p>
+<p><strong>Julie:</strong> 因为你在为那之后的后果做准备？</p>
+<p><strong>Abby:</strong> 我踢球时，是在为我的生计而踢。我知道如果我们赢了，如果我进了球，我知道会有更多的东西为我而来，为我想要的生活而来。</p>
+<p><strong>Julie:</strong> 为了付账单。为了付房租。</p>
+<p><strong>Abby:</strong> 我们的女足国家队当时并没有付给我们很多钱，所以所有场外的代言合同真的很重要。所以我是在为我的生活而踢，当我们没有赢得世界冠军时，我那种崩溃的感觉，就好像也许我的生活以一种奇怪而不真实的方式结束了。我知道我的生活没有结束，但在某些方面它确实像是结束了。那种外部压力很大。</p>
+<p>那我们怎么应对呢？这大概就是我们女足国家队的风格。我们想要压力。那大概就是我们的最佳状态区。我们在那种环境中训练，我们的教练组总是试图在训练中创造最高、最有压力、最紧张的时刻，这样当我们在世界锦标赛和世界杯中经历一些类似的时刻时，就不会觉得奇怪。我们会想：“哦对，这说得通。这感觉很正常。”</p>
+<p>你呢，Jules？</p>
+<p><strong>Julie:</strong> 你当然会感受到外部压力。我记得1999年我们主办世界杯时——就是 Brandi [Chastain] 罚进制胜点球然后脱下球衣、赤裸上身的那届世界杯——我记得我对 Billie Jean King 说，她是90年代的朋友，我说当我们进入那届赛事时，我感受到很大压力，因为我们是东道主，我们在试图说服人们——因为那还是在女子足球真正流行之前——他们应该来看比赛，女子足球是件大事。我们在试图为女性在全球舞台上举办世界级赛事树立一个标准。</p>
+<p>所以有很多东西悬于一线。我对她说：“如果我们表现不好，这届赛事砸了怎么办？”她说：“Foudy，压力是一种特权。”</p>
+<p>她说：“是啊，压力很大，但天哪，你已经做了该做的工作。拥抱它。用双臂环抱它。”所以我们在世界杯期间的核心口号就是“压力是一种特权”。我们的球队非常快乐，喜欢玩乐和搞恶作剧，所以我们试图在保持放松与明白一旦踏上球场就是比赛时间之间取得平衡。我觉得我们做得非常好，最终我们在1999年赢得了世界杯。显然那对我们来说结果很好。但那是社交媒体之前的时代。我总是说，谢天谢地我们不是在社交媒体时代踢球，因为那是你必须应对的完全不同的猛兽。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!sxlH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe795e1d6-dd68-4f35-a8c7-2b6311780bf5_1200x44.webp" alt=""></p>
+<h4><strong>在赢得世界杯之后，在为一个目标奋斗了那么久、基本上攀登了你们的珠穆朗玛峰之后，紧随其后的感觉是什么？</strong></h4>
+<p><strong>Julie:</strong> 我们称之为“奥运会后、世界杯后的低落情绪”，它是真实存在的。我们经常在运动员即将迎来他们的第一届世界杯和奥运会时和他们聊这个。当你那么刻苦地训练了那么久、那么全神贯注——因为那是多年的训练；说实话，那是一辈子的训练——如果你不知道、或者没有预料到，[这种忧郁]第一次袭来时就会狠狠地击中你。我相信对于经历许多重大人生事件的人来说也是一样的。你在筹备一场婚礼，或者你在工作上一直为之努力的那个大项目。我们过去开玩笑称之为创伤联结，但确实存在某种创伤联结，围绕着这样一个事实：你投入了如此多的精力和时间专注于这一件事，当它结束、那件事不再存在时，你会觉得：“那我这辈子要做什么呢？”</p>
+<p>而它是真实的。赢或不赢，都不重要。即使你赢了，你也会感到这种空虚，尤其是当你与这些你深爱的女性在同一支球队踢球时。她们是你的姐妹——这种你培养出来的姐妹情谊，这种纽带，是通过基本上把生命奉献给一件如此重要的事情而形成的——这真的很难。</p>
+<p>就你如何在心理上应对这件事而言，它是一记重击。当我们在赢得99年世界杯之后输掉2000年奥运会，在决赛中输给挪威时，那是一个手球[判罚]，我至今仍与之共存。我有时夜里还会冒冷汗，想着2000年那个手球，各位，那是26年前的事了。</p>
+<p>我只记得自己经历了抑郁和挣扎。我通常不是那样的。对于这类情绪，我一向非常平稳。那很难，我真希望当时有人对我说：“你会没事的。”</p>
+<p><strong>Abby:</strong> 这太有意思了，赢和输你都经历过，因为对我来说，我们赢的时候，忧郁反而更严重。当我们赢了[世界杯]时，我想我给了自己一个晚上真正去庆祝，然后第二天我就只是漂泊无依。我感觉自己像在海上漂流。但当我们输的时候，我反而更加专注。那座山只是继续延伸。当赛事结束时，你根本无法足够快地处理正在发生的一切。</p>
+<p>比如，你在小组赛期间想的事情，你如何应对你个人的表现，然后是球队、你的锋线或中场、队中的领袖或新人，或者与教练们的对话，试图屏蔽噪音，但当然有些还是会钻进来。试图去思考和梦想最终举起奖杯，无论你是否做到，你都不可能以事情发生的速度、以你体验和感受它的速度去处理这一切。</p>
+<p>赛事结束后的那几周真是疯狂。</p>
+<p><strong>Julie:</strong> 而且你还年轻，你的额叶甚至都还没发育完全。你想让我处理这一切？你对我要求太多了。</p>
+<p><strong>Abby:</strong> 我知道。所以我喝酒，我就是这么做的。我喝了很多。现在不喝了。我不认同那种做法。我想，如果我没有选择那样做，我本可以踢得更久。</p>
+<p><em>本次对话经过编辑和精简以求清晰。你可以在她们的Substack《Welcome to the Party》上阅读、收听和观看更多Abby和Julie的内容。</em></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!AaCQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F839a3651-c2df-4ea6-b9b6-72dbcf2dfb57_775x213.webp" alt=""></p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-regret-superstition-and-trauma-bonding","sender":"Welcome to the Party","author":"Danya Issawi","authorAliases":["Danya Issawi"],"publisher":"Welcome to the Party","subject":"遗憾、迷信与共同创伤带来的联结：两位冠军谈参加世界杯的真实体验","snippet":"Abby Wambach 与 Julie Foudy 谈世界杯、职业体育、压力和退役后的生活。","date":"2026-07-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["足球","体育心理","职业发展"],"mdTheme":"magazine","sourcePath":"talks/interview-regret-superstition-and-trauma-bonding.md","sourceUrl":"https://post.substack.com/p/regret-superstition-and-trauma-bonding","body":"$3","prompts":[]},"listPosition":{"index":104,"total":571},"matchedPerson":{"id":"danya-issawi","name":"Danya Issawi","email":"","occupation":"记者、作者","website":"https://mishmashy.substack.com/about","bio":"创办 Mish Mashy 通讯，撰写有关时尚、流行文化与日常生活的报道、随笔和访谈。","contentCount":2,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"出版业","name":"出版业","count":1}]},"relatedArticles":[{"id":"talks-interview-publishing-ai-discussion","subject":"200万美元书约因涉嫌使用AI被撤回：出版业将走向何方？","sender":"John Paul Brammer, Kathleen Schmidt, Lincoln Michel, Danya Issawi","date":"2026-08-06","matchedPeople":["Danya Issawi"],"matchedTags":[]},{"id":"manuel-neuer-bayern-preseason-training-camp","subject":"诺伊尔季前集训谈新赛季目标与退役计划","sender":"FC Bayern München AG","date":"2026-07-29","matchedPeople":[],"matchedTags":["足球","职业发展"]},{"id":"google-search-record-world-cup","subject":"世界杯赛事夜谷歌搜索量创历史峰值","sender":"henri","date":"2026-07-09","matchedPeople":[],"matchedTags":["足球"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T20c8,<p><img src="https://substackcdn.com/image/fetch/$s_!-oUP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faba6a476-7db8-4211-967c-a4f1ca928e66_1280x720.jpeg" alt=""></p>
+<p>Vercel 的 Andrew Qu 在 AI Engineer World's Fair（AIEWF）展区。</p>
+<p><a href="https://x.com/andrewqu">Andrew Qu</a> 是 Vercel 的软件主管，与 CTO 一起从事内部工程、产品实验和新兴技术工作。他曾为 MCP 构建程序库，创建 skills.sh，并主导开发了 Vercel 用来构建智能体的框架 eve。</p>
+<p>在这次 Latent Space 访谈中，Qu 解释了为什么智能体代表一种新的软件形态，Vercel 在构建自己的智能体时学到了什么，以及为什么 Vercel 本身正在变成一个智能体！</p>
+<h2>从 Web 应用到智能体</h2>
+<p><strong>Latent Space：</strong> Vercel 的软件主管具体做什么？</p>
+<p><strong>Andrew Qu：</strong> 我的角色比较独特。我和 CTO 一起，以各种方式做出有影响的成果。这份工作结合了内部工程、对外实验，以及通过亲手构建东西来保持对前沿的了解。</p>
+<p>这意味着开发新的程序库和框架，并向人们展示如何首次把一些事情做出来。我开发了一个 MCP 库，让创建最早一批 MCP 服务器变得更容易；也开发了 skills.sh，让智能体技能更容易被发现和使用。</p>
+<p><strong>Latent Space：</strong> Vercel 是如何从专注 Web 开发，转向大力投入智能体的？</p>
+<p><strong>Qu：</strong> Vercel 最初的目标，是让开发者轻松发布网站和 Web 应用。最近，我们看到人们从构建页面转向构建智能体。</p>
+<p>我们在氛围编程产品 v0 中构建自己的智能体时，遇到了许多现有工具无法解决的小麻烦：切换模型或提供商、添加回退方案，以及让运行可以恢复。</p>
+<p>我们把这些解决方案变成了可复用的库，既支持 v0，也帮助客户构建自己的智能体。随着时间推移，我们积累了一组基础组件，决定把它们更紧密地组合起来。这就成了 eve。</p>
+<h2>为什么需要 eve</h2>
+<p><strong>Latent Space：</strong> Vercel 是如何走到需要专门的智能体框架这一步的？</p>
+<p><strong>Qu：</strong> 大约一年前，我开始努力让 Vercel 内部的每张办公桌上都有一个智能体。为此，我构建了一个成功的数据智能体，过程中逐渐形成了一些最佳实践：文件系统智能体、技能、上下文压缩和子智能体。</p>
+<p>我一直希望这些功能能够开箱即用。后来，我们问自己：能不能提供一种有明确约定的实现方式，让其他开发者不用再经历同样的摸索？eve 就是这样来的。</p>
+<p><strong>Latent Space：</strong> 智能体只是另一种应用，还是一种真正新的软件形态？</p>
+<p><strong>Qu：</strong> 我认为智能体是一种新的软件类型。它们不像 Web 应用那样可预测。基础设施看上去可能相似，但交互、界面和输出都要动态得多。</p>
+<p>这会改变构建方式。你需要不同的基础组件来处理上下文、工具、恢复运行和长时间执行的工作。</p>
+<p><strong>Latent Space：</strong> 哪些问题特别适合交给智能体？</p>
+<p><strong>Qu：</strong> 我们看到很多商业智能体。在 Vercel 内部，我们用它们处理重复性工作，从法律合同的初步修订、营销复盘和识别需要联系的人，到对数据存储编写查询。</p>
+<p>通常，好的候选任务是需要一定推理的重复性任务。它不只是固定的自动化，因为系统必须理解具体情境，再决定怎么做。</p>
+<h2>构建有效的智能体</h2>
+<p><strong>Latent Space：</strong> 什么时候应该让智能体自主工作，什么时候应该让人参与其中？</p>
+<p><strong>Qu：</strong> 我认为未来不会全部是自主循环，也不会全部都让人参与每一步。关键在于选择适合任务的反馈周期。</p>
+<p>如果任务定义得很清楚，而且你知道最终输出应该是什么样，让循环持续运行直到完成，可能是合理的。对于需要更谨慎或更精细处理的工程工作，你应该不时回来看一看，确保自己在正确地引导模型。</p>
+<p><strong>Latent Space：</strong> 你的方法经历了提示词、专用工具、编程智能体运行框架（harness）、文件系统智能体和技能等阶段。最主要的经验是什么？</p>
+<p><strong>Qu：</strong> 我们仍在探索怎样让智能体高效工作。一路上，我们不断收集这些基础组件，再把它们整合进 eve。</p>
+<p>随着最佳实践不断出现，还会有更多东西需要加入。一年前，我们不知道沙箱会变得如此重要，也不知道安全执行代码和长时间运行任务的需求会有这么大。随着我们从生产环境中学到更多，还会有很多东西要构建。</p>
+<p><strong>Latent Space：</strong> Vercel 正在创建一个端到端的智能体平台，类似于它为 Web 开发构建的平台吗？</p>
+<p><strong>Qu：</strong> 可以说是，也可以说不是。我们重视那些为智能体生命周期提供专门组件的合作伙伴，但也希望开发者能够非常容易地开始使用。</p>
+<p>如果你把 eve 部署到 Vercel，就能开箱即用地获得可观测性和评估功能。我们希望让这套体验更完整，同时方便与合作伙伴集成，而不是拥有每一个组件。</p>
+<h2>技能与最新知识</h2>
+<p><strong>Latent Space：</strong> 为什么技能变得如此重要？</p>
+<p><strong>Qu：</strong> 技能可以作为可移植、按需获取的知识。模型经常包含过时的信息。例如，它们有时仍会推荐 Vercel Postgres，尽管我们多年前就弃用了它，转而采用我们的市场平台。</p>
+<p>一个技能可以告诉智能体 Vercel Postgres 已被弃用，引导它采用当前的方法。在公司能够审查并更新所有旧内容之前，技能提供了一种纠正模型过时认知的办法。</p>
+<p>我建议为产品的最新版本发布技能。不过，公司也应该审查现有内容，识别过时的部分，更新它们或添加明确说明。</p>
+<h2>智能体可以读取的网络</h2>
+<p><strong>Latent Space：</strong> 随着越来越多流量来自智能体，网站会怎样演变？</p>
+<p><strong>Qu：</strong> 我们发布的报告显示，机器人流量正在上升，而人类流量停滞或下降；即使展示次数增加，也可能是因为智能体和机器人更频繁地访问网站。</p>
+<p>因此，未来的网络应尽可能方便机器人和智能体访问，让它们能够了解你的产品，并成功使用。</p>
+<p>在 Vercel，我们已经会检测请求是否来自智能体，并直接提供 Markdown。我们提供更容易读取的格式，不强迫它去处理为可视化浏览器设计的 HTML。</p>
+<p><strong>Latent Space：</strong> 这是不是意味着，人和智能体会获得两种不同的体验？</p>
+<p><strong>Qu：</strong> 我认为是。人类可能继续看到可视化网站，而智能体得到更结构化、机器可读的表示。我们今天已经在这样做了。</p>
+<h2>下一步是什么</h2>
+<p><strong>Latent Space：</strong> 接下来你最想解决哪些问题？</p>
+<p><strong>Qu：</strong> 我最关注的问题之一，是多人协作开发智能体。只要团队开展协作，人们就会遇到共享上下文的困难。</p>
+<p>我可能知道一些技巧，能让前端界面在第一次尝试时就做对，但其他人可能不知道。我感兴趣的是，怎样在队友之间共享这些上下文，并让他们也能往里面添加内容。</p>
+<p><strong>Latent Space：</strong> 智能体会成为一个独立的应用类别，还是成为大多数软件内置的标准能力？</p>
+<p><strong>Qu：</strong> 这取决于你是谁，以及你在构建什么。对于 Vercel，Vercel 本身正在变成一个智能体。我们在网站、Slack 和仪表盘中都有一个智能体，可以代表你完成事情。</p>
+<p>其他公司会把智能体作为独立产品推出。对我们来说，智能体与我们构建的一切紧密相连。我们希望整个平台都对智能体友好，并且在许多方面，让平台本身成为一个智能体。</p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-vercel-agents-new-software","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","snippet":"Andrew Qu 谈 eve 框架、技能、沙箱，以及面向智能体的网站。","date":"2026-07-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["智能体","Web开发","沙箱安全"],"mdTheme":"magazine","sourcePath":"talks/interview-vercel-agents-new-software.md","sourceUrl":"https://www.latent.space/p/vercel-agents-new-software","body":"$3","prompts":[]},"listPosition":{"index":130,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-interview-autoresearch-introspection","subject":"Autoresearch：自我改进智能体背后的反馈循环","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]},{"id":"talks-interview-forward-deployed-engineers-aiewf","subject":"前线部署工程师与软件工程的未来","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]},{"id":"talks-interview-cursor-forward-deployed-engineers","subject":"Cursor 如何在企业内部部署 AI","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

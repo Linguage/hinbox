@@ -1,0 +1,755 @@
+1:"$Sreact.fragment"
+3:I[7121,[],""]
+4:I[4581,[],""]
+6:I[484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+b:I[484,[],"MetadataBoundary"]
+d:I[7123,[],""]
+:HL["/hinbox/_next/static/media/636a5ac981f94f8b-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hinbox/_next/static/css/007013509a699845.css","style"]
+0:{"P":null,"b":"_9cnp1yQSAz2iT8XTekKv","c":["","mail","talks-dwarkesh-reiner-pope"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-dwarkesh-reiner-pope","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/css/007013509a699845.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[3805,["452","static/chunks/452-271a3cbabd68d29e.js","893","static/chunks/893-cb934759b516a882.js","177","static/chunks/app/layout-646664d00cb53be4.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"__variable_cd543f","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Le",null,{"weeklyNavCounts":{"inboxWeeklyCount":21,"starredTotalCount":23},"people":[{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},{"id":"david-perell","name":"David Perell","email":"","occupation":"写作者、播客主持人","website":"https://perell.com/","bio":"主持 How I Write 播客，访谈作家并讨论写作过程，文章涉及商业、教育与互联网生活。","contentCount":10,"topTags":[{"id":"写作","name":"写作","count":9},{"id":"创作","name":"创作","count":3},{"id":"叙事技巧","name":"叙事技巧","count":3}]},{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":"","occupation":"计算科学家、企业家","website":"https://www.stephenwolfram.com/about/","bio":"开发 Mathematica 与 Wolfram|Alpha，研究元胞自动机、计算不可约性及计算与自然界的关系。","contentCount":8,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"效率工具","name":"效率工具","count":2}]},{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":7,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"数学研究","name":"数学研究","count":3},{"id":"形式化数学","name":"形式化数学","count":2}]},{"id":"christian-skau","name":"Christian Skau","email":"","occupation":"数学家","website":"https://www.ntnu.no/ansatte/christian.skau","bio":"挪威科技大学荣休教授，研究算子代数与拓扑动力系统，并长期采访阿贝尔奖得主。","contentCount":6,"topTags":[{"id":"数学研究","name":"数学研究","count":5},{"id":"动力系统","name":"动力系统","count":2},{"id":"拓扑学","name":"拓扑学","count":2}]},{"id":"ryan-peterman","name":"Ryan Peterman","email":"","occupation":"软件工程师、播客主持人","website":"https://www.developing.dev/about","bio":"曾任 Instagram 软件工程师，创办职业成长通讯与访谈播客，分享工程实践和技术人物的职业经历。","contentCount":6,"topTags":[{"id":"p与np","name":"P与NP","count":2},{"id":"分布式系统","name":"分布式系统","count":2},{"id":"计算复杂性","name":"计算复杂性","count":2}]},{"id":"lex-fridman","name":"Lex Fridman","email":"","occupation":"人工智能研究者、播客主持人","website":"https://lexfridman.com/","bio":"研究人机交互、机器人与机器学习，主持同名播客，访谈话题涵盖科学、技术与人文。","contentCount":5,"topTags":[{"id":"文学编程","name":"文学编程","count":2},{"id":"算法","name":"算法","count":2},{"id":"ai基础设施","name":"AI基础设施","count":1}]},{"id":"dan-shipper","name":"Dan Shipper","email":"","occupation":"创业者与科技作者","website":"https://danshipper.com/","bio":"Every 联合创办人，通过人工智能专栏、访谈与软件产品，探索 AI 如何改变知识工作。","contentCount":4,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1}]},{"id":"martin-raussen","name":"Martin Raussen","email":"","occupation":"数学家","website":"https://vbn.aau.dk/en/persons/martin-raussen-2/","bio":"研究几何、代数拓扑与变换群，探索拓扑方法在并发计算中的应用，并参与数学家访谈。","contentCount":4,"topTags":[{"id":"数学研究","name":"数学研究","count":3},{"id":"代数k理论","name":"代数K理论","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"steve-jobs","name":"Steve Jobs","email":"","occupation":"企业家","website":"https://stevejobsarchive.com/","bio":"苹果联合创始人，创办 NeXT，曾领导皮克斯，2005 年在斯坦福大学发表毕业演讲。","contentCount":4,"topTags":[{"id":"人生经历","name":"人生经历","count":2},{"id":"苹果","name":"苹果","count":2},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"andrej-karpathy","name":"Andrej Karpathy","email":"","occupation":"人工智能研究者与教育者","website":"https://karpathy.ai/","bio":"OpenAI 创始成员，曾领导特斯拉自动驾驶视觉团队，并主讲斯坦福深度学习课程及人工智能视频课程。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"公众认知","name":"公众认知","count":1},{"id":"博士培养","name":"博士培养","count":1}]},{"id":"demis-hassabis","name":"Demis Hassabis","email":"","occupation":"人工智能研究者、企业家","website":"https://royalsociety.org/people/demis-hassabis-13817/","bio":"共同创办 DeepMind，推动 AlphaGo 和蛋白质结构预测研究，获 2024 年诺贝尔化学奖。","contentCount":3,"topTags":[{"id":"通用人工智能","name":"通用人工智能","count":3},{"id":"科学发现","name":"科学发现","count":2},{"id":"ai安全","name":"AI安全","count":1}]},{"id":"elon-musk","name":"Elon Musk","email":"","occupation":"科技企业家","website":"https://ir.tesla.com/corporate/elon-musk","bio":"参与特斯拉与 SpaceX 的发展，联合创办 PayPal，并创办 Neuralink 等科技企业。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"政府改革","name":"政府改革","count":2},{"id":"交通基础设施","name":"交通基础设施","count":1}]},{"id":"jared-weiss","name":"Jared Weiss","email":"","occupation":"篮球记者","bio":"为 The Athletic 报道马刺与文班亚马，曾长期跟踪凯尔特人，并参与赛后节目制作。","contentCount":3,"topTags":[{"id":"nba","name":"NBA","count":3},{"id":"体育心理","name":"体育心理","count":2},{"id":"篮球","name":"篮球","count":2}]},{"id":"jeremy-stern","name":"Jeremy Stern","email":"","occupation":"记者、编辑","website":"https://colossus.com/author/jeremy-stern/","bio":"在 Colossus 撰写企业家和投资人的长篇人物报道，作品涉及人工智能、科技公司及创业经历。","contentCount":3,"topTags":[{"id":"ai编程","name":"AI编程","count":3},{"id":"创业","name":"创业","count":3},{"id":"devin","name":"Devin","count":2}]},{"id":"sauteedveggies","name":"SauteedVeggies","email":"","contentCount":3,"topTags":[{"id":"创造力","name":"创造力","count":3},{"id":"教育","name":"教育","count":2},{"id":"学术文化","name":"学术文化","count":1}]},{"id":"simon-willison","name":"Simon Willison","email":"","occupation":"开源软件开发者","website":"https://simonwillison.net/","bio":"Django 联合创建者和 Datasette 作者，开发数据探索与发布工具，并记录编程和大语言模型实践。","contentCount":3,"topTags":[{"id":"claude","name":"Claude","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"python","name":"Python","count":1}]},{"id":"tugce-erten","name":"Tugce Erten","email":"","occupation":"定价策略顾问","website":"https://a16z.com/author/tugce-erten/","bio":"在 a16z 关注定价与套餐设计，撰写软件订阅、按用量收费及生成式 AI 商业化的分析文章。","contentCount":3,"topTags":[{"id":"产品定价","name":"产品定价","count":3},{"id":"人工智能","name":"人工智能","count":2},{"id":"商业模式","name":"商业模式","count":2}]},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":"","occupation":"科技记者、播客主持人","website":"https://alexkantrowitz.com/","bio":"创办 Big Technology 通讯与播客，报道科技巨头及其社会影响，著有《Always Day One》。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"amit-raghuvanshi","name":"Amit Raghuvanshi","email":"","occupation":"软件工程师与技术作者","website":"https://thearchitectsnotebook.substack.com/about","bio":"创办 The Architect’s Notebook，结合软件工程实践，讲解系统设计、分布式架构与可靠性。","contentCount":2,"topTags":[{"id":"分布式系统","name":"分布式系统","count":2},{"id":"可观测性","name":"可观测性","count":1},{"id":"尾延迟","name":"尾延迟","count":1}]},{"id":"andy-matuschak","name":"Andy Matuschak","email":"","occupation":"应用研究者","website":"https://andymatuschak.org/","bio":"设计帮助人们理解、记忆和运用知识的交互工具，曾参与 Apple 的 iOS 开发并负责可汗学院研发。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"软件设计","name":"软件设计","count":2}]},{"id":"ben-brubaker","name":"Ben Brubaker","email":"","occupation":"科学记者","website":"https://www.quantamagazine.org/authors/brubaker_ben/","bio":"在 Quanta 报道计算机科学，曾从事物理学研究，拥有耶鲁大学物理学博士学位。","contentCount":2,"topTags":[{"id":"计算复杂性","name":"计算复杂性","count":2},{"id":"人工智能","name":"人工智能","count":1},{"id":"独特博弈","name":"独特博弈","count":1}]},{"id":"bj-rn-ian-dundas","name":"Bjørn Ian Dundas","email":"","occupation":"数学家","website":"https://www4.uib.no/finn-ansatte/bjorn-ian.dundas","bio":"卑尔根大学数学教授，研究代数 K 理论与同伦论，并参与阿贝尔奖得主访谈。","contentCount":2,"topTags":[{"id":"数学研究","name":"数学研究","count":2},{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1}]},{"id":"danya-issawi","name":"Danya Issawi","email":"","occupation":"记者、作者","website":"https://mishmashy.substack.com/about","bio":"创办 Mish Mashy 通讯，撰写有关时尚、流行文化与日常生活的报道、随笔和访谈。","contentCount":2,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"出版业","name":"出版业","count":1}]},{"id":"elena-verna","name":"Elena Verna","email":"","occupation":"增长顾问、写作者","website":"https://www.elenaverna.com/","bio":"从事企业软件增长与咨询，曾在 Miro、Dropbox 等公司任职，关注产品驱动的增长策略。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"gary-marcus","name":"Gary Marcus","email":"","occupation":"人工智能研究者与作者","website":"https://mitpress.mit.edu/author/gary-f-marcus-4510/","bio":"纽约大学荣休教授，曾创办机器学习公司，著有《Rebooting AI》等书，讨论人工智能的能力与风险。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业治理","name":"企业治理","count":1}]},{"id":"gergely-orosz","name":"Gergely Orosz","email":"","occupation":"软件工程师、科技作者","website":"https://blog.pragmaticengineer.com/about/","bio":"撰写 Pragmatic Engineer 通讯，报道软件工程实践与科技行业，曾负责 Uber 的工程团队。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"代码审查","name":"代码审查","count":1}]},{"id":"gregory-zuckerman","name":"Gregory Zuckerman","email":"","occupation":"财经记者、作家","website":"https://www.gregoryzuckerman.com/","bio":"长期报道金融机构、对冲基金与能源行业，写作聚焦投资人物、市场交易和企业发展。","contentCount":2,"topTags":[{"id":"人生经历","name":"人生经历","count":1},{"id":"价值投资","name":"价值投资","count":1},{"id":"投资决策","name":"投资决策","count":1}]},{"id":"han-lee","name":"Han Lee","email":"","occupation":"机器学习工程师","website":"https://leehanchung.github.io/","bio":"构建大语言模型、搜索与推荐系统，围绕生产环境中的人工智能、模型评估和工程实践写作。","contentCount":2,"topTags":[{"id":"上下文工程","name":"上下文工程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"hugo-duminil-copin","name":"Hugo Duminil-Copin","email":"","occupation":"数学家","website":"https://www.ihes.fr/en/professeur/hugo-duminil-copin-2/","bio":"运用概率论研究统计物理中的临界现象与相变，研究涉及渗流和伊辛模型，获 2022 年菲尔兹奖。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"数学教育","name":"数学教育","count":2},{"id":"数学研究","name":"数学研究","count":2}]},{"id":"jc","name":"JC","email":"","contentCount":2,"topTags":[{"id":"企业战略","name":"企业战略","count":1},{"id":"企业治理","name":"企业治理","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"jd-vance","name":"JD Vance","email":"","occupation":"美国政治人物","website":"https://www.whitehouse.gov/administration/jd-vance/","bio":"美国副总统，曾任联邦参议员，早年服役于海军陆战队，著有回忆录《乡下人的悲歌》。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"国际关系","name":"国际关系","count":1}]},{"id":"jensen-huang","name":"Jensen Huang","email":"","occupation":"企业家","website":"https://nvidianews.nvidia.com/bios/jensen-huang","bio":"1993 年创办英伟达，长期领导公司发展图形处理器、加速计算及面向人工智能的计算平台。","contentCount":2,"topTags":[{"id":"gpu","name":"GPU","count":2},{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"cuda","name":"CUDA","count":1}]},{"id":"jordana-cepelewicz","name":"Jordana Cepelewicz","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/jordana-cepelewicz/","bio":"曾为 Quanta 报道数学与生物学，拥有耶鲁大学数学与比较文学双学位，亦为科学刊物撰稿。","contentCount":2,"topTags":[{"id":"科研生涯","name":"科研生涯","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"katie-parrott","name":"Katie Parrott","email":"","occupation":"科技作者与工具开发者","website":"https://katieparrott.com/","bio":"在 Every 记录人工智能对知识工作的影响，制作写作与编辑工具，并以个人实验介绍实际使用方法。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"konstantin-kakaes","name":"Konstantin Kakaes","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/konstantin-kakaes/","bio":"为 Quanta 撰写数学与人工智能报道，曾负责该刊数学编辑工作，也曾在《经济学人》等媒体工作。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"代数几何","name":"代数几何","count":1},{"id":"开放问题","name":"开放问题","count":1}]},{"id":"melanie-mitchell","name":"Melanie Mitchell","email":"","occupation":"人工智能研究者、作家","website":"https://melaniemitchell.me/","bio":"研究人工智能、认知科学与复杂系统，关注人类和机器的抽象、类比与推理，并撰写科普著作。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"抽象推理","name":"抽象推理","count":1}]},{"id":"peter-dizikes","name":"Peter Dizikes","email":"","occupation":"新闻记者","bio":"在 MIT News 撰稿，主要报道人文与社会科学，撰写研究新闻、校园人物和学术活动报道。","contentCount":2,"topTags":[{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":"","occupation":"体育记者","website":"https://espnpressroom.com/bio/ramona-shelburne/","bio":"为 ESPN 报道 NBA 新闻，参与电视与广播节目，并获职业篮球记者协会的专栏写作和突发新闻奖。","contentCount":2,"topTags":[{"id":"体育训练","name":"体育训练","count":2},{"id":"身心健康","name":"身心健康","count":2},{"id":"nba","name":"NBA","count":1}]},{"id":"sam-altman","name":"Sam Altman","email":"","occupation":"科技企业家","website":"https://blog.samaltman.com/","bio":"2015 年参与创办 OpenAI，曾任创业孵化器 Y Combinator 总裁，参与人工智能与科技创业。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创业","name":"创业","count":1},{"id":"样本效率","name":"样本效率","count":1}]},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":"","occupation":"投资者与企业家","bio":"长期领导伯克希尔·哈撒韦，撰写年度股东信，阐述投资决策、资本配置与企业经营原则。","contentCount":2,"topTags":[{"id":"价值投资","name":"价值投资","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"资本配置","name":"资本配置","count":2}]},{"id":"aaron-a-sandel","name":"Aaron A. Sandel","email":"","contentCount":1,"topTags":[{"id":"动物行为","name":"动物行为","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"群体冲突","name":"群体冲突","count":1}]},{"id":"abhi-abh1a0","name":"Abhi@abh1a0","email":"","contentCount":1,"topTags":[{"id":"信息检索","name":"信息检索","count":1},{"id":"搜索系统","name":"搜索系统","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"adam-mcneilly","name":"Adam McNeilly","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"addy-osmani","name":"Addy Osmani","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"adrian-sanborn","name":"Adrian Sanborn","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"alan-edelman","name":"Alan Edelman","email":"","contentCount":1,"topTags":[{"id":"julia","name":"Julia","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"alex-albert","name":"Alex Albert","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1},{"id":"开发工具","name":"开发工具","count":1}]},{"id":"alex-paino","name":"Alex Paino","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"alex-erik-barry-anthropic","name":"Alex, Erik, Barry (Anthropic)","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"allyn-jackson","name":"Allyn Jackson","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"amin-tootoonchian","name":"Amin Tootoonchian","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"andrew-wiles","name":"Andrew Wiles","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1}]},{"id":"andrey-mir","name":"Andrey Mir","email":"","contentCount":1,"topTags":[{"id":"媒介生态","name":"媒介生态","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"身份认同","name":"身份认同","count":1}]},{"id":"anish-acharya","name":"Anish Acharya","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创作","name":"创作","count":1},{"id":"媒介","name":"媒介","count":1}]},{"id":"anna-bawden","name":"Anna Bawden","email":"","contentCount":1,"topTags":[{"id":"神经科学","name":"神经科学","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"语言学习","name":"语言学习","count":1}]},{"id":"anne-trafton","name":"Anne Trafton","email":"","contentCount":1,"topTags":[{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1}]},{"id":"ariana-gaines","name":"Ariana Gaines","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"arielle-swedback","name":"Arielle Swedback","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"auriel-wright","name":"Auriel Wright","email":"","contentCount":1,"topTags":[{"id":"奖励投机","name":"奖励投机","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"austin-tedesco","name":"Austin Tedesco","email":"","contentCount":1,"topTags":[{"id":"codex","name":"Codex","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"知识工作","name":"知识工作","count":1}]},{"id":"ben-landau-taylor","name":"Ben Landau-Taylor","email":"","contentCount":1,"topTags":[{"id":"人际关系","name":"人际关系","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社群组织","name":"社群组织","count":1}]},{"id":"bilal-tahir","name":"Bilal Tahir","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"政治经济","name":"政治经济","count":1}]},{"id":"bob-nystrom","name":"Bob Nystrom","email":"","contentCount":1,"topTags":[{"id":"异步编程","name":"异步编程","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"boris-cherny","name":"Boris Cherny","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1},{"id":"开发工具","name":"开发工具","count":1}]},{"id":"bradford-morgan-white","name":"Bradford Morgan White","email":"","contentCount":1,"topTags":[{"id":"企业管理","name":"企业管理","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"科技史","name":"科技史","count":1}]},{"id":"brandon-vigliarolo","name":"Brandon Vigliarolo","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"社交媒体","name":"社交媒体","count":1}]},{"id":"bret-taylor","name":"Bret Taylor","email":"","contentCount":1,"topTags":[{"id":"创业","name":"创业","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"carson-gross","name":"Carson Gross","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"复杂度","name":"复杂度","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"casey-newton","name":"Casey Newton","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"c-dric-villani","name":"Cédric Villani","email":"","contentCount":1,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"chris-stokel-walker","name":"Chris Stokel-Walker","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"chris-williamson","name":"Chris Williamson","email":"","contentCount":1,"topTags":[{"id":"人生哲学","name":"人生哲学","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"幸福","name":"幸福","count":1}]},{"id":"claire-giangrav","name":"Claire Giangravè","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"社会正义","name":"社会正义","count":1}]},{"id":"claire-vo","name":"Claire Vo","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"原型设计","name":"原型设计","count":1}]},{"id":"cleo-abram","name":"Cleo Abram","email":"","contentCount":1,"topTags":[{"id":"gpu","name":"GPU","count":1},{"id":"机器人","name":"机器人","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"clive-thompson","name":"Clive Thompson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"connor-jones","name":"Connor Jones","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"craig-smith","name":"Craig Smith","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"模型训练","name":"模型训练","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"cyrus","name":"Cyrus","email":"","contentCount":1,"topTags":[{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"dan-koe","name":"Dan Koe","email":"","contentCount":1,"topTags":[{"id":"个人品牌","name":"个人品牌","count":1},{"id":"创业","name":"创业","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"dan-mcateer","name":"Dan McAteer","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"dan-pupius","name":"Dan Pupius","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创业","name":"创业","count":1},{"id":"平台经济","name":"平台经济","count":1}]},{"id":"daniel-grant","name":"Daniel Grant","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"daniel-selsam","name":"Daniel Selsam","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"darrin-joy","name":"Darrin Joy","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"创造力","name":"创造力","count":1},{"id":"大语言模型","name":"大语言模型","count":1}]},{"id":"david-chapman","name":"David Chapman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"博士培养","name":"博士培养","count":1},{"id":"学术写作","name":"学术写作","count":1}]},{"id":"david-george","name":"David George","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"经济增长","name":"经济增长","count":1}]},{"id":"david-kelly","name":"David Kelly","email":"","contentCount":1,"topTags":[{"id":"代谢健康","name":"代谢健康","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"运动健康","name":"运动健康","count":1}]},{"id":"david-louapre","name":"David Louapre","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"david-ondrej","name":"David Ondrej","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"david-pogue","name":"David Pogue","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"davide-castelvecchi","name":"Davide Castelvecchi","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"流体力学","name":"流体力学","count":1}]},{"id":"dennis-sullivan","name":"Dennis Sullivan","email":"","contentCount":1,"topTags":[{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"dimitris-koukoulopoulos","name":"Dimitris Koukoulopoulos","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"dylan-patel","name":"Dylan Patel","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"edsger-w-dijkstra","name":"Edsger W. Dijkstra","email":"","contentCount":1,"topTags":[{"id":"程序正确性","name":"程序正确性","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"自然语言","name":"自然语言","count":1}]},{"id":"eric-blair","name":"Eric Blair","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"文学","name":"文学","count":1}]},{"id":"eric-zakariasson","name":"Eric Zakariasson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"工具调用","name":"工具调用","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"evan-schuman","name":"Evan Schuman","email":"","contentCount":1,"topTags":[{"id":"供应链","name":"供应链","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"科技政策","name":"科技政策","count":1}]},{"id":"g-h-哈代","name":"G. H. 哈代","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"garanglow","name":"garanglow","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"数学反例","name":"数学反例","count":1}]},{"id":"george-m-whitesides","name":"George M. Whitesides","email":"","contentCount":1,"topTags":[{"id":"学术写作","name":"学术写作","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"科学传播","name":"科学传播","count":1}]},{"id":"george-saunders","name":"George Saunders","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"gilles-castel","name":"Gilles Castel","email":"","contentCount":1,"topTags":[{"id":"latex","name":"LaTeX","count":1},{"id":"vim","name":"Vim","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"gio-ahern","name":"Gio Ahern","email":"","contentCount":1,"topTags":[{"id":"企业软件","name":"企业软件","count":1},{"id":"数据管理","name":"数据管理","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"guillaume-chillet","name":"Guillaume Chillet","email":"","contentCount":1,"topTags":[{"id":"信息操纵","name":"信息操纵","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"认知科学","name":"认知科学","count":1}]},{"id":"hanne-winarsky","name":"Hanne Winarsky","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},{"id":"harrison-chase","name":"Harrison Chase","email":"","contentCount":1,"topTags":[{"id":"持续学习","name":"持续学习","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"长期记忆","name":"长期记忆","count":1}]},{"id":"harry-goldstein","name":"Harry Goldstein","email":"","contentCount":1,"topTags":[{"id":"投资","name":"投资","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数据中心","name":"数据中心","count":1}]},{"id":"harry-schwarz","name":"Harry Schwarz","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"任务管理","name":"任务管理","count":1}]},{"id":"harry-stebbings","name":"Harry Stebbings","email":"","contentCount":1,"topTags":[{"id":"windsurf","name":"Windsurf","count":1},{"id":"企业并购","name":"企业并购","count":1},{"id":"强化学习","name":"强化学习","count":1}]},{"id":"hilary-gridley","name":"Hilary Gridley","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"原型设计","name":"原型设计","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"hunter-harris","name":"Hunter Harris","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},{"id":"ilaria-parogni","name":"Ilaria Parogni","email":"","contentCount":1,"topTags":[{"id":"博物馆","name":"博物馆","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"艺术史","name":"艺术史","count":1}]},{"id":"ilya-sutskever","name":"Ilya Sutskever","email":"","contentCount":1,"topTags":[{"id":"科技伦理","name":"科技伦理","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1}]},{"id":"ingrid-wickelgren","name":"Ingrid Wickelgren","email":"","contentCount":1,"topTags":[{"id":"情绪调节","name":"情绪调节","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"神经科学","name":"神经科学","count":1}]},{"id":"iqiipi","name":"iqiipi","email":"","contentCount":1,"topTags":[{"id":"ada","name":"Ada","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"ivan-zhao","name":"Ivan Zhao","email":"","contentCount":1,"topTags":[{"id":"notion","name":"Notion","count":1},{"id":"产品设计","name":"产品设计","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"j-k-trotter","name":"J.K. Trotter","email":"","contentCount":1,"topTags":[{"id":"交通安全","name":"交通安全","count":1},{"id":"公共问责","name":"公共问责","count":1},{"id":"执法监督","name":"执法监督","count":1}]},{"id":"ja-westenberg","name":"JA Westenberg","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"创业","name":"创业","count":1},{"id":"劳动观念","name":"劳动观念","count":1}]},{"id":"jacek-krywko","name":"Jacek Krywko","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"火星探索","name":"火星探索","count":1}]},{"id":"jack-murtagh","name":"Jack Murtagh","email":"","contentCount":1,"topTags":[{"id":"整数乘法","name":"整数乘法","count":1},{"id":"算法","name":"算法","count":1},{"id":"计算复杂性","name":"计算复杂性","count":1}]},{"id":"jacob-sujin-kuppermann","name":"jacob sujin kuppermann","email":"","contentCount":1,"topTags":[{"id":"理性决策","name":"理性决策","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"jake-angelo","name":"Jake Angelo","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"投资回报","name":"投资回报","count":1}]},{"id":"jake-orlowitz","name":"Jake Orlowitz","email":"","contentCount":1,"topTags":[{"id":"公共知识","name":"公共知识","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"社区治理","name":"社区治理","count":1}]},{"id":"james-bennett","name":"James Bennett","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"james-clear","name":"James Clear","email":"","contentCount":1,"topTags":[{"id":"习惯养成","name":"习惯养成","count":1},{"id":"自我管理","name":"自我管理","count":1},{"id":"行为设计","name":"行为设计","count":1}]},{"id":"james-somers","name":"James Somers","email":"","contentCount":1,"topTags":[{"id":"分布式系统","name":"分布式系统","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"谷歌","name":"谷歌","count":1}]},{"id":"janna-levin","name":"Janna Levin","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"系外行星","name":"系外行星","count":1}]},{"id":"jared-henderson","name":"Jared Henderson","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"自我反思","name":"自我反思","count":1}]},{"id":"jasper-jolly","name":"Jasper Jolly","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"jay-dixit","name":"Jay Dixit","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"写作","name":"写作","count":1}]},{"id":"jean-pierre-serre","name":"Jean-Pierre Serre","email":"","contentCount":1,"topTags":[{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"数学证明","name":"数学证明","count":1},{"id":"数论","name":"数论","count":1}]},{"id":"jeff-dean","name":"Jeff Dean","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"gemini","name":"Gemini","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1}]},{"id":"jennifer-elias","name":"Jennifer Elias","email":"","contentCount":1,"topTags":[{"id":"搜索系统","name":"搜索系统","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"足球","name":"足球","count":1}]},{"id":"jer-lifeof-jer","name":"JER (@lifeof_jer)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"数据库安全","name":"数据库安全","count":1}]},{"id":"jeremy-hsu","name":"Jeremy Hsu","email":"","contentCount":1,"topTags":[{"id":"医疗技术","name":"医疗技术","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"jerry-han","name":"Jerry Han","email":"","contentCount":1,"topTags":[{"id":"计算规模","name":"计算规模","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"预训练","name":"预训练","count":1}]},{"id":"jim-simons","name":"Jim Simons","email":"","contentCount":1,"topTags":[{"id":"公益慈善","name":"公益慈善","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"量化投资","name":"量化投资","count":1}]},{"id":"joe-rogan","name":"Joe Rogan","email":"","contentCount":1,"topTags":[{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"国际关系","name":"国际关系","count":1},{"id":"太空探索","name":"太空探索","count":1}]},{"id":"joe-schmidt-iv","name":"Joe Schmidt IV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业软件","name":"企业软件","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"joel-khalili","name":"Joel Khalili","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"金融分析","name":"金融分析","count":1}]},{"id":"john-milnor","name":"John Milnor","email":"","contentCount":1,"topTags":[{"id":"代数k理论","name":"代数K理论","count":1},{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1}]},{"id":"john-nash","name":"John Nash","email":"","contentCount":1,"topTags":[{"id":"几何","name":"几何","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"john-paul-brammer","name":"John Paul Brammer","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"jon-brodkin","name":"Jon Brodkin","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"算法歧视","name":"算法歧视","count":1}]},{"id":"jordan-b-peterson","name":"Jordan B. Peterson","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"joseph-howlett","name":"Joseph Howlett","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"数学","name":"数学","count":1}]},{"id":"jumploops","name":"jumploops","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"kat-boboris","name":"Kat Boboris","email":"","contentCount":1,"topTags":[{"id":"arxiv","name":"arXiv","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"非营利组织","name":"非营利组织","count":1}]},{"id":"kathleen-schmidt","name":"Kathleen Schmidt","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"kenneth-chang","name":"Kenneth Chang","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科研伦理","name":"科研伦理","count":1},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":1}]},{"id":"kevin-hartnett","name":"Kevin Hartnett","email":"","contentCount":1,"topTags":[{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"类型论","name":"类型论","count":1}]},{"id":"kevin-kelly","name":"Kevin Kelly","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"内容创作","name":"内容创作","count":1},{"id":"未来预测","name":"未来预测","count":1}]},{"id":"kevin-roose","name":"Kevin Roose","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"kieran-klaassen","name":"Kieran Klaassen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"kunihiko-kodaira","name":"Kunihiko Kodaira","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1}]},{"id":"ky","name":"Ky","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科技行业","name":"科技行业","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"kyle-kingsbury","name":"Kyle Kingsbury","email":"","contentCount":1,"topTags":[{"id":"信息生态","name":"信息生态","count":1},{"id":"心理健康","name":"心理健康","count":1},{"id":"机器学习","name":"机器学习","count":1}]},{"id":"lee-boonstra","name":"Lee Boonstra","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"提示工程","name":"提示工程","count":1}]},{"id":"lee-child","name":"Lee Child","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"类型小说","name":"类型小说","count":1}]},{"id":"leerob","name":"leerob","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"cursor","name":"Cursor","count":1},{"id":"上下文工程","name":"上下文工程","count":1}]},{"id":"leiden-declaration","name":"Leiden Declaration","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"leila-sloman","name":"Leila Sloman","email":"","contentCount":1,"topTags":[{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"高维几何","name":"高维几何","count":1}]},{"id":"leo-pp-xiv","name":"LEO PP. XIV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"宗教","name":"宗教","count":1}]},{"id":"lilian-weng","name":"Lilian Weng","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"思维链","name":"思维链","count":1}]},{"id":"lincoln-michel","name":"Lincoln Michel","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"linus-torvalds","name":"Linus Torvalds","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"开源","name":"开源","count":1},{"id":"版本控制","name":"版本控制","count":1}]},{"id":"lionel-martellini","name":"Lionel Martellini","email":"","contentCount":1,"topTags":[{"id":"量子计算","name":"量子计算","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"风险管理","name":"风险管理","count":1}]},{"id":"logan-kugler","name":"Logan Kugler","email":"","contentCount":1,"topTags":[{"id":"容错计算","name":"容错计算","count":1},{"id":"航天工程","name":"航天工程","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"lucas-gu","name":"Lucas Gu","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"luciano-nooijen","name":"Luciano Nooijen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码编辑器","name":"代码编辑器","count":1},{"id":"技能退化","name":"技能退化","count":1}]},{"id":"maggie-dong","name":"Maggie Dong","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"malcolm-spittler","name":"Malcolm Spittler","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"marcus-moretti","name":"Marcus Moretti","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"martin-alderson","name":"Martin Alderson","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"算力","name":"算力","count":1},{"id":"能源","name":"能源","count":1}]},{"id":"masaki-kashiwara","name":"Masaki Kashiwara","email":"","contentCount":1,"topTags":[{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"max-schoening","name":"Max Schoening","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"产品管理","name":"产品管理","count":1},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"maya-bar-hillel","name":"Maya Bar-Hillel","email":"","contentCount":1,"topTags":[{"id":"心理学","name":"心理学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"认知偏差","name":"认知偏差","count":1}]},{"id":"michael-douglas","name":"Michael Douglas","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"michael-truell","name":"Michael Truell","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"cursor","name":"Cursor","count":1},{"id":"代码编辑器","name":"代码编辑器","count":1}]},{"id":"michelle-starr","name":"Michelle Starr","email":"","contentCount":1,"topTags":[{"id":"x射线成像","name":"X射线成像","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"migoroedu","name":"MigOroEdu","email":"","contentCount":1,"topTags":[{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"组合数学","name":"组合数学","count":1}]},{"id":"mike-perham","name":"Mike Perham","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"指令遵循","name":"指令遵循","count":1}]},{"id":"mike-prada","name":"Mike Prada","email":"","contentCount":1,"topTags":[{"id":"nba","name":"NBA","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"团队管理","name":"团队管理","count":1}]},{"id":"mike-taylor","name":"Mike Taylor","email":"","contentCount":1,"topTags":[{"id":"开发工作流","name":"开发工作流","count":1},{"id":"成本优化","name":"成本优化","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"nat-eliason","name":"Nat Eliason","email":"","contentCount":1,"topTags":[{"id":"创作","name":"创作","count":1},{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"natalie-wolchover","name":"Natalie Wolchover","email":"","contentCount":1,"topTags":[{"id":"kakeya猜想","name":"Kakeya猜想","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"nathan-parde","name":"Nathan Parde","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"neil-j-rubenking","name":"Neil J. Rubenking","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"nick-mcgreivy","name":"Nick McGreivy","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"可复现研究","name":"可复现研究","count":1}]},{"id":"nir-eyal","name":"Nir Eyal","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"注意力","name":"注意力","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"nolan-lawson","name":"Nolan Lawson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"软件质量","name":"软件质量","count":1}]},{"id":"oussama-khatib","name":"Oussama Khatib","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"机器人","name":"机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"owen-williams","name":"Owen Williams","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"原型设计","name":"原型设计","count":1}]},{"id":"p-w-anderson","name":"P. W. Anderson","email":"","contentCount":1,"topTags":[{"id":"凝聚态物理","name":"凝聚态物理","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"涌现","name":"涌现","count":1}]},{"id":"paul-graham","name":"Paul Graham","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"审美","name":"审美","count":1},{"id":"设计","name":"设计","count":1}]},{"id":"pere-villega","name":"Pere Villega","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"软件工程","name":"软件工程","count":1},{"id":"软件经济","name":"软件经济","count":1}]},{"id":"peter-thiel","name":"Peter Thiel","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"peter-yang","name":"Peter Yang","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"codex","name":"Codex","count":1},{"id":"产品开发","name":"产品开发","count":1}]},{"id":"philip-ball","name":"Philip Ball","email":"","contentCount":1,"topTags":[{"id":"生命科学","name":"生命科学","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"philippe-tibi","name":"Philippe Tibi","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"quincy-mackay","name":"Quincy Mackay","email":"","contentCount":1,"topTags":[{"id":"ai艺术","name":"AI艺术","count":1},{"id":"文化","name":"文化","count":1},{"id":"集体创作","name":"集体创作","count":1}]},{"id":"r-jimmy","name":"R.Jimmy","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"技能学习","name":"技能学习","count":1}]},{"id":"rafael-tus","name":"Rafael Tus","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"民主制度","name":"民主制度","count":1}]},{"id":"rahul-kalvapalle","name":"Rahul Kalvapalle","email":"","contentCount":1,"topTags":[{"id":"好奇心","name":"好奇心","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"reece-rogers","name":"Reece Rogers","email":"","contentCount":1,"topTags":[{"id":"即时通信","name":"即时通信","count":1},{"id":"网络安全","name":"网络安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"reiner-pope","name":"Reiner Pope","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"推理优化","name":"推理优化","count":1},{"id":"模型训练","name":"模型训练","count":1}]},{"id":"reuben-hersh","name":"Reuben Hersh","email":"","contentCount":1,"topTags":[{"id":"形式主义","name":"形式主义","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学实践","name":"数学实践","count":1}]},{"id":"richard-baraniuk","name":"Richard Baraniuk","email":"","contentCount":1,"topTags":[{"id":"优化算法","name":"优化算法","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"压缩感知","name":"压缩感知","count":1}]},{"id":"richard-sutton","name":"Richard Sutton","email":"","contentCount":1,"topTags":[{"id":"强化学习","name":"强化学习","count":1},{"id":"机器学习","name":"机器学习","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"rishi-athavale","name":"Rishi Athavale","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"roula-khalaf","name":"Roula Khalaf","email":"","contentCount":1,"topTags":[{"id":"中美关系","name":"中美关系","count":1},{"id":"关税政策","name":"关税政策","count":1},{"id":"国际贸易","name":"国际贸易","count":1}]},{"id":"russ-roberts","name":"Russ Roberts","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"sara-hashemi","name":"Sara Hashemi","email":"","contentCount":1,"topTags":[{"id":"低碳技术","name":"低碳技术","count":1},{"id":"材料科学","name":"材料科学","count":1},{"id":"混凝土","name":"混凝土","count":1}]},{"id":"sarah-wang","name":"Sarah Wang","email":"","contentCount":1,"topTags":[{"id":"产品定价","name":"产品定价","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"商业模式","name":"商业模式","count":1}]},{"id":"scott-galloway","name":"Scott Galloway","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人际沟通","name":"人际沟通","count":1},{"id":"劳动市场","name":"劳动市场","count":1}]},{"id":"scott-k-johnson","name":"Scott K. Johnson","email":"","contentCount":1,"topTags":[{"id":"学术诚信","name":"学术诚信","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"scott-wu-russell-kaplan-受访-joe-lonsdale-","name":"Scott Wu & Russell Kaplan（受访） / Joe Lonsdale（主持）","email":"","contentCount":1,"topTags":[{"id":"devin","name":"Devin","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"sebastian-raschka","name":"Sebastian Raschka","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"shmuel-berman","name":"Shmuel Berman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"sophie-wu","name":"Sophie Wu","email":"","contentCount":1,"topTags":[{"id":"来源引用","name":"来源引用","count":1},{"id":"知识档案","name":"知识档案","count":1},{"id":"维基百科","name":"维基百科","count":1}]},{"id":"stella-garber","name":"Stella Garber","email":"","contentCount":1,"topTags":[{"id":"产品开发","name":"产品开发","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"steven-levy","name":"Steven Levy","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1}]},{"id":"steven-vaughan-nichols","name":"Steven Vaughan-Nichols","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"linux","name":"Linux","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"susam-pal","name":"Susam Pal","email":"","contentCount":1,"topTags":[{"id":"lisp","name":"Lisp","count":1},{"id":"vim","name":"Vim","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"tanya-klowden","name":"Tanya Klowden","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"thomas-claburn","name":"Thomas Claburn","email":"","contentCount":1,"topTags":[{"id":"claude-code","name":"Claude Code","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"timothy-gowers","name":"Timothy Gowers","email":"","contentCount":1,"topTags":[{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"加性数论","name":"加性数论","count":1}]},{"id":"tom-yc-合伙人","name":"Tom (YC 合伙人)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"版本控制","name":"版本控制","count":1}]},{"id":"vadim-drobinin","name":"Vadim Drobinin","email":"","contentCount":1,"topTags":[{"id":"ios","name":"iOS","count":1},{"id":"体育","name":"体育","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"varun-mohan","name":"Varun Mohan","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"windsurf","name":"Windsurf","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"walden-walden-yan","name":"Walden (@walden_yan)","email":"","contentCount":1,"topTags":[{"id":"多智能体","name":"多智能体","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"william-p-thurston","name":"William P. Thurston","email":"","contentCount":1,"topTags":[{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"数学证明","name":"数学证明","count":1}]},{"id":"xinran-ma","name":"Xinran Ma","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"web开发","name":"Web开发","count":1},{"id":"前端开发","name":"前端开发","count":1}]},{"id":"yann-lecun","name":"Yann LeCun","email":"","contentCount":1,"topTags":[{"id":"jepa","name":"JEPA","count":1},{"id":"世界模型","name":"世界模型","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"yoko-li","name":"Yoko Li","email":"","contentCount":1,"topTags":[{"id":"反馈机制","name":"反馈机制","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"z400racer37","name":"z400racer37","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"zach-winn","name":"Zach Winn","email":"","contentCount":1,"topTags":[{"id":"储能","name":"储能","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"材料科学","name":"材料科学","count":1}]},{"id":"乔治-帕克","name":"乔治·帕克","email":"","contentCount":1,"topTags":[{"id":"科技发展","name":"科技发展","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"风险投资","name":"风险投资","count":1}]},{"id":"倪忆","name":"倪忆","email":"","contentCount":1,"topTags":[{"id":"人才培养","name":"人才培养","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"凯瑞恩-詹姆斯-caryn-james","name":"凯瑞恩·詹姆斯（Caryn James）","email":"","contentCount":1,"topTags":[{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"吕超","name":"吕超","email":"","contentCount":1,"topTags":[{"id":"ci-cd","name":"CI/CD","count":1},{"id":"可观测性","name":"可观测性","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"埃马纽埃尔-马克龙","name":"埃马纽埃尔·马克龙","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"医疗技术","name":"医疗技术","count":1}]},{"id":"大内鲁社长","name":"大内鲁社长","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"债务","name":"债务","count":1},{"id":"房地产","name":"房地产","count":1}]},{"id":"布拉德-史密斯","name":"布拉德·史密斯","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"公益慈善","name":"公益慈善","count":1},{"id":"微软","name":"微软","count":1}]},{"id":"布里特-希尔兹","name":"布里特·希尔兹","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"弗里德里希-洪德","name":"弗里德里希·洪德","email":"","contentCount":1,"topTags":[{"id":"宇宙学","name":"宇宙学","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"相对论","name":"相对论","count":1}]},{"id":"迈克尔-j-巴拉尼","name":"迈克尔·J·巴拉尼","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"迈克尔-桑德尔","name":"迈克尔·桑德尔","email":"","contentCount":1,"topTags":[{"id":"优绩主义","name":"优绩主义","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"政治哲学","name":"政治哲学","count":1}]},{"id":"颜一清","name":"颜一清","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]}],"tags":[{"id":"人工智能","name":"人工智能","count":106},{"id":"ai编程","name":"AI编程","count":69},{"id":"智能体","name":"智能体","count":66},{"id":"数学研究","name":"数学研究","count":43},{"id":"大语言模型","name":"大语言模型","count":29},{"id":"科研生涯","name":"科研生涯","count":23},{"id":"企业管理","name":"企业管理","count":22},{"id":"创业","name":"创业","count":21},{"id":"数学教育","name":"数学教育","count":21},{"id":"职业发展","name":"职业发展","count":21},{"id":"模型评估","name":"模型评估","count":20},{"id":"软件工程","name":"软件工程","count":20},{"id":"写作","name":"写作","count":17},{"id":"开源","name":"开源","count":16},{"id":"开发工作流","name":"开发工作流","count":15},{"id":"产品设计","name":"产品设计","count":14},{"id":"劳动市场","name":"劳动市场","count":13},{"id":"科研自动化","name":"科研自动化","count":13},{"id":"nba","name":"NBA","count":11},{"id":"企业战略","name":"企业战略","count":11},{"id":"算力","name":"算力","count":11},{"id":"软件架构","name":"软件架构","count":11},{"id":"通用人工智能","name":"通用人工智能","count":10},{"id":"ai基础设施","name":"AI基础设施","count":9},{"id":"claude","name":"Claude","count":9},{"id":"claude-code","name":"Claude Code","count":9},{"id":"上下文工程","name":"上下文工程","count":9},{"id":"创造力","name":"创造力","count":9},{"id":"模型训练","name":"模型训练","count":9},{"id":"苹果","name":"苹果","count":9},{"id":"ai安全","name":"AI安全","count":8},{"id":"gpu","name":"GPU","count":8},{"id":"人机协作","name":"人机协作","count":8},{"id":"代码审查","name":"代码审查","count":8},{"id":"创作","name":"创作","count":8},{"id":"多智能体","name":"多智能体","count":8},{"id":"强化学习","name":"强化学习","count":8},{"id":"机器学习","name":"机器学习","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"知识管理","name":"知识管理","count":8},{"id":"社交媒体","name":"社交媒体","count":8},{"id":"科学发现","name":"科学发现","count":8},{"id":"能源","name":"能源","count":8},{"id":"自我管理","name":"自我管理","count":8},{"id":"计算机史","name":"计算机史","count":8},{"id":"软件可靠性","name":"软件可靠性","count":8},{"id":"工具调用","name":"工具调用","count":7},{"id":"心理健康","name":"心理健康","count":7},{"id":"生产率","name":"生产率","count":7},{"id":"科技政策","name":"科技政策","count":7},{"id":"篮球","name":"篮球","count":7},{"id":"编程语言","name":"编程语言","count":7},{"id":"计算复杂性","name":"计算复杂性","count":7},{"id":"认知科学","name":"认知科学","count":7},{"id":"ai写作","name":"AI写作","count":6},{"id":"产品开发","name":"产品开发","count":6},{"id":"代数几何","name":"代数几何","count":6},{"id":"数学史","name":"数学史","count":6},{"id":"研究方法","name":"研究方法","count":6},{"id":"科学哲学","name":"科学哲学","count":6},{"id":"科学计算","name":"科学计算","count":6},{"id":"科研评价","name":"科研评价","count":6},{"id":"网络安全","name":"网络安全","count":6},{"id":"风险投资","name":"风险投资","count":6},{"id":"deepseek","name":"DeepSeek","count":5},{"id":"devin","name":"Devin","count":5},{"id":"云计算","name":"云计算","count":5},{"id":"产品管理","name":"产品管理","count":5},{"id":"内容创作","name":"内容创作","count":5},{"id":"分布式系统","name":"分布式系统","count":5},{"id":"叙事技巧","name":"叙事技巧","count":5},{"id":"平台经济","name":"平台经济","count":5},{"id":"开发基础设施","name":"开发基础设施","count":5},{"id":"开放模型","name":"开放模型","count":5},{"id":"形式化数学","name":"形式化数学","count":5},{"id":"推理优化","name":"推理优化","count":5},{"id":"政府改革","name":"政府改革","count":5},{"id":"教育","name":"教育","count":5},{"id":"数学哲学","name":"数学哲学","count":5},{"id":"数学证明","name":"数学证明","count":5},{"id":"数据中心","name":"数据中心","count":5},{"id":"版本控制","name":"版本控制","count":5},{"id":"生成式ai","name":"生成式AI","count":5},{"id":"科技伦理","name":"科技伦理","count":5},{"id":"航天工程","name":"航天工程","count":5},{"id":"计算规模","name":"计算规模","count":5},{"id":"软件开发","name":"软件开发","count":5},{"id":"量子计算","name":"量子计算","count":5},{"id":"银行业","name":"银行业","count":5},{"id":"ai治理","name":"AI治理","count":4},{"id":"chatgpt","name":"ChatGPT","count":4},{"id":"codex","name":"Codex","count":4},{"id":"cursor","name":"Cursor","count":4},{"id":"git","name":"Git","count":4},{"id":"lean","name":"Lean","count":4},{"id":"linux","name":"Linux","count":4},{"id":"mcp","name":"MCP","count":4},{"id":"世界模型","name":"世界模型","count":4},{"id":"人生经历","name":"人生经历","count":4},{"id":"价值投资","name":"价值投资","count":4},{"id":"企业治理","name":"企业治理","count":4},{"id":"企业软件","name":"企业软件","count":4},{"id":"体育心理","name":"体育心理","count":4},{"id":"体育训练","name":"体育训练","count":4},{"id":"供应链","name":"供应链","count":4},{"id":"信息检索","name":"信息检索","count":4},{"id":"偏微分方程","name":"偏微分方程","count":4},{"id":"国际关系","name":"国际关系","count":4},{"id":"定理证明","name":"定理证明","count":4},{"id":"成本优化","name":"成本优化","count":4},{"id":"提示工程","name":"提示工程","count":4},{"id":"文化","name":"文化","count":4},{"id":"机器人","name":"机器人","count":4},{"id":"样本效率","name":"样本效率","count":4},{"id":"模型架构","name":"模型架构","count":4},{"id":"流体力学","name":"流体力学","count":4},{"id":"知识交流","name":"知识交流","count":4},{"id":"科学传播","name":"科学传播","count":4},{"id":"组织信任","name":"组织信任","count":4},{"id":"编程教学","name":"编程教学","count":4},{"id":"芯片","name":"芯片","count":4},{"id":"软件维护","name":"软件维护","count":4},{"id":"量化投资","name":"量化投资","count":4},{"id":"隐私保护","name":"隐私保护","count":4},{"id":"领导力","name":"领导力","count":4},{"id":"kakeya猜想","name":"Kakeya猜想","count":3},{"id":"p与np","name":"P与NP","count":3},{"id":"windsurf","name":"Windsurf","count":3},{"id":"产品定价","name":"产品定价","count":3},{"id":"人际关系","name":"人际关系","count":3},{"id":"人际沟通","name":"人际沟通","count":3},{"id":"代码编辑器","name":"代码编辑器","count":3},{"id":"企业文化","name":"企业文化","count":3},{"id":"保险","name":"保险","count":3},{"id":"关税政策","name":"关税政策","count":3},{"id":"出版业","name":"出版业","count":3},{"id":"博士培养","name":"博士培养","count":3},{"id":"原型设计","name":"原型设计","count":3},{"id":"反馈机制","name":"反馈机制","count":3},{"id":"可复现研究","name":"可复现研究","count":3},{"id":"可观测性","name":"可观测性","count":3},{"id":"哲学","name":"哲学","count":3},{"id":"商业模式","name":"商业模式","count":3},{"id":"团队管理","name":"团队管理","count":3},{"id":"复杂度","name":"复杂度","count":3},{"id":"好奇心","name":"好奇心","count":3},{"id":"并行计算","name":"并行计算","count":3},{"id":"开发工具","name":"开发工具","count":3},{"id":"微软","name":"微软","count":3},{"id":"情绪调节","name":"情绪调节","count":3},{"id":"技能学习","name":"技能学习","count":3},{"id":"持续学习","name":"持续学习","count":3},{"id":"搜索系统","name":"搜索系统","count":3},{"id":"政治哲学","name":"政治哲学","count":3},{"id":"数据分析","name":"数据分析","count":3},{"id":"数论","name":"数论","count":3},{"id":"文学编程","name":"文学编程","count":3},{"id":"权限管理","name":"权限管理","count":3},{"id":"模型蒸馏","name":"模型蒸馏","count":3},{"id":"注意力","name":"注意力","count":3},{"id":"浏览器","name":"浏览器","count":3},{"id":"消费者产品","name":"消费者产品","count":3},{"id":"独立媒体","name":"独立媒体","count":3},{"id":"用户体验","name":"用户体验","count":3},{"id":"用户研究","name":"用户研究","count":3},{"id":"社区治理","name":"社区治理","count":3},{"id":"神经科学","name":"神经科学","count":3},{"id":"科学史","name":"科学史","count":3},{"id":"科研伦理","name":"科研伦理","count":3},{"id":"算术几何","name":"算术几何","count":3},{"id":"算法","name":"算法","count":3},{"id":"篮球战术","name":"篮球战术","count":3},{"id":"经济增长","name":"经济增长","count":3},{"id":"网络讨论","name":"网络讨论","count":3},{"id":"自动化","name":"自动化","count":3},{"id":"药物研发","name":"药物研发","count":3},{"id":"计算机体系结构","name":"计算机体系结构","count":3},{"id":"计算理论","name":"计算理论","count":3},{"id":"调和分析","name":"调和分析","count":3},{"id":"谷歌","name":"谷歌","count":3},{"id":"财政政策","name":"财政政策","count":3},{"id":"资本市场","name":"资本市场","count":3},{"id":"足球","name":"足球","count":3},{"id":"身心健康","name":"身心健康","count":3},{"id":"软件测试","name":"软件测试","count":3},{"id":"量子力学","name":"量子力学","count":3},{"id":"雅可比猜想","name":"雅可比猜想","count":3},{"id":"预训练","name":"预训练","count":3},{"id":"高等教育","name":"高等教育","count":3},{"id":"ai芯片","name":"AI芯片","count":2},{"id":"ai辅助学习","name":"AI辅助学习","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"notion","name":"Notion","count":2},{"id":"org-mode","name":"Org Mode","count":2},{"id":"python","name":"Python","count":2},{"id":"saas","name":"SaaS","count":2},{"id":"vim","name":"Vim","count":2},{"id":"web开发","name":"Web开发","count":2},{"id":"个人理财","name":"个人理财","count":2},{"id":"乌克兰战争","name":"乌克兰战争","count":2},{"id":"代码验证","name":"代码验证","count":2},{"id":"代谢健康","name":"代谢健康","count":2},{"id":"仿真","name":"仿真","count":2},{"id":"企业并购","name":"企业并购","count":2},{"id":"信号处理","name":"信号处理","count":2},{"id":"债务","name":"债务","count":2},{"id":"公共问责","name":"公共问责","count":2},{"id":"公益慈善","name":"公益慈善","count":2},{"id":"凝聚态物理","name":"凝聚态物理","count":2},{"id":"出口管制","name":"出口管制","count":2},{"id":"创意产业","name":"创意产业","count":2},{"id":"动力系统","name":"动力系统","count":2},{"id":"动物行为","name":"动物行为","count":2},{"id":"动画电影","name":"动画电影","count":2},{"id":"劳动尊严","name":"劳动尊严","count":2},{"id":"劳动权益","name":"劳动权益","count":2},{"id":"医疗技术","name":"医疗技术","count":2},{"id":"压缩感知","name":"压缩感知","count":2},{"id":"古希腊神话","name":"古希腊神话","count":2},{"id":"品牌管理","name":"品牌管理","count":2},{"id":"团队协作","name":"团队协作","count":2},{"id":"增强现实","name":"增强现实","count":2},{"id":"外星生命","name":"外星生命","count":2},{"id":"奖励投机","name":"奖励投机","count":2},{"id":"学习动机","name":"学习动机","count":2},{"id":"学术写作","name":"学术写作","count":2},{"id":"学术诚信","name":"学术诚信","count":2},{"id":"宗教","name":"宗教","count":2},{"id":"容错计算","name":"容错计算","count":2},{"id":"工业设计","name":"工业设计","count":2},{"id":"开发环境","name":"开发环境","count":2},{"id":"开放科学","name":"开放科学","count":2},{"id":"开放网络","name":"开放网络","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"心理学","name":"心理学","count":2},{"id":"思维链","name":"思维链","count":2},{"id":"性能优化","name":"性能优化","count":2},{"id":"技能退化","name":"技能退化","count":2},{"id":"投资","name":"投资","count":2},{"id":"抽象推理","name":"抽象推理","count":2},{"id":"拓扑学","name":"拓扑学","count":2},{"id":"推理模型","name":"推理模型","count":2},{"id":"政治制度","name":"政治制度","count":2},{"id":"效率工具","name":"效率工具","count":2},{"id":"数学基础","name":"数学基础","count":2},{"id":"数据治理","name":"数据治理","count":2},{"id":"数据科学","name":"数据科学","count":2},{"id":"数据管理","name":"数据管理","count":2},{"id":"文艺复兴","name":"文艺复兴","count":2},{"id":"新闻业","name":"新闻业","count":2},{"id":"材料科学","name":"材料科学","count":2},{"id":"概形","name":"概形","count":2},{"id":"概率论","name":"概率论","count":2},{"id":"模型路由","name":"模型路由","count":2},{"id":"民主制度","name":"民主制度","count":2},{"id":"沙箱安全","name":"沙箱安全","count":2},{"id":"法律责任","name":"法律责任","count":2},{"id":"涌现","name":"涌现","count":2},{"id":"渗流理论","name":"渗流理论","count":2},{"id":"球员评价","name":"球员评价","count":2},{"id":"理性决策","name":"理性决策","count":2},{"id":"生命科学","name":"生命科学","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"电动汽车","name":"电动汽车","count":2},{"id":"电影","name":"电影","count":2},{"id":"知识档案","name":"知识档案","count":2},{"id":"视频生成","name":"视频生成","count":2},{"id":"私募股权","name":"私募股权","count":2},{"id":"科学研究","name":"科学研究","count":2},{"id":"科技发展","name":"科技发展","count":2},{"id":"科技史","name":"科技史","count":2},{"id":"科技行业","name":"科技行业","count":2},{"id":"科研资助","name":"科研资助","count":2},{"id":"类型论","name":"类型论","count":2},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":2},{"id":"组合数学","name":"组合数学","count":2},{"id":"统计学","name":"统计学","count":2},{"id":"维基百科","name":"维基百科","count":2},{"id":"莫德尔猜想","name":"莫德尔猜想","count":2},{"id":"行为设计","name":"行为设计","count":2},{"id":"计算不可约性","name":"计算不可约性","count":2},{"id":"计算宇宙","name":"计算宇宙","count":2},{"id":"计算数学","name":"计算数学","count":2},{"id":"设计","name":"设计","count":2},{"id":"资本配置","name":"资本配置","count":2},{"id":"软件设计","name":"软件设计","count":2},{"id":"运动健康","name":"运动健康","count":2},{"id":"运动恢复","name":"运动恢复","count":2},{"id":"远程操控","name":"远程操控","count":2},{"id":"递归自我改进","name":"递归自我改进","count":2},{"id":"金融监管","name":"金融监管","count":2},{"id":"长期记忆","name":"长期记忆","count":2},{"id":"零知识证明","name":"零知识证明","count":2},{"id":"青蒿素","name":"青蒿素","count":2},{"id":"风险管理","name":"风险管理","count":2},{"id":"ada","name":"Ada","count":1},{"id":"ai对齐","name":"AI对齐","count":1},{"id":"ai艺术","name":"AI艺术","count":1},{"id":"alphago","name":"AlphaGo","count":1},{"id":"api设计","name":"API设计","count":1},{"id":"arxiv","name":"arXiv","count":1},{"id":"c","name":"C++","count":1},{"id":"ci-cd","name":"CI/CD","count":1},{"id":"cuda","name":"CUDA","count":1},{"id":"d模","name":"D模","count":1},{"id":"ffmpeg","name":"FFmpeg","count":1},{"id":"gemini","name":"Gemini","count":1},{"id":"glm","name":"GLM","count":1},{"id":"gpu内核","name":"GPU内核","count":1},{"id":"grok","name":"Grok","count":1},{"id":"haskell","name":"Haskell","count":1},{"id":"ios","name":"iOS","count":1},{"id":"julia","name":"Julia","count":1},{"id":"kimi","name":"Kimi","count":1},{"id":"kv缓存","name":"KV缓存","count":1},{"id":"latex","name":"LaTeX","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"ocr","name":"OCR","count":1},{"id":"openclaw","name":"OpenClaw","count":1},{"id":"paxos","name":"Paxos","count":1},{"id":"postgresql","name":"PostgreSQL","count":1},{"id":"raft","name":"Raft","count":1},{"id":"usenet","name":"Usenet","count":1},{"id":"vlc","name":"VLC","count":1},{"id":"webassembly","name":"WebAssembly","count":1},{"id":"wolfram-language","name":"Wolfram Language","count":1},{"id":"x射线成像","name":"X射线成像","count":1},{"id":"zed","name":"Zed","count":1},{"id":"个人品牌","name":"个人品牌","count":1},{"id":"个人经验","name":"个人经验","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"习惯养成","name":"习惯养成","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"互联网史","name":"互联网史","count":1},{"id":"交易","name":"交易","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"交通安全","name":"交通安全","count":1},{"id":"产业经济","name":"产业经济","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人性","name":"人性","count":1},{"id":"人才培养","name":"人才培养","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"人类进化","name":"人类进化","count":1},{"id":"付费内容","name":"付费内容","count":1},{"id":"代数k理论","name":"代数K理论","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"代际关系","name":"代际关系","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"企业传承","name":"企业传承","count":1},{"id":"企业数据","name":"企业数据","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优化算法","name":"优化算法","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"传统医学","name":"传统医学","count":1},{"id":"低碳技术","name":"低碳技术","count":1},{"id":"体育","name":"体育","count":1},{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"体育管理","name":"体育管理","count":1},{"id":"作者收入","name":"作者收入","count":1},{"id":"供应链安全","name":"供应链安全","count":1},{"id":"信息操纵","name":"信息操纵","count":1},{"id":"信息熵","name":"信息熵","count":1},{"id":"信息物理","name":"信息物理","count":1},{"id":"信息生态","name":"信息生态","count":1},{"id":"信贷","name":"信贷","count":1},{"id":"储能","name":"储能","count":1},{"id":"儿童保护","name":"儿童保护","count":1},{"id":"公众认知","name":"公众认知","count":1},{"id":"公共治理","name":"公共治理","count":1},{"id":"公共知识","name":"公共知识","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"内存优化","name":"内存优化","count":1},{"id":"内存管理","name":"内存管理","count":1},{"id":"内容传播","name":"内容传播","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"军事史","name":"军事史","count":1},{"id":"军事技术","name":"军事技术","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"凝聚数学","name":"凝聚数学","count":1},{"id":"几何","name":"几何","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"创业融资","name":"创业融资","count":1},{"id":"创作方法","name":"创作方法","count":1},{"id":"创新","name":"创新","count":1},{"id":"利率","name":"利率","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"前端开发","name":"前端开发","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"加密资产","name":"加密资产","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"加速器","name":"加速器","count":1},{"id":"动物福利","name":"动物福利","count":1},{"id":"劳动观念","name":"劳动观念","count":1},{"id":"协作开发","name":"协作开发","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非历史","name":"南非历史","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"博物馆","name":"博物馆","count":1},{"id":"卫星通信","name":"卫星通信","count":1},{"id":"印刷术","name":"印刷术","count":1},{"id":"即时通信","name":"即时通信","count":1},{"id":"历史解释","name":"历史解释","count":1},{"id":"古代dna","name":"古代DNA","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"后量子密码","name":"后量子密码","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"国际合作","name":"国际合作","count":1},{"id":"国际贸易","name":"国际贸易","count":1},{"id":"图像生成","name":"图像生成","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复利","name":"复利","count":1},{"id":"外交政策","name":"外交政策","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多媒体","name":"多媒体","count":1},{"id":"多模态","name":"多模态","count":1},{"id":"多项式映射","name":"多项式映射","count":1},{"id":"大学体育","name":"大学体育","count":1},{"id":"大学发展","name":"大学发展","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"媒介","name":"媒介","count":1},{"id":"媒介生态","name":"媒介生态","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"媒体权力","name":"媒体权力","count":1},{"id":"存储系统","name":"存储系统","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习方法","name":"学习方法","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"学术文化","name":"学术文化","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"完美胚空间","name":"完美胚空间","count":1},{"id":"实时系统","name":"实时系统","count":1},{"id":"审美","name":"审美","count":1},{"id":"客户服务","name":"客户服务","count":1},{"id":"家庭关系","name":"家庭关系","count":1},{"id":"密码学","name":"密码学","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小波","name":"小波","count":1},{"id":"尾延迟","name":"尾延迟","count":1},{"id":"干细胞","name":"干细胞","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"幸福","name":"幸福","count":1},{"id":"幽默创作","name":"幽默创作","count":1},{"id":"广义相对论","name":"广义相对论","count":1},{"id":"应激反应","name":"应激反应","count":1},{"id":"应用开发","name":"应用开发","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"开放问题","name":"开放问题","count":1},{"id":"异步智能体","name":"异步智能体","count":1},{"id":"异步编程","name":"异步编程","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"形式化验证","name":"形式化验证","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"意识","name":"意识","count":1},{"id":"感知","name":"感知","count":1},{"id":"房地产","name":"房地产","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"托尔金","name":"托尔金","count":1},{"id":"执法监督","name":"执法监督","count":1},{"id":"执行环境","name":"执行环境","count":1},{"id":"技术债","name":"技术债","count":1},{"id":"投资决策","name":"投资决策","count":1},{"id":"投资回报","name":"投资回报","count":1},{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"指令遵循","name":"指令遵循","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提示注入","name":"提示注入","count":1},{"id":"提示缓存","name":"提示缓存","count":1},{"id":"播客经营","name":"播客经营","count":1},{"id":"操作系统","name":"操作系统","count":1},{"id":"政治历史","name":"政治历史","count":1},{"id":"政治经济","name":"政治经济","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"数字孪生","name":"数字孪生","count":1},{"id":"数字技术","name":"数字技术","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"数学","name":"数学","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学可视化","name":"数学可视化","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学理解","name":"数学理解","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"数据平台","name":"数据平台","count":1},{"id":"数据库","name":"数据库","count":1},{"id":"数据库安全","name":"数据库安全","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"数据自主权","name":"数据自主权","count":1},{"id":"整数乘法","name":"整数乘法","count":1},{"id":"文学","name":"文学","count":1},{"id":"文档处理","name":"文档处理","count":1},{"id":"文档管理","name":"文档管理","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"新闻自由","name":"新闻自由","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"无线网络","name":"无线网络","count":1},{"id":"时间序列","name":"时间序列","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"未来预测","name":"未来预测","count":1},{"id":"本地模型","name":"本地模型","count":1},{"id":"权力","name":"权力","count":1},{"id":"来源引用","name":"来源引用","count":1},{"id":"检索增强生成","name":"检索增强生成","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"模型服务","name":"模型服务","count":1},{"id":"模式识别","name":"模式识别","count":1},{"id":"模拟宇宙","name":"模拟宇宙","count":1},{"id":"殖民历史","name":"殖民历史","count":1},{"id":"气候变化","name":"气候变化","count":1},{"id":"泛化能力","name":"泛化能力","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"流量管理","name":"流量管理","count":1},{"id":"海岸侵蚀","name":"海岸侵蚀","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"深空通信","name":"深空通信","count":1},{"id":"混凝土","name":"混凝土","count":1},{"id":"清代历史","name":"清代历史","count":1},{"id":"漏洞研究","name":"漏洞研究","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"激励机制","name":"激励机制","count":1},{"id":"火星探索","name":"火星探索","count":1},{"id":"热力学","name":"热力学","count":1},{"id":"爵士乐","name":"爵士乐","count":1},{"id":"版权","name":"版权","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"独特博弈","name":"独特博弈","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"甜味剂","name":"甜味剂","count":1},{"id":"生成式智能体","name":"生成式智能体","count":1},{"id":"生殖医学","name":"生殖医学","count":1},{"id":"生物信息学","name":"生物信息学","count":1},{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"睡眠科学","name":"睡眠科学","count":1},{"id":"知识产权","name":"知识产权","count":1},{"id":"知识分子","name":"知识分子","count":1},{"id":"知识工作","name":"知识工作","count":1},{"id":"知识社群","name":"知识社群","count":1},{"id":"社交焦虑","name":"社交焦虑","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"社会关系","name":"社会关系","count":1},{"id":"社会压力","name":"社会压力","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社会模拟","name":"社会模拟","count":1},{"id":"社会正义","name":"社会正义","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"社群组织","name":"社群组织","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"科学解释","name":"科学解释","count":1},{"id":"科幻","name":"科幻","count":1},{"id":"科研制度","name":"科研制度","count":1},{"id":"科研基础设施","name":"科研基础设施","count":1},{"id":"科研竞争","name":"科研竞争","count":1},{"id":"科研管理","name":"科研管理","count":1},{"id":"科研组织","name":"科研组织","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"程序正确性","name":"程序正确性","count":1},{"id":"程序验证","name":"程序验证","count":1},{"id":"稳定币","name":"稳定币","count":1},{"id":"空间转录组","name":"空间转录组","count":1},{"id":"算法歧视","name":"算法歧视","count":1},{"id":"类型小说","name":"类型小说","count":1},{"id":"类型系统","name":"类型系统","count":1},{"id":"粒子物理","name":"粒子物理","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"系外行星","name":"系外行星","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"红队测试","name":"红队测试","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"组织管理","name":"组织管理","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1},{"id":"细胞重编程","name":"细胞重编程","count":1},{"id":"经济统计","name":"经济统计","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"结构化日志","name":"结构化日志","count":1},{"id":"编程竞赛","name":"编程竞赛","count":1},{"id":"网络互连","name":"网络互连","count":1},{"id":"网络文化","name":"网络文化","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"网络爬虫","name":"网络爬虫","count":1},{"id":"群体冲突","name":"群体冲突","count":1},{"id":"群论","name":"群论","count":1},{"id":"考古学","name":"考古学","count":1},{"id":"职业培训","name":"职业培训","count":1},{"id":"肠道菌群","name":"肠道菌群","count":1},{"id":"能效","name":"能效","count":1},{"id":"能量模型","name":"能量模型","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"自主性","name":"自主性","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我反思","name":"自我反思","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自然语言","name":"自然语言","count":1},{"id":"自然选择","name":"自然选择","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"航天产业","name":"航天产业","count":1},{"id":"艺术史","name":"艺术史","count":1},{"id":"艺术教育","name":"艺术教育","count":1},{"id":"芯片设计","name":"芯片设计","count":1},{"id":"范畴论","name":"范畴论","count":1},{"id":"莫尔材料","name":"莫尔材料","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"虚无主义","name":"虚无主义","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"行为科学","name":"行为科学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"行为金融","name":"行为金融","count":1},{"id":"表示论","name":"表示论","count":1},{"id":"表达方法","name":"表达方法","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算成本","name":"计算成本","count":1},{"id":"计算机使用智能体","name":"计算机使用智能体","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机硬件","name":"计算机硬件","count":1},{"id":"计算经济","name":"计算经济","count":1},{"id":"订阅经济","name":"订阅经济","count":1},{"id":"认知偏差","name":"认知偏差","count":1},{"id":"认知工具","name":"认知工具","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"设计系统","name":"设计系统","count":1},{"id":"证明助手","name":"证明助手","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"语言学习","name":"语言学习","count":1},{"id":"读者社群","name":"读者社群","count":1},{"id":"诽谤诉讼","name":"诽谤诉讼","count":1},{"id":"谄媚行为","name":"谄媚行为","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"费马大定理","name":"费马大定理","count":1},{"id":"资源稀缺","name":"资源稀缺","count":1},{"id":"资源管理","name":"资源管理","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"跨学科学习","name":"跨学科学习","count":1},{"id":"身份认同","name":"身份认同","count":1},{"id":"软件经济","name":"软件经济","count":1},{"id":"软件质量","name":"软件质量","count":1},{"id":"辛几何","name":"辛几何","count":1},{"id":"进化心理学","name":"进化心理学","count":1},{"id":"递归语言模型","name":"递归语言模型","count":1},{"id":"通缩","name":"通缩","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化","name":"量化","count":1},{"id":"量子模拟","name":"量子模拟","count":1},{"id":"量子证明","name":"量子证明","count":1},{"id":"金融分析","name":"金融分析","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融科技","name":"金融科技","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"随机算法","name":"随机算法","count":1},{"id":"集体创作","name":"集体创作","count":1},{"id":"集体智能","name":"集体智能","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非营利组织","name":"非营利组织","count":1},{"id":"面向对象编程","name":"面向对象编程","count":1},{"id":"音乐创作","name":"音乐创作","count":1},{"id":"项目规划","name":"项目规划","count":1},{"id":"预测","name":"预测","count":1},{"id":"饮食文化","name":"饮食文化","count":1},{"id":"高维几何","name":"高维几何","count":1},{"id":"黑洞","name":"黑洞","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":97},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":228},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":72},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":174}],"children":"$Lf"}]]}]]}]
+f:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+10:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+11:T1bb1f,<p>原文：<a href="https://www.dwarkesh.com/p/reiner-pope">Reiner Pope – The math behind how LLMs are trained and served</a></p>
+<h2>访谈正文</h2>
+<p>与Reiner Pope做了一期非常不同的形式——一场黑板讲座，他一步步讲解前沿LLM是如何被训练和服务的。</p>
+<p>令人震惊的是，仅凭几个方程、公开的API价格和一些粉笔，你就能推断出实验室在做什么。</p>
+<p>这有点技术性，但我鼓励你坚持看下去——真的非常值得。</p>
+<p>世界上很少有人能像Reiner那样理解AI的全栈，从芯片设计到模型架构。能向他学习真是一大乐事。</p>
+<p>我写了一些<a href="https://reiner-flashcards.vercel.app/">闪卡和练习题</a>来帮助自己记住Reiner教的内容。希望对你也有帮助！</p>
+<p><a href="https://reiner.org/">Reiner</a>是<a href="https://matx.com/">MatX</a>的CEO，这是一家新的芯片初创公司（完整披露——我是天使投资人）。他此前在Google工作，从事<a href="https://arxiv.org/abs/2211.05102">软件</a><a href="https://jax-ml.github.io/scaling-book/">效率</a>、编译器和TPU架构方面的工作。</p>
+<p>强烈推荐他合著的<a href="https://jax-ml.github.io/scaling-book/gpus/">扩展手册</a>以供进一步学习。</p>
+<p>在<a href="https://youtu.be/xmkSf5IS-zw">YouTube</a>上观看这一期，这样你就能看到黑板了。</p>
+<h2>文字记录</h2>
+<h3>批大小如何影响词元成本和速度</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>今天，我采访的是<a href="https://reiner.org/">Reiner Pope</a>，他是<a href="https://matx.com/">MatX</a>的CEO，<a href="https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/">这是一家新的芯片初创公司</a>。此前，他在Google从事<a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">TPU</a>架构以及许多其他工作。这与我通常的采访形式非常不同。这将是一场黑板讲座。我们马上就会起身。事实上，我们建造这整个新演播室时就是专门考虑到了这种形式，所以能与你一起为它揭幕真是荣幸。</p>
+<p>我们将讨论<a href="https://huggingface.co/blog/ProCreations/the-mega-article">模型架构</a>、<a href="https://www.sei.cmu.edu/blog/a-hitchhikers-guide-to-ml-training-infrastructure/">ML基础设施</a>以及许多其他内容。我认为这是一个重要话题，因为一旦你理解了<a href="https://www.ibm.com/think/topics/model-training">训练</a>和<a href="https://cloud.google.com/discover/what-is-ai-inference">推理</a>在集群中是如何运作的，很多事情——关于AI为什么是现在这样、AI架构为什么是现在这样、API价格为什么是现在这样，以及从根本上说AI进展为什么是现在这样——就开始变得合理了。你需要理解细节才能达到那一步，而你需要一块黑板来理解细节。Reiner，非常感谢你做这件事。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>非常高兴能在这里。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>完整披露，我是MatX的天使投资人，但这与本期播客无关。Reiner，作为开场，我要问这个问题。我们有Claude、Codex和Cursor这样的公司提供类似Fast Mode的功能，花6倍的价格，它们会以2.5倍的速度向你流式传输<a href="https://blogs.nvidia.com/blog/ai-tokens-explained/">词元</a>。从机制上讲，我很好奇这里发生了什么。为什么你可以付更多钱来获得更快的延迟？</p>
+<p>第二，你能继续加码吗？你能付100倍的钱，然后以某种方式获得快得多的速度吗？第三，你能反过来吗？能不能有类似Claude Code的“Slow Mode”，如果你愿意等上好几分钟，你就能得到更便宜的价格？也许这有助于引出你将在整个讲座中进行的分析。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>好的。稍微直接跳到结论，最大的效应是<a href="https://cloud.google.com/discover/what-is-batch-inference">批</a>大小。我们现在要做的就是精确量化它是什么样子，以及它对延迟和成本的影响。还有另一个效应，你可以称之为<a href="https://pytorch.org/blog/hitchhikers-guide-speculative-decoding/">投机解码</a>或<a href="https://arxiv.org/abs/2404.19737">多词元预测</a>。我们也许可以稍后再回到那个，但我们要先讲的是批大小。</p>
+<p>我想介绍的是分析的两条原则。首先，我们要看一个<a href="https://en.wikipedia.org/wiki/Roofline_model">屋顶线分析</a>，关于我们如何在芯片集群上运行<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29">Transformer</a>模型。我们会拿一个<a href="https://www.nvidia.com/en-us/data-center/gb200-nvl72/">Blackwell NVL72</a>集群，也就是一机架72块<a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU</a>。屋顶线分析意味着我们看内存带宽和计算性能。另一方面，我们只看模型的两个简单因素：操作<a href="https://www.geeksforgeeks.org/deep-learning/the-role-of-weights-and-bias-in-neural-networks/">权重</a>的时间，以及操作上下文即<a href="https://huggingface.co/blog/not-lain/kv-caching">KV缓存</a>的时间。</p>
+<p>让我们开始吧。我们要尝试估计运行某个形状的推理所需的时间。我们在这里并不完美。我们无法精确预测时间，所以我们将改为近似。我们会说时间必须大于或等于某个量。我们要考虑两个不同的方面：做内存读取所需的时间，以及做计算所需的时间。结果会证明，即使是一个简单的模型，这也给了我们非常强的预测能力。</p>
+<p>逐一来看，做计算所需的时间是多少？在计算中我实际上需要做两件事。我需要乘以所有活跃的<a href="https://www.ibm.com/think/topics/model-parameters">参数</a>，然后我需要对<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29">注意力</a>做一些工作。乘以所有活跃参数，我有一个正在运行的特定批大小，我的模型中有一定数量的活跃参数。然后我只需将其除以计算吞吐量，也就是芯片的<a href="https://en.wikipedia.org/wiki/Floating_point_operations_per_second">FLOPs</a>。这是一个硬件方面的问题。</p>
+<p>这涵盖了所有权重矩阵乘法的全部计算时间。这里有一个小提醒。我们忽略了做任何注意力计算的时间，但一般来说，与这个相比它会相当小。所以我们忽略它。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我会时不时打断一下，问一些非常天真的问题，或者澄清一些基本要点。对观众来说，你不是一次只服务一个用户。批指的是你同时服务许多不同的用户，那就是一整批。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我至少可以稍微解释一下批的动机。我们会确切看到为什么批是如此有利的优化。结果会证明，如果你不把许多用户批在一起，你得到的成本和经济性可能比把许多用户批在一起差一千倍。我们将能够相当明确地看到这一点。</p>
+<p>然后是活跃参数的数量。如果我看看，例如一个<a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a>模型，<a href="https://api-docs.deepseek.com/news/news1226">DeepSeek V3</a>模型大约有370亿活跃参数，以及7000亿总参数。我们只关注单个AI词元所活跃的那些。</p>
+<p>我们在建模计算性能。我会一直写等号，但在所有这些情况下，你可以把这个时间看作<em>至少</em>这么多，也许还有一些我们忽略的项。</p>
+<p>在内存方面，我们需要对内存做什么？我们需要读取所有权重，所以读取总参数数量（而不仅仅是活跃参数）需要一些时间。有权重读取时间，此外还有KV缓存读取时间。这实际上取决于批大小。对于批中的每个元素，我们必须读取整个上下文长度的词元，并且每个词元有一个大小，即一个词元的字节数。这是一个模型参数。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>也许先退一步，让我们快速解释一下KV缓存是什么。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>当我做一次<a href="https://towardsdatascience.com/neural-networks-forward-pass-and-backpropagation-be3b75a1cfcc/">前向传播</a>……让我画一下<a href="https://en.wikipedia.org/wiki/Autoregressive_model">自回归推理</a>是如何工作的。这是在解码期间。如果我有一堆文本词元……我画的是一个<a href="https://en.wikipedia.org/wiki/Tensor_%28machine_learning%29">张量</a>，因为最终词元在某个<a href="https://en.wikipedia.org/wiki/Embedding_%28machine_learning%29">嵌入</a>维度上被表示为张量。在这个方向上，我有序列长度。</p>
+<p>运行解码的工作是，我必须让每个词元经过一堆不同层中的一大堆矩阵乘法。一般来说，我将不得不对所有这堆词元做这项工作。但解码的一步只是在这里产生这一个额外的词元。</p>
+<p>我在那里要做的是运行一次完整的前向传播，乘以整个模型中的所有权重矩阵。但然后我有这个注意力机制，这个词元在看着所有过去的词元，它具体在看什么？它在看模型对词元产生的某种内部表示，我们称之为KV缓存。这个单个词元关注所有历史词元的过程就是注意力。它主要由内存读取主导，而不是矩阵乘法。</p>
+<p>所以我们这里展示了正在获取的内存量，然后这当然只是除以内存带宽，也就是每秒的内存字节数。事实上，这里的这些方程已经足够让我们现在画出一些拟合线了。我们想研究的是对批大小的敏感性，然后还有对上下文长度的敏感性，后者我们会单独画。我们说过，你能获得的大效应是在批大小上延迟与成本之间的某种权衡。</p>
+<p>让我们把它们画出来。我觉得我们真正想画的其实只有两张图。我们首先在这里画批大小对时间。当我们看它的形状时，我们有一个和的最大值，然后还有另一项。让我们逐项来看它们如何缩放：计算的时间和内存的时间，以及它们如何呈现。</p>
+<p>让我们先看这个计算时间。它纯粹是批大小的线性函数，没有偏移，所以它是这样一条曲线。这是<em>t</em>计算。在内存这边，我们有一部分在这里，就是某个基础偏移处的这个常数，也就是权重获取。最后，我们这里有这一项，也就是KV获取，它相当线性地随批大小变化，所以看起来像那样。这个加上这个，再与这个取最大值……我们至少先画出和。这两个内存时间合在一起，最终看起来是这条弯曲的斜线，像这样。然后总体的最大值是——我这里画粗一点——这两条曲线的最大值。</p>
+<p>这意味着什么？这是一张延迟图。如果我增大批大小，起初我对批大小的依赖并不很强，所以这里有一个延迟的下界。这已经部分回答了问题。对于给定的硬件配置——我们可以讨论改变硬件配置——延迟有一个下界。原因很简单：我需要把全部总参数从内存读入芯片，而这需要一定的时间。如果我用满我所有的内存带宽，我就没法比这做得更好了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>看起来你画计算时间的斜率以及KV如何增长的方式——还有KV对内存时间有什么影响——</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>如果这个在上面或下面会怎样？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对，那一定是这样吗？如果这总是成立，那么随着批大小增长，计算总是压过KV，这暗示如果你有足够大的批大小，也许内存就永远不是问题了。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这对<a href="https://www.ibm.com/think/topics/context-window">上下文长度</a>非常敏感，所以我觉得我们应该回过头来探讨这个。当你改变上下文长度时，KV获取时间会不断上升，这会导致从计算受限转变为内存受限。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>斜率恰好等于计算时间的斜率，这有什么特别重要的意义吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>每当我们有平衡点时，它说明你把它做得恰到好处。对于斜率匹配的那个特定上下文长度，它说明我同等程度地受内存限制和受计算限制，这是一个非常理想的位置。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这是一个非常简单的代数问题，但假设最优是100K上下文长度，而你到了200K上下文长度。你的<a href="https://www.glennklockwood.com/garden/MFU">MFU</a>会降到50%吗？稍微偏离最优上下文长度范围，也就是那个“金发姑娘”区间，会对MFU产生巨大的影响吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。按这里的建模，那是真的。这里有一个关键点，我把内存获取建模为随上下文长度线性变化。这取决于模型架构。对于所有采用<a href="https://medium.com/@aadishagrawal/the-evolution-of-attention-mechanisms-scaling-transformers-smartly-73cb96f991cf">稠密注意力</a>的模型架构来说这是成立的。稀疏注意力的扩展性实际上要好得多。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>明白了。稀疏注意力是大家在实践中都用的吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我对稀疏注意力相当兴奋。很难知道各个实验室在用的是什么。DeepSeek已经<a href="https://arxiv.org/abs/2512.02556">发表了一种稀疏注意力机制</a>。我就顺便提一句，DeepSeek发表的一些关于稀疏注意力的论文最终在这一项里放了一个平方根。</p>
+<p>到目前为止，我们看的是延迟。很难从这上面读出成本。如果我思考成本意味着什么……要运行这次推理，我会把GPU用上一定秒数，比如一毫秒或20毫秒。我必须为那段时间支付租用费用。所以是每GPU每小时2美元之类的。</p>
+<p>那就是这次推理的成本，但我在那次推理期间处理了多少词元？那就是批大小。我们真正想画的是成本对批大小，也就是<em>t</em>除以<em>B</em>对批大小。这是每个词元的成本。我们必须想象把这三条曲线中的每一条都除以<em>B</em>，也就是乘以这个倒数。我们最终得到的是……计算曲线原本是线性的。我们除以<em>B</em>，这就使它在这里变成一个常数。这是<em>t</em>计算。KV获取原本是线性的，现在它也变成一个常数。然后权重获取原本是常数，现在我们除以了<em>B</em>，所以它变成这条双曲线。</p>
+<p>同样，我们要计算和的最大值。这两项的和把双曲线向上移。KV获取与权重获取的和给了我们一条更高的双曲线，像这样。然后我们要与这里的计算取最大值。我们最终得到的就是我们关心的整体形状。</p>
+<p>同样，我们看到一些极限行为。成本在批大小为1时起初非常高。它几乎趋于无穷，因为我们有那么多权重获取没有被大批大小摊销。但随着我们增大批大小，权重获取被摊销到那么多不同的批元素上，它们的成本变得非常小，最终计算时间开始主导成本。所以成本有一个极限下界，就是这里的这条线。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以Claude Code Slow或Codex Slow之类的就只会落在这条线上。它帮不上什么忙，因为你没法把KV值摊销到更大的批上。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它们对每个批都是独特的。计算对每个批也是独特的。那么，在把其他一切都摊销掉之后，你每个批最少能做的工作是什么？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这个你不再受内存带宽限制的点，实际上你需要多大的批？前沿模型实际上的批有多大？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>你可以直接解出来。它甚至对模型架构都不是特别敏感。我们这就来做。</p>
+<p>我们说的是内存时间等于计算时间的时候。那就是这个问题。因为我们关注的是批大小是多少——而且真正的问题是权重什么时候被乘法摊销——我要专注于比较权重获取时间与权重乘法时间。为了简化分析以便得出一个干净的答案，我会忽略KV获取项。我们要把这个部分与这两个时间等同起来。</p>
+<p>把它写出来，我们得到<em>N</em>，总参数数量，除以内存带宽，等于批大小乘以活跃参数数量，除以计算性能。看这里，上面的一切都是模型参数。下面的一切都是硬件参数。结果发现把它们重新排列一下很好，这样我们把硬件参数放在一边。</p>
+<p>这等价于FLOPs除以内存带宽等于批大小乘以活跃参数数量，再除以总参数数量。这个硬件参数最终是一个无量纲常数。如果你从FLOPs的角度看……它的量纲是什么？这是每秒乘法次数。这是每秒字节数。所以这并不完全是无量纲的。但你要做的是，你说，每秒有多少次<a href="https://towardsdatascience.com/16-8-and-4-bit-floating-point-formats-how-does-it-work-d157a31ef2ef/">FP4</a>乘法，再乘以每个FP4是半个字节这个事实。我实际上可以让它最终变成无量纲的。在大多数GPU上，这最终大约在300左右。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>随着我们从一代模型到下一代模型，FLOPs不断增加，这个比值随时间变化了吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这是一个硬件参数。硬件改变了多少？从<a href="https://www.nvidia.com/en-us/data-center/a100/">A100</a>到<a href="https://www.nvidia.com/en-us/data-center/h100/">H100</a>再到<a href="https://www.exxactcorp.com/blog/hpc/comparing-nvidia-tensor-core-gpus">B100</a>，FLOPs大幅增加，内存带宽也大幅增加，而它保持得相当稳定。</p>
+<p>我们也可以把这个表达出来。这是一个稀疏性参数。我甚至可能换一种稍微不同的说法。让我们把批大小整体解出来。把这个移回另一边，我们最终得到批大小需要大于大约300乘以稀疏度。例如，在DeepSeek中我激活256个专家中的32个，所以对DeepSeek来说这会是8。</p>
+<p>这实际上给了你一个与实践惊人地准确的大致范围。一般来说，人们会稍微比这大一点。他们并不真的想正好处在平衡点上，因为现实世界的效率并不像roofline分析说的那么好。但拿这个数，也许翻倍或三倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，所以是每批两到三千个词元。但如果你把KV缓存也算进去，那含义就是最优批大小……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>应该变得更大。我们解出的是计算时间等于内存时间时的等价关系。如果我加入一些消耗更多内存带宽的东西，那么我能用于权重加载的就少了。我需要把内存带宽增大更多，因此批大小也要更大。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这看起来小得不可思议。这还不到一个序列，对吧？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>记住，我说的是我要再生成一个词元的那些词元的数量。实际上是2,000个不同的序列。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>明白了。我们说的只是对这些序列做一次前向传播。你把批次理解为序列的数量。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果你有一个前沿模型，而且你实际上在做推理，那它肯定得有超过2,000个并发用户吧。会不会因为需要把整个批次填满而带来额外的延迟？或者，如果你有合理数量的用户，那么要花100毫秒才能填满接下来的2,000个槽位，这种情况是不是不太可能发生？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>思考这个问题的方式是：作为一个模型，这趟列车什么时候发车？假设我选定了要运行的批次大小。顺便说一句，这个交点就是这里的同一个交点。我选定了这个批次大小，并且我知道它需要花比如20毫秒，这是它最终常常落到的常见位置。</p>
+<p>这是GPU上正在运行的内容的时间线。无论如何，它每20毫秒就会启动一个新批次。你可以把这看作列车的时刻表。每20毫秒发一趟新车。任何准备好的乘客都上车。如果车满了，他们就等下一趟。如果车没满，车照样会开走。</p>
+<p>就这对排队延迟意味着什么而言，最坏的情况是一个请求刚好在列车发车之后到达。它得等下一趟车，所以这最多是20毫秒，然后它还得等那趟车跑完。所以最坏情况下的延迟是40毫秒。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这20毫秒是怎么得来的？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这是个经验法则，但它的来源还没有被完全解释清楚。到目前为止，我们关注的是内存带宽和计算时间。当我们看内存时，另一个考虑因素是我们想用上我们拥有的全部内存容量。一般来说，我们会用上全部那些内存容量来存储权重或KV。在做一次前向传播的时间里，我们想把全部内存容量都读进芯片。那就是容量除以带宽。在许多不同代的<a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">HBM</a>上，这往往是20毫秒。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>单位说得通。你会有一个字节除以每秒字节数。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>例如，在<a href="https://www.nvidia.com/en-us/data-center/technologies/rubin/">Rubin</a>这一代上，大概是288吉字节除以每秒20太字节。这算出来大约是15毫秒。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>让我确认一下我理解这说的是什么。我理解这个单位分析。它说的是我们可以在这段时间内清空并替换HBM。所以我们不希望处于这样一种情况：HBM不够大，以至于我们实际上无法把想写的一切都写进去，或者无法把一切从中取出。或者我们不希望处于这样一种情况：我们来回写入的能力太小，相比……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>大致有两种情形。我们为什么不选一个比15毫秒更大的延迟呢？如果我想想那意味着什么，那意味着我实际上有时间把HBM读两遍。顺便说一句，大多数HBM访问是读，不是写。几乎全是读，因为权重矩阵是只读的，而且几乎所有KV缓存访问都是读。在大约30毫秒内，我可以把全部HBM读两遍，但那有什么意义呢？我不想把权重矩阵读两遍。我不想把KV读两遍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>非常说得通。有几个简短的问题。如果最优批次大小大约是2,000，那它完全取决于稀疏性，而不取决于模型大小或其他任何东西。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>稀疏性体现在模型大小上，但除此之外，它只取决于稀疏性，而不取决于规模。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这是个非常有趣的结果。一个问题是，你会从推理的批处理中获得这些规模经济，这会在多大程度上推动集中化？但看起来这没那么重要。同时有2,000个用户算多吗？看起来不算多。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们可以对此做一点分析。你可以从用户数量的角度来想，但更有成效的思考方式是从每秒词元数的角度来想。这个批次大小对系统的每秒词元数意味着什么？</p>
+<p>每秒词元数将等于批次大小。我们运行一批词元，并且我们每个时间间隔做一次，这个间隔等于15毫秒或20毫秒这个数字。这最终是批次大小乘以大约60，所以是64 x <em>B</em>。这最终大约是2,000 x 64，也就是每秒128,000个词元。这是更容易消化的单位。</p>
+<p>并发用户很难推理，但一个系统的全球流量是多少？当你看到一些公告时，有时API提供商会吹嘘他们有多少流量。我记得去年Gemini一些公告中的数字是全球每秒数亿个词元。这是那个的千分之一。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>Gemini很大。Gemini的千分之一也很多。要在规模上真正有竞争力，你至少得能服务Gemini的千分之一。这很有意思。</p>
+<p>稀疏性越高，你需要的计算就越少。根据这个分析，随着批次大小变大，计算确实最终会成为瓶颈。那么问题就是，你能把稀疏性推到多远？随着稀疏比例增加，随着你相对于总参数拥有更少的活跃参数，模型性能会下降多少？它下降的速度是否快于你通过提高稀疏因子所节省的计算？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>你指的是模型的质量，而不是模型的速度。不幸的是，我们无法分析性地回答这个问题。那是一个关于模型质量的实证问题。我最多只能调出一篇论文，从实证上回答它。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我们现在要调出那篇论文吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这篇论文是“<a href="https://arxiv.org/abs/2202.01169">Unified Scaling Laws for Routed Language Models</a>”。到这个阶段它已经算是有点老的论文了，但他们研究的一件事是，如果我持续提高稀疏性，对模型质量的影响是什么？这个答案对<a href="https://huggingface.co/blog/moe">专家混合</a>的实际选择非常敏感。专家混合已经存在很长时间了，也许早在2017年就有了，但技术已经变化了很多。DeepSeek的专家混合在其工作方式上是一个巨大的变化。还有更早的论文，比如“<a href="https://arxiv.org/abs/2006.16668">GShard</a>”和“<a href="https://arxiv.org/abs/2101.03961">Switch Transformer</a>”。实际的实证结果将取决于所有这些。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!rYuq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa50660bc-66f9-4b8f-a9ac-30976e26f8e8_2048x1754.png" alt=""></p>
+<p>在这里展示的其中一种较老的技术中，你可以看到，如果我把活跃参数的数量保持在某个固定规模，然后增加稀疏度——他们称之为专家数量——质量会持续提升。如果你想象从1.3B稠密模型画一条水平线横穿过去，你会发现，在这种情况下，64专家的370百万激活参数模型与稠密13亿模型一样好。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以从某种意义上说，这实际上并不是惊人的回报，你需要把总参数增加一百倍，才能获得相当于10倍活跃参数的等效效果。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上还不止。参数数量是巨大增加，而效率只是适度提升。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以在这种情况下，实际上是4倍？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>64倍换4倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以，虽然如果你提高稀疏性，你确实能获得节省计算时间的好处，乍看起来这似乎是值得做的权衡。但如果你把它降低2倍，然后每次把稀疏性翻倍时这个就上升8倍……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这到底是好还是坏呢？即使从内存的角度看……记住，你是在把这部分内存读取翻倍，而这部分是被批次摊销的。所以只要继续运行更大的批次大小就行。从我们这里所做的分析的角度看，这是纯粹的收益。基本上一直这么做，直到你用尽可用用户为止。</p>
+<p>这里有一种等价关系：如果我有很多用户，我就可以转向稀疏得多的模型。从这个角度看，这是个合理的权衡。这里出现的另一个权衡是，它也会消耗内存容量。我们这里只推理了内存带宽，但它也会消耗内存容量。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我明白了。让我确认一下我理解了。你是说我们想花更少的时间计算，因此我们做更多稀疏化。为了让这行得通，我们需要更大的批次大小。这意味着我们需要更多内存容量来支持更多稀疏性。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>也许这里是个好时机，来谈谈专家混合层通常是如何布置在一机架GPU上的。</p>
+<h3>MoE模型如何布置在GPU机架上</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。说得通。我们刚才讲到哪了？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>稀疏专家混合。也许讲讲我们如何把它布置在GPU上。</p>
+<p>我们先放大看专家混合层，画出它是什么样子。通常，我们会有一个某种路由器层，它负责决定把词元路由到哪里。词元从这里进来，经过一个路由器层，然后我们有一堆不同的专家。我再多画几个，好排成一排。</p>
+<p>路由器会决定它要路由到哪些专家，而这只会是其中很小一部分，也许是32个里选1个。也许它会决定路由到这个，也许这个，也许这个。每个专家本身就是一个普通的<a href="https://en.wikipedia.org/wiki/Multilayer_perceptron">MLP</a>。它有一个上投影，然后中间有一个非线性，接着是一个下投影。</p>
+<p>然后最后，我们做逆操作。之前我们在这里把东西广播出去，现在我们要把它们收回来并求和。像这样把它们收回来。然后最后，我们有残差连接。词元也会从这里传过去，并被加到MoE层的结果上。这就是一个普通的MoE层。</p>
+<p>我想讲清楚的是，这如何映射到一个GPU机架上，以及这对通信意味着什么，因为我认为这会开始显示出我们能稀疏到什么程度的一些限制。这里的标准做法，也是最好的解决方案，是使用<a href="https://nvidia.github.io/TensorRT-LLM/advanced/expert-parallelism.html">专家并行</a>。这意味着不同的专家放在不同的GPU上。如果我们拿像DeepSeek模型这样的东西来说，它们有256个专家。假设我们想在一个<a href="https://en.wikipedia.org/wiki/Blackwell_%28microarchitecture%29">Blackwell</a>机架上运行它。那里有72个GPU。</p>
+<p>我们有一个整除性问题。这不是2的幂。我们就简化一下，说我们只用其中64个。忽略另外8个就行。这不是什么大问题。所以我们每个GPU有4个专家。非常简单。为了画图方便，实际上我们就说每个GPU有2个专家。我们最终就把这些GPU边界放上去。每一对专家都在自己的GPU上。</p>
+<p>然后我们可以看看通信成本。我们有一些词元集中存储在这里。它们被路由到所有这些专家，这里要付出一些通信成本。输出端也要付出同样的通信成本。我们希望这不会成为通信受限的瓶颈。</p>
+<p>那么这里的流量模式是什么？这里的流量模式是，任何GPU都会与任何其他GPU通信，取决于模型做出的决定。这是一种<a href="https://www.dell.com/en-us/blog/understanding-llm-gpus-clusters-fabrics-traffic-for-networkers/">全对全流量模式</a>。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>你说任何GPU，在现在时态下，路由器不止一个GPU？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>我画的是一个路由器。实际上，你会有很多份路由器的副本，事实上，你会有和GPU一样多的路由器。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>和进来的流量一样多。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>对。这些是64个GPU，这些也是64个GPU。实际上它们是同一批GPU，我们只是把它们画成分开的，因为它们服务于不同的目的。所以在这个点上，任何GPU都可以发送到任何其他GPU。</p>
+<p>这种全对全的通信模式出现了，而Blackwell机架的配置方式，恰好完美契合MoE实际想要做的通信模式。然而，如果你觉得一个机架可能太慢，我想用两个机架，那么我就面临这个挑战：也许我在这里外面画了某种机架边界，像这样，而我不再拥有两个机架中所有GPU之间的全对全通信。机架到机架的通信最终成为一个巨大的瓶颈。</p>
+<p>这里的根本问题是，一个机架限制了你所能做的专家层的大小。这一直是推动走向越来越大的互连域的部分原因。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>在我们继续之前，也许值得你解释一下机架到底是什么。机架之间和机架内部的带宽差异，以及机架内部与外部通信的全对全与非全对全性质。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这是一个开始变得非常不同的地方，比如Nvidia和Google之间，然后还有其他公司，包括我们。一般来说，机架是一个物理结构。它有几米高，一两米宽，取决于配置，它容纳一定数量的GPU或<a href="https://semiengineering.com/what-is-an-xpu/">XPU</a>，通常大约是64个。</p>
+<p>限制它只能是某个尺寸的因素是供电、重量和冷却能力。由于这些物理约束，它在很多情况下最终就是这个大小。当我部署一个数据中心时，一个数据中心可能有数千个这样的机架。我有一个这样的高机架，里面有一堆GPU，等等。然后我在它旁边放另一个机架。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>你说得好像这很容易似的。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>对。我就把它们放进去。在Nvidia的情况下，通信拓扑……他们实际上把GPU放在机架的外侧，然后把交换机放在机架的内侧。这最终形成的是，这里面有一组交换机。这些是<a href="https://www.nvidia.com/en-us/data-center/nvlink/">NV交换机</a>。然后他们铺设一堆线缆。每一个GPU都有线缆连接到中间的交换机。交换机连接到所有GPU。所有GPU都可以在仅仅两跳内与所有其他GPU通信：到交换机，再到另一个GPU。</p>
+<p>现在，当我想离开机架时，我最终要走一条不同的路径。GPU还有一种慢得多的连接，通常大约慢8倍。我在这里GPU盒子里画的绿色是NVLink。更一般地说，它被称为<a href="https://naddod.medium.com/understanding-scale-up-vs-scale-out-in-ai-infrastructure-584723afb94d">纵向扩展网络</a>。你通常还会有一个<a href="https://naddod.medium.com/understanding-scale-up-vs-scale-out-in-ai-infrastructure-584723afb94d">横向扩展网络</a>，它允许你连接到某个<a href="https://www.lanaotek.com/what-is-a-switch-in-a-data-center.html">数据中心交换机</a>。所有GPU都会有一些连接到某个地方的数据中心交换机。这就是横向扩展，它的带宽通常大约慢8倍。</p>
+<p>如果你想把一个专家混合层铺设在两个机架上，挑战在于这里一半的GPU会想要和这里的GPU通信。平均而言，当我看看这些GPU上的词元想去哪里时，一半的词元想去机架内部。这很好。它们可以使用快速的纵向扩展网络。但一半的词元会想要离开机架去另一个机架，这就没那么好了。它们需要使用慢得多的网络，所以这就成了全对全模式上的瓶颈。</p>
+<p>另一种选择是，为什么我不在这里放一个大交换机，把所有东西都连接到一个更大的交换机上，实际上把两个机架合并在一起？这个方向有很多想法，但一般来说，你之所以有这种交换机层级结构而不是一个大交换机，是为了管理线缆拥塞。你只是需要铺设大量线缆。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>抱歉，你刚才问的问题基本上就是，为什么它不是一个更大的纵向扩展？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>正是。为什么不在纵向扩展中直接放一百万个芯片，或者一千个芯片？</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>是什么变化让Nvidia能够从<a href="https://en.wikipedia.org/wiki/Hopper_%28microarchitecture%29">Hopper</a>的8个，到Blackwell的72个，而现在Rubin将会是……是500多个吗？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>对，500多个。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>是什么让这成为可能？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>从Hopper到Blackwell，主要只是决定从以托盘为形态因素切换到以机架为形态因素。这是一个产品决策。那里没有实质性的技术障碍。</p>
+<p>从64个切换到500个左右，那里有一点<a href="https://www.dwarkesh.com/p/jensen-huang">Jensen</a>数学，但至少有一个真正的4倍增长，这来自于一个复杂和困难得多的机架设计。那实际上是一种新的物理设计，用来铺设更多线缆。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>线缆的复杂性只是弄清楚哪根线缆跳到哪里的成本，或者哪个信号从什么到什么？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>让我们放大看这个，看看线密度。我再画一次这个图，这样我们有一个更干净、更大的版本可以用。</p>
+<p>假设我在中间有一些交换机。最初，我先从每侧只有两个GPU或每侧两托盘GPU开始。假设也许每个托盘想有两根线缆伸出来。我物理上铺设像这样的垂直线缆，延伸到交换机。现在如果我想把机架中的GPU数量翻倍，我需要铺设字面意义上两倍密度的线缆。我也需要铺设这些。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>一个极其天真的问题。但如果你看一个物理数据中心，似乎机架内有很多空间。我不知道。线缆真的很大，而且……</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>机架外面有空间。机架内部……随着它们变得越来越优化，这些机架非常紧凑。从托盘进入机架和机架背板的连接器密度，以及背板本身都有非常高的密度。还有其他物理约束，包括线缆的弯曲半径。你不想把它们折断，等等。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>好吧，所以字面上就是放线缆的物理空间在限制它。我完全不知道。有意思。这似乎令人惊讶。机架这么大，我们却不能只是往里面塞更多线缆。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>机架设计不是我的专长，但当我与人们谈论他们面临什么约束时，这是多种因素的组合。你在优化哪些大的物理因素？空间、机架的重量。它实际上非常重，所以你需要足够的金属来防止它下垂和倒塌。但然后你加更多金属，它就更重。然后是供电和冷却。所有这些都在相互竞争。现代机架正在把所有这些推向非常极端的物理极限。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/GPT-4">GPT-4</a>是什么时候发布的来着？是2022年还是2023年？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>2023年。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。而且当时有传言说它的参数量超过一万亿。看起来直到现在，也就是过去六个月里，才开始有模型发布出来，其参数量显著超过三年前发布的那个模型，而按理说这期间本应发生这种规模上的扩展。</p>
+<p>原因是不是我们一直在等待内存足够大的机架，以便容纳一个五万亿参数的模型，再加上为足够多用户、足够多序列所需的KV缓存？或者如果你在做<a href="https://en.wikipedia.org/wiki/Reinforcement_learning">强化学习</a>，也有类似的考量，即实际要为你试图解决的那一批问题保留KV缓存。</p>
+<p>如果你看Hopper，你有八个Hopper，我记得截至2022年那是640 GB。而Blackwell终于——它是在什么时候部署的……？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>非常近。也许是去年。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>去年。你终于有了10到20 TB量级的scale-up域，这足以容纳一个5T模型加上KV缓存。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在更大的scale-up域中部署是一个巨大的解锁。我在这里画的是Nvidia Blackwell的部署。Google的部署实际上长期以来一直拥有非常大的scale-up域。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这也解释了为什么Gemini看起来领先。看起来Gemini成功进行预训练的时间比其他一些实验室都要长。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我当时不在那里，所以我不确定其中有多少来自成功部署了更高的稀疏率，这有可能。也可能是一大堆实际的建模方面的东西，特别是你如何做专家混合。我们看到DeepSeek的专家混合激活了更多专家，但专家粒度更细。那是一个重大创新。我相信在模型架构以及训练数据方面还有许多其他创新。</p>
+<p>很难把它们一一区分开，但从你能做什么的极限来看，正如我们所见，活跃参数量受计算成本限制，而总参数量受scale-up规模限制。</p>
+<h3>流水线并行如何将模型层分布到多个机架上</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>当你在单个scale-up域内运行时，这是一个专门针对前向或后向的考量，还是专门针对<a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/">预填充</a>与<a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/">解码</a>的考量？还是说无论你手头是什么类型的工作负载——无论你是在做预训练运行、强化学习生成，还是面向用户的推理——都最好始终待在scale-up域内？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>非常有意思。要回答这个问题，我们需要谈谈通信模式。我们已经谈过专家混合的通信模式。那就是这种all-to-all。All-to-all非常强烈地偏好全连接，也就是我们刚刚在这里展示的，并且它偏好待在单个机架内。</p>
+<p>除了我们刚刚展示的专家并行之外，还有其他种类的并行。文献中有<a href="https://huggingface.co/docs/text-generation-inference/en/conceptual/tensor_parallelism">张量并行</a>。随着专家变得越来越小这一趋势，它的相关性已经大大降低，所以我们可以忽略它。但我们可用的另外两样东西是<a href="https://en.wikipedia.org/wiki/Data_parallelism">数据并行</a>和<a href="https://docs.pytorch.org/docs/stable/distributed.pipelining.html">流水线并行</a>。它们可以更适合使用多个机架。</p>
+<p>让我们专门聚焦于流水线并行。这是MoE的一层。在上面我还会有一百多层。此时我可以决定，比如说，切换到一个不同的机架，换机架。那么这会成为通信瓶颈吗？我们实际上可以解出它在什么时候会成为通信瓶颈。在我们用代数方法做这件事之前，让我们先把它可视化出来，勾勒一下路径。我们会有另一个MoE层，这里再来一个MoE层，以此类推。</p>
+<p>假设我在这里换机架，然后在若干层之后，我在这里也换机架。我们用来判断在换机架之处是否存在通信瓶颈的方法，是比较scale-out带宽需求与scale-up带宽需求。让我们把它写下来。提示是：这里的发送要多得多。我们在这里发送许多东西，而在这里我们只发送一样东西，而且我们可能还要做很多次。这就是造成差异的原因。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我能试着猜一下吗？纯粹出于好奇，看看我是不是真的理解了，看起来你是把batch size发送进机架。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在这里面？是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但机架内部的通信是batch size乘以GPU数量。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是激活的GPU数量。我根本不往这个GPU发送。在这个图里，从这里到那里有1到3倍的膨胀。关键在于，我甚至根本不需要往这个GPU发送，所以这是一个很大的节省。</p>
+<p>我们要讨论一下scale-up相对于scale-out在多大程度上是个瓶颈。我们将直接跳到花在scale-up上的时间与花在scale-out上的时间之比。这就是我们谈论的量。</p>
+<p>第一个考量是，scale-up一般比scale-out快8倍。在基准情况下，如果带宽相同，我们会有这个1/8，它来自带宽。但随后我们在发送多少数据上还有一定程度的膨胀。如果一个词元从这里进来，那么这一个词元会被路由到——在DeepSeek的情况下也许是32个专家或16个专家。它会被路由到若干个专家。所以这就是激活专家的数量。同样的事情适用于多个不同的层，所以也许我要跑两层。还有每个stage的层数也要乘上去。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你不需要把整个东西乘以2吗，为了那个all-to-all？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>为了上行和下行。是的，有一个因子2。谢谢。</p>
+<p>我们希望的是scale-up时间大于scale-out时间，因为scale-up时间是更重要、更宝贵的资源。我们希望这个数大于或等于1。这看起来真的不难。我们只需要克服一个因子8。所以我们需要这三样东西的乘积大于8。通常我们有相当多的激活专家数。它本身可能就是8。然后我们可以把每个stage的层数增加很多，直到满足这个条件。</p>
+<p>这最终看起来的样子是，我可以有一整条机架流水线，一个机架做一层，然后我移到下一个机架做另一层，然后我移到下一个机架再做另一层。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我觉得有意思的是，实践中最好的并行策略最终在物理上类似于实际的架构。它不是那种银河大脑式的东西。它就像是，“哦，我们有专家，我们要把它们放到不同的GPU上，或者我们有不同的层，我们就干脆把它们放到不同的机架上。”我觉得这很有意思。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>切分方式与模型架构相匹配。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>正是。它本来可能是某种更古怪的东西，用张量并行之类的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>银河大脑式的思考方式是：一个模型在哪些不同的维度上被放大？它按层被放大，按模型维度被放大，按<a href="https://en.wikipedia.org/wiki/Feedforward_neural_network">DFF</a>维度被放大，按专家数量被放大。这些数字中的每一个你都可以选择沿着它来切分。如果那些数字足够大，沿着那里切分最终就会变得有利可图。我们选择了其中两个。另外两个，在模型通常的规模设定方式下，是不划算的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p><a href="https://youtu.be/1yvBqasHLZs">所以Ilya有一个演讲，他说：“今天我们懂得不要做流水线并行。”</a>而且<a href="https://horace.io/">Horace He</a>给我的朋友们和我……我很讨厌这听起来像苏斯博士的引文。但他给我们讲了一堂关于这些不同种类并行的课。他说流水线并行的问题在于，除了气泡之外，它还制造了这些架构上的约束。<a href="https://en.wikipedia.org/wiki/Kimi_%28chatbot%29">比如Kimi</a>有这些<a href="https://go281.user.srcf.net/blog/research/residual-streams/">残差</a>，其中注意力会关注往回几层，所以用这种方式实现就变得很难。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我想我们甚至没有充分阐明我们从流水线中到底得到了什么好处。这些复杂性是真实存在的。流水线是个巨大的麻烦，但它确实给你一些好处。然后你可以决定那些好处是否值得这些代价。它在推理中有一些好处，在训练中也许好处更大。在推理中，我们省下的是什么？我们省下的是内存时间还是计算时间？其实都不是。我们只是把内存时间从一个芯片移到另一个芯片，或者从一个机架移到另一个机架。在运行时上并没有实际的好处。</p>
+<p>然而，我们省下的是内存容量。如果我们认为机架中的内存是个瓶颈，那么我们能跑多快就有一个约束。流水线让我们能够大幅减少那个瓶颈。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>与此相反的涵义是……在这次访谈之前，我和 <a href="https://feldmann.nyc/">Axel</a> 聊过，他是 <a href="https://en.wikipedia.org/wiki/Jane_Street_Capital">Jane Street</a> 的 GPU 性能工程师。他解释说，要做流水线，你必须做微批次（micro-batches）而不是完整批次。如果你做微批次，那么从定义上讲，你就无法在所有用户或所有序列上摊销加载权重的成本。这件事的正面涵义是你不需要用那么多内存。负面涵义是我们无法在所有这些用户上摊销加载权重的成本。也许值得解释一下为什么你必须做微批次。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们要不要画一下流水线气泡？这个出现在流水线并行中的微批次到底是什么？</p>
+<p>我先聚焦在推理上。这是个稍微简单一点的问题。我要画时间，然后是我们所在的机架。想法是，也许我有四个机架。我有一个推理，它会像这样在一段时间内依次走过这四个机架。这是第零号推理。它以某个批次大小运行，像这样依次走过所有流水线阶段。</p>
+<p>现在，如果我们说，“好吧，我们要在这里运行第一号推理”，这显然是一个巨大的浪费。每个机架有四分之三的时间什么都不做。我们实际上不会在这里运行第一号推理，我们会在能运行的时候立刻运行它，也就是第零号推理一结束就马上运行。然后我们继续下去。如果我们没有把它填上，我们会把这称为流水线气泡。当我在这个推理语境中画出来，我们只做前向传播时，这很明显。你为什么要做这种蠢事？在训练语境中，这也许不那么明显。但在推理语境中，做这个改变是非常自然的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>哦，有意思。这有点显而易见，但微批次和批次之间的区别在推理中根本不重要，因为你想怎么叫它就怎么叫它。它只在训练中重要，因为那里存在一个最优批次大小。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>在你做一个完整的反向步骤之前，你想把那个批次中的所有序列都累积起来。如果你想在训练中做流水线，为了避免那个气泡，你需要——</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们要不要把这个训练图也画出来？我们来画吧。这是推理图，我会把这个称为前向，这样就不会有错误的东西出现在那里。现在我们为训练做同样的事。我们有一个前向传播，但在某个阶段我们将不得不过渡到反向传播。</p>
+<p>我们会在前向传播中做若干个批次，然后我们会一次性把所有人过渡到反向传播。推理部分在这里是一样的，但然后我们在这个点做一个硬停止，把所有人过渡到反向传播，编号方式类似这样。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>也许值得澄清一下，那里有硬停止的原因是，你想为反向步骤一次性做一个完整批次。然后，那个批次应该有多大，存在一个最优大小。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上，更小总是更好，可以这么说。从 <a href="https://www.cs.ubc.ca/~schmidtm/Courses/540-W18/L5.pdf">ML 收敛速度</a> 的角度来看，更小总是更好，因为你从 <a href="https://www.geeksforgeeks.org/machine-learning/gradient-descent-algorithm-and-its-variants/">梯度下降</a> 中获得的是最新的信息。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但从总训练时间的角度来看呢？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>从总训练时间的角度来看，从系统的角度来看，更小更糟。最优值是这两者之间的权衡。</p>
+<p>所以你选一个批次大小，对于那个批次大小，你做若干次前向，然后做若干次反向。你问为什么那里甚至要有一个硬停止。在流水线并行中，因为你在这里有这段空闲时间，也就是气泡，文献中有非常多的技术来以不同方式安排这个布局并避免它。有更复杂的方案，叫做 <a href="https://arxiv.org/abs/2401.10241">零气泡</a> 或 <a href="https://arxiv.org/abs/2406.03488">一前一后</a>，它们以复杂的方式把前向和反向交织在一起。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你可以在那个气泡里挖比特币。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对。更有用的是，你可以做权重梯度步骤，但你也可以挖比特币。</p>
+<p>在推理中，流水线对你关心的任何事情（比如批次大小或延迟）的影响是中性的。它不会改善它，也不会让它变糟。如果你看这个推理的延迟，把它流水线化运行与把它全部放在一个机架上运行相比……如果全部放在一个机架上，我们只要把所有方框往下滑，仍然把它们排成一行，延迟会是一样的。</p>
+<p>流水线对延迟既不好也不坏。它确实意味着你每个机架使用的内存容量更少。因为现在你不需要整个模型，你只需要模型的四分之一，然后你可以扩展。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>非常有道理。所以在推理期间使用流水线是毫无疑问的，但在训练期间存在这个更难的权衡。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上，即使在推理中，它也没有被大量使用。它降低了你的内存容量需求，但实际上存在巨大的过剩。我记得你说过，一个 Blackwell 机架有几十太字节。那比一个万亿参数模型大得多。一个万亿参数模型只需要一太字节，所以它已经能装下了。流水线没有巨大的好处，因为你在减少一个本来就已经相当小的数字。</p>
+<p>但它确实说明，理论上，也许你在那里有太多内存了。你本可以造出内存更少的不同的硬件。如果你在设计你的硬件，你可以说，“我不需要那么多内存，因为我不需要权重装在一个机架里。我可以把权重装在八个机架里，那么我本可以造出每个 GPU 没有那么多 HBM 的硬件。”</p>
+<h3>为什么 Ilya 说，“正如我们现在所知，流水线并不明智。”</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>宏观问题：现在每个人都在谈论 <a href="https://ayarlabs.com/glossary/memory-wall/">内存墙</a>。<a href="https://www.theverge.com/news/839353/pc-ram-shortage-pricing-spike-news">内存变得超级昂贵</a>。内存不够。智能手机销量将下降 30%，因为内存不够。这很令人震惊，<a href="https://www.dwarkesh.com/p/dylan-patel">Dylan</a> 说超大规模厂商今年把 50% 的资本支出花在内存上。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这可信。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>超大规模厂商的资本支出是多少？那是几千亿，也许一万亿，而他们把其中一半花在内存上？那是一个巨大的约束。这就是为什么我们今年不会得到新的笔记本电脑和手机。</p>
+<p>但与此同时，我们有太多内存？人们愿意把太多内存放进这些系统里。如果你不需要它，为什么 Jensen 要把所有这些内存塞进这些机架里？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在我们擦掉之前的那些方程里，我们在做内存时间、内存带宽和计算带宽。现在让我们开始看内存容量。</p>
+<p>我们先从内存容量开始，甚至不考虑并行方案。对内存的需求是总参数数量。这是我们需要把权重装进我们正在使用的某个系统中的量。然后我们还需要装下 KV。KV 等于批次大小乘以上下文长度乘以每词元字节数。</p>
+<p>在这个语境中我一直在论证的，以及我为流水线所做的辩护是，有一些技术可以让我们解决这个问题。让我们考虑在若干 GPU 上运行这个。我们将有一个维度，即 <em>E</em>，专家并行。当我们把一个专家层分片到许多 GPU 上时，我们做到什么程度？多少个 GPU？我们比如说这是 64。然后 <em>P</em> 将是流水线的维度。这是机架的数量，也许我们选 4 之类的。</p>
+<p>这是整个系统的总内存需求，但现在我要计算每个 GPU 的内存需求。我会用小写 <em>c</em><sub>mem</sub>。显然，我们只要把所有这些数字除以 <em>E</em> 和 P。非常简单。就是这个 <em>N</em><sub>total</sub>，加上批次乘以上下文长度乘以每词元字节数，全部除以 <em>E</em> 乘以 <em>P</em>。</p>
+<p>为什么这样除是正确的？我们知道参数被完美地划分到机架中的所有 GPU 之间。层被完美地划分到不同机架之间。所以这在这里成立。不知怎么的我们会安排——具体怎么安排我就含糊带过了——把上下文同样完美地分片到机架中的 GPU 之间，然后基于层分片到机架之间。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，4 是机架的数量？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的，比如说。</p>
+<p>这正是我们需要回去分析这个批次大小 <em>B</em> 的地方。你在评论说存在微批次与全局批次的区别。让我们回到这里的这个流水线图。</p>
+<p>我们有一个批次在这里向前走，然后就像我画的那样，它有点消失了。那其实不太正确。如果你想想解码是如何工作的，我已经生成了一堆词元。我做一次前向传播，生成一个新词元，然后我把它写入我的 KV 缓存。然后我做另一次前向传播，生成下一个词元。实际上我会在一个循环中运行这个第零号批次。事实上，我向前走。一旦我完成，我就可以在这里开始循环的下一次迭代。我们就把它填上。我们有二、三、二和三，以及二和三。</p>
+<p>我们把这一批拆开。这一批将是全局批次大小。<em>B</em> 等于微批次的数量乘以每个微批次的批次大小。我们需要多少个微批次？这个图里的微批次数量是 4：零、一、二、三。微批次大小仍然是这个 2000 左右的数字。抱歉，不对，这是 300 乘以稀疏度。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这就是每 20 毫秒发一趟的那列火车的规模。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对。这将是那趟 20 毫秒的火车。全局批次大小是微批次数量乘以本地批次大小。本地批次大小由这个硬件参数决定。</p>
+<p>微批次的数量要尽可能小，小到我们能够绕回来而不留下任何空闲时间。如果数量更少，我们在绕回来时就会有这段空闲时间。你可以直观地看到，它等于流水线阶段的数量。这里算是用视觉来证明。它是 4，这个方向上也是 4。你可以看到它沿着这里走，然后绕回来，绕回到流水线阶段的数量。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，一个非常基础的问题。这真的是实际做法吗？今天的前沿模型在推理时会有流水线并行吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在大规模训练中，这肯定是会做的。推理时也可以做。其实我接下来要论证为什么它没那么有吸引力。它对权重有用，但对 KV 没那么有用。</p>
+<p>最大的挑战是……我们把这里填上。这里的微批次大小最终等于流水线阶段的数量。当我们回去把这一切代入到这里，我们得到流水线阶段的数量乘以这里出现的这个小 <em>b</em>。当我们把它提出来时，我要把这个加号拆成两项。</p>
+<p>我们在这里得到完整的除以 <em>E</em> 乘以 <em>P</em>。我们在这里仍然有除以 <em>E</em> 乘以 <em>P</em>，但 <em>P</em> 抵消了。我们发现，如果你增加流水线阶段的数量，权重数量的内存占用会不断下降、下降、再下降，但激活值数量的内存占用保持不变。所以它实际上并不奏效。</p>
+<p>你的大部分内存……一旦你做了足够多的流水线并行——而且其实并不多，甚至两个往往就够了——这一项会变得非常小。KV 缓存成为主导项。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我知道这是错的。我只是想弄清楚我这里的推理链条为什么是错的。如果你通过许多不同的阶段做流水线并行，KV 值并不在层与层之间共享。为什么跨多个层做流水线并行不会有所帮助呢？因为那样你就不必存储……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>你只需要存储一层的 KV，而不是两层的 KV。从这个角度看它是有帮助的，你说得对。但与之竞争的是，你需要让所有机架在同一时间都有用地保持忙碌，所以同时在途的序列数量增加了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>啊，这说得通。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这两者恰好相互抵消，最终你无法获得每 GPU 的节省。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。这从根本上回到了那个点：你无法在 KV 缓存之间进行摊销。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>首先，我们已经确定你无法跨批次大小摊销 KV 缓存。现在我们说你也无法把它分片到流水线阶段上。从这两个角度看它都很糟糕。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。那么在推理时到底是怎么做的？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>DeepSeek 的论文报告了他们的做法，就是他们只是做了大量的专家并行。实际上，你应该把专家并行提高到你的扩展域大小，然后做很少的流水线并行。也许完全不做，也许做两个，刚好足以让权重存储不至于成为太大的问题。</p>
+<p>这是真正有意义的仅有的两种并行方式。过去还有张量并行，那是在一个专家内部进行切分，但现在的专家太小了，所以那不再是一种有利可图的优化。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这是否意味着前沿实验室在做推理时，就只是在单个扩展域内？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。你可以看看它如何取决于模型大小。你可能有一个非常大的模型，大到超过一个机架的内存。那样的话你就应该做一点流水线并行。也许它极其稀疏，例如，那就会是一个做流水线并行的理由。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这回到了讲座开头时的承诺，那就是这实际上也会告诉你关于 AI 进展的信息。就模型规模扩展直到最近一直很缓慢这一点而言……</p>
+<p>让我确认一下我理解了这个说法。这个说法不会是：你本可以跨更多机架训练。而只是说，以前这样做没有意义，我们没有能力轻松地为更大的模型做推理。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上，流水线并行对上下文长度没有帮助。它对模型大小完全有帮助。由于能够做流水线并行，一个机架至少不应该成为你容纳模型参数能力的约束。</p>
+<p>你问的另一个考虑是，为什么它没有扩展得更多，以及为什么更大的扩展域会有帮助？我们讨论过其中一个方面，那就是这不是因为内存容量。我们有一个针对内存容量的解决方案，至少就模型大小而言，而不是就 KV 缓存大小而言，但至少就模型大小而言。出现的另一个问题是延迟。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我正要问，从一个机架到另一个机架，每一跳的延迟成本是多少？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这在很大程度上取决于硬件。我没法很有权威地说。我认为它大概在几毫秒的量级，但那里可能会差一个数量级。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>4 是一个现实的流水线阶段数量吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以那也不算多。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在少量流水线阶段的情况下，这不是很大的延迟影响。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但我想这是每个词元 10 毫秒。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>2 乘以 4 左右，或者我不知道你说的是多少……每个词元 10 毫秒实际上很多。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>如果它从 20 变成 30，或者类似这样……</p>
+<p>只是为了描绘它所经过的路径，这里你从你的 GPU 或 TPU 到网卡，然后到机架顶部交换机，然后跳到另一个机架，再反向做同样的事情。你必须把这些不同东西的延迟加起来。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，这和数据中心交换机是同一回事吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它实际上可能会上到数据中心交换机再回来。这取决于部署配置。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>明白了。而且因为它是解码且顺序的，它们会在各个阶段上叠加起来。你没法同时做它们。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那么这就把我们带回了那个问题：扩展域的规模是否与过去几年 AI 模型规模之所以是那样有任何关系，无论是通过训练还是通过推理？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们谈到了跳的延迟。还有 <em>t</em><sub>mem</sub> 延迟。内存时间延迟实际上被更大的扩展域大幅改善。我在这里回忆一下 <em>t</em><sub>mem</sub>。权重的 <em>t</em><sub>mem</sub> 等于总参数数量除以内存带宽。我们这里说的是哪个内存带宽？只是一个 GPU 吗？是我可以并行用来加载这些权重的 GPU 数量。我不能并行使用不同的流水线阶段，因为它们不是同时运行的，但我可以并行使用我扩展域中的所有 GPU 来加载权重。这实际上极其有效。基本上，我在这里最终得到一个项，这个内存带宽项本身等于扩展域大小……</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>乘以每个 GPU 的内存带宽。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对。乘以 GPU 带宽。这一项不会增加很多。它每一代也许增加 1.5 或 2 倍，但这一项从 Hopper 起增加了 8 倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以更大的扩展域之所以重要，原因不是整个扩展域的内存容量，而实际上是内存带宽。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。流水线并行完全解决了容量问题，但扩大scale-up规模有助于解决带宽问题。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>而带宽问题的解决有助于你实现更长的上下文长度，随着这些模型变得越来越具有智能体特性，这一点也越来越重要。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>首先，它让你能以更低的延迟运行模型。如果我只是做一个非常稀疏的模型，放在一个小小的H100机器上，延迟会非常高。</p>
+<h3>由于强化学习，模型可能被过度训练到超出Chinchilla最优100倍</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>一个非常跑题的问题。有<a href="https://arxiv.org/abs/2203.15556">Chinchilla缩放定律</a>，它告诉你相对于你将要训练的数据量，模型应该有多大。但现在，显然你不仅仅是在优化训练计算所能得到的最优质模型。你想要的是用户在使用训练和推理计算混合的情况下能得到的最佳结果。</p>
+<p>所以有一个问题：你应该将模型过度训练到什么程度，使得在训练和推理上摊销的计算量最小化以达到某种性能？但现在有了强化学习，还有另一个考虑因素，那就是你将进行一定量的预训练。那部分预训练将同时用于强化学习生成以及最终用户的推理。我在这里说的过度训练是指，虽然仅从训练计算的角度来看，训练一个更大的模型但训练时间更短会更高效，因为它能更快地学习，但也许你选择了一个更小的模型，花费了比原本更多的计算来训练它，但现在把它提供给用户的成本更低。</p>
+<p>让我把问题说得更具体一些。基本上，模型被过度训练到超出Chinchilla最优多少？这个数字是否因为强化学习生成而发生了变化？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这是一个我们不得不做一些猜测的地方，因为更新后的缩放定律和模型流量都没有被报告，所以我们只能猜测。一种看待它的方式……</p>
+<p>让我先做一个一般性的启发式论断。如果我有某种成本，总成本是成本<em>A</em>和成本<em>B</em>之和，比如这可能是训练成本，这是推理成本，我想最小化这个总和……</p>
+<p>对于许多曲线来说，最小值往往出现在成本相等的地方。这是一个启发式的论断，但有很多例子证明它是正确的。比如一个是1/<em>x</em>，另一个是<em>x</em>，它们往往在彼此相等的那一点取最小值。对于e*<sup>x</sup><em>和e</em><sup>-x</sup>*以及各种其他情况也是如此。基本上，我有一条下降的曲线，另一条上升的曲线，它们往往在这个相等的点取最小值。</p>
+<p>从启发式角度，我推测对于你所描述的情况也是如此。实际上要证明这一点需要查看缩放定律并拟合这些奇怪的指数，但遵循幂律的事物往往具有这个性质。所以我就先做这个论断，然后继续。</p>
+<p>我们要说我们希望使训练成本和推理成本相等。我们可以一般性地来做这件事。预训练的成本，就是活跃参数数量乘以预训练数据量。这里有一个因子6，也就是FLOPs的数量。有著名的<a href="https://www.adamcasson.com/posts/transformer-flops">6</a><em><a href="https://www.adamcasson.com/posts/transformer-flops">ND</a></em><a href="https://www.adamcasson.com/posts/transformer-flops">公式</a>。然后在强化学习中，我们大致有同样的东西。我们有相同的活跃参数数量，但现在数据量是强化学习数据。有一个额外的效率乘数，或者说低效率……</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>也就是你并没有在你所有的rollout上进行训练这个事实。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>嗯，有这个因素，然后另一个也许更大的低效率是这涉及大量的解码。通常解码运行的MFU比训练低。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好的。所以如果你在强化学习中对每一次生成都做反向传播，那将是6ND。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>所以这可能是一个更小的数字，对吧？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>至少是2，因为那是最低的……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>大概在2到6的范围内。我们就说在2到6的范围内，就这样吧。然后我们可以加上推理成本。推理成本是2，即活跃参数数量乘以推理数据量。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，我觉得我刚才说得太混乱了。为了观众，每个参数的前向加反向是6。仅前向是2。这就是为什么强化学习——你肯定会生成所有轨迹，但可能训练也可能不训练所有轨迹——是2到6。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。谢谢。然后推理就是2。我们将求解这三项基本相等的情况。这就是人们大致会处于的范围。实验室有更多关于做更多强化学习相对于做更多预训练哪个更有产出的信息。我没有那个信息，但我认为一个好的大致估计是三者各占33%。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不确定我理解这个直觉。另一个朴素的模型可能是强化学习加预训练占50%，推理占50%。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>那也是一个合理的答案。因为这是启发式的，我无法真正论证一个比另一个好。它们差别没那么大。33对25只是一个小因子差异。</p>
+<p>我们就选其中一个吧。全部相等看起来足够简单，所以我们就求解它们相等的情况。这很直接。我们可以立即看到活跃参数数量完全消失了，所以我们把它提取出来。我们就说预训练数据量——我决定按你的方式来，这样更好一些——加上……哦，我这边也没有考虑低效率。预训练数据量加上α乘以强化学习数据量的某个倍数，最终等于β乘以推理数据量。</p>
+<p>让我们大致估算一下α。这个α大概在2到6的范围内。除以6，从这一项与那一项相比。然后我们有一个低效率项，我会说大概在30%的范围内。所以这个alpha大概是1/10。而这个β实际上是一样的。它是三分之一。是三分之一乘以30%。所以它也等于1/10。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果两者都是十分之一，那似乎意味着强化学习上从来没有反向传播？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。好吧，我们可以把它改成2/10。让它大一点。再写一遍，这是2/10，这是1/10。</p>
+<p>你的推理词元数量只是每秒数亿词元乘以我的模型部署两个月后我才发布下一个版本这个函数。这应该决定强化学习和预训练中的词元数量。</p>
+<p>我想我们没有做预训练和强化学习之间的等价，所以我们在这里做一下。预训练数据量应该等于2/10的强化学习数据量，才能使它们在成本上等价。抱歉，是1/10。我搞反了。当效率低时我们付出更多成本，所以这应该是1/10。追溯回去……这个东西最终实际上是，如这里所写的……这大概是1.5，这是1。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>价值数十亿美元的计算就这样流向了另一个方向。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对吧？我认为如果你用电子表格实际建模一下，你可能会注意到钱什么时候在白白流失。所有这些最终都接近，如这里所建模的。这个30%可能有点太慷慨了。所以我们说这里大概是1.5，把这个保持为1。</p>
+<p>我认为到了这一步，你几乎可以直接读出来了。推理词元数量应该大约与预训练词元数量相同，而预训练词元数量应该大约与强化学习词元数量相同，在我们无法推理的因子范围内。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉犯了一个基础代数错误。看起来强化学习词元应该比预训练词元少？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>总的来说是对的。因为强化学习在机器时间方面效率更低，如果你试图使强化学习和预训练的时间相等，那么你应该有更少的词元才能有相同的墙钟时间。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这都挺有意思的。我从来没从数据量相等的角度想过这个问题。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我认为从成本相等出发是对的，但取决于你如何建模成本，这接近于数据量相等。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以对于GPT来说，要得到最优训练，每一个使用GPT-5的用户，他们流式传输的总词元量应该等于进入预训练的总量。而进入预训练的总词元量是所有人类知识的总和。每个模型在输出中生成的人类知识总量，应该等于它在输入中获得的总量。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。人们会往哪个方向犯错？如果你认为人们的预测能力不是完美的，而且你还面临做出一个不是前沿模型的模型然后就直接扔掉的风险，那么这会改变成本权衡，因为有一些概率适用于推理。你应该按某个量来折减推理词元。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。我们能否反推出对于给定规模的模型，计算量比Chinchilla最优多多少？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我认为我们只需要在这里做一些现实世界的假设才能做到这一点。</p>
+<p>推理词元，我们完全应该能够计数，对吧？假设每秒几亿。也许现在是每秒五亿词元，我不太确定。每秒五亿词元乘以。一个模型部署两个月后才过时？</p>
+<p>我没法心算。你能在电脑上打出来吗？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>2.6 x 10<sup>15</sup>。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>好。2.6 x 10<sup>15</sup>。这个数字可能太大了，因为这会是一个模型家族里的多个模型。我们把它缩小5倍或10倍之类的。所以我们估计大概是每秒五千万个词元，针对某个特定模型。这个模型上线两个月。这样算下来大约是两百万亿个词元。然后我们想把它和一个前沿模型上的活跃参数做比较。我其实不知道最新的传闻。你知道吗？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有人告诉我是一百五十万亿。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>活跃参数？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，我指的是词元。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在一百五十万亿个词元上训练。有意思。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这很相似。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这确实很相似。所以是预训练的数据。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这个出处不太可靠，但没关系。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我认为活跃参数的数量常常可能在一千亿这个量级，差不多这样。也许再大一点。所以乘以20就得到Chinchilla词元数。那么Chinchilla，<em>D<sub>Chinchilla</sub></em>，大约会是两万亿。我们看到我们比那个大了大约一百倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>*D<sub>Chinchilla</sub>*到底是什么意思？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我想，就是Chinchilla缩放定律会推荐的预训练词元数。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>哦，我明白了。所以它被过度训练了多少？懂了。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这两百万亿或一百万亿参数与Chinchilla最优的两万亿之间的比值，就是它被过度训练的程度。也就是过度训练了一百倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>一百倍。所以如果你考虑这里这个，只要这大致在正确的量级上，仅仅通过思考你希望一切在算力方面如何相等……如果OpenAI也意识到了这一点，并且他们每秒服务一定数量的词元，那就能告诉你GPT-5的预训练用了多少数据。即使差了50%之类的，你能用第一性原理推出这类数字，这还是很疯狂的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这就是为什么你应该到处都做近似，因为这里面有很大的误差范围。但直接把<em>A</em>设为等于<em>B</em>然后算出来，还是有点赋权感的。</p>
+<h3>从API定价推断长上下文内存成本</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这太酷了。好，那么本着试图推断事情的精神，我们可以公开查到这些模型的API价格，也许我们能从中了解到一些东西。</p>
+<p>首先，在更长的上下文下，<a href="https://ai.google.dev/gemini-api/docs/pricing">Gemini 3.1</a>如果你超过200k词元，会比低于200k词元贵50%。从高层面上，我理解为什么会这样，但为什么偏偏是50%？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>为什么偏偏是50%？首先，高层面上，随着上下文长度增加，成本会有一定程度的增加。我们可以把那个再调出来。那就是内存时间与计算时间的对比。</p>
+<p>我们放上了之前同样的这些方程，内存读取的时间，也就是权重和KV缓存，然后是计算的时间，也就是权重的矩阵乘法。我也会画出成本曲线，但这次我会把它画成上下文长度的函数，而不是批大小的函数。所以这是成本随上下文长度变化的曲线。我们来画计算。计算的成本实际上是随上下文长度恒定的。这里不依赖于上下文长度。现实中确实有一些依赖，但非常轻微，所以我们忽略它。所以这是计算的时间。</p>
+<p>然后我们也会画出内存读取对上下文长度的依赖。它从权重的一个大数字开始，然后随着上下文长度逐渐增长。也许从这里开始，然后随着上下文长度逐渐增长。所以你取最大值，就会看到这里有一个拐点。</p>
+<p>所以这就是Gemini可能付出的成本。然后你想，你会怎么在上面加一个定价结构？你会希望确保无论上下文长度是多少，你仍然有利可图。所以我们有了一个两档的定价结构。也许我们有一个看起来像这样的东西，到某个程度。</p>
+<p>我觉得这说明了一些事情，鉴于这个跳变在200k，它可能意味着这在一定程度上与这个交叉点对齐。也许不是完全对齐。我们其实甚至可以完成那个计算，看看它落在哪里。</p>
+<p>如果我们对活跃参数的数量做一些假设，我们可以解出每个词元的字节数。所以解每个词元的字节数，我们要假设内存时间和计算时间相等的点是在，比如说，200k词元。所以我们让这两个相等。</p>
+<p>我们还要假设批大小足够大，以至于花在权重上的内存时间可以忽略不计。所以我们忘掉这个，专注于实际花在KV缓存上的内存时间。这最终就是说，把这个项抄过来，批大小乘以上下文长度乘以每个词元的字节数除以内存带宽，将等于激活参数的数量除以FLOPs。然后我们解每个词元的字节数。批大小在这里不见了。它出现在这里，然后到我们走到这里的时候它约掉了。然后我去掉了上下文长度。</p>
+<p>所以我们可以代入数字。这是我们之前看到的数字的倒数。这是1/300，这在许多不同的硬件平台上都相当稳定。我们推测性地说过，激活参数的数量可能是一千亿。上下文长度我们说是200k。不过这里有点不对。上下文长度应该在分母上，而不是分子上。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>1667。差不多两千字节。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这其实是合理的。你说大约两千字节。我们做个合理性检查，看看这可能是什么。人们用每个词元少量字节来做注意力有两种机制。一种是密集注意力，在层之间大量复用。<a href="https://en.wikipedia.org/wiki/Character.ai">Character AI</a>有一篇<a href="https://blog.character.ai/optimizing-ai-inference-at-character-ai-2/">博客文章谈到了这个，交替使用长上下文和短上下文</a>。在Character AI那种模型里，也出现在<a href="https://en.wikipedia.org/wiki/Gemma_%28language_model%29">Gemma</a>模型中，全局上下文——这其实就是我们这里在谈的——在所有层之间共享。</p>
+<p>要把它降到千字节级别，你可以例如用<em>d</em><sub>head</sub>为128，这是典型的。那么字节数通常是注意力层数乘以2乘以<em>d</em><sub>head</sub>乘以KV头数。这是每层唯一上下文的数量。</p>
+<p>你是把上下文在许多层之间共享，还是只使用一次？在类似Character AI的模型中，这个数字是1。我们说这是128。这是一个选择，通常范围从1……抱歉，我指的是KV头。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>头和KV头之间的区别是……？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>KV头是存储在内存中的头，存储之前词元的内容。Q头是检索头。它们只是临时使用，由正在注意的词元使用。在这个自回归上下文中，我有与所有上下文关联的KV头，然后有与这里这个新词元关联的Q头。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但这个头，128。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>哦，抱歉。这个d-head是向量的维度。KV头的数量通常在1到8的范围内。通过例如有8个KV头和一个128的d-head来得到这个，是完全合理的。那正好给你这个数字。或者你可以有更少的KV头，但更多的层。</p>
+<p>这是通过密集注意力达到那里的一种方式。还有一种通过稀疏注意力达到那里的方式，你把所有这些数字都增大，但然后你有一个1/稀疏度的项。我认为这个数字是合理的，也许有点小。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有趣的是，他们通过API定价泄露了这么多信息。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我的意思是，你有动机把价格定得接近你的成本，因为否则别人可能会抢走你。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>也许我们可以从输入价格和输出价格的差异中学到一些东西，以及这告诉我们这些模型中解码与预填充的什么。我上次查的时候是贵50%之类的？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我不记得了。我过去看到的是贵3-5倍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，那更合理。那么假设贵5倍。这是解码中处理下一个词元的计算。假设你在做预填充，你不是只处理最近的词元，而是并行处理所有词元。我想说那会是这个乘以预填充长度？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>或者一般来说是这一趟的长度。如果我们能把解码看作长度为1的一趟，然后预填充是长度为多的一趟。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。所以也许是前缀？好，内存。你不是为预填充词元存储KV缓存。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>如果我可以澄清一下，我们实际上来画一下预填充在这里是怎么出现的。我们像这样做一点解码。我们实际上可能会回来做更多预填充。如果你认为这是一个聊天会话，用户说了些什么，AI生成一个回复，然后用户说了别的东西，我们预填充这个。也许这是一般情况，而不是这个。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>事实上，这就像你读一个文件之类的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>读一个文件，或者AI在回应用户输入、工具调用，或任何不是AI生成的东西。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，假设我们在这里。你之前已经把所有这些东西都算出来了。所以只是之前所有内容的 KV。但它的内存成本是多少？嗯，它的内存带宽成本是多少。如果你用的是<a href="https://modal.com/blog/flash-attention-article">flash attention</a>，那它会——</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它基本上只是临时的。它甚至不会进主存。直接忽略它就行。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>没错。所以那就只是之前所有内容。那不就只是这个吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上对内存时间完全没有任何调整。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。太好了。所以这是一个非常微不足道的改动就能容纳的。这一项让它贵了 5 倍。那么，为什么会这样？这实际上告诉了我们什么？它帮我们夹住了哪个变量？唯一可能发生变化的是，计算因此贵了 5 倍。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这是一次 pass 的时间，但实际上 token 的数量要大得多。我们想要的其实是每个 token 的成本，或者每个 token 的时间。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不确定我理解了。这是用于处理前缀中的下一个 token 吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>嗯，实际上是用于处理整个 batch。按这个成本，我们处理了这么多 token，也就是 prefill 的长度。或者我猜是这次 pass 的长度。不是这个前缀，而是这个成本。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。我们就做这次 pass。所以这贵了 5 倍。输入贵了 5 倍。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>实际上输出更贵。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>输出贵了 5 倍。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们想要努力得到的结论是：prefill 受计算限制，decode 受内存带宽限制。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我们为什么不这样做？我们为什么不把它画成 X 轴是 len-pass、Y 轴是 <em>t</em> 的图。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们想要的是每个 token 的成本，所以会是 <em>t</em> 除以 pass 的长度。那样就对了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我猜我被这个搞糊涂了。Len-pass 是……看起来这个在你做 prefill 的时候应该更高。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>Prefill 的 pass 长度更大。是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但那为什么它更便宜？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>为什么成本更高？就是这个除以 pass 长度。这个会被除消掉，但然后所有这些都会被 pass 长度除，这会让内存成本变得更便宜。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。让我想想这个。基本上我们会有四条不同的线。我们先做 prefill……实际上，我们先做 decode。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>pass 的长度，当它是 1 的时候，那就是 decode。当它更大的时候，那就是 prefill。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>哦，好。我明白了。这说得通。回到这个。所以 <em>t</em><sub>compute</sub>，如果你基本上只是把这个除以 len-pass，那就只是这个量。这实际上不随 <em>t</em> 变化，所以它就只是像这样的某个平坦值。而这是 <em>t</em><sub>compute</sub>。而这是——</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>那是 decode。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>Decode。对。现在 <em>t</em><sub>mem</sub>，我们有这整个东西除以 len-pass。嗯，上面是什么其实不太重要，它就只是看起来像这样的东西。假设这是 <em>t</em><sub>mem</sub>。这又是 decode。</p>
+<p>所以随着前缀长度，或者说 pass 长度上升，你的内存带宽时间下降，这意味着，就你之前受内存带宽瓶颈限制的程度而言，你可以避免受内存带宽瓶颈限制。</p>
+<p>他们对 prefill 的收费比 decode 低 5 倍，这确实表明他们在相当程度上受内存带宽瓶颈限制，以至于至少对他们来说——因为 <em>t</em> 等价于成本，也就是租用计算的成本——这个会在 1，而这个会在 5。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以事实上，它极其受内存带宽瓶颈限制。真实的图看起来大概就是这样。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它仍然会交叉，不过是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>没错。让我这样来做。这是 decode 时内存时间和计算时间之间的差距。好，有意思。</p>
+<p>另一个有意思的问题是，为什么缓存命中会便宜这么多。如果我记得没错，缓存命中大概是 10 倍……根据所有这些模型的定价，写入缓存更贵。但如果你确实命中了缓存，就是 10 倍。大概这是把东西保留在 HBM 里而不是直接把它清走的成本。但如果你确实把它保留在 HBM 里，那么再次加载就更便宜？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对。为一个 token 生成 KV 缓存有两种方式。你可以直接从底层 token ID 计算，从头生成，而那些 ID 很小。或者你之前已经生成过它，并把它存在某个内存里。</p>
+<p>这个成本比率实际上说的是这两种生成机制之间的比率。缓存未命中意味着你已经把它从所有内存中删掉了，你必须直接从 token 重新计算它。你甚至可以更进一步，想想你把它存在哪个内存层级。你可以把它存在 HBM 里。还有一些比 HBM 更慢、更便宜的内存，比如主机上的 <a href="https://en.wikipedia.org/wiki/DDR_SDRAM">DDR</a>，或者 <a href="https://en.wikipedia.org/wiki/Flash_memory">flash</a>。你可以做的一件事是计算放在每个内存层级里在什么情况下合理，而这与你要存它多久有关。</p>
+<p>我们想看看几个不同内存层级中的存储成本，以及重新物化的成本。Remat 指的是在你删除所有 KV 缓存之后从头重建它的成本，也就是我们重新物化它。基本上，这会花费上下文的长度。实际上，我们会看每个 token 的成本，所以我们不需要到处都带着这个上下文长度。</p>
+<p>要重新物化一个 token 的 KV 缓存，我只需要在整个模型上跑一次前向 pass。这会是计算时间。我必须按我的 GPU 能做到的速度重新跑计算，然后乘以我的 GPU 每秒美元数。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，请原谅一个天真的问题。为什么这里没有二次项？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>有二次项。它出现在计算里。作为一个近似，我选择把它去掉。我快速给你看看那是什么样子。如果你看每个 token 的成本，或者每个 token 的 FLOPs 数，有来自做权重矩阵乘法的 FLOPs，它是……</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那是平坦的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>……上下文长度的函数。然后还有来自做 KV 缓存的乘法数量，它随着你 attend 的内容量线性上升。这个斜率非常低，所以当你像这样画出来时，它用一条平坦线就能很好地近似。你大概要到几百万 token 左右才会开始注意到二次项或线性项的影响。所以它并不是特别相关。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那么，如果这是真的，为什么没有一家公司拥有超过一百万 token 的上下文长度？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>长上下文有两种成本。一种是内存带宽成本，我们已经花了很多时间分析它。就是这个东西。另一种是计算成本。计算成本几乎总是被基本原理迫使成为比内存带宽成本小得多的斜率。真正限制你达到极大上下文的主要因素是内存带宽和内存容量，而这正是这个效应。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有这样一个想法，<a href="https://www.dwarkesh.com/p/dario-amodei-2">Dario 在播客上说过</a>，其他人也说过，就是：“我们不需要<a href="https://www.ibm.com/think/topics/continual-learning">持续学习</a>来实现 AGI，<a href="https://www.lakera.ai/blog/what-is-in-context-learning">上下文学习</a>就够了。”如果你相信这一点，那你就必须认为我们得达到一亿 token 的上下文长度，才能拥有一个相当于和你一起工作一个月的员工。现在，也许有了稀疏注意力之类的，这就不再是真的了。但如果你这么认为，那么某些 ML 基础设施的东西就必须改变，才能支持一亿，比如内存带宽，才能支持一亿 token 的上下文长度。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>稀疏注意力当然给了你一个脱身办法，因为你得到了这个平方根。它给你带来很大的改进。但如果你看模型上下文长度的历史，从 GPT-3 这样的早期模型，也许到 GPT-4——我不太记得转变具体是什么时候发生的——它们从大约 8K 猛增到 100-200K。然后过去一两年，它们都一直徘徊在那附近。我认为这表明这就是一个相当平衡的成本点，而大幅超过它会成本高得令人望而却步。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>不是因为计算成本，而是因为内存带宽……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>因为内存带宽成本，是的。我其实看不到解决这个问题的好路径。HBM 就在它现在的位置。它不会变得好太多。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那为什么稀疏注意力解决不了这个问题？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>稀疏注意力是一个很大的改进。也许这已经被定价进去了，大概吧。它不是无限的改进，因为如果你做得太稀疏，你会损失太多质量。</p>
+<p>经验结果是，上下文长度并没有增加那么多。我认为这是因为这里的内存墙没有解决方案。做得太稀疏只是意味着你只关注非常小的一部分词元，质量会变差。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有道理。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这些重新合成 KV 缓存的不同方式的成本是什么？从头计算是基于我的 GPU 时间。我必须做一定数量的乘法，花费一定量的 GPU 时间来产生它。</p>
+<p>存储在 HBM 中。这实际上取决于我的每词元字节数。我需要每词元有一定数量的字节，然后我需要把它存储在 HBM 中。它会消耗我的一些 HBM 容量。一种思考方式是，如果我有太多这些东西放在我的 HBM 里，如果我用那些我没在用的 KV 缓存填满了我的 HBM，我就没法用那个 GPU 了。</p>
+<p>我怎么给它定价？也许我说它的成本与我使用的 HBM 比例成正比。还有乘以 GPU 美元。让我们再做一层内存层级，说存储在 DDR 中。同样的事情也适用于闪存和 DDR。</p>
+<p>我把这些放错列了。我本来想做两列。我想做的区分是，有检索的成本，然后有持有的成本。这是一个每秒成本，而这是一个瞬时成本。重新物化有检索成本，存储成本为零，因为我们已经删除了它。这是那个我放错位置的东西。这实际上只是持有的成本，所以我会重写它。</p>
+<p>如果我们只是把它存储在 HBM 中，它有这种成本特征。如果我们存储在 DDR 中，实际上会花一些时间。我们在这里得到同样的东西：每词元字节数除以 DDR 容量乘以 DDR 每秒成本。但现在它的检索成本比 HBM 更高，因为我们需要把它复制到 HBM 中。所以这是每词元字节数除以 DDR 带宽。然后这也消耗一定量的 DDR。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>每个 scale-up 都有 DDR 和闪存吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这实际上是一个部署问题，所以你可以选择。Nvidia 确实以这种形式部署。它两者都有。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>为什么检索 HBM 的成本不是字节数除以内存带宽？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这取决于你把检索定义为什么。在这里，我把检索定义为，把它移到 HBM 中，这样你就可以开始对它做推理了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>因为如果它已经在 HBM 中，你可以在把它从 HBM 取到 SRAM 的同时进行计算？有意思。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的，比如说。这是三样东西，我想我把它们的顺序排错了。一般来说，如果你在平衡两个成本，而你在内存层级中有不同的层级，你应该预期当这个成本上升时，这个成本应该下降。你可以大致看到零在哪里。我应该把这个排第一，这个排第二，这个排第三。</p>
+<p>如果你只打算持有非常短的时间，那么所有这些都乘以持有时间。这个是，这个也是。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有趣的是，它们有不同的写入价格。你在 API 中指定这个是五分钟还是一小时？这暗示五分钟是 HBM，一小时是 DDR。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我认为这是一个相当好的假设。如果你看那些数字，也可能结果是低一个层级，是 DDR 对闪存。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。我会去查一下价格差异。基础输入词元是每百万词元 5 美元。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>基础，意思是重新物化。这是 5 美元。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那是 5 美元来“检索”。然后写入，大概是 HBM，五分钟是 6.25。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们也许能通过时长来确定它是哪个内存层级。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>五分钟对一小时。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>正是。我认为这最终可能会是你所在内存层级的排空时间。这意味着，既然我知道我要持有某个东西五分钟，我想选一个我能每五分钟读一次的内存。我可以大致每五分钟读一遍整个内存。那就是内存的排空时间。所以如果我拿存储容量除以存储带宽，我希望这个等于五分钟。</p>
+<p>我们对 HBM 做了这个计算。对于 HBM，我们知道这个数字是 20 毫秒。所以 HBM 太小了。DDR 可能和这个差一到两个数量级，所以这大概是秒的量级，比如 1 到 10 秒。我没有记住这些数字，但一般来说，当你去到更慢的层级，闪存可能是一分钟的量级。然后旋转磁盘，那差别巨大，是一小时的量级。所以这实际上可能识别出闪存和<a href="https://en.wikipedia.org/wiki/Disk_storage">旋转磁盘</a>这两个层级。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>抱歉，为什么是这个计算？这是存储容量除以带宽？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>你有一堆不同的内存层级，我们列了四个。你选择哪个内存层级是关于最小化成本。你使用了设备的多少比例？你用设备的一部分比例来持有它，然后你用设备的一部分比例来检索它。假设我用了设备的 10%。我想让这两个比例相等。那是一个信号，说明我找对了东西。</p>
+<p>假设我这里有某个运行时间。我要持有这整段时间，所以这是持有时间。然后这里会有一定量的时间，这是检索时间。基本上为了平衡这两个成本，我想让检索时间等于持有时间乘以容量比例。因为这是检索时间，这是我能同时持有多少其他东西。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>基本上，你想把东西存在那里那么久，使得它在里面的时间等于把你所有东西放进去和取出来的时间。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的，基本上。我认为那可能表明这两个层级是闪存和旋转磁盘。我有点震惊看到旋转磁盘居然还在被使用，因为它是如此古老的技术。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。它慢到要花一小时才能把它的全部容量加载进去，这也很疯狂。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它是一种非常没有吸引力的技术，但它在某些地方有用。</p>
+<h3>神经网络与密码学之间的趋同演化</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我们坐下来是因为我想问你一些不需要黑板的问题。你有一篇<a href="https://reiner.org/neural-net-ciphers">极其有趣的博客文章</a>，你在里面谈到，在高层次上，不同密码协议的架构看起来很像神经网络。存在这种趋同演化，它们都需要在所有输入之间搅乱信息。对于密码协议，这是为了确保每个进入<a href="https://en.wikipedia.org/wiki/Hash_function">哈希函数</a>的新输入都会完全打乱发生的事情。对于神经网络，当然，它们需要考虑这条信息如何改变你应该如何理解另一条信息。</p>
+<p>我觉得那是一个极其有趣的观点。在高层次上，某种意义上它们在试图做相反的事情。密码协议试图把有结构的信息变得看起来与随机性无法区分。神经网络试图把看起来随机的东西——蛋白质序列、DNA、乱码文本——提取出更高层次的结构。它们有相似的高层次机制，但实际上它们在试图做相反的事情。我想知道你怎么看这个。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我试着寻找其他混合和搅乱出现的例子。几乎有一个物理例子，就是你在做蛋糕，你想搅拌面糊。字面上，先这样搅再那样搅的想法，不算太差的方案。</p>
+<p>除此之外，回到数字世界，有一些差异，你指出的那个是相当强的差异。它出现的方式是，如果你只是随机初始化一个神经网络，也许它也是一个合理的密码，因为随机初始化会以复杂的方式搅乱东西。它甚至可能做你想要的事。谁知道呢？</p>
+<p>让它变得可解释的是梯度下降。你可以对神经网络求导，得到一个有意义的导数。我们做了很多工作来不让导数过度复杂，所以残差连接让它保持受控和简单。<a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.LayerNorm.html">LayerNorm</a>和我们做的那些东西也是如此。</p>
+<p>针对密码的最大攻击之一也是对密码求导。密码运行在不同的数域。它们运行在二元域，也就是二进制，而神经网络理论上运行在实数域。你必须对二进制数求导，但你绝对可以对密码求导。这叫做<a href="https://en.wikipedia.org/wiki/Differential_cryptanalysis">差分密码分析</a>。</p>
+<p>基本上，它说的是，如果你对输入做一个很小的改变，要让输出的改变也很小是相当困难的。一个设计良好的密码的全部工作，就是让输出的差异变得非常大。区别在于，此时优化目标是要让事情复杂化。它们没有相同的残差连接，比如 LayerNorm。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我想这两者交汇的一个地方是后门。在<a href="https://en.wikipedia.org/wiki/Large_language_model">LLM</a>中植入后门，你是在试图隐藏……你会把它算作一种输入吗？它不是前向传播的输入，但它是反向传播的输入。你是在试图隐藏一个反向传播的输入。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这是一个对抗性的场景吗？这实际上正是密码也具有的<a href="https://en.wikipedia.org/wiki/Avalanche_effect">雪崩性质</a>发挥作用的地方。对图像分类模型的对抗性攻击，就是要找到图像的一个非常小的扰动，从而完全改变分类结果，完全改变输出。这在密码中是常见情况，而在神经网络中却是人们不希望出现的情况。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，所以我刚才问你，神经网络是否真的被用于密码学？然后我们意识到，也许直接在黑板上讲这个更好。它们真的被用于密码学吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>用神经网络做密码学……总的来说，创造一种新密码是一件非常危险的事。几乎所有的密码都被攻破了。99% 都被攻破了，所以这大概不是一个好的起点。但反过来的方向，至少在一个非常明确的案例中，是相当有成效的。</p>
+<p>密码中原本存在一种构造，后来被引入到神经网络中，叫做 <a href="https://en.wikipedia.org/wiki/Feistel_cipher#:~:text=In%20cryptography%2C%20a%20Feistel%20cipher,known%20as%20a%20Feistel%20network.">Feistel 密码</a>，或者 Feistel 网络。它的想法是，你可能有一个函数 <em>f</em>，它是不可逆的，但你喜欢这个函数，因为它能做一些有趣的事情，比如它做一个 MLP。或者它以某种有趣的方式混合信息。</p>
+<p>你想用它构建出某种可逆的东西。我们要做的这个构造将是一个双输入函数，而不是单输入函数。我们要应用 <em>f</em>(<em>x</em>)。我们需要实际记住 <em>x</em> 是什么，所以我们要把 <em>x</em> 放在这里，这样我们就能反向推导，然后我们也不能丢掉 <em>y</em>。我们要记住 <em>y</em>，然后把它们加在一起，形成这个元组。</p>
+<p>要反转这个构造，如果你认为我有了这个输出，想恢复 <em>x</em> 和 <em>y</em>，我可以很容易地恢复 <em>x</em>。它就在那里，我直接读出来就行。要恢复 <em>y</em>，如果这个东西叫做 <em>z</em>，我可以通过 <em>z</em> 减去 <em>f</em>(<em>x</em>) 来恢复 <em>y</em>，因为我已经恢复了 <em>x</em>。这意味着这个构造是可逆的。</p>
+<p>这在密码中被大量使用，现在仍然在使用。它是构造密码的主要机制之一。通常你希望密码是可逆的，尤其是密码的各层，因为这样有更好的密码学性质。</p>
+<p>这实际上已经被移植到神经网络中了。2017 年有一篇论文叫 <a href="https://arxiv.org/abs/1707.04585">RevNets</a>，即可逆网络。它所做的就是让整个网络可逆。你可以把它应用到任何网络，比如 Transformer 网络。我做一次前向传播，但之后我也可以把整个传播反向运行。整个神经网络用这个构造就是可逆的。</p>
+<p>这篇论文把它应用到某一层，比如 Transformer 层。我们有这个函数 <em>f</em>，也就是我们的 Transformer 层。通常我们只有一个输入，然后有一个残差连接出来，在这里被加上去。现在，这个变体是，我们有两个输入，<em>x</em> 和 <em>y</em>。<em>x</em> 经过这个函数，被加到 <em>y</em> 上，然后这成为新的 <em>x</em>，输出 <em>x</em>。然后这个 <em>x</em> 成为输出 <em>y</em>。</p>
+<p>实际上，如果你往回看两层，它所做的就是你之前提到的东西。它做的是来自两层的残差连接。这个 <em>y</em> 来自前一层，是那里的残差连接。由于这个构造，整个东西是可逆的。</p>
+<p>我为什么关心这个？可逆有什么用？它可能有趣的一个大用途是训练。如果我考虑训练的一次前向传播……假设我有四层，我按零、一、二、三的顺序运行它们。我必须把所有激活值写入 HBM。我在这里得到一个 HBM 占用，它大致与层数成线性关系。</p>
+<p>这实际上可能是训练期间最大的内存占用。这是正常训练，然后我运行反向传播，按相反顺序读取它。前向传播向前走，反向传播向后走。我必须把它们再读出来。</p>
+<p>这篇 RevNets 论文的想法是，因为它是可逆的，我根本不需要存储这些。我可以完全重新物化它。我运行前向传播，然后当我运行反向传播时，我同时同步地撤销我为了在这里获得所需激活值而做的所有前向传播步骤。这最终能节省内存，是个不错的想法。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。在某种意义上，你是在花更多的计算来节省内存。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。这和你用 KV 缓存做的事情正好相反。用 KV 缓存，你是在花更多的内存来节省计算。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。考虑到硬件的现状，花更多内存来节省计算通常是划算的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。这太有趣了。Reiner，非常感谢你来做这个。我觉得它真的证明了演播室和黑板背后的愿景。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>太好了，非常感谢你来做这个。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>谢谢。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+5:["$","$L10",null,{"email":{"id":"talks-dwarkesh-reiner-pope","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","sourceAuthor":"$undefined","authorAliases":["Dwarkesh Patel"],"publisher":"$undefined","publishedAt":"$undefined","subject":"Reiner Pope：大语言模型训练与服务背后的数学","snippet":"以黑板讲解批大小、计算和带宽、混合专家模型、流水线并行与长上下文推理成本。","date":"2026-04-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["大语言模型","模型训练","并行计算","计算规模"],"mdTheme":"magazine","sourcePath":"talks/dwarkesh-reiner-pope.md","sourceUrl":"https://www.dwarkesh.com/p/reiner-pope","coverImage":"$undefined","body":"$11","prompts":[]},"listPosition":{"index":253,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"talks-dwarkesh-reiner-pope-2","subject":"Reiner Pope：从基础开始理解芯片设计","sender":"Dwarkesh Patel","date":"2026-05-22","matchedPeople":["Dwarkesh Patel","Reiner Pope"],"matchedTags":[]},{"id":"llm-training-serving-infrastructure","subject":"大模型背后的算力账本：GPT、Claude 与 Gemini 是如何训练和服务的","sender":"henri","date":"2026-04-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["大语言模型","模型训练","并行计算"]},{"id":"talks-how-gpt-claude-and-gemini-are-actually-trained-and-served-reiner-pope","subject":"GPT、Claude 和 Gemini 的训练与部署全解析","sender":"Dwarkesh Patel","date":"2026-04-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["大语言模型","模型训练"]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[6869,[],"IconMark"]
+c:[["$","title","0",{"children":"Reiner Pope：大语言模型训练与服务背后的数学 · Hinbox"}],["$","meta","1",{"name":"description","content":"以黑板讲解批大小、计算和带宽、混合专家模型、流水线并行与长上下文推理成本。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-dwarkesh-reiner-pope"}],["$","meta","4",{"property":"og:title","content":"Reiner Pope：大语言模型训练与服务背后的数学"}],["$","meta","5",{"property":"og:description","content":"以黑板讲解批大小、计算和带宽、混合专家模型、流水线并行与长上下文推理成本。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-dwarkesh-reiner-pope"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Reiner Pope：大语言模型训练与服务背后的数学"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-29T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Dwarkesh Patel"}],["$","meta","16",{"property":"article:tag","content":"大语言模型"}],["$","meta","17",{"property":"article:tag","content":"模型训练"}],["$","meta","18",{"property":"article:tag","content":"并行计算"}],["$","meta","19",{"property":"article:tag","content":"计算规模"}],["$","meta","20",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","21",{"name":"twitter:title","content":"Reiner Pope：大语言模型训练与服务背后的数学"}],["$","meta","22",{"name":"twitter:description","content":"以黑板讲解批大小、计算和带宽、混合专家模型、流水线并行与长上下文推理成本。"}],["$","meta","23",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","24",{"rel":"icon","href":"/hinbox/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","link","25",{"rel":"icon","href":"/hinbox/icon.svg?6bf83d62ba40c678","type":"image/svg+xml","sizes":"any"}],["$","$L12","26",{}]]
+8:null

@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3957,<p>DoorDash 的客服聊天机器人存在幻觉（hallucination）问题。不是凭空编造整段对话那种夸张的幻觉，而是更隐蔽、更难发现的那种。</p>
+<p>例如，聊天机器人会查看客户的订单历史，看到一个配送状态字段，把它理解错了，然后信心十足地建议一项实际上并不存在的退款政策。原始数据就在聊天机器人的上下文窗口（context window）里——这是大语言模型（LLM）存放生成回答所需全部信息的工作记忆——但信息过多反而让情况更糟。</p>
+<p>补充一点背景：DoorDash 是美国最大的餐饮配送与本地商业平台之一，通过称为 Dashers 的独立配送员网络，将客户与餐厅和商店连接起来。</p>
+<p>在这样的规模下，公司每天要处理来自客户、商家和 Dashers 的数十万次客服联系，因此自动化客服不仅是一项锦上添花的功能，更是必需。</p>
+<p>团队能清楚地看到问题，但解决问题是另一回事。他们为减少某个场景中的幻觉而做的每一次修改，都可能在另一个场景中引入新的幻觉。他们陷在两个糟糕的选项之间：可以把修改部署到生产环境，寄希望于一切顺利，但这意味着拿真实客户的体验冒险；也可以在每次修改提示词后，手动测试几十种对话场景，但这需要数周时间，而且仍可能遗漏问题。</p>
+<p>这种矛盾并非 DoorDash 独有。从传统的确定性软件转向基于 LLM 的系统时，任何人都会面临这一根本挑战。DoorDash 过去使用人工编写的决策树来运行客服，每次修改的影响都可以预测和追踪。LLM 用灵活性和更自然的对话取代了这种可预测性，但也带来了非确定性（non-determinism），也就是说，同样的输入每次都可能产生不同的输出。</p>
+<p>DoorDash 对这个问题的回答，不是一个更好的聊天机器人，而是一个更好的聊天机器人改进系统，他们称之为模拟与评估飞轮（simulation and evaluation flywheel）。本文将介绍他们如何构建这个飞轮，以及其中的主要启示。</p>
+<p>免责声明：本文基于 DoorDash 工程团队公开分享的细节撰写。如发现任何不准确之处，请在评论中指出。</p>
+<h2>飞轮究竟做什么</h2>
+<p>飞轮有两个相互连接的部分：</p>
+<ul>
+<li>第一部分是离线模拟器（offline simulator），它在不涉及任何真实客户的情况下，生成贴近真实的多轮客户对话。</li>
+<li>第二部分是评估框架（evaluation framework），它自动评判聊天机器人在这些对话中的表现。</li>
+</ul>
+<p>两者结合，形成一个紧密的迭代循环。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!4eth!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f68eb05-7dc8-448a-b5ab-ad59f8da6c84_1688x1192.png" alt="模拟与评估飞轮"></p>
+<p>来源：<a href="https://careersatdoordash.com/blog/doordash-simulation-evaluation-flywheel-to-develop-llm-chatbots-at-scale/">DoorDash 工程博客</a></p>
+<p>当团队发现问题时，他们会编写一项评估，覆盖自己想修复的具体失效模式（failure mode）。触发一次作业，就会编排整条端到端流水线：从历史对话记录中自动生成测试场景，在模拟器与聊天机器人之间运行多轮对话，然后评估结果。</p>
+<p>接着，他们修改提示词（prompt）或系统架构，再次运行模拟器，检查通过率是否提高。如果提高了，就继续推进；如果没有，就尝试别的方法。他们重复这个循环，直到通过率达到退出标准（exit criteria），然后带着修改确实有效的信心进行部署。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!USZ5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F735b862b-b37e-4817-99a1-1c498fefd6c2_2054x1466.png" alt="作业触发与多轮对话流程"></p>
+<p>下图展示了无幻觉评估的通过率随时间的变化。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!cKsW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb6dd70f-ae10-40a8-84d1-cf5046bbbf48_2514x1398.png" alt="11 轮迭代中无幻觉评估的通过率"></p>
+<p>来源：<a href="https://careersatdoordash.com/blog/doordash-simulation-evaluation-flywheel-to-develop-llm-chatbots-at-scale/">DoorDash 工程博客</a></p>
+<p>这个循环的速度，让它成为一种强有力的方法。DoorDash 能在不到五分钟内运行 200 多次模拟对话，并立即得到自动评估结果。</p>
+<p>换句话说，以往需要数天人工测试和审核的工作，现在只需要数小时。而且，由于一切都在离线环境中进行，团队在迭代时不会冒着降低真实客户体验的风险。</p>
+<p>他们的评估套件（evaluation suite）已扩展到 50 多项评估，覆盖幻觉检测、语气评估、问题分类和其他质量维度。任何修改进入生产环境之前，都必须通过整套评估；它既是质量检查，也是回归测试（regression test）。</p>
+<p>飞轮听起来很直接，但模拟器和评估器的实现都需要解决相当困难的问题。</p>
+<h2>模拟会提出异议的客户</h2>
+<p>静态测试用例（static test case）可以检查聊天机器人对单条消息的回答是否合理，却无法捕捉以下情形：一位沮丧的客户连续三次提出异议，在对话中途补充信息，或者威胁要升级投诉。</p>
+<p>DoorDash 的模拟器完全不使用预先编写的消息。</p>
+<p>它使用 LLM 扮演客户，根据详细的测试场景生成动态回答。在每一轮中，模拟器都会进行结构化分析，提出诸如以下问题：</p>
+<ul>
+<li>问题得到处理了吗？</li>
+<li>对话在取得进展吗？</li>
+<li>客户需要提供更多信息吗？</li>
+<li>对话是否在兜圈子？</li>
+</ul>
+<p>根据这项分析，它决定真实客户接下来会说什么。</p>
+<p>测试场景本身来自真实的历史客服对话记录，而非工程师想象出来的客户说辞。</p>
+<p>LLM 分析 DoorDash 数据库中的历史对话，提取结构化的行为画像（behavioral profile），包括客户的性格特征——是沮丧而苛求，还是困惑而耐心——对情况的详细叙述，以及客户希望得到的具体结果。这让模拟器以实际客户行为为基础，而非依赖理想化的测试用例。</p>
+<p>见下图：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!L2Ta!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5832df44-5f71-4dcf-b4e9-6f38f771758d_2054x1852.png" alt="模拟架构"></p>
+<p>模拟器也会展现贴近真实的升级投诉模式。它不会立即要求找经理，而是给聊天机器人多次解决问题的机会，只有在对方反复无法提供帮助或对话不断兜圈子之后才升级投诉；当再次出现明显进展时，它也会重新参与对话。这反映了真实客户的行为方式。</p>
+<p>要让模拟对话有意义，聊天机器人还需要贴近真实的后端数据。它需要查询配送状态、检查退款资格，并获取订单详情。DoorDash 通过模拟数据（mock data）来处理这些需求，将真实生产数据与特定场景的测试数据混合，并保留时间戳和相互关系，使交互保持真实性。这样，他们就能测试以往测试基础设施无法处理的复杂边缘情况，包括欺诈场景和高额退款。</p>
+<h2>用一个 LLM 评判另一个 LLM</h2>
+<p>运行数百次贴近真实的对话，只有在能够判断聊天机器人是否处理得当时才有价值。然而，逐一人工阅读每段模拟对话，又会让自动化失去全部意义。因此，DoorDash 使用 LLM 自动评估聊天机器人的表现。</p>
+<p>每项评估都构建为一个函数：接收完整的对话记录，包括工具调用（tool call）和后端响应，以及相关的公司政策；通过提示词询问聊天机器人是否正确遵循了该政策；然后返回通过或不通过的二元结果（binary pass or fail），并附上作出判断的理由。</p>
+<p>显而易见的反对意见是，这听起来像循环论证。如果问题是由一个 LLM 产生幻觉引起的，为什么要相信另一个 LLM 能发现这种幻觉？</p>
+<p>DoorDash 用一个他们称为生成器与验证器差距（generator-verifier gap）的概念来直接回应这一点。充当完整的客服智能体（customer support agent），意味着要在大量可能的场景中进行复杂的多步骤决策。这确实很难。但验证一种范围明确而狭窄的行为，则要简单得多。</p>
+<p>例如，“当政策规定客户没有退款资格时，聊天机器人是否声称客户有退款资格？”就是一个直接的二元问题。评估器并不是要成为更好的客服智能体，而是每次检查一件具体的事。与开放式生成相比，LLM 在这种聚焦的二元判断上要可靠得多。</p>
+<p>但 DoorDash 并不会直接信任开箱即用的 LLM 评审器（LLM judge）。他们通过一套结构化流程，以人类判断为参照对它进行校准（calibration）。他们收集一批对话样本，让人类专家将每一条标注为通过或不通过，再让 LLM 评审器评判同一批样本，然后衡量评审器与人类判断一致的频率，以及它漏检问题或误报问题的频率。他们分析所有不一致判断背后的理由，修改评估提示词以纠正系统性错误，并反复进行这一过程，直到评审器能够可靠地与人类专家的判断保持一致。这一步校准建立了对系统的信任。</p>
+<p>评估的二元性质在这里很重要。DoorDash 不是要求 LLM 用主观的 1 到 10 分量表为聊天机器人的表现打分，而是询问聊天机器人是否遵循了一项具体政策。这使校准更快，让意见分歧更容易诊断，也能产生更可靠的判断。</p>
+<h2>通过减少提供给聊天机器人的信息来修复幻觉</h2>
+<p>有了生成对话的模拟器和为对话评分的评估器，DoorDash 就拥有了一个可以运转的飞轮。</p>
+<p>在早期上线期间，人类审核人员发现，聊天机器人被上下文窗口里庞大的数据量压得难以应对。订单历史、配送状态更新、退款决定和工具调用结果，全部以原始事件日志（raw event log）的形式直接输入模型。聊天机器人会误解某个字段，或者建议一项并不存在的政策，原因并非信息错误，而是信息太多。这与“向模型提供更多信息就应当得到更好结果”的直觉完全相反。</p>
+<p>DoorDash 提出一个假设：对聊天机器人推理至关重要的同一批数据，在生成面向客户的回答时，反而变成了噪声。他们的解决方案是增加一个称为“个案状态”（case state）的架构层，将原始工具历史整合为结构化的中间表示（intermediate representation）。个案状态不是把所有内容一股脑塞进上下文窗口，而是将相关事实提炼为聊天机器人真正能够使用的清晰格式。</p>
+<p>要把个案状态做好，离不开飞轮。他们最初对提取逻辑的尝试效果很差。有些版本遗漏了关键信息，让聊天机器人错过了推动问题解决所必需的细节；其他版本则仍然噪声太多，或结构欠佳，以不同方式让模型感到困惑。由于模拟器能在几分钟内生成大量贴近真实的对话，团队在快速反馈循环中尝试了几十种不同的上下文组织形式和提示词策略。每轮迭代只需数小时，而如果依靠人工测试，就要花费数周。</p>
+<p>经过 11 轮迭代，幻觉评估的通过率持续上升，不过第 3 轮有一次明显下滑：那次修改实际上让情况暂时变得更糟。这次下滑表明，即使有了飞轮，改进也不是线性的；飞轮的一部分价值，就是在退化影响真实客户之前将其发现。</p>
+<p>最终结果是，模拟中的幻觉减少了 90%，这一改善也延续到了生产环境中。离线指标与线上流量表现之间的强相关性，让团队相信飞轮是可靠的开发工具，而非仅仅是一个脱离现实的内部沙盒。</p>
+<h2>结论</h2>
+<p>模拟与评估飞轮从根本上改变了 DoorDash 开发和部署聊天机器人改进的方式：将迭代周期从数天压缩为数小时，并让他们能够在任何真实客户受到影响之前，跨数百种场景验证修改。</p>
+<p>不过，飞轮确实存在一些值得理解的权衡。</p>
+<p>主要局限在于，它只能发现你已经为之编写评估的问题。如果某种失效模式没有被评估覆盖，飞轮就对它视而不见。DoorDash 在每次部署前运行整套评估，覆盖幻觉、语气和问题分类，以缓解这一局限；但新的失效模式总可能出现，而现有评估未必能覆盖它们。这就是为什么人工审核仍然是每轮改进的起点。尽管实现了如此多的自动化，仍然需要有人查看真实对话，发现哪里出了问题。</p>
+<p>模拟保真度（simulation fidelity）是另一个固有局限。即使场景来自对话记录，模拟数据也采用了混合方式，合成对话仍然只是对真实用户行为的近似。DoorDash 报告称，其离线指标与生产结果具有强相关性，这验证了该方法，但不能保证这种相关性适用于每一类场景或每一种系统修改。</p>
+<p>成本也是一个问题。每轮测试要运行数百次 LLM 与 LLM 之间的对话，还要对每段对话进行 LLM 评审（LLM-as-judge），这需要大量计算资源。对于较小的团队或重要性较低的应用，使用更少场景、更有针对性评估的轻量版本，可能是务实的起点。</p>
+<p>更广泛的启示是，LLM 系统需要一种与传统软件完全不同的测试范式。既然我们已无法追踪执行分支，就需要一个反馈循环，让我们能够足够快地进行模拟、评估和迭代，在发布之前建立信心。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://careersatdoordash.com/blog/doordash-simulation-evaluation-flywheel-to-develop-llm-chatbots-at-scale/">构建大规模 LLM 聊天机器人的模拟与评估飞轮</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LLM-as-a-Judge">LLM 评审模式</a></li>
+</ul>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-doordash-llm-testing","sender":"ByteByteGo","authorAliases":[],"publisher":"ByteByteGo","subject":"DoorDash 如何构建评估大语言模型的测试系统","snippet":"DoorDash 通过历史对话驱动的客户模拟、二元 LLM 评审、人类校准与 case state，在离线环境中快速测试和改善客服聊天机器人，并讨论这一方法的局限。","date":"2026-05-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["大语言模型","模型评估","客户服务","仿真"],"mdTheme":"magazine","sourcePath":"reports/doordash-llm-testing.md","sourceUrl":"https://blog.bytebytego.com/p/how-doordash-built-a-testing-system","body":"$3","prompts":[]},"listPosition":{"index":174,"total":571},"relatedArticles":[{"id":"essays-claude-opus-4-5-evaluation-difficulty","subject":"Claude Opus 4.5，以及为什么评估新的大语言模型越来越困难","sender":"Simon Willison","date":"2025-12-02","matchedPeople":[],"matchedTags":["大语言模型","模型评估"]},{"id":"essays-ai-overly-affirms-users-asking-for-personal-advice","subject":"AI 过度顺从用户的个人建议请求","sender":"henri","date":"2026-03-26","matchedPeople":[],"matchedTags":["大语言模型","模型评估"]},{"id":"talks-latent-jev","subject":"Jev：面向生产环境而非神级智能的系统一模型——对话 Diogo Almeida","sender":"Latent.Space","date":"2026-09-21","matchedPeople":[],"matchedTags":["大语言模型"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

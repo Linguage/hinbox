@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tbb7,<h1>宇航员首次在轨完成人体X光成像</h1>
+<h2>摘要</h2>
+<p>人类在轨医疗影像长期依赖超声，因X射线需光源、探测器与患者精准对位且保持静止。Fram2全平民轨道任务的乘组用超便携无线X射线发生器，经四小时训练后为自身手掌、前臂、胸腹与骨盆成像，地面放射科医生独立评估确认画质达到诊断标准，标志太空医学从可能走向可行，也为航天器无损检测开辟新用途。</p>
+<h2>内容框架与概述</h2>
+<p>文章以时间线展开：超声主导在轨影像四十余年的历史局限，X射线因设备庞大与微重力定位困难而长期缺席；近年X射线设备小型化与电池化，使在轨成像重新成为可行设想，2022年抛物线飞行的短暂微重力实验成为关键铺垫。</p>
+<p>核心事件是SpaceX的Fram2极轨任务。乘组携带超便携无线数字X射线发生器，接受四小时训练，在飞行前后及在轨期间完成对照体模、智能手表与人体多部位成像，地面放射科医生独立判读，确认整体画质达到诊断阈值。</p>
+<p>文章随后给出结果分层：手部与手臂最易清晰成像，胸腹与骨盆质量略低但仍可用于诊断，最大难点不在成像本身而在患者、探测器与光源的对位与静止。用途亦不限于医疗，智能手表影像暗示其可服务航天器硬件的无损检测。</p>
+<p>结尾转向局限与展望：在轨成像时间有限、未来任务可能缺乏实时远程医疗支持，故研究者提出以人工智能辅助评估图像质量与识别病症；设备返回地球时受损虽仍可用，但面向月球与火星需更坚固、更轻小的系统。</p>
+<h2>核心概念及解读</h2>
+<p><strong>便携X射线成像</strong>：超便携无线数字发生器配合探测器，可在微重力下完成人体诊断级成像。</p>
+<p><strong>微重力成像难题</strong>：患者、光源与探测器易漂浮移位，核心策略是以极短曝光时间冻结运动。</p>
+<p><strong>无损检测</strong>：利用X射线透视航天器部件与硬件内部隐藏损伤，与医疗诊断共用同一技术。</p>
+<p><strong>超声对照</strong>：四十余年来唯一实用在轨影像手段，便携安全但高度依赖操作者训练。</p>
+<p><strong>AI辅助判读</strong>：在缺乏地面专家即时支持的远距离任务中，协助宇航员评估图像质量与识别病变。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.sciencealert.com/astronauts-have-taken-the-first-human-x-rays-in-space-and-they-actually-worked">Astronauts Have Taken The First Human X‑Rays in Space</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Michelle Starr</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-15</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>84/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"first-human-x-rays-in-space","sender":"henri","author":"henri","sourceAuthor":"Michelle Starr","authorAliases":["henri","Michelle Starr","Henri","Hinbox"],"subject":"宇航员首次在轨完成人体X光成像","snippet":"全平民太空任务 Fram2 首次在轨拍出可用于诊断的人体X光影像，验证便携X射线设备在微重力下的可行性，为未来月球与火星任务中不依赖地球的自主医疗诊断奠定基础。","date":"2026-07-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["太空医疗","X射线成像","航天工程"],"mdTheme":"magazine","sourcePath":"notes/first-human-x-rays-in-space.md","sourceUrl":"https://www.sciencealert.com/astronauts-have-taken-the-first-human-x-rays-in-space-and-they-actually-worked","body":"$3","prompts":[]},"listPosition":{"index":106,"total":571},"matchedPerson":{"id":"michelle-starr","name":"Michelle Starr","email":"","contentCount":1,"topTags":[{"id":"x射线成像","name":"X射线成像","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"航天工程","name":"航天工程","count":1}]},"relatedArticles":[{"id":"reports-how-nasa-built-artemis-iis-fault-tolerant-computer","subject":"NASA 如何打造 Artemis II 的容错计算机","sender":"Logan Kugler","date":"2026-04-09","matchedPeople":[],"matchedTags":["航天工程"]},{"id":"reports-lincoln-laboratory-laser-communications-terminal-launches-on","subject":"林肯实验室激光通信终端随阿尔忒弥斯 II 号登月","sender":"MIT Lincoln Laboratory","date":"2026-04-02","matchedPeople":[],"matchedTags":["航天工程"]},{"id":"orbital-data-center-hype-machine-analysis","subject":"轨道数据中心热潮的算术困境","sender":"henri","date":"2026-07-01","matchedPeople":[],"matchedTags":["航天工程"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

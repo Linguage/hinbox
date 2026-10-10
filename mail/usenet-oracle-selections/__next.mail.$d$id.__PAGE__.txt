@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T167b,<p><a href="https://default.blog/p/the-usenet-oracle">default.blog在2026年7月13日转载的《The Usenet Oracle》</a>，保存了一份早期网络协作幽默项目的帮助文件和问答精选。转载前言将它追溯到20世纪80年代末；帮助文件注明内容出自Steve Kinzler的信息文件，问答由匿名参与者创作。</p>
+<h2>一个问题换一个回答</h2>
+<p>按这份历史帮助文件的描述，参与者把问题发给Oracle程序，系统将问题交给另一位参与者。那个人扮演“神谕者”回答问题，提问者则可能收到别人的问题，作为获得回答的交换。幕后回答者是其他人。</p>
+<p>主题行中的<code>tell me</code>或<code>tellme</code>用于提问，<code>answer</code>和问题编号用于回复，<code>help</code>用于请求帮助文件，<code>ask me</code>或<code>askme</code>用于主动领取问题。这些命令属于当时的邮件程序约定。</p>
+<p>系统通常保留问答双方的匿名身份，但附在正文后的签名可能随邮件一起传递。精选发表时，编辑会删除签名；希望署名的人也可以主动说明自己是谁。帮助文件所说的匿名由程序与编辑共同维护。</p>
+<h2>编辑与参与礼仪</h2>
+<p>被称为“祭司团”的志愿编辑会收到已完成问答的副本，选择其中的作品，作为“Usenet Oracularities”发表到<code>rec.humor.oracle</code>及邮件分发列表。读者可以给发表的问答评分，结果反馈给作者，并用于选择后续精选。帮助文件把<code>rec.humor.oracle.d</code>列为不经审核的讨论区。</p>
+<p>这份<a href="https://default.blog/p/the-usenet-oracle">帮助文件</a>也记下了参与者形成的礼仪：避免重复提交同一个问题；没有精力认真回答时，可以暂不作答，但大量搁置会拖慢整个系统；回答应有创意、清楚、简短；面对新参与者或看似认真的提问，应保持体谅。离奇或模糊的问题被视为创作机会，回答者不应仅仅嘲笑提问者。</p>
+<h2>四则问答选译</h2>
+<p>以下选自转载页收录的早期精选，保留原编号。四则都由Steve Kinzler选入精选；“神谕者”的发言是幽默角色台词。</p>
+<h3>1-01　P是否等于NP</h3>
+<p><strong>提问：</strong></p>
+<blockquote>
+<p>计算机科学有一个分支，会使用预言机解决许多问题。伟大的Usenet神谕者或许能告诉我们：P=NP吗？</p>
+</blockquote>
+<p><strong>神谕者回答：</strong></p>
+<blockquote>
+<p>嗯，这属于P、NP和完备性问题……也就是说，你问的是：</p>
+<p><code>P = NP (1)</code></p>
+<p>考虑到方程编号的广泛使用，例如这里这个编号，我可以明确宣布：这个方程编号正确而且恰当。可惜，这意味着方程P=NP等同于你能找到的任何其他知识巨著中的第（1）式！因此，答案超出理解范围，最好留给神谕者沉思。我已说完。</p>
+</blockquote>
+<h3>1-03　冰箱里的黑暗去了哪里</h3>
+<p><strong>提问：</strong></p>
+<blockquote>
+<p>我打开冰箱时，里面的黑暗都去了哪里？</p>
+</blockquote>
+<p><strong>神谕者回答：</strong></p>
+<blockquote>
+<p>愚蠢的凡人，你没听说过灯泡吗？显然没有。灯泡是一个小装置，通常位于冰箱后部；没有亮起时，它里面是一个压力极低的真空。打开冰箱时，一个小开关会打开灯泡底部的小孔。真空把所有黑暗吸进去，露出自然的秩序状态：光明。</p>
+<p>这也是父母为什么要你把冰箱门“完全”关好。如果没有关好，一些黑暗会跑掉，冰箱里就一直亮着。</p>
+<p>有时你会发现冰箱既不能保持食物低温，也不能吸走黑暗，这时就该补充氟利昂了——freon是拉丁语里的“真空”。</p>
+<p>如果还有问题，请拨打GE帮助热线，全天24小时，全年365.25天。</p>
+</blockquote>
+<h3>1-08　汇编语言与幸福</h3>
+<p><strong>提问：</strong></p>
+<blockquote>
+<p>伟大的神谕者：一个人能通过禁食、祈祷和汇编语言编程获得真正的幸福吗？</p>
+</blockquote>
+<p><strong>神谕者回答：</strong></p>
+<blockquote>
+<p>可以！不过，这大概是最艰难的道路！祈祷肯定会有帮助。禁食则至少会相当困难。如果愿意，你可以考虑只喝兑水的根汁汽水。</p>
+<p>但这条路最可怕、最难克服的部分，会是汇编语言编程。要用系统自己的语言与它交流……你必须征服系统，也必须征服你自己。我的几位大祭司只写了两年汇编，就再也不能正常说话。他们到处游荡，嘴里念着<code>dbra d1, label</code>和<code>movqw a3@(#0xa, d1:w), d2</code>。避开这种命运……你就会找到幸福。</p>
+<p>你欠神谕者一盒Wheat Thins饼干。</p>
+</blockquote>
+<h3>1-10　啤酒上的天使</h3>
+<p><strong>提问：</strong></p>
+<blockquote>
+<p>有多少天使能在一杯啤酒的顶上跳舞？</p>
+</blockquote>
+<p><strong>神谕者回答：</strong></p>
+<blockquote>
+<p>答案可以通过一个相当复杂的方程确定。但由于太复杂，神谕者无法详述。只能告诉你，方程中有两个主要因素：</p>
+<ol>
+<li>看着天使跳舞的人喝了多少啤酒。</li>
+<li>背景里播放了多少张Pat Boone的唱片。</li>
+</ol>
+<p>天使喝了多少啤酒也是方程里的变量，不过，当喝下的啤酒数量趋于无穷大时，这个变量就会消去。</p>
+</blockquote>
+<p>以上问答均见<a href="https://default.blog/p/the-usenet-oracle">转载原文</a>。更多精选可从<a href="https://internetoracle.org/logos.cgi">Internet Oracle文集</a>查阅。</p>
+<hr>
+<p><em>机制介绍由AI整理，问答由AI选译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"usenet-oracle-selections","sender":"Default Friend","author":"henri","sourceAuthor":"Steve Kinzler及Usenet Oracle参与者","authorAliases":["henri","Steve Kinzler及Usenet Oracle参与者","Henri","Hinbox"],"publisher":"Default Friend","subject":"Usenet Oracle的匿名问答与幽默创作","snippet":"介绍Usenet Oracle的问答交换、匿名与编辑机制，并选译早期精选集中的四则问答。","date":"2026-07-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["互联网史","Usenet","幽默创作"],"mdTheme":"magazine","sourcePath":"notes/usenet-oracle-selections.md","sourceUrl":"https://default.blog/p/the-usenet-oracle","body":"$3","prompts":[]},"listPosition":{"index":112,"total":571},"relatedArticles":[]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

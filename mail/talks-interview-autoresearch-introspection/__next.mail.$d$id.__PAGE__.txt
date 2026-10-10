@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2e9d,<p>原文：<a href="https://www.latent.space/p/autoresearch-introspection">Autoresearch: The feedback loop behind self-improving agents</a></p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!p4Th!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe316b2cb-4200-4a71-bdcc-c398467b53ef_1280x720.jpeg" alt=""></p>
+<p>Introspection 的 Roland Gavrilescu 在 AIEWF 上。</p>
+<p>本周在 AI Engineer World's Fair 上，我们已经听到了很多关于循环（loops）的讨论。另一个热词是 <strong>autoresearch</strong>，它涉及构建一个“外层循环”，让智能体借助反馈信号、评估（evals）和人类输入来帮助维护和改进主系统，从而随着时间推移取得进展。</p>
+<p>至少，这是 <a href="https://x.com/rolandgvc">Roland Gavrilescu</a> 的框架思路。他是 Introspection 的联合创始人兼 CEO——这是一家为部署这类自我改进系统构建基础设施的新公司。在创办公司之前，Gavrilescu 在 xAI 从事智能体基础设施和云端智能体方面的工作，并在那里结识了他的联合创始人 <a href="https://www.linkedin.com/in/julianbright/">Julian Bright</a>。</p>
+<p>今天，在他于 AI Engineer World's Fair 的“Autoresearch in the Wild”演讲之前，我与 Gavrilescu 进行了交谈，讨论了从智能体运行框架（harness）到反馈循环的转变、开源 Pi 框架的作用，以及为什么自主软件工厂必须先向人类学习。</p>
+<h2><strong>从 xAI 到 Introspection</strong></h2>
+<p><strong>Latent Space：</strong> 你的新公司 Introspection 是如何诞生的？</p>
+<p><strong>Roland Gavrilescu：</strong> 去年我在 xAI，在那里遇到了我的联合创始人。我们当时在做智能体基础设施和云端智能体，我们觉得有一种新的智能体形态需要进一步探索。xAI 未必是能让我们完全专注于这件事的环境。</p>
+<p>我们决定离开，并思考一家围绕这种新形态设计的公司会是什么样子。我们对 Cursor 和 Cognition 这类公司成功的原因很感兴趣，以及我们如何把其中一些想法转化为其他人可以使用的产品。</p>
+<p>这就成了 Introspection 的基础。</p>
+<p>Autoresearch 让你能够构建循环，让智能体帮助维护系统本身。挑战在于设计正确的信号和反馈机制，使智能体能够改进系统、做出架构决策并朝着正确方向前进，而不会不断受到人类的瓶颈制约。</p>
+<h2><strong>循环即产品</strong></h2>
+<p><strong>Latent Space：</strong> 你的演讲题目是“Autoresearch in the Wild”——它会涵盖哪些内容？</p>
+<p><strong>Gavrilescu：</strong> 我们已经听到了很多关于 autoresearch 能为改进实验做什么的讨论，但我们想谈谈这些循环在生产环境中是什么样子。</p>
+<p>我们正在展示三种模式，我们认为它们构成了一个新蓝图的基础。</p>
+<p>第一种是 <strong>循环即产品</strong>。我们已经从关注模型，转向关注运行框架，现在转向关注循环。关键问题是，你能否定义正确的反馈机制，让智能体承担更多工作而不产生更多垃圾输出（slop）。</p>
+<p>第二种模式涉及循环生成什么，以及你如何随时间追踪它。我们提出一个叫做智能体<strong>配方（recipe）</strong> 的概念。</p>
+<p>我们从智能体工具（agent tools）走向了智能体技能（agent skills）。配方是一个更大的容器，把编码人类专业知识所需的组件汇集在一起：评估、评判器（judges）、信号处理，以及反馈回循环的信息。</p>
+<p>目标是创建一种可移植的格式，让智能体可以对其进行迭代，几乎就像一个研究实验室，但是以供应商无关的方式。</p>
+<p>第三种模式关乎我们优化什么。系统如何随着时间推移既变得更好又变得更便宜？</p>
+<p>Cursor 和 Cognition 这类公司已经证明这些产品可以奏效。下一阶段是让它们更易获取、更快、更便宜，并逐步将前沿模型的能力蒸馏到你拥有、且为你的环境定制的系统中。</p>
+<h2><strong>智能体配方</strong></h2>
+<p><strong>Latent Space：</strong> 你能再解释一下什么是智能体配方 吗……</p>
+<p><strong>Gavrilescu：</strong> 它就像是对你所需原料以及它们如何演变的描述。</p>
+<p>这个想法部分来自模型后训练中使用的数据配方。数据配方 描述了来自不同领域的数据应该以多大比例烘焙进模型中。</p>
+<p>智能体配方 类似。一个配方 可能描述你的运行框架 如何与不同模型配合、你使用的评估、你创建的评判器、你捕获的人类专业知识，以及导致新评估的失败。</p>
+<p>想象一下，明天你突然获得了 Devin 的代码库。如果你看不到团队是如何走到当前版本的，光有代码未必有那么大帮助。你会想了解那些塑造了它的失败、错误和决策。</p>
+<p>配方捕获的就是这个过程。你从基线开始，然后记录每个信号如何产生了一个新评判器、嵌入了新的人类专业知识，或引导你引入了不同的模型。</p>
+<h2><strong>内层循环与外层循环</strong></h2>
+<p><strong>Latent Space：</strong> Autoresearch 是指编排多个智能体，还是可以涉及一个智能体反复工作并验证其结果？</p>
+<p><strong>Gavrilescu：</strong> 你可以把系统看作有一个内层循环和一个外层循环。</p>
+<p>内层循环是与用户交互并执行工作的主系统。Autoresearch 更关注外层循环：另一个研究并维护主系统的系统。</p>
+<p>问题在于如何设计那个外层循环，使其在正确的问题上取得进展，同时在决定做什么时不消耗不合理的词元数量。</p>
+<h2><strong>Pi 作为智能体运行框架 的 Linux</strong></h2>
+<p><strong>Latent Space：</strong> 你把 Pi 比作 Linux。在这个类比中，Introspection 是不是有点像 Red Hat？</p>
+<p><strong>Gavrilescu：</strong> Pi 就像智能体运行框架 的 Linux。Linux 有 Ubuntu 这样的发行版，但底层系统被设计为可扩展的。Pi 类似：它从来就不是为了作为一个未经改动的原生产品来运行的。Pi 将智能体循环与其扩展和配置分离，这使智能体具有可移植性。你可以通过向运行时加载不同文件来启动几个不同的智能体。</p>
+<p>我们看到了一个机会，把这种可扩展性与配方以及开源构建块结合起来，这些构建块可以为每个客户演进，同时保持可移植且易于部署。</p>
+<h2><strong>让循环在生产中可靠</strong></h2>
+<p><strong>Latent Space：</strong> 可靠性和智能体循环混乱的现实一直是会议上反复出现的主题。Introspection 如何解决这些问题？</p>
+<p><strong>Gavrilescu：</strong> 这个产品是围绕你准备好进入生产环境的那一刻来设计的。</p>
+<p>你需要知道需要什么基础设施来让循环运作、控制成本并维护安全。托管基础设施涵盖了这些系统在生产中运行所必需的东西。</p>
+<p>我们关注的一个主要部分，是把前沿 AI 实验室内部可用的那类基础设施，带到一个其他公司可以部署的产品中。</p>
+<h2><strong>人类仍然是系统的一部分</strong></h2>
+<p><strong>Latent Space：</strong> 那么循环中的人类呢？</p>
+<p><strong>Gavrilescu：</strong> 这些循环在设计时就考虑了人类在环，因为随着系统取得进展，你需要正确的信号。</p>
+<p>人类实际上可以成为一种工具和信号来源。智能体可以被训练通过一个“询问人类”工具向人提问。</p>
+<p>在其最初的几个循环中，智能体可能严重依赖提问并学习人类会怎么做。随着时间推移，它积累这些偏好，并可以变得越来越自主。</p>
+<p>这类似于一名员工加入一家新公司。起初，这名员工会问很多问题。随着他们了解组织如何运作，他们可以更独立地做出更多决策。</p>
+<h2><strong>将智能体基础设施带入垂直市场</strong></h2>
+<p><strong>Latent Space：</strong> 那么你看到了哪些类型的用例？</p>
+<p><strong>Gavrilescu：</strong> 我们专注于垂直智能体。</p>
+<p>编码智能体显然行之有效，我们已经看到许多公司在这一领域取得成功。下一个问题是，如何在垂直和非编码领域部署智能体。</p>
+<p>这些市场的公司在问，他们如何能安全地做到这一点，而不依赖单一供应商。他们希望部署属于自己，希望保留对自己数据的所有权，不希望被锁定在 OpenAI 或 Anthropic 上。Introspection 旨在利用开源构建块提供满足这些要求的基础设施。</p>
+<p>前沿 AI 实验室已经开发出复杂的内部智能体技术。我们希望把类似的能力带入垂直 SaaS 和服务型企业。</p>
+<h2><strong>为什么工作在 Git 中进行</strong></h2>
+<p><strong>Latent Space：</strong> Introspection 主要是为开发者设计的，还是产品经理和其他业务用户也会使用它？</p>
+<p><strong>Gavrilescu：</strong> 我们最初专注于垂直 SaaS 公司中的软件工程师。</p>
+<p>我们希望环境对智能体友好，也就是说智能体可以在自己的仓库和代码库中工作。一切都是基于 Git 的，Git 成为你随时间维护的审计日志。</p>
+<p>未来会有让产品经理和其他人参与的界面。但我们已经看到产品经理在向代码靠拢。</p>
+<p>我们认为正确的初始形态是一种人类与智能体之间的界面，其中实际工作及其历史都存在于 Git 中。</p>
+<h2><strong>从管弦乐团到软件工厂</strong></h2>
+<p><strong>Latent Space：</strong> Introspection 是否契合软件工厂这个更广泛的概念？</p>
+<p><strong>Gavrilescu：</strong> 是的。设计循环本质上就是设计工厂。剩下的问题是工厂应该拥有多少自主权。</p>
+<p>也有关于“管弦乐团，而非工厂”的讨论。这种区分实际上关乎自主权的程度。</p>
+<p>管弦乐团可能保留一位人类指挥，控制循环如何运作。工厂则意味着更完全自主的东西。</p>
+<p>但你应该朝着工厂的方向构建，而不是假设你第一天就能创建一个完全自主的工厂。模型最初并不拥有所有上下文，也不理解组织内的人所做的每一个决策。你无法简单地把所有这些知识都捕获到一个 Markdown 文件中。</p>
+<p>正确的做法是把人设计为工厂的核心组成部分。早期系统应当随着时间推移从人身上提取隐性知识和工作流程，而不是试图立即自动化一切。</p>
+<h2><strong>如何开始做Autoresearch</strong></h2>
+<p><strong>Latent Space：</strong> 对于想要尝试Autoresearch的工程师，你会推荐什么？</p>
+<p><strong>Gavrilescu：</strong> 第一步是投资于你的信号。你真正希望智能体响应的是哪些东西？</p>
+<p>产品反馈就是一个很好的例子。并非所有反馈都具有相同的价值，你也不可能对每一个单独的数据点都做出响应。你需要一种机制来过滤信号，并识别出哪些信号是智能体应当采取行动的。</p>
+<p>第二个要求是对成本的控制。你不会想因为一个智能体一直在运行低效的循环，而在一觉醒来时看到一张意想不到的千美元账单。</p>
+<p>第三是跟进研究。看看模型正被训练去使用哪些类型的框架，并保持贴近这些模式。研究一下实验室如何使用数据配方，并思考这些思路如何应用到你自己产品中。</p>
+<p>更宏大的目标是把你的产品组织变成一个微型研究实验室，让智能体充当微型研究员。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-autoresearch-introspection","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"Autoresearch：自我改进智能体背后的反馈循环","snippet":"Roland Gavrilescu 谈反馈循环、智能体配方，以及人类在软件工厂中的作用。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["科研自动化","智能体","反馈机制"],"mdTheme":"magazine","sourcePath":"talks/interview-autoresearch-introspection.md","sourceUrl":"https://www.latent.space/p/autoresearch-introspection","body":"$3","prompts":[]},"listPosition":{"index":138,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"talks-interview-vercel-agents-new-software","subject":"Vercel 的 Andrew Qu：为什么智能体是一种新的软件","sender":"Richard MacManus","date":"2026-07-03","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]},{"id":"talks-interview-forward-deployed-engineers-aiewf","subject":"前线部署工程师与软件工程的未来","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["智能体"]},{"id":"talks-interview-software-factories","subject":"Warp CEO Zach Lloyd：为什么软件工厂是编程的下一阶段","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["反馈机制"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

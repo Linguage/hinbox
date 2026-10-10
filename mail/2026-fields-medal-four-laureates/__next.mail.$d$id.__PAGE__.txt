@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb82,<h1>2026菲尔兹奖揭晓：四位数学新星</h1>
+<h2>摘要</h2>
+<p>2026年菲尔兹奖在费城国际数学家大会上揭晓，邓煜、潘德尔、齐默尔曼和王虹四位数学家获奖，研究横跨数论、数学物理与调和分析。其中邓煜和王虹出生于中国，王虹是史上第三位女性得主。文章逐一介绍四人的成长背景与代表性成就，并指出中国数学人才群体正在崛起。</p>
+<h2>内容框架与概述</h2>
+<p>文章开篇交代颁奖时间地点与四位得主的基本情况，强调奖项每四年颁发给四十岁以下数学家，并点出本届得主的地域与性别特征带来的历史意义，即华人学者与女性得主仍然稀少。</p>
+<p>随后文章以四个小节分别勾勒四位数学家的学术肖像。邓煜专攻微分方程，严格证明了微观粒子碰撞能导出描述流体的宏观方程，化解了可逆微观与不可逆宏观之间的悖论；潘德尔深耕辛几何与接触几何，发展出区分接触空间的技巧，并借此攻克弦论物理引出的难题。</p>
+<p>第三部分聚焦齐默尔曼。他痴迷数论与丢番图方程，证明志村簇理论中的安德烈-奥尔特猜想等核心命题，业余还从事即兴喜剧与音乐剧创作。第四部分讲述王虹，她在调和分析中研究分形，用一系列工作推进三维挂谷猜想，揭示转动一根针所需的最优图形是分形。</p>
+<p>结尾以邓煜的判断收束，指出中国政府对科研的长期投入正转化为一代实力雄厚的数学人才，趋势十分明显。全文由人事到学问，再落到宏观的人才格局观察。</p>
+<h2>核心概念及解读</h2>
+<p><strong>菲尔兹奖</strong>：每四年颁发一次、授予四十岁以下数学家的国际最高荣誉之一，每届最多四人。</p>
+<p><strong>希尔伯特问题</strong>：德国数学家希尔伯特于1900年提出的重要数学难题清单，多位得主的工作与之相关。</p>
+<p><strong>辛几何与接触几何</strong>：源自物理系统描述的数学分支，辛空间维数为偶，接触空间为其奇数维对应物。</p>
+<p><strong>志村簇与丢番图方程</strong>：高维代数几何对象，其振动频率可与特定整数解方程相呼应，是数论前沿工具。</p>
+<p><strong>挂谷猜想</strong>：关于转动一根针所需最小空间的经典问题，与傅里叶变换的高效计算密切相关。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.nature.com/articles/d41586-026-02169-1">Rising stars of mathematics awarded prestigious 2026 Fields Medal</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Davide Castelvecchi</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-23</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>82/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"2026-fields-medal-four-laureates","sender":"henri","author":"henri","sourceAuthor":"Davide Castelvecchi","authorAliases":["henri","Davide Castelvecchi","Henri","Hinbox"],"subject":"2026菲尔兹奖揭晓：四位数学新星","snippet":"2026年菲尔兹奖授予邓煜、潘德尔、齐默尔曼与王虹四位数学家，文章分述其流体力学、辛几何、数论与调和分析领域的突破性成果。","date":"2026-07-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["数学研究","流体力学","辛几何","数论","调和分析"],"mdTheme":"magazine","sourcePath":"notes/2026-fields-medal-four-laureates.md","sourceUrl":"https://www.nature.com/articles/d41586-026-02169-1","body":"$3","prompts":[]},"listPosition":{"index":83,"total":571},"matchedPerson":{"id":"davide-castelvecchi","name":"Davide Castelvecchi","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"流体力学","name":"流体力学","count":1}]},"relatedArticles":[{"id":"hong-wang-2026-fields-medal-2","subject":"王虹获2026年菲尔兹奖与三维Kakeya猜想告破","sender":"henri","date":"2026-07-23","matchedPeople":[],"matchedTags":["数学研究","调和分析"]},{"id":"talks-dennis-sullivan-abel-prize-interview-2022","subject":"丹尼斯·沙利文：从流形的外部走向内部","sender":"Dennis Sullivan, Christian Skau, Bjørn Ian Dundas","date":"2023-05-22","matchedPeople":[],"matchedTags":["数学研究","流体力学"]},{"id":"talks-andrew-wiles-abel-prize-interview-2016","subject":"安德鲁·怀尔斯访谈：费马大定理、模性与数学直觉","sender":"Andrew Wiles, Martin Raussen, Christian Skau","date":"2016-05-23","matchedPeople":[],"matchedTags":["数学研究","数论"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

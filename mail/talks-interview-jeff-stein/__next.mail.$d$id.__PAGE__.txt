@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T30df,<p>原文：<a href="https://on.substack.com/p/a-career-journalist-covering-spies">A career journalist covering spies and national security was hit with a $1 million defamation lawsuit. He turned to Substack Defender for help—and won</a></p>
+<p>译者说明：本文完整翻译已发表的编辑版问答，原文已为篇幅和可读性作编辑，非未经删节的录音逐字稿。</p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!q7Ot!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4f794f7-6add-4768-b526-2a41f1b4f12e_3240x2160.jpeg" alt=""></p>
+<p>插画：Substack 品牌设计师 Joro Chen。</p>
+<p>今年早些时候，资深国家安全记者 <a href="https://open.substack.com/users/116398-jeff-stein">Jeff Stein</a> 在自己的刊物 <a href="https://www.spytalk.co/">SpyTalk</a> 上独家报道了一位即将进入 Trump 政府的官员，随后收到了一起索赔高达 100 万美元的诽谤诉讼。在多位权威消息人士的支持下，Jeff 曾<a href="https://www.spytalk.co/p/trumps-pick-for-top-pentagon-healthcare">报道</a>，即将担任五角大楼最高卫生官员的 Keith Bass，此前因“管理不善”而在中央情报局（CIA）“实际上遭到解雇”。他向 Substack 的 <a href="https://substack.com/defender">Defender</a> 项目求助，以应对这起诉讼。这个项目为 Substack 出版者提供法律支持，是平台维护新闻自由和言论自由的举措之一。在 Defender 的支持下，联邦法院上周驳回了此案，且原告不得就同一请求重新起诉（dismissed with prejudice）。</p>
+<p><a href="https://www.spytalk.co/">SpyTalk</a> 自 2020 年起就在 Substack 上发表。那一年，Jeff 将自己此前在《新闻周刊》和《华盛顿邮报》长期撰写的专栏带到平台上，又把它扩展成一个由资深记者和专家组成的团队，报道秘密行动领域的独家消息并提供分析。他也从内部了解这个世界：成为记者之前，他曾在越南担任美国陆军情报行动官。我们和他聊了新闻业面临的威胁、这场诉讼的经历，以及在长达数十年的职业生涯中报道权力与秘密的感受。</p>
+<p><strong>你曾<a href="https://www.spytalk.co/p/how-i-beat-a-trump-officials-nasty">写道</a>，这类法律威胁大多是滋扰诉讼，却仍会“耗掉你的时间、占据你的脑子，夺走你的睡眠”。收到法院文书时是什么感受？</strong></p>
+<p>嗯，最初发现这个人居然起诉我，我有点震惊。但读完传票后，我只觉得可笑，心想，这家伙根本没什么可告的。我对报道中的事实非常有信心，这篇稿子是我自己充分调查过的，消息人士也很权威。我实在不理解他为什么要起诉。</p>
+<p>[如果没有 Defender，]我就得自己到处找人，看谁愿意无偿接手此案。仅仅作出回应，最初的费用就贵得惊人。我不会说出[律师们]具体向 Substack 收了多少钱，但光这些动议就要数万美元。我们提出动议，对方回应，我们再提出一个动议，然后还得上法庭——这还只是法律纠纷刚学走路的阶段，对吧，只是最初几步，你可以想象[长期诉讼]要花多少钱。我看看自己的财产，跟普通记者差不多，也就是没多少。主要资产就是房子，我可能得卖掉它，然后，我不知道，搬进只有一间屋子的公寓？差不多就是这样。这些事会让你晚上辗转反侧。</p>
+<p><strong>这是你第一次获得 Defender 项目的帮助吗？</strong></p>
+<p>三四年前，我有篇稿子，觉得可能会招来诽谤诉讼，就想请 Defender 的律师看看几个段落。他们特别好，很快审阅了文稿，提出了一两处修改措辞的建议，我也照做了。</p>
+<p><strong>这次针对 Bass 的诉讼，你申请法律支持后发生了什么？</strong></p>
+<p>我很有信心，因为这是一起非常明确的第一修正案案件——这个人想让一名报道真相的记者闭嘴。我给 Defender 项目的通用联系地址写信，两天内就收到了回复。他们给我打电话，说：我们认为这个案子值得支持，所以正在联系弗吉尼亚州的一家律师事务所，他们会无偿接手你的案子。这些话真让我心花怒放。之后，两位非常出色的女律师联系了我，她们确实很聪明，所在事务所在阿灵顿，与华盛顿的我隔河相望，我们通电话聊了聊。她们从一开始就很棒，说的都是律师该说的正确的话。她们说，冷静下来，别担心，有我们在，我们认为这起诉讼没什么依据；只要你同意，我们就会去法庭为你应诉。于是就开始了。</p>
+<p><strong>律师去法庭时，你和她们密切配合吗？</strong></p>
+<p>我是委托人，所以她们每一步都得跟我商量。比如，她们写信说：“这是我们回应传票的草稿。”那是一份 20 页的[法律文书]，非常专业、论证严密，请求法院驳回诉讼，因为无论从报道中的事实还是现行法律看，它都没有真正的依据，而且应该被认定为所谓的 SLAPP 案件，也就是“针对公众参与的策略性[诉讼]”（strategic lawsuit against public participation）。不过，我喜欢把它叫作“针对记者的愚蠢诉讼”。总之，这很好，律师们很好，我们赢了。结局圆满。</p>
+<p><strong>你是如何把 SpyTalk 做成一个多渠道新闻机构，让几位顶尖记者和专家与你共同撰稿的？</strong></p>
+<p>差不多 20 年前，我在《国会季刊》（Congressional Quarterly）工作时，最初把 SpyTalk 做成一个专栏。先是周更，后来变成日更。顾名思义，我报道国家安全，尤其关注情报行动——CIA、国家安全局（NSA）、联邦调查局（FBI）、司法部相关部门的行动，等等。离开 CQ 后，我去了《华盛顿邮报》，在那里写了几年 SpyTalk，然后去《新闻周刊》待了六七年。后来又碰上企业重组，我们一批人被裁了。因此，我对各种可能性都持开放态度。我还没准备好收山。</p>
+<p>我做了一阵自由撰稿，后来注意到一位研究中国的朋友 <a href="https://open.substack.com/users/86-bill-bishop">Bill Bishop</a> 从 Slate 转到了一个叫 Substack 的平台，我就打电话问他：“这是怎么回事？”他说很棒，说他在 Slate 做得并不满意，而且认识 Substack 的这些人，他们邀请他过去。他说：“我做的还是一直以来做的事，但现在可以直接和读者建立关系，挣的钱也比 Slate 能给我的多得多。我已经挣到六位数了，才做了六个月。”我说：“太好了。你觉得他们会对 SpyTalk 感兴趣吗？”他说：“当然会。”</p>
+<p>我开始和一群认识多年的记者朋友聊这件事。他们都很有成就，来自《华盛顿邮报》、通讯社、《新闻周刊》、《时代》等媒体。于是，我们决定集体来做 SpyTalk，把它做了起来。我们在 2020 年 8 月 31 日发出了第一篇报道。到这个月就是六年了，九月我们会在华盛顿当地的一家酒馆办个大聚会来庆祝周年。一直都很棒，而且从一开始我们就有非常出色的作者，他们曾在其他传统媒体担任高级编辑，跟我一样年纪不小了，但还没打算退休。主要担子落在我身上，不过从一开始，就有这些其他作者。他们这些年有所变动，但仍是 SpyTalk 运转的重要组成部分。大约做了两年后，我们还推出了播客，现在也发展得不错。</p>
+<p><strong>恭喜六周年！你觉得哪些报道让你们取得了突破？</strong></p>
+<p>近年来加入的一位作者是 <a href="https://open.substack.com/users/21920854-michael-isikoff">Michael Isikoff</a>，他是非常知名的调查记者，以前在《华盛顿邮报》、《新闻周刊》、NBC News 等机构工作。他带来了一批读者，但他更是挖独家新闻的高手，所以他一有独家报道，我们就会获得很多[互动]——我的意思是，这也不是什么新鲜发明。独家新闻当然能吸引读者，但读者也喜欢有思考的文章。我们写不少书评，评的是谍报、间谍世界相关的书，甚至也评电影和电视，这些都能带来订阅者。我发现，一般来说，独家新闻会有很多回应，但我真的认为，能让订阅者长期留下来的，是那些有思考的内容。我觉得他们在寻找严肃的新闻报道，而我们报道严肃话题，以新的视角审视持续的丑闻与危机，比如伊朗战争，因此获得了很高的评价。</p>
+<p><strong>传统媒体通常在制度中就带着谨慎：律师审稿，编辑权衡发布风险。我很好奇，没有这些支持是什么感受？独立工作后，这是否改变了你愿意发表的内容？</strong></p>
+<p>我是所谓的“老板”，但其实更像马戏团的主持人。我们都有深厚的经验——我报道这些事情已有 40 多年，团队其他成员也报道了 20 多年，有些和我一样，40 年甚至更久。所以我们知道措辞该怎样谨慎，知道这个报道领域有哪些规则。那位 Trump 政府官员、CIA 医务办公室前负责人的诉讼，是因为我在标题用了“被解雇”，在导语里用了“实际上被解雇”，他非常不满。但我有多位消息人士告诉我，他是被迫离开 CIA 的，正如我在稿子里报道的那样，因此准确性没有疑问。自从在 Substack 创办 SpyTalk，我只受到过一次诉讼威胁，仅仅一次，就是一位律师来信，说他们认为有理由追究我。那次涉及 Tulsi Gabbard，以及她在夏威夷与之有联系的那个邪教组织。那个组织的律师给我写了封措辞强硬的信，我说：“请指出哪里写错了，我会处理。”此后他们再没联系过我。我想不起来在自己 40 年的职业生涯中，还有什么时候受到过诽谤诉讼的威胁。</p>
+<p><strong>如果你还在《华盛顿邮报》这样的地方工作，会有什么不同？</strong></p>
+<p>我得把衬衫和外套送去干洗。我得有更好的衣服、裤子、好鞋。总的来说，领带已经像恐龙一样灭绝了。</p>
+<p><strong>SpyTalk 这些年是怎样发展的？</strong></p>
+<p>自创刊以来，每年都在增长。其实有点令人惊讶：第一篇报道出来后，几天内就有大约一千名订阅者。我想，居然有人为这个付费，那我得继续写，写一篇，再写一篇，一直写下去。我得让它继续运转。很大一部分原因是，这些年来我在这个小众领域中的小众领域积累了一批读者，我的其他合作者也各自有读者。我们的年增长率，我想，平均大概是 5% 到 10%。</p>
+<p><strong>而且，你们给作者的稿酬可以媲美《纽约时报》评论文章的稿酬！</strong></p>
+<p>我以前给《纽约时报》写评论和书评，拿到的稿酬，我想，大约在 600 到 750 美元之间，差不多这样。你可能也知道，过去 20 年，自由撰稿的稿酬已经大幅下跌。我最后一篇为精美杂志写的稿子，是 2000 年给 GQ 写的，拿到了 20,000 美元。现在[那些媒体]已经不会付这么多钱了，要“感谢”互联网，尤其要“感谢”《赫芬顿邮报》，它邀请大家免费写稿——糟糕透顶的主意。我偶尔也会看看一些讨论，有人说：“我写了六个月，才只有 30 个关注者。”或者诸如此类的话。嗯，这取决于你写什么，人们确实会回应质量、时效和洞察。发现读者想要高质量新闻，这一点让我很欣慰。因此我觉得，只要你能提供这种内容，就很有机会在 Substack 上发展得很好。</p>
+<p><em>本次访谈为篇幅和表述清晰度作了编辑。</em></p>
+<p><em>Substack Defender 项目提供法律支持，是我们维护新闻自由和言论自由的举措之一。我们认为，这两项自由是可信媒体体系的基础。该项目为 Substack 出版者应对某些类型的法律主张提供重要保护，其中包括法律咨询，以及为因其作品面临法律不确定性或压力的出版者提供经济支持。</em></p>
+<p><a href="https://substack.com/defender">进一步了解 Substack Defender</a></p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-jeff-stein","sender":"Substack Team","author":"Substack Team","authorAliases":["Substack Team"],"subject":"报道间谍与国家安全的资深记者遭遇百万美元诽谤诉讼，借助 Substack Defender 胜诉","snippet":"Jeff Stein 谈诽谤诉讼、独立报道与 SpyTalk 的发展。","date":"2026-08-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["新闻自由","诽谤诉讼","独立媒体"],"mdTheme":"magazine","sourcePath":"talks/interview-jeff-stein.md","sourceUrl":"https://on.substack.com/p/a-career-journalist-covering-spies","body":"$3","prompts":[]},"listPosition":{"index":61,"total":571},"relatedArticles":[{"id":"talks-interview-open-tab-lachlan-cartwright","subject":"Open Tab 访谈：Lachlan Cartwright","sender":"On Substack","date":"2026-06-11","matchedPeople":[],"matchedTags":["独立媒体"]},{"id":"talks-interview-my-internet-kate-lindsay","subject":"我的互联网：Kate Lindsay","sender":"On Substack","date":"2026-05-27","matchedPeople":[],"matchedTags":["独立媒体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

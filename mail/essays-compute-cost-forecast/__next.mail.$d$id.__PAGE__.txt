@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T261d,<p>我想试着快速写博客文章，把写作时间限定在两小时内。很多重要的子问题，我没法彻底弄清楚；但另一种选择，就是在许多我好奇的话题上都毫无进展。</p>
+<p>今天我想谈谈未来几年AI实验室的算力状况。</p>
+<p>Anthropic的收入已经同比增长到原来的十倍。到今年年底，Anthropic的收入很可能达到约1000亿至1500亿美元。要延续这个趋势，Anthropic到明年年底就得有1万亿美元的收入。这个趋势必须继续，并没有什么深层理由；它完全可能无法继续——说到底，这取决于AI的能力。但假设它确实继续了。那样的世界，必须满足什么条件？</p>
+<p>实验室的算力每年<a href="https://epoch.ai/gradient-updates/frontier-labs-dont-use-most-ai-compute">增长到原来的三倍</a>。要在算力仍然只增长到三倍的情况下，让收入增长到十倍，下列三件事就必须以某种组合发生：1.实验室的利润率必须提高；2.算力的价格必须上涨；3.实验室必须把更大比例的算力用于推理（inference）。</p>
+<p>据我理解，这三件事基本上都在发生：1.Anthropic的利润率从2025年的40%，变成了今年Fable推理业务可能超过80%的利润率<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>（不过，新增的边际算力未必能达到这个水平——下面会进一步谈）。2.算力的现货价格比2月的低点上涨了40%以上，而这很可能还低估了实验室实际多付的钱（同样，下面会进一步谈）。3.<a href="https://epoch.ai/data-insights/openai-compute-spend">据Epoch估计</a>，OpenAI在2024年的算力支出中，大约四分之一用于推理；现在这个比例肯定更接近50%，甚至更高。</p>
+<p>实验室不愿意选择第三条路（把越来越大比例的算力用于推理）。有人开玩笑说，推理收入的意义，是说服投资者再给你钱，让你购买更多算力来训练更大的模型。如果大部分算力都用在推理上，就有点像是在宣告AI进步停滞了，因为再往训练里投钱已经不值得，而你的业务基本上也就成了云服务商的业务。实验室不这么认为——它们觉得，自己现在提供的模型，一年后看起来会烂得一塌糊涂；现在提供这些模型，是为了建立商业上的依据，好继续训练更聪明的模型。</p>
+<p>于是，就剩下两种情况：1.实验室的利润率提高；或者2.算力变得更贵。如果领先的一两家实验室大幅领先于竞争对手，那么第一种情况的作用会更大。在市场中，你的利润率取决于你比次优选择好多少。如果第一种效应占主导，那么到明年年底，利润率就得达到95%左右。我觉得这听起来相当疯狂。但AI实验室的收入继续以惊人的速度增长，在我看来确实是可能的。</p>
+<p>因此，要解释这个到明年年底收入达到1万亿美元的疯狂世界如何出现，还剩下一种效应：算力变得贵得多。正如前面所说，这已经开始发生了。如果看实验室所需的那一档算力，涨价还会更厉害——它们显然不能依赖现货实例（spot instances），它们需要保护模型权重和客户信息，还需要足够的规模，以获得较高的利用率和灵活性。看看Google和Anthropic从SpaceX租用算力的价格，就知道这一档算力的市场有多疯狂。据报道，Google每月支付<a href="https://finance.yahoo.com/sectors/technology/articles/google-paying-spacex-over-900-151816933.html">9亿美元租用11万块GPU</a>，其中混合了GB200和GB300。这大约是这些GPU现货每小时价格的两倍。而当前的现货价格，本身就已经比2月高了40%。</p>
+<p>我想强调这里的核心结论：AI模型越聪明，就越能用同样数量的算力赚到更多钱。如果一个真正达到人类水平的软件工程师，可以运行在一块H100等效的算力上，那么按软件工程师目前的市场价格，这块H100每年的租金应该超过25万美元。那是今天现货价格的15倍。</p>
+<p>当然，你可能会认为，如果多出1000万名软件工程师，一名软件工程师的边际价值就会下降，于是这块H100未必能产生相当于现在15倍的收入。但我其实不知道这是否成立。如果把这个论证用在人身上，而非AI身上，它就成了经典的<a href="https://en.wikipedia.org/wiki/Lump_of_labour_fallacy">劳动总量谬误（lump of labor fallacy）</a>。经济学家普遍认为，高技能移民不会在长期内压低工资，因为专业分工和创新会提高劳动的价值。也许这次劳动力供给冲击太大、太快，以至于这个通常的经验判断不再适用。但如果我们相信标准经济学对劳动的解释，那么劳动的边际价值（因而算力的边际价格）就应该维持在高得惊人的水平。</p>
+<p>那样的世界会发生什么？</p>
+<ul>
+<li>
+<p>顶尖模型越擅长用算力赚钱，后来者就越难追赶。如果到2028年，软件工程已经自动化，算力价格也达到现在的15倍，那么没有收入的你，要与前沿实验室争夺算力，就会困难得多。</p>
+</li>
+<li>
+<p>如果你能训练出最好、最高效的模型，你能获得的利润率就会远远高于今天。这就是<a href="https://en.wikipedia.org/wiki/Alchian%E2%80%93Allen_effect">Alchian–Allen效应</a>：当两种质量不同的商品都被加上一笔相同的固定成本时，高品质商品相对变便宜了，于是需求就会向它转移。</p>
+<p>当每个H100小时的价格达到20美元时，使用更弱、效率更低的模型，就会既昂贵又愚蠢，因为为了得到相同的结果，它会消耗更多token，占用你昂贵的算力。因此，如果实验室能训练出更节省这种稀缺资源的模型，就能收取极高的溢价。</p>
+<p>既然无论直接还是间接，你本来就得为底层算力付这么多钱，那么再多付一点，使用能在同样算力上运行的最好、最高效的模型，也就值得了。</p>
+</li>
+<li>
+<p>许多目前流行的AI应用，会因价格太高而被挤出市场。AI现在相对便宜，至少相对于人类劳动而言如此，部分原因就在于：顶尖人类能做的许多事，它还做不了。到了某个时候，情况将不再如此。于是，用GPU生成劣质短视频，就会因成本太高而被挤出市场。</p>
+<ul>
+<li>
+<p>同时，这种预测也确实像极了过去人们对稀缺性作出错误判断的那些情况。我想到的是Simon–Ehrlich赌约：Paul Ehrlich打赌说，在截至1990年的十年里，一篮子大宗商品的价格会涨而非跌。这个赌约在大众经济学讨论中很出名，因为人们认为，它说明Ehrlich的马尔萨斯式世界观被证伪了——他低估了市场信号和人类的创造力如何找到更节省稀缺投入品的办法。（不过，其他<a href="https://en.wikipedia.org/wiki/Simon%E2%80%93Ehrlich_wager#Analysis">分析</a>表明，如果这个赌约发生在另一个十年，Ehrlich就会赢。）</p>
+</li>
+<li>
+<p>我猜，Simon–Ehrlich赌约中那篮子大宗商品，并不是适合拿来类比算力的参照类别，因为与各种金属的开采相比，算力供给的弹性要小得多，消化大规模需求冲击、或者通过不同替代品来满足需求的能力，也要弱得多。</p>
+<p>算力容量每年增长到三倍，来自以下几个数字相乘：摩尔定律带来的1.4倍；新建晶圆厂带来的1.2倍（<a href="https://www.dwarkesh.com/p/dylan-patel">至少到2030年仍受极紫外光刻设备（EUV）供应制约</a>）；AI从其他设备手中争取更多先进制程晶圆份额带来的1.8倍（到2027年底，这一点就会开始碰到上限，届时AI占N3制程的份额将从60%升至86%）。这三项投入中的任何一项，看起来都很难再大幅提高算力扩张速度；而最后一项，随着晶圆分配份额趋于饱和，实际上会在一两年内碰到上限。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>我想说清楚，未来到了某个时候，算力会再次变便宜。到了某个时候，机器人将能把海岸上的硅砂和铜矿变成计算机。到那时，算力的价格应该下降到更接近原料和工具成本的水平。我说的只是当前这个阶段：AI算力每年仅增长到三倍，这个速度不足以抵消AI每年变得有用得多所带来的价格效应。</p>
+</li>
+<li>
+<p>顺便说一句，Anthropic的收入每年增长到十倍，而算力只增长到三倍，这个事实意味着，模型业务存在非常强的规模经济（economies of scale）。</p>
+<p>从逻辑上说，这很好理解——训练一个模型时，你只需一次性支付学习所有这些不同技能的成本，然后就能把它摊销到所有用户身上。（人类劳动则不同，每一个个体都得从头培养。）</p>
+<p>我希望我们没有生活在一个智能存在如此强烈规模经济的世界里（因为我担心权力集中）。但看来，我们确实生活在这样的世界里。</p>
+</li>
+</ul>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>综合推理利润率<a href="https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model">超过70%</a>，所以我猜Fable API的利润率超过80%——这个说法完全凭感觉。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-compute-cost-forecast","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"subject":"未来几年算力为何可能贵上十倍以上","snippet":"Dwarkesh Patel讨论未来几年算力价格可能上涨的情境，分析需求、芯片供给、电力及长期替代条件。","date":"2026-07-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["算力","人工智能","能源","经济增长"],"mdTheme":"magazine","sourcePath":"essays/compute-cost-forecast.md","sourceUrl":"https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive","body":"$3","prompts":[]},"listPosition":{"index":72,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"essays-continual-learning-predictions","subject":"持续学习时代的8项预测","sender":"Dwarkesh Patel","date":"2026-08-07","matchedPeople":["Dwarkesh Patel"],"matchedTags":["人工智能"]},{"id":"talks-dwarkesh-grant-sanderson-2","subject":"Grant Sanderson：AI 与数学的未来","sender":"Dwarkesh Patel","date":"2026-06-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["人工智能"]},{"id":"talks-dwarkesh-alex-imas-phil-trammell","subject":"Alex Imas 与 Phil Trammell：AGI 之后，还有什么是稀缺的？","sender":"Dwarkesh Patel","date":"2026-06-04","matchedPeople":["Dwarkesh Patel"],"matchedTags":["经济增长"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

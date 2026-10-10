@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb91,<h1>数学家仍未找到最快的乘法算法</h1>
+<h2>摘要</h2>
+<p>文章从小学竖式乘法讲起，说明其计算量随位数平方增长，即 O(n²)。1960年一位23岁学生的发现推翻了这一沿袭千年的认知，开创了更快的乘法算法研究。作者进而解释计算机科学家为何用计算步骤而非秒数衡量算法，并指出乘法的极致效率直接关系到加密、人工智能与芯片产业的全局成本，而这一速度上限至今仍是未解之谜。</p>
+<h2>内容框架与概述</h2>
+<p>文章以课堂场景切入，指出三位数以上的乘法无法依赖背诵，必须依靠算法。人们世代沿用的竖式乘法被默认是最快方法，这一信念直到1960年才被一位23岁的年轻人动摇，并留下一个悬而未决的问题。</p>
+<p>随后作者解释这一问题的现实分量。乘法是数字世界的底层运算，加密、机器人、人工智能、音频处理乃至各类芯片任务都建立在它之上，且往往涉及超大数的高频相乘。在此规模下，哪怕微小的效率差异也会放大为可观的经济后果。</p>
+<p>接着文章引入衡量算法效率的方法论：不以求秒计，而是统计计算步骤，并忽略进位等次要开销，因为大数情况下这些细节会被主运算彻底淹没。由此引出大O记号，竖式乘法被记为 O(n²)，位数翻倍则工作量变为四倍，位数增千倍则工作量增至百万倍。</p>
+<p>揭示的深层命题是：是否存在比 n 平方更快的乘法，其理论下界究竟在哪里。这一问题自上世纪中叶提出后长期吸引数学界，却至今没有最终答案。</p>
+<h2>核心概念及解读</h2>
+<p><strong>大O记号</strong>：描述算法步骤随输入规模增长的量级，忽略常数与低阶项，用于跨硬件比较算法效率。</p>
+<p><strong>竖式乘法算法</strong>：逐位相乘再累加的传统方法，需约 n 平方次单位乘法，被视为效率基准线。</p>
+<p><strong>计算步骤计数</strong>：用操作次数而非时间来衡量算法，使结论不依赖具体机器性能。</p>
+<p><strong>乘法下界之谜</strong>：比 n 平方更快的方法已被发现，但最快的极限速度至今无人证明。</p>
+<p><strong>数字世界的乘法瓶颈</strong>：加密与人工智能等场景中乘法被反复调用，其效率具有全局经济意义。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/">Mathematicians still dont know the fastest way to multiply numbers</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Jack Murtagh</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-13</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>84/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"fastest-way-to-multiply-numbers","sender":"henri","author":"henri","sourceAuthor":"Jack Murtagh","authorAliases":["henri","Jack Murtagh","Henri","Hinbox"],"subject":"数学家仍未找到最快的乘法算法","snippet":"从小学竖式乘法到1960年23岁学生的惊人突破，讲述乘法算法复杂度这一关乎加密与人工智能的核心谜题为何至今未解","date":"2026-07-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["算法","计算复杂性","整数乘法"],"mdTheme":"magazine","sourcePath":"notes/fastest-way-to-multiply-numbers.md","sourceUrl":"https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/","body":"$3","prompts":[]},"listPosition":{"index":111,"total":571},"matchedPerson":{"id":"jack-murtagh","name":"Jack Murtagh","email":"","contentCount":1,"topTags":[{"id":"整数乘法","name":"整数乘法","count":1},{"id":"算法","name":"算法","count":1},{"id":"计算复杂性","name":"计算复杂性","count":1}]},"relatedArticles":[{"id":"talks-donald-knuth-algorithms-complexity-and-the-art-of-computer-programming-lex-fridman-podcast-62","subject":"高德纳谈算法、复杂性与《计算机程序设计艺术》","sender":"Lex Fridman","date":"2019-12-31","matchedPeople":[],"matchedTags":["算法","计算复杂性"]},{"id":"quantum-proofs-power-classical-limit","subject":"量子证明为何强于经典证明","sender":"henri","date":"2026-07-06","matchedPeople":[],"matchedTags":["计算复杂性"]},{"id":"reports-p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach","subject":"P vs. NP 与计算的难度：一种规则学路径","sender":"Stephen Wolfram","date":"2026-01-30","matchedPeople":[],"matchedTags":["计算复杂性"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

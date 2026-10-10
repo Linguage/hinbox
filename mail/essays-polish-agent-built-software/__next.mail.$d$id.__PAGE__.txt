@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T21fb,<p><em>打磨（polish）是复利工程（compound engineering）的最后一步：亲自使用应用，把感觉不对的地方告诉智能体（agent），直到它们变得妥帖。</em></p>
+<p>在软件开发历史的大部分时间里，写代码就是工作本身。你每天敲出一个个函数，和错误较劲，调试迁移，翻阅别人的代码，弄清楚一个函数为什么会那样运行。又是在代码工厂里度过的一天。</p>
+<p>这样的日子基本结束了。只要先做一轮好的头脑风暴，再制定一份<a href="https://every.to/source-code/stop-coding-and-start-planning">结构清晰的计划</a>，如今的模型就能写代码、跑测试、修复失败，最后交给你一份干净的拉取请求（pull request，PR），里面的代码改动已经可以交付审查。我早晨打开笔记本电脑，就能看到一摞智能体在夜间交付、检查全绿的拉取请求。第一次会议还没开始，功能就已经可以合并了。工厂已经自动化了。</p>
+<p>留给我的工作，是坐下来细看结果，判断它到底好不好，再把它推进到智能体自己无法达到的程度。当我坐在屏幕前，面对这个产品里为这些用户构建的这项功能时，模型并不知道什么才会被我称为“好”。缺少这最后的人类判断，智能体产出的东西都能用，却让人记不住。几周前，我在 <a href="https://cora.computer">Cora</a> 里点击了一张邮件卡片，立刻就知道动画不对：它从屏幕顶部滑入，而不是从我点击的屏幕中部位置展开。我告诉智能体，它修好了，我又点了一次——好些了。</p>
+<p>打磨是<a href="https://every.to/guides/compound-engineering">复利工程</a>的最后一步。这是过去一年里我一直在发展的一套软件开发方法，让开发过程随着每一轮迭代变得更聪明。随着<a href="https://www.youtube.com/watch?v=G0LTv8hQ5Cs">流程中间更多环节</a>实现自动化，打磨如今更重要了，因为这一部分工作仍然属于你。你不再是流水线上组装代码的工人，而是站在流水线末端，决定这东西是否好到值得署上自己名字的人。</p>
+<h2>实际如何打磨</h2>
+<p>那张看着不对劲的卡片动画，是说明打磨如何进行的好例子，因为动画仍是智能体不太擅长的东西，尽管它会随着时间推移有所改善。</p>
+<p>那份拉取请求已经通过所有自动检查。审查智能体也没有什么需要再提醒我的问题。我运行了 <code>/ce-polish</code>，它是<a href="https://github.com/EveryInc/compound-engineering-plugin">复利工程插件</a>的一部分。它做完三件事，就不再挡在我面前：检出我要打磨的分支，在后台启动开发服务器，把运行中的应用打开在我的编辑器里，紧挨着智能体。接下来，我点击一张邮件卡片将其打开，开始评估。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/post/4338/optimized_795c99b1-a426-4311-8646-d1c71744dc22.jpg" alt="开发中的新版 Cora Brief，我通过打磨步骤进行了调整。图片由 Kieran Klaassen 提供。"></p>
+<p><em>开发中的新版 Cora Brief，我通过打磨步骤进行了调整。图片由 Kieran Klaassen 提供。</em></p>
+<p>新设计在智能体旁边打开后，我看出它仍然显得太松散。留白太多，卡片需要更紧凑。我通过 <a href="https://monologue.to">Monologue</a> 把这个想法说了出来。智能体收紧布局；应用热重载（hot reload）；我再看一眼——好些了。计划可以告诉智能体，让 Brief 看起来像一本杂志。却不能告诉它，页面什么时候才有了合适的密度。我必须亲眼看，然后自己判断。</p>
+<p>打磨就是这样：我、运行中的应用和智能体之间的一场对话。整套设置——<code>/ce-polish</code>、并排布局、支持热重载的开发服务器——都是为了让对话足够快，使我始终记得自己正在看什么，比如眯着眼盯的那个像素，或者试着说清的那一点细微差别。要是加上找文件、切换窗口、给智能体粘贴上下文之类的步骤，就会打断节奏。打磨这种工作，只有保持在流畅的工作状态中才做得起来。</p>
+<p>和复利工程的其他步骤相比，这也让打磨显得特别。规划（Plan）会派出子智能体（subagents），起草结构化的规格说明。审查（Review）会并行派出多个审查者，各自寻找不同类别的问题。构思（Ideate）会做一轮发散式头脑风暴，再按把握程度和复杂度，为留下来的想法打分。其他每一步都围绕编排（orchestration）和结构展开：智能体之上还有智能体，用模板和评判标准把工作固定住。打磨恰好相反。这里没有智能体，因为智能体无法判断屏幕上的东西，是否就是我原本想做的东西。</p>
+<h2>打磨如何改变了循环中的其他环节</h2>
+<p>我知道打磨会改变这轮循环的末端。但我没想到，它也会改变其余环节。</p>
+<p>规划变得更精准了，因为我开始在计划中预先考虑打磨时希望获得什么感受，而不只是希望代码实现什么。审查时也没那么焦虑了，因为我不再需要在查看代码差异（diff）时抓住每一个问题。我知道后面还有一步，会发现那些只有亲自使用应用才能看到的问题。</p>
+<p>我的工作流过去受限于交付速度。如今有了智能体，限制变成了我能把它做得多好。多花一点时间打磨，软件就会更好。</p>
+<p>也许最大的提升发生在沉淀（compound）这一步：把循环中学到的东西写下来，供智能体下次使用。过去，这些经验大多来自正确性方面的失败，比如代码是否遵守了正确的约定。加入打磨之后，这些经验开始承载品味。对 Cora 来说，它们包括朝点击位置收拢的动画，或只在调用时才显示的滚动条。每一条一开始都是我对着浏览器嘀咕的一句话，后来变成一条规则，系统下一次会应用它，不必等我再提要求。</p>
+<p>打磨就是这样产生复利的。第一次发现动画方向不对时，我得说出来。到了下一个带卡片的功能，智能体默认就设置了正确的动画。</p>
+<h2>留给我的工作</h2>
+<p>过去用来定义优秀工程师的工作，如今大部分都由智能体完成了。我现在要做的，是判断工作成果是否足够好，然后超越“足够好”，让它看起来像出自一个用心的人之手。一天之内能交付的成果，上限已经提高了；什么东西值得交付，标准也随之提高。</p>
+<p>因为构建是由智能体完成的，说一句“这不是我要的——把整个东西重新规划”，成本已经几乎消失了。只需要智能体花一个下午，再付几美元的计算费用。你的工作也从保护自己的时间，变成了保护自己构建出来的东西的质量。</p>
+<p>如果你想试试，下面可以帮你起步：选一项你最近交付的功能，最好带有用户界面（user interface），能看出“能用”和“好用”之间的差距，比如新用户引导流程、落地页、动画或设置页面。暂时跳过基础设施。从用户能感受到的地方开始。</p>
+<p>安装<a href="https://github.com/EveryInc/compound-engineering-plugin">复利工程插件</a>。它可以在 Claude Code、Cursor、Codex，以及另外十来种<a href="https://every.to/source-code/claude-code-is-the-openclaw-alternative-you-already-have">智能体运行框架（agent harnesses）</a>中使用。在分支上运行 <code>/ce-polish</code>，让它完成那三件事。应用启动后，就去使用它。每个地方都点一遍。不要审查代码，也不要做笔记。你此时唯一要留意的，是“这里还不太对”的直觉。发现了什么，就直接说给智能体听。看着它改，确认改动达到了你想要的效果，然后继续看下一处。</p>
+<p>当你做了三四项不仅适用于当前功能的改动后，运行 <code>/ce-compound</code>，把这些偏好固化成规则，让系统下次能自行遵循。经过几轮打磨，你就会有一个小型、长期保留的品味库，而下一个要构建的功能，从一开始就会离优秀更近一些。</p>
+<hr>
+<p><a href="https://every.to/@kieran_1355">Kieran Klaassen</a> 是 Every 旗下邮件产品 <a href="https://cora.computer/">Cora</a> 的总经理。</p>
+<p>感谢 <a href="https://every.to/@katie.parrott12">Katie Parrott</a> 提供编辑支持。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-polish-agent-built-software","sender":"Every","author":"Kieran Klaassen","authorAliases":["Kieran Klaassen"],"publisher":"Every","subject":"我如何打磨智能体构建的软件","snippet":"Kieran Klaassen 通过实际使用应用来打磨智能体构建的软件，并把动画、布局等体验偏好沉淀为后续可复用的规则。","date":"2026-07-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["AI编程","智能体","用户体验"],"mdTheme":"magazine","sourcePath":"essays/polish-agent-built-software.md","sourceUrl":"https://every.to/source-code/how-i-polish-software-that-agents-built","body":"$3","prompts":[]},"listPosition":{"index":113,"total":571},"matchedPerson":{"id":"kieran-klaassen","name":"Kieran Klaassen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户体验","name":"用户体验","count":1}]},"relatedArticles":[{"id":"zeta-process-orrery-visualization-apps","subject":"陶哲轩论智能体编程与数学可视化应用","sender":"henri","date":"2026-07-16","matchedPeople":[],"matchedTags":["AI编程","智能体"]},{"id":"cognition-ai-coding-agent-funding","subject":"Cognition融资背后的AI编程代理扩张","sender":"Bloomberg Television","date":"2026-05-28","matchedPeople":[],"matchedTags":["AI编程","智能体"]},{"id":"vibe-coding-agent-control","subject":"别迷信氛围编程，真正有用的是可控的智能体工作流","sender":"henri","date":"2026-05-03","matchedPeople":[],"matchedTags":["AI编程","智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

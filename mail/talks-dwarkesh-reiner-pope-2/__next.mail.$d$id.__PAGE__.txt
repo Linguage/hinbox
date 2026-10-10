@@ -1,0 +1,393 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Tf9ce,<p>原文：<a href="https://www.dwarkesh.com/p/reiner-pope-2">Reiner Pope – Chip design from the bottom up</a></p>
+<h2>访谈正文</h2>
+<p>与Reiner Pope的新黑板讲座：芯片究竟如何工作——从基本逻辑门开始，一直讲到为什么GPU、TPU、FPGA和人脑各自呈现出它们现在的样子。</p>
+<p><a href="https://reiner.org/">Reiner</a>是<a href="https://matx.com/">MatX</a>的CEO，这是一家新的芯片初创公司（完整披露——我是天使投资人）。他此前在Google工作，从事<a href="https://arxiv.org/abs/2211.05102">软件</a><a href="https://jax-ml.github.io/scaling-book/">效率</a>、编译器和TPU架构方面的工作。</p>
+<p>在<a href="https://youtu.be/oIk3R-sMX5o">YouTube</a>上观看这一期，这样你就能看到黑板了。</p>
+<h2>文字记录</h2>
+<h3>用逻辑门构建一个乘加运算</h3>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我又和<a href="https://www.dwarkesh.com/p/reiner-pope">Reiner Pope</a>在一起了，他是<a href="https://matx.com/">MatX</a>的CEO，这是一家新的AI芯片公司。<a href="https://www.dwarkesh.com/p/reiner-pope">上次</a>我们讨论的是数据中心内部发生了什么。现在我想了解AI芯片内部发生了什么。芯片究竟是如何工作的？顺便完整披露一下：我是MatX的天使投资人。所以希望你们设计出了一款好芯片。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>希望如此。我将从<a href="https://en.wikipedia.org/wiki/Integrated_circuit_design">芯片设计</a>的最小基本单元开始，然后逐步构建到一个实际量产芯片是什么样子，以及它的组成部分有哪些。在芯片的最底层，我们使用的基本元件是<a href="https://en.wikipedia.org/wiki/Logic_gate">逻辑门</a>，非常简单的诸如AND、OR和NOT之类的东西。它们通过导线连接在一起，而这些导线必须在芯片上以金属走线的形式物理地布局出来。</p>
+<p>AI芯片想要计算的主要功能是<a href="https://towardsdatascience.com/a-birds-eye-view-of-linear-algebra-why-is-matrix-multiplication-like-that/">矩阵乘法</a>。在其中，基本的原语是数对的<a href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation">乘加运算</a>。我们将手工演示这个计算是什么样子，然后推断出对应的电路会是什么样子。</p>
+<p>如果我做一个四位数字与另一个四位数字的乘加运算，会最容易理解。最清晰的原语实际上是乘加。所以这里有这两个项的乘法，然后我们要加进一个八位数字。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我能问一个澄清性的问题吗？为什么这是计算机内部所发生的任何计算的天然原语？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>有几个原因。它稍微更高效一些，但它对AI芯片来说之所以自然，是因为如果你看看矩阵乘法中发生了什么……简而言之，矩阵乘法是什么？有一个对<em>i</em>、对<em>j</em>、对<em>k</em>的for循环，输出[<em>i</em>, <em>k</em>] += 输入[<em>i</em>, <em>j</em>] x 另一个输入[<em>j</em>, <em>k</em>]。在矩阵乘法的每一步都会发生一次乘加运算。</p>
+<p>另一个观察是，累加步骤中的精度几乎总是比乘法步骤中的精度更高。这是AI芯片特有的。你在乘低精度数字，然后当你累加时，误差会迅速累积，所以你在那里需要更高的精度。这就是为什么我们选择做四位乘法和八位加法。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>让我确认一下我理解了。有两种方式理解这一点。一种是值会比输入更大。另一种是如果它是浮点数，它会……也许那部分对我来说不那么直观。但也许这是同一个原理？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>确实是同一个原理。另一个不同的原理是，当你对这个数求和时，你是在对一大堆数字求和，所以你会有很多舍入误差在累积。而在这个情况下，链中只有一次乘法，所以乘法中不会有大量舍入误差累积。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>为什么你是在对一大堆数字求和？那里只有两个数字。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这个求和会重复<em>j</em>很多次。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>任何误差都会累积。我明白了。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>那么我们将如何手工进行这个计算？作为人类，我们可能会把它分成两部分，但我们可以用长乘法一次性完成。</p>
+<p>先看乘法项，我们要把这个四位数字乘以另一个四位数字的每一个位位置。我们把它写出来。首先，1001乘以这个位位置。那就是这个数字本身。然后向左移一位，我们乘以0。这给我们一个全0的数字。再向左移一位乘以这个1，我们得到1001。最后，对于这最后一个位位置，我们再次得到一个全0的数字。</p>
+<p>这给了我们一堆必须相加的项来完成乘法。当我们做这个求和时，我们不妨也把实际的累加器项加进去。所以我们直接把它复制过来。所以这就是和。这是一个我们要计算的五路求和。</p>
+<p>到达这个中间步骤用了哪些逻辑门？我们需要产生所有16个这样的部分积。我如何产生其中一个部分积？以这里的数字1为例。我们通过把这个数字乘以这里的这个1来产生它。我们可以用一个<a href="https://en.wikipedia.org/wiki/AND_gate">AND门</a>来产生它。当这个位是1且这个位也是1时，这个数字就是1。如果其中任何一个是0，那么0乘以任何东西都是0。为了产生所有这些，我们最终消耗了16个AND门。在一般情况下，如果我做一个<em>p</em>位乘法乘以一个<em>q</em>位乘法，这将是<em>p</em>乘以<em>q</em>那么多个AND。</p>
+<p>最后，我把它们相加。大部分工作将发生在求和中。让我描述一下我们在这里使用的另一个逻辑门。AND几乎是芯片上存在的最简单的逻辑门。它几乎是最小的。在另一个极端，你通常会使用的最大的逻辑门叫做<a href="https://www.geeksforgeeks.org/digital-logic/full-adder-in-digital-logic/">全加器</a>。</p>
+<p>从软件背景过来，你可能会以为全加器是把32位数字加在一起。在这个情况下，它只是把三个单比特数字加在一起，所以你可以把它理解为把0、1和1加在一起。当我把这些加在一起时，结果可以是0、1、2或3，所以我可以只用两个比特用二进制表示它。作为输入，它有三个比特。作为输出，它有两个比特。数字2的二进制是10。这也被称为3→2压缩器，因为它接受三个比特的输入并产生两个比特的输出。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>只是为了确认我理解了：这两个输入是一个X值和一个Y值，然后还有一些进来的进位……</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这三个输入都是同一比特位置上的比特，就像这里一列中的三个比特。这两个输出，我在这里垂直画它们，在这里水平画它们，以匹配这种垂直与水平的布局。这表达了同一列中的东西处于同一比特位置，而相邻列中的东西则不同。这是一个进位输出，而这个是和。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>所以如果全加器中的输入是，比如说，101，那么输出就是10。如果是111，那就是11。如果是000，那就是00。如果是010，那仍然是01。明白了。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>是的。它本质上就是数一数有多少个东西，然后用二进制表示出来。这个电路捕捉了我们人类在沿着一列求和时自然会做的事情。</p>
+<p>我将展示一次使用全加器求和的迭代。我在这里求和的方式对人类来说会有点不自然。我们会沿着列求和然后记住进位，但不是记住进位，我们会把它明确地写出来。我们从最右边的列向左进行。在最右边的列上，我们把1和1相加，这在这里产生一个0和一个进位1。我们在这个比特对上使用了这个全加器电路，并产生了一对比特作为输出。</p>
+<p>现在我们可以对这一列做同样的事情。我们有一列四个数字，所以我们取其中的前三个，对它们运行一个全加器，这给我们一个0和一个0作为输出。它们的和是00。这就是全加器应用于所有这些比特。当我用掉比特时，我会把它们划掉以表示我已经处理过它们了。</p>
+<p>让我们继续再多做一点。我取这三个数字，把它们相加，这给我一个1和一个0。我已经处理了这三个数字。现在我取这三个数字并把它们相加，这给我一个1和一个0，我已经处理了这些数字。</p>
+<p>看待这个的方式是，我有这整个需要相加的数字网格。我将继续对这里的所有比特应用全加器，不断地从一列中移除三个数字并写出两个数字作为输出。一遍又一遍地继续，直到我最终只得到一个单独的数字出来。</p>
+<p>这种方法叫做<a href="https://en.wikipedia.org/wiki/Dadda_multiplier">Dadda乘法器</a>。这是使用全加器实现面积高效乘法器的标准做法。让我们试着量化这个电路的规模，这样我们就能对事物有多大有个感觉，并且以后可以比较它们。</p>
+<p>我用了多少个全加器？我开始时有多少个数字？我有16个部分积，这是所有这些项与所有这些项的乘积，加上我在这里相加的八个项。我开始时有24个比特。最终我在输出上产生了八个比特。在每一步中，我划掉三个数字并写出两个数字作为结果。</p>
+<p>每一次使用全加器都会消除这里的一个比特。那么多少个全加器？它必须是24减去8，所以这个电路中有16个全加器。这在一般情况下也成立。这个电路中会有<em>p</em>乘以<em>q</em>那么多个全加器。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>让我确认一下我理解了这个逻辑。输入比特数是24，等于<em>p</em> x <em>q</em>，加上<em>p</em> + <em>q</em>。输出比特数就是<em>p</em> + <em>q</em>。所以<em>p</em> x <em>q</em>加上<em>p</em> + <em>q</em>，减去<em>p</em> + <em>q</em>，等于<em>p</em> x <em>q</em>。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>没错。我认为这解释、或者至少暗示了我们选择做乘加运算的第二个原因。第一个原因是它就是矩阵乘法中出现的东西。第二个原因是它给了我们这个非常简洁、简单的<em>p</em> x <em>q</em>，非常简单的代数。</p>
+<p>我们已经描述了整个过程。我在这里采取的每一个原子步骤都变成一个逻辑门，然后这些导线连接在一起。当我有这三个输入用来产生这两个输出时，如果我想把它映射到一个物理设备上，就会有一根导线把这三样东西连接到一个产生这个输出的逻辑门中。</p>
+<p>这就是AI芯片内部的主要原语，以不同的位宽存在。我们将从这里开始，逐步构建出如何使用它来运行你可能想要的所有其他运算。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>这可能不是提问的好时机，但每当Nvidia报告说这款芯片能做数量为X的<a href="https://www.exxactcorp.com/blog/hpc/what-is-fp8-fp6-fp4">FP4</a>或一半数量的<a href="https://www.exxactcorp.com/blog/hpc/what-is-fp8-fp6-fp4">FP8</a>时，似乎暗示这些电路是可互换的，并没有专用的FP4和FP8之分。但按照你这里映射的方式，似乎如果必须在逻辑中映射出来，你就需要一个专用的FP4乘加器，然后是一个专用的FP8累加器。你能把它们“互换”吗？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>按照所画的方式，它们并不是特别可互换的。这实际上是设计芯片时必须做出的主要选择之一：我有多少FP4和多少FP8？有时我会从客户需求的角度来做这个考量。另一个角度是在FP4和FP8之间平衡功耗预算。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>当他们报告那些数字，恰好是FP4计算的数量是FP8的2倍时，他们只是选择给所有浮点格式分配等量的<a href="https://en.wikipedia.org/wiki/Die_%28integrated_circuit%29">裸片</a>面积，结果就变成了……？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>为什么比例恰好是2倍？部分原因是它肯定不会恰好等同于裸片面积。还有一个数据移动方面的原因。我们也许在讨论数据如何进出存储器时会回到这个问题。从软件层面来看，有一件非常好的事情：我可以把两个4比特数字打包进与一个8比特数字相同的存储空间里。当我把它存储到内存时，我在芯片内布线的总线尺寸让这一切非常自然地成立。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>仔细想想，这不仅仅是2倍。它所占用的面积听起来是随比特长度二次方增长的。这就是为什么更小的精度比你想象的还要有利。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这是一个非常重要的原因。事实上，Nvidia做了一个改变。历史上，直到<a href="https://www.exxactcorp.com/blog/hpc/comparing-nvidia-tensor-core-gpus">B100</a>或<a href="https://www.nvidia.com/en-us/data-center/dgx-b200/">B200</a>，每次你把比特精度减半，<a href="https://en.wikipedia.org/wiki/Floating_point_operations_per_second">FLOP</a>数量就翻倍。由于你所说的原因，因为这种二次方缩放，那个比例实际上稍微有点不对。你应该得到比你原本以为的更大的加速。Nvidia的产品规格已经开始在<a href="https://www.nvidia.com/en-us/data-center/dgx-b300/">B300</a>及以后的产品中承认这一点，FP4的速度是FP8的3倍。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>虽然应该是4倍。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>是的。我在这里展示的是整数乘法的最简单情况。当你处理浮点数时，就像在FP4和FP8中那样，还有另一个项——指数——使计算变得复杂。</p>
+<p>从这里我们已经能看到什么？我认为你做出的重要观察是，存在这种随位宽的二次方缩放，这非常有效，也是低精度算术对<a href="https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29">神经网络</a>如此有效的唯一原因。我们现在要做的另一件事是比较乘法本身所花费的面积与它周围所有电路的面积。</p>
+<h3>多路复用器和数据移动的成本</h3>
+<p><strong>Reiner Pope:</strong></p>
+<p>我们会稍微回溯一下时间，看看<a href="https://www.nvidia.com/en-us/data-center/tensor-cores/">Tensor Cores</a>之前的<a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU</a>是如何工作的，这实际上和<a href="https://en.wikipedia.org/wiki/Central_processing_unit">CPU</a>的工作方式相同。我们把乘加单元放在哪里？一般来说，我会描述一个<a href="https://en.wikipedia.org/wiki/CUDA">CUDA</a>核心或CPU。你会有一些<a href="https://en.wikipedia.org/wiki/Register_file">寄存器文件</a>存储若干条目，也许八个条目，在这种情况下是4比特数字，但通常是32比特数字。</p>
+<p>在CUDA核心内部，我会有一个某种深度的寄存器文件，然后我有我的乘加电路。它要做的是从这个寄存器文件中取出三个任意寄存器，执行乘加运算，然后写回寄存器文件。它将写入这一个，但它能够从这一个、这一个和另一个随机寄存器中读取。它会像这样取三个输入。</p>
+<p>这是许多处理器的核心数据通路。大多数处理器看起来都是这样。你有一组寄存器，然后你有一组逻辑单元，或者说<a href="https://en.wikipedia.org/wiki/Arithmetic_logic_unit">ALU</a>。我们想要分析从寄存器文件到ALU再返回的数据移动成本。</p>
+<p>最终，会有某个电路说：“嗯，我不总是必须选择这个。我可能在任何时间点选择任何寄存器。”第一个问题是：我如何构建一个电路？我要找的电路是一个<a href="https://en.wikipedia.org/wiki/Multiplexer">多路复用器</a>。在这种情况下，它有八个输入，每个来自寄存器文件的一个条目，它有一个输出，实际上产生这个输出。</p>
+<p>这个东西的成本是多少？我们只能用AND和<a href="https://en.wikipedia.org/wiki/OR_gate">OR</a>来构建它。我们怎么构建？我们做最笨的事情。我们形成一个掩码。当我们想要读取第三个条目时，我们根据是否想要读取它，将每个条目与1或0做AND，然后把它们全部OR在一起。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>只是为了确保我理解基础知识。多路复用器所做的就是选择一个输入？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>只是选择，对软件不可见。你说“我想要第三个输入”，这意味着这里有一个多路复用器。</p>
+<p>那么这个多路复用器的成本是多少？一个作用于<em>p</em>比特的<em>n</em>输入多路复用器。我有<em>n</em>行。那就是八行，每行宽<em>p</em>比特。我必须对每一位做AND，所以我得到<em>n</em> x <em>p</em>个AND门。对于每一个输入，我必须决定是否要<a href="https://www.geeksforgeeks.org/digital-logic/multiplexers-in-digital-logic/">把它掩掉</a>。然后我要把它们全部OR在一起。</p>
+<p>会有<em>n</em> – 1乘以<em>p</em>个OR门。我有所有这些不同的东西，几乎所有的都是0，但我需要把它们从八个选项压缩成一个选项。每一步，我需要把一行OR到一个已有的行中。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>有趣的是，你不会在硬件层面思考。你只是想，“哦，我就选择第三个元素”，而像这样简单的事情本身就是一个相当复杂的电路。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这是所有隐藏的数据移动成本出现的第一步。我们只是来比较一下。我必须付出这个成本。我这里有一个多路复用器，事实上对于我的乘加运算的三个输入，我各有另外两个副本。我有这个成本，这里是3 x <em>n</em> x <em>p</em>个AND门，与真正做我关心的事情的电路中的<em>p</em> x <em>q</em>个门相比。</p>
+<p>如果我们代入实际数字，<em>n</em>为8，我仅仅在数据移动上就得到24 x <em>p</em>个门，相比之下——如果<em>q</em>为4——仅仅在乘法加法器中就是4 x <em>p</em>个门。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>这个3是从哪里来的？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这里有三个不同的输入。我暗示的是，所有这些工作，其规模随寄存器文件的大小而缩放——而这是一个非常小的寄存器文件——所有这些仅仅把数据从寄存器文件移动到逻辑单元的工作，比逻辑单元本身要昂贵许多许多倍。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>看看多路复用器长什么样可能会有帮助，也许是一个2比特或4比特的多路复用器。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>我们做一个二路多路复用器。我们有两个不同的数字，我们有两个输入。这些是被选择的输入，选择器可以是“我想要这个”或“我想要另一个”。这是一个<a href="https://en.wikipedia.org/wiki/One-hot">独热</a>编码。</p>
+<p>这是我们开始的东西。让我们聚焦于这个情况。这是我们实际得到的输入，我们想要产生这个作为结果。非常费力地，我们把这个比特与所有这些做AND。那产生了这个比特与这一行的AND。同样地，我们把这个比特与这一行做AND。那产生了全0。这里有四个AND。</p>
+<p>最后，我们把这两个OR在一起，这给出一个1。我们把这两个OR在一起，这给出一个1。我们把这两个OR在一起，它给出一个0。我们把这两个OR在一起，它给出一个1。那就是四个OR。这实际上最终看起来有点像加法。我们做了完全相同的AND集合。我们把所有这些都AND在一起，但然后我们没有用全加器电路来压缩它，我们只是用OR门做了一个非常简单的压缩。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>但那看起来不像是<em>n</em>乘以<em>p</em>。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这是在 <em>n</em>=2 个输入的情况下。在一般情况下，我们会有 <em>n</em> 行，每行有 <em>p</em> 位。这样我们就得到了 <em>n</em> 乘以 <em>p</em> 个 AND 门。在我描述的这个电路中，几乎所有的成本，八分之七的成本，都花在读写寄存器文件上，只有很小一部分成本在逻辑单元本身。</p>
+<p>这就是要解决的问题。这基本上就是 Nvidia GPU 在 <a href="https://en.wikipedia.org/wiki/Volta_%28microarchitecture%29">Volta 一代</a>之前的状态。这类东西就是 CUDA 核心内部的东西。这个问题的陈述正是引入 Tensor Core 的动机，Tensor Core 更通用的叫法是<a href="https://en.wikipedia.org/wiki/Systolic_array">脉动阵列</a>。</p>
+<p>想想我们要怎么解决这个问题。我们几乎把所有的电路面积都花在了我们其实并不关心、而且对软件程序员隐藏的东西上，而我们真正关心的东西却只占了很小一部分面积。想办法把这个变大，同时保持那个大小不变。这就是目标。</p>
+<h3>脉动阵列如何工作</h3>
+<p><strong>Reiner Pope:</strong></p>
+<p>演进的过程是，在这个阶段我们已经把这么多东西固化到硬件里了。这一行是一个乘累加，而这单个东西被固化到了硬件里。脉动阵列的思路是往上走两层循环，把外面这整个循环固化到硬件里。这个想法是，如果我们有一个粒度大得多的固定功能逻辑块，也许我们在输入和输出上付出的税就会小得多。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>有意思。听起来你是在说，如果你在矩阵乘法循环中往上走一步，你就可以把平衡更多地倾向于计算而不是通信。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>没错。我们在这里要利用两个效应。一个是我们可以让每次经过寄存器文件时做更多的事情。另一个是在这个循环的某些部分，我们可以利用某些东西保持固定不变。</p>
+<p>从视觉上看，我们要看这个矩阵乘法。循环的这一部分对应一个<a href="https://cse.buffalo.edu/faculty/atri/courses/matrix/matrix-vect-notes.pdf">矩阵-向量乘法</a>。我们取一个矩阵，把它乘以一个向量。我们怎么做呢？每一列都乘以这个向量然后求和。我们要沿着列求和。</p>
+<p>这个 0 和 3 乘以 3 和 7 然后求和，然后这个 1 和 2 乘以 3 和 7 然后求和。矩阵中的每一个条目都对应一个乘累加。我们要把这四个乘累加画出来。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>只是为了确认我理解为什么有四个乘累加：输出向量对应的列中的每个条目都是一个<a href="https://en.wikipedia.org/wiki/Dot_product">点积</a>，在这个情况下就是两次乘法，然后把这两个乘法的结果相加。你在累加……</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>实际上每个点积只有一次加法，但我们喜欢从零开始。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>但它包括了零的初始化。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>是的。我们想要有平方级的更多计算。我们拥有的计算量是之前的 <em>x</em> 乘以 <em>y</em> 倍。但我们希望只做到 <em>x</em> 倍的通信量。目的是让这个优势项以 <em>y</em> 增长。</p>
+<p>我们已经把乘法摆好了。我们想引入一个大小为二的向量，这已经符合我们列的目标了。这没问题。然而，我们需要管理这个矩阵的通信，它超出了我们 <em>x</em> 的预算。</p>
+<p>思路是，在 AI 场景中，这个矩阵会在很长一段时间内保持固定。我们这里有一些寄存器文件。从这个寄存器文件出来的数据量……在某种意义上，这就是我们希望以 <em>x</em> 增长的那一项。我们不想每个周期都从寄存器文件把整个矩阵搬进来，因为从寄存器文件接线的成本太高了。</p>
+<p>我们的关键技巧是，这个矩阵可以本地存储在脉动阵列中。我们会把这些数字 0、1、2 和 3 存储在一个叫做寄存器的门里，它物理上存储这些数字，我们会把这些数字反复复用于大量不同的向量。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>这里的优化在于，矩阵乘法的本质是你可以把这个方形的二次方的东西直接存储在逻辑运算发生的地方，它比你不断换入换出的输入多了一个维度。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>这就是矩阵乘法的本质。你要做大量的乘法才能得到一个值。一个点积是大量乘法的结果。所以这个优化意味着你可以在得到某个值之前塞进大量的乘法。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>没错。为了完整地展示具体是什么样子：我把这里的 3 和 2 交换了。就像这个 0 和 3 要乘以 3 和 7 一样，我们要沿着列在这里形成一个点积。我们要在这里输入一个 3 和一个 7。这个输入到这个乘法，也输入到这个乘法。同样地，这个 3 输入到这里，也输入到这里。然后我们要沿着这里求和。从一列的顶部开始，我们输入 0，然后从底部出来我们得到结果。</p>
+<p>从视觉上看，沿着矩阵的列执行一个点积，这正好映射到脉动阵列中在空间上所做的事情。这是一个垂直求和的点积，这是第二个也垂直求和的点积。</p>
+<p>需要进出寄存器文件的数据是什么？我们有 <em>x</em> 量的数据从输出出来，我们也有 <em>x</em> 量的数据从输入进来。至少就输入和输出向量而言，我们已经达到了目标，即只有 <em>x</em> 量的数据进出寄存器文件。</p>
+<p>这就留下了一个问题：我说权重矩阵本地存储在脉动阵列中，那它一开始是怎么到那里的呢？在某个时刻，你需要启动你的芯片并填充这些数据，那这些数据是从哪里来的呢？</p>
+<p>技巧就是我们只是非常缓慢地做这件事。我们非常缓慢地把它涓流式地喂进脉动阵列。最简单的策略是我们运行这条菊花链：在这里输入一个数字，在下一个时钟周期它会移动到脉动阵列的下一个条目。我们可以在每一列并行地做这件事，这也会从这里进来，这样我们就得到了大约 <em>x</em> 个单位的额外带宽输入。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>你能把这句话再重复一遍吗？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>我们知道我们只会很少地把数字带入矩阵。我们只想想出任何一种构造，使得跨越脉动阵列边界的接线量被限制在 <em>x</em>，而不是以 <em>xy</em> 增长。</p>
+<p>一个特别简单的策略是，我们在一个时钟周期内把一个数字带入脉动阵列的顶行。然后，在连续 <em>y</em> 个时钟周期内，我们每次都带入顶行，并把所有其他行向下移动一位。这样就把需要从这个昂贵的寄存器文件出来的接线量只保持在 <em>x</em> 的因子，而不是 <em>xy</em>。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我明白了。就通信而言有两个问题：通信时间和通信带宽。你是在说，既然我们只会加载这个一次，那就让我们最小化带宽，因为带宽等于芯片面积。我们通过更小的通道缓慢地加载它，因为我们只是要把这个值在里面保持一段时间。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>完全正确。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我觉得有意思的是，上次我们谈论跨多个芯片的推理时，我们在高层面上试图优化的主要事情是增加每内存带宽的计算量，也就是说，每通信的计算量。在这里同样，我们试图增加相对于从寄存器传输信息到逻辑的实际乘法或加法的数量。在两种情况下，你都是在试图最大化相对于通信的计算。</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>这一点在整个栈的上下都体现出来。这接近底部，接近门级。还有一个版本可能更接近门级，就是你选择使用的数字格式的精度。我们看到了同样的效应。无论是在 ALU 的精度上，还是在矩阵的大小上，都存在一个平方项与线性项的对比。</p>
+<p>这个单元是下一个更大的单元。我们有乘法电路，在它之上我们有一个相当大的脉动阵列。我画的是 2x2，但更早的 <a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">TPU</a> 被描述为这里所示电路的 128x128。这最终成为实现矩阵乘法的最有效的已知电路。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我们谈到了，看起来很明显你应该试图最大化相对于通信的计算。有哪些不那么明显的权衡让你夜不能寐，关于你应该做 X 还是 Y，而答案并不明显？</p>
+<p><strong>Reiner Pope:</strong></p>
+<p>芯片设计中的大多数决策都是尺寸决策。在我们目前画的东西里就已经……AI 芯片都有这个电路。它们有一个脉动阵列，在它附近的某个地方有一个提供输入和输出的寄存器文件。</p>
+<p>即使在这个范围内，你面临的尺寸问题是：我应该把脉动阵列做多大，我应该把寄存器文件做多大？这两个问题是耦合的。一种思考方式是为你想要花在数据移动上的芯片面积百分比设定一个预算。也许我说我想要这个是 10%，脉动阵列是 90%。</p>
+<p>然后我就可以确定我的寄存器文件的大小。更大的寄存器文件更灵活。它们让我能获得更多应用层面的性能，但它们会占用本可以花在脉动阵列上的面积。</p>
+<h3>时钟周期与流水线寄存器</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>芯片的<a href="https://en.wikipedia.org/wiki/Clock_rate">时钟周期</a>是在哪里起作用的？是什么决定了它？芯片的时钟周期又是什么？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>从根本上说，值得注意到芯片是极其<a href="https://en.wikipedia.org/wiki/Parallel_computing">并行</a>的。一块芯片里有 1000 亿个晶体管。每当你拥有大规模并行性时，你需要做的一件关键事情就是在不同的并行单元之间进行同步。</p>
+<p>在软件中，通常你会有这些非常昂贵的同步方法，比如<a href="https://en.wikipedia.org/wiki/Lock_%28computer_science%29">互斥锁</a>。一个线程会完成它正在做的事，抓取存储在内存某处的锁，然后通知另一个线程它已经完成了。在芯片上，我们采取一种非常不同的方法。大约每纳秒，芯片中的所有电路都会暂停片刻并进行同步。这就是时钟周期。整块芯片通常步调一致地、一下子进入下一个操作。</p>
+<p>这在电路上的表现是，时钟由寄存器来调节，也就是我们在别处画过的那些存储设备。理解方式是：我有一些存储单元保存着一个比特，可能是 0 或 1。然后我有一团逻辑，也许就是这个脉动阵列或乘法器。我有一堆输入馈入这团逻辑，最终会有某个输出寄存器供它写入。</p>
+<p>有一个全局时钟信号驱动所有这些寄存器。在某个特定时刻，当时钟敲响时，那一刻恰好在那根导线上的值就会被存储下来。</p>
+<p>挑战在于，我希望我的时钟速度尽可能快。如果我以 2 吉赫兹运行，我每秒完成的操作数就是 1 吉赫兹时的两倍。但这最终意味着，我对穿过这团逻辑的延迟非常敏感，因为其中发生的任何计算都需要在下一个时钟周期到来之前完成。任何芯片的一个主要优化点就是让这个延迟尽可能短。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。这里的约束似乎是，如果你加入太多逻辑，你可能会有错过时钟周期的风险。但如果你加得不够，你就在浪费潜在的计算能力。有没有这种情况：你赌一个概率，赌某个计算能完成？还是严格地说，它要么在时钟周期前完成，要么就没完成？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在标准芯片设计中，你会留出余量，使得存在一个概率，但它是许多个标准差之外。就所有实际目的而言，它是一个可靠的部件，总是能赶上时钟。</p>
+<p>有一些奇怪的例外，比如<a href="https://en.wikipedia.org/wiki/Clock_domain_crossing">时钟域交叉</a>，即你从一个时钟切换到另一个时钟。那时你确实必须对这个概率进行推理。但在主路径上，你会留出余量，使你能提前 25% 的时钟周期到达，从而极不可能错过。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>时钟在哪里同步、寄存器在哪里，这是你作为芯片设计者决定的事情吗？还是说它是一种产物——你想要某个特定的逻辑序列，而你用来把 <a href="https://en.wikipedia.org/wiki/Verilog">Verilog</a> 转换成发给 <a href="https://en.wikipedia.org/wiki/TSMC">TSMC</a> 的东西的软件，只是决定了为了让它工作，你必须在这里、这里和这里放一个寄存器，确保没有任何单一步骤让整块芯片的时钟周期变得比它必须的更长？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>插入它们实际上是设计芯片工作中很大的一部分。它由手动和自动方法相结合来完成。</p>
+<p>为了展示你能做的最笨的版本，你可以取这段逻辑并把它一分为二。不是只有一团逻辑，我可以有两团更小的逻辑做同样的事，但用一个寄存器把它们分开。如果你从中间分开，你就能达到两倍的时钟频率。这很棒，你获得了两倍的性能，但代价是多一个寄存器，也就是更多存储。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>退一步说，为什么我们需要同步整块芯片？如果你想象玩 <a href="https://en.wikipedia.org/wiki/Factorio">Factorio</a> 之类的游戏，那里没有全局时钟周期。事情做完了就是做完了。盘子上有铁，你想要就可以拿走。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>用这个类比来说，你需要留意的是，如果我有两条穿过某段逻辑的不同路径。假设我必须在这里做计算 <em>f</em>，在这里做计算 <em>g</em>，而它们将要在计算 <em>h</em> 处汇合。</p>
+<p>会有制造差异。在某些芯片上 <em>f</em> 会花稍长一点时间；在某些芯片上 <em>g</em> 会花稍长一点时间。如果我有一个信号在传播，而来自 <em>f</em> 和 <em>g</em> 的结果必须在 <em>h</em> 处汇合，可能出错的是 <em>f</em> 提前到达，结果它遇到的是 <em>g</em> 的前一个值，或者 <em>g</em> 的下一个值。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>啊。而 <em>h</em> 需要知道什么时候开始，当下一次迭代已经……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>正是。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这就解释了为什么在同一工艺节点、同一 TSMC 技术上制造的不同芯片会有不同的时钟周期。两块在 <a href="https://en.wikipedia.org/wiki/3_nm_process">3 纳米</a>制造的芯片可能会有不同的时钟周期，取决于它们是否能够优化以确保没有任何单条关键路径长到拖慢整块芯片的时钟周期。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。我在这里展示的这个优化叫做<a href="https://en.wikipedia.org/wiki/Instruction_pipelining">流水线寄存器插入</a>。我们在流水线中间插入了一个寄存器。这是时钟速度与面积之间的纯粹权衡。这是简单的情况。还有更难的情况。我画出了一条逻辑流水线，但在其他情况下，你可能有一些实际上会反馈回自身的计算。它运行某个函数 <em>f</em>，然后写回自身。例如，这可能是一个加法，你每个时钟周期都在加一个数。这个小电路本质上是对不同时钟周期上呈现的所有数求和。</p>
+<p>挑战在于，如果这个加法花的时间太长，我能做什么？如果我试图在它正中间放一个流水线寄存器，它会改变所完成的计算。我不再是对进来的所有东西形成一个连续求和，而是实际上会有两个不同的连续求和。我最终会得到一个偶数项的连续求和和一个奇数项的连续求和。这个约束——我的逻辑中有一个环，所有芯片在某个地方都有——是最难处理的，并且决定了时钟周期。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不明白为什么那会是个问题。我甚至不确定在那里放一个寄存器意味着什么。它是一种原子操作吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>嗯，加法并不是真正的原子操作。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>正如你刚才所展示的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>做一个求和需要一大堆工作。你可以取那项工作的早期部分，在中间插一个寄存器，然后取那项工作的后期部分。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。TSMC 提供 <a href="https://en.wikipedia.org/wiki/Process_design_kit">PDK</a>，它规定了他们能在芯片中授予你的逻辑原语。由他们来决定没有任何原语比他们希望某个工艺节点达到的时钟周期更大。但除此之外，难道你不能直接取用 TSMC 的所有原语，并在它们之间按需不断添加寄存器，直到达到你想要的时钟周期吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>作为逻辑设计者，芯片架构师设定时钟周期。例如，你从 TSMC 得到的原语是 AND 门或全加器这个量级的。这很大程度上取决于电压和你选择哪个库，但一般来说，你可以在一个时钟周期内顺序放置大约 10、20 或 30 个这样的原语。这些原语非常快，也许 10 皮秒。</p>
+<p>作为逻辑设计者，原则上，如果你只是在一个环里放一个寄存器和一个 AND 门，你就能得到疯狂快的时钟速度，超过 4、5 或 6 吉赫兹。但如果你取这个非常简单的电路，看看你在这里花的面积……这被称为一个门等效的大小，也就是面积上的单位一。这个东西也许是面积上的单位八。</p>
+<p>再说一次，与实际逻辑相比，你几乎所有的成本都变成了同步或通信成本。这会是那种你走得太远的情况。你让时钟速度变得非常快，代价是几乎把你所有的面积都花在了流水线寄存器上。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。所以你在暗示一种动态：你可以有非常快的时钟速度，但你并没有完成那么多工作。你可以有低延迟，但吞吐量低。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>事实上，它会损害你的吞吐量，因为你芯片的吞吐量等于你每个时钟周期完成多少工作——这基于面积效率——乘以你每秒得到多少个时钟。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这实际上和我们上次讨论的批大小问题非常相似：如果你的批大小很低，任何一个用户都能非常快地收到他们的下一个词元，但在比如一小时内处理的总词元数会比本来可能的更低。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>正是。如果你把时钟速度推得非常高，你得到的并行性就更少。</p>
+<h3>FPGA 与 ASIC</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我记得和<a href="https://www.janestreet.com/">Jane Street</a>的一位<a href="https://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a>工程师Clark聊过，他帮我准备了我们一起做的那次访谈。他当时在解释他们为什么用FPGA。我想，对于高频交易来说，吞吐量不如延迟重要，所以能以确定性的方式对时钟周期进行非常具体的控制才是最重要的。也许聊聊为什么你不能直接用<a href="https://en.wikipedia.org/wiki/Application-specific_integrated_circuit">ASIC</a>来实现这一点，或者为什么你可能会用FPGA来为<a href="https://en.wikipedia.org/wiki/High-frequency_trading">高频交易</a>获得确定性的时钟周期，会很有意思。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们来考虑一下FPGA相对于ASIC的商业案例。FPGA和ASIC使用大致相同的概念模型。你有一系列由小型原语——与门、<a href="https://en.wikipedia.org/wiki/OR_gate">或门</a>、<a href="https://en.wikipedia.org/wiki/XOR_gate">异或门</a>——构建而成的门电路，它们通过导线连接在一起，在固定的时钟周期内运行。你能在FPGA中表达的任何东西，也能在ASIC中表达。ASIC上的成本大约会便宜一个数量级，而且能效也比FPGA更好。</p>
+<p>权衡之处在于，第一块FPGA花你10,000美元，而你做的第一块ASIC要花3,000万美元，因为它需要一整套<a href="https://en.wikipedia.org/wiki/Tape-out">流片</a>。FPGA的商业用例是：当你想要某种具有非常<a href="https://www.ti.com/lit/ml/slap159/slap159.pdf">确定性延迟</a>、快速运行时间、高并行性，但你会频繁改变工作负载——也许每个月都改——的东西时。你不想每次都支付那笔流片费用。</p>
+<p>FPGA究竟是如何在固定的硬件中模拟ASIC编程模型的呢？它的核心有我们刚才谈到的两个组件。它有作为存储设备的寄存器，还有提供所有门电路的<a href="https://en.wikipedia.org/wiki/Lookup_table">查找表</a>（LUT）。</p>
+<p>然后还有第三个组件。我们有一大群这样的寄存器和LUT，它们由一大组多路复用器连接起来。在每一个寄存器和LUT前面，都有一个多路复用器，从其他所有地方选择一个输入。有一大堆不同的选项馈入到所有这些组件中。</p>
+<p>这所允许的，本质上是当我给我的FPGA编程时，我可以取所有这些组件，叠加一种特定的布线，让它穿过这个LUT，馈入另一个LUT，送到这个寄存器，然后再馈入另一个LUT，诸如此类。</p>
+<p>我用橙色画出来的，就是你……FPGA的意思是现场可编程门阵列。橙色的是在现场被编程的部分，而白色的是为了让这个器件一开始就能被制造出来而必须存在于FPGA中的所有导线。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>“在现场被编程”是什么意思？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在现场被编程意味着这个器件被部署在数据中心里。它就摆在外面这个世界上，然后你可以过来对它编程。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>啊，不是电场的那种“场”。是外面世界的那种“场”，好吧。</p>
+<p>如果我看现场编程是怎么从第一个查找表出来、进入第二个查找表的，那是怎么运作的？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>让这件事发生的导线在哪里？我画这些东西的时候有点偷懒了。这里每一个器件前面都坐着一个多路复用器，它可以从所有附近可用的电路中进行选择。FPGA的实际配置就相当于多路复用器的控制。在这个多路复用器中，我们有数据输入，还有进行选择的控制信号。</p>
+<p>在每一个这样的多路复用器旁边，都坐着一个小小的存储设备，它说：“这就是你要从哪里获取输入。”对它编程，就是配置每一个这样的多路复用器。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这说得通。那查找表内部在发生什么？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>查找表也会有一点控制信息告诉它该做什么。它的用途是可配置地扮演与门、或门、异或门，或者任何这类不同东西的角色。你可以考虑用很多种方式来做这件事。传统FPGA中的做法是……一个查找表有四位输入和一位输出。从四位到一位有多少种不同的函数？有16种不同的函数。</p>
+<p>你可以把它列成16个不同的数字。你有一张0111001的表，16个条目。这张表存储在这个蓝色的配置位中。它把这四位看作二进制，查找表中相关的那一行，然后输出那一位。这本质上就是查找表的真值表视角。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，所以如果你想想与门、或门、<a href="https://en.wikipedia.org/wiki/NOR_gate">或非门</a>、异或门，它们都以……作为输入</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>那些是双输入函数。有时我们有三输入函数，比如三路异或，或者四路异或。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>在这种情况下，这是不是只取决于它有多大？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>LUT的典型大小是四个输入。这算是一个最佳平衡点。这里还有另一个计算与通信之间的权衡。如果输入太少，你就需要用更多的LUT。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>基本上，查找表就是一张<a href="https://en.wikipedia.org/wiki/Truth_table">真值表</a>。有了真值表，你就可以编程实现任何你想要的门。所以与其叫它查找表，你可以直接把它想成一个可编程的门。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。你在这里能看到的一件事是，你能看出“FPGA比ASIC贵一个数量级”这个经验法则从何而来。你数一数这个查找表里面会有多少个门。</p>
+<p>我们基本上可以把这张查找表看作这些多路复用器之一。它必须在16个不同的值之间选择，所以它是一个有<em>n</em>=16个选项、<em>p</em>=1位的多路复用器。正如我们之前看到的，这个电路的成本是<em>n</em>乘以<em>p</em>个门。所以它的成本是<em>np</em>，也就是16个与门，还有16个或门。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这个电路指的是多路复用器？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>正是，就是多路复用器。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>进入查找表的那个多路复用器？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>查找表本身，你可以把它想成一个大的多路复用器，从全部16行中选择一个输出。这就是查找表。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但你这里画的方式是，先有一个多路复用器，然后才是一个查找表。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>一路下去都是多路复用器。这里面还有第二个多路复用器。这个多路复用器就是这个多路复用器。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>而另一个多路复用器只是在说……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>它来自这一堆门电路中的哪里。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对，而第二个多路复用器是：“好，现在你有一个值了，但这个值仍然是一个四位的值。”</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的，我从那一锅东西里选出了四位。然后我用这四位来选择我要用查找表中的哪一个条目。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>假设在第一个多路复用器中，你从八个附近的寄存器中拉取输入。那一共是32位输入。从中出来四位。这四位进入第二个多路复用器，也就是查找表内部的那个。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>在这种情况下，这些寄存器是单比特寄存器。如果附近有八个寄存器和查找表，那么我总共有八位从附近进来。我从八个不同的值中选择出四个。实际上有四个不同的多路复用器，每一个输入位都关联着一个小多路复用器。它们每一个都是从八个中选一个。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那八个是从哪里来的？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>附近的寄存器和其他LUT。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>每个寄存器是一位。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我猜AMD或者不管是谁制造这些FPGA，仍然必须对哪些寄存器连接到哪些寄存器有明确的取舍。你可以编程实现实际的门，但他们在连接中加入了导线……通信拓扑，对吧？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>你在局部粒度上获得灵活性。有一个附近的邻域可供你选择，但对于更粗粒度、长距离的连接，他们对此有明确的取舍。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那它慢10倍的原因是什么？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>如果你看看构建这个查找表的成本，是32个门。它能给我相当于——这里我能做的一件有趣的事是什么——一个四路与门。四路与意味着与、与，然后再一个与的与。这是一个我可以在ASIC中直接用三个与门实现的电路。用LUT，我也可以实现它，但它会花32个门而不是三个。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以开销实际上来自于这样一个事实：描述一张真值表有一种比列出每一种可能的输入组合更简洁的方式，那就是直接写出那个门。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>是的，就是铺设多晶硅和导线等等。</p>
+<h3>缓存 vs 暂存器</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有意思。你跟我提过的一个重要点是，他们之所以更偏好 FPGA 而不是 CPU，是因为 FPGA 能获得确定性的时钟周期。他们知道一个数据包什么时候进来、什么时候出去。为什么在 CPU 上这无法得到保证？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>其实你完全可以设计一个具有确定性延迟的 CPU。事实上，很多 AI 芯片内部的处理器也具有确定性延迟。<a href="https://en.wikipedia.org/wiki/Groq">Groq</a> 就宣传过这一点。TPU 的核心部分也有这个特性。</p>
+<p>挑战在于同时实现确定性延迟和高速度。非确定性延迟来自 CPU 中一些特定的设计选择。其实完全可以去掉这些设计选择，做出一个具有确定性延迟的 CPU，但这类 CPU 在市场上不太有吸引力，所以人们不再做这种 CPU 了。</p>
+<p>从某种意义上说，确定性延迟是一个更简单的起点，而一些芯片设计者往里加了些东西，才让它变得非确定。举个具体的例子，CPU 上最重要的非确定性来源，大概就是 <a href="https://en.wikipedia.org/wiki/CPU_cache">CPU 缓存</a>本身。</p>
+<p>在 CPU 里，你有 <a href="https://en.wikipedia.org/wiki/Die_%28integrated_circuit%29">CPU 裸片</a>本身，然后旁边还有 <a href="https://en.wikipedia.org/wiki/DDR_SDRAM">DDR 内存</a>。内部有一套缓存系统，会记住最近对 DDR 的访问并把它们存起来。当我执行 CPU 指令时，每当有一条访问内存的指令，它首先检查数据是否已存在缓存中。如果没有，就从 DDR 取。</p>
+<p>这是一个巨大的优化。缓存比 DDR 快两个数量级。如果你从不用缓存，基本上所有程序都会慢一百倍。缓存的存在对于 CPU 以合理速度运行是绝对必要的。</p>
+<p>但你是否命中缓存，取决于 CPU 周围的环境：还有什么其他程序在运行、最近运行过什么、以及缓存系统内部的随机数生成器在做什么。这是 CPU 运行时的一个很大的非确定性来源。</p>
+<p>这就是 CPU 的内存系统。你可以做的一件很不一样的大事是：与其让硬件说“我要读内存”，然后由硬件决定是否从缓存读，你可以把这个决定烘焙进软件里——这是一种不同的设计哲学。</p>
+<p>比如你在 TPU 上就能看到这一点。我画同样的图，但我会把它叫做暂存器。主要区别是……这是一个 TPU，这种情况下你有 <a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">HBM</a> 而不是 DDR，但它仍然是片外内存。与其让软件说“先访问内存”然后让硬件决定，你有一种指令去访问暂存器，另一种完全不同的指令去访问 HBM。</p>
+<p>这种风格通常被称为<a href="https://en.wikipedia.org/wiki/Scratchpad_memory">暂存器</a>而不是缓存。关键区别在于，你有一种指令说“读或写暂存器”，另一种完全不同的指令说“读或写 HBM”。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以暂存器就是那个缓存。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对，这里这个东西就是暂存器。</p>
+<h3>为什么 CPU 核心比 GPU 核心大得多</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>退一大步来看：人们说计算机具有“<a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">冯·诺依曼架构</a>”，即信息的串行处理。也许只是因为我们一直在讨论并行加速器，但 FPGA 是超级并行的。AI 加速器、TPU，都是超级并行的。甚至 CPU 如果你考虑它们拥有的所有核心，也是超级并行的。现代硬件在什么意义上实际上还是冯·诺依曼架构？用这个来描述现代硬件真的公平吗？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我觉得用它来描述 CPU 是公平的。你在 CPU 上获得的并行度大约是 100 个核心乘以大概 16 路向量单元，所以 CPU 上大约有 1,000 路并行。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有个问题：有一块裸片被用于 CPU，如果<a href="https://en.wikipedia.org/wiki/Thread_%28computing%29">线程</a>更少，仅就晶体管电压开关而言，是不是字面上只有一条控制流——裸片上的一小部分——在切换电压？</p>
+<p>你实际上是怎么占满 CPU 的裸片面积的……</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>如果核心这么少，你把整块裸片都花在什么上了？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对，那里在发生什么？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>核心就是大得多、复杂得多。我们应该把一个占裸片百分之一面积的 CPU 核心，和一个 LUT 做比较。一个 LUT 只有 16 个门。为什么 FPGA 里的 LUT 比 CPU 里的核心多这么多，就很清楚了。</p>
+<p>但为什么比如 CUDA 核心比 CPU 核心多？CPU 和 GPU 的区别是什么？在 CPU 内部，面积的一大用途是缓存。实际上 ALU 占的很少。主要是这些寄存器文件而不是逻辑单元。这两者在 GPU 里都有对应物，所以这不是大的区别。</p>
+<p>但 GPU 里没有对应物的东西是<a href="https://en.wikipedia.org/wiki/Branch_predictor">分支预测器</a>。CPU 里有一大块区域，只是一堆预测器，在说下一个<a href="https://en.wikipedia.org/wiki/Branch_%28computer_science%29">分支</a>什么时候发生、分支目标在哪里。把其中很多剥掉，同时让这些寄存器文件更紧凑，就驱动了 GPU 相对 CPU 的很多收益。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>分支预测器的目的是什么？同时执行两个分支，还是它做什么？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>问题在于，当我有一系列指令时，如果遇到一个分支，处理一条指令的实际步骤要花很长时间。大概要五纳秒。</p>
+<p>注意到我有一个分支、评估<a href="https://en.wikipedia.org/wiki/Boolean_circuit">布尔</a>是否为真、把程序计数器更新到新目标、然后从指令内存读取，这个过程可能要五纳秒才能完成。所以实际上，这可能在这下面某处才完成。我想跑的时钟速度比五纳秒所允许的快得多。五纳秒是 200 MHz 的时钟速度。我想跑到一或两吉赫兹。</p>
+<p>所以我需要在分支被评估的同时运行其他指令。我只想继续运行我之后的指令。但那可能是错的。如果分支最终被采纳了，那我就需要知道，与其评估这些指令，我实际上需要跳到目标所在处，改而运行那些指令。分支预测器的目的就是提前五个周期预测一个分支将要发生，甚至在你到达那条指令之前。</p>
+<h3>大脑 vs 芯片</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果我思考大脑如何工作，与你在这里描述的东西相比，在高层次上差异可能是：虽然你可以在这些加速器里做结构化稀疏，省下本来要专门用于门的面积，但在大脑里是非结构化稀疏。任何神经元都可以连接到任何其他神经元，而且不是那种列对齐的方式。</p>
+<p>然后是内存和计算共处一地的事实。虽然我想你可以说，在某种意义上，内存和计算在这些裸片上也是共处一地的。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>从某种意义上说，这正是内存和计算的共处一地。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以也许那不是大的区别。另一个大的区别是大脑的时钟周期比计算机慢得多。部分是为了节省能量，因为时钟周期越快，为了让信号稳定下来并识别晶体管处于什么状态，电压就需要越大。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>没错。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不知道你对大脑可能在做什么、与这些芯片如何工作相比，有没有什么评论。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们先说时钟速度这个。芯片上的时钟速度相当高，因为那驱动更高的吞吐量。当我们比较一个运行某种工作负载的 GPU 时，它跑的是批量大小 1,000。而大脑不是跑批量大小 1,000，只有一个我。</p>
+<p>你可以想象说，“拿一个 GPU，别跑一吉赫兹，跑一兆赫兹”，那就会开始看起来更像你在说的、大脑里对应的那些东西。但就硅的工作方式而言，那并不会给你 1,000 倍的能量效率优势。</p>
+<p>最终看起来的样子是，你只是把这个电路跑一次到稳定，然后它就会闲置很长一段时间。它闲置时并不消耗很多能量，因为大部分能量消耗在把比特从零切到一再切回来。</p>
+<p>我们谈谈这样一个电路的能量消耗。思考一个比特被存储的方式是，你在芯片某处的一个电容里隐含地沉积了一些电荷。当比特变成一时它被充电，然后当下一次变成零时它被放电。</p>
+<p>给电容充电、然后把这些电荷倾倒到地的这个循环，就是能量被消耗的地方。这叫做动态功耗或开关功耗，它是芯片能量消耗的大部分。还有一些其他能量消耗仅仅来自绝缘体不完美这个事实，但我们先忽略它。大部分能量消耗来自从零切到一再切回零。</p>
+<p>如果你把芯片跑得慢得多，每 1,000 个时钟周期才给它一个时钟，你就会有 1,000 倍少的翻转。那大约就是 1,000 倍少的能量消耗。但这不是能量效率上的实质性优势。</p>
+<h3>一个 GPU 就是一堆微小的 TPU</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好，所以你从高层描述了一个 TPU 是如何工作的。从高层来看，GPU 和 TPU 的工作方式有什么不同？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>有一个高层的组织原则是不同的，然后在核心内部，东西也是不同的。从高层看，我们拿一个 GPU 和一个 TPU，看看顶层的块结构长什么样。</p>
+<p>如果你把每种情况下的这个都看作整块芯片，GPU 的组织方式主要是一堆几乎相同的单元，也就是 <a href="https://modal.com/gpu-glossary/device-hardware/streaming-multiprocessor">SM</a>。它们中间有一个 <a href="https://en.wikipedia.org/wiki/CPU_cache#MULTILEVEL">L2 内存</a>，然后下面还有一堆这样的 SM。所以这是一个相当规整的核心网格。</p>
+<p>如果我们对比着看一个 TPU，你得到的是粒度粗得多的逻辑单元。你只有几个矩阵单元，也就是那些大的脉动阵列。中间你有一些向量单元，然后下面你有矩阵单元。这些矩阵单元加上中间的向量单元，就构成了整个 TPU 芯片。</p>
+<p>你可以把这种东西缩小成一个非常小的单元，带一个更小的矩阵单元和一个更小的向量单元，而这差不多就是一个 SM 的样子。从非常高的层面看，GPU 就是把很多微小的 TPU 平铺在整个芯片上。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>哦，有意思。你是在说，一个流式 SM 里的张量核心，类似于一个 <a href="https://docs.cloud.google.com/tpu/docs/system-architecture-tpu-vm">MXU</a>？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>对，都非常相似。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我明白了。如果你有更多缺乏结构的情况，有一堆微小的 TPU 就非常合理。而如果你只是有巨大的矩阵乘法，你可能想避免让每个 SM 都有自己的寄存器和 warp 调度器所带来的成本。为什么不干脆做一个巨大的东西，把这些成本分摊到整个东西上呢？</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这体现在你能把东西做多大上。我们见过这个主题，尤其是脉动阵列，一个更大的脉动阵列能更好地分摊寄存器文件的成本。</p>
+<p>这种设计允许你有更大的脉动阵列，而 GPU 的设计则把你限制在每样东西都是小单元上。不过这里有一个权衡。由于这种粗粒度的分离，你需要把大量数据从向量单元移动到矩阵单元，而只能通过这里两条周界线。</p>
+<p>如果你看 GPU 里对应的情况，你到处都有向量单元，你可以通过许多不同的线路移动数据。实际上，GPU 里向量单元和矩阵单元之间能移动的数据量比 TPU 里大得多。你不是必须通过仅仅两条线移动所有数据，而是在 GPU 里通过 16 条线路移动它。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。但你也可能只需要跨越更小的面积。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>这同时也节省能量。所以如果你能完全在一个 SM 内操作，数据移动就小得多。但一旦你想跨 SM 操作，它就变得更复杂、更昂贵。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以你不必评论，但人们可能会预期 MatX 可能尝试做的一件事，是得到类似 GPU 的那种更小的脉动阵列结构，周围环绕着 <a href="https://en.wikipedia.org/wiki/Static_random-access_memory">SRAM</a>，但同时，你可能会丢弃那些在 SM 里支持 CUDA 架构所需的东西——它们占了不少空间。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>我们公开谈过一种我们称为<a href="https://matx.com/research/series_b">可拆分脉动阵列</a>的东西，在某种意义上，你可以把它看作大的脉动阵列，同时也可以是小脉动阵列。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>酷。好，我觉得这是一个很好的收尾点。Reiner，非常感谢你。</p>
+<p><strong>Reiner Pope：</strong></p>
+<p>谢谢，Dwarkesh。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-dwarkesh-reiner-pope-2","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"subject":"Reiner Pope：从基础开始理解芯片设计","snippet":"从逻辑门和乘加电路出发，讨论脉动阵列、数据搬运、缓存以及 GPU、TPU 与 CPU 的设计取舍。","date":"2026-05-22","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["芯片设计","计算机体系结构","内存管理"],"mdTheme":"magazine","sourcePath":"talks/dwarkesh-reiner-pope-2.md","sourceUrl":"https://www.dwarkesh.com/p/reiner-pope-2","body":"$3","prompts":[]},"listPosition":{"index":198,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"talks-dwarkesh-reiner-pope","subject":"Reiner Pope：大语言模型训练与服务背后的数学","sender":"Dwarkesh Patel","date":"2026-04-29","matchedPeople":["Dwarkesh Patel","Reiner Pope"],"matchedTags":[]},{"id":"talks-dwarkesh-si-sheppard","subject":"Si Sheppard：几百名西班牙士兵如何推翻两个帝国？","sender":"Dwarkesh Patel","date":"2026-10-01","matchedPeople":["Dwarkesh Patel"],"matchedTags":[]},{"id":"talks-dwarkesh-noam-brown","subject":"Noam Brown：智能体群、对齐与递归自我改进","sender":"Dwarkesh Patel","date":"2026-09-17","matchedPeople":["Dwarkesh Patel"],"matchedTags":[]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

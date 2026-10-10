@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2c28,<p><em>不，我就是不肯 Let it Go（放下这件事）</em></p>
+<p>两年前<a href="https://www.amazon.com/dp/B0F162FTWR/">开始写小说</a>时，我迷上了研究故事讲述（storytelling）和故事结构。而这番深入研究有一个不太妙的后果：现在每当我读一个故事，或看一部影视作品，脑子里就会不自觉地启动一套分析程序。</p>
+<p>我总忍不住把它拆开，琢磨它哪些地方做得好、哪些地方做得不好。与其说是为了评判，不如说是想看看它能对我自己的创作过程有什么启发。</p>
+<p>我的两个女儿已经彻底进入了迪士尼公主阶段，所以我看《冰雪奇缘》（Frozen）的次数，比我原本会主动选择看的次数多了一些。</p>
+<p>自从这场观影马拉松开始，片中的反转就一直让我有些不舒服。我知道我不是第一个指出这一点的人，关于这个反转到底好不好，已经有不少争论。但我想明白了它为什么在故事讲述上站不住脚，而这也很好地说明了：让观众意外，与辜负观众的信任，究竟有什么区别。</p>
+<h2>反转</h2>
+<p>假如你今年还没看过二三十遍《冰雪奇缘》，片中的重大反转发生在这里：陷入困境的公主 Anna，以为她的白马王子 Hans 能用一个真爱之吻，治好她被冰冻的心。</p>
+<p>然而，就在亲吻她之前，Hans 却坦白说，他从未爱过她，只是在利用她，试图夺取王国。他拒绝亲吻她，还为了加快她的死亡，熄灭了给她取暖的炉火，把她锁在房间里等死。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!xyun!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd065503-c345-411f-b08d-b08f5cad0bce_2048x876.png" alt="Hans 拒绝亲吻 Anna"></p>
+<p>这个反转利用了《睡美人》（Sleeping Beauty）、《白雪公主》（Snow White）等早期迪士尼电影的结局：在那些故事里，王子确实靠亲吻公主化解了危机。它借用了你对迪士尼会沿用这种套路的预期。</p>
+<p>它还借用了电影前半段一点点铺垫出的 Anna 的天真。她做出了种种决定：要嫁给当天才认识的男人，独自冲进暴风雪，还一再无视她那位冰雪女巫姐姐的告诫：“喂，你真的应该离远一点，因为我控制不了这些力量，你可能会死。”</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!fGa7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f2ab98e-4054-47fb-b6f7-47905c98d4b2_2048x865.png" alt="Anna 与 Elsa"></p>
+<h2>问题</h2>
+<p>叙事视角（point of view，POV）是讲故事最重要的因素之一，因为它决定了故事如何传达给观众，以及观众能接触到故事的哪些部分。要设计一个好的反转，视角尤其重要：你通过这个视角能够接触到的故事内容，决定了你作为观众知道什么、不知道什么，也就决定了你能有多惊讶。</p>
+<p>《搏击俱乐部》（Fight Club）的故事，百分之百都是从叙述者的视角讲述的——他没有名字，由 Edward Norton 饰演。只有当他转述其他角色告诉他的故事时，你才不是通过他的眼睛看事情。你从来不会从 Marla 或 Bob 的视角看到任何东西，因为那样就会立刻暴露 Tyler 并不存在。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!8gaH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe037c55c-7856-4ec6-9413-56387691833a_1024x576.png" alt="《搏击俱乐部》"></p>
+<p>这个叙述者是不可靠叙述者（unreliable narrator）：他幻觉出了自己生活中的另一个人。但你直到后来才意识到这一点，因为起初你没有理由相信，他讲述的故事会有失真。第一次观看时，其实就有一些暗示表明他不可靠，比如在前面的几个场景里，Tyler 的身影曾一闪而过，只是大多数人没有注意到。等你重看这部电影，他的不可靠就显得很明显了。</p>
+<p>《冰雪奇缘》没有叙述者，也没有内心描写（interiority）。你最接近直接看见某个人想法的时候，是角色在自言自语，所以大部分时候，你只能通过他们的行为来推断他们的想法和动机。</p>
+<p>《搏击俱乐部》的叙述者反复打破第四面墙（fourth wall），直接与观众交谈，这让他的不可靠更容易让人信服。你和他之间存在一种直接关系，它独立于故事中各个角色之间的关系。《冰雪奇缘》没有建立这种单独的关系，只有角色之间的关系。</p>
+<p>我们知道 Elsa 拥有秘密的力量，是因为我们看到了她的过去和她的挣扎，而不是因为她告诉了我们。因此，在《冰雪奇缘》里，角色即使说谎，也应该只是对彼此说谎。我们没有理由认为他们能对我们说谎，因为我们不像在《搏击俱乐部》里那样，作为某种准角色存在于故事中。</p>
+<p>所以，Hans 暗中谋划的反转原本是可以成立的，因为我们主要是通过 Anna 天真的眼睛看他的。他们在舞会上的相处、他们的合唱，以及 Anna 动身追赶 Elsa 时的那些片段，基本上都是从 Anna 满怀憧憬的视角呈现的，这也影响了我们对 Hans 的看法。他看起来与她一样浪漫；当她的马独自小跑回镇上，而他骑马出发去救她时，他看起来又很高尚。早期大多数没有 Anna 在场、却出现 Hans 的片段里，他都被其他人围着，看起来是在继续扮演高尚的救星和保护者。</p>
+<p>如果关于 Hans，我们看到的就只有这些，我认为反转是能成立的。把这些行为理解为一场处心积虑的阴谋，目的是从天真的公主手中夺取权力，完全说得通。</p>
+<p>但一个极小的细节毁了它。</p>
+<h2>错误</h2>
+<p>Anna 和 Hans 在第一幕前半段相遇：Hans 骑马时不小心撞到了 Anna，随后险险把她救下，没让她掉进河里。他们狼狈地跌在一条船里，叠在彼此身上，两个人显然都表现得一见倾心。然后，Anna 跑去为加冕典礼做准备。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!RC0B!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff84c289d-488f-4718-bca9-4d99ab12dffb_2048x860.png" alt="Anna 与 Hans 在船中相遇"></p>
+<p>如果这段互动就停在这里，后面的反转仍然没有问题，因为重看时，我们可以把它理解为 Hans 在演戏，想骗 Anna 相信，他和她一样，也对对方一见倾心。而且，由于我们主要是从 Anna 的视角看这一切，自然也会带着她的天真，以及她对爱情故事发生的渴望。尤其是前一首歌《For the First Time in Forever》已经为这种渴望做了铺垫：</p>
+<blockquote>
+<p>有生以来第一次，<br>
+或许会有人注意到我。<br>
+我知道，这实在太疯狂，<br>
+居然梦想着找到爱情。<br>
+但有生以来第一次，<br>
+至少我有了一个机会。</p>
+</blockquote>
+<p>然而，Anna 跑走后，这个场景并没有结束。它本应该结束，因为到这里为止，一切都是从她的视角呈现的。但在 Hans 的马向 Anna “挥手”道别之后，Hans 掉进了湖里，然后他把船抬起来，看着 Anna 离开。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!0nLG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Febfddaf7-9525-4fd1-9b8e-68295cb07c13_2048x856.png" alt="Hans 抬起船，看着 Anna 离开"></p>
+<p>这小小的一段动作（beat）就是整个问题所在。看看 Hans 的表情：他显然仍然带着那种一见倾心、满眼憧憬的神情，和刚才与 Anna 说话时一样。但现在，他是独自一人。在场没有任何人需要他去骗。在以这种方式讲述的故事里，加入这样一小段动作，唯一的理由就是向观众透露关于这个角色的信息。</p>
+<p>恰恰是在这里，他们原本可以给出一个极其微妙的线索，让观众察觉到这场骗局。露出邪恶的冷笑会太明显，但他们可以给他一个好奇的表情，或者用别的方式，暗示他心里想的还有爱情之外的东西。</p>
+<p>可他们没有这么做。在反转发生之前，这是你唯一能与 Hans 单独相处的时刻，而你看到的，是他对 Anna 表露出了与她想象中相同的感情。</p>
+<p>这就是糟糕的写作。他们让反转成立，靠的不是巧妙的欺骗——那种让你重看时能够笑自己怎么没发现的欺骗——而是直接对你这个观众撒谎。</p>
+<p>如果 Hans 和你有某种关系，就像《搏击俱乐部》的叙述者与你有关系一样，这或许可以接受。但《冰雪奇缘》从来没有打破过第四面墙，所以没有理由让一个角色直接对观众说谎。在以这种方式讲述的故事里，每当你和一个角色独处时，你都可以放心地认为，自己看到的就是这个角色真实的感情和动机。</p>
+<p>这很好地说明了，细微之处在故事里能有多大的影响。一个句子可以改变整本书，一小段动作也可以改变整部电影。</p>
+<h2>本来不必这样</h2>
+<p>沿着这个故事继续想下去，我实在不确定他们为什么要往这个方向走。黄鼠狼镇公爵（Duke of Weaseltown）本来已经是个不错的反派，动机也很有说服力。在放弃让 Elsa 当反派之后，他们完全可以把他作为主要对手。</p>
+<p>他们也可以保留“真爱”的反转。与其让 Hans 背叛 Anna，不如让他们真的亲吻，然后什么也没发生。反转就在于：他们刚认识，彼此之间并不是真爱。这也说得通，因为当 Anna 说自己爱上了 Hans 时，Elsa 和 Kristoff 的反应已经为这个反转做过铺垫。</p>
+<p>然后，Hans 可以帮 Anna 阻止公爵杀死 Elsa，同时保留原来的第二个反转：治好 Anna 的，是“一个真爱的举动”——救下她的姐姐。从一开始，它就不一定非得是一个吻。我认为这个第二重反转非常棒，只是他们搞砸了另一重反转，也多少毁了它。</p>
+<p>那么，为什么一定要把他写成反派呢？也许他们对“邪恶王子”这个概念很兴奋，也许是想传达某种政治信息，我不知道。但无论出于什么原因，那个小小的细节确实把整件事都搅坏了。</p>
+<h2>译者说明</h2>
+<p>五幅配图的辅助说明由译者依据<a href="https://blog.nateliason.com/p/frozens-lie-how-a-tiny-detail-can">原文</a>对应正文补写。</p>
+<p>文中对电影叙事视角、场景作用及编剧可能动机的判断，均是 Nat Eliason 的分析或猜测。替代剧情也是作者提出的设想。</p>
+<p>公开原文在Marla与Bob之间写作<code>for</code>，句意在并列两个角色的视角，译文按“或”处理。“Duke of Weaseltown”依原文保留。歌词按原文所引六行翻译。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-frozens-lie-storytelling","sender":"Nat Eliason","author":"Nat Eliason","authorAliases":["Nat Eliason"],"publisher":"Nat Eliason","subject":"《冰雪奇缘》的谎言：一个小细节如何毁掉一个故事","snippet":"Nat Eliason 对比《冰雪奇缘》与《搏击俱乐部》的叙事视角，分析 Hans 独处时的一个表情如何破坏反转，并提出替代情节。","date":"2025-11-18","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["电影","叙事技巧","创作"],"mdTheme":"magazine","sourcePath":"essays/frozens-lie-storytelling.md","sourceUrl":"https://blog.nateliason.com/p/frozens-lie-how-a-tiny-detail-can","body":"$3","prompts":[]},"listPosition":{"index":420,"total":571},"matchedPerson":{"id":"nat-eliason","name":"Nat Eliason","email":"","contentCount":1,"topTags":[{"id":"创作","name":"创作","count":1},{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"电影","name":"电影","count":1}]},"relatedArticles":[{"id":"nolan-odyssey-five-takeaways","subject":"诺兰奥德赛的五大看点：魔力与人性","sender":"henri","date":"2026-07-17","matchedPeople":[],"matchedTags":["电影","叙事技巧"]},{"id":"talks-how-to-write-incredible-stories-wright-thompson","subject":"如何写出令人惊叹的故事","sender":"David Perell","date":"2026-04-01","matchedPeople":[],"matchedTags":["叙事技巧","创作"]},{"id":"talks-interview-model-behavior-george-saunders","subject":"模型行为：George Saunders","sender":"On Substack","date":"2026-09-30","matchedPeople":[],"matchedTags":["创作"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,498 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T14a92,<p>原文：<a href="https://www.dwarkesh.com/p/dylan-patel-3">Dylan Patel – Anthropic &#x26; OpenAI will have most of the world’s compute by 2028</a></p>
+<h2>访谈正文</h2>
+<p>再次和我的双胞胎兄弟 Dylan Patel 聊天，非常开心。</p>
+<p>我们梳理了未来几年的实验室经济学——随着 RSI 临近，从推理向训练的转变；以及 Anthropic 和 OpenAI 如何有望在未来几年内控制世界上大部分可用 FLOPs（因为它们能更好地将算力变现，从而在竞价中胜过所有人）。</p>
+<p>然后我们讨论了，到本十年末我们将看到的超过 $10T 的 AI 总资本支出，是否会引发一场主权债务危机——超大规模企业的债务推高利率，把没有 AI 敞口国家推向破产，并让非 AI 类股票崩盘。</p>
+<p>有一个我们没能解决的问题是：是否存在任何东西，能够对抗这个行业中所有冲向中心化的力量——训练中的规模经济、算力的稀缺，以及最终的持续学习和 RSI。</p>
+<p>在 <a href="https://youtu.be/aV26V1UvkJw">YouTube</a> 上观看；在 <a href="https://podcasts.apple.com/us/podcast/dylan-patel-anthropic-openai-will-have-most-of/id1516093381?i=1000785793715">Apple Podcasts</a> 或 <a href="https://open.spotify.com/episode/1chA0sqLyHUL684tUEE3ek">Spotify</a> 上收听。</p>
+<h2>文字记录</h2>
+<h3>两家实验室很快将控制世界上大部分算力</h3>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>好，我回来了，和我一起的是 <a href="https://semianalysis.com/">SemiAnalysis</a> 创始人 Dylan Patel。我们版本的家庭感恩节晚餐，就是每年一次的播客。但我们其实没有血缘关系。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>别把这事告诉大家。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>这会毁掉那个神话。基本上，世界经济走向越来越取决于实验室经济走向、算力市场走向等等。我想理解这个疯狂的未来在几年内会落到哪里。但让我们先从今天所处的位置开始。给我讲讲现在的实验室算力和实验室收入，也许再往外推一两年。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>回到去年，甚至到去年年底，<a href="https://fortune.com/2025/10/07/data-centers-gdp-growth-zero-first-half-2025-jason-furman-harvard-economist/">美国 GDP 增长的大部分都只是 AI 基础设施</a>。展望今年，上线算力中大约三分之一是给实验室的，给 OpenAI 和 Anthropic 的。它可能由别人建设，然后租给它们，但最终客户是它们。</p>
+<p>随着我们走向未来，<a href="https://epoch.ai/data-insights/hyperscaler-capex-trend">算力的数字正在膨胀</a>。今年我们的 <a href="https://www.investopedia.com/terms/c/capitalexpenditure.asp">CapEx</a> 略高于 1 万亿美元。到 28 年，将超过 $2 万亿。实验室在其中所占的比例也在不断增加。所以最终，你会看到一个非常有趣的情况：实验室正从每年花费数百亿美元的公司，变成每年花费数千亿美元的公司，并预测到本十年末甚至每年花费数万亿美元。这至少是它们已经开始与合作伙伴签署的一些合同。</p>
+<p>这要求它们的经济结构发生重大重塑。到目前为止，它们一直主要是亏损的公司。Anthropic 在 Q2 开始盈利。据信在 Q3 的某个时候，随着 <a href="https://openai.com/index/introducing-the-codex-app/">Codex</a> 和 <a href="https://openai.com/index/previewing-gpt-5-6-sol/">5.6</a> 等的更大崛起，OpenAI 甚至也可能开始盈利。但如果我们回到一年前，它们所有的钱都是风险投资资助的亏损。如果我们回到甚至今年年初，那也是风险投资资助的亏损。它们现在已经转危为安，实际上开始盈利了。</p>
+<p>这并不意味着它们不再吸收新资本。新资本仍在流入，以进一步加速增长。但最终，它们越来越多的业务是由自身收入支撑，而不是靠注入它们的资本。在过去一年半里，它们的利润率确实飙升了。算力的基础成本往往约为<a href="https://www.nrc.gov/docs/ML1209/ML120960701.pdf">每兆瓦</a>1000万、1300万或1500万美元。</p>
+<p>现在发生的事情最有趣的方面是：以前，如果它们服务一个模型——<a href="https://openai.com/index/gpt-4-research/">GPT-4</a> 在 <a href="https://en.wikipedia.org/wiki/Nvidia">Nvidia</a> <a href="https://en.wikipedia.org/wiki/Hopper_%28microarchitecture%29">Hopper</a> <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPUs</a> 上提供服务——这对 OpenAI 来说产生的是负的<a href="https://www.investopedia.com/terms/g/grossmargin.asp">毛利率</a>。但现在，当 OpenAI 服务 GPT-5.6，或 Anthropic 服务 <a href="https://www.anthropic.com/news/claude-opus-5">Opus 5</a> 或 <a href="https://www.anthropic.com/claude/fable">Fable 5</a> 时，它们的收入创造已经远远超过了每兆瓦增量1000-1500万美元。就 Anthropic 而言，收入已经高达每兆瓦 $50 million。这现在使它们能够做到的是：“嘿，如果我在<a href="https://cloud.google.com/discover/what-is-ai-inference">推理</a>容量上花 10 美元，我实际上能产生 50 美元的收入，然后我可以回过头来，把所有这部分利润增量地花在训练上。”</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我非常想理解的一件事是，你如何看待算力在实验室层面的中心化，或者说流向世界的算力与流向实验室的算力之间的相对比例。如果你说现在边际算力的三分之一流向实验室，那么到什么时候，世界上超过一半的增量算力会流向实验室？到什么时候，实验室基本上会拥有世界上绝大部分算力？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>今年年初，OpenAI 从 2 吉瓦起步，Anthropic 不到 2 吉瓦。到今年年底，它们都超过 5 吉瓦。所以它们整体算力变为原来的3-4倍。当你看到新增的增量算力时，这大约占今年新增算力的 30%。</p>
+<p>随着我们迈入明年，鉴于已经签署、敲定和落笔的内容，你会看到更加戏剧性的情况。Anthropic 和 OpenAI 明年将拿走多达 40% 到 50% 的算力。这种中心化看起来并没有放缓或停止。事实上，它看起来只是在加速。</p>
+<p>为它们建设这些算力的人会发生变化。明年，一个重要的新进入者例如是 <a href="https://en.wikipedia.org/wiki/SpaceX">SpaceX</a>，它正在建设大量算力。它们正积极地将相当一部分<a href="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-20-2026/card/anthropic-rents-1-25-billion-of-spacex-data-center-capacity-each-month-uNS0TiOKvaa8wo4GhxII">租给 Anthropic</a>，很可能也租给 OpenAI，因为它们是那些有边际能力支付最高价格的一方。此外，OpenAI 和 Anthropic 也开始建设自己的算力——<a href="https://www.wsj.com/tech/ai/openai-broadcom-develop-custom-chip-for-ai-inference-beafd74a">OpenAI 用自己的芯片</a>，<a href="https://www.anthropic.com/news/google-broadcom-partnership-compute">Anthropic 用从 Google 购买的 TPU</a>，并<a href="https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure">与 Fluidstack 一起部署</a>。</p>
+<p>所以你问：“嘿，什么时候世界上新增算力的一半会只流向 OpenAI 和 Anthropic？”实际上到明年年底，增量算力的一半就已经流向 Anthropic 和 OpenAI 了。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>因为算力增长如此之快，增量算力基本上将构成大部分算力。所以这非常快——你是说也许在一年半或两年内——世界上大部分算力将由两家实验室拥有，或者至少是在服务来自两家实验室的需求。</p>
+<p>有这样一个趋势：也许世界算力以吉瓦计每年翻一番，但前沿实验室的算力每年翻三倍。如果你保持当前趋势，它会从今年年初的 2 增长到今年年底接近 6。就是乘以 3。到 2027 年底是 18，到 2028 年底是 54。你是不是觉得：“好吧，到那时，考虑到世界算力总量，它们根本不可能继续翻三倍”？你如何看待未来几年的世界算力状况？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>如果今年增量算力增加 30 吉瓦，明年 50 吉瓦，后年大约 70 吉瓦，你最终会看到这个非常有趣的现象。今年部署的每一瓦，都比两年前部署的瓦效率高得多。世界上算力的巨大比例是今年部署的。尽管它没有让部署的瓦数翻倍，但我部署的是 <a href="https://newsletter.semianalysis.com/p/nvidias-christmas-present-gb300-b300-reasoning-inference-amazon-memory-supply-chain">GB300s</a>、<a href="https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the">TPUv7s</a> 和 <a href="https://newsletter.semianalysis.com/p/aws-trainium3-deep-dive-a-potential">Trainium3s</a>，它们要高效得多得多得多。它们的每瓦性能比上一代芯片高 3-5 倍。</p>
+<p>所以最终你在这里有一个巨大的阶梯。如果 Anthropic 和 OpenAI 明年拿走 45% 的算力，那么可以说到 27 年 12 月，它们已经拿走了世界上新增增量算力的一半。但那一半世界新增增量算力，实际上性能高于此前所有算力。所以你在那之上又有一个乘数。到 2028 年底左右——如果这个趋势继续下去，而我看不到任何阻止它的东西——它们将独自控制世界上大部分可用 <a href="https://en.wikipedia.org/wiki/Floating_point_operations_per_second">flops</a>。</p>
+<h3>$6 billion 的晶圆厂资本支出支撑 $1t+ 的终端收入</h3>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我困惑的是，如果我们进入一个算力价值增长如此之大的世界，你为什么认为 2028 年我们只会增加 80 吉瓦？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>顺便说一句，这是上限。这就是那种，“我他妈看多到爆”的情况。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>好，我们来做一些思维链推理。<a href="https://www.dwarkesh.com/p/dylan-patel">几个月前我采访你的时候</a>，你说要制造一吉瓦的，我记得是 <a href="https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform">Vera Rubin</a>，你需要 55,000 片 <a href="https://en.wikipedia.org/wiki/3_nm_process">N3</a> <a href="https://en.wikipedia.org/wiki/Wafer_%28electronics%29">晶圆</a>、6K 片 <a href="https://en.wikipedia.org/wiki/5_nm_process">N5</a> 晶圆，以及 170K 片 <a href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory">DRAM</a> 晶圆。我知道这些数字可能已经变了。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我要调侃你一下，但你说 wafers 的方式太他妈印度了。Vafers。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>顺便说一句，我们刚搬到美国的时候，我的 v/w 不分问题挺严重的，而且我当时是素食者。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我记得你跟我说过这事。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>在北达科他州，我上小学的时候，我会说——</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>能给我来个“wedgie”吗？</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>能给我来点“wedgies”吗？</p>
+<p>总之，这是针对一吉瓦的。我让一个大语言模型运行了你的晶圆厂设备模型，算出了基本上每年生产一吉瓦算力所需的工具成本。它说是30到40亿美元。现在假设你再加上<a href="https://en.wikipedia.org/wiki/Cleanroom">洁净室</a>、厂房外壳以及<a href="https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant">晶圆厂</a>里的其他所有东西。那么60亿美元的晶圆厂资本支出每年就能产出一吉瓦。一吉瓦目前能产生1000亿美元的收入。</p>
+<p>但同样，这 60 亿美元的资本支出每年生产一吉瓦，而那一吉瓦每年产生 1000 亿美元。所以在五年的时间里，第一吉瓦已经产生了五年的利润，晶圆厂生产的第二吉瓦产生了四年的利润，以此类推。晶圆厂层面 60 亿美元的资本支出将产生超过一万亿美元的最终 AI 收入。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>是的。这一路上有很多运营支出。还有很多其他资本支出，比如数据中心、电力。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>而且你还得为研发向 OpenAI 付钱。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>安装。这里有很多不同的人都需要钱。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>把其中一半扣给所有这些中间商。这仍然意味着晶圆厂资本支出和最终产生的收入之间存在 100 倍的差距。实际上还不止，但我们只是非常保守。结果……这就是资本主义。你有这个巨大的差距，你可以把 1 美元变成 100 美元。他们不会想办法造更多<a href="https://www.zeiss.com/semiconductor-manufacturing-technology/smt-magazine/so-does-euv-lithography-work.html">镜子</a>吗？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>他们会的。只是这些镜子需要一些时间来制造。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>但紧急情况太大了，Anthropic 和 OpenAI 会说，“我们现在就能赚一万亿美元，但我们只是卡在 <a href="https://en.wikipedia.org/wiki/ASML_Holding">ASML</a> 机器所用的镜子上。”如果我们为此花 1000 亿美元，怎么能造更多镜子？这就是我们很快会陷入的局面。我们无法解决那个供应约束？这真的很难想象。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>你已经看到人们在这里做有趣的套利，他们买<a href="https://en.wikipedia.org/wiki/Gas_turbine">涡轮机</a>然后试图转售，因为涡轮机的价值要高得多，因为它是卡住你数据中心的瓶颈。我认为如果有人有 4 亿美元并且有能力说服 ASML 卖给他们一台 <a href="https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography">EUV</a> 工具，他们完全应该去买一台，等着，然后以超过十亿美元的价格卖掉。</p>
+<p>但最终，是的，资本主义会导致这些东西扩张。但这是一条鞭子。鞭子信号传到尾端需要很长时间。供应链不会立即反应。事实上，你去和 <a href="https://en.wikipedia.org/wiki/Carl_Zeiss_SMT">Carl Zeiss</a> 的人谈谈，他们会说，“对对对，我们需要在这个十年末之前制造 100 台 EUV 工具。”今年早些时候我们做那期节目时，他们甚至不认为需要制造那么多，足够每年制造 100 台 EUV 工具的镜子。现在他们说，“好吧，我们需要这么做。”但实际上，由于正在发生的所有经济因素，应该还要更多。这需要很长时间。</p>
+<blockquote>
+<p>译注：公开转录这一句的末尾用词为 pill，无法仅据文字确认所指动作；此处保留其耗时判断。</p>
+</blockquote>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>假设这个堆栈中的每一家公司都被私募股权收购了。有人进来了，超级<a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">AGI</a>信仰者，说，“我们要最大化生产。”你认为制造更多东西的物理约束会是什么？我问这个的原因是，我们很快会进入一个世界，实验室收入，或者只是 AI 现金流——因为显然加速器也有这些巨大的现金流——会大到你可以直接用现金流本身来资助所有这些生产的极端扩张。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我总体上同意。显然有一些物理约束。供应链目前扩张的方式，100 大致上仍然是正确的数字。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>针对 2030 年？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>2030 年 100 台 ASML 工具。但如果你说，“Carl Zeiss，这里是 100 亿美元。请他妈的就扩大生产，”那会改变事情。你必须对供应链中的每一家公司都这样做。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>但你不认为那会在明年发生？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我不认为今年会发生。我不认为明年会发生。我不认为后年会发生，因为世界受到资本约束。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>但在一个比如说顶级实验室明年即使加起来能产生一万亿美元收入的世界里，他们不能从中拿出 100 亿美元——</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我不认为他们会那样做，但是……</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>或者至少数千亿美元？看起来他们意识到了世界正走向何方。我觉得他们可以直接……</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>问题是，实验室明年将产生数千亿美元的收入。但最终，明年的资本支出大约是 2 万亿美元。所以你有一个巨大的错配。晶圆制造设备供应链将做大约 2000 亿美元。数据中心市场供应链会做更多。加速器供应链会做更多。能源供应链会做不少。你把所有这些加起来，资本支出将远超 2 万亿美元。所以实验室还没有达到他们的现金流可以资助这些东西的地步。</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>显然他们永远不会达到那个地步，因为你想让你的资本支出高于你的回报。</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>是的，你进行再投资。</p>
+<h3>如果实验室出价高于所有人，算力价格将上涨</h3>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>我真正想理解的关键问题是：如果当前趋势继续，到 2028 年底每个实验室将超过 50 吉瓦。所以它们之间将有 100 吉瓦。正如你所说，由于硬件变得更好，这些吉瓦到 2028 年将驱动比现在多许多倍的吞吐量或性能。不仅每瓦浮点运算次数增加了，而且硬件在处理 AI 工作负载方面也变得更好了。</p>
+<p>好，那么到 2028 年底实验室有 100 吉瓦。世界算力是多少？</p>
+<p><strong>Dylan Patel:</strong></p>
+<p>我认为这可能有点困难，因为到 2028 年他们已经拿走了 70-80% 的增量算力。我不确定那时市场会发生什么。算力价格要飙升多少，他们才能真正买到 70-80% 的算力？Google 或 Meta 或 Amazon 愿意卖那么多吗？</p>
+<p>另外，当我们谈论这些吉瓦数字时，有一个注意事项。当 Amazon 服务 <a href="https://en.wikipedia.org/wiki/Amazon_Bedrock">Bedrock</a> 上的 Anthropic 模型时，在我们的世界观里那算作 Anthropic 的算力，因为最终它实际上被算作 Anthropic 的收入，即使有收入分成和信用返还等等。但最终在 2028 年，如果他们合计达到 100 吉瓦，他们对市场做了真正颠覆性的事情。</p>
+<p>因为今天任何人都能从每兆瓦1000万到1500万美元的算力上赚钱。不骗你，这没那么难。去搞一个GB300机架，去下载<a href="https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems">Kimi权重</a>，去下载<a href="https://github.com/vllm-project/vllm">vLLM</a>或<a href="https://github.com/sgl-project/sglang">SGLang</a>，把它搭起来。Codex和Fable其实能帮你做这件事。这挺简单的。不算轻而易举，但也不是什么火箭科学。把它放到<a href="https://openrouter.ai/">OpenRouter</a>上。非常简单。你开始产生的收入就会超过你为算力支付的费用。</p>
+<p>这已经导致这个算力定价，每兆瓦 1000-1500 万美元，开始向上拐点。要在 2028 年达到那 100 吉瓦，你必须相信实验室能为算力支付更高的价格，因为任何人都能在每兆瓦10到15百万美元时赚钱。算力现在会到每兆瓦 2500 万美元吗？会到每兆瓦 4000 万美元吗？</p>
+<p><strong>Dwarkesh Patel:</strong></p>
+<p>正如你所说，实验室每兆瓦产生的收入已经远远超过其他所有人。如果他们保持目前这样遥遥领先，你会预期这种情况继续下去。如果存在某种<a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">递归自我改进</a>，实验室相对被提升——或者他们在内部有不对外发布的模型，帮助他们把下一个模型做得更好——你会预期这种情况更加明显。</p>
+<p>难道你们不是已经看到这种情况了吗？SpaceX，或者任何稍微落后一点的公司，如果它们无法像实验室那样在内部把算力变现，就会把算力卖给出价最高的人。你会预期它们不断竞标，去争夺越来越大的算力市场份额。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为那就是我的世界观。他们会继续吞下更多的算力。但归根结底，他们无法以当前价格或任何接近当前价格的水平做到这一点。他们确实必须开始为每兆瓦支付2500万、3000万、5000万美元，才能在2028年真正吞下全球70%的算力，到2028年达到100吉瓦，这是一个非常激进的目标。</p>
+<p>这件事另一个真正具有挑战性的方面是，我们已经看到AI实验室出现了巨大的放缓。它们所倡导的这种监管，实际上让这些实验室放缓的程度，远超过它让<a href="https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/">中国开源语言模型</a>放缓的程度。<a href="https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks">OpenAI不发布Astra</a>。<a href="https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18/">OpenAI停止训练两周</a>。Anthropic不发布其<a href="https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf">安全评估</a>所称的<a href="https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk">Model 2</a>，而外界普遍认为这就是<a href="https://en.wikipedia.org/wiki/Claude_Mythos">Mythos</a>的下一个版本。</p>
+<p>它们显然没有发布自己最好的模型，在这种情况下，它们每兆瓦的收入就会停滞，甚至可能再次开始下降，因为其他模型又变得有竞争力了。这并不是说它们在落后。只是它们没有发布自己最好的东西。</p>
+<p>如果存在某种监管影响，阻止它们发布自己最好的模型呢？那么它们每兆瓦的收入就不会攀升得那么快。它们以高于其他所有人的价格购买增量算力的能力就开始减弱，然后也许它们就无法达到那100吉瓦。</p>
+<p>但在一个安全无关紧要的世界里，我确实相信事情恰恰就是这样发生的。它们可以开始每兆瓦产生1亿美元甚至更多，而它们可以支付每兆瓦5000万美元。其他任何人除了说“求你了，<a href="https://www.dwarkesh.com/p/dario-amodei-2">Dario</a>，把我手上的东西全拿走吧”，都没有任何合乎逻辑的理由去用他们的算力做别的事。但有一些我们无法描述的力量在起作用，可能会让这件事放缓。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我觉得一个很好的直觉泵是：如果AI模型真的和一个完全自动化的软件工程师一样好呢？它们目前还没到那一步。我认为它们距离能够完全自动化一个全职白领工作者的工作还差得很远。但白领工作者一年赚六位数或更多。如果你有1吉瓦，能够维持比如说大约100万白领工作者的规模。那么在此基础上……那会是1000亿美元。这实际上低得令人意外。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的，每人10万美元，100万人口。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不知道。但如果你实现了完全AGI，那每吉瓦会是数千亿美元。</p>
+<h3>哪一层将捕获大部分剩余价值？</h3>
+<p><strong>Dylan Patel：</strong></p>
+<p>这件事的另一个方面——而且我们一直在看到这一点——是大部分价值捕获并没有发生。这些模型产生的大部分价值并没有给到OpenAI和Anthropic。幸运的是，到目前为止，它大部分只是被给了用户。</p>
+<p><a href="https://en.wikipedia.org/wiki/Jane_Street_Capital">Jane Street</a>与OpenAI就<a href="https://openai.com/index/previewing-ultrafast/">GPT-5.6 Ultrafast模式</a>签有独家合同，或者说Jane Street是Anthropic最大的客户之一，它们从所付费的词元中产生的价值，远远、远远、远远超过Anthropic在利润方面产生的价值，因为它们能从市场中赚钱。</p>
+<p>或者拿Meta来说，它一度被传占Anthropic业务的10%之多。它们通过优化广告算法之类的东西、让参与时长延长5%，产生了多得多的效率。它们通过使用这些模型赚到的钱，比Anthropic多得多。</p>
+<p>这就是所需要的。当然，如果你有100万个新软件工程师，软件工程师的成本也会下降。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有一件事让我困惑：市场会达到均衡吗？如果达到均衡，你会预期算力的价格等于Anthropic和OpenAI能从中产生的价值，或者非常接近它，只给Anthropic和OpenAI留一点点加价吗？</p>
+<p>现在非常奇怪的是，算力的售价与Anthropic能从中赚到的钱之间存在4倍或更大的差距。在一个每吉瓦收入持续增长的世界里，如果Anthropic将1吉瓦变现的能力翻倍或增至三倍，那么如果这个差距继续扩大就很奇怪了。Anthropic仅仅凭借拥有一些权重，就能把花了它10美元的东西变成100美元。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>这始终是个有趣的问题。AI中的价值去了哪里？AI产生了所有这些价值。你有最终用户，我认为我们都同意他们产生的价值比任何人都多，因此他们为这些模型支付了很多钱。然后你有应用层。到目前为止，应用层产生的价值非常少。然后你有模型层，直到一年前它还在产生负毛利，而现在正在产生巨大的正毛利。看起来它正走在每兆瓦产生1亿美元的路上。所以正如你所说，把10到15美元变成100美元。</p>
+<p>但如果我们回到一年前，硬件供应链在产生所有这些毛利，而实际上其他所有人都在它上面亏钱。OpenAI和Anthropic只是在往里灌风险投资的钱，许多其他初创公司也是如此。这些<a href="https://en.wikipedia.org/wiki/Hyperscale_computing">超大规模云厂商</a>中的许多都在建设基础设施，却不知道是否会有回报。</p>
+<p>所以归根结底，如果你愿意这么说的话，你在模型层上创造了这种负价值，因为它们卖词元的价格低于基础设施侧的成本。所有价值都被芯片、晶圆厂捕获了。最初在2023年，内存厂商从<a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">高带宽内存</a>或用于AI的内存上没赚到什么钱，尽管从理论上讲它们交付的价值是巨大的。</p>
+<p>现在你有……嗯，实际上<a href="https://en.wikipedia.org/wiki/TSMC">台积电</a>捕获的价值远少于内存厂商。所以价值捕获已经大幅转移，这对追踪市场或参与市场的人来说非常有趣，比如Jane Street就是一个例子。这不是广告。这不是广告。这不是广告。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>他们是赞助商，但你不必这么卖力地给他们打广告。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>那么未来会发生什么？Anthropic和OpenAI已经开始慢慢在价值捕获上膨胀。它们会膨胀并拿走所有价值捕获吗？嗯，那曾是一种想法，然后Elon展示了，“实际上，不。我可以以每兆瓦2500万美元或每兆瓦4000万美元的价格把我的算力卖给Anthropic和Google。即使这是短期的事情，我已经以这个价格卖掉了，我将在一年内收回我的全部资本支出。”</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你预测相关的那一批算力——<a href="https://www.nvidia.com/en-us/data-center/dgx-b300/">B300</a>或SpaceX以每吉瓦400亿美元卖给Google的那种——到明年年底会卖到什么价格？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为大部分算力仍将继续以每吉瓦低于200亿美元的价格成交。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>即使到明年年底也是如此？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>因为所有这些都必须被融资。如果Meta、Microsoft、Amazon、SpaceX能够在没有找到客户的情况下建设算力，只是说“去他的，我要建这个算力”，然后转身等到它已经建好，那么它们现在就掌控了局面。</p>
+<p>大多数算力在建成之前就已经被签约锁定。这正是Elon在市场上利用的一点。他实际上拥有所有这些算力。他当时就像在说：“嘿，Anthropic，我知道你们每吉瓦能赚600多亿美元。你们为什么不干脆花一大笔疯狂的钱买我的东西呢？”显然，并不是Elon决定了这件事，也不是Anthropic决定了这件事。市场自己找到了答案。</p>
+<p>其他人，你去随便一家云厂商，他们会说，“好吧，我要建1吉瓦算力或100兆瓦算力。我要花这笔资本支出。我需要转身找到一个客户。如果我想找到一个客户，我需要找到资本。谁会给我资本和客户？客户必须签一份协议。然后我拿着客户的承诺去信贷市场，筹集资本。”</p>
+<p>所以存在这样一种完全不同的权力结构：Meta实际上在囤积算力。他们和SpaceX是唯一有可能成为第3名的，因为他们在囤积所有这些算力。他们正在利用自己的资产负债表和能力来建设算力，却没有一个能在很大程度上实现变现的终端客户。他们拥有真实的资产负债表，所以可以进入信贷市场。你建一吉瓦，你就能赚到你的利润，不是疯狂的利润，但是不错的利润。现在我就拥有了所有这些算力。</p>
+<p>现在Meta和SpaceX有了这种选择权，可以环顾四周然后想，“我的内部用例会让我赚更多钱，还是我应该出去以疯狂的高利润把它卖给Anthropic或OpenAI？”所以现在我们进入了一个体制，SpaceX和Meta在说，“实际上，我要建这个算力，而且我可以不以13美元出租它。我可以以25美元、50美元甚至更高的价格卖掉它。”</p>
+<h3>数据中心监管会放缓AI吗？</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你认为到2027年底，他们每吉瓦的收入会是多少？Anthropic或OpenAI，到27年底。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为这高度取决于谁拥有最好的模型，以及他们是否被允许继续发布自己最好的模型。但我不明白为什么不会是每兆瓦5000万美元以上。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>到27年底。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>哦，到27年底？那这就更有挑战性了，但我认为可能会比那更高，比如每兆瓦7000万、8000万美元，按公司整体混合计算，甚至可能更高。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>看起来偏低。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>那么如果是这样，算力的价格会发生什么？嗯，如果我是Anthropic，增量算力是值得的。也许我花每兆瓦4000万美元买SpaceX的算力。如果我是SpaceX，我看看供应链，我会想，“嗯，我已经和<a href="https://www.dwarkesh.com/p/jensen-huang">Jensen</a>达成了这笔交易（他现在突然开始用Twitter了）。”Elon说他们独家使用Nvidia，但Jensen为什么不涨价？然后<a href="https://en.wikipedia.org/wiki/SK_Hynix">SK Hynix</a>、<a href="https://en.wikipedia.org/wiki/Micron_Technology">Micron</a>和<a href="https://en.wikipedia.org/wiki/Samsung_Electronics#Memory_Business">Samsung</a>看看这个情况，他们会想，“嗯，我们为什么不涨价？”</p>
+<p>所以在价值捕获方面，我认为这里存在一种<a href="https://en.wikipedia.org/wiki/Bullwhip_effect">牛鞭效应</a>。仅仅因为有人涨了价，并不意味着整个供应链会立即重新平衡。但随着时间推移，供应链会重新平衡，成本会越来越高。为了获得那部分增量产能，你多少必须这样做。所以台积电涨价非常缓慢，但存储公司涨价非常快。<a href="https://inquivixtech.com/insights/what-is-semiconductor-substrates/">基板</a>公司涨价非常快。如果是15美元，Elon不会卖，但他现在在卖，因为价格是25美元以上。所以显然他很快就涨了价。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我很惊讶你认为到明年年底，每吉瓦的收入不会增长到远超每吉瓦100的程度。</p>
+<blockquote>
+<p>译注：公开转录此处仅写“100 per gigawatt”，没有注明货币量级。译文保留这个数字，不补写未明确的单位。</p>
+</blockquote>
+<p><strong>Dylan Patel：</strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">RSI</a>什么时候发生？<a href="https://www.lesswrong.com/w/ai-takeoff">起飞</a>什么时候发生？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>或者即使RSI不发生，就说当前的进展速度继续下去。就看看我们在，比如说，过去一年半里取得了多少进展。一年半前的模型是什么？<a href="https://www.anthropic.com/news/claude-3-5-sonnet">Claude 3.5</a>之类的？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我对这个问题的看法是，世界上现存最好的模型是在二月份训练的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以你是说，也许我们就是不会被允许发布实验室最好的模型。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>OpenAI说他们两周内不训练模型，老兄。搞什么鬼？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有一件事是，在内部，他们是否获得了足够的使用量，以至于他们会推高算力的价格？另一件事是，AI整体进展是否会因为监管而放缓？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的，但他们甚至不被允许在内部使用这个新模型。<a href="https://openai.com/index/pacing-model-development-cyber-capabilities/">Astra</a>甚至都没有在内部广泛部署。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但仍然，如果你有一个模型是……去年年初发布的模型是什么？GPT……</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>4o？是4o吗？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>是的。你说的是到那时，也就是到2027年底，从GPT-4o到Mythos 2规模的飞跃。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的，但Mythos 2还没发布。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>或者甚至Mythos。同样是那个飞跃。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>甚至Mythos都不被允许发布。他们把它阉割了。我们不能用它来优化推理性能。我们不能用它来优化各种东西。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>是的，也许AI进展或AI部署有所放缓，这意味着每吉瓦的收入可以更低。但这是我唯一能想到的、到明年年底每兆瓦只有1亿美元的原因。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>只要模型变得更好，从中产生的价值就会更好。显然，谁捕获价值仍有争议，但最终每个人都会涨价。因为他们可以，而且这超级具有通胀性。</p>
+<p>尤其是如果监管的方式是……目前，到目前为止，只是“不要发布模型”。但越来越多地，监管方式是<a href="https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html">纽约禁止数据中心</a>。<a href="https://www.politico.com/news/2026/08/23/greg-abbott-texas-data-centers-01046867">德克萨斯州在实施暂停令</a>。俄亥俄州说，或者至少试图说，你必须支付一定半径内所有人的财产税。这类事情会减少供应并增加成本。这也会被转嫁出去。</p>
+<p>你会开始陷入一种境地：进展确实放缓了，至少从外部来看是这样，即使模型在内部变得越来越好。在起飞情景下，Anthropic为什么不会把最好的模型比外部可用的提前六个月？因为安全和监管，但也因为竞争优势？如果进展加速，那六个月的差距实际上是一个更大的差异。</p>
+<p>所以这就是那个会把每兆瓦收入增长限制在远低于我们今年上半年所见水平的东西。</p>
+<h3>实验室正在将算力从推理转向研发</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>有件事我非常感兴趣。随着这些公司上市并对投资者负责，假设到明年年底他们有接近20吉瓦。那么10%的算力就是2吉瓦。</p>
+<p>假设他们想把用于训练的算力占比从60%提高到70%。而他们的投资者会说，“嗯，如果你每吉瓦能产生1000亿美元的收入，那你基本上是在拒绝2000亿美元的收入，来增加你的训练算力。”所以投资者会说，“搞什么鬼？你已经在训练上花了这么多钱。为什么还要在训练上花更多？”</p>
+<p>作为一家上市公司，如果他们就说，“不，我们会继续增加用于训练的算力份额，以抵消每吉瓦算力带给我们的收入增长”，你认为会发生什么？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>这是我个人所相信的。随着时间推移，实验室会分配越来越少的算力用于推理。我认为这非常不符合共识。大多数人的标准看法是，“哦，大部分算力会用于推理。”大部分会用于训练的前向传播，而不一定是产生收入的推理。</p>
+<p>归根结底，如果他们今天每兆瓦产生3000-4000万美元，你分配40%用于推理。如果你现在达到每兆瓦产生6000-7000万美元，你还会分配40%用于推理，产生所有这些利润，然后分红和回购股票吗？还是你去构建AGI？我认为Anthropic和OpenAI的明显答案，不仅是高管层，还有他们的董事会，都是去构建AGI，因为那利润高得多。所以最终你会看到他们逐步提高专用于训练的算力百分比——</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>而如果他们把每一增量算力用于推理，它产生的利润会越来越多。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>对。关键是，如果我在卖词元……OpenAI发布Ultrafast模式是只对外部，还是也在内部使用？事实证明，不。实际上，我会把它分配给内部和外部，因为我从超快AI或最好的AI模型中产生的内部价值，远高于外部某个人产生的价值。</p>
+<p>所以最终，当然，我可以每兆瓦产生1亿美元，但如果我把那转向AI研究，我能获得什么增量进展？这对我未来的盈利潜力、对我所做的一切的<a href="https://www.investopedia.com/terms/d/dcf.asp">现金流折现</a>有什么影响？他们不会去做那种计算，但最终，把越来越多的算力专用于内部是更合理的。推理算力之所以要这么大，唯一原因是为了让你能扩大你的训练集群。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我认为这是一个有趣的经济学问题，我觉得我们可以让模型来消化。在一个他们减少用于推理的算力比例的世界里，什么必须是真的？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为他们在过去三个月里已经在这样做了。我认为在今年的一些时候，他们在增加用于……的算力比例。我们就逐月来看。你会同意，每个月Anthropic增加的算力都比上个月多。当他们签下SpaceX交易之类的，可能会有一些噪音，但总的来说，算力总量是一条上升曲线。</p>
+<p>所以在一月份，他们增加的算力比十二月份少，然而他们的收入增长却飙升了。然后他们有点进入平台期了。他们现在不是每个月增加250亿美元的ARR。这意味着他们获得的边际兆瓦中，用于研发的比例高于用于推理的比例。所以他们今天事实上在增加用于研发的算力。我认为如果你足够仔细地看他们在做什么，这是不言自明的。</p>
+<h3>中国获得的新增算力不到10%，但它的实验室需要的更少</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果我看看你说的世界算力增长速度的数字，这里有一些我想理解的事情。看起来如果我把你刚才说的数字加起来，到2028年底世界算力会超过200吉瓦，对吧？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的，全球范围。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。2028年之后，全球AI算力还能以多快的速度继续增长？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>今年30，明年50，28年70。29年应该在90-100的量级。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>然后就是每年再增加100之类的？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为这条曲线可以继续向上走。超过四年的预测就很难做了。谁知道我们是不是处在一个RSI（递归自我改进）的状态里，或者世界经济什么时候能一年增长10%？因为如果你一年做到100+吉瓦，那就是荒谬的GDP增速了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果你认为2028年全球有200吉瓦，到那时中国有多少？在整个这一趋势中，中国的算力如何持续增长？因为如果RSI这件事在中国拥有大量算力之前就在西方启动了，也许我们生活的世界会和它不启动时不一样。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>如果我们把基准拉回到2022年，美国当时新增的算力约占全球新增算力的45-50%。中国当时新增的算力约占30-35%。剩下的由世界其他地区承担。自2022年以来，我们有了针对中国的大规模监管，同时美国出现了急剧增长。所以今天，正在部署的瓦数中有70%在美国。中国实际上是一个非常小的数字。正在部署用于数据中心AI算力的瓦数中，中国不到10%。</p>
+<p>随着我们向前推进，他们仍然处在一个非常小的数字上。他们的国内产量相当小。他们从Nvidia的采购仍然相当小，而且其中很多最终还流向了其他地方，马来西亚之类的。</p>
+<p>所以归根结底，中国国内仍然只占新增算力的不到10%。我认为到2028年它可能开始向上拐。但说中国会有30吉瓦或更少的AI算力，是相当容易的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>到2028年？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>对，2028年。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好。那他们的曲棍球棒曲线上升得有多快？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我确实认为2028年他们能部署的算力会有大幅提升。2026年，他们仍然主要依赖大量<a href="https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47">走私芯片</a>，大量台积电为那些他们以为不是<a href="https://en.wikipedia.org/wiki/Huawei">华为</a>但最终是华为的公司制造的芯片，或者三星出货的大量HBM。</p>
+<p>但在27年，晶圆厂开始上量。尤其是在28年，晶圆厂开始上量，来自<a href="https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation">中芯国际</a>和<a href="https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies">CXMT</a>等，国内产量实际上达到每年数百万颗。仅在2028年一年，他们就会新增5-10吉瓦的国产芯片。那些芯片肯定比英伟达在28年将拥有的芯片、或谷歌在28年将拥有的芯片、或OpenAI在2028年将拥有的芯片要差。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以你是说，即便是吉瓦这个数字也高估了实际情况。是30吉瓦，但芯片实际上差得多。但如果你认为世界在接下来那一年将增加100吉瓦——我知道你说过那么远的事你其实说不准——中国在随后那一年能增加多少？基本上我想知道的是：他们是在能够开始出货大量算力的那个点上直接曲棍球棒式起飞，还是仍然会少于美国加盟友？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>美国是否通过<a href="https://www.manufacturingdive.com/news/lawmakers-push-restrictions-chipmaking-equipment-exports-china-match-act/816945/">MATCH法案</a>、工具是否继续受到出口管制、中国能以多快<a href="https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/">建造他们开始能够国产的新设备</a>，这些都还有很多变数。但归根结底，中国肯定会曲棍球棒式起飞。如果说中国有什么真正擅长的，那就是极其迅速地扩大制造业规模。</p>
+<p>我想中国会开始能够把越来越多的外国芯片采购引入中国国内，或者至少缩小美国允许Nvidia卖给他们的数量上的差距，之类的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但你觉得中国能在2029年增量增加50吉瓦吗？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我认为这完全合理。其中一部分也可能来自国外采购。但没错，我认为中国在2029年做到50吉瓦是完全合理的。但如果其中大部分是国产芯片，那就有个系数问题，那50吉瓦实际上只值美国芯片的20吉瓦。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。所以你实际上是在预测一个世界，在那里，2028年可能领先的实验室拥有的算力，比整个中国在29年甚至30年将拥有的还要多，如果你按质量对吉瓦进行加权的话。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>前提是没有任何措施去减缓美国实验室。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>没错。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>但显然政府和政客们正开始这么做。而中国不会减缓AI。事实上，他们唯一会做的就是加速它。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>老实说，<a href="https://www.dwarkesh.com/p/jensen-huang">当我采访Jensen并问到出口管制时</a>——我是个自由意志主义者——我当时并不真的确定自己对这个问题怎么看。我在对他所持观点的反面做最强论证，因为我认为把想法辩清楚很重要。我当时想，“是啊，也许存在一个世界，如果我们只是和中国合作，对我们反而更好，尤其是考虑到他们控制着供应链的很大一部分，以及机器人技术所需的其他东西。”</p>
+<p>但我没意识到算力状况像你说的这么糟糕。实际上，出口管制似乎确实真的……如果他们出货的量如你所说，那就是天壤之别。等到我们有了自动化程序员并进入自动化研究员阶段时，中国在算力存量上远远落后。如果最终是这样，那出口管制就奏效了。我认为这实际上是一个显著的成功。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>唯一的保留意见是，其中一部分是出口管制，但另一部分只是金融体系的问题。美国的金融体系比中国的金融体系更愿意对初创公司YOLO式下注。但一旦中国的金融体系选定一个行业去聚焦，他们补贴的力度会大得多。</p>
+<p>所以中国半导体产业获得的补贴，比世界其他地区半导体产业加起来还要多得多。如果起飞不像你暗示的那么快，而是实际上需要更长时间，那么最终中国会在半导体方面大幅追赶上来，而半导体在某个时点就是算力。</p>
+<p>这件事另一个值得注意的方面是，中国公司今天在AI模型上，至少从公众感知来看，相对于他们拥有的算力而言并没有落后那么多。领先的中国实验室总算力最多100-200兆瓦，<a href="https://en.wikipedia.org/wiki/ByteDance#Seed_and_Seed-oss">字节跳动Seed</a>是那个例外，他们拥有的算力显著更多。但<a href="https://en.wikipedia.org/wiki/Kimi_%28AI%29">Kimi</a>并没有在跑1吉瓦，也远不到那个量级。而Anthropic到今年年底会超过5吉瓦。</p>
+<p>所以问题是，这重要吗？我认为目前这种算力差距没那么重要。当我们拆解一个实验室的算力比例或预算时，到目前为止是60%训练、40%推理。但那个训练还要进一步拆解。实际上50%的算力是研究，10%的算力是开发，然后40%是推理。</p>
+<p>我说的研究和开发是指：研究员在产生想法、测试新架构、测试新数据配比、测试新<a href="https://en.wikipedia.org/wiki/Hyperparameter_%28machine_learning%29">超参数</a>、新<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29">注意力技术</a>等等等等。但归根结底，当他们做训练运行时，当Anthropic训练Mythos时，那是低于200兆瓦的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>是预训练还是整个训练？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>预训练。低于200兆瓦，持续大概两个月。然后<a href="https://en.wikipedia.org/wiki/Reinforcement_learning">RL</a>就更少了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你觉得RL用的算力比预训练还少？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>至少就预训练的单一场地而言，是的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但总算力可能更高，对吧？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>但它是串行的。他们在任一时刻最多用到的可能也就200兆瓦。实际上他们有好几吉瓦，所以他们的大部分算力都去了研究，而不是模型的开发。</p>
+<p>这有原因。协调所有这些集群很难。把它们共置一处很难。做多场地训练很难。做RL很难。在RL期间生成更多rollout并不一定让它更好。有各种各样的原因让你可能无法把你拥有的全部2吉瓦都用在训练上。实际上，我只能用上200兆瓦。</p>
+<p>随着我们在自动化编程和自动化研究员上越走越远，我实际上预期用于研究相对于训练的算力预算占比会变得模糊得多，甚至训练占比更高。还有像<a href="https://www.ibm.com/think/topics/continual-learning">持续学习</a>这样的东西。所有这些都开始意味着，越来越多的算力实际上会用于训练模型。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果你最终进入一个每年做100吉瓦的世界，按当前价格，那将是每年5万亿美元的资本支出。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>再加上你还得在那之前很早就建发电厂。而且它还是30年期的资产。再加上数据中心是15到20年期的资产，你也得在那时建好。所以那5万亿美元，一旦把未来年份的增长算进去，实际上会更像是7万亿或10万亿美元的资本支出。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>等等，我没理解。这还没算上数据中心本身根本没有发电所需的基础设施这一点。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>对，没错。当你谈论AI资本支出时，人们说的是400亿、500亿美元。但那实际上只是关键IT部分：服务器、网络、光纤、收发器、光通信，诸如此类。它不包括数据中心本身，也不包括发电厂本身，而这些都在提前建设。</p>
+<p>如果我今年建100吉瓦，明年建150吉瓦，那么那150吉瓦的所有建筑都需要在今年作为资本支出建好。如果我后年建200吉瓦，那些发电厂都需要花钱……你今年就得买涡轮机。所以实际上，如果你在建100吉瓦，这个数字远不止5万亿美元。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。很有可能，到2030年底，每年的增量资本支出会接近10万亿美元，这将接近世界经济总量的十分之一。如果这些全都在美国……美国经济也会增长。但即便如此，以美国经济目前的规模，这仍将相当于美国经济的四分之一到三分之一仅仅用于建设数据中心。</p>
+<p>当我把这话说出口时，我想，“也许你是对的，我们就是不会允许这种事发生，而这正是它不会发生的原因。”因为要让这个指数级增长持续下去，美国经济的四分之一就只是在建数据中心。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我相信资本主义，相信资源会重新配置到最有利可图的事情上。但与此同时，政治存在，信贷市场存在，资本市场也存在。</p>
+<p>所以，要支撑比如说2030年的100吉瓦……或者我们甚至把它缩减到2028年，那时所有这些项目的资本支出大约是3到4万亿美元：超过2.5万亿用于IT资本支出，然后另外1到2万亿用于数据中心和能源，以及所有下游供应链，比如半导体之类的。如果你有3到4万亿美元的资本支出，这些现金都从哪来？目前还没有人从这项业务中产生那么多现金。</p>
+<p>超大规模企业到目前为止资助了所有的增长。Google、Microsoft、Amazon、Meta。它们资助了其中很大一部分。它们曾占算力的一半以上，但它们现在不产生现金。它们实际上把所有钱都花在资本支出上。此外，它们还举债，把所有钱都花在资本支出上。<a href="https://www.bloomberg.com/news/articles/2026-04-30/meta-kicks-off-bond-offering-after-boosting-spending-outlook">你已经看到Meta这么做了</a>，甚至Amazon，甚至Google。Microsoft很快也会这样。每个人都在举债来支付资本支出。</p>
+<p>那么，现在谁是以前没在做这件事、而要为这买单的增量参与者？对Google来说，停止回购相当简单，或者Meta停止回购，转而购买计算机基础设施。这对市场没有巨大影响，但确实有一些影响。但当你推进到2028年——超大规模企业现在要举债数千亿美元，然后它们所有的供应链也要举债数千亿美元——谁来为此买单？</p>
+<p>所以有几种不同的方式。有像Nvidia和<a href="https://en.wikipedia.org/wiki/Broadcom">Broadcom</a>这样的半导体公司，还有内存公司<a href="https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital">转而决定为其中一部分资本支出提供资金</a>。有传统的基础设施投资者，他们正在筹集资金并投资于基础设施。不是桥梁，而是数据中心。</p>
+<p>最后，还有经济中的每个人，他们意识到，“也许我不该买房，也许我不该投资那些帮助人们买房的信贷，也许我不该买政府债务。我应该直接买超大规模企业的债务，或者买这个数据中心的债务，或者买Anthropic的债务。因为Anthropic愿意为增量十亿美元支付20%的利率来建设其产能。因为他们知道从中获得的收入将是巨大的，而且他们愿意支付20%，因为这仍然比从SpaceX以每吉瓦500亿美元租用要划算。”</p>
+<p>所以你有了所有这些争夺。但如果你现在这么做，整个世界经济真的会被重新洗牌。</p>
+<h3>AI会引发主权债务危机吗？</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你和我过去几天一直在私下辩论，AI是否会导致<a href="https://en.wikipedia.org/wiki/Sovereign_default">主权债务危机</a>。逻辑是这样的。正如我们提到的，你面临这样一种情况：很少的投资转化为大量的钱。所以回报率——</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>这他妈算什么问题，老兄。我的天。简直不敢相信。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>不，对所有其他无法把一点钱变成很多钱的人来说，这是个巨大的问题。所以回报率极其高。即使在数据中心层面，如果你建一个数据中心，试图以建造成本的10倍（按<a href="https://www.investopedia.com/terms/d/depreciation.asp">折旧</a>基础计算）租给Anthropic或OpenAI，那简直是疯了。你在年底把1美元变成2美元或10美元之类的。这会把利率推得更高。</p>
+<p>现在，如果利率上升，而且对整个经济都如此……人们借越来越多的钱。他们在与政府本来会做的贷款、或其他公司本来会做的贷款、或你作为消费者或抵押贷款买家本来会做的贷款竞争。这让其他所有人的借贷成本更高。这对无数人有着巨大的影响。抱歉，我要在这里稍微独白一下，但我们一直在共同思考这个问题。</p>
+<p>我认为美国最终会没事。因为如果数据中心建在美国，你基本上可以直接对数据中心征税。但按照目前的税收制度，企业收入不到联邦收入的10%。80%以上是工资税和所得税，而随着自动化越来越多地发生，这些会缩水。</p>
+<p>与此同时，在支出方面，目前20%的税收收入用于<a href="https://en.wikipedia.org/wiki/National_debt_of_the_United_States">偿还债务</a>，支付债务利息。现在，很多债务是短期的，所以每五年滚动一次。你他妈笑什么？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>因为你说的都是你上个月才学到的东西。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好像对你来说有什么不同似的。好像你有个他妈金融经济学的学位一样。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我没有。互联网以为我是个养蜂人。几个月，就几个月。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这是我们的本行，Dylan。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我知道，我知道。抱歉，抱歉。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>现在我开始不自在了。操。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>不，挺好的。你做得很好。我只是觉得好笑。一百万人听这个家伙讲话，而他这个月才刚了解债务。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>假设利率上升1%。在五年的基础上，用于偿还债务的税收收入比例从20%上升到25%。如果上升5个百分点，那将超过40%。但如果你考虑到政府每年借2万亿美元这一事实，那么这会从40%上升到超过60%。所以60%的税收收入仅仅用于支付债务利息。</p>
+<p>现在，我认为美国会没事，因为如果我们允许数据中心在美国建设，税基会增加。在我看来，其他国家绝对完蛋了。我刚才在看哪些国家债务很多、税收收入很少，而且很多债务还经常需要偿还。那些国家，比如巴基斯坦或尼日利亚，我认为在这个新的利率体制下会非常惨。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>这种<a href="https://www.investopedia.com/terms/c/crowdingouteffect.asp">挤出效应</a>正是为什么不会出现YOLO式的10亿吉瓦。你有所有这些大量使用债务的行业和国家，你之前提到的所有那些贫困国家，它们只会违约。你有消费品公司，所有那些生产你在Trader Joe's或别处看到的东西的公司。它们大量使用债务。所有这些电信公司大量使用债务。银行大量使用债务。</p>
+<p>所以如果市场利率上升——不一定是政府设定的利率，而是<a href="https://en.wikipedia.org/wiki/Credit_spread_%28bond%29">利差</a>，即政府所说的联邦利率与其他人收取的利率之间的差，因为Amazon明年想借1000亿美元之类的，不管那个数字是多少，可能更少——你最终会面临这个非常棘手的问题：现金从哪来？</p>
+<p>有一定水平是由现金流资助的，而且现金流不断上升。但合乎逻辑的做法是投资远超你的现金流，因为这样未来几年的回报会非常惊人。所以你有了这个差额。</p>
+<p>然后压低这个差额的是所有其他这些东西：针对数据中心的监管、消费者愤怒、政客愤怒、针对AI的监管、AI实验室出于安全原因不发布最新模型。利率上升对所有这些都有影响。所以所有这些事情把曲线从资本主义在纯粹简单经济学意义上想要的，弯向我们这个复杂系统想要的，并且越弯越低，低到应该建的吉瓦数不会被建出来。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>嗯，利率也是资本主义的一部分，对吧？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的，但在简单的经济模型与我们现有的更复杂模型之间是有区别的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>你认为亚马逊或Anthropic或其他公司明年为债务发行债券的利率会是多少？如果他们发行数千亿美元的债务。平均利率是多少？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我不认为亚马逊会发行数千亿美元的债务。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>总共。就说是那些大型科技公司吧。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>超大规模云服务商加起来，以及所有的云……在我们所做的建模中，从2024年到2029年大约有11万亿美元的资本支出。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>总共？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>总共。如果你尽可能用现金流来为其中大部分提供资金，你最终仍然需要为这11万亿美元以上的建设发行超过5万亿美元的信贷。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>所以你不认为AI收入能继续每年增至前一年的3倍？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>AI收入确实在增长。我不认为它能在不触及某些约束的情况下永远增长下去。实验室会有某些激励。在很多情况下，实验室并不是建造所有算力的那一方，尽管它们越来越想朝那个方向走。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>但它们会有所有这些现金流。你说收入会是多少？你认为它们不会有那么多收入？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>不，我只是说到2029年大约有11万亿美元的资本支出。其中6万亿由现金提供资金，5万亿由债务提供资金。如果是这样的话，整个生态系统筹集5万亿美元的债务确实会推高利率。</p>
+<p>那么什么能阻止这种情况？有几件事。第一，实验室是否会提高每兆瓦的收入并保持推理分配量很大？如果是这样，它们就在积累整个标普500的利润，因为每个人都在付费以降低自己的成本。当然，它们的利润也会上升，但现金必须来自某个地方。所以它们的收入增长速度相对于它们为世界创造的价值是有上限的。而且技术还有一个扩散的方面。</p>
+<p>但最终实验室的收入会持续上升。它们无法用现金流为所有事情提供资金。最优情景是你尽可能多地使用信贷来提供资金，因为即使实验室的现金流为很多东西提供了资金，你也想建造更多。所以会有一定量的信贷被创造出来。</p>
+<p>我们目前的建模显示，到29年将有5万亿美元的信贷和6万亿美元由现金资助的基础设施投资。把这些算进去，相对于AI模型带来的需求增长，算力仍然不够。所以答案很明显，就是每兆瓦的收入会持续上升。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这说得通。你认为到2029年，由于这一切，利率会上升多少？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>兄弟，这是在凭感觉报一个数字，但如果你凭感觉报一个数字……世界经济的增长在大幅上升，那为什么亚马逊的利率不会从今天的水平上升呢？</p>
+<p>这会是非常凭感觉的，但最近Meta的发行利率是5%到6%。我看不出他们为什么不会付8%。他们会乐意付8%，因为他们将要建造的算力带来的回报是巨大的。市场不会想让他们这么做，但他们会想付8%。</p>
+<p>另一面是，如果他们付8%而不是今天的5%、5.5%、6%——上升<a href="https://www.investor.gov/introduction-investing/investing-basics/glossary/basis-point">250个基点</a>——那会让经济中其他所有人也多付250个基点，这又会引发很多事情。银行会尖叫，因为如果它们的信贷利差上升，<a href="https://en.wikipedia.org/wiki/Asset%E2%80%93liability_mismatch">它们的债务重新定价的速度快于其资产重新定价的速度</a>。如果它们的信贷利差爆掉，它们最终会损失大量资金。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这的另一个后果——这是你提出的一个观点——是如果利率上升，贴现率就会上升，这意味着所有股票的贴现现金流都会暴跌。这意味着即使股市整体可能表现不错——标普500会没事——任何个股的价值可能都会暴跌，尤其是巴菲特、<a href="https://en.wikipedia.org/wiki/Berkshire_Hathaway">伯克希尔</a>那种、30年良好现金流类型的股票。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的。就像，“我为什么要为<a href="https://en.wikipedia.org/wiki/Johnson_%26_Johnson">强生</a>付这么多钱？”它们被视为稳定股：现金流良好，会随着时间返还现金流。或者一家铁路公司。如果我的贴现率不是3%或5%，我他妈为什么要投那么多钱？”现在是8%或10%。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对于发展中国家……<a href="https://basilhalperin.com/essays/agi-vs-emh.html">Basil Halperin</a>，他是我的好朋友，也是一位经济学家，提出了这个观点：我们会看到第二次<a href="https://www.federalreservehistory.org/essays/anti-inflation-measures">沃尔克冲击</a>。在80年代，为了对抗通胀，<a href="https://en.wikipedia.org/wiki/Federal_Reserve">美联储</a>主席<a href="https://en.wikipedia.org/wiki/Paul_Volcker">Paul Volcker</a>把利率提高了5%以上，实际利率大概是8%。那导致<a href="https://en.wikipedia.org/wiki/Latin_American_debt_crisis">大约40个不同的国家，主要在拉丁美洲，在那个十年里违约</a>。我认为这很可能再次发生。</p>
+<p>好，现在我们进入<a href="https://en.wikipedia.org/wiki/Technological_singularity">奇点</a>话题了。我们一直在讨论如果利率上升会发生什么——</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>顺便说一句，我认为这一切都发生在奇点之前。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>是的，我就是这个意思。我们讨论的是在奇点之前，利率上升2-3%，等等。在某个时候，我认为世界经济很可能会每年翻一番。这不会在五年内发生。但最终会发生。有一位研究员，<a href="https://djbinder.com/">Damon Binder</a>，在这方面做了很棒的工作。如果你看一个完全自动化经济体的<a href="https://ai-frontiers.org/articles/agi-will-set-off-an-industrial-explosion">投入产出表</a>……要让经济中所有东西的总存量每年翻一番需要什么？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的。如果经济每年增长3%，那么<a href="https://en.wikipedia.org/wiki/Rule_of_72">70法则</a>，那是20多年。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>对。但他说，“好吧，现在我们受制于有人的事实，你没法每年让人口翻一番。”但在一个你也能每年让劳动力翻一番的世界里，经济能增长多快？我认为它可以每年翻一番。至少每年也会有百分之几十的增长。</p>
+<p>好。利率应该相当接近增长率。由于消费的原因不会完全一样，但应该相当接近。然后我们会进入一个世界，我认为是在2030年代，利率会是百分之几十。我脑子里有一部分想，“可能是百分之几百，”但就说至少是百分之几十吧。</p>
+<p>我就在想，好吧。每一个没有参与AI生产的国家都会违约。每一只不是AI股的股票基本上都一文不值，因为贴现现金流一文不值。如果联邦政府想不出办法对AI征税，偿债成本就会超过当前的税收收入。还有所有其他我确信我们甚至没有计入的影响：你没法拿到抵押贷款，等等等等。</p>
+<p>从根本上说，在这个世界里发生了什么？这都是书呆子话，对吧？但让我们退一步。发生了什么？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>书呆子话是刚刚才开始吗？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我们将进入一个完全不同的增长体制。经济基本上在说，“嘿，政府借钱来给人们发养老金的机会成本现在极高。因为那笔钱本可以用来建造一个建造机器人工厂的机器人工厂，那个工厂再建造机器人工厂。”资本的机会成本将大幅增加。这就是我们正在谈论的所有这些事情的根本原因。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>随着利率上升，股票市场会受到重创。即使是AI公司。一些真正相信AI的人会说，“为什么美光或海力士或<a href="https://en.wikipedia.org/wiki/Kioxia">铠侠</a>的市盈率只有2到3倍？”就像，“好吧，如果你真的被AI洗脑了，经济中的一切都应该以2到3倍的市盈率交易。”如果你没被AI洗脑，那当然，它们是在超额盈利。</p>
+<p>这是一个论证，说明为什么——我认为内存会表现很好——内存股不应该再涨10倍之类的。因为如果我们处在内存需求那么大的市场里——这意味着AI导致了经济的这种剧烈变化——那么一切都应该以2到3倍的倍数交易，股市应该他妈崩盘。</p>
+<p>从某种意义上说，Meta以……我认为它们大概是一家1.5万亿美元的公司。就像，什么？太傻了。它们的价值远不止于此，至少在逻辑意义上。你只要看看它们的现金流、它们囤积的所有基础设施，以及它们将能够以疯狂的每瓦美元价格出售的所有算力，要么作为词元因为它们的实验室管用，要么直接卖给Anthropic和OpenAI。</p>
+<p>这最终变成一个问题是，你必须把所有资本重新配置给AGI。你通过把其他所有人挤出价格来做到这一点。所以AGI的限制因素不是研究工程师，比如我们的室友<a href="https://www.dwarkesh.com/p/sholto-trenton-2">Sholto</a>，能多快推动研究进展。实际上只是世界其他地方让这件事发生多少？</p>
+<p>因为他们会去监管。他们显然会加息。他们会说：“不许建数据中心。”他们会说：“停止建晶圆厂。”他们会说：“哦靠，每家公司的股权价值都在暴跌，那我还怎么花钱用AI来增长我的业务？”</p>
+<p>那到时候，Anthropic和OpenAI就得开始自己建东西了。他们已经在造自己的芯片了，至少是在设计自己的芯片，而且这还会扩展出去。未来几年里，他们会自己签约建数据中心，自己建基础设施。</p>
+<p>问题在于这种经济上的重新配置会怎么发生。即便模型本身有能力实现直接起飞，也有大量下行压力让它不会就那么直接起飞。我想你和我都相信，我们正处在一个模型有能力做到这一点的世界里。但缓慢起飞——至少我希望——是可能的，因为经济和监管世界里的这一切。政府说：“不要发布你们的模型”，政府说：“实际上，你们连在内部都不能那么频繁地使用你们的模型”，因为这种事很快就会发生。他们已经在说你们不能发布你们的模型了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我最担心的是奇点，而外部部署实际上反而在帮助它。所以，我们阻止外部部署这件事是愚蠢的。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>那能阻止奇点吗？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>现在这会带来更多收入，因为模型还没有能力进行递归自我改进。但我担心的是到了2030年，政府说：“你们最新模型要等六个月才能向公众发布。”</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>六个月，100倍。来吧。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>在那六个月里，他们在内部进行递归自我改进。公司里就发生各种疯狂的事情。与此同时，我们其他人只能困在按当前速度落后好几年的模型上。</p>
+<p>我的想法是这样的。假设全世界都参与了这个试图放慢AI的阴谋。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我不觉得这是阴谋。这是每个政客都公开写出来的东西。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>假设他们把AI放慢了一年。如果算力每年增长2到3倍，他们阻止了整整一年的AI部署，那你就比原本会达到的位置落后了一年。而在递归自我改进期间，你在一年里就能获得3到6年的AI进展。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>但他们不只是限制算力。他们还限制实验室在内部发布模型的能力。我们看到了这一点。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>如果他们真这么做了，那倒是最理想的。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>Anthropic有一阵子不得不停止把Mythos提供给外籍员工。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我不知道那是真的，内部也是这样？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>他们是这么声称的。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我以为那只是一个不同的检查点，不是Mythos，但基本上就是Mythos。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>但这类事情也不会被允许。政府是蠢，但至少我希望他们没那么蠢。政府——至少是手握牌权的美国政府——不会想让Anthropic在内部使用Mythos 4。他们会说：“他妈的等等。慢下来。”出于所有这些监管原因。</p>
+<p>每个当选的人都会讨厌AI。就连已经当选的人也讨厌AI。所有选民都是如此。我打赌某个时候你父母会打电话给你说：“Dwarkesh beta，你干得太糟了。你在让AI进展变得更快。”</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>因为我的播客，我在加速AI进展？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>也许吧。你教育人们。也许他们更聪明了，就能更快推进AI。</p>
+<p>总之，AI的进展、开发和部署会面临现实世界的约束。即便它最终会发生，我们也可能在到达那里之前先把自己撕碎。</p>
+<h3>世界未来的劳动力会属于少数几家公司吗？</h3>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这些情景里让我觉得疯狂的一点是，世界未来劳动力供给中有多大一部分最终会集中在极少数公司手里，以及这个劳动力供给每年增长得有多快。如果前沿算力按FLOP计算每年增长4到5倍——而且达到某一能力水平所需的算力每年下降3倍——那基本上前沿实验室的有效AI人口规模每年增长10倍。这在现在其实没那么重要，因为AI还不够好，无法做完整的工作，也无法在完成工作的能力、搞阴谋之类的事情上像人一样自主。</p>
+<p>但如果当前趋势继续下去，你就会进入这样一个世界：OpenAI从今年基本上有1000万AI劳动力，到明年变成1亿，再到后年变成10亿。很快，即便算力扩展放缓，也用不了多少年，每家公司单独拥有的劳动力当量就会超过地球上的人口总数。我认为到这个十年末，这是非常可能的：单个实验室内部的AI劳动力、有效人口，比地球上的人还多。</p>
+<p>我们经常谈论因为国有化之类的原因而导致的权力集中。但我们没有足够思考这样一个事实：我们实际上正非常快地进入一个体制，其中大多数“人”，就工作产出而言，都集中在两个实验室里，而这两个实验室正在消耗世界上越来越多的算力。如果这些AI是错位的，那基本上世界的大部分也是错位的，因为世界上大部分的头脑都在那里。但即便它们不是错位的，极少数公司也拥有巨大的影响力或控制力。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>最近有<a href="https://www.benzinga.com/markets/tech/26/08/61239248/anthropic-dario-amodei-private-company-criticism">一整场争吵</a>，我记得<a href="https://x.com/GavinSBaker">Gavin Baker</a>说：“Dario相信世界上只会有一家公司。”然后<a href="https://x.com/_sholtodouglas/status/2088463770318516734">Sholto</a>和<a href="https://x.com/DarioAmodei/status/2088758816376807762">Dario</a>出来说：“不不不。我们没这么说。”但归根结底，如果你相信递归自我改进，如果你相信实验室是算力最有效的使用者、能从算力中产生最大价值，那唯一会发生的事情就是算力的集中化。如果你相信AI研究者、递归自我改进、AGI，那这一切都存在，这一切都是基础。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>即便没有递归自我改进，这也是真的。前沿的有效人口目前在给定能力水平下每年增长10倍。所以如果你达到一个非常能干的远程工作者、或非常能干的软件工程师、或非常能干的研究者的能力水平，这些人的数量在当前能力增长速度下每年增长10倍。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我明白了，而且还是在没有递归自我改进的情况下。那一旦有了递归自我改进，就更疯狂了。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>那也许就是每年增长100倍或1000倍。或者它们的智能在增长但人口不增长。或者两者的某种混合，对吧？</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>Dwarkesh，你能看到什么世界是一切都不集中的？因为在我看来，每一种力量都在尖叫着冲向集中化。而那可怕得要命。</p>
+<p>我很希望它不要完全集中化。但也许这正是<a href="https://darioamodei.com/essay/machines-of-loving-grace">一台热爱优雅的机器</a>的全部意义所在，对吧？它就是一切，它让我们的生活变得美好。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>思考未来真的太难了。但我同意你的看法。我认为根本问题在于AI训练有巨大的<a href="https://www.investopedia.com/terms/e/economiesofscale.asp">规模经济</a>，因为你为训练AI掌握某项特定技能或某组特定知识所花的任何努力，都会在数十亿次会话或数十亿用户之间摊销。所以这是一个效应。</p>
+<p>另一个效应是，如果你在AI竞赛中稍微领先，而算力又短缺，你就能收取高得多的加价，因为你能更好地节约这种稀缺资源。所以有两个效应，会把越来越多的东西给予在AI竞赛中领先的人。可能还有更多。如果模型从部署中学习，而一个模型比另一个模型部署得广泛得多，它就能获得多得多的真实世界数据。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>你的观点我接受：无论是用户部署和持续学习，还是训练并拥有这些规模经济，还是最佳AI模型帮助你做出下一个最佳AI模型的渐进式进展，即递归自我改进，所有这些东西都指向集中化。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>我认为，老实说，我们应该花些时间思考的一个重大思想项目——至少我会花些时间思考——是：在AGI之后，一个去中心化、广泛赋能的未来愿景是什么样的，同时又能认真对待这些规模经济？另一种愿景是政府控制它，也许你认为你可以更信任政府，因为它不是私营公司。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我不信任政府，我不信任Dario，我也不信任Sam。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>这就是个问题，对吧？显然，对未来的判断很容易出错。你预料不到某个关键效应，或某种改变一切的东西。但事前来看，很难看出我们如何避免一个必须选择某一种集中化来源的情景。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>这就是资本主义为什么行得通，对吧？它是去中心化的决策和去中心化的权力。在某种程度上，这也是为什么超级中心化的资本主义经济体实际上比超级去中心化的资本主义经济体增长得更慢。你必须要有法治等等这些。但然后AI把这一切都颠覆了。最终你会说：“实际上，私有制可能并不是最有效率的经济，因此它比中心化的AI经济增长得更慢。”</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>嗯，它仍然是私有制，但在这个经济份额里真正参与的公司有多少家？现在大概是经济的2%吧？1万亿美元除以30。Nvidia占了其中很大一块，还有Anthropic和OpenAI以及这些超大规模云厂商。显然还有其他公司参与，但AI这块的很大一部分只是由极少数公司在做。所以它可以是私有制，但参与的公司非常少。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>我的意思是，这就是市场结构正在做的事。那什么能阻止它呢？我不知道。除非AI进展放缓，除非政府往死里监管它，否则这一切就是会发生的。那样的话，我们要么走向一个资源超级集中、我们祈祷那一家公司把一切都做对的世界，要么政府让一切慢下来、人们让一切慢下来，进展以某种方式放缓，但愿如此，然后权力会更平衡一些。</p>
+<p>即使我们走向AGI、ASI、RSI，沿途的每一步仍然会导致某些人攫取更多资源。所以很难找到一个AI不会导致超级集中的框架。</p>
+<p>现在，这里唯一积极的一点是，今天Anthropic并没有攫取大部分价值。我们可以尽情谈论他们怎么从每兆瓦2000万美元涨到每兆瓦1亿美元，但他们买很多算力时仍然只付1300万美元。但归根结底，他们之所以达到了每兆瓦1亿美元，是因为Jane Street在攫取每兆瓦3亿美元或每兆瓦5亿美元。或者Dwarkesh，通过研究他的播客和学习信贷，在攫取每兆瓦多少美元？现在你能用多少？难说。</p>
+<p>但我认为这就是唯一的一线希望，经济中的其他部分也许能从Anthropic身上获利多得多——</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>不，但你之前铺陈的整个逻辑——他们要把推理重新分配到AI研发上——整个逻辑就是AI实验室内部劳动力的回报远高于外部。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>是的。这是我的自我安慰。我同意。在世界的所有情景中……有8万个世界，而只有一个世界里Anthropic没有拥有整个世界。再说一次，权力会集中，因为我不想把词元送到外面去。它们在内部更有价值。所以是同一回事。我为什么要让Jane Street从这些堕落的期权交易员身上赚走所有这些钱？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>嘿，他们是赞助商，拜托。我的天哪。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>不，我觉得这很棒。让市场变得有效率对世界来说是很好的价值。Jane Street靠正确把握世界观赚走所有这些钱，靠堕落的期权交易员赚钱，不管是什么，Anthropic为什么要分配算力去做那个？如果Jane Street每兆瓦的最终变现是2亿美元，所以他们愿意付给Anthropic 1亿美元……那如果Anthropic在内部使用那些算力就能每兆瓦产生数亿美元呢？这就是正在发生的事。</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>在这个沉重的基调上，我想等RSI正式启动时我们再见面吧。</p>
+<p><strong>Dylan Patel：</strong></p>
+<p>你大概两个月都不会再请我上你的播客了？</p>
+<p><strong>Dwarkesh Patel：</strong></p>
+<p>好吧，酷。谢了，兄弟。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-dwarkesh-dylan-patel-3","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"subject":"Dylan Patel：到 2028 年，Anthropic 和 OpenAI 将拥有全球大部分算力","snippet":"讨论 AI 实验室的算力计划、数据中心建设、电力约束、芯片供应及行业竞争。","date":"2026-08-25","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["算力","数据中心","能源","芯片"],"mdTheme":"magazine","sourcePath":"talks/dwarkesh-dylan-patel-3.md","sourceUrl":"https://www.dwarkesh.com/p/dylan-patel-3","body":"$3","prompts":[]},"listPosition":{"index":52,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"talks-dwarkesh-dylan-patel","subject":"Dylan Patel：深入讨论扩大 AI 算力的三大瓶颈","sender":"Dwarkesh Patel","date":"2026-03-13","matchedPeople":["Dwarkesh Patel","Dylan Patel"],"matchedTags":["算力","数据中心","能源"]},{"id":"essays-compute-cost-forecast","subject":"未来几年算力为何可能贵上十倍以上","sender":"Dwarkesh Patel","date":"2026-07-29","matchedPeople":["Dwarkesh Patel"],"matchedTags":["算力","能源"]},{"id":"talks-how-gpt-claude-and-gemini-are-actually-trained-and-served-reiner-pope","subject":"GPT、Claude 和 Gemini 的训练与部署全解析","sender":"Dwarkesh Patel","date":"2026-04-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["芯片"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

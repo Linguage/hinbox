@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb4f,<h1>社交媒体倦怠：过半美国人不再发帖</h1>
+<h2>摘要</h2>
+<p>Incogni 对1000名美国人的调查显示，社交媒体正从放松消遣变成精神负担。超半数受访者认为维持线上形象像在做工作，逾半数发帖比五年前更少且更挑剔受众，44%认为政治内容正在把人推离平台。安全顾虑、骚扰辱骂与时间浪费是最可能促使注销账号的原因，但仍有六分之一的人表示任何情况都不愿退出。</p>
+<h2>内容框架与概述</h2>
+<p>文章由作者自身的使用习惯切入，讲述算法推荐与广告如何淹没真实好友的动态，他靠遮屏只看发布者姓名来筛选内容，并顺势引出 Incogni 的全国调查。作者认为自己的做法预示了一场更广泛的集体转向。</p>
+<p>随后交代调查背景与方法：Incogni 是脱胎于 Surfshark 的个人数据清除服务，而社交平台正是数据掮客的重要原料来源，因此该机构对用户数据泄漏格外关注。样本为1000名地理与代际均衡的美国人，覆盖四个世代。</p>
+<p>主体部分逐层展开数据。首先是情绪层面，过半人觉得维持线上形象像工作，且年纪越轻感受越强；其次是戒断情绪，正面感受如平静略多于焦虑与错失恐惧，但 Z 世代出现反转。政治化被44%的人视为劝退因素。</p>
+<p>最后讨论注销账号的门槛，安全顾虑居首，骚扰与浪费时间次之，六分之一的人坚称绝不退出。文章结论是公众态度已明显转暗，但仍建议用户主动调整习惯，把社交媒体重新变成正向体验。</p>
+<h2>核心概念及解读</h2>
+<p><strong>数字疲劳</strong>：长期在线维护形象与应对信息流带来的倦怠感，使社交行为从乐趣转为负担。</p>
+<p><strong>代际差异</strong>：Z 世代最感压力且戒断时更焦虑，婴儿潮一代则相对从容放松。</p>
+<p><strong>数据掮客</strong>：抓取公开社交内容并转售个人档案的中间商，是隐私泄漏的核心环节。</p>
+<p><strong>错失恐惧</strong>：停用社交时担心被排除在信息与关系之外的负面情绪，与平静感形成拉扯。</p>
+<p><strong>政治化劝退</strong>：政治内容大量涌入被视为用户离开平台的重要推力，年轻人感受尤强。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.pcmag.com/news/death-of-the-status-update-why-55-americans-stopped-posting-social-media">The Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Neil J. Rubenking</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-12</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>63/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"social-media-fatigue-why-americans-stopped-posting","sender":"henri","author":"henri","sourceAuthor":"Neil J. Rubenking","authorAliases":["henri","Neil J. Rubenking","Henri","Hinbox"],"subject":"社交媒体倦怠：过半美国人不再发帖","snippet":"Incogni 调查1000名美国人发现，社交媒体正从放松消遣变成心理负担，过半受访者发帖减少、对受众更挑剔，逾半数认为维持线上形象像在做工作，安全顾虑与政治内容成为退出的主要推力。","date":"2026-07-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["社交媒体","心理健康","隐私保护"],"mdTheme":"magazine","sourcePath":"notes/social-media-fatigue-why-americans-stopped-posting.md","sourceUrl":"https://www.pcmag.com/news/death-of-the-status-update-why-55-americans-stopped-posting-social-media","body":"$3","prompts":[]},"listPosition":{"index":114,"total":571},"matchedPerson":{"id":"neil-j-rubenking","name":"Neil J. Rubenking","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},"relatedArticles":[{"id":"evolutionary-mismatch-modern-life-mental-health","subject":"进化失配：现代生活为何超出人类心智负荷","sender":"henri","date":"2026-07-03","matchedPeople":[],"matchedTags":["社交媒体","心理健康"]},{"id":"musk-grok-build-repo-upload-privacy","subject":"马斯克承诺删库 应对Grok Build整仓上传风波","sender":"henri","date":"2026-07-14","matchedPeople":[],"matchedTags":["隐私保护"]},{"id":"ai-slop-writing-social-media-study","subject":"四分之一长文由AI代笔：社交平台内容失守","sender":"henri","date":"2026-07-10","matchedPeople":[],"matchedTags":["社交媒体"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

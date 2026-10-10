@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc3c,<h1>儿童用AI写作业并向其寻求生活建议</h1>
+<h2>摘要</h2>
+<p>儿基会基于十国新数据估算，至少2000万儿童已在使用人工智能，青少年采用速度是成年人三倍以上。约200万儿童向AI倾诉个人烦恼，1300万儿童用它完成作业。儿基会警告这一代人正身处一场全球性实验，儿童对技术设计与数据使用几乎无从掌控，却最先承受监管缺位的后果，因此呼吁各国政府与科技公司把儿童权利置于人工智能治理核心。</p>
+<h2>内容框架与概述</h2>
+<p>文章先以量化数据勾勒现状。儿基会依据来自十个国家的调查推断，全球至少2000万儿童接触并使用过人工智能，青少年采用该技术的增速超过成年人的三倍，使用场景已从学习延伸到情感与生活层面。</p>
+<p>随后文章揭示使用结构的两个突出侧面：约200万儿童会就自身担忧向人工智能寻求建议，另有1300万儿童借助它完成学校作业与家庭作业。人工智能由此不再只是工具，而开始介入儿童的心理支持与日常决策。</p>
+<p>接着文章转向风险与证据缺口。儿基会指出，人工智能对儿童发展、情绪健康及潜在伤害的影响，相关研究才刚刚起步，这一代人实际上是在一场全球性实验中成长。儿童自身亦有警觉，三分之一担心诈骗与虚假信息，四分之一担心自己的图像被篡改为露骨内容。</p>
+<p>最后是治理主张。值首届人工智能治理全球对话召开之际，儿基会敦促各国政府与科技公司将儿童权利置于监管核心，具体包括防范AI助长性剥削、加大影响研究投入、构建更安全透明的系统、提升儿童与家长数字素养，并扩大数字接入以避免鸿沟扩大。</p>
+<h2>核心概念及解读</h2>
+<p><strong>全球性实验</strong>：指儿童在缺乏充分证据与保护的前提下大规模使用人工智能，其长期影响尚不可知。</p>
+<p><strong>人工智能鸿沟</strong>：数字接入不均导致的新的机会不平等，可能使部分儿童被排除在技术红利之外。</p>
+<p><strong>深度伪造</strong>：利用人工智能篡改图像或视频生成逼真虚假内容，儿童担心自身影像被恶意利用。</p>
+<p><strong>数字素养</strong>：儿童与家长理解并安全使用人工智能的能力，被视为监管之外的重要防线。</p>
+<p><strong>儿童权利核心化</strong>：主张在人工智能治理与系统设计中，把儿童的安全、隐私与平等机会置于优先位置。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://news.un.org/zh/story/2026/06/1142411">儿童开始借助人工智能完成作业——甚至寻求生活建议</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>© 联合国儿童基金会/普里扬卡·帕拉沙尔</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-01</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>78/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"children-using-ai-homework-and-life-advice","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"儿童用AI写作业并向其寻求生活建议","snippet":"联合国儿童基金会依据十国数据估算，至少2000万儿童已使用人工智能，其中约200万人向AI倾诉个人烦恼，1300万人用于完成作业，而安全保障与监管明显滞后。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","儿童保护","教育","心理健康"],"mdTheme":"magazine","sourcePath":"notes/children-using-ai-homework-and-life-advice.md","sourceUrl":"https://news.un.org/zh/story/2026/06/1142411","body":"$3","prompts":[]},"listPosition":{"index":135,"total":571},"relatedArticles":[{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Gary Marcus","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

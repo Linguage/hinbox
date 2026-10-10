@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2db2,<p>原文：<a href="https://on.substack.com/p/my-internet-kate-lindsay">My Internet: Kate Lindsay</a></p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!VVFt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00fb97c9-3426-40bf-8599-fd1a5d5b648e_1080x720.png" alt=""></p>
+<p>每月两次，网络文化刊物<a href="https://open.substack.com/pub/embedded">Embedded</a>会与某位极度活跃于网络的人连线，向他们提出几乎相同的一组问题：哪些梗让你发笑？你从哪里获取新闻？你会给人发语音消息吗？这个系列叫My Internet，是创始人Kate Lindsay和Nick Catucci自2021年被裁员并创办自己的通讯以来打造的多个固定栏目之一。多年来，他们将其扩展为一个多垂直领域的运营体系，用免费的访谈系列吸引读者，用付费层级解锁随笔、周五媒体八卦专栏和一个视频系列。Kate告诉我们，Embedded的增长是“一堂关于坚持的课”：近五年来几乎每周都在发布，建立起完全属于自己的受众。</p>
+<p>Kate的职业生涯在一定程度上就是靠为互联网正在发生的事情命名而建立的，她为我们的词汇和评论区贡献了诸如“千禧一代停顿（millennial pause）”（首次<a href="https://embedded.substack.com/p/the-millennial-pause">出现在Embedded上</a>）和“<a href="https://www.gq.com/story/why-men-are-rawdogging-flights">rawdogging</a>”这样的说法。她曾被BBC和CBC作为专家引用，并联合主持<a href="https://slate.com/podcasts/icymi">ICYMI</a>，Slate关于网络文化的播客。今天我们反转剧本，采访互联网最敏锐的观察者之一，请Kate坐下来接受她自己的Embedded问答，谈谈她围绕这一形式建立的生意。</p>
+<p><strong>EMBEDDED</strong></p>
+<p><strong>创立时间：</strong> 2021年</p>
+<p><strong>形式：</strong> 每周两次的通讯</p>
+<p><strong>垂直栏目：</strong> <a href="https://embedded.substack.com/t/my-internet">My Internet</a>，一个关于有趣人物上网习惯的固定问答系列；<a href="https://embedded.substack.com/s/media_gossip">media_gossip</a>，一个周五发布的、报道媒体行业的子通讯；<a href="https://embedded.substack.com/t/screen-time-diaries">Screen Time Diaries</a>，一个记录Kate各个屏幕上实时发生什么的视频系列</p>
+<p><strong>层级：</strong> 免费（创作者访谈、My Internet问答），付费——$5/月或$50/年（周一随笔、周五media_gossip版），创始会员——$75/年（以上全部，外加你的名字被刻入“Hall of Embeddeds”）</p>
+<p><strong>你表现最好的通讯文章是哪篇？你觉得它为什么火了？</strong></p>
+<p>从来都不是你预期的那几篇，但这一篇遥遥领先是Embedded最受欢迎的文章，以至于它被联合转载并翻译成了荷兰语，而且我至今每周至少还会收到一次关于它的通知。至于它为什么火了，我觉得你无法高估阐明一个简单真相的价值。我有时会因为觉得某个东西太简单或人们已经知道了而不去写它，从而限制了自己。但即使人们已经知道某件事，在文字中看到它也会让人感到被认可。</p>
+<p><a href="https://embedded.substack.com/p/you-might-just-have-to-be-bored">你可能就是得无聊一下</a></p>
+<hr>
+<p><strong>你2021年在Substack上创办Embedded时没有任何现成的邮件列表。是什么让你坚持下来的？</strong></p>
+<p>当Nick和我被裁员时，我们决定开一个Substack，让自己在又一个疫情之夏保持清醒。我们基本上把Embedded当作全职工作来做，同时还在领着遣散费。终于没有规则、可以探索各种类型的内容，这很令人兴奋，我觉得这种自由在最初几个月里确实给了我们动力。但我早年职业生涯的大部分时间也都在传统媒体里为成功而奋斗，却没什么增长，讽刺的是，一旦我们独立了，那些编辑和刊物反而找到了我的作品。开辟自己的道路，而不是在体制内为获得认可而奋斗，这一直让我感到极其肯定。</p>
+<p><strong>Embedded最大的增长时刻有哪些？</strong></p>
+<p>我会永远记得，是Rachel Karten在她的通讯里第一次提到了我们，我想仅凭那一次我们就获得了500多个订阅者。除此之外，Embedded真的是一堂关于坚持的课。我们时不时会有文章爆火，但几乎所有的增长都来自过去五年里几乎每周都可靠地发布内容所带来的缓慢而稳定的积累。</p>
+<p><strong>这个通讯如何反哺你的其他工作？</strong></p>
+<p>如今，我几乎把Embedded和ICYMI看作亲姐妹。很多时候，我会为Embedded写点东西，甚至没有意识到它帮我理清了某一期相邻节目的思路。有时我会为Embedded写点东西，我知道它可以被延展成一期ICYMI节目，但想先看看Embedded读者的反应。我那篇关于<a href="https://embedded.substack.com/p/the-social-contract-around-phones">手机社交契约</a>的文章就是一个例子，它最终表现非常好，这告诉我它很可能也会引起播客听众的共鸣。</p>
+<p>虽然在读者和听众的类型上肯定有很多重叠，但Embedded永远是我的磐石。它是我在一个不可预测的媒体环境中感到哪怕一丝安全感的原因。</p>
+<p><strong>你和Nick如何决定什么内容放在付费墙后面？</strong></p>
+<p>这是我从来都没能摸清的事情。我可以告诉你什么<em>没有</em>奏效：把访谈放在付费墙后、把链接汇总放在付费墙后，我也不觉得把视频放在付费墙后奏效过。但我玩得很开心，而且我喜欢较小受众带来的私密感。除此之外，从付费效果看，爆火的内容几乎从来都不是我预期的——除了<a href="https://embedded.substack.com/s/media_gossip">media_gossip</a>的推出。那个完全如我所料，因为我们所有人都无可救药地爱打听、爱关注自身利益。</p>
+<p><strong>在Substack上建立受众与互联网其他地方有何不同？你有什么建议吗？</strong></p>
+<p>每一天我都庆幸自己不必受制于一个没人能解释、每隔一个月就变一次脾气的算法。这意味着我关于如何在Substack上取得成功的建议并不性感，但很真实：为你的读者写作，如果你还没有读者，就写你想读的通讯。即使在你不想写的那些周，也要坚持写。还有，不要用AI。如果你在用AI写作，我不明白你为什么在这里。</p>
+<p><strong>最近有什么梗或帖子让你发笑？</strong></p>
+<p>我朋友Jehan和我有一套Stuart Little梗的共同语言。<a href="https://www.tiktok.com/@inthemakingitm/video/7641704391682084109">这个</a>是最近让我发笑的一个，但没有什么能比得上这个：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!aXi_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a533116-baef-4cd7-b8ec-af4c69674708_1242x1248.png" alt=""></p>
+<p><strong>你倾向于从哪里获取新闻？</strong></p>
+<p>我尽力<em>不</em>获取新闻，但它总会找到我。</p>
+<p><strong>你最喜欢的通讯有哪些？</strong></p>
+<p>我总是会打开<a href="https://open.substack.com/pub/taylorlorenz">User Mag</a>、<a href="https://open.substack.com/pub/deezlinks">Deez Links</a>和Casey Lewis在Substack上的内容，还有<a href="https://www.garbageday.email/">Garbage Day</a>和<a href="https://www.todayintabs.com/">Today in Tabs</a>。然后还有少数几个通讯，我应该读却读不下去，因为我太嫉妒了。</p>
+<p><strong>你会尝试限制手机使用吗？如果是，哪些方法对你有帮助？</strong></p>
+<p>会！每一天都是一场实验，看我在仍能完成工作的情况下还能多下线多少。我在<a href="https://embedded.substack.com/p/new-phone-who-this">这里</a>分享了一些技巧，但最基本、最不光鲜的建议仍然最有效：把手机放在足够远的地方充电，让你入睡或醒来时都用不了它；每天早上在看屏幕之前做一件线下的事（真的，哪怕只是煮咖啡）；关掉推送通知。如果你还没有把这些当作基线来做，你就不被允许抱怨xyz对你不奏效。</p>
+<p><strong>关于Z世代、千禧一代、X世代和/或婴儿潮一代的网上行为，你观察到了什么？</strong></p>
+<p>不幸的是，观察到千禧一代网上行为的<a href="https://www.theatlantic.com/technology/archive/2022/08/tiktok-gen-z-millennial-pause-parody/671069/">这一件事</a>要为我的整个职业生涯负责。</p>
+<p><strong>你的任何群聊有没有你愿意分享的名字？</strong></p>
+<p>有“just idiots, swarming”，那是我所有的朋友；“sart of like narmal people”，那是一次爱尔兰旅行后分出来的一个更小的群；“for making swinging plans”，那是我和我丈夫以及他最好的朋友和我最好的朋友，他们俩也在约会；还有“The Lindsay Family Extended Universe”，那是我的直系亲属加上丈夫们。</p>
+<p><strong>你最常用的emoji是哪个，它对你意味着什么？</strong></p>
+<p>这些天我经常用这个🫡来结束任何我宣称自己哪怕勉强完成了某件事的句子，比如发了一封邮件。</p>
+<p><strong>你会给人发语音消息吗？如果不发，收到它们你感觉如何？</strong></p>
+<p>我<em>支持</em>语音消息，但我很高兴终于有个地方可以抱怨：在iPhone上听语音消息不算作活动，这有多让人抓狂。如果有人发来一条特别长的消息，我的手机常常在听到一半时就黑屏，切断消息且不保存我的进度。然后我不得不从头开始，并不断点击屏幕的随机部位，以免它再次休眠。</p>
+<p><strong>你最喜欢的非社交媒体应用是什么？</strong></p>
+<p>Ancestry.com。人们谈论掉进TikTok的兔子洞——我掉进Ancestry.com的兔子洞。我曾在研究某位曾曾曾曾曾祖父时抬起头，发现已经是凌晨1点了。我一直在试图更多地了解我家族在苏格兰的根，所以如果有McPheeters家族的其他人在读这篇文章，请联系我，因为我在1668年那里撞上了死胡同。</p>
+<p><strong>你最近有没有读到一篇关于互联网的文章、书或社交媒体帖子，让你觉得特别有洞见？</strong></p>
+<p>是的，但每次我这么做，我都会因为自己没想到这一点而崩溃。<a href="https://maxread.substack.com/p/a-literary-history-of-fake-texts-db8">这篇帖子</a>来自 Max Read，是我的白鲸。</p>
+<p><strong>最近一件在网上给你带来快乐的事是什么？</strong></p>
+<p>r/blackcats 子版块。我有两只黑猫。黑猫是最好的猫，如果你不信，请花一分钟去黑猫子版块看看。</p>
+<p><strong>Substack 上有没有你经常光顾、可能会让我们惊讶的角落？</strong></p>
+<p>我最近刚开始尝试使用 Substack 作者们的食谱。我做了这个 <a href="https://benjaminaebuehi.substack.com/p/clotted-cream-cake">凝脂奶油蛋糕</a>，是 Benjamina Ebuehi 的方子，为我朋友 Rachel 的生日做的，它非常简单又完美，我强烈推荐。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ltKC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05f613af-6909-4cda-8387-b27a305046e2_1456x1941.png" alt=""></p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-my-internet-kate-lindsay","sender":"On Substack","authorAliases":[],"publisher":"On Substack","subject":"我的互联网：Kate Lindsay","snippet":"Kate Lindsay 谈独立媒体、付费内容、网络文化及自己的互联网习惯。","date":"2026-05-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["独立媒体","付费内容","网络文化"],"mdTheme":"magazine","sourcePath":"talks/interview-my-internet-kate-lindsay.md","sourceUrl":"https://on.substack.com/p/my-internet-kate-lindsay","body":"$3","prompts":[]},"listPosition":{"index":183,"total":571},"relatedArticles":[{"id":"talks-interview-jeff-stein","subject":"报道间谍与国家安全的资深记者遭遇百万美元诽谤诉讼，借助 Substack Defender 胜诉","sender":"Substack Team","date":"2026-08-07","matchedPeople":[],"matchedTags":["独立媒体"]},{"id":"talks-interview-open-tab-lachlan-cartwright","subject":"Open Tab 访谈：Lachlan Cartwright","sender":"On Substack","date":"2026-06-11","matchedPeople":[],"matchedTags":["独立媒体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,99 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T4399,<p>一个迷上AI的千禧一代，主动送上的四条建议。</p>
+<p>大学毕业后，我的第一份工作是在俄亥俄州哥伦布市的一家小型众筹网站<a href="http://fundable.com">Fundable.com</a>做文案。公司没钱，所以不在乎我没有经验。我没有经验，所以不在乎这份工作一开始不付工资。</p>
+<p>它提供的服务很简单：为你的初创公司创建一份介绍，我们就帮你对接投资者。大多数创始人不想自己写介绍，所以我的工作，就是把创始人正在做的那些奇奇怪怪、还没成形的东西，转换成投资者听得懂的语言。这些介绍非常模板化，我现在还背得出格式：问题、解决方案、业务进展（traction）、团队、商业模式、收入预测、竞争格局、融资条款。</p>
+<p>最近，我一直在想那份工作，因为AI现在只要两分钟就能生成这样一份介绍。23岁的我听到这个消息，会想：“谢天谢地。”36岁的我却会想：“谢天谢地，当时它还做不到。”没有那份工作，我永远学不会怎样把一家公司拆开，再重新组织成一个故事；也学不会怎样为一群并非拿着工资来读我东西的人组织信息——我本科时的教授可是拿着工资来读的。</p>
+<p>今年这批应届毕业生，比我们那一届更难。AI能完成许多入门任务，正在取代那些早期工作经历，速度快得让雇主来不及弄清楚发生了什么。斯坦福数字经济实验室的研究者发现，自2022年末以来，在最容易受到AI影响的职业中，22至25岁人群的就业人数<a href="https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/">下降了13%</a>，而在同样岗位上，年长劳动者的就业人数保持稳定。<sup><a href="#user-content-fn-stanford" id="user-content-fnref-stanford" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p>我想象着22岁的自己，如果现在正向LinkedIn的虚空里投递求职申请，她会怎么看那些关于AI和岗位替代的新闻标题？她会害怕吗？</p>
+<p>会吧，大概会。比这小得多的事情，都曾让她害怕。</p>
+<p>所以，我完全清楚，这个千年里出生的人，没人想听一个在柏林墙倒塌之前出生的人给职业建议。但如果今天重新开始，带着我对工作、AI，以及二者如何相互塑造的认识，我会这样做。</p>
+<h2>有好消息，也有坏消息</h2>
+<p>今天，初入职场者面临的悖论，和入门工作本身一样古老：很多情况下，找工作需要经验，而获得经验又需要一份工作。在你选专业时，这项技术几乎还不存在，雇主如今却要求你有AI经验，这可能像一个宇宙级的笑话。不过，雇主要求求职者对一项全新技术具备五年经验，也早就不是新鲜事了。</p>
+<p>对于简历几乎空白的应届毕业生，这些话起不了多少安慰作用。而且，AI对入门工作的影响确实存在质的差别。</p>
+<p>首先，看看<a href="https://naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025">雇主期望的AI技能</a>，就会发现，他们希望年轻劳动者具备的能力，远不止在ChatGPT里输入提示词。他们想要的是能够评估工具、审查输出，并弄清楚如何改进输出的人——无论是通过更好的提示词，还是亲自动手修正结果。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4263/optimized_ce0924e9-cadd-4486-b764-619fcb61f29f.png" alt="雇主希望入门岗位候选人具备的AI技能"></p>
+<p><em>入门岗位对AI技能的需求增至原来的三倍，尤其重视那些既要求使用AI，也要求评估AI的能力。（图表由NACE提供。）</em><sup><a href="#user-content-fn-nace" id="user-content-fnref-nace" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+<p>他们寻找的是判断力，而这种能力基本只能通过经验培养。我写那些融资介绍时，学会了分辨好作品与坏作品。最初写的50份差得离谱，有一次，一个客户甚至说，应该把我拖到后院枪毙。有AI参与的话，那些差作品可能就不会差到足以教会我什么了。</p>
+<p>今天的就业市场让初入职场者承受更大压力的另一个原因，是雇主期望他们熟练掌握一项变化太快、根本没人有时间完全弄懂的技术。智能体工具（agentic tools）正在以几个月、<a href="https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start">而不是几年</a>的速度改变工作职能。没有一套经典教材可以研读，也没有资深同事让你跟着学。组织架构图上的每个人都在边做边摸索，而你既要和他们一起弄明白这项技术，还要学习如何应对办公室政治和报税。</p>
+<p>那该怎么办？</p>
+<h2>追逐问题，而非职业</h2>
+<p>小时候，大人问你长大后想做什么，答案总是一个职业名称。消防员。医生。YouTube创作者。到了开始找工作的年纪，我们还带着这种思考习惯。选一个职位名称，然后追着它走。</p>
+<p>问题在于，职位名称不像以前那样是一个可靠的目标了。你今天追求的岗位，<a href="https://every.to/working-overtime/the-18-month-career-is-here">18个月后</a>也许还会存在。</p>
+<p>选择一个你想参与解决的问题——世界上正在发生的一件事，即使没人付钱让你思考，你也会忍不住想它。“内容营销人员”或“数据分析师”这样的岗位，可能缩减、拆分，甚至消失，但这些名称背后的问题——怎样让陌生人关注一件他们原本不知道自己在意的事，怎样从一堆混乱的数字中理出头绪——仍然存在，也仍然会有人拿钱来解决它们。</p>
+<p>我自己一直不太能做到这一点。我花了十年时间，追逐“文案”，后来又追逐“内容营销人员”的头衔，跨过了几个毫无共同之处的行业——肿瘤治疗广告、个人理财，甚至，老天救我，加密货币——却从没问过自己是否在乎其中任何一个。我抱着高中优秀生的心态：你不必热爱一门课，也能拿A。我已经在那些没什么感情的课程里拿了16年的A。工作又能有什么不同呢？</p>
+<p>当AI能完成入门任务时，这种策略就没那么好用了。你对雇主的价值，是在这些任务之外还能带来什么——通常，是比模型更深入地理解问题。你很难在一个自己不在乎的领域里建立这样的理解。</p>
+<h2>选择一项要保护的技艺</h2>
+<p>选定问题后，再选定自己的技艺，无论它是写作、开发、研究、设计、制定策略，还是运营。</p>
+<p>你可能听过那句老话：精通一项技能需要10,000小时。实际研究比通俗版本<a href="https://www.newyorker.com/sports/sporting-scene/complexity-and-the-ten-thousand-hour-rule">复杂得多</a>，但背后的想法是对的。没有反复做过很多很多次，你就不可能把一件事做好。</p>
+<p>如果你想靠写作谋生，就自己写句子。如果你想当工程师，就自己写代码。</p>
+<p>不惜一切代价，保护这门技艺，不让AI代劳。AI可以帮你找资料、解释概念、考考你，并指出推理中的漏洞。但如果让它替你写句子或做研究，你就得不到那些把事情做糟的练习时间，而这些时间是以后做好它们所必需的。</p>
+<p>我说这些很容易，因为写这篇文章时，另一个标签页里就开着AI。本节一半句子的初稿是Claude写的。我<a href="https://every.to/working-overtime/how-to-keep-your-writing-weird-in-the-age-of-ai">重写了它们</a>。这种重写，正是这门技艺的用处：察觉到某些东西没有达到要求。我之所以能做到，是因为我已经写了十年的句子。</p>
+<p>我太清楚了，当捷径就在另一个标签页里时，抄近路有多诱人。别走那条捷径；五年后，你会把那些走了捷径的人远远甩在身后。</p>
+<h2>在任何人提出要求之前，先做出东西</h2>
+<p>刚大学毕业、开始申请工作的时候，我的简历几乎没有说明我在“现实世界”里能做些什么，除非雇主恰巧想找一个对《呼啸山庄》主题有本科生水平理解的人。</p>
+<p>一份单薄的简历，不像以前那样是劣势了，尤其是雇主越来越倾向于<a href="https://www.naceweb.org/job-market/trends-and-predictions/what-students-need-to-know-about-the-skills-based-hiring-process">以技能为依据的招聘</a>（skills-based hiring）——按候选人会做什么来筛选，而不是看他们曾在哪里工作。</p>
+<p>在这样的环境里，你需要做的，是做出一个东西，什么都可以——<a href="https://every.to/p/what-comes-after-linkedin">一个你希望早就存在的小工具</a>，一篇讨论某个没人付钱让你思考的问题的文章。选一个你自己想用的东西，然后把它做出来。</p>
+<p>作品一旦帮你敲开了门，接下来的谈话就会围绕你怎样做出它展开。哪些地方你用了AI，哪些地方你决定不用——那些你看着模型的第一个回答，心想“不，这不对”的时刻。除了作品本身，能带着别人走一遍这些决策，也是你正在培养的第二项能力。这就是我前面说的判断力。</p>
+<h2>做出你希望自己拥有的职业教练</h2>
+<p>上一次找工作时，我在<a href="https://every.to/working-overtime/i-hired-chatgpt-as-my-career-coach">ChatGPT里做了一个职业教练</a>，借助它找到了现在这份工作。那是一个项目，里面有我的简历、几篇自己引以为傲的文章，以及一份很长的提示词，告诉模型应该怎样与我交谈。大约一个月里，大多数工作日我都会找它聊聊。它最大的作用，是给了我一个安放思考的地方。我不用再让同样的焦虑在脑子里循环，而可以把问题摆出来，让模型建议明确的下一步，比如值得继续打磨的写作样本，或在它鼓励我争取到的那次拓展人脉的通话中，可以问些什么。那个月结束时，我有了工作。</p>
+<p>如果我能坐上时光机，回去和22岁的自己说话，我也会建议她做一个。甚至没有多难：</p>
+<ol>
+<li><strong>选一个工具。</strong> ChatGPT和Claude都有项目功能，可以跨会话保存上下文、文件和对话记录。用哪个都行。免费版本就足以起步。</li>
+<li><strong>创建项目，给它取个名字。</strong> “学徒教练”“职业那些事”，或者朋友给你起的昵称。</li>
+<li><strong>补充背景。</strong> 放入你引以为傲的作品，也放入你希望能做得更好的作品——模型需要看到你的目标，以及你现在的起点。粘贴几条自己想申请的岗位信息，即使它们对你来说可能过于资深。写一段话，说明你关心的问题和原因。</li>
+<li><strong>告诉它该怎样表现。</strong> 在指令里，向模型说明你希望它如何给出反馈。如果你想要一个严格的批评者，就直说。如果你容易怀疑自己，就让它更像啦啦队。要注意一点：模型出了名地会迎合（sycophancy）——告诉你想听的话——所以要在指令中防范这一点；即使如此，仍然要对输出保持适度怀疑。这也是以后在工作中被要求使用AI时的一种练习。</li>
+</ol>
+<p>下面是一份起始模板。填写方括号里的内容，按自己的偏好调整反馈方式那一行，再把它加入项目的自定义指令：</p>
+<h3>职业教练提示词</h3>
+<blockquote>
+<p>我希望你担任我的职业教练。我的目标是借助AI获得反馈、培养判断力，并提供看得见的技能证明，同时仍然亲自完成核心工作。</p>
+<p>以下是我的背景：</p>
+<ul>
+<li>我关心的问题：[例如：气候、教育、公共政策、媒体、医疗、本地商业、创作者经济]</li>
+<li>能够处理这个问题的工作类型：[例如：写作、软件开发、运营、教学、设计、研究]</li>
+<li>我的背景：[大学专业、工作或实习、项目、参与的社群、生活经历]</li>
+<li>我最有信心的技能：[列出3至5项]</li>
+<li>我最没信心的技能：[列出3至5项]</li>
+<li>我目前的技术熟练程度：[初学者／能熟练使用常见AI工具／会写一点代码／有技术背景但不是专家／技术水平很高]</li>
+<li>我想培养的核心能力：[上面那些工作要求的具体练习——写句子、写代码、阅读资料、设计实验等]</li>
+<li>这项练习中，我想继续手动完成的部分：[我希望保留、避免被自动化的重复练习，以及原因]</li>
+<li>我希望你怎样给出反馈：[温暖鼓励／严谨直接／有策略、讲求实际／<a href="https://every.to/p/socrates-as-a-service">苏格拉底式</a>、以问题引导／直率但有建设性]</li>
+</ul>
+<p>重要：请诚实。当我的计划含糊、推理薄弱，或项目无法让我练习自己声称想学的能力时，请提出质疑。请问我一个澄清问题，不要猜测。</p>
+<p>设计一份包含以下内容的学徒计划：</p>
+<ul>
+<li>我应该亲自练习的任务，即暂时不该外包的事情</li>
+<li>我应该怎样把AI用作教练、批评者、导师和研究助理</li>
+<li>应该阅读的材料、关注的人、尝试的工具，以及开展的项目</li>
+<li>可用来改进的反馈循环</li>
+<li>我应该制作的作品集材料或公开成果</li>
+<li>我应该留意的错误和捷径</li>
+</ul>
+<p>给出计划后，再收窄范围：这周我能做哪一件明确的事，来朝这个目标迈进？</p>
+</blockquote>
+<h2>初学者的优势</h2>
+<p>本科时，我应对未来不确定性的策略，是假装它不存在。我付出的代价是焦虑和对生存意义的恐惧。所以，如果能给2026届毕业生一条建议，我会说：别等。AI正在实时重塑劳动力市场，无论怎么假装不是这样，都不会让它慢下来。</p>
+<p>我很想告诉你，你所在领域的资深人士明天醒来，就会记起曾经也有人培养过他们。所有雇主都会意识到：今天不招的初级员工，就是十年后他们缺少的资深员工。但市场不会围绕你的愿望重新组织，你也不能靠等待市场改变来获得职业生涯。</p>
+<p>AI恰好奖励一些年轻人拥有得很充足的东西，例如好奇心、愿意追问为什么事情要按某种方式做，还有一点理想主义：如果不受那些“最佳实践”的束缚，工作可以是什么样子？那些实践形成的年代，Sam Altman心里连ChatGPT的影子都还没有。</p>
+<p>等你到了我这个年纪，工作究竟会是什么样，我不知道。没人知道。但如果一定要押注，我会押那些对可能性保持好奇的人。你们大多数人就是这样，无论现在是否已经意识到。</p>
+<hr>
+<p><strong>作者简介：</strong> <a href="https://every.to/@katie.parrott12">Katie Parrott</a>是Every的专职撰稿人。更多文章可见<a href="https://katieparrott.substack.com/">她的通讯</a>。</p>
+<p><strong>赞助说明：</strong> 原文页面注明本期赞助商为Lightfield。</p>
+<hr>
+<p><em>本文由AI翻译。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-stanford">
+<p>译者注：保留作者引用的13%。研究者在<a href="https://digitaleconomy.stanford.edu/news/ai-and-labor-markets-what-we-know-and-dont-know/">2025年10月的说明</a>中将其界定为相对于AI暴露程度较低职业的就业降幅，研究属于观察性分析，不能直接证明AI造成了这一变化。原论文的<a href="https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/">2026年8月修订摘要</a>已将相对就业差距更新为19%，所用数据延伸至2026年6月；13%不代表该修订版的最新估计。 <a href="#user-content-fnref-stanford" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-nace">
+<p>译者注：<a href="https://naceweb.org/job-market/trends-and-predictions/demand-for-ai-skills-in-entry-level-jobs-nearly-triples-since-fall-2025">NACE的2026年4月报告</a>使用的表述是“接近三倍”，比较基线为2025年秋季。报告称，受访雇主的入门岗位中，超过三分之一要求AI技能。2026年春季更新调查于2月12日至3月17日进行，共185名受访者；这些结果属于该调查样本，不能直接视为全部入门岗位的比例。图中各项技能比例的样本为44名正在寻找具备AI使用能力候选人的雇主，与整份调查的185名受访者不同。 <a href="#user-content-fnref-nace" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-career-ai-entry-level","sender":"Every","author":"Katie Parrott","authorAliases":["Katie Parrott"],"publisher":"Every","subject":"当AI正在做你的入门工作，如何开启职业生涯","snippet":"Katie Parrott从自己的文案工作经历出发，讨论AI接手初级任务后，年轻人如何积累经验与判断力。她提出围绕问题选择职业方向、保留一项亲自练习的技艺、主动制作作品，以及用AI建立职业教练，并附上可填写的提示词模板。","date":"2026-05-18","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","职业发展","技能学习"],"mdTheme":"magazine","sourcePath":"essays/career-ai-entry-level.md","sourceUrl":"https://every.to/working-overtime/how-to-start-a-career-when-ai-is-doing-your-entry-level-job","body":"$3","prompts":[]},"listPosition":{"index":208,"total":571},"matchedPerson":{"id":"katie-parrott","name":"Katie Parrott","email":"","occupation":"科技作者与工具开发者","website":"https://katieparrott.com/","bio":"在 Every 记录人工智能对知识工作的影响，制作写作与编辑工具，并以个人实验介绍实际使用方法。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"开发工作流","name":"开发工作流","count":1}]},"relatedArticles":[{"id":"reports-four-agents-company","subject":"我们如何用四个 AI 智能体运营一家 25 人的公司","sender":"Every","date":"2026-04-09","matchedPeople":["Katie Parrott"],"matchedTags":[]},{"id":"talks-why-half-of-product-managers-are-in-trouble-nikhyl-singhal-meta-google","subject":"一半产品经理将面临淘汰危机：AI 时代的职场生存指南","sender":"Lenny's Podcast","date":"2026-04-19","matchedPeople":[],"matchedTags":["人工智能","职业发展"]},{"id":"what-should-we-tell-math-students-in-the-ai-era","subject":"AI 时代，我们该如何劝告数学学生？学术热爱、职业焦虑与代际分歧","sender":"henri","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","职业发展"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

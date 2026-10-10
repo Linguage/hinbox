@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1740,<h1>AI 时代还要学编程吗？从「Yes, and…」看代码基本功与职业成长</h1>
+<p>本文整理 htmx 文章《Yes, and...》及其 Hacker News 讨论，先概括原文对编程基本功、复杂度控制与职业发展的判断，再归纳社区中的支持、质疑与就业忧虑。</p>
+<h2>摘要</h2>
+<p>在生成式 AI 迅速普及的背景下，计算机科学与软件开发的未来价值成为行业热议的焦点。本文立足于一线教育者兼工程师的视角，阐明了编程本质上是“解决问题”与“控制复杂度”的核心能力，强调即使代码生成工具日臻成熟，动手写代码依然是建立深层心智模型、掌握阅读与架构能力的基础门槛。同时，社区与行业讨论围绕这一立论展开了深刻碰撞：一方面关注系统理解、去冗余治理以及结合行业领域的复合竞争力；另一方面也揭示了对手写代码逐渐式微、人机抽象边界重构，以及初级开发者就业与成长空间受到挤压的现实焦虑。</p>
+<hr>
+<h2>原文核心观点</h2>
+<p>面对“在 AI 时代是否还应选择成为程序员”的疑问，答案是坚定的“Yes, and…”。编程的核心从来都不是敲击键盘产出代码行，而是利用计算机解决现实问题，并在求解过程中学会控制系统的复杂度。AI 的演进并不会使控制复杂度的能力贬值，反而让能够洞察系统机理的人更为关键。初学者最大的陷阱在于直接依赖模型生成代码，这种做法看似高效，实则剥夺了在泥泞中摸爬滚打建立直觉的机会；不能亲手写出代码，便无法敏锐地读懂代码并鉴别其中的纰漏，最终只会沦为被工具反噬的“魔法学徒”。与确定性极强的高级语言编译器不同，大语言模型具有非确定性，往往会在无形中引入巨大的偶然复杂度，因此 AI 应当被用作答疑解惑的助教，而非越俎代庖的代码生成器。</p>
+<p>随着纯粹的手工编码能力在权重上出现相对下降，开发者的竞争维度正在向外延伸。清晰的思考、自然语言表达以及跨学科沟通能力将变得愈发不可或缺；深入理解实际业务与组织运作，与编写代码同样具备战略价值。此外，软件架构能力——即组织大型系统并驾驭其复杂性的能力——其重要性水涨船高，而这种架构直觉恰恰源自早期从微小模块一步步写出来的经验积累。对于资深开发者而言，AI 是辅助分析、生成样板代码和验证测试的得力杠杆；而对于初级开发者，必须抵制完全依赖“Vibe Coding”的冲动，警惕短视的唯速度论所带来的复杂度爆炸。</p>
+<p>当前的初级程序员就业困境主要源自行业周期的更迭，而非编程这一职业本身的终结。面对冰冷的招聘筛选，广泛利用亲朋好友与人际网络（Family, Friends &#x26; Family of Friends）去寻找真实的数字化需求，往往是更有效的突围策略。几乎所有规模以上的实体企业都需要懂技术的人去梳理业务，以分析师或跨界工程师的角色切入同样能开辟广阔的前景。企业应当保留耐心让新人亲自动手编写代码，而开发者也需在坚持代码基本功的同时拓展复合技能，唯有如此才能在人机协同的新范式中立于不败之地。</p>
+<hr>
+<h2>讨论区核心观点梳理</h2>
+<ul>
+<li>
+<p><strong>底层机理与系统审查不可替代</strong>：大量资深工程师赞同原文作者的判断，强调高效的“Vibe Coder”前提是拥有过硬的基础工程素养。AI 生成速度极快，但随之而来的是逻辑漏洞、过度抽象与冗余测试，读懂代码、审查边界以及驾驭复杂系统重构的能力门槛反而被显著抬高。</p>
+</li>
+<li>
+<p><strong>手工编码的消亡与抽象范式转移</strong>：部分悲观或激进的观点认为，执着于手写代码如同留恋传统手织地毯，随着模型推理能力与自动化验证的演进，自然语言和规格定义（Specs/Contracts）将彻底取代底层语法细节，人类编写甚至阅读具体实现代码的需求都在不可逆地边缘化。</p>
+</li>
+<li>
+<p><strong>语言编译与模型生成的确定性分歧</strong>：争论深入到了两者的理论本质。反对简单类比者指出，现代编译器基于严格的形式语义，行为具备可推理性，而 LLM 具有黑盒与混沌属性，提示词的细微变动会带来不可预测的涟漪；支持者则认为传统底层语言同样充斥着未定义行为与复杂性，未来的工程化验证闭环终将抚平这种不确定性。</p>
+</li>
+<li>
+<p><strong>“领域专长 + 计算机”重塑职业护城河</strong>：许多从业者指出，纯粹的代码实现正在加速通缩，脱离实际业务场景的纯技术人员价值被削弱。相反，将代码能力与矿业、医疗、制造、财税等现实工业场景深度结合的复合型人才，正迎来更大的施展空间。</p>
+</li>
+<li>
+<p><strong>初级开发者生态与人才梯队断层危机</strong>：讨论区对职场新人的处境表达了强烈担忧。面对降本增效，多数企业倾向于缩减 Junior 岗位，这导致新人难以获得在实战中试错、积累底层直觉的“学徒期”；同时，AI 提供的捷径可能侵蚀初学者面对复杂 Bug 时培养逆境解决能力的耐心。</p>
+</li>
+</ul>
+<hr>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题</strong>：Yes, and...</li>
+<li><strong>原文链接</strong>：<a href="https://htmx.org/essays/yes-and/">Yes, and... · htmx</a></li>
+<li><strong>作者</strong>：Carson Gross</li>
+<li><strong>原文发布日期</strong>：2026年2月27日</li>
+<li><strong>HN 讨论区</strong>：<a href="https://news.ycombinator.com/item?id=50003796">Yes, and · Hacker News</a></li>
+<li><strong>整理日期</strong>：2026年10月9日</li>
+</ul>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"yes-and-learning-programming-in-the-ai-era","sender":"henri","author":"henri","sourceAuthor":"Carson Gross","authorAliases":["henri","Carson Gross","Henri","Hinbox"],"subject":"AI 时代还要学编程吗？从「Yes, and…」看代码基本功与职业成长","snippet":"整理 htmx《Yes, and...》及 Hacker News 讨论，聚焦 AI 时代编程基本功、复杂度控制、复合技能与初级开发者的成长困境。","date":"2026-10-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["AI编程","编程教学","复杂度","职业发展"],"mdTheme":"magazine","sourcePath":"notes/yes-and-learning-programming-in-the-ai-era.md","sourceUrl":"https://htmx.org/essays/yes-and/","body":"$3","prompts":[]},"listPosition":{"index":16,"total":571},"matchedPerson":{"id":"carson-gross","name":"Carson Gross","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"复杂度","name":"复杂度","count":1},{"id":"编程教学","name":"编程教学","count":1}]},"relatedArticles":[{"id":"leave-me-behind","subject":"被AI甩在后面，也要把编程留给人","sender":"henri","date":"2026-05-17","matchedPeople":[],"matchedTags":["编程教学","职业发展"]},{"id":"ai-agents-and-junior-developer-hiring-dilemma","subject":"智能体冲击与初级开发者雇佣困境的深度审视","sender":"henri","date":"2026-10-09","matchedPeople":[],"matchedTags":["AI编程","职业发展"]},{"id":"talks-interview-cursor-forward-deployed-engineers","subject":"Cursor 如何在企业内部部署 AI","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":[],"matchedTags":["AI编程","职业发展"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

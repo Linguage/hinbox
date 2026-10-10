@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3a20,<p>原文：<a href="https://on.substack.com/p/open-tab-lachlan-cartwright">Open Tab: Lachlan Cartwright</a></p>
+<p>本文完整翻译公开发表的访谈成稿。原作注明，谈话内容经过编辑和删节。</p>
+<h2>访谈正文</h2>
+<p>在本周的 Open Tab 中，出生于澳大利亚、现居纽约的揭丑记者 Lachlan Cartwright 与 Substack 联合创始人 Hamish McKenzie 坐下来，回顾了他二十年来报道媒体、金钱与权力的经历——从《太阳报》和《纽约邮报》到《国家询问报》执行主编，在那里他从突发新闻的报道者变成了十年来最大政治丑闻之一中的匿名消息源。他为《纽约时报杂志》撰写的关于保护 Donald Trump 和 Harvey Weinstein 的“买断封杀（catch-and-kill）”操作的封面报道花了一年时间才写成，并在此过程中为他招来了数百万美元的法律威胁。如今，他经营着 <a href="https://www.breakermedia.com/">Breaker</a>，这份每周两期的媒体通讯和播客，是他在多年来人们一直劝他单干之后创办的——它兼具小报的张扬与大报的标准，而且用他的话说，对乐趣有着健康的胃口。</p>
+<hr>
+<p><strong>Hamish:</strong> 你是个新闻猎犬、独家新闻猎手、新闻爆料者，某种程度上也是个小报记者。</p>
+<p><strong>Lachlan:</strong> 据称如此。</p>
+<p><strong>Hamish:</strong> 你是从老派记者那种料子里裁出来的。这在当今世界有点特别，因为很多人只是随意的观点输出者和信口开河的人。</p>
+<p><strong>Lachlan:</strong> 我是个老派的新闻猎犬。有人会说是揭丑记者。我花大量时间见人、打招呼、讨好、建立消息源。我总是说，我的水平取决于我的消息源，而这就是我拿到独家新闻的方式——走出去，走进世界，发现新信息。然后回来，核实消息，写成稿件。用我们的话说，把它登到报纸上，而现在就是登到通讯里。</p>
+<hr>
+<p><strong>Hamish:</strong> 你曾是《国家询问报》的二号编辑，通过你在那里的工作，你发现他们本质上是在花钱买故事，以便代表一些有权势的人物——Donald Trump、Harvey Weinstein——把这些故事压下去。</p>
+<p><strong>Lachlan:</strong> 没错。</p>
+<p><strong>Hamish:</strong> 跟我说说，写那篇报道并让它公之于众是什么感觉？因为那很复杂，牵涉到很多个人事务，而且对你的新闻职业生涯来说是个巨大的风险。</p>
+<p><strong>Lachlan:</strong> 法律上也是巨大的风险，因为我当时受制于一份保密协议，现在仍然如此。那篇稿子无疑是我写过的最难的稿子，写它并不好玩。现在写完了、能谈论它，才好玩。我记得当时在 ASME，也就是杂志奖颁奖礼上，那正好是 Donald Trump 被起诉、封口费起诉书下来的时候。我在那里看到了 Jake Silverstein，《纽约时报杂志》的主编。我不认识他。我说：“你好，伙计。我想我有个绝妙的故事。”他说：“好，那我们跟进一下，见面聊聊。”我坐下来写的时候，我想：“我做不到这个。”我翻出旧文件，翻看短信来重建场景，而且，正如我在那篇稿子里写到的，我父亲在这整件事发生期间突然去世了。我就想，我没法再把这些东西过一遍。这对我来说太多了。有好几个月，我什么都写不到纸上。实际上我花了一年才写出来。Willy Staley（《纽约时报》故事编辑）说：“我们为什么不按章节来写？你很擅长写你的专栏、你的通讯。我们为什么不按章节来写这个？”我终于有了信心，知道我不必一次交 10,000 词，我只需要一次交一章。我坐下来写了第一章，我想：“好吧，我或许能做到这个。”它经过了《纽约时报》的整套流程。他们逐段逐段地过，给你做事实核查的肠镜检查。他们给每个人打电话，基本上把整篇稿子重新报道一遍。但整篇稿子花了一年才成形。当它最终发表、整个故事公之于众时，那无疑是我最自豪的时刻之一。</p>
+<p><strong>Hamish:</strong> 你能给普通人解释一下“买断封杀”实际上是什么样子吗？</p>
+<p><strong>Lachlan:</strong> 我接下《国家询问报》执行主编这份工作时，并不熟悉这个词。第一年就是普通的小报内容：Jen 和 Ben。真实犯罪故事。不是能拿普利策奖的东西。但我们也爆出了一些推动局势的故事。</p>
+<p>那是在第一年快结束的时候，我从一个非常好的消息源那里得到一条线索，他在一个周日打电话给我说：“Weinstein 因在 Tribeca 的一起猥亵指控正在接受问询，我可以把那个女孩给你找来。”我立刻打电话给（《国家询问报》主编）Dylan Howard，我说：“我这儿有个绝妙的。”Dylan 立刻就说：“消息源是谁？”我心里有什么东西被触动了——你为什么立刻就去问那个问题，而不是问我们怎么把这个故事做成？而第二天，《每日新闻》就爆了出来。</p>
+<p>在那之后，Dylan 走进我的办公室说：“我们需要给她五位数的金额买她的故事。”我当时就想：“我们昨天就有独家了，而且不需要付她钱。现在你却想给她钱来拿她的故事。”我只记得当时想：“这整件事有点不对劲。”她不想拿钱。她想把故事公之于众。我们昨天就有这个故事了。</p>
+<hr>
+<p><strong>Hamish:</strong> 你为什么创办 Breaker？</p>
+<p><strong>Lachlan:</strong> 你多年来一直跟我说，要我单干，做独立媒体。你缠了我好多年。你猜怎么着？你是对的。</p>
+<p><strong>Hamish:</strong> 谢谢。</p>
+<p><strong>Lachlan:</strong> 当时，你说“你在传统媒体干什么呢？”的时候，我觉得你疯了。而你就是那个一直说——因为你得记住，《每日野兽》有一份叫 Confider 的通讯，后来成了行业必读——“你为什么替这些人干这个？单干吧。”我去《好莱坞报道》的时候，你又跟我说了同样的话。你是对的。我本该直接从《每日野兽》出来单干。</p>
+<p>我当时在自由撰稿，为《名利场》、THR 和 The Ankler 写稿，我想，我可以继续自由撰稿，也可以试着自己创造点什么。回到我去世的老父亲，他创业时 41 岁。而这正好也是差不多的年纪。我想：“去他的。我有创业精神。现在有这个机会出去干。”最坏能怎样？我可能失去我一生的积蓄。</p>
+<p><strong>Hamish:</strong> 但即使没成，人们也会因为你做了这件事而更尊重你。你实际上通过一开始就具备创业精神、通过表明你愿意做大胆的事并承担那种风险，改善了自己的职业前景。</p>
+<p><strong>Lachlan:</strong> 你看，我的经历就是一连串的冒险、赌博。22 岁搬到伦敦，谁也不认识。搞定了那个，又去了纽约。但这就是一连串的冒险，其中大多数都以某种奇怪的方式得到了回报。我认为新闻之神尊重这一点，如果你真的去冒险的话。创办 Breaker 就是一次冒险。这无疑是我做过的最好的事。我比以往任何时候都更努力工作——每天 16、18 个小时，一周七天。但我正在创造某种东西，从我和读者、订阅者的交流来看，它是特别的。它是那种如果周二和周四晚上 8:30 之前还没出来，他们就会给我发短信说“它在哪儿？Breaker 怎么了？”的东西。</p>
+<p><strong>Hamish:</strong> 你是和一个合伙人一起创办这家公司的。由于种种原因，没成。那方面对你来说是什么感觉？</p>
+<p><strong>Lachlan:</strong> 我们有一个不增长的业务，所以出于显而易见的原因，那是个问题。我的资金只能支撑有限的时间。我有一段资金还能维持运营的期限，如果这个业务不增长，我就麻烦了。而那个麻烦就是我露宿街头。事情变得非常真实。我们不得不进行一次真正的谈话，那次谈话的结果是他往一个方向去了，而我不得不非常仔细地思考：我怎么推动这个业务向前？</p>
+<p>我对自己说：“我必须让这个复活，而我有秋天来做这件事。时钟在滴答作响。”我想了三件事。第一，你必须办一场杀手级活动。第二，你必须用一份明星阵容重新推出播客。第三，你必须爆出有影响力、有后果的故事。如果你三件都做到，你就救了这家公司。如果你做不到，我们就完蛋了。你猜怎么着？恐惧是极好的动力。Breaker 播客第二季，我们以 Joe Scarborough 开场，我们有 Tina Brown、Janice Min、Jeff Fager、David Remnick。明星阵容。我们从泡在廉价酒吧变成了去米其林二星餐厅。然后我爆出了一系列重磅故事，包括爆出 Air Puck 的故事——Puck 收购 Air Mail 的那笔交易。我爆出了一个 Murdoch 的故事，CNBC 转载了。我还办了一场绝妙的市中心媒体派对。《纽约时报》来了并做了报道，写了一篇时尚版块的文章。那个三管齐下的方法救了这家公司。它带来了一波订阅者，带来了一波收入，也让我到了圣诞节时想：“我们没事了。我们会在第一年就实现盈利。”而我们几周前刚刚能够宣布 Breaker 已经盈利。伙计，有一段时间我以为我们撑不过去。有一段时间我半夜醒来，吐得浴室里仿佛有 50 种呕吐物色号。（现在）我可以坐在你面前说：“我有一家盈利的公司。”</p>
+<p><strong>Hamish：</strong> 你觉得你父亲会怎么看你现在的处境？</p>
+<p><strong>Lachlan：</strong> 我确实会想他会怎么看，他肯定会乐在其中。我真希望他还在，能亲眼看到这一切。他以前每天早上6点就出门，去墨尔本的Greensborough，他的会计事务所在那儿。他刚开业时客户是水管工和技工，到后来客户变成了CEO和橄榄球明星。我把这看作Breaker的发展轨迹。我从很小的规模起步，但我抱有很高的期望。老兄，我这一路走得可带劲了。现在根本不是该走的时候，差得远了去了。回想他给我的最后那些话，对我是一种激励，他说的是：“做你热爱的事。就去做，去做你他妈热爱的事。”我每天都热爱我所做的事。我遇到最了不起的人。我能讲述最了不起的故事，我非常幸运。</p>
+<hr>
+<h3><strong>脚注</strong></h3>
+<p><strong><a href="https://www.instagram.com/tomandjerrys288/?hl=en">Tom &#x26; Jerry’s</a></strong>——Lachlan长期光顾的地方。纽约市Elizabeth St. 288号</p>
+<p><strong><a href="https://www.breakermedia.com/">Breaker</a></strong>——Lachlan每周两期的媒体通讯和播客，报道曼哈顿下城及更广范围内媒体、权力和文化领域的动态。</p>
+<p><strong><a href="https://www.breakermedia.com/p/photos-the-nyt-stars-at-sulzberger-bbq-vanity-fair-gets-its-man-daily-news-alden-fightback">Sulzberger烧烤聚会</a></strong>——由《纽约时报》出版人A.G. Sulzberger在纽约州北部主办的年度独家聚会。Breaker软呢帽首次亮相的地方。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!nocE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04a53be3-3121-488b-9924-743c8ce1338b_1292x1941.jpeg" alt=""></p>
+<p><strong><a href="https://dictionary.cambridge.org/us/dictionary/english/yarn">Yarn</a></strong>——一个故事，一条独家新闻，一个值得讲述的故事。</p>
+<p><strong><a href="https://nationalenquirer.com/">《国家询问报》</a></strong>——Lachlan在Dylan Howard手下担任执行主编。该报由American Media Inc.（AMI）所有。</p>
+<p><strong><a href="https://nymag.com/intelligencer/article/trump-doorman-love-child-story-hush-money-trial.html">门卫Dino</a></strong>——这位AMI线人声称特朗普有一个私生子，基于二手信息通过了测谎，并因一篇从未发表的故事获得了30,000美元。Lachlan说这是他亲眼目睹的第一起“买断封杀”事件。</p>
+<p><strong><a href="https://www.wsj.com/articles/national-enquirer-shielded-donald-trump-from-playboy-models-affair-allegation-1478309380">《国家询问报》为唐纳德·特朗普挡下了《花花公子》模特的外遇指控</a></strong>——《华尔街日报》的这篇报道中，Lachlan是关键匿名信源。他把“买断封杀”这个说法喂给记者作为掩护。报道在选举前四天刊出。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!884M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd58b5390-50ca-4d83-8c3f-c7f9077330ad_1314x1516.png" alt=""></p>
+<p><strong><a href="https://www.nytimes.com/2024/04/03/magazine/national-enquirer-trump-lachlan-cartwright.html">《我在〈国家询问报〉工作时看到了什么》</a></strong>——《纽约时报杂志》2024年4月发表的揭露报道。Lachlan在撰写该文时受一份13页的保密协议约束。</p>
+<p><strong><a href="https://www.nytimes.com/by/jake-silverstein">Jake Silverstein</a></strong>——《纽约时报杂志》编辑，特朗普封口费起诉书下达后，Lachlan在全国杂志奖颁奖礼上冒昧地主动接触了他。</p>
+<p><strong><a href="https://www.pulitzer.org/winners/new-york-times-reporting-led-jodi-kantor-and-megan-twohey-and-new-yorker-reporting-ronan">Jodi Kantor、Megan Twohey</a>和<a href="https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories">Ronan Farrow</a></strong>——2017年揭开韦恩斯坦事件的记者。正是他们的工作促使AMI向Lachlan发出法律威胁，结果适得其反，并让他下定决心开口。</p>
+<p><strong><a href="https://www.breakermedia.com/p/puck-set-to-acquire-air-mail">Graydon Carter的Air Mail</a></strong>——被Puck收购是Lachlan在Breaker的独家报道之一。</p>
+<p><strong><a href="https://www.rmit.edu.au/about/schools-colleges/media-and-communication">皇家墨尔本理工大学</a></strong>——Lachlan学习新闻学的地方，此前他完成了一场费力的入学考试，成绩还登在了报纸上。前一天晚上，他妈妈开车去7-Eleven买来了提前发行的报纸。</p>
+<p><em>本次对话经过编辑和精简以保持清晰。Open Tab的新一期节目每周更新，持续到六月。你可以在YouTube上观看，在任意播客平台收听，并始终可以在Substack上找到完整系列。</em></p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-open-tab-lachlan-cartwright","sender":"On Substack","authorAliases":[],"publisher":"On Substack","subject":"Open Tab 访谈：Lachlan Cartwright","snippet":"Lachlan Cartwright 谈新闻业、媒体权力、成为举报人及独立媒体的生存。","date":"2026-06-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["新闻业","媒体权力","独立媒体"],"mdTheme":"magazine","sourcePath":"talks/interview-open-tab-lachlan-cartwright.md","sourceUrl":"https://on.substack.com/p/open-tab-lachlan-cartwright","body":"$3","prompts":[]},"listPosition":{"index":161,"total":571},"relatedArticles":[{"id":"talks-interview-jeff-stein","subject":"报道间谍与国家安全的资深记者遭遇百万美元诽谤诉讼，借助 Substack Defender 胜诉","sender":"Substack Team","date":"2026-08-07","matchedPeople":[],"matchedTags":["独立媒体"]},{"id":"talks-interview-taylor-lorenz","subject":"模型行为：Taylor Lorenz","sender":"Substack Team","date":"2026-07-29","matchedPeople":[],"matchedTags":["新闻业"]},{"id":"talks-interview-my-internet-kate-lindsay","subject":"我的互联网：Kate Lindsay","sender":"On Substack","date":"2026-05-27","matchedPeople":[],"matchedTags":["独立媒体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

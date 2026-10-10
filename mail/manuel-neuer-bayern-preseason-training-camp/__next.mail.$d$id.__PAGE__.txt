@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tbb9,<h1>诺伊尔季前集训谈新赛季目标与退役计划</h1>
+<h2>摘要</h2>
+<p>拜仁队长诺伊尔于周二下午归队，在泰根湖训练营完成季前首次合练并接受媒体采访。他坦言德国队世界杯早早出局令人难受，但已把重心转向俱乐部，希望全队在新赛季超越上赛季成绩。他肯定现有阵容稳定与两笔引援的作用，也直言自己很可能在赛季末退役，唯一让他坚持的是球队氛围与夺冠可能。</p>
+<h2>内容框架与概述</h2>
+<p>文章以诺伊尔重返拜仁季前训练营为切入点，交代时间是周二下午、地点在泰根湖，并点明这是他职业生涯第21个赛季，他希望以身作则，为整个赛季打好基础。首堂训练课后他接受了媒体提问，话题覆盖世界杯、新赛季目标、阵容、个人动力、家人支持、退役以及门将组。</p>
+<p>在问答部分，他先回应德国队世界杯出局，承认失落，但强调运动本就如此，重返俱乐部、拥有新目标让他感到庆幸。谈到新赛季，他用击败所有对手、拿下所有目标来表达野心，并认为球队具备这样的球员配置，动力比上赛季更足。</p>
+<p>关于阵容，他表示满意：首发十一人无人离队，两笔新援带来足够实力，俱乐部与球队都因此受益。随后他转向个人层面，称自己纯粹享受足球，本有八成半概率退役，是球队与教练组带来的乐趣和争冠前景构成了留下的那一小部分理由。</p>
+<p>最后涉及家人到场观训的支持、退役时间点以及门将组的协作。他明确表示新赛季很可能是最后一季，但比赛时不会去想这件事；门将团队将延续上赛季的互相支持与推动。</p>
+<h2>核心概念及解读</h2>
+<p><strong>第21个赛季</strong>：诺伊尔以40岁高龄进入职业第21季，象征顶级门将的职业寿命延长。</p>
+<p><strong>世界杯出局心理</strong>：国家队早早被淘汰后如何快速转向俱乐部目标，是运动员常见的心态课题。</p>
+<p><strong>阵容稳定性</strong>：首发无人离队加两笔引援，被视为球队延续竞争力的关键前提。</p>
+<p><strong>退役临界点</strong>：他给出八成半会退役的直觉，说明顶级球员留队更多取决于环境而非能力。</p>
+<p><strong>门将组轮换</strong>：与乌尔比希、乌尔赖希的分工协作，体现团队内部互相推动的竞争文化。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://fcbayern.com/en/news/2026/07/manuel-neuer-at-training-camp-on-the-return-of-internationals">Manuel Neuer speaks at training camp</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>FC Bayern München AG</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-29</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>42/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"manuel-neuer-bayern-preseason-training-camp","sender":"FC Bayern München AG","author":"henri","authorAliases":["henri","Henri","Hinbox"],"publisher":"FC Bayern München AG","subject":"诺伊尔季前集训谈新赛季目标与退役计划","snippet":"拜仁队长诺伊尔在泰根湖训练营回顾世界杯出局，阐述新赛季争冠目标，并坦言很可能在赛季结束后退役。","date":"2026-07-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["足球","体育训练","职业发展"],"mdTheme":"magazine","sourcePath":"notes/manuel-neuer-bayern-preseason-training-camp.md","sourceUrl":"https://fcbayern.com/en/news/2026/07/manuel-neuer-at-training-camp-on-the-return-of-internationals","body":"$3","prompts":[]},"listPosition":{"index":71,"total":571},"relatedArticles":[{"id":"talks-interview-regret-superstition-and-trauma-bonding","subject":"遗憾、迷信与共同创伤带来的联结：两位冠军谈参加世界杯的真实体验","sender":"Welcome to the Party","date":"2026-07-16","matchedPeople":[],"matchedTags":["足球","职业发展"]},{"id":"talks-lebron-james-routine-in-detail-mind-the-game","subject":"Mind the Game — 勒布朗·詹姆斯的日常细节","sender":"Mind the Game","date":"2025-04-18","matchedPeople":[],"matchedTags":["体育训练","职业发展"]},{"id":"google-search-record-world-cup","subject":"世界杯赛事夜谷歌搜索量创历史峰值","sender":"henri","date":"2026-07-09","matchedPeople":[],"matchedTags":["足球"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

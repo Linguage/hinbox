@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Taf9,<h1>AI智能体审查文献发现陈旧错误</h1>
+<h2>摘要</h2>
+<p>化学家用AI预测沸点时发现，沿用75年的参考数据库部分数值一直有误，核对原始文献后证实是数据库错了。研究者随后用AI智能体复核ICML论文声明，能完全复现者寥寥，另一项扫描显示NeurIPS论文错误五年上升55%。专家强调AI查错器会误报也会漏判，只能提示疑点，判断仍须人类把关。</p>
+<h2>内容框架与概述</h2>
+<p>文章从一个具体案例切入：理论化学家Pios用AI预测分子沸点，结果与权威手册冲突，人工回溯原始文献后确认错的是数据库而非模型。由此引出AI正被越来越多科学家用作审计科学知识的工具。</p>
+<p>随后给出规模化证据。SAI Labs用AI智能体评估168篇ICML 2026口头报告论文，在92篇有足够声明的论文中，仅34篇能复现超过五分之二的声明，仅8篇复现率超过80%。斯坦福Zou团队扫描NeurIPS论文，发现客观错误从2021年的3.8个升至2025年的5.9个。</p>
+<p>第三层是争议与局限。研究者指出AI查错器会像人一样犯错，可能把正确结论误标为错误，也会漏掉经人工审稿发现的多数错误。有团队有意只查公式、计算、图表等客观错误，把新颖性与意义留给人类判断。</p>
+<p>最后指向出路。AI更适合把可能的问题提请注意，而非自行判定论文对错；Black Spatula项目正用已知含错论文测试模型，再请专家评估，试图量化这类系统的可信度。</p>
+<h2>核心概念及解读</h2>
+<p><strong>AI事实核查智能体</strong>：能提取论文核心声明、下载资源、重跑实验并比对的自动化系统，用于批量审计文献。</p>
+<p><strong>可复现性</strong>：他人依原始材料能否重现作者声明结果，是衡量研究可靠性的关键指标。</p>
+<p><strong>误报</strong>：工具把正确结论错误标记为错误，是AI审稿介入出版决策时的主要风险。</p>
+<p><strong>客观错误</strong>：指公式、计算、图表等可判定对错的问题，区别于数据解读与新颖性等主观判断。</p>
+<p><strong>人工监督</strong>：专家强调AI只应提示疑点，最终判定必须由人类复核把关。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.nature.com/articles/d41586-026-02235-8">AI agents are checking the scientific literature — and spotting decades-old errors</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Chris Stokel-Walker</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-08-06</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-agents-audit-scientific-literature","sender":"henri","author":"henri","sourceAuthor":"Chris Stokel-Walker","authorAliases":["henri","Chris Stokel-Walker","Henri","Hinbox"],"subject":"AI智能体审查文献发现陈旧错误","snippet":"化学家用AI预测沸点时发现使用了75年的参考数据库存在错误，研究者进一步用AI智能体核查顶会论文的可复现性与错误率，同时提醒这类查错工具会误报漏判，最终判断仍须人工监督","date":"2026-08-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["科研自动化","文献核查","可复现研究","模型评估"],"mdTheme":"magazine","sourcePath":"notes/ai-agents-audit-scientific-literature.md","sourceUrl":"https://www.nature.com/articles/d41586-026-02235-8","body":"$3","prompts":[]},"listPosition":{"index":62,"total":571},"matchedPerson":{"id":"chris-stokel-walker","name":"Chris Stokel-Walker","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"模型评估","name":"模型评估","count":1}]},"relatedArticles":[{"id":"essays-science-foundries-navigators","subject":"科研工厂与导航者：降低科学研究的成本","sender":"Latent Space: AI for Science","date":"2026-09-24","matchedPeople":[],"matchedTags":["科研自动化","可复现研究"]},{"id":"talks-dwarkesh-john-beren-charlie","subject":"AI 研究者讨论：我们距离递归自我改进有多近？","sender":"Dwarkesh Patel","date":"2026-09-11","matchedPeople":[],"matchedTags":["科研自动化","模型评估"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["科研自动化"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

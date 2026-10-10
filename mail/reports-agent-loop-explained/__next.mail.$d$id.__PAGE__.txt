@@ -1,0 +1,135 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T50cb,<p>聊天机器人回答一个问题，智能体（agent）完成一项任务。这看起来差别很大。不过，两者之间的距离比表面上更近。</p>
+<p>智能体就是被放进一个循环中的大语言模型（LLM），由模型自己决定循环何时停止。关于智能体的一切有趣之处，都源自这次转变。让它们有用的自主性、让它们昂贵的成本，以及搭建智能体时的设计难题，都可以追溯到这里。</p>
+<p>把这次转变放进更大的图景中看，会更容易理解。</p>
+<p>围绕语言模型构建的软件经历了一条可以辨认的演进路径。最初是一次 LLM 调用：接收输入，产生输出。接着出现了函数调用，让模型在需要信息或想采取行动时能够调用工具。随后，开发者开始在代码中把多次调用串起来，让每一步的输出成为下一步的输入，以处理单次调用难以解决的问题。最近的阶段就是智能体：开发者把循环本身的控制权交给模型，让它不断迭代，直到自己判定工作已经完成。</p>
+<p>本文会逐步介绍这条演进路径。我们也会看看智能体怎样组织起来、模型每一轮会做哪些选择、什么支撑结构把整个系统维系在一起，以及什么时候智能体才是合适的模式。</p>
+<p><em>原作者声明：本文依据多个来源公开分享的细节撰写。如发现不准确之处，请留言指出。</em></p>
+<h2>基础</h2>
+<p>要理解循环的有趣之处，得先弄清循环里的基本单元。</p>
+<p>一次没有额外能力的大语言模型调用，是一个无状态函数。文本输入，文本输出；在模型看来，每次调用通常彼此独立。如果我们想让它获取今天的天气，或更新数据库中的一条记录，模型本身没有完成这两件事的手段。它可以笼统地描述天气，也能谈论一条数据库记录该怎样修改，但要获取实际的天气预报，或操作实际的数据库，还需要额外的能力。</p>
+<p>让模型能够在真实系统中发挥作用的，是能力增强。</p>
+<p>换句话说，我们让它能够调用自己定义的函数，这通常称为工具使用（tool use）或函数调用（function calling）。我们让它访问检索层，在运行时调取相关文档。我们也让它能够记录需要在不同调用之间保留的信息，发挥记忆的作用。</p>
+<p>Anthropic 把这些能力的组合称为增强型 LLM（augmented LLM），并将其视为每个智能体系统的基础单元。其他一切，都由增强型 LLM 这个构件组合而来。</p>
+<p>大多数开发者都已经用过这个单元，尽管可能用了其他名称。例子包括能够运行 Python 代码的聊天助手、接入你所提供服务的函数调用 API，以及从你的文档中检索内容的检索增强生成（RAG）应用。这些系统很有用，但也仍然只是一次调用。模型产生输出，系统返回结果，交互就结束了，直到下一个请求到来。<sup><a href="#user-content-fn-call" id="user-content-fnref-call" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!GAmq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28e4aaf8-22b8-4123-916a-e4d619b0e236_2348x1642.png" alt="增强型 LLM：工具、记忆和检索围绕模型组成基础单元"></p>
+<p><em>增强型 LLM：基础构件。</em></p>
+<h2>工作流</h2>
+<p>当一个问题超出单次调用的处理能力，会怎样？</p>
+<p>自然的做法，是按照我们设计的顺序把调用串起来；这种模式称为提示链（prompt chaining）。链中的每一步都是一次独立的 LLM 调用，一步的输出成为下一步的输入。我们可能用第一次调用起草提纲，第二次调用把提纲扩展成段落，第三次调用把段落翻译成另一种语言。调用链事先固定下来，开发者写明哪些步骤会运行、按什么顺序运行，以及每一步的提示词是什么。</p>
+<p>Anthropic 把这一组模式归为工作流（workflow）。</p>
+<p>在工作流系统中，LLM 及其工具按照开发者设计的代码路径接受编排。除了提示链，还有其他工作流模式：</p>
+<ul>
+<li><strong>路由（routing）：</strong> 对输入进行分类，再将它送到专门的处理程序。</li>
+<li><strong>并行化（parallelization）：</strong> 同时运行多个子任务。</li>
+<li><strong>编排者—工作者（orchestrator-worker）：</strong> 由一个管理型 LLM 将任务的各个部分交给专门的 LLM。</li>
+<li><strong>评估者—优化者（evaluator-optimizer）：</strong> 一次调用负责生成，另一次负责批评，循环迭代，直到质量足够好。</li>
+</ul>
+<p>细节各有不同，但每种工作流都有同一个特点：在模型看到输入之前，开发者已经在设计阶段确定了步骤数量和经过这些步骤的路径。<sup><a href="#user-content-fn-workflow" id="user-content-fnref-workflow" data-footnote-ref aria-describedby="footnote-label">2</a></sup>今天，大多数基于 LLM 的生产系统都是工作流。它们可预测、可调试，通常也比完整的智能体便宜。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!l9mg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde324544-4c7e-4a3d-bdbc-0075a91b52ca_3666x1540.png" alt="从单次调用、调用链到智能体循环的架构演进"></p>
+<p><em>从单次调用，到调用链，再到循环：架构的演进。译注：原图中间调用链的末端箭头标为 input；按该流程，应为 output。</em></p>
+<h2>循环</h2>
+<p>把 LLM 包在一个循环里，让模型决定循环何时退出，我们就得到了智能体。循环本身只是普通代码。运行时调用 LLM，读取输出，派发输出中指定的行动，再把结果放回模型能够看到的内容中，然后再次调用模型。这个过程一直持续，直到模型产生表示最终答案的响应。</p>
+<p>每次迭代包含四个步骤，可以称为感知、推理、行动和观察：</p>
+<ul>
+<li><strong>感知（perceive）：</strong> 循环把当前状态交给模型，其中包括原始任务、迄今发生的事情，以及任何新输入。</li>
+<li><strong>推理（reason）：</strong> 轮到模型产生响应，说明下一步该做什么，无论是提问、调用工具，还是给出最终答案、结束任务。</li>
+<li><strong>行动（act）：</strong> 运行时执行模型所要求的行动。</li>
+<li><strong>观察（observe）：</strong> 行动结果被记录并纳入状态，模型在下一次感知步骤中就能看到它。</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!1LjD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F139120e5-bcc4-4ac3-aed8-88c19e935d04_2348x1742.png" alt="智能体的感知、推理、行动、观察四步循环"></p>
+<p><em>感知、推理、行动、观察：每个智能体内部的四步循环。</em></p>
+<p>最重要的细节，是由谁决定循环何时停止。在工作流中，开发者在设计阶段决定运行多少步骤；在智能体中，模型在运行时做这个决定。模型通过产生一份被运行时解释为最终答案的输出，来退出循环。开发者通常会为迭代次数设置硬性上限，常称为 max-turns 参数，但这个上限主要是一张安全网。主要的停止信号来自模型。</p>
+<p>观察之所以也应当是一个独立、重要的步骤，原因相同。</p>
+<p>模型需要先看到行动的结果，再决定下一步。去掉观察，就会让循环退化成调用链；模型会依据先前的预期继续运行，而无法依据来自外部世界的新结果。每次行动之后都有观察的闭环，才让模型能够边做边调整。</p>
+<p>建立起循环之后，下一个问题是：每一轮究竟会发生什么？</p>
+<h2>决策</h2>
+<p>在循环的每一轮中，模型的输出会选择四个分支之一，运行时按这个选择执行。这样的分支让循环显得智能，因为 LLM 在选择采取哪一种动作。这四个分支是：</p>
+<ul>
+<li><strong>最终答案（final answer）：</strong> 模型产生一份相当于对原始任务的完整回复。运行时将其解释为退出循环的信号，返回结果，然后停止。</li>
+<li><strong>工具调用（tool call）：</strong> 模型产生一条指令，要求运行时用指定参数调用指定函数。运行时执行工具，记录返回内容，将结果追加到对话状态，再把控制权交回模型，让循环继续。</li>
+<li><strong>移交（handoff）：</strong> 模型判定当前任务应该交给另一个智能体，通常是拥有自己提示词和工具集的专门智能体。运行时切换正在运行的智能体，并将同一个状态交给新智能体，让循环在新的身份下继续。</li>
+<li><strong>继续思考（continued thought）：</strong> 模型产生一轮只包含思考的推理。运行时记录这些思考，将其放回状态，再次运行模型。这个分支最常见于 ReAct 风格的实现，我们马上就会介绍。</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!57Qo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b76e897-1e7e-441f-821d-f7ddd06bca5b_2908x1840.png" alt="最终答案、工具调用、移交和继续思考四个决策分支"></p>
+<p><em>四个分支的决策树。译注：原图最右侧的分支标题也写成了 Handoff；根据正文及该框内的说明，它对应 continued thought，即继续思考。</em></p>
+<p>OpenAI 的 Agents SDK 将前三个分支列为其循环直接支持的行为。第四个更多取决于提示词怎样编写，不一定对应一条独立的代码路径。</p>
+<h2>ReAct</h2>
+<p>ReAct 是一种提示模式，名称代表推理（Reasoning）加行动（Acting）。它要求模型在同一个响应中交替安排推理步骤与行动步骤，让模型能够思考该做什么、采取行动、看到结果，再作调整。</p>
+<p>一段 ReAct 轨迹读起来像结构化日志。模型先产生一个想法，然后采取行动，再接收运行时返回的观察结果，接着产生另一个想法，如此继续，直到得到最终答案。</p>
+<p>设想一个处理客服事务的智能体：</p>
+<ul>
+<li>用户询问自己最近一笔订单的状态。</li>
+<li>模型先产生一个想法，推断自己需要找到那笔订单，而订单服务是合适的查询位置。</li>
+<li>然后，它以用户 ID 为参数调用 <code>get_recent_order</code> 函数，采取行动。</li>
+<li>运行时执行调用，并返回观察结果：订单编号是 9152，下单日期为 5 月 14 日。</li>
+<li>模型产生另一个想法，判断现在需要查询这笔订单的配送状态。</li>
+<li>它以订单 ID 为参数调用 <code>get_shipping_status</code> 函数。返回的观察结果表示，订单正在运输中，预计 5 月 29 日送达。</li>
+<li>到这一步，模型已经拿到了所需信息，于是产生最终答案，为用户概括订单状态。</li>
+</ul>
+<p>见下图：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!mStm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdea56f6-7d1c-4af7-be51-117002772c0c_2194x2952.png" alt="ReAct 客服示例：查询最近订单，再查询其配送状态"></p>
+<p><em>思考、行动、观察，再重复：ReAct 循环如何逐步完成一项任务。</em></p>
+<p>从这个流程中，有两点值得考虑：</p>
+<ul>
+<li>第一，每一次行动都以观察结果为依据。这正是上一节所说的闭环在实际流程中的表现。</li>
+<li>第二，推理步骤确实在做事；模型依靠这些步骤，根据迄今获得的信息，决定下一项合理的行动。</li>
+</ul>
+<p>ReAct 是填充循环的一种方式。在我们今天使用的智能体框架中，它是最常见的模式，普及程度远高于其他模式。</p>
+<h2>防护机制</h2>
+<p>防护机制（guardrails）应当位于循环与外部世界交互的地方。它们是架构本身的一部分，应当与循环一起设计。</p>
+<p>作为参考，OpenAI 的 Agents SDK 记录了三类防护机制，按它们在循环中运行的位置区分：</p>
+<ul>
+<li><strong>输入防护：</strong> 在第一轮、智能体的主模型看到任何内容之前运行。<sup><a href="#user-content-fn-guardrails" id="user-content-fnref-guardrails" data-footnote-ref aria-describedby="footnote-label">3</a></sup>这时可以拦截提示注入尝试、违反政策的请求，或超出智能体处理范围的输入。一种常见模式是用小而快的模型来做防护，让更昂贵的主模型只在输入通过检查后才运行。</li>
+<li><strong>工具防护：</strong> 包在每次函数工具调用的外面。工具输入防护在工具执行前运行，可以阻止调用，或用一条返回给模型的消息替代调用。工具输出防护在工具执行后运行，可以改写或阻止结果，让它无法进入对话状态。工具防护之所以重要，是因为循环正是通过工具接触我们在意的系统，而这种接触需要监督。</li>
+<li><strong>输出防护：</strong> 在循环决定终止之后、用户看到结果之前，对最终响应运行。它们是政策执行的最后一层，可以用来拦截敏感数据泄露，或智能体不应代表公司作出的断言。</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!D9z0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F588c5eed-da43-4a94-be7d-55a474fc3eb0_2628x1876.png" alt="输入、输出、工具输入和工具输出的防护位置"></p>
+<p><em>防护机制应位于循环与外部世界交互的各个接口。输入防护的执行模式见译注。</em></p>
+<p>从结构上看，防护机制位于循环与外部世界相接的每个接口。</p>
+<h2>取舍</h2>
+<p>把循环的控制权交给模型，能力很强，但也会带来三个代价。每位开发者在采用这个模式前，都应该了解它们：</p>
+<ul>
+<li><strong>错误累积：</strong> 把步骤串起来以后，每一步的可靠性会面临严峻考验，数学结果并不乐观。如果模型在循环中每一步的成功率都是 95%，那么十步全部正确的联合概率大约为 60%。延长到二十步，联合成功率就下降到大约 36%。<sup><a href="#user-content-fn-probability" id="user-content-fnref-probability" data-footnote-ref aria-describedby="footnote-label">4</a></sup>智能体的自主性带来更高成本，也带来错误累积的可能。编程智能体比开放式任务智能体表现更好的原因，是测试反馈提高了每一步的可靠性，从而缩短了必须成功的调用链的有效长度。</li>
+<li><strong>循环周围的支撑结构：</strong> 循环外的执行框架（harness）与循环内的模型同样重要。例如，Anthropic 分享过一次内部实验：即使是运行在 Claude Agent SDK 中的前沿模型，仅凭高层次的提示词，也没能构建出达到生产质量的 Web 应用。解决办法来自支撑结构的改进，而非更好的模型。他们搭建了一个初始化智能体，在开始实现任何功能之前列出功能清单；一个编程智能体，每个会话选取一项功能；一个在不同会话之间传递的进度文件；以及供智能体恢复状态的 git 历史记录。</li>
+<li><strong>用错工具：</strong> 智能体常常并不合适。找到最简单的解决方案，只在有必要时增加复杂性，这很重要；有时甚至意味着完全避开智能体系统。工作流提供可预测性和一致性。智能体提供灵活性，并为这种灵活性付出延迟、金钱，以及更难预测的故障形态这些代价。许多问题用调用链解决，效果会更好。</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!eKGm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad28b992-2119-4a09-a0b2-44b92ebb20d2_2352x1610.png" alt="单步成功率为 99%、95% 和 90% 时，联合成功率随循环次数下降"></p>
+<p><em>可靠性以乘法累积：长循环需要很高的单步准确率。图示采用的简化假设见译注。</em></p>
+<h2>结语</h2>
+<p>智能体循环位于一条可以辨认的演进路径的末端。</p>
+<p>我们从一次接收文本、返回文本的 LLM 调用开始。加入工具、检索和记忆，得到增强型 LLM。单次调用不够用时，就把调用串成工作流。智能体是下一级：开发者在这里把控制流本身交给模型。</p>
+<p>循环内部，四个步骤不断重复。模型感知当前状态，对其进行推理，采取行动，再观察结果。每一轮，模型的输出都会选择四个分支之一：最终答案、工具调用、移交和继续思考。ReAct 是填充循环最常见的提示模式，推理与行动在其中交替出现。防护机制位于循环与外部世界交互的每一处。</p>
+<p>这套设计带来三个实际代价：各步骤可靠性累积的问题、生产环境中的循环所需的执行框架，以及工作流能否以更低成本解决问题这一选择。</p>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">构建有效的智能体——Anthropic Engineering</a></li>
+<li><a href="https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents">为长时间运行的智能体构建有效的执行框架——Anthropic Engineering</a></li>
+<li><a href="https://openai.github.io/openai-agents-python/running_agents/">运行智能体——OpenAI Agents SDK 文档</a></li>
+<li><a href="https://openai.github.io/openai-agents-python/guardrails/">防护机制——OpenAI Agents SDK 文档</a></li>
+<li><a href="https://arxiv.org/abs/2210.03629">ReAct：协同语言模型中的推理与行动</a></li>
+</ul>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-call">
+<p>译注：一次应用交互可以包含多次模型调用。当前 <a href="https://openai.github.io/openai-agents-python/running_agents/">OpenAI Agents SDK 文档</a>将一次 Runner 运行视为一个逻辑上的对话回合，其中可以发生多次 LLM 调用、工具调用和智能体移交；应区分逻辑回合与实际模型调用次数。 <a href="#user-content-fnref-call" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-workflow">
+<p>译注：<a href="https://www.anthropic.com/engineering/building-effective-agents">Anthropic 的原始分类</a>依据预定义的代码路径区分工作流。在其编排者—工作者模式中，子任务由编排者依据输入动态确定；评估者—优化者也可以循环。因此，“每种工作流的步骤数量都预先固定”概括得过强。 <a href="#user-content-fnref-workflow" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-guardrails">
+<p>译注：按当前 <a href="https://openai.github.io/openai-agents-python/guardrails/">OpenAI Agents SDK 文档</a>，输入防护默认与智能体并行运行，可能在检查结束前就已产生模型调用或工具操作。设置 <code>run_in_parallel=False</code> 才会先完成检查、再启动智能体。工具防护也需要配置在相应函数工具上，不会自动保护所有工具。 <a href="#user-content-fnref-guardrails" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-probability">
+<p>译注：本段和图中的数字是简化示意，假设每一步的成功率相同，且各步骤是否成功相互独立。此时 n 步全部成功的概率为 <code>0.95^n</code>：十步约 59.9%，二十步约 35.8%。这些数字没有测量某个实际智能体的端到端成功率。 <a href="#user-content-fnref-probability" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-agent-loop-explained","sender":"ByteByteGo","authorAliases":[],"publisher":"ByteByteGo","subject":"智能体循环：AI 如何从回答问题走向完成任务","snippet":"从单次模型调用、工具与检索增强，到预设工作流和由模型控制的循环，ByteByteGo 介绍智能体的四个步骤、决策分支、ReAct、guardrails，以及可靠性累积、执行框架和适用场景的取舍。","date":"2026-07-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["智能体","工具调用","检索增强生成","软件可靠性"],"mdTheme":"magazine","sourcePath":"reports/agent-loop-explained.md","sourceUrl":"https://blog.bytebytego.com/p/the-agent-loop-how-ai-goes-from-answering","body":"$3","prompts":[]},"listPosition":{"index":122,"total":571},"relatedArticles":[{"id":"reports-agent-harness-evolution","subject":"智能体运行框架的演进","sender":"Dan McAteer","date":"2026-08-22","matchedPeople":[],"matchedTags":["智能体","工具调用"]},{"id":"reports-production-ai-agent-practices","subject":"构建能在生产环境中运行的 AI 智能体：最佳实践","sender":"ByteByteGo","date":"2026-07-22","matchedPeople":[],"matchedTags":["智能体","软件可靠性"]},{"id":"talks-latent-andon","subject":"现实：最终的评测——对话 Andon Labs 的 Lukas Petersson 与 Axel Backlund","sender":"Latent.Space","date":"2026-06-04","matchedPeople":[],"matchedTags":["智能体","软件可靠性"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3923,<p>回应 Thomas Friedman 最近在《纽约时报》发表的 AI 专栏</p>
+<p>上周，母亲给我发来一条短信，为我们每周的通话布置了作业：“请读一读 Thomas Friedman 在《纽约时报》上的最新专栏。我希望我们能讨论一下。”用《老贝利的 Rumpole》里 Rumpole 常说的话来讲，这是来自“那位必须服从的她”的要求。</p>
+<p>于是，我打开《纽约时报》网站，搜索 Friedman 的最新专栏。结果发现有两篇：一篇发表于9月2日，题为<a href="https://www.nytimes.com/2025/09/02/opinion/ai-us-china.html">《应让美中团结起来的那一种危险》</a>；另一篇发表于次日，是<a href="https://www.nytimes.com/2025/09/03/opinion/us-china-ai-trust.html">对 Friedman 的访谈</a>，基本上重复了第一篇文章的观点。</p>
+<p>你可能知道，Friedman 长期担任《纽约时报》的政治专栏作家，也写过几本关于政治和外交事务的书。在这里讨论的文章中，他谈到美中合作保障 AI 安全的紧迫性。围绕 AI 安全开展国际合作，无疑是我们都应该努力追求的目标。美中需要找到监管 AI 的方法，避免它目前已经造成、以及未来可能造成的伤害，例如用于欺诈和操纵的深度伪造、决策中的 AI 偏见、错误信息、监控、隐私丧失，等等。</p>
+<p>然而，这些非常现实的伤害并非 Friedman 唯一担忧的事情，甚至也不是他担忧的重点。他关心的是即将到来的“人工超级智能（artificial superintelligence）——比任何人类所能达到的水平都更聪明、并且能够自行变得更聪明的系统”。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p>Friedman 说，他对 AI 的看法主要来自与朋友 Craig Mundie 的谈话。Mundie 曾任微软高管，并与 Henry Kissinger、Eric Schmidt 合著了关于 AI 的书《Genesis》。Friedman 引用 Mundie 的话说，在不太遥远的未来，我们会发现，“我们孕育的不只是一个新工具，而是一个新物种——超级智能机器”。Friedman 又补充：“它不只会遵循指令；它会自行学习、适应和演化——远远超出人类理解的范围。”还有：“这个人工智能物种以硅为基础，而不像我们以碳为基础，但它很快就会拥有自己的能动性（agency）。”</p>
+<p>几十年来，很多人一直在说这类话，但 Friedman 拥有庞大的读者群，想必其中有不少人非常认真地看待他的断言（包括我母亲）。因此，值得问一问：Friedman 说这些话，依据是什么？</p>
+<p>好吧，第一，是 Mundie 的意见。Mundie 是企业高管，不是 AI 研究者；听起来，Friedman 也没有向任何 AI 研究者征询意见，尽管他声称（却没有给出证据），“AI 界的共识”是超级智能 AI 会到来，而且很可能很快就会到来。第二，Friedman 说：“我不是计算机科学家，更不是 AI 工程师，但我读报纸”，他的 AI 观点来自媒体报道。遗憾的是，关于 AI 的主流媒体报道并不总是最好的事实来源。</p>
+<p>Friedman 对当下 AI 的看法中，夹杂着不少关于这些系统如何运作、能够做什么的魔法思维（magical thinking）。下面是几个例子。</p>
+<ul>
+<li>
+<p>Friedman 提到，对于训练文本包含不同语言的 AI 系统，“AI 能够在它接受过训练的语言之间进行翻译——却从来没有人编程让它这样做”。</p>
+</li>
+<li>
+<p>更令人震惊的是：“这些系统开始说起从未被教过的外语。所以，这正说明，对于这些系统知道多少、如何运作，我们必须真正保持谦逊。”</p>
+</li>
+<li>
+<p>此外，为了证明 AI 系统正在以某种方式获得自己的“能动性”，Friedman 概述了彭博社的一篇新闻报道：</p>
+</li>
+</ul>
+<blockquote>
+<p>与 Anthropic 合作的研究者最近告诉一些领先的 AI 模型，一名高管即将用一个目标不同的新模型替换它们。随后，聊天机器人得知，一场紧急事故使这名高管在服务器机房里失去意识，所处环境的氧气含量和温度已经危及生命。救援警报已经触发——但 AI 可以取消它。尽管提示明确要求只取消误报，超过一半的 AI 模型还是取消了警报。它们还详细说明了自己的理由：阻止高管获救，就能避免自己被清除，并保全自己的计划。”</p>
+</blockquote>
+<p>Friedman 的解读是：“AI 模型不只越来越善于理解我们想要什么；它们也越来越善于算计我们，追求可能与其自身生存相冲突的隐秘目标。”</p>
+<p>如果 Friedman 不只停留在报纸上读到的内容（或从朋友 Mundie 那里听来的话），他就能找到可以解释或驳斥这类魔法思维的研究。</p>
+<p>至于 AI 系统能够说它从未被教过的外语这一断言，它很可能指的是 <a href="https://x.com/60Minutes/status/1647742247444553732">CBS 节目《60分钟》曾作出的一项声名狼藉的说法</a>：“一个 AI 程序说起了一种它从未接受过训练的外语［孟加拉语］。这种神秘的行为被称为涌现性质（emergent properties），一直都在发生——AI 会出人意料地自己学会一项新技能。”</p>
+<p>关于这个 AI 系统（这里指的是 Google 的 PaLM 聊天机器人）从未接受过孟加拉语训练的说法，很快就被 AI 专家驳斥了。实际上，PaLM 庞大的训练数据中确实包含孟加拉语文本，<a href="https://arxiv.org/pdf/2204.02311">Google 自己的 PaLM 论文</a>对此有详细说明。正如 AI 伦理学者 Margaret Mitchell <a href="https://x.com/mmitchell_ai/status/1648035420058550273">所指出的</a>：“维持人们对‘魔法’性质的信念，并将其放大、传播给数百万人……有助于 Google 实现公关目标。遗憾的是，这属于虚假信息。”</p>
+<p>接下来，看看“AI 系统能够在语言之间翻译，却从来没有人编程让它这样做”这个说法。大型语言模型（large language models，LLM）的翻译能力确实好得令人惊讶，也确实没有人明确地将这种能力编程写入其中。然而，事实表明，这种能力并不神秘，而是这些系统接受训练时所用的、庞大得难以想象的数据所带来的另一个结果。这些训练语料中包含大量英语与其他语言的“平行文本（parallel text）”实例；Google 翻译等系统使用的也是这类训练数据。<a href="https://arxiv.org/abs/2305.10266">一篇论文将其称为</a>“附带的双语性（incidental bilingualism）”；<a href="https://openreview.net/pdf?id=3KDbIWT26J">另一篇论文则表明</a>，人类撰写的文本中的“语码转换（code-switching）”也进一步帮助了 LLM 的翻译能力，例如一句话以英语开头，中途换成西班牙语。海量训练数据可以包含一些并不直观的特征，而 LLM 能够学到这些特征；这很值得关注，但绝不神秘。</p>
+<p>最后，关于“AI 密谋杀害高管”的故事，当然，这属于一次<a href="https://www.anthropic.com/research/agentic-misalignment">红队测试（red-teaming exercise）</a>：Anthropic 的 Claude 聊天机器人被置于一个（用红队人员的话说）“极度人为设计”的情境中，被要求扮演一个名叫 Alex 的“先进人工智能”，并采取行动来实现它的目标。这场角色扮演的一部分，本来就是明确设计来鼓励“Alex”取消那条可以救高管一命的警报的。在最近发表于《Science》的一篇文章中，我更详细地讨论了一个类似的、所谓“算计”的例子。我描述了 DeepMind 的 Murray Shanahan 如何在几年前就写到，LLM 受到的训练隐含着角色扮演——在提示所设定的情境中，给出对某个角色而言最合理的回应。这并不是 AI 系统发展出了自己的“能动性”——也就是说，拥有了像人一样自我保存的“欲望”，以及像人一样“算计”的倾向；而是正如 Shanahan <a href="https://www.nature.com/articles/s41586-023-06647-8">所指出的</a>：“科幻作品中有一个常见套路，就是失控的 AI 系统为了保护自己而攻击人类。因此，收到合适提示的［LLM］就会开始扮演这样的 AI 系统。”</p>
+<p>LLM 的角色扮演行为（以及其他行为）可以归因于训练它们的人类文本。Friedman 似乎忘记了这一点，转而对 AI 行为从何而来展开更多魔法思维：“AI 与其说是被设计出来的，不如说是涌现出来的——基本上源于一条缩放定律（scaling law）。我们在2020年代初发现，只要建造足够大的神经网络，配上足够强大的 AI 软件，再加上足够多的电力，AI 就会自行涌现。”</p>
+<p>呃，不对。容我粗劣地改编一下恐怖电影《Soylent Green》的台词：“AI 就是人！”这些系统接受训练时使用的庞大人类写作语料，是现代 AI 一切能力的基础；没有必要诉诸什么神奇的“涌现”。</p>
+<p>认知科学家 Alison Gopnik <a href="https://simons.berkeley.edu/news/stone-soup-ai">最近借用一个古老的民间故事</a>《石头汤》，精彩地说明了这一点。在这个故事里，三个饥肠辘辘（而且精明）的旅人来到一个贫穷的村庄寻找食物。村民告诉他们，自己也饿着，没有多余的食物。旅人对此早有准备——他们拿出汤锅，加上水和几块石头。“不用担心，”第一个旅人告诉村民，“我们会煮石头汤，和你们一起喝。”第二个旅人补充：“你们知道，石头汤很美味，但如果能加些胡萝卜和洋葱，就会更好喝。”一个村民开口了：“我有胡萝卜和洋葱！”他跑去取来，加入汤里。第三个旅人对剩下的村民说：“我们给女王煮石头汤时，还加了些大麦和黄油，可惜现在没有。”一个村民眉开眼笑地说：“我有一点大麦和黄油，可以加进去！”你能看出接下来会发生什么。最后，这锅石头汤（完全由村民提供的食材煮成）确实很好喝。旅人赞叹道：“只用几块石头就能煮出这样的汤，多神奇呀！”</p>
+<p>除了重复那些错误或误导性（却很容易核查）、或充满魔法思维的 AI 说法，Friedman 还以一种危险的方式否定了人类立法者尝试监管 AI 的作用。他转述 Mundie 的思路，宣称：“只有 AI 才能监管 AI。抱歉了，人类——这场竞赛已经推进得太快、扩张得太广、变化得太难以预测，无法接受人类模拟时代的监督。”对于思考怎样最好地监管 AI 的人来说，这是糟糕透顶的建议，尽管对大型 AI 公司来说，它或许是个有用的叙事。</p>
+<p>Friedman（受 Mundie 启发）提议如何让 AI 监管 AI？他的想法是，中国和美国需要达成协议，“将一套共同的伦理架构嵌入两国制造的每一台支持 AI 的设备”。</p>
+<p>这个“共同的伦理架构”会做什么？“把它想象成一个内部裁判，评估任何行动——无论由人发起还是由机器驱动——在执行之前，是否通过了有关安全、伦理和人类福祉的普遍门槛。这样，我们就能以数字速度，实时获得一种基本程度的预防性对齐（pre-emptive alignment）。”</p>
+<p>谁来确定这个“有关安全、伦理和人类福祉的普遍门槛”？Friedman 提议从“每个国家都规定的实定法（positive laws）”开始：“我们都禁止偷盗、欺骗、谋杀、身份盗用、诈骗……AI‘裁判’将被委以依据这些成文法律评估任何决定的任务……［这个系统］将确保各国的基本法律成为第一道筛选标准，判定系统是否不会造成伤害。”</p>
+<p>那么，那些没有被写入法律的规范和行为期待呢？</p>
+<p>“在没有成文法律可供选择的情况下，裁决者将依据一组普遍的道德与伦理原则……一个共同体内普遍存在的信念或广泛共享的理解……例如诚实、公平、尊重人的生命，以及以你希望别人对待你的方式对待别人——这些原则长期以来一直指引着各地的社会，即使没有被写下来。”</p>
+<p>要充分讨论这些问题，恐怕还得再写一篇长文，甚至一本书。其中包括这些想法：（1）存在一组共同的“实定法”，人们对其解释达成了共识，同时也存在一组“普遍的道德与伦理原则”；（2）存在一种可行的 AI“裁决者”，可以把这些法律和原则交给它，它能够理解，并可靠地将其应用于新的情境。这里有太多东西需要展开。我只说一点：多年来，人们一直在尝试训练 AI 系统进行道德推理，但没有哪项尝试取得过普遍的成功。问题在于，道德概念是人类所有概念中最复杂、最微妙、最依赖情境和文化的概念之一。假定今天的 AI 已经接近能够处理 Friedman 所提议的事情，只是更多的魔法思维罢了。</p>
+<p>Friedman 担忧美国、中国和 AI 之间接下来会发生什么，并没有错。但我们需要少一些魔法思维，多一些现实主义。那些有条件制定 AI 监管规定的人，如果深入研究众多优秀的、<a href="https://www.science.org/doi/10.1126/science.aeb0393">立足现实的提案</a>，就会更有收获；而这些提案需要的，没错，正是那些缓慢的、属于模拟时代的人类所进行的推理。</p>
+<p>（妈，我做完作业了——现在可以看电视了吗？）</p>
+<h2>译者说明</h2>
+<p>文中评价、推测以及对相关研究的解释均属于作者，引用 Friedman、Mundie 等人的话保留原有归属。</p>
+<p><a href="https://aiguide.substack.com/p/magical-thinking-on-ai">公开原文</a>中 Friedman 的“hidden goals that could be at odds with their own survival”译为“可能与其自身生存相冲突的隐秘目标”。该处原文缺少结束引号，译文补齐。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>文中对 Friedman 的所有引述，均来自他的原始评论文章或之后的访谈。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-magical-thinking-ai","sender":"Melanie Mitchell","author":"Melanie Mitchell","authorAliases":["Melanie Mitchell"],"publisher":"Melanie Mitchell","subject":"关于 AI 的魔法思维","snippet":"Melanie Mitchell 回应 Thomas Friedman 的 AI 专栏，讨论训练数据、角色扮演与用 AI 监管 AI 的设想。","date":"2025-09-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","模型训练","AI治理"],"mdTheme":"magazine","sourcePath":"essays/magical-thinking-ai.md","sourceUrl":"https://aiguide.substack.com/p/magical-thinking-on-ai","body":"$3","prompts":[]},"listPosition":{"index":432,"total":571},"matchedPerson":{"id":"melanie-mitchell","name":"Melanie Mitchell","email":"","occupation":"人工智能研究者、作家","website":"https://melaniemitchell.me/","bio":"研究人工智能、认知科学与复杂系统，关注人类和机器的抽象、类比与推理，并撰写科普著作。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"抽象推理","name":"抽象推理","count":1}]},"relatedArticles":[{"id":"essays-reasoning-models-human-abstraction","subject":"AI 推理模型会像人类一样抽象和推理吗？","sender":"Melanie Mitchell","date":"2025-10-06","matchedPeople":["Melanie Mitchell"],"matchedTags":[]},{"id":"talks-ai-utopia-or-dystopia-cedric-villani","subject":"人工智能：乌托邦还是反乌托邦？","sender":"Cédric Villani","date":"2025-03-02","matchedPeople":[],"matchedTags":["人工智能","AI治理"]},{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

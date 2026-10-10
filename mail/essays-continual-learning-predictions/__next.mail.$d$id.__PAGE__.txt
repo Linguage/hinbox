@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1dae,<blockquote>
+<p>现在就把AI安全监管制度定下来，是个错误。</p>
+</blockquote>
+<p>我在<a href="https://www.dwarkesh.com/p/timelines-june-2025">另一篇文章</a>中解释过，为什么我认为持续学习（continual learning）是必要的。如果AI只能在一次次会话之间写下Markdown文件，我不认为它们能像人类一样胜任一整份工作。</p>
+<p>举个例子：假设学生学萨克斯的方式是，一个学生从完全不会吹开始尝试，第一次练习结束后写下一堆笔记；接着，另一个在音乐厅外等候、同样从没吹过萨克斯的学生，先读完所有笔记，再试着吹，依此类推。即使录音室外有无穷多个从未接触过萨克斯的学生，能够给下一个人写笔记，他们共同写下的任何一串文字，也无法让门外第N个学生在第一次尝试时就熟练演奏。总有一个时候，你必须把经验积累进大脑。我认为，我们希望AI在各类工作场所学会的许多技能和知识，也会是这样。</p>
+<p>那么，一旦有了持续学习，AI会发生什么变化？</p>
+<ul>
+<li>
+<p>很多已经提出的AI监管方案，都假设先训练模型，再部署模型。因此，只要在部署之前做一系列检查，就能确保它不会协助网络攻击或递归自我改进（recursive self-improvement）。可如果基础模型每天都在根据它完成的数百万次工作会话更新呢？这是我认为现在就固定某种安全监管制度并不明智的诸多原因之一。我们连一年后会面对什么样的技术都不知道，更不用说五年或十年后；这样做会把一种过时、甚至可能适得其反的AI威胁应对方式固化下来。如果政府确实想对模型提供商开展安全评估，那么每月或每季度做风险检查会更合理，而不必特别挑出训练结束、部署开始之前的那个时刻，因为未来这个阶段将不再构成一个有实质区别的类别。</p>
+</li>
+<li>
+<p>实验室开展技术对齐（technical alignment）的方式，需要彻底改变。几乎所有现有技术都围绕一个问题：如何让一组冻结的权重在部署期间表现良好。我没有看到多少研究在探讨，如何保证AI系统即使不断更新权重，也永远不会遭到越狱（jailbreak），或者变成一个具有欺骗性或邪恶倾向的人格。如果AI还会汇集不同用户带来的学习成果，那又该怎样防止用户往基础模型中注入后门或某种恶意倾向？从某种意义上说，这其实更接近人类的对齐问题：你的孩子出去学习新东西，有时候一下子就中了疯狂的意识形态、毒品之类东西的招；但你希望自己已经给了他们足够的常识和基本价值观，使他们能够自主成长，而不至于形成某些极其古怪、厌恶人类的信念。</p>
+</li>
+<li>
+<p>AI心智的多样性会增加。目前，主要的AI心智不到5种，由于训练数据大致相同，它们彼此也很相似。但如果AI从经验中学习，而不同AI的经验各不相同，那么最终得到的AI，可能就会真正有所不同。</p>
+</li>
+<li>
+<p>当部署成为训练的一部分，领先所带来的回报会加速增长。如果你的模型最好，有更多人使用你的AI去做更复杂、更有用的工作，并提供大量能让模型在会话窗口之外吸收的反馈，那么你的模型就会变得更聪明。</p>
+</li>
+<li>
+<p>如果模型主要通过部署来学习，实验室就会感到压力，需要更早部署自己最聪明的模型。Anthropic从2月起就在内部使用Mythos，但直到6月才把这个模型向公众推出。在持续学习的条件下，内部使用与对外发布之间相隔四个月，意味着白白让出了四个月的部署学习时间。更早推出模型的竞争对手，在发布当天可能不如你，但它能借助多得多的真实世界经验来改进。</p>
+</li>
+<li>
+<p>持续学习会为领先的AI实验室建立一道明确的护城河，而这是它们目前所缺乏的。很多人一直在问，AI实验室到底要怎样赚钱？我在播客中问Dario这个问题时，他拿云服务商作类比：它们也提供许多同质化的服务，却仍能获得很高的利润率。但云服务利润率高，是因为从一家云服务商迁移到另一家，既耗时又昂贵。现在，切换AI模型却没有成本。没有什么能阻止我用Codex开始开发一个软件仓库，再用Claude Code把它做完。但一旦有了持续学习，你使用的模型会在一次次会话中与你互动，变得越来越好，这时切换成本（switching costs）就会相当高。如果你想换掉正在使用的AI，基本上就相当于解雇一个对你的组织已经积累了数月背景知识的员工，换上一个需要从头培训的新人。一旦你被这样锁定，模型提供商就能要求相当高的利润率。</p>
+</li>
+<li>
+<p>企业会意识到这一点，并设法避免这种锁定。但如果摆在面前的选择是，要么被模型提供商锁定，要么放弃一项极有价值的功能——模型每与你进行一次会话，就能为你变得更好——那该怎么办？如果实际使用最终成为模型改进的主要途径，那么实验室可能会补贴那些允许模型用其会话进行训练的用户和企业，尤其是那些承担困难且在经济上重要的工作的用户和企业，就像Google免费提供搜索一样。反过来，实验室也可能会说，任何拒绝让它们用自己的会话进行训练的企业，都不能使用最好的模型。实验室会软硬兼施，设法让用户允许AI从经验中学习。我在这里略过了一个事实：更新某个用户的一组权重，与把所有这些不同的权重分支（weight forks）汇集回主模型，是两件不同的事；后者在技术上可能更有挑战性，但假以时日，这也会得到解决。</p>
+</li>
+<li>
+<p>AI训练已经具有很大的规模经济（economies of scale）：理论上的理由是，可以让更多用户分摊昂贵的训练成本；实际证据则是，到目前为止，实验室收入的增长速度超过了其算力的增长速度。但持续学习也可能给终端用户的推理（inference）带来规模经济，具体来自批处理（batching）——前提是，每家公司的信息需要通过更新全部权重来保存，而无法放在低秩适配器（low-rank adapters）中。粗略计算表明，像DeepSeek V3这样的稀疏模型，最优推理批大小（batch size）超过2,400；也就是说，除非模型同时生成这么多条序列，否则就没有充分利用算力。如果你想知道为什么，可以去看我与Reiner Pope讨论推理经济学的<a href="https://www.youtube.com/watch?v=xmkSf5IS-zw">完整节目</a>。这里的要点是，只有数千条序列同时使用同一组权重进行解码，这组权重才能得到高效服务。一家大公司的员工和智能体能够产生这么大的并发流量，因此可以高效地为自己持续更新的权重分支提供推理服务；而一个单独为自己提供服务、批大小为1的个人用户，算力效率可能只有前者的百分之一，甚至更低。因此，为个性化权重提供推理服务的经济条件，会强烈偏向大型组织。</p>
+</li>
+</ul>
+<p>等到持续学习真正可用时，还会有许多其他事情发生变化；最重要的变化，可能恰恰是最难预料的那些。不过，上面这些变化，即使现在看来也已经很清楚了。</p>
+<hr>
+<p><em>此文章由AI翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-continual-learning-predictions","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"subject":"持续学习时代的8项预测","snippet":"Dwarkesh Patel提出持续学习时代的八项预测，讨论模型、用户反馈、组织学习与竞争格局的关联。","date":"2026-08-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["持续学习","人工智能","企业管理"],"mdTheme":"magazine","sourcePath":"essays/continual-learning-predictions.md","sourceUrl":"https://www.dwarkesh.com/p/era-of-continual-learning","body":"$3","prompts":[]},"listPosition":{"index":60,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"essays-learning-on-the-job","subject":"下一次重大突破，将是AI在工作中学习","sender":"Dwarkesh Patel","date":"2026-06-26","matchedPeople":["Dwarkesh Patel"],"matchedTags":["持续学习"]},{"id":"essays-compute-cost-forecast","subject":"未来几年算力为何可能贵上十倍以上","sender":"Dwarkesh Patel","date":"2026-07-29","matchedPeople":["Dwarkesh Patel"],"matchedTags":["人工智能"]},{"id":"talks-dwarkesh-grant-sanderson-2","subject":"Grant Sanderson：AI 与数学的未来","sender":"Dwarkesh Patel","date":"2026-06-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

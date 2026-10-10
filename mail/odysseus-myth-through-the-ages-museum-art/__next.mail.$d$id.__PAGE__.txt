@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tac8,<h1>奥德修斯神话为何千年不衰</h1>
+<h2>摘要</h2>
+<p>诺兰新片《奥德赛》上映后，奥德修斯十年归乡的故事再度引发关注。文章援引古典学学者与多家博物馆策展人，梳理从公元前五世纪陶板、罗马银杯到文艺复兴嫁妆箱与十九世纪绘画的历代演绎，指出其持久魅力在于主角并非神裔，不具神力，仅凭智慧，因而格外贴近凡人，而每个时代都在重写这一母题。</p>
+<h2>内容框架与概述</h2>
+<p>文章以电影热映切入，先给出解释性框架：故事之所以反复吸引人，在于奥德修斯的人间性。学者指出他不是神之子，没有特异能力，只是格外聪明；而这一母题曾出现在花瓶、银器、壁画、宝石与雕塑中，古代社会各自的价值观正透过其诠释浮现。</p>
+<p>随后文章转为博物馆巡礼。大都会博物馆的两块陶板呈现老乳母凭脚上伤疤认出乔装归来的奥德修斯，以及他扮作乞丐接近忠贞的珀涅罗珀，落脚于古希腊人对家庭与共同经历的重视。</p>
+<p>波士顿美术馆的希腊酒罐与伯克林画作分别处理冥府相遇与逃离独眼巨人，说明酒会图像是史诗吟诵与哲思的起点；盖蒂博物馆的罗马银杯与陶灯则显示荷马属于流行文化，跨越阶层与场合。</p>
+<p>芝加哥艺术学院的嫁妆箱绘画把织布的珀涅罗珀置于中心，强调婚姻与忠诚；加德纳博物馆的雕像则以其幽默摆放位置收尾，让古代文本与今日观众会心一笑。</p>
+<h2>核心概念及解读</h2>
+<p><strong>帕林普塞斯特式文本</strong>：故事如反复书写的羊皮稿本，层层叠写，底层旧事仍隐约可见。</p>
+<p><strong>佩利凯</strong>：古希腊双耳酒罐，酒会中常作史诗吟诵与哲学讨论的图像起点。</p>
+<p><strong>卡松</strong>：文艺复兴意大利彩绘嫁妆箱，主题多与婚姻及家庭忠诚相关。</p>
+<p><strong>人间性英雄</strong>：奥德修斯无神格与神力，仅凭智谋行事，故更贴近凡人处境。</p>
+<p><strong>视觉叙事</strong>：图像并非文字插图，而是能赋予场景文学意涵的独立叙事手段。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.nytimes.com/2026/07/23/arts/design/odyssey-nolan-art-met-museum-getty.html">In Artwork Across the Ages, Odysseus Myth Keeps Entrancing Audiences</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Ilaria Parogni</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-23</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>74/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"odysseus-myth-through-the-ages-museum-art","sender":"henri","author":"henri","sourceAuthor":"Ilaria Parogni","authorAliases":["henri","Ilaria Parogni","Henri","Hinbox"],"subject":"奥德修斯神话为何千年不衰","snippet":"诺兰电影《奥德赛》带动古希腊史诗热潮，本文巡礼美国多家博物馆的历代相关藏品，从陶板银杯到嫁妆箱绘画，揭示奥德修斯因人性而非神力而长盛不衰的魅力。","date":"2026-07-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["古希腊神话","艺术史","博物馆"],"mdTheme":"magazine","sourcePath":"notes/odysseus-myth-through-the-ages-museum-art.md","sourceUrl":"https://www.nytimes.com/2026/07/23/arts/design/odyssey-nolan-art-met-museum-getty.html","body":"$3","prompts":[]},"listPosition":{"index":87,"total":571},"matchedPerson":{"id":"ilaria-parogni","name":"Ilaria Parogni","email":"","contentCount":1,"topTags":[{"id":"博物馆","name":"博物馆","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"艺术史","name":"艺术史","count":1}]},"relatedArticles":[{"id":"nolan-odyssey-five-takeaways","subject":"诺兰奥德赛的五大看点：魔力与人性","sender":"henri","date":"2026-07-17","matchedPeople":[],"matchedTags":["古希腊神话"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

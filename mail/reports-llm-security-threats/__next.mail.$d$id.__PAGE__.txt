@@ -1,0 +1,138 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T4d43,<p>2025年6月，Aim Security的安全研究人员演示了这样一种情况：一封邮件就能让Microsoft 365 Copilot调取公司的内部文件，并将其传送到外部服务器，全程不需要用户参与。</p>
+<p>邮件里只有普通文本，也没有利用任何软件缺陷。Copilot的输出同时受到邮件中的隐藏指令和用户实际请求的驱动，系统没有区分两者。Microsoft在几天内封堵了这条特定路径，并表示客户未受影响。</p>
+<p>不过，这起事件让我们得以了解语言模型处理文本的方式。该漏洞被命名为EchoLeak，编号为CVE-2025-32711，是理解大型语言模型（LLM）安全全貌的一个有用案例。</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/03870cf3-d5e5-4566-bad0-fe780a239a28_3342x1544.png" alt="EchoLeak流程：含有指令的邮件进入Copilot上下文，随后读取文件，经Markdown编码后传至攻击者服务器。"></p>
+<p>作为对照，再看另一个案例。一个团队通过公开接口，花费约20美元的API查询费用，就提取了一个已投入生产的OpenAI模型的一部分。听起来，这才是多数团队真正应该担心的威胁。</p>
+<p>本文尝试绘制一张完整的攻击面（attack surface）地图，涵盖威胁LLM安全的各个环节。有了这张地图，就能定位某项LLM功能、识别它暴露于风险的位置，并在新威胁出现时分析它们。</p>
+<p>那么，就从最重要的一个性质说起。</p>
+<p><em>免责声明：本文依据多种来源公开分享的细节写成。参考资料列在文末。如发现不准确之处，请在评论中指出。</em></p>
+<h2>信任边界</h2>
+<p>几乎所有LLM漏洞都可以追溯到同一个性质：语言模型以同一串词元（token）序列接收指令和数据，而这串序列中没有将命令与信息分开的标记。</p>
+<p>传统软件会将两者分开。</p>
+<p>例如，参数化数据库查询把命令放在一个位置，把用户输入放在另一个位置。这意味着，即使姓名字段中输入的文本写成了一条SQL语句，它也仍然只是文本，因为查询的结构强制执行了这种分离。</p>
+<p>但在LLM上下文中，所有内容都放在同一个位置。定义助手角色的系统提示词（system prompt）、用户消息、从数据库检索到的文档，以及被调用工具返回的输出，都会拼接在同一串序列中。序列中的任何部分都可能像指令一样影响生成结果，因为模型根据此前的完整序列计算下一个词元，对其中任何部分都没有单独处理。</p>
+<p>提示词注入（prompt injection）由此而来：向模型提供类似指令的文本，使模型输出遵循这些指令，而非操作者的意图。它通过两条路径抵达模型：</p>
+<ul>
+<li>直接路径是在聊天框中输入恶意指令。这是多数人会想到的形式。</li>
+<li>间接路径则把指令放进模型执行正常任务时检索到的内容中，例如正在被总结的网页、正在被读取的文档，或被管理的收件箱中的邮件。</li>
+</ul>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/22b60594-da4f-434e-9fdd-e0d0237de5f1_3144x1096.png" alt="注入路径：直接攻击由用户输入；间接攻击隐藏在检索内容中。两者都进入上下文窗口并影响模型输出。"></p>
+<p>EchoLeak就是间接路径的一个例子。用户请求的是普通工作，而攻击者的指令来自一封用户尚未打开的邮件。事实上，攻击载荷通过了Microsoft专门用于检测跨提示词注入的分类器，这说明单独使用输入过滤时，仍可能有攻击漏过。</p>
+<p>这一性质适用于任何向模型提供外部文本的系统。处理检索结果、上传文件、工单或评论的功能，从设计上就存在间接注入的风险。</p>
+<p>参数化通过在数据库边界将代码与数据分开，解决了SQL注入问题。自然语言中没有对应的机制，因为指令和信息都用文字表达，目前也没有可靠的方法，能够将一段文本标记为不具备执行作用，并让模型在生成过程中遵守这一标记。过滤可以在一定程度上缓解问题，但无法将其消除。</p>
+<p>既然混淆可能发生在文本进入模型或动作离开模型的任何位置，下一步就是把这些位置画出来。</p>
+<h2>攻击面</h2>
+<p>OWASP大型语言模型应用十大风险（OWASP Top 10 for Large Language Model Applications）是业界识别最关键LLM风险的参考。其近期版本列出了十项独立风险。如果把它们放到数据流经应用的路径上，这十项风险就成了同一张地图上的不同位置。</p>
+<p>这条流水线分阶段运行。</p>
+<p>输入来自用户。系统经常检索上下文，为答案提供依据。这一步通常建立在向量数据库（vector database）之上：数据库把文档存成数值嵌入（embedding），并返回与查询最相关的文档。这种模式称为检索增强生成（retrieval-augmented generation，RAG）。随后，模型处理组装好的输入。它可能调用工具或其他智能体（agent），在外部执行动作。输出返回用户。监控围绕着整条流水线，而其中的每个组件都来自某个供应方，构成系统底层的供应链。</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/aa5735f7-55fb-4d42-84a3-7e00b3f6628d_4046x1766.png" alt="攻击面：输入、检索、模型、工具和输出处于监控范围内；供应链风险影响整条流水线。"></p>
+<p>下面进一步说明各阶段及其可能存在的风险：</p>
+<ul>
+<li><strong>输入</strong>：直接提示词注入和无界消耗（unbounded consumption）。OWASP将后者定义为不受控制的资源使用，可能让受害者承担高额费用，有时也称为“钱包拒绝服务”（denial of wallet）。</li>
+<li><strong>检索</strong>：间接注入、向量及嵌入的弱点。2024年的一项研究PoisonedRAG，只需向包含数百万条内容的知识库插入少至五段恶意文本，就能污染RAG系统的回答，在指定目标问题上达到90%的成功率。</li>
+<li><strong>模型</strong>：训练数据泄露、数据与模型投毒，以及系统提示词泄露。</li>
+<li><strong>工具</strong>：过度代理权限（excessive agency），即智能体持有超出任务所需的权限。</li>
+<li><strong>输出</strong>：不当输出处理（improper output handling），即响应未经清理就传递到下游；以及错误信息（misinformation），即信心十足的回答实际上有误。</li>
+<li><strong>供应链</strong>：为上述阶段提供内容或能力的任何组件遭到入侵。</li>
+</ul>
+<p>这张地图为分析攻击细节提供了参照。新攻击可以在地图上定位。需要问的是：它在哪里、在哪个阶段注入了不可信文本？它是否滥用了模型本不该持有的权限？答案既能表明严重程度，也能指向适用的防御措施。</p>
+<p>供应链无法清晰地归入路径中的某一个位置，因为遭到入侵的模型或被投毒的向量存储，会同时影响此后的所有阶段。因此，它被画成覆盖全程的独立部分。</p>
+<p>这张地图也揭示了关注重点的错位：最引人担忧的威胁，与真正进入生产环境的威胁，并不相同。</p>
+<h2>模型攻击</h2>
+<p>针对模型内部的攻击，包括权重窃取、训练数据提取和训练阶段投毒，确实存在。但对多数开发者来说，它们在最初应投入精力的问题中优先级较低。这些攻击往往成本高、适用范围窄，或已经由模型提供商加以缓解。</p>
+<p>下面是几个例子：</p>
+<ul>
+<li><strong>模型窃取</strong>：前文提到的OpenAI案例中，一个团队花费不到20美元，恢复了已投入生产的OpenAI模型最后一层嵌入投影层（embedding-projection layer），并确认了此前保密的隐藏维度。这个结果意义重大，但也有明确边界：它只恢复了众多层中的一层。研究人员表示，通过API重建完整的前沿模型仍不现实，因为成本超过训练一个同等模型的费用。OpenAI事先收到通知，并修改了API。</li>
+<li><strong>训练数据提取</strong>：2023年底，由Google DeepMind和几所大学组成的研究团队发现，要求ChatGPT连续重复同一个词，可能使它逐字输出训练数据片段，其中包括真实的联系信息。花费几百美元就能恢复数兆字节的数据。其隐私影响严重，OpenAI在问题披露后过滤了触发这种行为的输入。</li>
+<li><strong>投毒</strong>：2025年，由Anthropic、英国AI Security Institute和Alan Turing Institute组成的团队发现，约250份恶意文档就足以在参数规模从6亿到130亿的模型中植入后门，而且所需文档数量在不同模型规模下大致不变。这推翻了“大模型需要按比例增加投毒数据”的假设。研究人员也直接说明了局限：这个后门只会在触发短语出现时输出乱码。这是一种后果较轻的行为，他们认为它不太可能对前沿模型构成重大风险。</li>
+</ul>
+<p>下图展示了各种威胁在“恐惧程度与频率”坐标中的位置：</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/4696b0ed-a36b-469a-a073-03a2f5980728_2418x1356.png" alt="恐惧程度与频率：横轴表示听起来有多可怕，纵轴表示进入生产环境的可能性；间接注入与过度代理权限位于优先处理象限。"></p>
+<p>这个排序很重要，因为注意力有限。一个团队如果专注于防范模型窃取，却部署了拥有广泛权限的智能体，就处理了一种罕见攻击，同时让一种常见攻击有机可乘。</p>
+<p>所谓边界明确，描述的是当前状况。对于自行托管开放模型权重、用敏感数据微调，或运行自有训练流水线的团队，这些攻击的优先级会提高，因为模型内部的安全成为团队自己的责任，不再由提供商承担。</p>
+<p>针对内部的攻击位于地图边缘。在地图中心，模型触发外部动作的地方，风险更大。</p>
+<h2>过度代理权限</h2>
+<p>LLM攻击造成实质损害的位置具有一种特定结构，可以在系统中识别出来。它也被称为致命三要素（lethal trifecta），由同一个智能体同时持有三种能力组成：</p>
+<ul>
+<li>访问私有数据，例如收件箱、客户数据库或源代码仓库。</li>
+<li>接触不可信内容，即从外部读取的任何东西，包括网页、邮件和共享文档。</li>
+<li>拥有向外发送数据或在外部执行动作的通道，例如向外发出请求、发送消息或调用工具。</li>
+</ul>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/47256f68-6eab-4b8a-9626-07095340869d_2256x1910.png" alt="致命三要素：私有数据、不可信内容与外部动作三者的交集构成风险暴露区。"></p>
+<p>同时拥有这三种能力的智能体，可能受到注入指令的引导，把私有数据传给攻击者。模型对齐（model alignment）不能消除这种风险，因为根据类似指令的输入生成相应输出，本来就是模型的正常工作方式。</p>
+<p>几个已有记录的案例都符合这种模式：</p>
+<ul>
+<li>GitHub的MCP服务器曾被利用：攻击者在公开仓库中提交恶意issue，暴露了受害者私有仓库的数据。MCP即模型上下文协议（Model Context Protocol），用于将模型连接到外部工具和数据。</li>
+<li>攻击者向GitLab的Duo助手提供了一个含有隐藏指令的公开项目，使其泄露私有仓库内容。</li>
+<li>一家Chevrolet经销商的聊天机器人曾被操纵，同意以1美元出售一辆SUV。</li>
+<li>一个加密货币交易智能体遭到社会工程攻击，被诱导转出了55 ETH。</li>
+</ul>
+<p>移除三种能力中的任何一种，都能降低风险暴露。成本最低的做法通常是切断对外通道，或缩小智能体可访问的范围；这往往比增加一个更强的过滤器便宜。</p>
+<p>通过MCP连接工具，是智能体获得第三种能力最常见的方式。这个协议还很新，连成熟的服务器也曾发布可被注入的配置。Anthropic自己的官方Git MCP服务器在2025年收到过三个与注入有关的CVE。运行时输入是一种风险来源。系统组件是另一种，它们可能在任何请求到来之前就已被攻破。</p>
+<h2>供应链</h2>
+<p>技术栈中的每个模型、适配器（adapter）、向量存储和工具都来自某个供应方，而其中任何一个都可能在交付时已经遭到入侵。这就是供应链攻击面。它能绕过运行时防御，因为威胁在输入校验执行之前就已经存在。</p>
+<p>常见的机制并不复杂。</p>
+<p>许多模型以序列化文件分发，而一些序列化格式会在文件加载时执行代码。2025年初，ReversingLabs记录了一种名为nullifAI的技术：上传到Hugging Face的恶意模型，在一个Python pickle文件中隐藏了反向shell（reverse shell），也就是向攻击者发起回连的代码。文件采用了一种能够规避平台扫描器Picklescan的压缩方式，于是模型看起来是干净的，却在加载时执行恶意代码。</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/a7fc062d-8b5a-4ed3-93ab-f4fa05bdbcc2_2778x1602.png" alt="供应链：受污染的制品进入构建流水线，绕过扫描后部署到生产环境并执行代码；运行时防御不会看到此前的污染过程。"></p>
+<p>这个规模值得关注。Protect AI会扫描Hugging Face上托管的模型，已经检查了超过400万个，并将约352,000个标记为含有不安全或可疑问题，涉及五万多个模型。</p>
+<p>来源（provenance）是少数能够完全控制的因素之一。该信任哪些模型、工具和数据来源，由团队选择；运行时攻击面的大部分因素则不同。</p>
+<p>有两项缓解措施正在发展：</p>
+<ul>
+<li>使用更安全的序列化格式，避免在加载时执行代码。</li>
+<li>对模型签名以验证来源，类似软件包生态中的签名发布。</li>
+</ul>
+<h2>纵深防御</h2>
+<p>没有任何单一防御能始终有效。支持这一判断的证据已经足够充分，以至于现实目标应从阻止每一次攻击，转为在攻击成功后仍能承受其影响。可行的做法是纵深防御（defense in depth）：布置多层相互独立的防御，让一层失效时，另一层能够限制其后果。</p>
+<p>一层是不够的。</p>
+<p>2025年11月，OpenAI、Anthropic和Google DeepMind的一个联合团队发表研究，用允许不断适应和迭代的攻击，突破了此前提出的十二种提示词注入与越狱（jailbreaking）防御。即便是强大的生产环境过滤器，也仍有一部分攻击能够通过，而且只需成功一次就够了。单独一道防护栏带来的信心，并没有测量结果的支持。</p>
+<p>更持久的做法，是约束模型周围的系统，而非依赖模型抵抗操纵。</p>
+<p>Google DeepMind的CaMeL就是一个例子。它将模型视为不可信组件，使用一个独立的高权限组件规划动作，并隔离从外部检索到的数据，使这些数据无法自行触发敏感操作。</p>
+<p>Meta的智能体二选三规则（Agents Rule of Two）是一个更简单的操作版本。它建议，在没有人类参与决策的情况下，一个智能体最多只能具备三种危险属性中的两种：处理不可信输入、拥有敏感访问权限，以及在外部执行动作。Meta将这条规则定位为最小权限原则（least privilege）的补充，而非完整解决方案。</p>
+<p><img src="https://substack-post-media.s3.amazonaws.com/public/images/e0019005-e2a8-4d23-8a44-58777dd3b0aa_2460x1344.png" alt="防御层：监控包围整个系统；工具权限约束与输出处理，以及输入校验与检索内容卫生，依次包围输入、检索、模型、工具、输出这条路径。"></p>
+<p>标准防御层分别覆盖地图上的各个阶段：</p>
+<ul>
+<li>校验并约束输入。</li>
+<li>保持检索来源干净。</li>
+<li>将每个工具的权限限定在完成任务所需的最小范围。</li>
+<li>将模型输出视为不可信内容，在用于下游之前进行清理。</li>
+<li>通过监控观察异常。</li>
+<li>由人类审核后果最重大的动作。</li>
+</ul>
+<h2>结论</h2>
+<p>这个威胁模型围绕一个事实展开。</p>
+<p>语言模型将指令与数据作为同一串词元序列处理，整张地图都由这一性质推导而来。</p>
+<p>OWASP十大风险因此成了路径上的一组位置，而不仅是一张清单。受到广泛关注的攻击——模型窃取和训练数据提取——存在明确边界，并且大多已经得到缓解；更大的风险集中在智能体同时持有私有数据、不可信内容和对外通道的地方。供应链位于每个阶段的底层，也是运行系统的团队最能直接控制的攻击面。既然没有任何单独一层能够始终有效，纵深防御就是团队应采用的现实做法。</p>
+<p>代价很高。每增加一层，都会增加延迟、费用和摩擦；而最强的缓解措施——由人类审核后果重大的动作——也会限制系统能够自主运行的程度。这种取舍无法避免。</p>
+<p>这片领域可以归纳为几个长久成立的要点：</p>
+<ul>
+<li>根本原因是指令与数据之间缺少边界。</li>
+<li>各种有名称的威胁是流水线上的位置，而非彼此孤立的事实。</li>
+<li>针对模型内部的攻击大多有明确边界，而致命三要素标出了真正损害发生的位置。</li>
+<li>来源是最能直接控制的攻击面。</li>
+<li>纵深防御，而非任何单个过滤器，能够限制残余风险。</li>
+</ul>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2509.10540">EchoLeak：生产环境LLM中的零点击提示词注入（案例研究）</a></li>
+<li><a href="https://arxiv.org/abs/2403.06634">窃取生产环境语言模型的一部分</a></li>
+<li><a href="https://not-just-memorization.github.io/extracting-training-data-from-chatgpt.html">从ChatGPT提取训练数据</a></li>
+<li><a href="https://www.anthropic.com/research/small-samples-poison">少量样本就能对任意规模的LLM投毒</a></li>
+<li><a href="https://arxiv.org/abs/2402.07867">PoisonedRAG：检索增强生成的知识库投毒</a></li>
+<li><a href="https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/">OWASP 2025年LLM应用十大风险</a></li>
+<li><a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/">AI智能体的致命三要素</a></li>
+<li><a href="https://www.reversinglabs.com/press-releases/reversinglabs-identifies-novel-ml-malware-hosted-on-leading-hugging-face-ai-model-platform">在Hugging Face上发现的恶意机器学习模型（nullifAI）</a></li>
+<li><a href="https://thenextweb.com/news/hugging-face-clawhub-malware-ai-supply-chain">Hugging Face模型扫描结果</a></li>
+<li><a href="https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/">新的提示词注入论文：智能体二选三规则和后行动的攻击者</a></li>
+<li><a href="https://arxiv.org/abs/2503.18813">从设计上击败提示词注入（CaMeL）</a></li>
+<li><a href="https://ai.meta.com/blog/practical-ai-agent-security/">智能体二选三规则：一种实用的AI智能体安全方法</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-68143">Anthropic Git MCP服务器注入安全公告（CVE-2025-68143）</a></li>
+</ul>
+<hr>
+<p><em>此文章由AI翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-llm-security-threats","sender":"ByteByteGo","authorAliases":[],"publisher":"ByteByteGo","subject":"LLM安全基础：完整威胁模型","snippet":"ByteByteGo梳理LLM应用的信任边界、提示注入、数据提取、供应链攻击与纵深防御措施。","date":"2026-08-03","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["大语言模型","网络安全","提示注入","供应链安全"],"mdTheme":"magazine","sourcePath":"reports/llm-security-threats.md","sourceUrl":"https://blog.bytebytego.com/p/llm-security-basics-the-full-threat","body":"$3","prompts":[]},"listPosition":{"index":67,"total":571},"relatedArticles":[{"id":"talks-latent-jev","subject":"Jev：面向生产环境而非神级智能的系统一模型——对话 Diogo Almeida","sender":"Latent.Space","date":"2026-09-21","matchedPeople":[],"matchedTags":["大语言模型"]},{"id":"reports-llm-model-routing","subject":"智能模型路由如何将LLM成本降至十分之一","sender":"ByteByteGo Newsletter","date":"2026-09-09","matchedPeople":[],"matchedTags":["大语言模型"]},{"id":"reports-llm-failure-handling","subject":"如何处理LLM应用中的错误和故障","sender":"ByteByteGo","date":"2026-09-07","matchedPeople":[],"matchedTags":["大语言模型"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

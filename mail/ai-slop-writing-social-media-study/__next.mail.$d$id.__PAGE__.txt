@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tba6,<h1>四分之一长文由AI代笔：社交平台内容失守</h1>
+<h2>摘要</h2>
+<p>AI 检测平台 Pangram 通过浏览器扩展分析逾百万条帖文，发现超过 250 字的长文中 25% 完全由 AI 生成，LinkedIn 高达 41%，X 为 25% 且另有 23% 属人机合写。短视频之外，Medium 约三分之一涉 AI，Substack 最低但也有 21.9%，Reddit 因评论量大反而最干净。文章认为 AI 内容正淹没互联网，付费检测工具是权宜之计，最终或许只能选择离开这些信息流。</p>
+<h2>内容框架与概述</h2>
+<p>文章以一项基于浏览器扩展的数据研究为轴心，先给出总体结论：长文社交媒体中四分之一完全由 AI 撰写，随后按平台逐一拆解，形成从普遍现象到个别差异的递进结构，最后落到对互联网内容生态的悲观判断与应对建议。</p>
+<p>平台对比是全文主干。LinkedIn 在完全由 AI 生成的长文比例上居首，达 41%，短内容也有 30% 为纯 AI 产物，且平台呈现全有或全无的极端分布；X 的纯 AI 比例稍低，但计入 AI 辅助后人机合计接近一半，与 LinkedIn 大致持平。Medium 约三分之一涉 AI，Substack 最低，Reddit 则因评论区几乎全为人类撰写而成为罕见的净土。</p>
+<p>文章随后引入 Pangram 首席执行官的表态，承认内容全面 AI 化的前景黯淡但并非必然，主张以标注和检测让用户自行规避。然而这一方案绑定了每月二十美元的订阅门槛，免费额度极为有限。作者由此收束全篇：若不愿付费辨别真伪，就只能默认人人都在糊弄，离开信息流反而是最直接的选择。</p>
+<h2>核心概念及解读</h2>
+<p><strong>AI 内容泛滥</strong>：指未披露的机器生成文本大规模占据社交平台，稀释真实人类表达的现象。</p>
+<p><strong>长文阈值</strong>：研究以 250 字以上界定长文，这一划分直接影响各平台 AI 占比的统计结果。</p>
+<p><strong>AI 辅助写作</strong>：与人机合写相对，指用户借大模型润色或补全内容，统计中通常单列。</p>
+<p><strong>检测订阅制</strong>：把识别 AI 内容的能力商品化，以月度付费换取自动扫描信息流的服务。</p>
+<p><strong>信息流撤离</strong>：作者提出的终极应对，即通过退出平台而非依赖工具来规避 AI 内容。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.theregister.com/ai-and-ml/2026/07/09/ai-slop-writing-has-taken-over-the-internet-particularly-linkedin-and-x/5269525">AI slop writing has taken over the internet, particularly LinkedIn and X</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Brandon Vigliarolo</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-10</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>68/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-slop-writing-social-media-study","sender":"henri","author":"henri","sourceAuthor":"Brandon Vigliarolo","authorAliases":["henri","Brandon Vigliarolo","Henri","Hinbox"],"subject":"四分之一长文由AI代笔：社交平台内容失守","snippet":"Pangram 分析超百万条帖文发现，四分之一的长文社交媒体内容完全由 AI 生成，LinkedIn 与 X 最为严重，人类原创内容正在被大量稀释。","date":"2026-07-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["AI写作","社交媒体","内容生态"],"mdTheme":"magazine","sourcePath":"notes/ai-slop-writing-social-media-study.md","sourceUrl":"https://www.theregister.com/ai-and-ml/2026/07/09/ai-slop-writing-has-taken-over-the-internet-particularly-linkedin-and-x/5269525","body":"$3","prompts":[]},"listPosition":{"index":115,"total":571},"matchedPerson":{"id":"brandon-vigliarolo","name":"Brandon Vigliarolo","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"社交媒体","name":"社交媒体","count":1}]},"relatedArticles":[{"id":"talks-interview-model-behavior-george-saunders","subject":"模型行为：George Saunders","sender":"On Substack","date":"2026-09-30","matchedPeople":[],"matchedTags":["AI写作"]},{"id":"talks-interview-publishing-ai-discussion","subject":"200万美元书约因涉嫌使用AI被撤回：出版业将走向何方？","sender":"John Paul Brammer, Kathleen Schmidt, Lincoln Michel, Danya Issawi","date":"2026-08-06","matchedPeople":[],"matchedTags":["AI写作"]},{"id":"talks-interview-taylor-lorenz","subject":"模型行为：Taylor Lorenz","sender":"Substack Team","date":"2026-07-29","matchedPeople":[],"matchedTags":["AI写作"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

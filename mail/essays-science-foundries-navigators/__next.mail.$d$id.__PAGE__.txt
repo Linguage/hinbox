@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T4fd8,<p>客座文章：在科学研究中，思考已经便宜了，执行却没有。这种不对称正在重塑研究型公司的运作方式，而且大多悄无声息。</p>
+<h2>编者导语——Latent Space</h2>
+<p><em>在AI的世界里，科学的未来会是什么样子？Anthropic对科学抱有<a href="https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html">宏大的目标</a>，甚至正在<a href="https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/">开设湿实验室</a>。与此同时，一场<a href="https://ai.google/static/documents/AI-in-Science.pdf">悄然的转变</a><sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>正在AI与科学交汇的各个领域发生。</em></p>
+<p><em>在这篇客座文章中，<a href="https://x.com/AdrianSanborn">Adrian Sanborn</a>讲述了他在自己的公司Endura Therapeutics看到的变化：AI正在以不那么夺目、却更直接的方式改变一线科学研究。</em></p>
+<p><em>Adrian在Stanford攻读计算机科学博士期间，大部分时间都在实验台前做实验。因此，能同时告诉你大语言模型（LLM）如何改变代码库和湿实验室的人并不多，他就是其中之一。祝阅读愉快！</em></p>
+<hr>
+<h2>客座正文——Adrian Sanborn</h2>
+<p>语言模型已经改变了软件的开发方式。编写代码、整理数据、设计系统架构，如今推进这些工作的速度在三年前还难以想象。</p>
+<p>当产品是软件、结果可以验证时，编程成本下降会直接带来更多软件和更多开发者。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup>但在科学研究中，所有事情最终都要过实体实验这一关，而验证任何结果都需要几天甚至几周。围绕实验的知识工作已经大幅提速，AI却几乎没有提高实验本身的吞吐量。<strong>思考便宜了，执行没有。</strong></p>
+<p>我们认为，生物技术行业已经通过两种方式适应这一变化：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!-Em5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4f2dad0-1897-4b86-aa39-f4772f76e474_1591x828.png" alt="思考与执行的单位工作成本及科研工厂与导航者的作用"></p>
+<p><em>图中文字译文：纵轴为单位工作成本，横轴为2022—2026年。“执行”：例如实体实验；“思考”：例如文献检索、数据分析。“科研工厂”：降低执行成本；“导航者”：利用思考所带来的余量。</em></p>
+<ul>
+<li><strong>科研工厂（foundries）降低执行的成本。</strong> 它们将测量工业化，利用新技术以比过去快一个数量级的速度生成数据。仅举几个例子：Xaira、NewLimit、Octant、Tahoe和Endura通过下一代测序（next-generation sequencing）和多重化技术（multiplexing）实现这一点；Insitro、Eikon和Noetik通过高通量显微成像；Lila和Periodic Labs则通过实体操作自动化。AI让这些数据能够被理解，并用于预测，但形成差异化的资产是实验数据本身。</li>
+<li><strong>导航者（navigators）利用思考所带来的余量。</strong> AI模型进入公司的日常运作，推动更好的决策和更快的流程。它们越来越多地决定工作如何开展、应该开发哪些工具，以及哪些问题值得做一次实验。这不需要专有模型或海量数据集，只需要愿意改变公司的工作方式。</li>
+</ul>
+<p>建设一家科研工厂是一项实实在在的战略投入，需要资金、数年时间，还要押注某一项特定技术。科研工厂很容易被看见：它们的技术激发想象，与AI的联系一目了然，而且总有新模型或新数据集可以公布。相比之下，导航者近乎隐形，因为收益体现在运营中，没有人会为自己决定不走的一条路发布新闻稿。但每家公司都可以开展导航工作。显眼的变化发生在几十家公司，悄然的变化却发生在所有公司。</p>
+<p>导航在早期创业公司中推进得最快，因为它们没有需要甩掉的历史包袱：没有历年的软件合同、标准化流程、僵化的组织结构或合规制度。它们还面临着用极少资源快速推进的压力。一旦出现更好的工作方式，它就直接成为新常态。</p>
+<p>影响无处不在。分析从一周缩短到一小时，实验就能更快迭代。某类原本要花六位数费用购买许可的软件，如今一天就能开发出来。一个团队通常只能评估五种疾病，现在却可以从500个候选项中挑选疾病研发项目。下面就从内部看看这些变化是什么样子。</p>
+<h2>代码如今跟得上科学研究</h2>
+<p>实验科学存在一种结构性的张力，软件工程中没有真正与之对应的情况。在工程中，需求每隔几周就变化一次，是规划不善的表现。在研究中，这正是目标。实验的目的在于学到一些东西，而学到的东西会改变下一次实验应该是什么样子。<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup>如果一种方法六个月都没有演变，那就意味着没有发现任何新东西。</p>
+<p>一项新实验的操作规程（protocol）在第一年会演变十二次，每一次变化都会传导到分析中。每一项测量结果都必须通过紧跟实验的代码来处理、归一化和解释。过去，这种分析由另一个人完成，于是在懂得实验测量什么的人与懂得代码做什么的人之间形成了一道接缝。这种摩擦让人倾向于少提出一些实验变更，以免返工分析；久而久之，越来越多的可能方案未被探索。</p>
+<p>如今，写代码快了，为修改后的操作规程调整分析只需要一个下午，不再是一整个项目。<strong>实验不再受修改分析流水线（analysis pipeline）的负担束缚。</strong> 当灵活调整的成本低、问题容易修复时，实验也可以敏捷起来；换句话说，<strong>科学也能“快速行动，打破常规”（move fast and break things）。</strong></p>
+<p>同样的变化也发生在上一层，即结果解读。一个交互式可视化仪表板，如今几分钟就能搭好，过去则需要几天。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!fXvB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6882dd6-1780-46dd-87e0-5c5bc7cb257f_2048x1863.png" alt="Endura Therapeutics内部仪表板"></p>
+<p><em>Endura Therapeutics的内部仪表板，几个小时就搭建完成。</em></p>
+<p><em>图中文字译文：比较命中项、比较靶标、比较样本；选择样本；样本散点图；命中项表格（RNA靶标、比例、p值）；跨样本比较。散点图以DMSO和ETX159标记两轴，悬浮提示包含x值、y值及覆盖度（Coverage）。下方热图的横轴为RNA靶标中的位置，纵轴为药物，色标为0%—60%。图中被遮挡的靶标名称按原图保留。</em></p>
+<p>最明显的后果是数据的可获取性。过去，每次实验都由计算人员分析，结果得排队等候。如今，做实验、了解背景的科学家可以自己展示结果。数据不再被关在别人的Python笔记本后面。</p>
+<h2>软件如今能够表达你的判断</h2>
+<p>每个软件界面都有自己的判断。数据系统决定哪些比较只需点一下，哪些比较需要到处查找。每个实验室都需要一个存储和展示数据的地方，而嵌入系统的判断最终会塑造实验室注意到什么。</p>
+<p>过去二十年，这种判断由别人形成：少数几家开发实验室软件的供应商，他们的软件充当权威记录系统（system of record）。这些供应商为一千家实验室开发同一个系统，设计必然朝着最低共同要求靠拢。大家都接受了这种近似方案，因为开发自己的系统，工作量大到任何实验室都难以证明它值得。</p>
+<p>现在情况变了。内部开发的数据门户可以容纳数据中的特殊之处，而任何商业产品都不可能预先料到这些特点；它的复杂程度恰好符合团队所需，并随着团队的问题一起发展。浏览与探索变得简单而轻松，这会改变行为。想一想，如果每看下一条帖子都要切换标签页、复制粘贴，人们还会在社交媒体上花多少时间。原本散落在不同演示文稿中的模式开始浮现。</p>
+<p>实现只需一天，但决定门户应该做什么，可能需要几周。这些设计讨论结果证明至关重要，因为决定哪些内容应该放在同一个屏幕上，会迫使团队说清楚哪些比较真正影响决策。<strong>购买一个软件平台时，你外包的不仅是工程工作，也包括<em>如何</em>实现目标这个问题。</strong></p>
+<p>这里存在取舍：内部开发的门户不够精致，也没有可以打电话求助的支持团队。规模更大的组织背负着层层验证要求和合同义务，仍然很难照着做。但软件公司早就明白，最好的内部工具来自与使用者一起工作的工程师。如今，每个研究团队都可以成为自己的前线部署工程师（forward-deployed engineer）。</p>
+<p>旧规则是“能买就绝不自己做”。新规则是：<strong>开发那些塑造你思考方式的工具。</strong></p>
+<h2>专家级的深度如今能够规模化</h2>
+<p>选择研究哪些疾病，是制药公司作出的最重大决策。之后的一切都建立在这个决策之上，都要适应疾病生物学及其市场的具体特点。这种选择实际上不可逆，因为一个成功的研发项目就需要大约十年和十亿美元，所以必须对决策做审慎的尽职调查（diligence）。通常的流程是召集一组内部和外部专家，用一个月或更久的时间收集、综合并讨论科学证据与市场证据。</p>
+<p>这一流程假定，你已经知道正在争论的是哪五种疾病。在我的公司Endura，我们没有这样一份候选短名单，因为我们的药物有独特的作用机制。我们正在开发装进药丸的CRISPR：一种可以在家中方便服用的药物，在一条特定的遗传信息上形成一道化学疤痕，关闭致病蛋白的生产。<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup>为了找到这些药物，我们必须开发一种新的DNA测序方法，能够一次读取所有基因上的这些疤痕，因此一次实验就能得到覆盖数百种疾病的候选药物。我们无法从五种疾病起步，必须对整个疾病版图进行初筛。<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup></p>
+<p>我们建立了两阶段初筛流程，把一组LLM研究代理（research agents）投入其中。第一轮覆盖约500个疾病靶标，为每个靶标生成相当于三页报告的内容，并依据基础问题进行筛选：疾病是否足够常见，值得我们投入；现有药物是否已经解决了这个问题；以及我们的药物降低靶标水平的作用，是否真的能缓解疾病。第二轮面向剩下的约100个疾病靶标，各生成相当于三十页的内容，深入梳理疾病生物学和竞争格局。我们编写第二轮提示词时，要求模型像一个持怀疑态度的专家，而不是一个摘要生成器：列出失败的研发项目、每个项目为什么失败，以及哪些条件必须成立，我们才有可能在他们失败的地方成功。这种细节程度是必要的，因为和任何市场一样，明显好的靶标早已挤满竞争者。要取得一个站得住脚的位置，就必须找到特定的疾病，以及一个特定的理由，说明我们的药物能做到现有方法做不到的事。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Jk3K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d52ab82-6e2d-40c9-baa9-b617237383ff_2322x999.png" alt="利用LLM对整个疾病版图进行初筛"></p>
+<p><em>图中文字译文：现在可以对整个疾病版图进行初筛。左栏为“三年前”，右栏为“如今，使用LLM”：评估500种疾病，深入研究100种，对20种开展完整尽调，推进3种。每个方块代表一种疾病。</em></p>
+<p>按过去的速度，第一阶段大约需要一个人年的阅读量，第二阶段需要的专家工作时间则接近一个世纪。第二轮内容仍要对照一手来源检查，选中的项目也仍然接受一贯完整的人工尽调。<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">6</a></sup>但一年前，广度和深度都达到这种程度的检索根本做不到。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!X95l!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F895a8715-d9e6-41d6-8d5a-92bd41efe8a9_2143x776.png" alt="尽职调查所需人时的加速示意"></p>
+<p><em>图中文字译文：尽调提速。绿色为“如今，使用LLM”，红色为“三年前，人工完成”。概览500种疾病：50倍；深入研究100种疾病：1,000倍。横轴为1天、1周、1个月、1年、10年、1个世纪。所需人时（仅作示意）。</em></p>
+<p>在研究中，代价高昂的是那些尚未被发现的错误。团队选定一个方向，几个月后实验给出阴性结果，才知道走错了。很多时候，一位专家一句话就能指出：那条通路已经试过了，这种读出指标从来就没能预测出什么，那家公司在那类患者群体上栽过跟头。能够大规模获得这种<strong>专家级的深度，足以改变局面，恰恰因为研究中尽早被告知“不行”是如此有价值。</strong></p>
+<h2>这还只是浅水区</h2>
+<p>上面的一切都发生在Endura：灵活而动态的分析、一天搭建的内部工具、覆盖500种疾病的检索；而这仅仅是导航的入门版本。后续每一代语言模型都会移除一些我们曾以为理所当然的限制。不久，我们或许可以完全跳过搭建分析流水线或数据仪表板。科学家直接提出她实际面对的问题，回答这个问题所需的分析和界面就会从零组装出来。软件不再是工作产物，而成为围绕问题随之出现的东西。<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label">7</a></sup></p>
+<p>这种规模的专业知识获取能力，让人们能够开展过去谁都无法尝试的工作。一个明显的例子是药物再利用（drug repurposing）：一种已经证明对人体安全的药物，结果能够作用于此前无人关注的疾病机制。已发表文献浩如烟海，此刻其中就藏着一些有用的结论，只是还没被找到，因为没有任何一个人读过恰好需要组合在一起的那些论文。但模型可以消化全部文献，并在合适的提示下把线索连起来。围绕这一押注，一个完整的公司生态正在形成，制药企业和投资者也在开展各自的尝试。<sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label">8</a></sup>尚待观察的是，这究竟会带来三种新药，还是300种。</p>
+<p>导航者证明，当下最能加速科学研究的AI，根本不是用科学数据训练出来的模型。它是那个帮助科学家或管理者在每个周一早晨想清楚什么值得去做的模型。</p>
+<hr>
+<p><em><a href="https://www.linkedin.com/in/adrian-sanborn/">Adrian Sanborn</a>是<a href="https://enduratx.com/">Endura Therapeutics</a>的CEO及联合创始人。他是Atomic AI的创始团队成员，曾领导该公司技术平台中的生物学工作，并制定公司的治疗研发战略。他拥有Stanford计算机科学博士学位，攻读博士期间大部分时间都在Roger Kornberg的生物化学实验室做实验。他在X上的账号是<a href="https://x.com/AdrianSanborn">@AdrianSanborn</a>。</em></p>
+<p><em>非常感谢Brandon Anderson、swyx和Lauren Richardson审阅本文草稿并提供重要反馈。</em></p>
+<hr>
+<p>原文：<a href="https://www.latent.space/p/foundries-vs-navigators-lowering">Foundries vs Navigators: Lowering the Cost of Science</a></p>
+<p><em>此文章由AI翻译；图中文字译文由译者补列。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>在这篇博客文章润色期间，<a href="https://ai.google/static/documents/AI-in-Science.pdf">这篇论文</a>发表了，讨论AI与科学交汇领域的早期认识。我们很兴奋地看到，我们的许多认识也在实证观察中得到了体现！ <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>这就是杰文斯悖论（Jevons paradox），得名于1865年的一项观察：效率更高的蒸汽机增加了煤炭消耗，而没有减少它。软件领域的版本是：迄今为止，每一次写代码的成本下降，随后出现的都是更多软件，而非更少工程师。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>其实，软件产品开发也有强调学习、并借用“实验”一词的工作流程。产品团队开展A/B测试，在功能开关（feature flags）控制下发布功能，并把一次发布视为对用户需求的一个假设。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>大多数像CRISPR这样的基因药物都是大分子，无法自行进入细胞。它们只能到达少数组织，而将它们送达那里，需要输液、注射，或者在针对脑部时，把针插入椎管。药丸形式的小分子药物能够自行在体内运送，并且可以吞服。Roche推出治疗脊髓性肌萎缩症的口服药物后，患者家庭逐渐从一种已经有效的注射药物转向口服药。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>大多数公司都有充分的理由先确定一个治疗领域，这由它们已有的科学专长、临床关系和业务优先事项决定。我们的方法允许我们先从广泛范围入手，找到最有成效的方向，再补建相应的深度。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>语言模型并不完美，在这种规模下，有些报告包含错误。这是可以容忍的，因为第一轮出现一个错误，只意味着错过一次机会，而不会把时间浪费在追逐一个糟糕的想法上。 <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>按需生成的分析有一个尚未解决的问题：可复现性（reproducibility）。如果一张图背后的代码是为某一个问题临时组装的，那么与经过版本管理的流水线相比，其来源记录就更薄弱。 <a href="#user-content-fnref-7" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>例如，Edison Scientific的成立就接近这一思路，而Metsera背后的团队曾使用其AI Scientist系统来生成新公司的创意。 <a href="#user-content-fnref-8" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-science-foundries-navigators","sender":"Latent Space: AI for Science","author":"Adrian Sanborn","authorAliases":["Adrian Sanborn"],"publisher":"Latent Space: AI for Science","subject":"科研工厂与导航者：降低科学研究的成本","snippet":"Adrian Sanborn区分科研中的执行工厂与方向导航，结合Endura经验讨论实验成本、研究选择及可复现性。","date":"2026-09-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["科研自动化","生物技术","可复现研究"],"mdTheme":"magazine","sourcePath":"essays/science-foundries-navigators.md","sourceUrl":"https://www.latent.space/p/foundries-vs-navigators-lowering","body":"$3","prompts":[]},"listPosition":{"index":31,"total":571},"matchedPerson":{"id":"adrian-sanborn","name":"Adrian Sanborn","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},"relatedArticles":[{"id":"ai-agents-audit-scientific-literature","subject":"AI智能体审查文献发现陈旧错误","sender":"henri","date":"2026-08-06","matchedPeople":[],"matchedTags":["科研自动化","可复现研究"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["科研自动化"]},{"id":"talks-dwarkesh-john-beren-charlie","subject":"AI 研究者讨论：我们距离递归自我改进有多近？","sender":"Dwarkesh Patel","date":"2026-09-11","matchedPeople":[],"matchedTags":["科研自动化"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

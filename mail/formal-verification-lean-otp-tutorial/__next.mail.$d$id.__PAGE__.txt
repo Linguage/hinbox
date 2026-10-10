@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tcd3,<h1>用 Lean 形式化验证一次性密码本入门</h1>
+<h2>摘要</h2>
+<p>本文是 HashCloak 出品的 Lean 形式化验证教程第一部分，面向密码学工程师。文章介绍 Lean 4 兼具函数式编程语言与定理证明器的双重身份，并以 Boneh 与 Shoup 的密码学教材为定义来源，按照定义比特串、证明异或性质、定义 Shannon 密码、验证一次性密码本的路线，把纸面数学证明转写为可被机器检查的代码。</p>
+<h2>内容框架与概述</h2>
+<p>文章开篇界定形式化验证的用途：把数学证明写成代码交给机器检查，从而确保证明正确，并列举 Rocq、Isabelle 与 Lean 三类工具。作者说明本教程面向密码学背景的读者，目标是把简单密码协议的定义与证明移植到 Lean，并用 VC V-io 的已形式化密码学证明作为进阶参照。</p>
+<p>随后文章介绍 Lean 的来历与特性。Lean 由 Leonardo de Moura 于 2013 年创造，是纯函数式语言，程序无副作用且函数为一等值。作者给出若干学习资源，包括逻辑验证指南、Lean 官网教材与自然数游戏，并解释自己重写教程的原因在于填补密码学与初学者之间的空白。</p>
+<p>第三部分锁定要移植的数学对象。作者以 Boneh 与 Shoup 教材中 Shannon 密码的三条性质为纲，指出其中两条规定加解密函数，第三条是解密可还原明文的正确性；一次性密码本的加解密都是异或。由此列出四步计划：定义比特串与异或、证明异或的交换律结合律单位元与自逆、定义 Shannon 密码、证明一次性密码本是 Shannon 密码。</p>
+<p>最后进入第一部分实操。作者先引入有限域库 ZMod，用 ZMod 2 的向量定义长度为 L 的比特串这一依赖类型，再定义异或函数，并借此讲解隐式参数、柯里化与 lambda 函数，以及如何用 zipWith 对两个向量做逐分量运算。</p>
+<h2>核心概念及解读</h2>
+<p><strong>Lean 4</strong>：兼顾函数式编程与定理证明的语言，2013 年由 Leonardo de Moura 创建，编译通过的证明即视为正确。</p>
+<p><strong>形式化验证</strong>：将数学证明写成代码交由机器检查，便于拆分证明、多人协作与自动补全缺失步骤。</p>
+<p><strong>Shannon 密码</strong>：由加密函数、解密函数与正确性三条性质构成，正确性指解密能够还原原始明文。</p>
+<p><strong>一次性密码本</strong>：加解密均为按位异或，本教程要证明它符合 Shannon 密码的正确性要求。</p>
+<p><strong>ZMod 与 XOR 性质</strong>：ZMod n 提供模 n 算术，比特串视为二元域上的向量，异或满足交换律、结合律、单位元与自逆。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)">Tutorial: Introduction to Formal Verification with Lean (Part 1)</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-15</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>72/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"formal-verification-lean-otp-tutorial","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"用 Lean 形式化验证一次性密码本入门","snippet":"面向密码学工程师的 Lean 4 形式化验证入门教程第一部分，讲解如何用 Lean 定义比特串与异或，并逐步形式化验证一次性密码本的正确性。","date":"2026-07-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["Lean","形式化验证","密码学"],"mdTheme":"magazine","sourcePath":"notes/formal-verification-lean-otp-tutorial.md","sourceUrl":"https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)","body":"$3","prompts":[]},"listPosition":{"index":107,"total":571},"relatedArticles":[{"id":"claude-fable-5-jacobian-conjecture-counterexample","subject":"AI发现雅可比猜想八十七年反例","sender":"henri","date":"2026-07-21","matchedPeople":[],"matchedTags":["Lean"]},{"id":"lean-formal-verification-math-ai","subject":"押上职业生涯：Lean 如何改写数学","sender":"Breaking Math","date":"2026-06-24","matchedPeople":[],"matchedTags":["Lean"]},{"id":"lean-proof-golfing-with-claude-code","subject":"用 Claude Code 给 Lean 证明做瘦身与风格校准","sender":"henri","date":"2026-05-24","matchedPeople":[],"matchedTags":["Lean"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

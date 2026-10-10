@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2cae,<p>原文：<a href="https://www.latent.space/p/software-factories">Warp CEO Zach Lloyd on why software factories are the next phase of coding</a></p>
+<h2>访谈正文</h2>
+<p><img src="https://substackcdn.com/image/fetch/$s_!kQB7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4140e59-9bc8-4685-8af0-0cf86b6f998f_1280x720.jpeg" alt=""></p>
+<p>Warp 创始人 Zach Lloyd 在 AI Engineer World's Fair 展会现场。</p>
+<p>我报道 Warp 已经有好几年了，它从一个命令行界面工具迅速演变为一个<a href="https://www.latent.space/p/aiewf-daily-dispatch-loops">软件工厂</a>平台，这一过程令人着迷。这家公司成立于 ChatGPT 出现之前，即 2021 年年中，最初是一个基于 Rust 的终端。后来 AI 浪潮袭来，它变成了<a href="https://ricmac.org/2025/02/26/warp-launches-ai-first-native-terminal-app-for-windows/">一个集成了编码智能体的终端</a>。</p>
+<p>但近年来 CLI 工具之间的竞争急剧加剧，包括来自 Claude Code、Codex CLI 和 Gemini CLI 的竞争——这三款产品背后都有大型科技公司支持。这很可能促成了 Warp 在今年 4 月<a href="https://www.warp.dev/newsroom/2026/4/28/warp-open-sources-its-agentic-development-environment">将其核心 CLI 工具开源</a>的决定。</p>
+<p>我自己就是 Warp 的用户，发现它比 Mac 原生的命令行工具功能完善得多。但我也钦佩这家公司顺应时代的能力——这是我在几年前第一次采访 CEO Zach Lloyd 时就察觉到的特质。所以我很想在本周的 AI Engineer World's Fair 上与他叙旧，他在那里做了一场关于软件工厂的主题演讲——软件工厂是编排一个智能体团队（咳咳，一个<em>工厂</em>）的新术语。</p>
+<p><a href="https://www.warp.dev/">Warp</a> 有一个名为 <a href="https://www.warp.dev/oz">Oz</a> 的新智能体编排平台。这是该公司对 Lloyd 所认为的行业转型的回应——从工程师与智能体交互式协作，转向持续问题分级、实现、审查、验证和监控软件变更的自动化系统。Oz 旨在跨本地环境和隔离的云沙箱连接多个模型和编程智能体运行框架，同时融入开发者已经在使用的工具中。</p>
+<p>我在 Lloyd 登台演讲后不久与他交谈，你可以在 <a href="https://www.youtube.com/live/htM02KMNZnk?t=18296">YouTube 上观看</a>——这是了解什么是软件工厂的很好的入门材料。在我们的单独讨论中，我们深入探讨了 Warp 转向软件工厂的原因、Lloyd 是如何想出这个术语的（看起来是独立于类似公司——比如 <a href="https://factory.ai/">Factory</a>），以及为什么他预计大多数重要的软件项目将在未来一年内运行某种形式的自动化工厂。</p>
+<h2>从单个智能体到自动化开发循环</h2>
+<p><strong>Latent Space：</strong> 你第一次接触到“软件工厂”这个术语是什么时候，是什么吸引你接受这个概念？</p>
+<p><strong>Zach Lloyd：</strong> 我记不清具体是什么时候开始用这个词来构想的，但那是在过去六个月里，随着自动化软件开发的能力变得更加完整。</p>
+<p>我们从更一次性的自动化开始：在云端运行一个智能体。很多平台都是从那里起步的。然后变成了：在云端按定时器运行一个智能体。</p>
+<p>接下来的问题是，最有价值去自动化的循环是什么？答案基本上就是软件工程的主循环：问题分级、规格说明、实现、审查、验证、发布和监控。</p>
+<p>大约一年前，在我们开始构建 Oz 之前，我们就开始朝着这个云自动化愿景努力了。在过去几个月里，行业也开始围绕“工厂”这个术语凝聚共识。这次会议就有一整个软件工厂的分会场。</p>
+<p>这正是我们调整产品方向所围绕的目标。在 Oz 的下一个版本中，你将设置你的工厂，看到它长什么样，并管理工厂车间。</p>
+<p>但我不太在意这个术语是否流行起来。本质性的转变是从交互式开发转向自动化开发。“工厂”是对此的一个有用隐喻。</p>
+<h2>围绕现有工作流构建工厂</h2>
+<p><strong>Latent Space：</strong> 在你的演讲中，你展示了一个包含你们自己几款产品的软件工厂技术栈。Warp 的计划是提供构成那个技术栈的工具吗？</p>
+<p><strong>Lloyd：</strong> 是的。当你进入 Oz，我们的云智能体平台时，你会被引导着设置一个工厂。</p>
+<p>你选择你的代码仓库、你想自动化的软件生命周期部分，以及应该把人类引入循环的节点。不同的组织和代码库会有不同的偏好。你完全自动化代码审查吗？你让人类审查某些高风险变更吗？</p>
+<p>然后系统开始创建这个循环。它可能从 Jira 或 Linear 拉取问题，让人们通过 Slack 或 Teams 提交问题，并允许开发者从 GitHub 重定向一个智能体。</p>
+<p>从产品角度看，有趣的是，工厂的大部分不一定是一个新界面。它是对人们现有工作流的集成。至少我们是这样构想的。</p>
+<h2>为什么 Warp 正在超越终端</h2>
+<p><strong>Latent Space：</strong> 我第一次写 Warp 时，它正在构建一个现代终端。现在代码仍然重要，但越来越多地由智能体生产。看起来 Warp 相应地拓宽了它的产品愿景……</p>
+<p><strong>Lloyd：</strong> 百分之百。一个很好的思考方式是，公司自成立以来使命始终如一。它一直是关于赋能开发者和公司更快地交付更好的软件。</p>
+<p>产品已经发生了巨大的演变。它最初是终端的一个现代版本，在当前的 AI 浪潮之前。下一个迭代是一个内置了智能体的终端，我们仍在投资它，而且我们现在已经将其开源。</p>
+<p>但世界在不断变化。底层 AI 进步如此之快，以至于我对未来的看法就是我在演讲中描述的那样：交互式组件将变得不那么重要。</p>
+<p>作为一家公司，你会想要一个中心化的地方，软件在那里被构建，并且你可以衡量那个过程的效率。我不害怕重新定位产品会变成什么。随着底层技术变得更好，不适应的公司将会被甩在后面。</p>
+<h2>工厂工程作为一门新学科</h2>
+<p><strong>Latent Space：</strong> “工厂”这个词可能会让一些开发者反感，因为它带有机械化和重复性劳动的意味。关于这一转向，你从 AI 工程师那里收到了什么反馈？</p>
+<p><strong>Lloyd：</strong> 这个概念在采购决策者——也就是管理工程团队的人——那里引起了强烈共鸣。</p>
+<p>对于单个工程师来说，它听起来可能机械且缺乏创造力。他们可能会想：“我喜欢写代码。我为什么想在一个工厂里工作？”</p>
+<p>我在演讲中试图传达的一点是，这将成为一门新的工程学科。我认为，如果你把这份工作视为元工程——构建构建产品的系统——它可以极其有趣。</p>
+<p>它使用许多相同的解决问题的技能。你在问为什么一个智能体在一项任务上表现良好而在另一项上表现糟糕。你应该如何调整它的反馈？它需要什么上下文？工作流应该如何改变？</p>
+<p>但是，无论好坏，这些系统的力量及其加速软件开发的能力如此之大，以至于所有东西都手写将在不久后变得不再合理。</p>
+<h2>前线部署工程师的定位</h2>
+<p><strong>Latent Space：</strong> 会议上的另一个趋势是<a href="https://www.latent.space/p/forward-deployed-engineers-aiewf">前线部署工程</a>，它通常结合了产品管理、咨询和传统工程的各个方面。这如何融入软件工厂模式？</p>
+<p><strong>Lloyd：</strong> 搭建一个软件工厂可能需要与大量现有系统集成，具体取决于公司。</p>
+<p>当工厂拥有来自这些系统的上下文，并集成到整个组织的工作流中时，它将最有效地运作。这一领域的大量前线部署工程工作实际上是一个转型项目。</p>
+<p>它需要真正懂如何配置和部署这类系统的人来做真正的工程。我们做一部分，我们的一些竞争对手也做。</p>
+<p>我不知道最终状态会是什么样。Warp 更多地把它当作平台业务而非服务业务来对待。但今天确实存在一种业务，就是派聪明人进入一家公司，用这些产品来转型其工作流。</p>
+<h2>Warp 作为 Oz 的试验场</h2>
+<p><strong>Latent Space：</strong> 我把 Warp 用作我的终端，包括用于一些编码任务。在软件工厂时代，原来的 Warp CLI 产品会怎样？</p>
+<p><strong>Lloyd：</strong> 当我们开源 Warp 时，我们把代码仓库置于 Oz 的控制之下。我们围绕这个开源项目构建了一个软件工厂，使用我们自己的工厂平台。</p>
+<p>我们仍在尽可能地改进 Warp。我们与社区一起做，而且我们大量使用智能体来做。从这个意义上说，Warp 是工厂概念的试验场。</p>
+<p>但它也是一款被近百万开发者使用的产品，其中许多人依赖它作为他们的主要开发环境。我们自己不断使用它，我们仍然有内部工程师专门负责改进它。我们只是以工厂思维来对待那项工作。</p>
+<h2>渐进式自动化，而非一夜之间的替代</h2>
+<p><strong>Latent Space：</strong> 就软件工厂的采用而言，你预计接下来一年会是什么样？</p>
+<p><strong>Lloyd：</strong> 这不会一下子发生。工程师不会某天早上醒来发现软件工厂取代了他们的工作。</p>
+<p>公司会从具体的用例、某些类型的问题或较低风险的代码仓库开始。那些是他们可能愿意接受不必让人类审查每一行代码的地方。</p>
+<p>他们会看到它的表现如何。然后工程挑战就变成了：与其自动合并 20% 的拉取请求，我们能不能达到 30%、40%、50% 或 60%？</p>
+<p>仍然会有一部分工作由人来完成，因为它太难、太模糊，或者依赖于全新的开创性思考。</p>
+<p>但我认为这种转变会在接下来一年内发生。我的预测是，每一个重要的软件项目都会拥有某种代码引擎——某种类似工厂的东西——持续推动它向前发展。</p>
+<p>它会变得类似于 GitHub 或 CI/CD：成为严肃软件项目运作方式的标准组成部分。如果这没有发生，我会感到惊讶。</p>
+<h2>从自动化那些烦人的部分开始</h2>
+<p><strong>Latent Space:</strong> 这次会议上有成千上万的 AI 工程师。他们应该怎么做来为这一转变做准备？</p>
+<p><strong>Lloyd:</strong> 不要只直接构建产品，试着朝着工厂的方向构建一些自动化，看看那是什么感觉。</p>
+<p>假设你想让一个智能体自动解决用户提交的问题。让它运作起来涉及什么？是什么阻止你采用它？</p>
+<p>也许代码审查是瓶颈。也许智能体正在做修改，但你无法清楚地看到它做了什么。你只有通过尝试构建这个循环，才会发现这些问题。</p>
+<p>摆脱一切都要手工构建的心态。找到你工作中一个烦人的部分，试着用工厂式的方法创建一个循环来替你处理它。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-software-factories","sender":"Richard MacManus","author":"Richard MacManus","authorAliases":["Richard MacManus"],"subject":"Warp CEO Zach Lloyd：为什么软件工厂是编程的下一阶段","snippet":"Zach Lloyd 谈自动化软件工厂的结构、反馈循环和工程师的准备。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["AI编程","自动化","反馈机制"],"mdTheme":"magazine","sourcePath":"talks/interview-software-factories.md","sourceUrl":"https://www.latent.space/p/software-factories","body":"$3","prompts":[]},"listPosition":{"index":141,"total":571},"matchedPerson":{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},"relatedArticles":[{"id":"reports-open-source-contributions","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","sender":"Latent.Space","date":"2026-09-01","matchedPeople":["Richard MacManus"],"matchedTags":["AI编程"]},{"id":"talks-interview-autoresearch-introspection","subject":"Autoresearch：自我改进智能体背后的反馈循环","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["反馈机制"]},{"id":"talks-interview-cursor-forward-deployed-engineers","subject":"Cursor 如何在企业内部部署 AI","sender":"Richard MacManus","date":"2026-07-01","matchedPeople":["Richard MacManus"],"matchedTags":["AI编程"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

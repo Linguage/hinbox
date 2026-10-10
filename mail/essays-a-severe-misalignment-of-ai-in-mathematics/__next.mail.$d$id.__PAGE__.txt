@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T339e,<h2>中文译文</h2>
+<p>在过去几个月里，大语言模型的数学能力有了显著提升，已经能够解决数学许多领域中长期悬而未决的重大问题。然而，AI 公司大力推动以解决数学问题作为衡量能力的基准，这种做法正在损害数学这门科学，也在损害数学共同体。AI 公司的目标与数学共同体的目标之间存在严重的错位。我们认为，这属于更广泛的对齐问题的一部分；这些问题也影响着其他科学和创造性职业，乃至整个社会。</p>
+<p>数学研究致力于理解形状、数以及自然现象的基本结构。经过一代又一代人的积累，数学已经形成了大量精深的思想、方法、抽象概念及其他工具，帮助我们认识数学世界。而现代技术和科学，又以数学工具为基础。</p>
+<p>著名难题常常如同地标与灯塔，让人们得以衡量自己对这一世界的理解有了多少进展。解决其中一道难题，历来是获得新见解与有趣方法的确切标志。随后，数学家共同体会通过报告、讨论和简化等漫长而艰苦的过程，研究这些见解与方法。理想情况下，在这一过程的终点，这些成果会以教科书式的表述呈现，适合任何研究生乃至本科生学习。有些数学思想还会继续走得更远，在几十年甚至几百年后，成为全体大众都能理解和使用的工具。</p>
+<p>数学共同体在许多方面就像人类社会的一个缩影。它由采用各种不同方法的个体组成，以共同的核心价值观联结在一起。我们这个职业最宝贵的资源是学生和思想，我们对两者都悉心培育。我们感到有责任让学生和思想都充分发挥潜力，最终在数学世界中拥有各自独立的生命。我们向学生提出问题时，核心用意往往在于培养他们的能力，为他们日后在研究及其他领域取得进展打下良好基础。我们则通过报告、私下讨论和精心撰写的文章传播思想，并将其与他人先前的思想联系起来。这些过程无一不需要时间，并且都以人与人之间的互动为基础。</p>
+<p>近几个月来，AI 在解决重大数学问题上的成功，甚至登上了数学界之外的新闻头条。但解决问题只是实现首要目标的一种工具和替代性衡量指标；这个首要目标，是获得概念层面的理解与洞见。在 AI 的世界里忘记这一点，可能会使工具反过来妨碍首要目标。事实上，以越来越快的速度批量生产“真／假”陈述，可能会破坏孕育思想的沃土，而不是为新思想注入生命。</p>
+<p>这些解答往往被匆忙公布，没有留出时间来妥善撰写、提炼新的方法与思想，以及引用他人此前的相关工作。与所有创造性职业一样，这引出了严峻的成果归属和剽窃问题。此外，如果没有数学家愿意负责发展这些思想，并将其融入数学的经典知识体系，AI 构想出的思想就永远无法真正获得完整的生命，数学家之间至关重要的、依靠人来维系的传承链条也将失落。</p>
+<p>我们正目睹一种对智力劳动的普遍威胁：使用 AI 所产生的结果，与最初使用它的目的发生了错位。在许多领域和活动中，多年的训练历来不只是为了产出最终答案或产品，也是为了增进理解，培养提出新问题和新思想的能力。然而，建立在大量人类既有工作之上的 AI 系统，正越来越能够直接产出这类工作的成果，于是这些目标不再一致。数学共同体如今面对的问题，与其他科学和创造性职业面临的问题相似，也预示了全人类可能面临的问题：当 AI 改变工作的方式时，我们该如何确保自己不忘记，这些工作最初究竟是为了实现什么。</p>
+<p>AI 有潜力促进并加速真正的数学研究与理解。数学这一职业需要从多个方面适应这些变化。然而，这些变化最终是造福这一领域，还是产生破坏性影响，在很大程度上将取决于掌控这项新技术的人所作出的决定。</p>
+<p>数学共同体、开发这些技术的公司，以及更广泛的社会，都必须尽快应对这些问题，因为社会也将在许多其他形式的智力劳动中遇到类似问题。</p>
+<h3>签署者</h3>
+<p>Artur <strong>Avila</strong> （2014 年菲尔兹奖）<br>
+Manjul <strong>Bhargava</strong> （2014 年菲尔兹奖）<br>
+Caucher <strong>Birkar</strong> （2018 年菲尔兹奖）<br>
+Pierre <strong>Deligne</strong> （1978 年菲尔兹奖）<br>
+Yu <strong>Deng</strong> （2026 年菲尔兹奖）<br>
+Simon <strong>Donaldson</strong> （1986 年菲尔兹奖）<br>
+Vladimir <strong>Drinfeld</strong> （1990 年菲尔兹奖）<br>
+Hugo <strong>Duminil-Copin</strong> （2022 年菲尔兹奖）<br>
+Alessio <strong>Figalli</strong> （2018 年菲尔兹奖）<br>
+Martin <strong>Hairer</strong> （2014 年菲尔兹奖）<br>
+June <strong>Huh</strong> （2022 年菲尔兹奖）<br>
+Maxim <strong>Kontsevich</strong> （1998 年菲尔兹奖）<br>
+Elon <strong>Lindenstrauss</strong> （2010 年菲尔兹奖）<br>
+Pierre-Louis <strong>Lions</strong> （1994 年菲尔兹奖）<br>
+Grigory <strong>Margulis</strong> （1978 年菲尔兹奖）<br>
+James <strong>Maynard</strong> （2022 年菲尔兹奖）<br>
+Curtis <strong>McMullen</strong> （1998 年菲尔兹奖）<br>
+Shigefumi <strong>Mori</strong> （1990 年菲尔兹奖）<br>
+David <strong>Mumford</strong> （1974 年菲尔兹奖）<br>
+<strong>Ngô</strong> Bảo Châu （2010 年菲尔兹奖）<br>
+Andrei <strong>Okounkov</strong> （2006 年菲尔兹奖）<br>
+Peter <strong>Scholze</strong> （2018 年菲尔兹奖）<br>
+Stanislav <strong>Smirnov</strong> （2010 年菲尔兹奖）<br>
+Terence <strong>Tao</strong> （2006 年菲尔兹奖）<br>
+Maryna <strong>Viazovska</strong> （2022 年菲尔兹奖）<br>
+Cédric <strong>Villani</strong> （2010 年菲尔兹奖）<br>
+Wendelin <strong>Werner</strong> （2006 年菲尔兹奖）<br>
+Efim <strong>Zelmanov</strong> （1994 年菲尔兹奖）</p>
+<h2>English Original</h2>
+<h3>A Severe Misalignment of AI in Mathematics</h3>
+<p>Over the last few months, the mathematical capabilities of LLMs have improved dramatically, to the point that they can solve major outstanding problems in many fields of mathematics. However, the push by AI companies to solve mathematical problems as a benchmark is detrimental to the science of mathematics, and to the mathematical community. The goals of the AI companies and the goals of the mathematical community are severely misaligned. We see these as part of broader alignment issues impacting other scientific and creative professions, as well as the whole of society.</p>
+<p>Research mathematics deals with understanding basic structures of shapes, numbers, and natural phenomena. Over the course of generations, it has built a large corpus of sophisticated ideas, methods, abstractions, and other tools to comprehend the mathematical landscape. In turn, modern technologies and sciences are based on mathematical tools.</p>
+<p>Famous problems have often served as landmarks and lighthouses against which one can measure an improved understanding of this landscape. Solving one of these problems has been a certain sign of new insights and interesting methods, which would then be studied by a community of mathematicians, through a long and arduous process of talks, discussions, simplifications. At the end of this process, one will ideally find a textbook presentation of the results suitable for any graduate or even undergraduate student to study. Some of the mathematical ideas pursue their journey even further to become, decades or centuries after, tools that are understood and used by the whole population.</p>
+<p>The mathematical community functions, in many ways, as a miniature version of humanity. It consists of individuals using a wide variety of different approaches, joined by core values. The most precious resources of our profession are students and ideas, and these we nurture with great care. We feel responsible to let them grow to their full potential, until they can live a life of their own in the mathematical world. For students we often suggest problems with the core intention of developing skills making them well-positioned for advances in research and elsewhere. Our ideas we disseminate in talks, private discussions and careful writeups, connecting them to the previous ideas of others. These processes invariably take time and are based on human interaction.</p>
+<p>In recent months, the success of AI in solving major mathematical problems has made headlines even outside mathematical circles. But solving problems is only a tool and proxy for achieving the primary goal of conceptual understanding and insight. Forgetting this in the world of AI may turn the tool against the primary goal. Indeed, the mass production at faster and faster pace of "true/false" statements could destroy fertile ground instead of breathing life into new ideas.</p>
+<p>Often these solutions are announced in a rush, leaving no time for a proper writeup, the isolation of new methods and ideas, and citing relevant previous work of others. As in all creative professions, this raises severe attribution and plagiarism questions. Moreover, without the willing mathematicians who must take care of their development and integration into the mathematical canon, AI-conceived ideas would never become fully alive and the crucial human transmission chain between mathematicians would be lost.</p>
+<p>We are witnessing a general threat to intellectual work, with misalignment between the outcome of the use of AI and its initial purpose. In many fields and activities, years of training have traditionally served not only to produce a final answer or product, but also to develop understanding and the ability to formulate new questions and ideas. However, building on a vast body of previous human work, AI systems are becoming increasingly capable of producing the results of such work directly, and these goals cease to align. The issues the mathematical community faces now are similar to issues that other scientific and creative professions are facing, and indicate issues that all of humanity might face: how to make sure that, as AI changes the way work is done, we do not lose sight of what that work was meant to achieve in the first place.</p>
+<p>AI offers the potential of enhancing and accelerating genuine mathematical study and understanding. Mathematics as a profession will need to adapt to these changes in several ways. However, whether these changes ultimately benefit the field or have a destructive effect will in large part be determined by the decisions of the humans in control of this new technology.</p>
+<p>These issues must be addressed urgently, in the mathematical community, by the companies developing these technologies and, more broadly, by a society that will confront similar problems in many other forms of intellectual work.</p>
+<p>Artur <strong>Avila</strong> (Fields Medal 2014)<br>
+Manjul <strong>Bhargava</strong> (Fields Medal 2014)<br>
+Caucher <strong>Birkar</strong> (Fields Medal 2018)<br>
+Pierre <strong>Deligne</strong> (Fields Medal 1978)<br>
+Yu <strong>Deng</strong> (Fields Medal 2026)<br>
+Simon <strong>Donaldson</strong> (Fields Medal 1986)<br>
+Vladimir <strong>Drinfeld</strong> (Fields Medal 1990)<br>
+Hugo <strong>Duminil-Copin</strong> (Fields Medal 2022)<br>
+Alessio <strong>Figalli</strong> (Fields Medal 2018)<br>
+Martin <strong>Hairer</strong> (Fields Medal 2014)<br>
+June <strong>Huh</strong> (Fields Medal 2022)<br>
+Maxim <strong>Kontsevich</strong> (Fields Medal 1998)<br>
+Elon <strong>Lindenstrauss</strong> (Fields Medal 2010)<br>
+Pierre-Louis <strong>Lions</strong> (Fields Medal 1994)<br>
+Grigory <strong>Margulis</strong> (Fields Medal 1978)<br>
+James <strong>Maynard</strong> (Fields Medal 2022)<br>
+Curtis <strong>McMullen</strong> (Fields Medal 1998)<br>
+Shigefumi <strong>Mori</strong> (Fields Medal 1990)<br>
+David <strong>Mumford</strong> (Fields Medal 1974)<br>
+<strong>Ngô</strong> Bảo Châu (Fields Medal 2010)<br>
+Andrei <strong>Okounkov</strong> (Fields Medal 2006)<br>
+Peter <strong>Scholze</strong> (Fields Medal 2018)<br>
+Stanislav <strong>Smirnov</strong> (Fields Medal 2010)<br>
+Terence <strong>Tao</strong> (Fields Medal 2006)<br>
+Maryna <strong>Viazovska</strong> (Fields Medal 2022)<br>
+Cédric <strong>Villani</strong> (Fields Medal 2010)<br>
+Wendelin <strong>Werner</strong> (Fields Medal 2006)<br>
+Efim <strong>Zelmanov</strong> (Fields Medal 1994)</p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题</strong>：<a href="https://mathandai.org/">A Severe Misalignment of AI in Mathematics</a></li>
+<li><strong>作者</strong>：Artur Avila 等 28 位数学家（完整签署名单见上）</li>
+<li><strong>发布日期</strong>：2026 年 9 月 11 日</li>
+<li><strong>来源</strong>：<a href="https://mathandai.org/">Math and AI</a></li>
+<li><strong>DOI</strong>：<a href="https://doi.org/10.5281/zenodo.22737750">10.5281/zenodo.22737750</a></li>
+</ul>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-a-severe-misalignment-of-ai-in-mathematics","sender":"Artur Avila 等 28 位数学家","author":"Artur Avila 等 28 位数学家","authorAliases":["Artur Avila 等 28 位数学家"],"subject":"数学领域 AI 的严重目标错位","snippet":"28 位菲尔兹奖得主联署声明：解题应服务于数学理解与洞见。AI 的发展必须珍视思想的成长、学生的培养，以及数学共同体的人际传承。","date":"2026-09-11","isRead":true,"isStarred":true,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","数学研究","数学教育","科研伦理"],"mdTheme":"magazine","sourcePath":"essays/a-severe-misalignment-of-ai-in-mathematics.md","sourceUrl":"https://mathandai.org/","body":"$3","prompts":[]},"listPosition":{"index":38,"total":571},"relatedArticles":[{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"henri","date":"2026-08-30","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"math-2-0-ai-mathematical-understanding-and-community","subject":"从 Math 1.0 到 Math 2.0：AI 时代的数学理解与学科生态","sender":"henri","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

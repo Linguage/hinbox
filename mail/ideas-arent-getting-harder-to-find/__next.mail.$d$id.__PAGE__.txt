@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T18fc,<h2>摘要</h2>
+<p>本篇概述梳理了文章《Ideas aren’t getting harder to find and anyone who tells you otherwise is a coward and I will fight them》及其在社区讨论中的核心争议。文章批驳了“低垂的果实已被摘尽、好想法正变得越来越难找”这一悲观论调，指出知识探索不是层层下钻的矿井，而是不断开启新可能性的阶梯；阻碍科学突破的并非想法本身的匮乏，而是学术体制僵化、过度规训与从众倾向。讨论区则从经济学落地的瓶颈、学科差异、技术溢出网络以及研发监管等多个维度深化了该议题，指出“想法”与“技术转化为生产力”之间存在巨大鸿沟，制度审批与工程化才是当下更关键的制约因素。</p>
+<h2>原文核心观点</h2>
+<p>“所有容易发现的好想法都已被前人占尽”是一种普遍却具有破坏性的认知陷阱。这种悲观论调的根源在于认知偏差：所有已被揭示的真理在事后看来都显而易见，而未来的突破方向永远模糊未知。人类历史上每个时代都曾误以为本学科的大厦已近落成、只剩小数点后几位的缝补，但随后的科学史一次次击碎了这种狂妄。知识的发展从来不是静态清单的逐项剔除，每一项新发现都会开启呈指数级扩散的分支领域；同时，新知识会高度压缩并替代旧经验，后人无须重走漫长的旧路，完全能够借助层出不穷的新工具和被证伪的旧结论，在更高阶的跳板上轻松捕捉到那些看似未被触及的新机会。</p>
+<p>将科学研究类比为挖掘矿井或盲目采集是根本性误读，科学进步更像是一台电梯：顺着旧机制上升到极限时，继续死磕加高电梯只会带来收益递减，真正的出路是跳出既有框架去发明热气球、直升机乃至火箭。经济学界所指责的“研究人员数量剧增但人均产出下降”，绝非意味着科学想法正在耗尽，而是将边际产出递减的社会协作规律生搬硬套到了智力探索上。当数千名工人挤进同一间厨房时，效率必然下滑；科研队伍的急剧膨胀同样带来了繁冗的管理消耗、同行间恶性竞争，以及为了维持论文产出而进行的空转，这纯粹是协作与机制问题，与潜在想法的丰沛程度毫无关联。</p>
+<p>科学停滞的真正症结在于当代高度专业化、职业化的高等学术体制。从本科选拔到终身教职，整个晋升通道严苛且单一，只奖励那些从不犯错、精于迎合评审者口味的精致生涯主义者，将真正具备离经叛道思维的革新者拒之门外；而同侪审稿制度的泛滥，更是直接扼杀了可能颠覆现有学术权威范式的异端假设，逼迫研究者围绕平庸而稳妥的微小修补打转。高呼“想法变得越来越难找”本质上是一种逃避现实的怯懦，它为个人的无所作为和体制的系统性僵化提供了合情合理的借口。唯有摒弃这种虚无的悲观主义，直面体制问题并拿出实际探索的勇气，新思想才能源源不断地破土而出。</p>
+<h2>社区讨论观点梳理</h2>
+<ul>
+<li>
+<p><strong>想法与经济落地的脱节（瓶颈转移说）：</strong> 许多评论强调，不能将“科学想法的产生”与“想法转化为经济生产力”混为一谈。从科学理论到最终推动全要素生产率（TFP），中间横亘着经济可行性、资本投入、产业化规模以及政治利益博弈。现实中制约发展的往往不是缺乏好点子，而是冗长繁琐的行政许可、环保法规与合规审批（例如海水淡化与大型基础设施的审批周期）。</p>
+</li>
+<li>
+<p><strong>知识网络效应与跨领域技术溢出（Spill-in/Spill-out）：</strong> 现代技术研发早已不再是单一学科孤立向下的“知识树”，而是高度交织的网络。半导体制造的进步吸收了医疗无尘室、航天真空技术与激光核聚变等领域的外部溢出，同时又反哺生物基因测序等方向。将企业或学科的单项研发支出简单换算为人均产出，忽略了复杂的跨领域技术协同。</p>
+</li>
+<li>
+<p><strong>学科普适性与认知门槛差异：</strong></p>
+<ul>
+<li>
+<p>针对文中“许多重大发现事后看来显而易见”的论断，有读者指出，日心说证明、细菌学说或质能方程需要严密的数学体系与先进仪器（如显微镜），并非直观常识。</p>
+</li>
+<li>
+<p>物理学规律具有普适性与时空一致性，探索前沿确实需要消化极为庞大的形式化工具；而社会学、心理学往往缺乏恒常定律，其“低垂果实”的挖掘难度不能直接等同于硬科学。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>“想法廉价，执行为王”与 AI 时代的再平衡：</strong></p>
+<ul>
+<li>
+<p>传统创业与工程视角认为，未经验证的点子俯拾皆是，真正的壁垒在于工程攻坚、市场切入与坚韧的落地执行力。</p>
+</li>
+<li>
+<p>另有观点探讨了新变量：随着 AI 和大语言模型降低了代码构建和快速仿制的门槛，泛泛的原型制作变得轻而易举，这反而可能提升深刻的行业专识（Domain Expertise）与真正原创性见解的权重。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>库恩范式转换的动态周期：</strong> 范式转换初期确实会迎来一波容易产出的大爆发，新仪器和新理论为研究者提供了大量低门槛验证机会；但当常规科学进入范式深水区，边际突破难度必然阶段性上升，这属于科学演进的规律，不应与绝对意义上的“思维枯竭”相混淆。</p>
+</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li>
+<p><strong>文章标题：</strong> <a href="https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find">Ideas aren’t getting harder to find and anyone who tells you otherwise is a coward and I will fight them</a></p>
+</li>
+<li>
+<p><strong>文章链接：</strong> <a href="https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find">Experimental History 原文</a></p>
+</li>
+<li>
+<p><strong>Hacker News 讨论区链接：</strong> <a href="https://news.ycombinator.com/item?id=50024571">Hacker News 社区讨论</a></p>
+</li>
+<li>
+<p><strong>整理日期：</strong> 2026年10月9日</p>
+</li>
+</ul>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ideas-arent-getting-harder-to-find","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"好想法真的越来越难找吗？科学突破、制度瓶颈与社区争论","snippet":"围绕《Ideas aren’t getting harder to find》及 Hacker News 讨论，梳理科学发现的认知偏差、学术制度瓶颈、跨领域技术溢出，以及想法转化为经济生产力的障碍。","date":"2026-10-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["科学发现","科研制度","生产率","网络讨论"],"mdTheme":"magazine","sourcePath":"notes/ideas-arent-getting-harder-to-find.md","sourceUrl":"https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find","body":"$3","prompts":[]},"listPosition":{"index":2,"total":571},"relatedArticles":[{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["科学发现"]},{"id":"talks-dwarkesh-adam-brown-gr","subject":"Adam Brown：深入而易懂的广义相对论入门","sender":"Dwarkesh Patel","date":"2026-07-10","matchedPeople":[],"matchedTags":["科学发现"]},{"id":"reports-designing-ai-for-disruptive-science","subject":"设计 AI 以实现颠覆性科学","sender":"Asimov Press","date":"2026-03-24","matchedPeople":[],"matchedTags":["科学发现"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

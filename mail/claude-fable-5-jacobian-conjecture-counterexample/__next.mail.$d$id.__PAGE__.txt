@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb8e,<h1>AI发现雅可比猜想八十七年反例</h1>
+<h2>摘要</h2>
+<p>Anthropic 数学家 Levent Alpoge 借助 Claude Fable 5 找到雅可比猜想反例，推翻这一悬置 87 年的命题：当变量数为三及以上时，雅可比行列式为非零常数并不能保证映射存在多项式逆映射。该结果已由研究者用 Lean 形式化验证并提交审查，但如何让人类理解反例成立的根本原因，成为新的挑战。</p>
+<h2>内容框架与概述</h2>
+<p>文章先铺垫数学背景：多变量函数的逆映射能否在全空间唯一还原输入，可由雅可比行列式判断。若它为非零常数，则局部处处可逆；猜想追问这是否足以推出全空间存在多项式逆映射，自 1939 年提出以来屡有错误证明。</p>
+<p>接着叙述事件本身。在数学家 Akil Matthew 建议下，Alpoge 让 Fable 5 求解，模型给出一个多项式映射，其雅可比行列式恒为 -2，却有三个不同输入映射到同一输出，从而证伪三变量及以上的猜想。</p>
+<p>随后文章强调验证的重要性。AI 生成的公式并不天然可信，展开或代入的微小错误即可推翻结论，因此论文发表后由 Rouzeau 用定理证明系统 Lean 重写，并提交至 DeepMind 维护的形式化猜想仓库，目前处于审查中。</p>
+<p>最后引述形式化数学项目 Xena 的观点：下一阶段的难题不只是确认反例正确，而是人类如何理解反例为何成立，指向 AI 与数学共同体关系的新命题。</p>
+<h2>核心概念及解读</h2>
+<p><strong>雅可比猜想</strong>：1939 年 Keller 提出，问雅可比行列式为非零常数的多项式映射是否必有多项式逆映射。</p>
+<p><strong>雅可比行列式</strong>：在每个输入点计算的线性近似，衡量局部是否丢失方向信息，非零即局部可逆。</p>
+<p><strong>单射与逆映射</strong>：不同输入对应同一输出则映射非单射，全空间意义下无法唯一还原输入。</p>
+<p><strong>Lean 定理证明器</strong>：交互式形式化工具，可将数学证明写成机器可逐步核查的代码，用于独立验证。</p>
+<p><strong>形式化数学</strong>：以计算机严格核验证明的实践，Google DeepMind 维护的 Formal Conjectures 仓库是其代表之一。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://gigazine.net/gsc_news/en/20260721-claude-fable-5-jacobian-conjecture/?utm_source=chatgpt.com=0">Anthropic researchers report that the AI Claude Fable 5 has generated a counterexample that overturns the Jacobian conjecture, a problem that has been unsolved for 87 years.</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-21</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"claude-fable-5-jacobian-conjecture-counterexample","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"AI发现雅可比猜想八十七年反例","snippet":"Anthropic 研究者借助 AI 模型 Claude Fable 5 找到困扰数学界 87 年的雅可比猜想的反例，并经 Lean 形式化验证，引发人类能否理解反例的追问。","date":"2026-07-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["雅可比猜想","人工智能","Lean","形式化数学"],"mdTheme":"magazine","sourcePath":"notes/claude-fable-5-jacobian-conjecture-counterexample.md","sourceUrl":"https://gigazine.net/gsc_news/en/20260721-claude-fable-5-jacobian-conjecture/?utm_source=chatgpt.com=0","body":"$3","prompts":[]},"listPosition":{"index":93,"total":571},"relatedArticles":[{"id":"jacobian-conjecture-claude-fable-disproof","subject":"数学家借AI模型给出雅可比猜想反例","sender":"AI Desk","date":"2026-07-20","matchedPeople":[],"matchedTags":["雅可比猜想","人工智能"]},{"id":"the-mathocalypse-ai-proofs-and-mathematical-research","subject":"数学大灾变：AI 证明浪潮与数学研究的新角色","sender":"henri","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","形式化数学"]},{"id":"lean-formal-verification-math-ai","subject":"押上职业生涯：Lean 如何改写数学","sender":"Breaking Math","date":"2026-06-24","matchedPeople":[],"matchedTags":["Lean","形式化数学"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

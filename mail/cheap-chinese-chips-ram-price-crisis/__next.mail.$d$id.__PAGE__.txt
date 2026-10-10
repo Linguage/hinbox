@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta3e,<h1>苹果拟采购中国存储芯片应对内存涨价危机</h1>
+<h2>摘要</h2>
+<p>内存价格飙升之际，苹果据报正与长鑫存储、长江存储洽谈采购芯片，以缓解全球存储短缺。两家企业已被列入五角大楼中国军工企业名单。分析人士指出，此举虽无现行法律禁令，却可能引发政治反弹，并迫使企业IT部门追踪设备内存来源，重新审视采购合规与供应链安全风险。</p>
+<h2>内容框架与概述</h2>
+<p>文章由内存涨价切入，指出苹果正谋求向中国存储厂商采购芯片，并游说美方官员以减轻政治阻力。两家厂商此前已被列入五角大楼相关名单，谈判因此敏感。</p>
+<p>随后文章梳理美国监管工具的分层。名单本身不产生法律后果，但若升级为实体清单或采购禁令，苹果及其客户的处境将迅速改变。有分析人士建议，仅在面向中国市场的产品中使用这类芯片以控制风险。</p>
+<p>最后转向企业IT视角。核心风险在于组件透明度不足，设备的内存来源可能演变为采购合规问题，而多数企业尚不具备相应追踪能力。业内人士同时指出，联想等厂商早已采用国产存储，苹果的举动或为同行打开更大的试水空间。</p>
+<h2>核心概念及解读</h2>
+<p><strong>1260H 名单</strong>：五角大楼发布的中国军工企业清单，列入本身不具法律约束，但可能成为后续制裁的起点。</p>
+<p><strong>实体清单</strong>：美国商务部出口管制工具，被列入者需申请许可，相关交易实质受限。</p>
+<p><strong>供应链透明度</strong>：企业对设备内部组件来源的可追溯能力，正成为采购合规的新要求。</p>
+<p><strong>特洛伊木马与后门</strong>：指芯片中可能隐藏的恶意功能，被视为评估中国存储芯片的核心安全疑虑。</p>
+<p><strong>Section 889 条款</strong>：禁止美国政府采购含特定厂商设备的规定，直接影响政企客户的选型。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.networkworld.com/article/4192382/cheap-chinese-chips-could-offer-way-out-of-ram-price-crisis-apple-suggests.html">Cheap Chinese chips could offer way out of RAM price crisis, Apple suggests</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Evan Schuman</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-02</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>64/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"cheap-chinese-chips-ram-price-crisis","sender":"henri","author":"henri","sourceAuthor":"Evan Schuman","authorAliases":["henri","Evan Schuman","Henri","Hinbox"],"subject":"苹果拟采购中国存储芯片应对内存涨价危机","snippet":"内存涨价迫使硬件厂商转向中国存储芯片，苹果据报正洽谈采购长鑫与长江存储颗粒，此举牵涉美国政治审查与企业采购合规风险。","date":"2026-07-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["存储芯片","供应链","苹果","科技政策"],"mdTheme":"magazine","sourcePath":"notes/cheap-chinese-chips-ram-price-crisis.md","sourceUrl":"https://www.networkworld.com/article/4192382/cheap-chinese-chips-could-offer-way-out-of-ram-price-crisis-apple-suggests.html","body":"$3","prompts":[]},"listPosition":{"index":132,"total":571},"matchedPerson":{"id":"evan-schuman","name":"Evan Schuman","email":"","contentCount":1,"topTags":[{"id":"供应链","name":"供应链","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"科技政策","name":"科技政策","count":1}]},"relatedArticles":[{"id":"talks-interview-a16z-clarity","subject":"Marc Andreessen 与 Chris Dixon：美国为什么需要 CLARITY 法案","sender":"a16z","date":"2026-08-03","matchedPeople":[],"matchedTags":["科技政策"]},{"id":"open-weights-and-american-ai-leadership","subject":"开放权重与美国AI领导力之辩","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["科技政策"]},{"id":"agi-hype-reflection-and-strategic-sovereignty","subject":"朱松纯谈AI热潮反思与思想自主","sender":"知识分子","date":"2026-07-21","matchedPeople":[],"matchedTags":["科技政策"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

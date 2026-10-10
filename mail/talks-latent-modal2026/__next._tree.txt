@@ -1,0 +1,4 @@
+:HL["/hinbox/_next/static/media/636a5ac981f94f8b-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hinbox/_next/static/css/007013509a699845.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"mail","paramType":null,"paramKey":"mail","hasRuntimePrefetch":false,"slots":{"children":{"name":"id","paramType":"d","paramKey":"talks-latent-modal2026","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

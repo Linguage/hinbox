@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc0a,<h1>Meta被诉用AI算法裁员涉嫌歧视</h1>
+<h2>摘要</h2>
+<p>26名Meta前员工起诉公司，称其未依靠管理者判断，而是用Metamate、第二大脑代理、键击与活动监控、AI代币用量看板及算法化绩效校准等内部系统，对员工打分排名并生成8000人裁员名单。诉状指控这些指标天然排斥休受保护病假或产出受残障影响的员工，构成差别影响歧视；Meta回应称人力与组织决策由人做出。</p>
+<h2>内容框架与概述</h2>
+<p>诉讼直指裁员决策的形成方式：原告称Meta并未召集熟悉业务的管理者拟定名单，而是让一组内部AI系统承担评分、排名与筛选，员工甚至按对AI工具的采用程度被分为AI Native、AI First、AI Enabled等层级。这使裁员从人的判断问题，转为算法设计问题。</p>
+<p>指控的核心逻辑在于数据不可得性。评分依据绩效、校准分、产出指标、AI采用度与代币消耗，而休受保护病假或家庭假的员工、因残障而产出下降的员工，从设计上就无法积累这些输入。Meta既未对休假做中性化处理，也未将其移出候选池，结果是被不成比例地选中。</p>
+<p>Meta否认指控，称相关主张缺乏事实依据。原告则援引家庭与医疗休假法、怀孕歧视法、美国残障人法、怀孕工人公平法，以及加州公平就业与住房法新增的自动化决策系统条款，跨加州、纽约、华盛顿等七地提出主张。</p>
+<p>诉求包括初步禁令以维持雇佣与受保护休假状态、保全数据模型与相关文档，并开展独立审计：审查输入、权重与输出，判断休假或便利措施是否被用作输入或代理变量，再用中性化数据重算分数。因仲裁条款排除集体诉讼，26人将逐一个案推进。</p>
+<h2>核心概念及解读</h2>
+<p><strong>算法化人事管理</strong>：由AI系统承担评分、排名与裁员筛选，管理者判断被数据管道取代。</p>
+<p><strong>差别影响歧视</strong>：即便无歧视意图，输入若系统性排斥受保护群体，仍可构成违法。</p>
+<p><strong>受保护休假</strong>：法律保障的病假与家庭假，期间无法积累产出类与活跃度数据。</p>
+<p><strong>AI采用度分级</strong>：以AI Native等标签衡量员工使用内部AI工具的程度并据以评分。</p>
+<p><strong>代理变量</strong>：代币消耗、活动监控等看似中性的指标，可能成为休假或残障的替代信号。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/">Lawsuit claims Metas layoff decisions were made by AI, not humans</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Jon Brodkin</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-15</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>76/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"meta-ai-layoffs-lawsuit","sender":"henri","author":"henri","sourceAuthor":"Jon Brodkin","authorAliases":["henri","Jon Brodkin","Henri","Hinbox"],"subject":"Meta被诉用AI算法裁员涉嫌歧视","snippet":"Meta遭26名前员工起诉，指控其以Metamate等内部AI系统为员工打分排名并据此裁减8000人，使休受保护病假与残障员工被不成比例选中，涉嫌违反多项反歧视法；Meta否认指控，称裁员决策由人做出。","date":"2026-07-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["算法歧视","劳动权益","人工智能"],"mdTheme":"magazine","sourcePath":"notes/meta-ai-layoffs-lawsuit.md","sourceUrl":"https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/","body":"$3","prompts":[]},"listPosition":{"index":108,"total":571},"matchedPerson":{"id":"jon-brodkin","name":"Jon Brodkin","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"算法歧视","name":"算法歧视","count":1}]},"relatedArticles":[{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Gary Marcus","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

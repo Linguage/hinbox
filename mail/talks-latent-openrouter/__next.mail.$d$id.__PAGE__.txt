@@ -1,0 +1,568 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T17e40,<p>原文：<a href="https://www.latent.space/p/openrouter">OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah &#x26; AMP’s Anjney Midha</a></p>
+<h2>访谈正文</h2>
+<h2>引言：OpenRouter、市场，以及作为产品原则的发布-订阅</h2>
+<p><strong>Swyx:</strong> 好，我们现在在 Anja 的家里，旧金山所有大创业公司都是从这里起步的。</p>
+<p><strong>Anjney Midha:</strong> 你好啊。</p>
+<p><strong>Swyx:</strong> 还有，恭喜 Cursor、Mistral。我不知——天知道还有什么。你手上事情太多了。</p>
+<p><strong>Anjney Midha:</strong> 确实，确实有很多事情在忙。不过 OpenRouter 大概算是——应该说是我最近最兴奋的一个。</p>
+<p><strong>Swyx:</strong> 对。然后我们还有 Alex，第一次上播客，不过，</p>
+<p><strong>Anjney Midha:</strong> 谢谢邀请我来。</p>
+<p><strong>Swyx:</strong> 你来过 IE 好几次了。每次你为社区露面我都很感激。恭喜。我就想说，真是一段旅程。我回看你过去的文章时，看到你作为产品人最早写下的原则之一，就是发布-订阅作为产品原则。我想——也许你可以解释一下，你是怎么思考世界上应该存在什么东西的。</p>
+<p><strong>Anjney Midha:</strong> 对。发布-订阅那部分，是 2023 年初写的，直到我们 10 分钟前聊起来我才想到它，它讲的是可以把产品看作订阅数据和发布数据的交集。市场就是一个简单的例子。你有供应商把某个产品发布成一个 SKU。而 SKU 就像是一个订阅话题，消费者订阅它，想消费的时候就去消费。而人类的消费方式非常离散、非常临时。这种方式不太可扩展。他们买东西的时候，全部注意力都在那个话题上，而那一刻他们的注意力不在别处。智能体和推理的消费者不是这样行动的。他们在持续消费，而且一直在更换他们消费的 SKU。所以 OpenRouter 就像是普通 API 体验和市场之间的一种融合，我们创建模型 slug。我们有自动路由器。我们有各种各样的产品 SKU 供你订阅。然后你可以持续地增加、从这些消费者身上获取价值并做出决策。</p>
+<h2>Alpaca、Llama，以及多模型押注</h2>
+<p><strong>Swyx:</strong> 对。这件事现在更成为共识了，但你们刚开始的时候还不是共识，也就是：确实存在如此强烈的需求，要换模型、换东西，人们不会去用原生 SDK。我想，对你们每个人来说，让你们意识到“就是它了”的那个时刻是什么？我——你在 EIE 做过一个关于 Alpaca 的演讲，作为，</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 你那些受启发的时刻之一。</p>
+<p><strong>Anjney Midha:</strong> Alpaca，我可以稍微重讲一下 Alpaca 那个时刻。最开始，2022 年底，OpenAI 是城里唯一的玩家。当时有 OpenAI、Cohere，</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 然后还有一些零星的、早期开放权重模型的尝试。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 2023 年 1 月 Llama 出来的时候，感觉就像，“哇，真的很令人兴奋。这真的很重大。”它在一两个基准上超过了 3。但你没法跟它聊天。它不像是——它不是一个能吸引人使用的模型，但看起来只需要有人修好几件事，在上面做一些 RLHF，就能把它一路推到那个水平。而 Alpaca 是我看到的第一个做到这一点的模型。只花了 600 美元。斯坦福的一个团队生成了一堆合成数据，微调了 Llama，做出了 Alpaca，十亿参数模型。或者——也许是 130 亿参数。它好得不得了。我当时就在飞机上用它。我——在很多情况下，我，你根本分辨不出 ChatGPT 和 Alpaca 的结果。我就想，如果做一个模型这么容易，那么第一，我们第一次有了一种全新的数据变现方式。你可以直接把非常有价值的数据在 600 美元内变成一个服务。而且这个成本大概还会随时间下降。</p>
+<p><strong>Swyx:</strong> 当你——抱歉。当你说把你的数据变现，是指最终会变成 MCP 端点，还是作为模型的训练数据？</p>
+<p><strong>Anjney Midha:</strong> 对，作为模型的训练数据。</p>
+<p><strong>Swyx:</strong> 太棒了。</p>
+<p><strong>Anjney Midha:</strong> 就像一种抽象的说法，“嘿，我有这些数据。”</p>
+<p><strong>Swyx:</strong> 把它压缩进一个模型。</p>
+<p><strong>Anjney Midha:</strong> 它对我的产品来说是有意义的，但我可以把它重新打包成一个模型的形式来卖。所以这对整个经济来说就是一种全新的商业模式。当然，它也提供了一种跟进前沿实验室在做什么的方式，但方式上，单个开发者或一个小团队可以自己推进。所以——每当你有一个这样的例子，比如一个表现非常好的爆款应用，然后又有某种框架让你用自己的风格去模仿它，你就会立刻拥有一个生态，一个立刻涌现的生态，因为那一家公司所做的决策，和更广泛的生态自己能创造出的那些决策的所有变体之间，存在巨大的差距。于是，你就需要一个市场来发现所有这些服务和所有这些产品。当时互联网上没有任何地方像是 LLM 的大本营，能让你看到它们被用了多少、谁在用、为什么用。</p>
+<p><strong>Swyx:</strong> 最接近的应该是 Hugging Face。</p>
+<p><strong>Anjney Midha:</strong> 当时最接近的是 Hugging Face，对。</p>
+<p><strong>Swyx:</strong> 他们在那之前几年才刚开始做 Hugging。</p>
+<p><strong>Anjney Midha:</strong> 对，而且 Hugging Face 也没有闭源模型。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 而且他们没——当时你没法用那些模型。也没有关于谁在用它们的数据。OpenRouter 和 Hugging Face 之间有一堆差异，而这些差异对我来说非常关键，尤其是当我只是想了解 LLM，以及为什么人们会选择那些随时间不断涌现的不同小模型时。</p>
+<h2>Discord、开放模型，以及 OpenRouter 的起源</h2>
+<p><strong>Swyx:</strong> 明白了。然后，Ansh，你向来想要更多模型多样性，当时你已经在 Anthropic 待了几年，我们在之前的播客里也讲过。你是怎么认识 Alex 的？</p>
+<p><strong>Alex Atallah:</strong> 嗯，认识的话，我想是那之前的 13 年。</p>
+<p><strong>Swyx:</strong> 哦。</p>
+<p><strong>Alex Atallah:</strong> 但 OpenRouter 的握手就发生在那边，如果你还记得的话。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 那个——所以 Alex 和我，我记得是大二的时候认识的，如果我没记错的话，是在 Stanford Review，</p>
+<p><strong>Anjney Midha:</strong> 没错</p>
+<p><strong>Alex Atallah:</strong> 第一次见面。</p>
+<p><strong>Anjney Midha:</strong> 我想是的，对。</p>
+<p><strong>Alex Atallah:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> Stanford Review 是斯坦福校园里的自由意志主义报纸，当年是 Peter Thiel 创办的。然后，不管——不知什么原因，我，Alex 和我都出现在其中一次会议上，我记得，主编是我们共同的朋友。Lisa 真的是非常棒的主编，主编的部分工作就是给人分配职责、确保工作完成。我，我可能记错细节了，但我记得我想要。当时让我很惊讶的是，报纸里没有专门的科技版块。</p>
+<p><strong>Alex Atallah:</strong> 你</p>
+<p><strong>Swyx:</strong> 因为它是政治性的，对吧？</p>
+<p><strong>Alex Atallah:</strong> 它主要是</p>
+<p><strong>Swyx:</strong> 就像，它在谈</p>
+<p><strong>Alex Atallah:</strong> 它最初创办时就像是一个</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 对，各州之类的那些东西。</p>
+<p><strong>Alex Atallah:</strong> 没错。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 但它——把我们带回过去，你可能还记得，当时有一项科技立法在辩论，叫网络中立法案。而网络中立本质上就是一个政治概念，对吧？它关乎对互联网宽带接入的监管。所以当时我们有一个社群，既是技术人，也在辩论技术的政治。我觉得 Review 会是一个很好的地方——来写这些东西。我当时在写，我想，一篇关于网络中立的文章，我记得我提议，“也许我们应该开一个科技版块。”而 Alex 是唯一说“对，那会很酷”的人之一。然后说。我忘了我们最后有没有一起写东西，但——那就是我们第一次见面的时候，</p>
+<p><strong>Alex Atallah:</strong> 是 2011 或 12 年。我忘了是哪一年。是那几年之一。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 如果我没记错，是在 Old Union。</p>
+<p><strong>Alex Atallah:</strong> 我们以前就在那里见面。但一路走来，Alex 和我有机会经常一起玩。而我们职业上重叠最多的时候，大概是我在 Discord 负责平台的时候，那时它已经变成了一个爆炸性的平台，用于加密</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Alex Atallah:</strong> 和 NFT，正值疫情期间。</p>
+<p><strong>Swyx:</strong> 顺便说一句，你当时也负责安全和安保，对吧？</p>
+<p><strong>Alex Atallah:</strong> 我是平台负责人，意味着所有加密——DAO 和 NFT 发布的安全调试都落在我身上</p>
+<p><strong>Swyx:</strong> 还有他们的钓鱼和。</p>
+<p><strong>Alex Atallah:</strong> 钓鱼、社会工程攻击、我们遭受的 katana DDoS。但那也是我第一次在斯坦福教大规模安全课程 CS 153 的时候。Alex 当时在——在 OpenSea，我当时在想我们怎么才能防御所有这些攻击。就像，在峰值时，我忘了，你还记得有多少 NFT 交易量流经</p>
+<p><strong>Swyx:</strong> Discord</p>
+<p><strong>Alex Atallah:</strong> Discord，但那是一个，相当可观的量，就像，可以说有几十亿美元的 NFT GMV 交易量流经这个平台，而它们全都来自 OpenSea。就是那些，买、卖，</p>
+<p><strong>Swyx:</strong> 那个</p>
+<p><strong>Alex Atallah:</strong> 服务器</p>
+<p><strong>Swyx:</strong> DAO 里的 D 就是 Discord。</p>
+<p><strong>Alex Atallah:</strong> 是的。所以那时候我觉得我们已经在职业上有过交集了。但一年之后，OpenAI 给了 Discord 对 GPT 的早期访问权限。抱歉，是三个。不，是五个。对，五个，也就是三个的 RL 版本。差不多就是那个时候，我们和 OpenAI 一起做了一个用于内部部署的 Discord 机器人，也就是那时候我意识到我们会需要。因为我是部署团队的一员。</p>
+<p><strong>Anjney Midha:</strong> 用例是什么？</p>
+<p><strong>Alex Atallah:</strong> 有两个。而且现在有一篇叫“Discord is Your Place for AI with Friends”的文章，最近有人发给我，是我写的，发表在二十三年。但有两个用例。一个是 Clyde，就是——像是 Discord 里的一个派对朋友，可以帮你设置你的 Discord 服务器，和你聊入门引导，让你的朋友们更多地来玩。然后还有内容审核。我们在内容审核上意识到的一件事是——它会拒绝审核。就像，它会直接拒绝我们的提示词，因为训练是。我们当时处在训练时代的非常早期，它就会。我们的提示词会触发它的，像是，护栏。然后我们告诉 OpenAI，“嘿，伙计们，我们需要访问权重，因为如果我们要做大规模的内容审核，我们有 250 million 月活跃用户，我们需要更高的可靠性，确保模型会做我们需要它做的事。”他们说，“嗯，抱歉，伙计们，事情不是这么运作的。我们是一家闭源公司。”所以那是我第一次意识到我们需要开放模型，而企业会需要对能力有更多控制，然后最终会需要某种控制平面或管理系统来编排这些开放模型。但当时没有好的——没有好的开放替代品，直到大概</p>
+<p><strong>Alex Atallah:</strong> 六个月后 Llama 出来。又过了六个月，我领投了 Mistral 的 A 轮，那是由 Guillaume 和 Llama 团队创办的。而且——那，——差不多就是那个时候，我记得听说 Alex 在创办 OpenRouter，然后想，“这些世界会碰撞，我不知道什么时候组队才合理。”但 Alex 太早了，而且能看到。我觉得他完全正确，这个生态系统从 Llama 开始，然后需要，像是，一个容易管理的层，尤其是对。我是从企业视角切入的，因为我曾经是那个，像是，那个。作为 Discord 的平台 VP，我的职责是确保当我们把模型部署给，像是，250 million 用户时，它们会做我们想让它做的事。而那非常难，因为如果你把它外包给实验室，而他们控制护栏，而他们的护栏就是他们的安全政策。禁止模型回应你的提示词。那相当灾难性。</p>
+<p><strong>Swyx:</strong> 是的。但是，审核是他们想要支持的事情。而且显然，除此之外，他们会——OpenAI 大概会和你合作，给你一个审核端点，他们免费提供那个。</p>
+<p><strong>Alex Atallah:</strong> 那是一个有趣的用例，那个——所以他们确实给了我们一个审核端点。然而，正如你们知道的，每个 Discord 服务器就像它自己的一个小型部署。所以用例是，与其让人类审核员去解读社区规范，你只要把，——通常，像是每个，subreddit、Discord 服务器、公开的那些都有自己的规则，由用户，由用户创建。</p>
+<p><strong>Swyx:</strong> 哦，是的。我们在 LinkedIn Discord 里运营。是的。</p>
+<p><strong>Alex Atallah:</strong> 然后人类过去会阅读那些规范，然后每天手动执行，像是观察这些社区里的每条消息。而这些社区有像数百万用户。所以我们在 Discord 内容审核团队里有一个全球 5,000+ 人的团队。这些是外包承包商，他们做着一份非常艰难的工作。所以想法是，取而代之，如果你能把那个服务器的规范给 LLM，那么 LLM 就会为那个服务器做定制审核。这几乎就像是，像是为那个服务器做上下文审核。而许多那些服务器的规范恰好违反了 OpenAI 的规则。所以——就像我们有自己的定制 eval。所以每个服务器都有自己的定制 eval。但 Discord——当时，OpenAI 的 evals，我们都太</p>
+<p><strong>Alex Atallah:</strong> 在我们关于如何部署这些 LLM 的思考上还很原始，以至于训练提示词常常超级被硬塞。它说，“哦，任何关于 Harry Potter 的东西，任何有商标内容的东西，不要——拒绝。”而如果它是一个粉丝——Harry Potter 粉丝社区，这是一个真实用例，有内容审核，LLM 就会直接拒绝。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 而那只是不够精确。</p>
+<p><strong>Anjney Midha:</strong> 我们听说的另一个是，如果有人试图写一个像是侦探故事，其中有一章有很多暴力，像是也许有人</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 像是杀了人，LLM 就会直接拒绝，像是，帮忙写故事的那部分。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 然后——像是，我们过去会想，好吧，这并不是 LLM 结构上固有的。一定存在，像是，外面的某种选择，让我可以，像是，切换到我有的主模型之外的另一个模型，当我得到，像是，拒绝或坏结果时。而那种，像是，张力也驱动了我去做一个市场。</p>
+<h2>为什么“一个模型胜出”是错误的下注</h2>
+<p><strong>Swyx:</strong> 是的。我觉得那现在已经被广泛接受了。当时你在融资或，创办这个的时候是什么样子？人们理解吗？有什么，一些挣扎？我喜欢从他那里挖出关于其他 VC 不理解它的故事。所以像是任何你想，聊的，现在——我们，我们这么说吧，OpenRouter 的早期旅程已经结束了，对吧？你显然可以聊一些早期的事情。</p>
+<p><strong>Anjney Midha:</strong> 嗯，我正要说，像是，我们得到的最大反对意见是大模型胜出，也就是——所有的</p>
+<p><strong>Swyx:</strong> 缩放定律。</p>
+<p><strong>Anjney Midha:</strong> 嗯？</p>
+<p><strong>Swyx:</strong> 缩放定律。</p>
+<p><strong>Anjney Midha:</strong> 是的，缩放定律，而自然网络效应只会累积到一家公司，那会是——那会是一个 Google 式的垄断，就像 Google 如何以巨大优势赢得搜索市场一样，而你最终只会为残羹剩饭而战。那大概是我们得到的最大反对意见。有趣的是，Google 以如此巨大的优势赢得了搜索引擎竞赛。我觉得，像是，如果当时有更多有趣的基准，或者，像是，搜索引擎是，——如果人们，像是，更多地把它们看作 LLM，也就是你可以在其上构建公司的服务，那可能就不是这样了。但 LLM 不仅仅有一个用户界面。它们也是，像是，构建全新业务的方式。而且，一个 Google 级别的垄断会像是荷兰东印度公司乘以，千万亿量级，因为整个经济最终也会，像是，依赖那一个垄断者。所以如果那发生了，看起来也不会是一个真的很疯狂的结果。而且它也更不可能，因为，像是，创造好的竞争者的经济学要，像是，去中心化得多。</p>
+<p><strong>Alex Atallah:</strong> Alex 说的一切都是真的，而我从一个完全不同的视角切入，那个</p>
+<p><strong>Swyx:</strong> 是的，这就是我们在这里的原因。</p>
+<p><strong>Alex Atallah:</strong> 缩放定律从来不是——在我看来，一直是 OpenRouter 会非常有价值的一个特性，而不是一个缺陷。因为，我是 Anthropic 最早的投资者之一，而且对我来说很明显，我们朋友中的其他研究者——我读研是学机器学习的，而我在 ML 社区里就是有很多朋友，对我们来说非常明显的是，苦涩的教训成立。所以我想，“哦，太棒了。现在我们有至少两个证明点，证明计算缩放有效。”那是 OpenAI 和 Anthropic。而到我觉得我们决定在 OpenRouter 上组队时，我已经投资了 Mistral 和 Black Forest Labs 以及 Luma。所以有多个模型公司和团队是我在，合作的。</p>
+<h2>为什么模型实验室在分发上挣扎</h2>
+<p><strong>Swyx:</strong> 但你做了其他模态，而这里字面上是</p>
+<p><strong>Alex Atallah:</strong> 跨不同模态，是的</p>
+<p><strong>Swyx:</strong> 文本。</p>
+<p><strong>Alex Atallah:</strong> 正是。而对我来说如此明显的是，一个由不同种类模型组成的生态系统正在被创造出来，而整个那种，像是，只有一家公司会像 Google 那样主导的叙事，嗯，像是也许是真的，但第一，我不相信那个。但第二，在几个不同的研究团队中正在发生如此多非凡的创新。但我在他们所有人身上注意到的共同问题是，常常，研究团队非常擅长弄清楚如何推理新能力。他们以能力来思考，但从不——像是，不是以开发者心态为导向的。像是，训练完成、检查点出来之后会发生什么？像是，你会震惊于 OpenAI 的早期训练团队，抱歉，Anthropic、BFL、Mistral，在他们，像是，默认做法上有多么相似。把他们的研究带出，实验室并扩大他们的影响，那常常是，哦，检查点完成了，把它作为 API 发布，完成，然后就鸦雀无声。在 Claude 的情况下，第一个 Claude 检查点在他们内部发布的一年前就完成了。然后 ChatGPT 出来了，我们决定，好吧，是的，对外发布一个 Claude 版本是个好主意。</p>
+<p><strong>Alex Atallah:</strong> 而且他们没有任何计划，比如没有任何关于如何让开发者来试用它的计划。所以如果你去看那篇 Claude 的博客文章，你会注意到，大概只有三个面向 API 用户的开发者示例，一个是 Discord 机器人，第二个是 Vivian，我妻子的创业公司，叫 Juny Learning，然后还有，像是 Notion，因为这些人全都是 Anthropic 的朋友。因为事情就是这样——像是，最后一刻的规划都是围绕，嘿，一旦模型训练完成，你怎么把它推向世界？当时没有任何分发平台理解开发者需要什么，所有的密钥管理、配置、像是简单的端点管理、版本控制。像是，所有这些科学家和研究人员会说“那只是管道工程。我不太会去想它”的东西。</p>
+<p><strong>Swyx:</strong> 实现细节。</p>
+<p><strong>Alex Atallah:</strong> 对。而 Alex 恰恰是从那个视角切入的。所以对我来说如此明显的是，像是，我资助的每一个实验室都会花——像是，有时候真的会花数十亿美元投入训练，然后一个检查点完成了，结果在早期访问期间却是一片死寂，因为他们会说，“哦，对哦。”</p>
+<p><strong>Alex Atallah:</strong> 光靠一个检查点很难做出任何东西。你需要围绕它的一整套管道工程，才能让开发者用得上它。所以到——我认为——对我来说如此明显的是，如果我们想要存在对 Google 的竞争，那么像 OpenRouter 这样的分发平台在生态系统中就是至关重要的。像是，除非——因为有了 Google，DeepMind 训练完一个新的检查点，然后他们按一个按钮，它就会被推送到他们所有的界面上，从 Google Docs 到，</p>
+<p><strong>Swyx:</strong> 到处都是，哪怕我不想要它。</p>
+<p><strong>Alex Atallah:</strong> 到处都是。你想知道，像是，在 Android 上，像是，一夜之间，他们就能把一个新的检查点部署到，像是，十亿台设备上，对吧？而这种隐形的基建优势、分发优势，大多数人没有意识到，但在 OpenRouter 出现之前——作为一家模型实验室，你必须自己考虑所有这些。而且这非常令人生畏。在 Anthropic，我记得花了，嗯，超过十二个月才达到我们最初的 1000 万美元营收。而相比之下，Black Forest Labs，我记得早期的时候，你们和 BFL 团队有过一次对话，对 OpenRouter 来说说一句“哦，没问题。像是，你们发布的那天，我们可以给你送去 100 万开发者”是如此简单。那太疯狂了。那就像是，一个小时内发生的阶跃式变化。</p>
+<p><strong>Swyx:</strong> 那是个真实的数字吗，一百万？</p>
+<p><strong>Alex Atallah:</strong> 我，</p>
+<p><strong>Swyx:</strong> 好吧。行。</p>
+<p><strong>Alex Atallah:</strong> 我觉得今天大概是，像是，400 万。今天 OpenRouter 上有多少开发者？</p>
+<p><strong>Anjney Midha:</strong> 超过一千万，</p>
+<p><strong>Alex Atallah:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 超过 1000 万，但是，像是，这，这很难，你</p>
+<p><strong>Alex Atallah:</strong> 我，对，我不知道怎么。对。</p>
+<p><strong>Anjney Midha:</strong> 我们做了很多，像是，账户去重的工作，不过，不</p>
+<p><strong>Alex Atallah:</strong> 如果你能搞到 1000 个开发者，只是做个对比，如果你能让 1000 个开发者在你发布模型后的第一天就试用它，并且，像是，做推理并给你反馈，那就是一千个</p>
+<p><strong>Anjney Midha:</strong> 那是巨大的</p>
+<p><strong>Alex Atallah:</strong> 比他们自己知道如何去获取的开发者还要多。</p>
+<p><strong>Swyx:</strong> 嗯，BFL 是有名声的，不过是的。</p>
+<p><strong>Alex Atallah:</strong> 他们在 Stable Diffusion 上有过名声。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 而 Mistral，我不知道你们还记不记得，但他们发布的第一个检查点是，像是，种子文件。是，像是，种子权重。</p>
+<p><strong>Swyx:</strong> 对，他们就直接放了个磁力链接。</p>
+<p><strong>Alex Atallah:</strong> 对，没有 API。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 因为他们不——他们不是搞基建的人。</p>
+<p><strong>Alex Atallah:</strong> ？就像是，好吧，下载这些权重，你们自己去想办法托管吧。</p>
+<p><strong>Swyx:</strong> 嗯，他那边有个故事，对。</p>
+<p><strong>Anjney Midha:</strong> 对，除了，像是，围绕它打造真正优秀的开发者体验之外，我们做的营销，像是，针对不同模型的营销是完全不同的，而且被感知的方式也完全不同</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 与模型实验室为自己做的营销相比。</p>
+<p><strong>Alex Atallah:</strong> 是的，1000%。</p>
+<p><strong>Anjney Midha:</strong> 对吧？我们就像是一个中立的层，看着这个市场，就像它是一个巨大的暗室，所有角落对用户来说都完全不可见，用户走进这个房间，像是，四处摸索</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 试图弄清楚该从桌子上抓取哪些东西，像是，构建进他们的公司。而这简直是一种疯狂的工作方式。像是，模型不是那种你可以把所有功能都列举到一个网页上的产品。它们全都是黑箱，包括开放权重的那些。所以你需要，像是，照亮这个房间的所有角落，让人们能看到这个模型好在哪，而且你需要照亮它的公司是一个中立的第三方，这正是我们擅长的。所以，像是。它——除了开发者体验之外，还有，像是，一个非常重要的，像是营销和产品包装的组成部分</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 而一种，像是，路由和发现模型的方式，对于你作为提供商、模型实验室或服务器工具以及未来更多的角色来说，就变得，像是，对你的市场至关重要。</p>
+<h2>“只是个包装层”：为什么风投们误解了 OpenRouter</h2>
+<p><strong>Alex Atallah:</strong> 而这个价值，回到你之前说的有多少风投，像是，就是不懂。我最大的挫败感之一就是，风险投资人，他们中的许多人，像是，在这个领域根本没有任何运营经验。所以不像一个传统的投资人，可能只是，像是，从分析师一路做上来，搞财务建模，或者可能在这个领域里已经超过十年没做过真正的运营者了，而这现在是这个行业很大的一部分，我刚到 a16z，是在运营那个平台大约一年之后。所以我知道，像是，打造一个真正——优秀的开发者体验，以及，像是，能够用模型做出一个能用的软件，其中的挑战是什么。而且有几个，我不会点名，但有几个投资人在看 OpenRouter，而且，当时，当我和人们交流看法时，感觉它只是，我引用一下，“只是个市场”。</p>
+<p><strong>Swyx:</strong> 对，只是个薄薄的一层，只是个</p>
+<p><strong>Alex Atallah:</strong> 没错</p>
+<p><strong>Swyx:</strong> 只是</p>
+<p><strong>Alex Atallah:</strong> 一个别人 API 之上的包装层之类的。而我说，“你根本不知道 OpenRouter 通过能够在生产环境中编排哪怕三个 API 所创造的价值有多具战略性。让它在 OpenRouter 团队已经达到的规模上上线并在生产环境中运行，所需要的工程工作和社区设计，绝不是默认就会发生的。”而这正是从最早的日子起就让我对 Alex 刮目相看的事情之一。像是，他就是懂，像是——从系统的角度，像是，你如何让这些飞轮转起来？像是，当我们一起在 Discord 做 NFT 集成时，这一点在 OpenSea 上就让我印象深刻。像是，Alex 有一种社区——像是，关于如何让这些飞轮转起来的系统思维，而大多数科学家和机器学习的人就是没有</p>
+<p><strong>Alex Atallah:</strong> 想到。像是，我们常常以训练的角度来思考。</p>
+<p><strong>Swyx:</strong> 那是一个线性的阶段。</p>
+<p><strong>Alex Atallah:</strong> 是这条线性的流水线。</p>
+<p><strong>Swyx:</strong> 还没有循环。</p>
+<p><strong>Alex Atallah:</strong> 对。直到很久以后，现代的那种上下文反馈循环周期才真正在行业里被标准化。但在当时，如果你还记得，机器学习就像是。像是，我们大多是在笔记本电脑上做很多机器学习，像是，我读研究生的时候。所以你就是，像是，下载一个数据集，跑一些消融实验，然后你看看损失曲线，你就说，“太好了，我造出 AI 了。”而那种你必须，像是，部署这些能力、收集反馈轨迹、然后，像是，把它们放进一个持续循环里的想法，像是，是后来才出现的。而且它对——像是，传统的 AI 思维来说非常反直觉。我确实记得在为 OpenRouter 做投资阶段时，我就是没有去试着教育一大堆其他风投为什么它不只是一个市场。我当时想，“什么？我就直接投了。”</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 而且我要，像是，抓住这个机会和 Alex 合作，如果——没有其他风投懂，那完全没关系。因为当时——我认为，对好几个投资人来说，像是，OpenRouter 不只是 API 之上的一个包装层，这一点并不明显。而——那让我非常愤怒。我当时想，“什么？我没时间跟你辩论。我们——我们要投。”然后我觉得，像是，一个月后，Matt Murphy 把它上调了 10 倍。像是——我觉得。我忘了确切的金额之类的，但，值得称赞的是，Menlo Ventures 意识到了，“好吧，这里也有多得多的战略价值。”也许你没听到幕后所有这些对话。但那让我非常沮丧。有很多这种，像是，关于包装层的空谈。而如果你说，“哦，一个应用只是模型之上的一个包装层，”那么，像是。而 OpenRouter 就是，像是，其他 API 之上的这个包装层，而这是最愚蠢、最还原论的框架。</p>
+<p><strong>Alex Atallah:</strong> 所以这显然是一个没有任何大规模部署产品经验的人。</p>
+<p><strong>Swyx:</strong> 这就是你用来否定其他东西的说法。像是，你是一个——每个人都是其他东西之上的包装层，对吧？像是，而且，而且有些，有些包装层是有价值的。</p>
+<p><strong>Alex Atallah:</strong> 投资人就是 LP 之上的包装层，对吧？</p>
+<p><strong>Alex Atallah:</strong> 像是风险投资人。所以，对，一路都是包装层，一路到底到裸金属，我猜，还有能源。</p>
+<p><strong>Swyx:</strong> 对，有——当我开始整个 AI 工程师，我猜，造这个词的时候，在 2023 年，像是，那就像是，头号反对意见就是这没有价值。你应该直接训练模型。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 而且，是的，显然这就像。你们是活生生的例证之一，证明你既可以构建非常有价值的封装层，也可以构建非常有价值的模型公司。</p>
+<p><strong>Alex Atallah:</strong> 这真的很难做到。就像，一个模型发布的那天，你有一个 OpenRouter 端点，而且经常在第一天就登上 Hacker News 榜首，人们没有意识到要做到这一点需要付出多少努力。而 OpenRouter 用上了。就像，这种情况会一次又一次地发生，我记得我当时想，“人们根本不知道这有多难。”</p>
+<p><strong>Alex Atallah:</strong> 那不是。</p>
+<p><strong>Swyx:</strong> 是的，我们已经讲过一些背后的推理工程，</p>
+<p><strong>Alex Atallah:</strong> 是的</p>
+<p><strong>Swyx:</strong> 其中一些——和 Base Ten 以及所有那些。嗯，今天你有所有那些，就像，很酷的代号之类的东西，人们猜 Oxy Alpha 是什么以及所有那些。但是，就像，我猜你在暗示的其中一件事是，你如何让那个最初的飞轮转起来，对吧？因为今天你有你的规模、你的声誉，所有这些，所以显然你——你在驱动巨大的分发。但当你还早期的时候，当它主要是</p>
+<h2>通过社区启动 OpenRouter</h2>
+<p><strong>Alex Atallah:</strong> 启动阶段，是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 启动阶段是什么样的？</p>
+<p><strong>Anjney Midha:</strong> 回到早期 Discord 的日子，我想我们，就像，最初建立联系。严格来说这是一个 OpenSea 的故事。但是，我们最初建立联系是在你还在 Discord 的时候，我们聊了，就像——Axie Infinity 服务器。</p>
+<p><strong>Alex Atallah:</strong> 哦，是的。是的。</p>
+<p><strong>Anjney Midha:</strong> 这个服务器是，就像，最大的服务器，在</p>
+<p><strong>Alex Atallah:</strong> 是的</p>
+<p><strong>Anjney Midha:</strong> 在 Discord 上。</p>
+<p><strong>Alex Atallah:</strong> 没错。</p>
+<p><strong>Anjney Midha:</strong> 而你就，不断地提高</p>
+<p><strong>Alex Atallah:</strong> 服务器的上限。哦，我的天</p>
+<p><strong>Anjney Midha:</strong> 关于服务器里能容纳多少人。</p>
+<p><strong>Swyx:</strong> 对于那些不知道的人，就像，菲律宾 10% 的人都在玩 Axie。</p>
+<p><strong>Alex Atallah:</strong> 都在那个服务器上。那是很大的热度。</p>
+<p><strong>Swyx:</strong> 它就像，对该国 GDP 的一个有意义的贡献者。</p>
+<p><strong>Alex Atallah:</strong> 它是一个 NFT，就像，加密游戏，但它</p>
+<p><strong>Swyx:</strong> 它就像宝可梦繁殖的东西。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 是的。类似。是的。有对战，有繁殖，然后还有，就像，一个交易市场。</p>
+<p><strong>Swyx:</strong> 还有赚取。</p>
+<p><strong>Alex Atallah:</strong> 是的，赚取。而且，就像，画面真的很可爱很有趣，你会，你会对自己制作的 Axie 产生感情。所以，就像，启动一个那样的社区，这是我们在 OpenSea 每个早期项目都必须做很多次的事情，为了我们为它创建一个市场，我们需要确保，就像，社区想要它。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 这就像构建人们想要的东西，然后去告诉他们。就像，你可以一对一地做，但在一个每个人都能同时和你交流的社区里做，杠杆要高得多。所以我们花了很多时间，就像，构建社区真正想要的东西。我们对 OpenRouter 做了同样的事情。而且，就像，Axie 社区是我们做过这件事的无数社区之一。而 Anj，就像，看到我们在做这件事。因为你能看到人们在那个 Discord 里不断地分享 OpenSea 链接。就像，用户分享链接是一个非常清晰的指标，表明，就像，有重要的事情正在发生。所以我们花了，很多时间，就像，首先弄清楚人们关心的技术缺口是什么。就像，真正需要解决的问题是什么？在早期 LLM 时代，是 OpenAI 拒绝完成提示词，或者，</p>
+<p><strong>Anjney Midha:</strong> 是的</p>
+<p><strong>Alex Atallah:</strong> 去，就像，完成任务。也是。</p>
+<p><strong>Anjney Midha:</strong> 无法定制模型。所以有些社区，就像，完全被这个问题卡住了，而那些社区是最值得去了解、深入和探索的。</p>
+<p><strong>Alex Atallah:</strong> 当时真正让我印象深刻的一件事——因为我刚听了你的演讲，我记得注意到——你可能不记得这个了，但我们——我们有这些，就像在运作的 Zoom 电话会议，我们围绕，就像这个 OpenSea 与 Discord 的集成在做冲刺。而且，我们，我们——是我自己，我的工程团队。我想你也在。我记得，Alex，在其中一次电话会议中间，就像有沉默。我们都像，“哦，是的，这完全说得通。我们这么做吧。”然后有——每个，就像每个人都达成一致。而 Alex 说，“不，这对我来说说不通。”而每个人都——我记得我说，“什么？就像，它能用。就像，你点一个链接，然后这个，然后它把你弹到，就像 OpenSea。”而他说，“这不是好的用户体验。是的，我们不应该这么做。”我记得我说，他是我们所有人中唯一一个举手说，是的，从技术实现的角度来看它说得通。就像，我们把用户弹到，弹到 OpenSea。所以它算是勾选了两边产品经理的需求框。但 Alex 更进一步说，“什么会更好，各位？如果我们直接把体验嵌入到 Discord 里面，这样链接就作为一个嵌入的 iframe 打开，你就可以直接在那里结账。”</p>
+<p><strong>Alex Atallah:</strong> 而电话会议上没有一个人，我们有大概七个人，已经，就像，一周又一周地开会。</p>
+<p><strong>Swyx:</strong> 而这是那个不为 Discord 工作的人。</p>
+<p><strong>Alex Atallah:</strong> 而这是那个不为 Discord 工作的人。</p>
+<p><strong>Swyx:</strong> 就像，从技术上来说，如果他们弹出去，你反而受益。</p>
+<p><strong>Alex Atallah:</strong> 完全正确。而那，就像，是对抗性的。把用户留在 Discord 里面，对 OpenSea 来说是对抗性的。然而 Alex 把用户体验放在第一位。我当时就想，“这很特别。”</p>
+<p><strong>Swyx:</strong> 哇。</p>
+<p><strong>Alex Atallah:</strong> 因为很难有一个人，像 Alex 这样技术出身，理解开发者流程，同时也理解最佳用户体验并想要优先考虑它。而这是飞轮的两面，如果你能让它转起来，就像，往往很难停下来。而你刚刚提醒了我，就像那是一个那样的时刻，我想，我——我意识到我必须在用户体验上做得更好，因为我本应该是那个想出这个的人，而我没有。我从你那里学到了。而且，我认为这进入了我们在 Discord 的 PM 培训项目的一个案例研究。</p>
+<p><strong>Swyx:</strong> 哇。</p>
+<p><strong>Alex Atallah:</strong> 我不知道它是否在那里。因为</p>
+<p><strong>Swyx:</strong> 你需要一个 Alex，这就是结论。</p>
+<p><strong>Alex Atallah:</strong> 是的。你需要一个 Alex。这就是为什么我，没有人应该惊讶为什么 Stripe 决定，就像他们必须收购 OpenRouter，因为这是一个非常罕见的组合，理解机器学习社区、开发者体验和用户体验的人。把所有这些放在一起，造就了这种非凡的规模，很少有其他市场能够达到</p>
+<h2>Window AI、BYOM 与寻找正确的形态</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 在过去，五年里。</p>
+<p><strong>Swyx:</strong> 是的。嗯，我们应该谈谈收购的其他原因，那些</p>
+<p><strong>Alex Atallah:</strong> 是的，我们应该。</p>
+<p><strong>Swyx:</strong> 你写过的。我也想某种程度上按时间顺序进行。所以——有一点是，来自 H of Zero 的 Dave 发来的问题之一，它是什么时候——真正开始奏效的？而你提到了 Mixtral。我不知道你是否想提那个故事。</p>
+<p><strong>Alex Atallah:</strong> 哦，是的。</p>
+<p><strong>Swyx:</strong> 显然你与之有重叠，所以。</p>
+<p><strong>Anjney Midha:</strong> 是的，MoE 是。我不知道什么时候。没有像某一个时刻，我就像，“哦，这，正式地开始奏效了。”它是</p>
+<p><strong>Swyx:</strong> 那个时刻，你有一个 Chrome 扩展，就像，真的很早的时候。</p>
+<p><strong>Anjney Midha:</strong> 哦，是的。但是，嗯——是的。所以在 OpenRouter 之前，我想，就像，探索一个自带模型的实验。而且，</p>
+<p><strong>Swyx:</strong> 任何熟悉加密的人都会说，是的，Phantom 以及所有那些。</p>
+<p><strong>Anjney Midha:</strong> 是的。所以感觉做一个 AI 版的 MetaMask 类比会是探索这个的一种有趣方式。而在当时，没有 AI 应用。通过 API 调用，就像，访问 LLM 的 AI 应用，大概和，就像，只用 JavaScript 做这件事的游戏一样多。就像有一个，有一个时刻，本来可能是这样的情况：网页应用通过浏览器调用 LLM，就像通过某个桌面</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 由用户控制的托管应用。当然，有，我认为，很多原因导致这没有发生。但回到那些原始的日子，我构建了一个叫 Window AI 的 Chrome 扩展</p>
+<p><strong>Swyx:</strong> 用 Plasmo。</p>
+<p><strong>Anjney Midha:</strong> 用 Plasmo。</p>
+<p><strong>Swyx:</strong> 我很早就遇到过，我当时想，“谁会用它？”你用了。</p>
+<p><strong>Anjney Midha:</strong> Plasmo 有几个，就像，我认为 Phantom 在用它。还有一些其他，就像真正的公司在用它。</p>
+<p><strong>Alex Atallah:</strong> 它就像一个垫片。</p>
+<p><strong>Swyx:</strong> 用于 Chrome 扩展的 React。它编译到所有</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 我明白了。</p>
+<p><strong>Anjney Midha:</strong> 就像用于 Chrome 扩展的 Next.js。</p>
+<p><strong>Swyx:</strong> Next.js，Next.js。</p>
+<p><strong>Alex Atallah:</strong> 好的。</p>
+<p><strong>Anjney Midha:</strong> 是的，在它之上构建了 Window AI。Plasmo 的创造者，就像开始在 GitHub 上为 Window AI 贡献代码，而那个人原来是 Louis Vicchi</p>
+<p><strong>Alex Atallah:</strong> 哦，你</p>
+<p><strong>Anjney Midha:</strong> 他是 OpenRouter 的创始人。</p>
+<p><strong>Alex Atallah:</strong> 没错。你告诉过我这就是你遇到 Louis 的方式。是的。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 好的。</p>
+<p><strong>Anjney Midha:</strong> 所以，那让用户可以配置他们想在浏览器里为某个网页使用哪个模型，然后应用在需要做事的时候就会调用那个模型。对LLM来说这不是正确的形态，但这是个有趣的实验。你能学到很多，而且我把它开源了。主要的心得就是，好吧，这必须是一个API，而且它得看起来有点——得有更多的开发者体验，也得有更多的发现体验。就像，我不知道该在哪里用这些模型，而一个小小的Chrome扩展帮不了我发现。它的空间不够。我需要更多空间。我需要视觉。我需要图表。我需要示例。我需要图像。我需要能够像人类和智能体一样去探索。</p>
+<h2>加密货币、Midjourney与早期生成式AI生态</h2>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 所以OpenRouter就是这样诞生的。</p>
+<p><strong>Alex Atallah:</strong> 一个元观点。</p>
+<p><strong>Alex Atallah:</strong> 我觉得这一点被低估了，但Alex提醒了我，就是我们当时非常幸运，我们当时——我们当时和加密货币社区很接近。因为事后看来，加密货币最终成了生成式模型的一次彩排，对吧？如果你想想Axie的经历，Alex完全说得对，当时并没有那么多AI应用。而当我——我的工作是担任Discord的平台负责人，这意味着要做一个通用场所，让社区和朋友能够创建——让开发者能够创建应用、机器人以及其他可以部署到整个Discord上的服务。而当时80%的注意力都花在加密货币上，因为所有NFT交易量都在那里，但有大约20%的时间我花在一个朋友身上，他会和我一起玩hotbot，然后问我——我们周末会玩《万智牌》，而他当时在做一个小Discord机器人，可以把文本输入变成图像，它叫Midjourney。你</p>
+<p><strong>Swyx:</strong> 那是David吗？</p>
+<p><strong>Alex Atallah:</strong> 是David Holz。</p>
+<p><strong>Alex Atallah:</strong> 他是个好朋友。David和我在此之前都是失败的ARVR创始人。我记得这个。Midjourney是继Axie Infinity开始衰退之后我们拥有的增长最快的社区之一。而我们为了扩展Axie所做的许多抽象和基础设施决策，恰好赶上了，因为它们——Axie做到了这一点，然后掉下悬崖。然后当Midjourney起飞时，我们明确决定帮助David把服务器，也就是Midjourney服务器，做成与模型交互的主要场所，因为如果人们看不到别人在使用它并模仿他们，就很难理解如何使用这个模型。所以单机版的Midjourney网页应用，也就是midjourney.com本身，留存率很糟糕，因为人们来了，看到这个空白输入框。就像E 2，然后他们会输入猫或狗。而面对这块必须填满的空白画布，他们会感到瘫痪，因为他们以前从未用过AI模型。但相反，在Discord服务器里，你可以看到别人在使用它，并接着他们的提示词发挥，参与度高得离谱。所以把Midjourney从零扩展到大约1000万月活，比Axie Infinity顺利得多。所以，</p>
+<p><strong>Swyx:</strong> 别忘了四张图里选最好的一张，然后你选一张。</p>
+<p><strong>Alex Atallah:</strong> 最好的，对，然后其他的，我们</p>
+<p><strong>Swyx:</strong> 这就是反馈循环。</p>
+<p><strong>Alex Atallah:</strong> RLHF反馈循环，顺便说一句，另外，Tom Brown、David和我以前周末会玩《万智牌》。所以，就像一群朋友会一起玩，我们会——这些概念一直都在被讨论。但是，有。</p>
+<p><strong>Alex Atallah:</strong> 我觉得我们中很少有人同时连接了加密货币世界和AI世界。而相比加密货币，那里问题总是，这项技术的用例是什么？对AI来说从来不需要问这个，因为它的用例是如此直观。就像，我现在可以创造任何我能想象的东西。我可以写小说，我可以写代码。而我们这些相信分布式系统，比如相信加密货币价值，比如抗审查部分的人，发现这个用例是爆炸性的。我觉得在Midjourney、Claude——Claude是以Discord机器人形式发布的，我们内部把它当作LLM使用——ElevenLabs有一个TTS模型，我们也在Discord上用了。就像，Discord成了早期应用创新的培养皿。而且我不认为它们先在那里找到归宿，然后OpenRouter才给世界提供一个公共的家或店面，这是巧合。Discord几乎是那种搭在我们为加密货币社区构建的基础设施上的培养皿店面。然后我觉得Alex是最早意识到这一点的人之一：等等，这些应用需要在互联网上有自己的家。然后对我来说，OpenRouter是那个社区需求的延续。当然，还有你为许多开发者带来的疯狂分发。</p>
+<h2>为什么OpenRouter不能只活在Discord里</h2>
+<p><strong>Swyx:</strong> 那么我的问题是，为什么你——我的感觉是OpenRouter并不是那么以Discord为中心，对吧？你们有一个Discord。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 你们用它来和社区互动，但它不像Midjourney那样，不，那几乎是人们体验OpenRouter的主要方式。</p>
+<p><strong>Anjney Midha:</strong> 是的，Midjourney，它真的有助于非常快速地直观看到人们如何使用模型以及如何提示它。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 我觉得这在一定程度上就是为什么那个服务器如此关键。它就像用户体验本身。它增加了大量价值。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 而且你可以仅通过Midjourney提示，比如通过Midjourney Discord服务器提示，拿到你的图像，然后分享它们并玩得开心，就能走完全程。对OpenRouter、对LLM来说，你需要围绕LLM的大量用户体验才能让它们真正可用。</p>
+<p><strong>Swyx:</strong> 关键点。</p>
+<p><strong>Anjney Midha:</strong> 而且是的。</p>
+<p><strong>Anjney Midha:</strong> 而且，看到别人的示例也没那么有用，因为要读的东西太多了。要花很长时间。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 你需要基于集成的方案。在Discord服务器里做不到。你需要，或者说技术上——是可能的。我不该那么说。只是开发者体验不好。你需要，比如——你需要治理。到了你有基于集成的时候，现在你需要治理来管理能访问它的LLM、数据政策、哪些团队。所有这些东西需要的远不止一个Discord服务器能提供的。所以它只是</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Anjney Midha:</strong> 它不是正确的。</p>
+<p><strong>Alex Atallah:</strong> 嗯，另外，你没错，但还有一个非常重要的区别，就是Midjourney是一个终端用户应用。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 而这就是为什么Discord，拥有2.5亿月活终端消费者，让Discord成为那种应用体验的宿主是合理的。我知道在Midjourney找到爆炸性产品市场契合之后不久会发生什么，因为我们——我觉得Midjourney从发布到1亿美元收入运行率，用了不到八个月。而此后不久，Stable Diffusion发布了。而我们所有人以前都常在那个Discord服务器里玩。在那里，我觉得那是，</p>
+<p><strong>Swyx:</strong> Stability的Discord？</p>
+<p><strong>Alex Atallah:</strong> 那是</p>
+<p><strong>Swyx:</strong> 是的，LAION。</p>
+<p><strong>Alex Atallah:</strong> 是的，LAION Discord服务器。</p>
+<p><strong>Swyx:</strong> 那个催生了Stable Diffusion的图像社区。</p>
+<p><strong>Alex Atallah:</strong> 那个图像社区。是的。所以当Stable Diffusion出来时，我意识到——哦，现在其他人可以构建自己的Midjourney了。</p>
+<p><strong>Alex Atallah:</strong> 因为在那之前，Midjourney没有API，所以他们是全栈公司，对吧？他们训练自己的模型，然后把它们作为应用部署。但如果你想构建自己的Midjourney，没有那种质量的API。而且我觉得E 2还相当原始。就像，Midjourney质量很好。然后当Stable Diffusion出来时，突然出现了这个新人——世界上出现了这种新能力，就是开发者可以创建自己的Midjourney。而这，我觉得，创造了对OpenRouter这类东西的需求，因为那样你就需要一个API来——如果你有David Holz那样的创造力，你有Stable Diffusion作为模型，你想把这些东西结合起来，你怎么能在不必搞清楚如何托管权重的情况下做到呢？而OpenRouter——OpenRouter所开启的形态就是这一点。对吧？当你拥有闭源应用的开源模型替代品时，OpenRouter在世界上的价值就变得非凡，因为现在任何开发者都可以直接出现并使用</p>
+<h2>Stable Diffusion与对模型API层的需求</h2>
+<p><strong>Swyx:</strong> 你就是热爱模型多样性。</p>
+<p><strong>Anjney Midha:</strong> 你刚才是不是说了OpenRouter的形态？</p>
+<p><strong>Alex Atallah:</strong> 哦，不。</p>
+<p><strong>Anjney Midha:</strong> 你是在Cloud吗？这是什么，真正的Han吗？</p>
+<p><strong>Alex Atallah:</strong> 我一直，我一直——我现在，我现在跑偏了。我被过度训练了。我用Cloud用得太多了，是不是？</p>
+<p><strong>Swyx:</strong> 人们会说这是Claude式的。</p>
+<p><strong>Alex Atallah:</strong> Claude式的。哦，天哪，我得把自己重新训练回来。</p>
+<p><strong>Swyx:</strong> 好。——我只想给Mistral这边收个尾。我的TLDR是，当时有一场Mistral价格战，他们就是这么叫的，对吧？大概是在NeurIPS二十三或二十四年的时候。</p>
+<h2>Mistral与推理市场的诞生</h2>
+<p><strong>Anjney Midha:</strong> 是的。十二月</p>
+<p><strong>Swyx:</strong> 他们发布了Mistral 8x7B，然后价格下降了大约80%。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对我来说，这非常积极，因为这就像是第一次，真正意义上对托管 Mistral 的竞争。还有更多吗？</p>
+<p><strong>Anjney Midha:</strong> 是的，确实如此。我正试着回忆，所有发生过的事情。我们看到了那个模型发布，然后立刻看到人们说它是世界上最好的模型。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 据我所知，这是第一次一个开放权重模型被如此严肃地这样称呼。</p>
+<p><strong>Swyx:</strong> 这是炒作，对吧？是吗？</p>
+<p><strong>Anjney Midha:</strong> 是炒作。是炒作。当时也是来自 AI 影响者的炒作。而且有很多例子显示它，比如，表现超过了四。所以人们真的很想试试看，这对我来说也会是真的吗？如果是的话，代价是什么？而且，推理的格局当时真的很混乱。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 我们把它清理干净了。——它让提供商可以在价格上竞争，这样我们就能在一个地方给你最好的价格。所以我认为这是第一个清晰的例子，说明提供商市场以一种为终端开发者增加价值的方式运作。</p>
+<p><strong>Alex Atallah:</strong> Sean，你可能不记得了，但我想我们第一次见面是在 Mistral 发布几天后的 NeurIPS 上。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 在一个午餐会上。</p>
+<p><strong>Swyx:</strong> 是的。我也是在那里遇到了 BFL。是的。</p>
+<p><strong>Alex Atallah:</strong> Guillaume 也在那里。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 我当时在 NeurIPS。</p>
+<p><strong>Alex Atallah:</strong> 你也在那里。而且，我们刚刚宣布了 Mistral 的投资，我记得 Guillaume 在那边，我记得我转向 Guillaume 问他，比如，“是不是所有的。比如，Mistral 和七 B 发布后你感觉怎么样？”然后，他以典型的法国风格说，“它是一个，它是一个还行的模型。没那么好。”我当时就想。对比太鲜明了。但我记得他还说，他觉得很多人认为它比四好的部分原因是速度。——那是他们拥有的一个 MoE 模型，他们绝对已经弄清楚了如何让它超级高效。它处于帕累托前沿。这是关于 LLM 的一个重要事情，对吧？有时候当它们更快时，你会觉得它们更聪明，即使，比如，如果你做了，N 次，这些常见的，比如，评估——你做七次尝试，我不记得了。我想我们应该回去弄清楚数据说了什么，但如果结果是，哦，在七次尝试的 N 上，四在评估上更聪明，我不会感到惊讶，但在，比如，或正确性的感知上会更聪明或更准确。但是，人们，比如，从人类偏好的角度来看，觉得它更快是因为它——或者更聪明因为它太快了。</p>
+<p><strong>Swyx:</strong> 是的。而且大多数查询不会达到那个水平。</p>
+<p><strong>Alex Atallah:</strong> 不会达到那个。那是真的。</p>
+<p><strong>Swyx:</strong> 对吧？所以这是人类作为路由器的开始。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 然后最终变成了 OpenRouter 作为，比如，那个的路由器。</p>
+<p><strong>Alex Atallah:</strong> 哦，那是一种有趣的思考方式。是的。</p>
+<p><strong>Swyx:</strong> 比如，因为人类是路由机制。比如，我会先问快速模型，然后如果，比如，哦，不够好，我会手动升级。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但然后他会把它自动化。</p>
+<p><strong>Alex Atallah:</strong> 我没有，我没有那样想过，但那说得通。</p>
+<p><strong>Swyx:</strong> 然后还有，还有很多技术，比如融合。融合是我们应该谈论的东西。在我继续那些事情之前，我只想结束早期年份。我观察到的一件事，你也是 Arena 的投资者。</p>
+<h2>OpenRouter 与 LM Arena</h2>
+<p><strong>Alex Atallah:</strong> 对。</p>
+<p><strong>Swyx:</strong> 我们谈到了 Midjourney 有那个 A、B、C、D 的反馈循环，选择那个非常。非常重要。而且你理解那个飞轮。那么为什么你没有建立 Arena，为什么 Arena 没有建立 OpenRouter？</p>
+<p><strong>Anjney Midha:</strong> 嗯，Arena 在 OpenRouter 之前就开始了，对吧？</p>
+<p><strong>Swyx:</strong> 他们有一个学校项目。</p>
+<p><strong>Anjney Midha:</strong> 是的，LM</p>
+<p><strong>Swyx:</strong> 然后它变成了一家公司。</p>
+<p><strong>Anjney Midha:</strong> LM Arena，是的。</p>
+<p><strong>Swyx:</strong> 所以，但是，我知道你有一些 Arena 的经验，比如向上比较之类的东西。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但你从来没有像 Arena 那样真正努力去做。</p>
+<p><strong>Swyx:</strong> 而且，</p>
+<p><strong>Anjney Midha:</strong> 在做向上体验？</p>
+<p><strong>Swyx:</strong> 是的。而且 LM Arena 确实有一个基于 LM Arena ELO 的路由器项目，但他们从未商业化。</p>
+<p><strong>Anjney Midha:</strong> 做一家同时做两件事的公司很难，因为一家公司在获取数据并出售它，而另一家公司默认情况下真的不能。所以，我认为这里有两家公司是有品牌原因的。比如，当你建立 OpenRouter 时，没有训练，没有提示，对吧，除了你的提供商政策设定的。比如，OpenRou- 比如，OpenRouter 看不到你的提示或补全。如果你想作为一个组织看到那个，你必须选择加入并启用它。所以我们对数据政策、安全和隐私相当保守和谨慎。而 LM Arena 就像，他们的商业模式是围绕实验室的，而且，</p>
+<p><strong>Swyx:</strong> 因为他们免费提供，对吧？你不会免费提供只是为了免费提供。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 但我们确实提供一些。我们也有免费端点，但那些免费端点，我们，我想我们没有收集任何提示。我们没有，比如，将数据货币化，除非你出于某种原因选择加入。</p>
+<p><strong>Alex Atallah:</strong> 这个比较。你不是第一个问我这个的人，Alex 知道这个，但我是 Arena 的临时，比如创始人，比如第一任 CEO，在前五个月，当时我们帮助 Anastasios 和 Waylin 从伯克利分拆出来。而且，我在 OpenRouter 之前就投资了那个，但对我来说，外部的人会对这两个项目进行比较是非常奇怪的，因为使命完全不同。Arena 的创始实体，我们称之为 AI 可靠性研究所，因为它在那里作为一个评估服务。比如，他们最初提供给实验室的数据，可以说是，是如何使模型的评估比当时的最先进技术更可靠，而当时的最先进技术真的只是风中手指。</p>
+<p><strong>Alex Atallah:</strong> 这就是 Anastasios 和 Waylin 作为伯克利科学家的博士工作，是关于纠正评估估计的统计方法，基于比如内在偏差和你如何收集数据。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 而且</p>
+<p><strong>Swyx:</strong> 风格控制。</p>
+<p><strong>Alex Atallah:</strong> 风格控制之类的东西。这非常像，嘿，如何。如果你是一个科学家，你试图。Arena 的最高期望客户总是像训练和，比如实验室的研究员。而从我看来，Alex 真正理解并且使命所服务的是，最高期望客户是开发者，对吧？然后他拿研究的结果，然后生产一个部署到世界的应用。这是两个团队关注的完全不同的问题和人。所以从外向内看。我不知道你是否记得这个，但我有一个清晰的记忆，在我们一起为 OpenRouter 做条款清单的几周前，我给你打了个电话，因为我们试图从 OpenRouter 和 Arena 汇集一个数据集，创建一个提示的开源仓库。这些项目在目标上如此不同，以至于我很自然地想，“哦，是的，让我们打电话给 Alex，看看他是否愿意在汇集数据上合作，”因为它们是如此不同。我们需要。我们根本没有那个数据。我们。比如，我们没有 API 提示。我们没有，我们没有开发者想用模型做什么，这与模型实验室内部的研究员在发布模型之前想做的非常不同。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 这说得通吗？所以到今天，我认为你看到了这种差异，即使在 30,000 英尺的高度你可以。我猜你可以得出结论，Arena 和 OpenRouter 是相邻的，但是，路线图、使命等等在当时至少是朝着非常不同的方向。</p>
+<p><strong>Swyx:</strong> 那个理想客户，我明白。我完全明白。</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 作为一个创始人，我想拥有一切，对吧？</p>
+<p><strong>Alex Atallah:</strong> 那是可能的。</p>
+<p><strong>Swyx:</strong> 比如这显然是一个我会去探索的相邻领域。</p>
+<p><strong>Anjney Midha:</strong> 拥有一切意味着你还不知道要做什么，所以你想确保你尽可能快地抓住 PM</p>
+<h2>专注、Anthropic 和未走的路</h2>
+<p><strong>Alex Atallah:</strong> 不，我认为他</p>
+<p><strong>Anjney Midha:</strong> 尽可能快。</p>
+<p><strong>Alex Atallah:</strong> 你想拥有整个基础设施空间，所以你扩展到你能捕获的任何需求。</p>
+<p><strong>Swyx:</strong> 你想在每一端都有布局。</p>
+<p><strong>Alex Atallah:</strong> 是的，我认为那，那在现实中很难，因为服务多个客户是困难的。</p>
+<p><strong>Swyx:</strong> 显然，这是唯一的专注，对吧？</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 是的。我仍然认为即使在 AI 时代，比如专注是，</p>
+<p><strong>Alex Atallah:</strong> 是关键的</p>
+<p><strong>Anjney Midha:</strong> 被低估且关键，不仅因为你通过将你的人专注于它最终得到更好的产品，还因为世界知道你的专注是什么。</p>
+<p><strong>Alex Atallah:</strong> 百分之一千。</p>
+<p><strong>Anjney Midha:</strong> 世界可以映射，比如，“哦，我有这个问题。外面哪个品牌会帮我解决那个问题？这是以那个专注闻名的品牌。”</p>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 所以比如如果我想在这个问题上得到真正的关注，比如这对我来说真的很重要，我应该选择最关心它的品牌。</p>
+<p><strong>Alex Atallah:</strong> 我想强调 Alex 关于专注有多重要的观点。在 Anthropic 早期，这并不容易。人们以为 Anthropic 的早期特别轻松，因为他们是那3个离开的人，但竞争其实非常激烈。公司起步时比 OpenAI 落后100亿美元，对吧？所以，为了抵达前沿，最重要的问题是：我们想以什么著称？使命是什么？使命是 AGI 结对编程。所以，他们排除了当时所有其它很耀眼、势头很强的方向，比如图像模型和视频模型，Anthropic 团队说：“我们必须专注于编程。”那就是我们专注的核心能力。今天你能看到结果，对吧？五年内成为一家万亿美元公司。我觉得，这种专注，专注于期望最高的客户是谁，以及如何超越他们的期望——因为超越任何人的期望都很难，同时为多个客户做到这一点就更难——是 OpenRouter 和 Anthropic 成功的部分原因。</p>
+<p><strong>Anjney Midha:</strong> 不过，对编程的专注有那么早吗，还是后来才出现的？</p>
+<p><strong>Alex Atallah:</strong> 从第一天起，字面意义上就是 AI 结对编程。负责任地将 AI 结对程序员商业化，这就是那份种子备忘录。那正是我投资的时候，对吧？我们后来对那份备忘录做了大量完善。嗯，这个你得问 Dario 和 Tom 要许可才能说。</p>
+<p><strong>Alex Atallah:</strong> 但那是他们整理出来的一篇非凡的文字。而 AI，将其商业化。负责任地将 AI 结对程序员商业化，从第一天起就是使命。我想说，公司历史上大概有那么几个时刻，他们做了一些实验，看看一些小的绕道是否有意义，比如一个通用聊天机器人，比如 ChatGPT 真正起飞时的 Claude.ai。但归根结底，尤其是当他们把重要的训练算力上线之后，我觉得，比如公司所有主要的评估，一直都是编程评估、长时程智能体编程。从第一天起，这就是计划。</p>
+<p><strong>Anjney Midha:</strong> 因为当 Claude Instant 出来、Claude 2 出来的时候</p>
+<p><strong>Alex Atallah:</strong> 是的</p>
+<p><strong>Anjney Midha:</strong> 我记得营销主要聚焦在优点上。比如，这个</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 能写得更好</p>
+<p><strong>Swyx:</strong> 对，长上下文。那是同类中的第一个。</p>
+<p><strong>Anjney Midha:</strong> 长上下文，</p>
+<p><strong>Swyx:</strong> 这直接影响到我，因为我在那上面做了个东西。对。</p>
+<p><strong>Alex Atallah:</strong> 你做了什么？</p>
+<p><strong>Swyx:</strong> 一个小开发者工具，算是我的 Devin，在 Devin 之前。</p>
+<p><strong>Alex Atallah:</strong> 哦，对。是的。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 小。</p>
+<p><strong>Swyx:</strong> 对。所以我觉得，有那么多真正好的东西，专注是另一回事——这是人们确实想问的问题。你本可以构建任何其它东西。而且显然 OpenRouter 当时在运转。有没有其它你想追求但放弃了的想法？就是那些路径，未走之路。</p>
+<p><strong>Anjney Midha:</strong> 我们为一些没发布的东西做了几个原型。一个是把调优模型作为服务。</p>
+<p><strong>Swyx:</strong> 对。OpenPipe 和所有那些东西做了很多这类事。</p>
+<p><strong>Anjney Midha:</strong> 但它是——它当时是非常消费级的产品形态，你给我们一个或两三个 YouTube 视频。我们然后提取其中所有的转录文本，试着调优一个模型，让它像 YouTube 里的人那样说话</p>
+<p><strong>Alex Atallah:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 或者像你发来的视频里的人那样说话。所以，就是一种基于你喜欢的某些视频来创建调优模型的非常简单的方式。</p>
+<p><strong>Alex Atallah:</strong> 那会非常有用。</p>
+<p><strong>Anjney Midha:</strong> 我们，</p>
+<p><strong>Alex Atallah:</strong> 不</p>
+<p><strong>Anjney Midha:</strong> 我们也做了。它</p>
+<p><strong>Alex Atallah:</strong> 你不这么觉得？</p>
+<p><strong>Anjney Midha:</strong> 它，它</p>
+<p><strong>Alex Atallah:</strong> 而且没人用？</p>
+<p><strong>Anjney Midha:</strong> 它——我们没有在那么多人身上测试它，因为模型市场是我们的主要焦点，而且它在增长，我们随着时间对它建立了更多信心。</p>
+<p><strong>Swyx:</strong> 只是，你</p>
+<p><strong>Alex Atallah:</strong> 对。为什么，</p>
+<p><strong>Swyx:</strong> 作为一个创作者</p>
+<p><strong>Alex Atallah:</strong> 是的。我是创作者。</p>
+<p><strong>Swyx:</strong> 你有没有被推销过很多，比如——“我有五百小时自己录制的语音。”</p>
+<p><strong>Alex Atallah:</strong> 对。</p>
+<p><strong>Swyx:</strong> 做一个你的东西，对它收费提供访问。这在 OnlyFans 上行得通，在</p>
+<p><strong>Alex Atallah:</strong> 我明白了</p>
+<p><strong>Swyx:</strong> 作为普通人身上行不通。我觉得——这主要是——它只是一个被美化的 RAG 机器人。</p>
+<p><strong>Alex Atallah:</strong> 对。</p>
+<p><strong>Swyx:</strong> 无论它在权重里还是在权重外，其实都不重要。你只是在视频上做 RAG，而人们最终总是只想找到那个直接回答问题的源视频。</p>
+<p><strong>Alex Atallah:</strong> 哦。我的用例主要是用来练习——和自己练习，因为我经常喜欢看看。比如，我为求职面试练习的方式，或者如果我在招聘候选人，或者公开演讲之类的，我希望有一个好的</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Alex Atallah:</strong> 我可以，比如，批评，因为把自己抽离出来挺难的。我永远不会。我永远不会把它作为服务提供给其他人。</p>
+<p><strong>Swyx:</strong> 我希望有那种，比如，挑出你排名前五的导师，然后和他们对话，而不是和你自己对话。</p>
+<p><strong>Alex Atallah:</strong> 那也会很酷，对。</p>
+<p><strong>Anjney Midha:</strong> 那正是，那</p>
+<p><strong>Swyx:</strong> 那就是创作者 AI。那就是 Replica。</p>
+<p><strong>Anjney Midha:</strong> 而那正是我们瞄准的用例。</p>
+<p><strong>Alex Atallah:</strong> 我明白了。</p>
+<p><strong>Anjney Midha:</strong> 就是，你想创造一种体验</p>
+<p><strong>Swyx:</strong> 像 AI 史蒂夫·乔布斯和。</p>
+<p><strong>Anjney Midha:</strong> 而 AI 史蒂夫·乔布斯就是最初的用例。</p>
+<p><strong>Alex Atallah:</strong> 那是个，</p>
+<p><strong>Anjney Midha:</strong> 尽管它不被允许。</p>
+<p><strong>Alex Atallah:</strong> 那是个，那是个常见的原型，对。</p>
+<p><strong>Swyx:</strong> 说到相邻领域，把调优作为服务，作为路由服务的一部分，也是我通常会考虑的事情，对吧？比如，你为什么不那么做？因为如果人们已经在通过你运行他们的推理，存储一切，记录一切，调优到一个更小、更便宜、更快的模型，所有这些都在你的掌控之中，对吧？你没那么做，但，比如，在基础设施初创公司的一般状态下，其他人会推销这个。</p>
+<p><strong>Anjney Midha:</strong> 对。对。</p>
+<p><strong>Alex Atallah:</strong> 我觉得你可能只是稍微早了一点，因为今天那是一个增长极其迅猛的细分领域。比如，从 Mistral 开始，他们做很多企业部署</p>
+<h2>微调即服务与基础设施相邻领域</h2>
+<p><strong>Anjney Midha:</strong> 对</p>
+<p><strong>Alex Atallah:</strong> 之类的，以及调优，为 ASML 或别的什么做定制模型。而且经常</p>
+<p><strong>Swyx:</strong> 但不是作为路由器。他们，他们只是像，“我来找你是因为我喜欢你们的 Mistral 模型。我想要定制的 Mistral 模型，”对吧？它不是，“我想要运行我所有的 OpenAI 提示词，存储我所有的结果，然后就直接脱离 OpenAI。”对吧？他们不是那么做的。</p>
+<p><strong>Alex Atallah:</strong> 作为一种，作为一种摆脱对前沿实验室依赖的出口方式，我还没见过。对。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Alex Atallah:</strong> 那正是你的愿景。</p>
+<p><strong>Swyx:</strong> 做起来效率高。</p>
+<p><strong>Anjney Midha:</strong> 我们决定了。真的，我们，比如，倾向于我们的专注，并认为，比如，并没有。比如，我们只是看着生态系统随时间发展。所有这些想帮公司做那件事的推理提供商——比如，我们与它们合作、给用户提供大量选择、弄清楚什么给它们带来竞争优势，这对我们来说是有意义的。这是一个全新的业务，作为一个中立的、与那些公司合作的市场，是有价值的。</p>
+<p><strong>Alex Atallah:</strong> 你能不能分享一点，接着 Sean 的观点，比如，你是如何排优先级的。你排功能优先级的一些方式是什么？因为你一直做得如此优雅，我从来。它就是自然发生，你做出所有正确的决定，从外部看总是有产品市场契合。但一贯地，你似乎优先做了很多奏效的热门功能。也许我有样本集偏差或什么的，但 Sean 的问题</p>
+<p><strong>Swyx:</strong> 你能列出你认为奏效的热门功能吗？</p>
+<p><strong>Alex Atallah:</strong> 哦，排行榜。</p>
+<p><strong>Swyx:</strong> 排行榜，好。</p>
+<p><strong>Alex Atallah:</strong> 对。比如，从第一天</p>
+<p><strong>Swyx:</strong> 那是图表，对吧？那是反馈循环。</p>
+<p><strong>Alex Atallah:</strong> 图表，BYOK。</p>
+<p><strong>Swyx:</strong> 但，比如，他有，比如，内部消息。他有，比如，而且我觉得有一整件事我想深入，关于，比如，补全 versus</p>
+<h2>OpenRouter 如何排产品优先级</h2>
+<p><strong>Alex Atallah:</strong> 是的。</p>
+<p><strong>Swyx:</strong> “Check completions”与补全。<sup><a href="#user-content-fn-or-check" id="user-content-fnref-or-check" data-footnote-ref aria-describedby="footnote-label">1</a></sup>然后还有，我们称之为，推理模型的崛起以及你如何处理它们，多模态，所有那些东西，对吧？</p>
+<p><strong>Alex Atallah:</strong> 对。BYOK。</p>
+<p><strong>Swyx:</strong> BYOK，对。</p>
+<p><strong>Alex Atallah:</strong> 那是个大事件。</p>
+<p><strong>Anjney Midha:</strong> 有一个我。就像，我觉得那是在2024年初，非常早的2024年，我们觉得把多个模型的结果融合在一起可能会很有意思，于是我们发布了一个叫MOM，Mixture of Models（模型混合）的原型，它让你，就像，挑几个模型，或者我们帮你挑，然后它会在最后把结果融合在一起，并且会在这个，就像，一个大的看板样式的产品里向你展示所有中间结果。</p>
+<h2>模型混合与模型融合</h2>
+<p><strong>Swyx:</strong> 最后那个融合，是另一个模型吗？</p>
+<p><strong>Anjney Midha:</strong> 另一个模型。那个，</p>
+<p><strong>Swyx:</strong> 最聪明的那个</p>
+<p><strong>Anjney Midha:</strong> 最聪明的</p>
+<p><strong>Swyx:</strong> 在这一组里</p>
+<p><strong>Anjney Midha:</strong> 三个里最聪明的，这一组里最聪明的。</p>
+<p><strong>Swyx:</strong> 好。所以这就像是一个议会（council）的想法？</p>
+<p><strong>Anjney Midha:</strong> 对。它是一个模型。它就像是一个非常早期的LLM议会。</p>
+<p><strong>Alex Atallah:</strong> 这就是一个智能体集群（agent swarm），就像，在早期，某家前沿实验室会这么叫它？</p>
+<p><strong>Anjney Midha:</strong> 对，就像其中一些想法，就像，方向是对的，但魔鬼在细节里。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 需要很多，就像，产品上的打磨才能让它们真正行得通。它们会夺走你的注意力</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 不管你手上还有什么别的事。而且你需要做很多，就像，社区建设和学习。而且技术可能太早了。所以有——就像，它们可能出错的原因有各种各样。而在我们的例子里，技术有点太早了。换句话说，融合后的结果有点</p>
+<p><strong>Swyx:</strong> 对。就像一个科学怪人（Frankenstein）</p>
+<p><strong>Anjney Midha:</strong> 有时和用来做融合的那个最好的模型一样，因为当时最好的模型远远领先于第二和第三选项。随着时间推移，排名前三或前四的LLM已经越来越接近了，仍然各有各的神经多样性，但是，就像，都能插入，就像，相当有意思的想法。就像，强化学习，就像，扩展了每个实验室里机器学习研究者的创造力表面积，所以他们能更有效地让不同模型的推理能力多样化。至少这是我的理论，关于</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Anjney Midha:</strong> 融合——它，就像，比过去效果更好了，但那是2024年初。而且，所以技术有点太原始了。形态也不对，所以我们就得再经历几轮迭代。于是我们决定干脆把代码全删了。然后，几年后，2026年中，或者2026年初，我们说，“咱们把它带回来吧。”就像，研究看起来对融合挺有前景的。现在这些模型，就像，有两、三、四个顶级前沿模型，全都很棒，而且，就像，我，我经常试着，就像，咨询多个模型来得到最好的结果。就像，然后我做了个小小的个人实验，我当时想，“我要，就像，给一个代码改动做一个架构方案。我要把它给所有模型。我要把结果融合起来，然后我要问所有模型，融合后的结果是不是比每个模型各自得出的结果更好。”它们全都说是，融合后的结果更好。这发生了好几次，我就想，“好，抽查一下，相当不错。我们应该，就像，对此做个基准测试。”我们就是这样做出融合的。</p>
+<h2>随着前沿模型趋同，重新审视融合</h2>
+<p><strong>Swyx:</strong> 对。而且它出现在你的Fable上，所以你当时就想，“这是Fable级别的。”</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 咱们开始往今年推进吧，我们还没讲到今年。你能标出这段旅程中的主要里程碑吗？我觉得，看起来你的承诺，是，路由。你很早就决定了商业模式。</p>
+<p><strong>Swyx:</strong> 你抽成。而且，就像，哪些是让增长出现拐点的主要里程碑，对吧？就像，你现在，你正在，就像，周环比增长9%？这是官方数字吗？</p>
+<p><strong>Anjney Midha:</strong> 就词元量而言，我觉得这听起来差不多，对。</p>
+<p><strong>Swyx:</strong> 对。所以，就像，你能不能标出，就像，OpenRouter一直到，被收购之前的简史？咱们，咱们就叫，我们，我们只是，我们只是在聊，人们，——你有你的诞生时刻，就是Mistral那些东西，当时人们真的在竞争。你有你的AI现状（state of AI）那件事，当时，</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 那很可爱。你有100万亿词元，哈，因为现在你一周做10万亿，。</p>
+<p><strong>Anjney Midha:</strong> 对。我们现在一天做10万亿。</p>
+<h2>OpenRouter的增长拐点</h2>
+<p><strong>Swyx:</strong> 现在一天10万亿？</p>
+<p><strong>Anjney Midha:</strong> 对。更多。</p>
+<p><strong>Swyx:</strong> 所以对，你十天就做这么多。</p>
+<p><strong>Swyx:</strong> 就像，那里的主要节点是什么？我只是想。就像，有一条平滑的曲线，但是，就像，你能感觉到那些拐点。</p>
+<p><strong>Anjney Midha:</strong> 这里面很多都是围绕模型发布展开的。我们，一直到2024年5月，都极其专注于专业用户（pros），因为编程当时根本还不行，没有什么应用能在它上面构建太多东西。所以，模型有多样性，但不是广泛的多样性，用例上也不是广泛的多样性。Dream Tavern当时是我们排名靠前的应用之一。Dream Tavern的创作者现在在Cognition负责产品，Devon。——然后——在2024年中，我们看到了Claude 3.5 Sonnet。它出来了，在编程上是一次不可思议的飞跃，我们看到，就像，在我们之上构建的应用的动态变了。我们看到，就像，用户使用OpenRouter的量出现了巨大的激增。而我认为就是在这个时候，人们开始看他们，就像，花的钱，然后有点，就像，“哇，这是怎么回事？我可能得，就像，考虑一下，就像，更高效但等效的模型。”紧接着那之后，我觉得是在Sonnet 3.5之后，Mixtral 8x7B出来了，所有人都，就像，“什么？就是这个模型。”就像，开放权重（OpenWeights）社区交付了。所以对Mistral来说时机真的很好。</p>
+<p><strong>Swyx:</strong> Anja的所有被投公司都在帮你忙。</p>
+<p><strong>Alex Atallah:</strong> 养大一个OpenRouter需要一个生态系统？</p>
+<p><strong>Anjney Midha:</strong> 对，那就是。对，就是。它就像，它就是，就像，这个早期生态系统，它就像一种摆动动作，就像，模型实验室会搞出某个前沿创新。就像，使用量会激增。然后用户，30天后看他们的账单，就像，“哇，这是怎么回事？”然后开放权重模型会在，就像，两三个月后交付，就像，有效的选项。我们看到这种情况发生好几次。</p>
+<p><strong>Swyx:</strong> 顺便说一句，一个</p>
+<p><strong>Anjney Midha:</strong> 对</p>
+<p><strong>Swyx:</strong> 你在编程智能体方面还做了一件事，就是你拆分出了哪些是顶级编程智能体，它们很喜欢那个。它们很喜欢那个排行榜。Klein对Rue code对随便什么。</p>
+<p><strong>Anjney Midha:</strong> 对。就像，Klein当时，就像，是我们排行榜的榜首。我们，我们然后，在。我稍微往前跳一点。2025年底，排行榜上有相当多编程应用，但它们全都是IDE或者，终端智能体。而在25年底，我们看到OpenClaw出现了。而OpenClaw，就像，特别有意思，因为，第一，它就像一种新的形态，就像，带来了一类新用户，不只是开发者，而是像生产力用户，或者，就像一个互联网创作者第一次来到AI。而且它还有一个有意思的架构，它就像，会调用你选定的模型来做这些心跳（heartbeats），以检查它是否还活着，除了用模型做真正的任务之外。而这些心跳就像，它们很</p>
+<h2>OpenClaw、Hermes与自动路由器</h2>
+<p><strong>Swyx:</strong> 频率。</p>
+<p><strong>Anjney Midha:</strong> 你不想花很多钱</p>
+<p><strong>Swyx:</strong> 每三十分钟</p>
+<p><strong>Anjney Midha:</strong> 去做一次心跳。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 所以，我们提供的自动路由器（auto router）突然之间对，就像，这么广泛的用户群体真的很有用。于是我们就看到它呈指数级飙升，然后我们看到，就像OpenClaw直接爆了，还有另外几个，应用也拥抱这个新范式，做了类似的事。Hermes出来了，真的拥抱了像自动路由器这样的东西，并且构建了，就像，一个非常好的社区，还拥抱了，就像，技能管理，让人们，就像，在智能体里设置他们的记忆变得真的简单又有效</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 并构建真正好的技能。</p>
+<p><strong>Swyx:</strong> 这是另一件你从没做过的事，记忆、技能、沙箱，所有这些，就像，你本可以做的相邻的东西。</p>
+<p><strong>Anjney Midha:</strong> 本可以，但是——我觉得，</p>
+<p><strong>Swyx:</strong> 很难押注。</p>
+<p><strong>Anjney Midha:</strong> 它们也——有些东西对，就像，当时出现的开发者用例来说真的很重要。就像，开发者想要架构那些东西。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Anjney Midha:</strong> 那些对构建好的用户体验来说有点关键。真的——它就像，——公司一直很难在记忆层找到对所有开发者都适用的抽象。它确实，它——对，有一些，就像Mastra就做得相当不错，比如说。但是，就像，开发者对它们，就像，有很多各不相同的偏好。然后我们——我们的排行榜随时间变化的方式，就像一部关于AI领域随时间如何变化的电影。如果你就，就像，去Wayback Machine看历来的排名排行榜和应用排行榜，它会向你展示，就像，过去几年AI里发生了什么。</p>
+<p><strong>Swyx:</strong> 对我来说，那个成年礼时刻是，Andrej Karpathy说，就像，“我不再读Local Llama了，因为，就像，我直接去OpenClaw——OpenRouter的排行榜。”</p>
+<h2>排行榜作为AI生态系统的地图</h2>
+<p><strong>Swyx:</strong> 这个我记得。对。我觉得他大概，就像，说了，就像，“抱歉，各位，我要给你们送一大堆流量过去。”</p>
+<p><strong>Swyx:</strong> 我还想把它带到Stripe那件事里。</p>
+<h2>Stripe为何收购OpenRouter</h2>
+<p><strong>Swyx:</strong> 那场对话是怎么开始的？</p>
+<p><strong>Anjney Midha:</strong> 不过，我们和 Stripe 有着长期的关系，来自我们与他们合作过的许多不同项目。我们在打击滥用方面投入了大量精力，</p>
+<p><strong>Swyx:</strong> 词元欺诈。</p>
+<p><strong>Anjney Midha:</strong> 还有词元欺诈。</p>
+<p><strong>Swyx:</strong> 你能给一些数字吗——这样大家能理解？</p>
+<p><strong>Anjney Midha:</strong> 我想我，好像，我发过关于这个的帖子。我们上个月拦截的美元交易量是前一个月的10倍。而且词元欺诈的类型正在变得相当多样化。有那种针对典型被盗信用卡的欺诈者，但也有试图违反服务条款转售流量的人。有被盗账户。有些人只是丢了——比如，整个公司都被攻陷了，他们自己甚至都没意识到，而我们帮他们，比如，重新夺回控制权并检测到这一点。有那种在边上转售推理的账户。有那种遇到意外失控智能体的账户，而他们没意识到。不是被黑，而是某样东西爆掉了，公司不想要这样。所以我们的信任与安全团队，比如，在这些各类问题上做了大量工作，帮助拦截和检测。所以我们构建了这些。我们围绕它们有模型。我们——我们和 Stripe 在这方面密切合作了一段时间，我认为这将在生态系统中成为一个巨大的问题。比如，我们已经看到很多公司开始看到这些欺诈者，比如，扩散开来，并寻找 OpenRouter 之外的其他欺诈途径。如果你在做网关，或者卖，比如，通用推理，你就是欺诈的目标。如果你卖的是非常离散的，比如，智能产品，做的是相当具体的事情，而不是，比如，只是转售推理再加一些附加能力，那么你遇到这些欺诈者的可能性就低得多。所以——我认为我们也会看到公司不再只是转售推理再加一些附加能力，而是转向离散任务，并对这些任务收费、对这些增强功能收费，让人们以某种方式自带推理。</p>
+<h2>欺诈、滥用与新兴的词元经济</h2>
+<p><strong>Swyx:</strong> 哇。好吧。而且，是的，显然你会为那个提供动力。</p>
+<p><strong>Anjney Midha:</strong> 对。</p>
+<p><strong>Swyx:</strong> 但你——人们是为结果付费，还是按任务付费？</p>
+<p><strong>Anjney Midha:</strong> 我认为人们会付费。我认为，比如，Datadog 的定价页面很好地展示了，比如，未来的样子。就像公司，比如基础设施公司会，比如，对他们提供的不同类型的事件收费，会有很多，比如，看起来像那样的持续定价模型。当然，会有，比如，如果你往下走，走向消费者应用，更简单的定价、更多订阅、要操心的事件更少，而且那些，比如，不是。专注于只是在推理之上加价。</p>
+<h2>词元经济与大规模安全</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Anjney Midha:</strong> 不仅仅是因为欺诈很难，还因为来自实验室以及来自——比如，优秀推理提供商的压力，要求，比如，做出承诺，然后把你的推理带到别处，这种压力会非常大。</p>
+<p><strong>Swyx:</strong> 有什么评论吗？</p>
+<p><strong>Alex Atallah:</strong> 两点。第一，我认为 Alex 非常雄辩地描述了某件事，而反直觉的是，我四年前就因为 Discord 知道这会在规模上成为现实。教会我这一点的具体经历是，当我们开始扩展 Midjourney 时——我们早期用来赠送或，比如，让人们尝试 Midjourney 以到达他们最初十次生成的主要方式之一。因为，十次生成——生成十张图像大致就是我们发现的神奇时刻激活点。比如，一旦你做了十次，你就会觉得，“这太非凡了。”但那一周，我们为 Midjourney 提供了免费试用。有一天我醒来，因为我是平台负责人，必须监控，我有所有这些仪表盘，而且我有，比如，三个来自 David 的未接来电。结果发现，比如，一夜之间涌入了大量新用户。我们当时想，“这太棒了。”而他说，“不，我们关掉了免费试用。”我说，“为什么？”他说，“我要你看看地理位置 IP 地址。”中国有人开始转售 Midjourney 免费订阅，把免费试用作为一种方式，比如，你——这就是欺诈滥用，对吧？</p>
+<p><strong>Swyx:</strong> 即使对于像 Midjourney 这样专门的模型也是如此。</p>
+<p><strong>Alex Atallah:</strong> 是的。而且那还是一个应用。所以这个想法——我认为我当时最大的整体领悟是，嘿，有一种新型的价值单位正在互联网上流动，叫做词元。</p>
+<p><strong>Alex Atallah:</strong> 在接下来的十年里，整个互联网价值链都将不得不面对这样一个事实：词元越有价值，就会有越多恶意行为者试图拿到这些词元。每当某样东西扩大规模、其中承载的东西越来越有价值，就会有更多坏事发生，有人试图获取那些价值。所以当时，这对我来说非常明显。直到今天，我也不觉得还有免费轮次。我觉得 Midjourney 从那以后就再也没开过免费试用，因为就信任与安全而言，这确实不是一个容易解决的问题。这就是我后来在 Stanford 开始教授 Security at Scale 这门课的原因。那次经历加上我在 Anthropic 学到的东西，让我清楚地认识到，再过几年，大规模安全的需求会非常巨大。你只要算一算，对吧？想想线上支付大约始于八九十年代，随后十年发展到超过一万亿美元，我们需要构建全新的支付方案来应对线上欺诈。我们今天在词元上所处的位置大致就是那里。但我们预计，接下来甚至只要五年，词元经济就会达到大约5万亿美元。再过十年，如果词元流转量没达到10万亿美元，我会很惊讶。因此，如果在 Midjourney 这种规模还不大的地方，我们就已经看到这么激进的滥用和欺诈——记住，Midjourney 当时的年化营收还不到3亿美元〔译注：公开转录此处写作“less than three $100 million”，按字面计数为三个1亿美元。〕。</p>
+<p><strong>Alex Atallah:</strong> 我意识到我们将需要，比如，全新的，比如，系统来应对那些为了进入词元流转而将会发生的欺诈。所以，——我，——我忘了是哪次董事会会议，你提到 Stripe 想要合作，而我觉得这太合理了，因为 Stripe Radar。十年前我在 Kleiner 时，我们投资了 Stripe，而 Patrick 和 John 如此雄辩地传达的整个推介就是，“嘿，不像 Braintree 这样的传统支付工具要做一天的验证，比如 KYC 和 AML 来把欺诈排除在外，我们只是把欺诈成本预先作为客户获取成本承担下来，并且——告诉开发者，比如，只用五行代码，我们就能在五分钟内开始接受你的付款。而随着时间推移，我们会收集关于开发者的所有这些数据。”</p>
+<p><strong>Swyx:</strong> Cloudflare 模式。</p>
+<p><strong>Alex Atallah:</strong> 就是 Cloudflare 模式，对吧？而他们做到了。五年后，他们推出了 Stripe Radar，而 Stripe 今天实际上是一家安全公司。这才是真正的。人们以为它是一家支付公司。不，原因。今天有很多其他支付提供商给你，比如，更便宜的支付传输。但 Stripe 之所以一直，在这里以及欧洲的 Adyen 保持主导地位，是因为他们拥有多年来构建的非凡欺诈检测能力。</p>
+<p><strong>Swyx:</strong> Elon 和 Max Levchin 也是同样的故事</p>
+<p><strong>Alex Atallah:</strong> 还有 Affirm，是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 所以，我认为这个故事一遍又一遍地出现，每当有大量价值在世界各地流动时，你就需要新的保护和安全基础设施来对抗，把坏人挡在外面，让好人，比如，让他们的交易非常快速地发生。所以我认为，——这就是为什么——从我的角度来看，比如，Stripe 和 OpenRouter 的故事是互联网生态系统、前沿 AI 生态系统的安全故事。没有这样的合作，就很难在不被坏人妨碍的情况下捍卫体验质量、速度以及所有好的东西。第二点是，有一个被低估的事情，比如，事实上你需要。比如，——Alex 所描述的所有目前由人类实施的坏事，在未来十年里将会由 AI 智能体来实施。</p>
+<p><strong>Swyx:</strong> 哎哟。</p>
+<p><strong>Alex Atallah:</strong> 对吧？所以想想我们即将看到的、那种递归式规模的恶意行为者。不只是坏人，还有所有那些将要攻击词元流转的坏智能体。而且，如果你是AI实验室的研究员，你很难去推理这个问题，因为你唯一的数据就是你正在训练的智能体是怎么变坏的。但那只是我们将在互联网上看到的全部恶意行为的一小部分。所以你需要的是防御者，是镇上新来的警长，戴着牛仔帽，能够看到整个生态系统中来自AI智能体的所有恶意行为——来自不同的模型实验室、不同的训练部署和不同的开发者——然后把所有这些数据汇总起来说：“我们要为整个词元经济打造一面盾牌。”因为如果没有这面盾牌，我们将在那10万亿美元GMV和全球GDP增长中看到的欺诈量，我认为其中很大一部分会是欺诈、滥用。如果人们就是不信任，我们可能永远到不了那一步。词元，对吧？而且我不认为这套基础设施已经存在。所以你在Stripe那边任务艰巨，但我认为人们还没有意识到智能体——智能体欺诈，也就是由AI智能体实施的恶意行为——即将像海啸一样冲击我们的规模。</p>
+<h2>OpenRouter + Stripe：接下来会发生什么变化</h2>
+<p><strong>Swyx:</strong> 是的。这里面有很多可以深挖的东西。我想把最后的话留给你。我们确实得收尾了。人们可以从OpenRouter和Stripe期待什么？</p>
+<p><strong>Anjney Midha:</strong> 我认为这对我们来说是一个非常好的方式，可以加速市场，更快地向更高价值的客户市场进军。而且，正如Ansh雄辩地描述的那样，这里有一个非常清晰的“合在一起更好”的故事，涉及提升信任与安全，让接受词元变得非常容易，让人们把自己的推理带到你的应用里，并帮助开发者今后直接在推理之上构建。我们在OpenRouter有非常强的品牌，我们会保留这个品牌。所以，OpenRouter作为一个产品、路线图、名称和品牌，都保持不变。所以，你应该期待的是，在未来六个月里，大多数事情会像我们独立时本来会做的那样，只不过一切都会推进得更快。这就是我们的近期目标。更长期来看，希望我很快能对此发表评论，但我不能——</p>
+<h2>收尾：为词元经济构建基础设施</h2>
+<p><strong>Anjney Midha:</strong> 现在。</p>
+<p><strong>Swyx:</strong> 好。希望我们以后某个时候能做一次后续访谈，但感谢你们如此慷慨地抽出时间，也恭喜你们达成合作。这是我在AI领域见过的最美好的兄弟情之一。</p>
+<p><strong>Alex Atallah:</strong> 才刚刚开始。</p>
+<p><strong>Swyx:</strong> 从斯坦福开始</p>
+<p><strong>Alex Atallah:</strong> 才刚刚开始。</p>
+<p><strong>Swyx:</strong> 到这里。</p>
+<p><strong>Alex Atallah:</strong> 是的。还有很多事要做。</p>
+<p><strong>Anjney Midha:</strong> 是的。</p>
+<p><strong>Alex Atallah:</strong> 有很多警长、治安工作要做，关于</p>
+<p><strong>Swyx:</strong> 是的。镇上的牛仔们。</p>
+<p><strong>Alex Atallah:</strong> 关于词元经济。我们需要，我们肯定需要新的警长。</p>
+<p><strong>Swyx:</strong> 是的。太棒了。谢谢。</p>
+<p><strong>Anjney Midha:</strong> 谢谢。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-or-check">
+<p><a href="https://www.latent.space/p/openrouter">公开转录</a>此处写作“Check completions versus completions”；后文另有明确的 chat completions 表述。本文保留此处未明确的 Check，未将其猜改为 Chat。 <a href="#user-content-fnref-or-check" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-latent-openrouter","sender":"Latent.Space","authorAliases":[],"publisher":"Latent.Space","subject":"OpenRouter：从种子轮到 Stripe——对话 Alex Atallah 与 Anjney Midha","snippet":"Alex Atallah 与 Anjney Midha 讨论模型路由、市场结构与 OpenRouter 的发展。","date":"2026-09-25","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["模型路由","平台经济","创业"],"mdTheme":"magazine","sourcePath":"talks/latent-openrouter.md","sourceUrl":"https://www.latent.space/p/openrouter","body":"$3","prompts":[]},"listPosition":{"index":29,"total":571},"relatedArticles":[{"id":"essays-ai-strategy-bets","subject":"你的 AI 战略正在下注。你知道押的是什么吗？","sender":"Every","date":"2026-06-30","matchedPeople":[],"matchedTags":["平台经济","创业"]},{"id":"reports-llm-model-routing","subject":"智能模型路由如何将LLM成本降至十分之一","sender":"ByteByteGo Newsletter","date":"2026-09-09","matchedPeople":[],"matchedTags":["模型路由"]},{"id":"talks-latent-satya-2026","subject":"Satya Nadella：Microsoft Build 上的 No Priors 与 Latent Space 联合访谈","sender":"Latent.Space","date":"2026-06-03","matchedPeople":[],"matchedTags":["平台经济"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

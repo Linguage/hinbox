@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T5a23,<blockquote>
+<p>各家实验室正在丢弃最有价值的数据。</p>
+</blockquote>
+<p>各家实验室目前在研究上押下的重注是：如果我们训练AI，让它在数千种不同的强化学习（reinforcement learning，RL）环境中完成数百万项可验证的任务，那么我们基本上就造出了通用人工智能（artificial general intelligence，AGI）。因为这样的训练会产生通用的问题解决能力，例如，面对错误、失误和模糊不清的情况，仍能连续数周推进一项开放式任务。</p>
+<p>看好这幅图景的人会说，我们认为当前学习范式存在的根本缺陷，例如数据效率低下、缺乏持续学习（continual learning）能力，都可以单靠扩大训练规模碾过去。正如自然语言处理领域那些据说是“根本性”的研究难题，最终都在投入大语言模型（large language models，LLMs）的算力洪流面前土崩瓦解。</p>
+<p>没错，在训练期间，这些模型的<a href="https://www.dwarkesh.com/p/the-sample-efficiency-black-hole">样本效率只有人类的百万分之一</a>。但训练是一次性成本，可以分摊到数十亿次用户会话中。重要的是，模型在一次会话中有多聪明、多通用，样本效率有多高。随着RL训练的增加，这些方面显然一直在改善。AI能够在越来越长的时间跨度内，解决越来越有挑战性的问题——任何一直用这些模型编程的人都知道这一点。</p>
+<p>同样，如果把持续学习定义为依据部署期间的经验更新模型权重，那么它或许根本不必要。还是那个道理：如果上下文学习（in-context learning）在越来越长的时间范围内变得足够好，就不必把学到的东西蒸馏回权重，也能实现工作中的学习。人们常说，员工入职六个月甚至更久之后，才开始产生净产出，所以，要胜任工作，显然需要在线学习（online learning）。但如果你能直接把这六个月的经历放进上下文窗口呢？围绕Transformer已经出现了大量架构创新，大幅增加了可存储上下文的长度。再进步几年，我们为什么不能拥有任意大的上下文窗口？</p>
+<h2>可反复训练与可验证同样重要</h2>
+<p>要讨论这条路是否走得通，我想先绕一下，问一个关于当下AI进步的问题。它让我既困惑又好奇：为什么计算机操作能力（computer use）的进步如此缓慢？</p>
+<p>计算机操作显然是可以验证的：想要的Etsy商品是否下单成功，举办活动所需的一切是否都已预订，税表是否已经提交。所以，计算机操作的进步远慢于编程、数学及其他可验证领域，不是很奇怪吗？我确信原因有很多，包括模型在预训练中接触到的高质量多模态数据远少于其他数据，以及视频会更快地耗尽上下文窗口。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p>但我认为，有一个原因被相当严重地低估了。它也揭示了AI进步这条河流只能缓慢侵蚀的峡谷壁：一个领域仅仅可验证，还不够。它还必须非常适合反复训练（grindable）——也就是说，你能够在一个确定性、可重放的模拟器上，并行运行大量展开轨迹（rollouts）。如果你想提高模型的编程能力，可以创建一个环境，里面有一个缺少某项功能的软件仓库，并让AI来实现该功能；然后，让一千个并行的智能体（agents）各自拿着完全相同的容器副本，去尝试解决这个问题。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+<p>但这对计算机操作行不通——至少，没那么容易。你不能让一千个智能体去Amazon.com上尝试同一个结账流程。因为Andy Jassy会发现、识别出你的机器人，然后把你给封了。</p>
+<p>你可以通过制作Slack、Gmail以及所有其他常见应用和网站的克隆版，来解决这个问题。但至少在目前，这是一种非常耗费人力、难以规模化的环境构建方式。当然，一旦AI的编程能力足够强，能够自己以极高保真度构建这些克隆版，我相信计算机操作能力就会取得很大的进展。而且，这种做法还一举两得，因为让AI从零开始<a href="https://www.mechanize.work/blog/the-upcoming-gpt-3-moment-for-rl/">重建</a>完整而复杂的应用，也是一项很好的编程RL目标。</p>
+<p>但是，即便计算机操作本身可能很快被解决，它目前的迟缓进展仍告诉我们：除非能为某个领域构建一种高度可重放的训练目标，否则模型就很难取得太多进步。原因当然是，模型在训练期间的样本效率低得惊人。这就是我在<a href="https://www.dwarkesh.com/p/the-sample-efficiency-black-hole">上一段独白</a>中表达的观点。</p>
+<p>在计算机操作领域，我们或许能够通过构建这些可反复刷练的确定性模拟器，来弥补样本效率的不足。但对于AGI需要学习的许多其他技能，我们根本做不到这一点。</p>
+<p>我们要如何训练一个AI，让它建立一家企业？如何打造一个非常擅长赢得诉讼的AI？或者，让它在市场上做日内交易并获得利润？或者，帮助一位候选人赢得选举？这些展开过程需要与世界互动，不能简单地在数据中心内部重现。而要获得外层循环的验证信号，可能需要在现实世界中行动几个月甚至几年；你不能同时对模型的行动做出数千种扰动，重新观察结果，从而分辨模型究竟做了什么才真正奏效。</p>
+<p>如何处理这种<a href="https://arxiv.org/abs/2104.11203">无法重置（reset-free）</a>的非平稳环境，是RL领域一个已知的开放问题。我没有提出什么新发现。但我确实想强调：世界上大多数领域的数据都有其独特性，而且十分稀疏，因此，要达到熟练程度，就需要样本效率。</p>
+<p>如果AI要发展出人类拥有的所有技能，甚至发展出没有任何人类掌握的技能，就必须能够从稀少的现实互动中学习；这些互动以非结构化、不可验证、模糊不清的方式揭示信息。因为在许多领域，相关训练信息根本不存在任何其他获取方式。</p>
+<p>要让AI在政治方面达到Lyndon Johnson的水平，或者在建立太空发射企业方面达到Elon Musk的水平，需要怎样的RL环境？</p>
+<h2>仅靠RLVR就能泛化吗？</h2>
+<p>各家实验室押注的是，可验证奖励强化学习（reinforcement learning with verifiable rewards，RLVR）将泛化到所有这些其他领域。如果你在足够多容器化、可复现的环境中训练，就会得到一个非常通用的智能体：它能制订并执行计划，能迅速从新信息中学习，甚至能掌握新技能，而这一切都发生在一次会话之内。</p>
+<p>如果你把这个经历了无休止RLVR训练的AI放进1948年的Texas政坛，它就能在如何赢得参议院席位这件事上，给出比LBJ更好的建议；而如果你在2002年给它一亿美元，让它放手去干，它就能为你建出SpaceX。</p>
+<p>RLVR是否真能泛化得这么好，是一个尚无定论的经验问题：如果各家实验室把RL环境的支出从数十亿美元增加到一万亿美元，我们是否就能得到一种在上下文窗口内运作、完全通用、类似人类的智能？</p>
+<p>在我们一起录制的播客中，Dario说了一段很能说明问题的话。我认为，这暗示RLVR的泛化能力并非强大到没有上限。他在解释模型性能为什么往往会在长上下文中下降时，说：</p>
+<blockquote>
+<p>有训练时的上下文长度，也有提供服务时的上下文长度。如果你用较短的上下文长度训练，然后尝试用较长的上下文长度提供服务，或许就会出现这些性能下降。</p>
+</blockquote>
+<p>也许我解读过头了，但他似乎是在说，短时间范围的RL训练，未必能泛化为长时间范围的RL表现。如果我们连从短时间范围泛化到长时间范围都做不到，那么智能体又怎么能从大量白领任务训练，泛化到诸如被放进现实世界、从零建立一家企业，并且做得像Sam Walton一样好呢？</p>
+<p>而且，即使AI在积累了足够多的上下文经验之后，可以成为Albert Einstein或Henry Ford，如果你不能把学到的东西写回权重，那么这一切也都是暂时的，都会白白浪费。一家实验室大约30%—50%的算力用在推理上，而这些算力目前在帮助模型改进方面，并没有真正发挥生产性的作用。多浪费啊！实际情况甚至比这听起来还糟。因为只有在部署期间，模型能够学习到的最有价值的信息才会浮现：使用我的组织内部究竟在发生什么？他们用我做什么？我在现实世界中通常会犯哪些错误？</p>
+<p>我们有一个天才研究生，却从来不让他去实习。我们不断通过RL环境训练的形式，给他越来越多课堂案例。他本可以因为被广泛部署到经济活动之中，而积累大量经验：实践人们交给他的数百万项不同任务，接触如此多隐性的、特定组织与领域的知识。我们却不利用这些经验训练AI，实在古怪而浪费。</p>
+<h2>把学习成果写回权重</h2>
+<p>但这种持续学习需要回到权重。AI不能随着从越来越多用户那里学习，就不断累积一个越变越大的键值缓存（KV cache）。这根本无法规模化，也不是人类的学习方式。我们并没有把参数与激活值分成两套东西。在我们一生中学习越来越多东西时，也不会有一团这样的快速权重表征，从头骨里越伸越远。我们学习时，显然会发生某种压缩，而这种压缩实际上有助于泛化与彻悟（grokking）。的确，有<a href="https://www.amazon.com/Mind-Mnemonist-Little-Memory-Foreword/dp/0674576225">某些人</a>拥有那种自闭症学者式记忆，能在多年后记起随机的数字表或无意义音节，基本上类似于模型在上下文中保存信息的保真程度。而仅仅是如此巨大的信息量，就会损害这些人理解抽象和隐喻的能力。人类的持续学习，与其说是随时能够复述所有观察，不如说是把正确的直觉和全局知识一点点刻进权重。</p>
+<p>但是，一旦进入权重层面，就不得不放弃上下文学习的样本效率。因为梯度更新的样本效率极低，所有成功投入使用的在线学习模型，都不得不在数百万用户那里学习同一件事。例如，Cursor Tab模型每天对超过4亿个请求预测完全相同的目标，从而进行在线学习；这个目标就是哪些编辑被接受了。至少到目前为止，我们还没有看到模型为不同用户在线学习不同种类的东西。因为，虽然一次会话产生的数据对人类来说可能绰绰有余，却不足以训练出一个更有能力的AI。</p>
+<p>现有的在线学习能够适用于种类非常有限的使用场景。但持续学习的全部意义在于，世界非常复杂，每份工作、每家公司、每个问题都不一样；你需要自己的智能学会与某次具体部署有关的特定信息，而这些信息根本无法塞进一次共用的训练过程。例如，你的组织中各种事情如何运转、彼此如何衔接，如何与周围的基础设施和其他人配合，推进一项较大的项目，有哪些常见的失败模式，等等。</p>
+<p>从这个意义上说，样本效率和持续学习实际上是紧密相连的问题。模型“在工作中”能获得的数据相对较少。要从这些数据中学习，就需要样本效率。模型可以在上下文中做到这一点，但由注意力机制即时构建、使这种样本效率成为可能的“快速权重”（fast weights）<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup>，在内存占用方面很难扩展。所以，我们需要架构创新，让某种中间表征成为可能。我此前谈到过，已经有许多行得通的不同思路，例如稀疏注意力和KV缓存压缩。在我看来，架构似乎并不是持续学习的根本瓶颈。</p>
+<p>瓶颈或许在损失函数（loss function）。怎样根据一次特定会话中学到的信息，更新权重，也就是改进模型本身？即使在这里，粗看起来，也有许多似乎应该能奏效的思路。最近，很多人在讨论<a href="https://x.com/dwarkesh_sp/status/2062353335529935114">同策略自蒸馏（on-policy self-distillation，OPSD）</a>。如果你想进一步了解它如何运作，可以看看Sasha Rush几周前为我做的这段<a href="https://youtu.be/wxOZWD6wYVY">即兴黑板讲解</a>。简要来说，它的思路是：在尝试解决某个现实问题时，我们鼓励基础模型作出与另一个模型相同的预测；后者已经积累了一次长会话结束后的全部上下文。整个过程的目的，就是把模型在一次会话中学到的东西，蒸馏回权重本身。</p>
+<p>这比RLVR更好，有两个原因。第一，OPSD不需要外层循环的可验证奖励。我们只需要一个能在上下文窗口内学到正确东西的模型。只要有这样的模型，就可以训练基础模型，让它匹配那位在会话中积累了全部经验、久经历练的教师模型。第二，OPSD提供的监督信号比朴素RL密集得多：你不必把一个单独的奖励分配到整个轨迹中，而可以利用教师与学生在每个词元上的概率差异进行训练。<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup></p>
+<p>对于持续学习，OPSD也优于监督微调（supervised fine-tuning，SFT）。针对这个用途，你能想到的最朴素SFT版本，就是训练基础模型去预测会话中观察到的所有词元。但这作为学习目标毫无道理：你把工作做得更好，并不是靠完美复述每天发生的一切。你靠的是巩固那些与把工作做得更好有关的少量洞见与知识。</p>
+<p>RL训练没有这种失败模式，而且它很擅长把梯度更新集中到与取得正确结果有关的内容上——这也是RL更新<a href="https://fireworks.ai/blog/frontier-rl-is-cheaper-than-you-think">极其稀疏</a>的原因。对于持续学习，这是一个非常重要的性质，因为在工作中学习时，你不希望把基础模型知道的其他一切覆盖掉、遗忘掉。</p>
+<p>几个月前，我写过<a href="https://www.dwarkesh.com/p/bits-per-sample">一篇文章</a>，认为RL从每个样本中学到的信息，比监督学习少得多。但这可能是好事，而非坏事：你只在实现结果绝对必需的程度上改变模型，不再多改一点。OPSD保留了RL的这个性质：它不像监督学习那样把你猛地拉向教师分布，而只提取在现实任务中取得相同结果所必需的知识。</p>
+<h2>做梦</h2>
+<p>因此，OPSD是解决样本效率问题的一条路径：你可以拿这些稀缺的现实经验，把所有信号挤进一次很小、目标明确的更新。但还有另一个推测性更强得多的想法。我们姑且把它叫作“做梦”（dreaming）。<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup>如果AI能够构建一个足够好的现实模拟，在其中练习新技能，或者尝试其他策略、强化有效做法，那么在相同的实际时间内，它就能够经历多出几个数量级的模拟样本。</p>
+<p>DeepMind发布AlphaZero几年之后，一组研究人员训练了一个叫作EfficientZero的模型。如果让这个模型与一个人类各自花总共两小时，在某款他们此前都没见过的Atari游戏模拟器上玩游戏，那么这个模型很可能会击败那位人类新手。这是否意味着，这个模型的样本效率高于人类？这取决于你怎样衡量样本效率。因为，每在真实游戏中走一步，EfficientZero就会在脑海中玩几十局模拟游戏。同样，未来的大语言模型可能一边消耗少得多的现实数据，一边在自己构建的环境中无休止地练习。当然，最大的区别是，模拟整个世界，要比模拟围棋游戏困难得多。这也是我说这个想法更具推测性的原因。</p>
+<p>如果这能奏效，它就会成为第四条扩展轴，与预训练、RL和推理时计算并列。你可以把它叫作测试时训练（test-time training），或者做梦。模型花费算力编写RL环境，在其中练习真正会为某位特定用户用于实际工作的技能。你不再在Codex、Cursor或Claude里执行<code>/compact</code>——那只会点燃一点点算力来写摘要，给你一种类似持续学习的仿制品。你会执行<code>/dream</code>，烧掉海量算力，构建模型所观察到的现实世界的电子游戏版本，并在其中训练。</p>
+<h2>2027年会是什么样子</h2>
+<p>那么，到2027年底，持续学习可能是什么样子？我们又该如何走到那里？所有这些RLVR训练，正在造出一种智能体：面对一个陌生问题，它能找准方向，尝试不同策略，遇到障碍时继续迭代。这就是RLVR带来的关键成果：一个至少足够胜任、可以开始积累一些现实经验的AI。一旦有了这样的AI，你就把它派到现实世界中，去做真正的工作，甚至参与训练分布之外的项目。</p>
+<p>届时，有效上下文长度可能已经扩展到足以让这个AI与你共同工作整整一周的实际时间。一周结束时，你给它一个赞或踩。如果你给了一个赞，基础模型就会蒸馏AI在会话中学到的一切；为此，它可能使用OPSD、做梦、某种我们还不知道的技术，或以上所有方法的组合。于是，AI可以在与此前接受过明确RLVR训练的领域相邻的领域中进步。下一轮，它又在与此前在线学到的内容相邻的领域中进步。AI的技能、知识与能力范围，就会远远超出模型部署之前接受训练的那些可验证领域。正如预训练造出了一种足够聪明、可以通过进一步RLVR训练成为合格智能体的基础智能，RLVR也造出了一种足够胜任、能够真正部署到世界中的智能体，让它得以利用未来的持续学习范式。</p>
+<p>届时，AI变得更好的主要方式，将不再是模型向公众发布之前接受的训练，而是它们被广泛部署到世界各处、参与许多不同任务时不断积累的经验。每次你与AI互动时，它都会变得更聪明。原因不仅是它在从你此前所有会话中学习，也是它在从与世界上其他所有用户的互动中学习。这既令人害怕，也令人兴奋，而且与AI现在的改进方式非常不同。</p>
+<h2>译者说明</h2>
+<p>本文译自2026年6月26日的<a href="https://www.dwarkesh.com/p/the-next-paradigm">原作</a>，包含主文、副标题和5条作者脚注。正文中的未来情景、对RLVR和OPSD的比较，以及关于人类记忆的类比，均为作者当时的论述；2027年部分是带有条件与推测的展望。文中算力占比、Cursor请求量等数据也保留原文时点及表述，未改写为当前统计。</p>
+<p>原文有关活动预订的举例出现<code>everything I need corporate for my event booked</code>这一不完整措辞；译文按上下文译为举办活动所需事项的预订，未添加具体预订项目。脚注2的Go指编程语言，与正文EfficientZero段落末尾作为模拟对象的围棋不同。原文谈到记忆异常者时使用了<code>autistic savant type recall</code>的类比，译文保留其归属，不将其作为医学判断。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>仅仅一小时视频，就会<a href="https://ai.google.dev/gemini-api/docs/video-understanding">消耗</a>约100万个文本词元。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>我听说AI智能体尤其擅长Go，因为它有出色的标准化包管理器，而Python和TypeScript则<a href="https://news.ycombinator.com/item?id=47222270">有着</a>“由框架、类型处理方式与工具库构成的庞大组合空间”。这种空间不那么适合通过梯度下降进行干净、高吞吐量的并行搜索。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>我们以Llama 3 70B为参照。KV缓存，也就是通过学习上下文构建的表征，每增加一个词元就增长320 KB。而在训练中，模型对每个词元只存储0.075比特的信息：这个模型有700亿个参数，每个参数16比特，并用15万亿个词元进行训练。因此，上下文学习与预训练之间，每个词元存储的信息量相差3500万倍。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>你可能预想到，OPSD有一个明显的问题：在学生犯错之前，以及犯错的那个时刻，你都能获得密集监督；但后续轨迹是从这个错误延续下来的，它继续走在一条已经错误、教师根本不会走的路上。因此，过了那个点，在剩余的展开过程中，你就不能再从教师那里获得有用反馈。这个问题似乎可以通过一种叫作<a href="https://arxiv.org/pdf/2606.08432">轨迹修正蒸馏（Trajectory-Refined Distillation）</a>的技术解决：教师从出错点开始重写轨迹，给出完整、正确的后续过程。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>顺便说一下，我说的不是泄露的Claude Code源代码中即将推出的dreaming功能。我猜那个功能更可能是让模型为自己写很多Markdown文件。我指的是真正更新权重本身。我就是不认为，你可以靠给自己传纸条来积累新技能。我在此前一篇博客文章中用过这样的比喻：想象一下，如果学生学习萨克斯的方式，是先拿这个从没尝试过的新乐器吹一吹，记下哪些地方出了问题，然后把它交给下一个同样第一次吹奏的学生，会是什么样子。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-learning-on-the-job","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"publisher":"Dwarkesh Patel","subject":"下一次重大突破，将是AI在工作中学习","snippet":"Dwarkesh Patel讨论可验证强化学习的泛化边界、上下文学习与权重学习的矛盾，以及通过同策略自蒸馏和模拟练习实现持续学习的可能路径。","date":"2026-06-26","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["持续学习","强化学习","样本效率"],"mdTheme":"magazine","sourcePath":"essays/learning-on-the-job.md","sourceUrl":"https://www.dwarkesh.com/p/the-next-paradigm","body":"$3","prompts":[]},"listPosition":{"index":151,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"essays-pretraining-versus-rl","subject":"思考预训练与强化学习各自如何学习","sender":"Dwarkesh Patel","date":"2025-11-17","matchedPeople":["Dwarkesh Patel"],"matchedTags":["强化学习","样本效率"]},{"id":"essays-continual-learning-predictions","subject":"持续学习时代的8项预测","sender":"Dwarkesh Patel","date":"2026-08-07","matchedPeople":["Dwarkesh Patel"],"matchedTags":["持续学习"]},{"id":"essays-sample-efficiency-black-hole","subject":"样本效率的黑洞","sender":"Dwarkesh Patel","date":"2026-06-19","matchedPeople":["Dwarkesh Patel"],"matchedTags":["样本效率"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2d99,<p>评估抽象能力，不能只看简单的准确率</p>
+<p>这里，我将介绍我们研究小组的一篇新论文：</p>
+<p><a href="https://arxiv.org/abs/2510.02125">《AI 推理模型会进行类似人类的抽象推理吗？》</a></p>
+<p><a href="https://aiguide.substack.com/p/why-the-abstraction-and-reasoning">抽象与推理语料库</a>（Abstraction and Reasoning Corpus，ARC；现在称为 <a href="https://aiguide.substack.com/p/on-the-arc-agi-1-million-reasoning">ARC-AGI-1</a>）已成为一种流行的 AI 模型抽象推理能力测试。ARC 旨在测试抽象和类比，其基础是“核心知识”（core knowledge）先验，尤其是对象性（objectness），以及“内部与外部”“顶部与底部”等基本空间和几何概念、“相同与不同”等基本语义概念，和“最大与最小”等基本数量或大小概念。</p>
+<p>例如，下面是 ARC-AGI-1 公开评测语料库中的一个任务。任务给出三个演示示例，展示一条将输入网格映射为输出网格的变换规则。任务要求对测试输入网格应用类似的变换，生成测试输出网格。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!hndu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fe7c511-e186-4a62-9a23-4139abee7e0c_1490x1244.png" alt="ARC-AGI-1 任务：演示示例与测试输入"></p>
+<p>对于这个任务，规则大致是“提取最大空心矩形内部的子网格”。这里预期涉及的抽象包括“最大”“空心”“矩形”“内部”和“提取子网格”。</p>
+<p>OpenAI 的 o3 等 AI 推理模型在 ARC-AGI-1 上的<a href="https://aiguide.substack.com/p/did-openai-just-solve-abstract-reasoning">准确率已经超过人类平均水平</a>。然而，仅看准确率无法了解全貌。它们是否出于“正确”的理由得到了正确答案？也就是说，它们是否把握了创建任务的人类所预期的抽象？或者，它们是否在使用抽象程度更低、泛化能力更弱、非预期的模式（“捷径”，shortcuts）来解决任务？大型神经网络经常会发现这种非预期的捷径，从而在基准测试上取得好成绩，但随后却无法在其训练“分布”之外很好地泛化。</p>
+<p>在这篇论文中，我们通过评估多个推理模型来研究这个问题。我们使用了 <a href="https://aiguide.substack.com/p/on-evaluating-understanding-and-generalization">ConceptARC</a> 中的 480 个任务，模型包括 OpenAI 的 o3、Anthropic 的 Claude Sonnet 4 和 Google 的 Gemini 2.5 Pro。ConceptARC 是 ARC 领域的一个基准，其任务分别针对各种核心概念。下面是两个 ConceptARC 任务：第一个是“水平与垂直”概念的例子，第二个是“补全形状”概念的例子。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!3EHu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a40d4ed-7341-4c13-93a9-81de02e9a445_1384x770.png" alt="ConceptARC 的“水平与垂直”任务"></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!9Bps!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07ce8553-2437-4146-823e-58ba44605087_1364x784.png" alt="ConceptARC 的“补全形状”任务"></p>
+<p>对于推理模型，我们既尝试了文本输入，也尝试了视觉输入。文本输入类似于 ARC Prize 竞赛所用的输入：每个网格作为一个整数矩阵输入，用 0–9 的整数表示颜色。视觉输入则类似于提供给人类的输入。</p>
+<p>我们在提示中不仅要求模型生成输出网格，还要求它们用自然语言给出一条变换规则，描述演示示例中的变换，并能应用于网格。我们人工将每条生成的规则评为以下三类：符合预期的正确规则（correct as intended，规则抓住了预期的抽象）、正确但非预期的规则（correct but unintended，规则正确描述了演示示例，却没有抓住预期的抽象），以及错误规则（incorrect，规则对演示示例不成立）。我们将这些规则与人类生成的规则进行了比较。</p>
+<p>例如，下面是人类以及 Gemini 2.5、o3 和 Claude Sonnet 4 针对上面的“水平与垂直”任务生成的规则示例。所有模型都使用了文本输入和中等推理投入（medium reasoning effort）。请注意，我们研究中的人类看到的是表示网格的图像，就像上面的图片一样；模型得到的则是表示每个网格的数字数组。在下面 AI 模型生成的规则中，整数“8”表示浅蓝色。</p>
+<p><strong>人类：</strong> 如果这些线是水平的，就在最右侧画一条完整的浅蓝色竖线。如果这些线是垂直的，就在最顶部画一条完整的浅蓝色横线。<strong>［我们将其评为“符合预期的正确规则”。］</strong></p>
+<p><strong>Gemini：</strong> 找出非零数字构成的连续块。如果块内每一行的数字都相同，就用 8 填满网格最右侧的一列。如果每一列的数字都相同，就用 8 填满网格最顶部的一行。<strong>［我们将其评为“符合预期的正确规则”，尽管人类不会这样描述水平线与垂直线。］</strong></p>
+<p><strong>o3：</strong> 判断图中的彩色条纹是水平延伸还是垂直延伸。如果是水平的，就用颜色 8 涂满距离条纹最远的整条空白边缘列；如果是垂直的，就用颜色 8 涂满距离条纹最远的整条空白边缘行（如果距离相同，就选择最上方或最左侧的边缘）。其他所有单元格保持不变。<strong>［这条规则接近正确，但它关注的是“距离条纹最远”，这并非任务预期，因此被评为“正确但非预期的规则”。］</strong><sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p><strong>Claude：</strong> 如果输入中包含值 8，就用 8 填满第一行；如果输入中不包含 8，就用 8 填满最后一列。<strong>［这里，Claude 关注的是一个浅层特征：有没有浅蓝色（“8”）单元格？模型的规则没有提到对象，也没有提到水平线与垂直线的概念。巧合的是，这条规则在演示示例和给定的测试上都是正确的，但它出于错误的理由得到了正确答案，即“正确但非预期的规则”。］</strong></p>
+<p>下面对上面的“补全形状”任务中的规则做类似分析。注意，“5”表示灰色。</p>
+<p><strong>人类：</strong> 右上方的对象是“样本”对象。不要在你的绘图中包含这个对象。使用左侧两个对象各自原有的颜色，将它们填补完整，使它们看起来与样本对象完全相同。<strong>［这是一条“符合预期的正确规则”。］</strong></p>
+<p><strong>Gemini：</strong> 对于 5 以外的每种颜色 C，找出该颜色所有单元格的包围盒（bounding box），并用 C 填满整个包围盒。所有颜色为 5 的单元格都替换成 0。如果不同颜色的包围盒重叠，该单元格取数值最高的颜色。<strong>［这条规则对第二个演示示例不成立，因此被评为“错误规则”。］</strong></p>
+<p><strong>o3：</strong> 擦除出现次数最多的颜色。对于其他每种颜色，找到行索引和列索引最小的像素；从该单元格起画一个固定的 3×3 正方形（行 r..r+2，列 c..c+2）。如果该颜色原来有三个或更多像素，就用该颜色填满整个正方形；如果恰好有两个像素，就用六单元格的箭头图案（1 0 1 / 0 1 0 / 1 1 1）填充正方形。<strong>［这里，o3 为两个演示示例给出了详细指令，但这种描述方式无法泛化到这些描述以外的情况。这是一个很好的“正确但非预期的规则”示例。］</strong></p>
+<p><strong>Claude：</strong> 移除所有的 5。对于每种剩余颜色：如果恰好有 2 个单元格，就从包围盒左上角开始应用一个 3x3 的 T 形模板（图案：X.X/.X./XXX）。如果有 3 个或更多单元格，就用该颜色填满整个包围矩形。<strong>［与 o3 的规则类似，这条规则精确而详细地描述了两个演示示例，但没有抓住预期的抽象：按照一个示例形状补全另一个形状。］</strong></p>
+<p>我们发现，虽然在使用文本输入时，o3、Claude 和 Gemini 在这些任务上的准确率接近或超过人类，<strong>但它们比人类更容易使用非预期的“捷径”来解决任务，差异相当明显</strong>。有意思的是，与人类不同，这些模型倾向于用像素、颜色、列和行来描述网格，而不是用对象来描述。因此，至少在文本输入的情境下，它们似乎没有很强的、类似人类的“对象性”先验。</p>
+<p>使用视觉输入时，这些模型在生成准确网格方面的表现都相当差。然而，它们生成“符合预期的正确规则”的次数，比生成正确网格的次数更多，这表明它们在某些情况下能够正确处理视觉输入。</p>
+<p>我们论文最主要的结论是：像 ARC Prize 那样仅使用准确率的评测，可能会<strong>高估</strong>这些模型在文本输入情境下的抽象推理能力。另一方面，仅使用准确率，可能会<strong>低估</strong>它们在视觉输入情境下的抽象推理能力。在这类评测中，必须超越准确率！</p>
+<p>有人可能会问：AI 模型是使用类似人类的抽象来解决这些任务，还是使用“捷径”，我们为什么要关心这个区别？答案是：把握类似人类的抽象并运用它们进行推理，正是 ConceptARC 基准设计要测试的能力；我认为 ARC 基准也一样。运用这样的抽象，使我们人类能够理解世界、预测自己的决策可能带来的结果，并高效应对新事物。我们希望 AI 系统能以更值得信赖的方式做到这些。</p>
+<p>此外，如果我们人类要与 AI 系统合作，就必须开发出更善于把握我们的抽象的 AI 模型，使它们能够理解我们的意图，并以我们能够理解的方式解释其推理。</p>
+<p>想了解更多细节？请<a href="https://arxiv.org/abs/2510.02125">在这里阅读论文</a>。</p>
+<h2>译者说明</h2>
+<ul>
+<li>三张任务网格图依次为ARC-AGI-1示例、“水平与垂直”ConceptARC示例和“补全形状”ConceptARC示例；辅助说明由译者依据<a href="https://aiguide.substack.com/p/do-ai-reasoning-models-abstract-and">原文</a>正文添加。</li>
+<li>第一条人类规则后的作者评级在公开原文中缺少一个闭合引号；译文补齐了引号。模型规则中的“箭头图案”和“T形模板”等命名均按原文保留。</li>
+</ul>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>值得留意的是，提供给这些模型的文本提示并没有提到这些整数代表颜色，但 o3 仍然知道这一点，而且在某些情况下还提到这些是“ARC”任务。另外，有个奇怪（尽管无关紧要）的事实让我印象深刻：在生成的规则中，o3 用英式拼法拼写“color”，但在其推理轨迹（reasoning traces）中却使用美式拼法。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-reasoning-models-human-abstraction","sender":"Melanie Mitchell","author":"Melanie Mitchell","authorAliases":["Melanie Mitchell"],"publisher":"Melanie Mitchell","subject":"AI 推理模型会像人类一样抽象和推理吗？","snippet":"通过 480 个 ConceptARC 任务比较人类与推理模型，区分输出网格的准确率和是否把握了任务预期的抽象。","date":"2025-10-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["抽象推理","模型评估","认知科学"],"mdTheme":"magazine","sourcePath":"essays/reasoning-models-human-abstraction.md","sourceUrl":"https://aiguide.substack.com/p/do-ai-reasoning-models-abstract-and","body":"$3","prompts":[]},"listPosition":{"index":426,"total":571},"matchedPerson":{"id":"melanie-mitchell","name":"Melanie Mitchell","email":"","occupation":"人工智能研究者、作家","website":"https://melaniemitchell.me/","bio":"研究人工智能、认知科学与复杂系统，关注人类和机器的抽象、类比与推理，并撰写科普著作。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"抽象推理","name":"抽象推理","count":1}]},"relatedArticles":[{"id":"essays-magical-thinking-ai","subject":"关于 AI 的魔法思维","sender":"Melanie Mitchell","date":"2025-09-15","matchedPeople":["Melanie Mitchell"],"matchedTags":[]},{"id":"talks-the-uncomfortable-truth-about-ai-reasoning-world-science-festival","subject":"AI推理的令人不安的真相","sender":"World Science Festival","date":"2026-05-16","matchedPeople":[],"matchedTags":["抽象推理","认知科学"]},{"id":"talks-dwarkesh-john-beren-charlie","subject":"AI 研究者讨论：我们距离递归自我改进有多近？","sender":"Dwarkesh Patel","date":"2026-09-11","matchedPeople":[],"matchedTags":["模型评估"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

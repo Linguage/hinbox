@@ -1,0 +1,214 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T42b4,<p><em>React、Shadcn、Tailwind、Next.js、Node、MCP、Git 等概念的新手指南</em></p>
+<p>如果你不是开发者，使用 Cursor 这样的 AI 工具可能会让人感到不知所措。</p>
+<p>难点不在界面，而在于它接入了开发环境。那是一个全新的世界，有很多东西要学。</p>
+<p>AI 让事情变得容易了，但了解软件开发的基础仍然有帮助。例如，刚开始时，很多“bug”其实只是环境配置问题：必须先把 A 安装好，B 才能正常工作。但如果我们不了解简单的概念，只是一味依赖 AI，就很容易把事情搞复杂，或一直兜圈子。</p>
+<p>所以，我很想写一写这个话题：AI 语境下的 Web 开发入门。</p>
+<p>我不是开发者。但我希望这篇文章能用简单的语言解释一些术语，让你更有信心地用 AI 构建东西。</p>
+<p>今天，我会介绍 React、Shadcn、Tailwind CSS、Next.js、Node、npm、MCP、Git 等常见术语。下一次，我会写环境配置和安装。</p>
+<p>开始吧。</p>
+<h2>React</h2>
+<p>React 是一个用于构建用户界面（UI）的前端 JavaScript 库，以组件（component）为基础。</p>
+<p>但为什么构建 UI 需要这样的库呢？</p>
+<p>例如，一个简单的网站可以只有一个文件，里面包含 HTML、CSS 和 JavaScript，就像这样：</p>
+<pre><code class="language-html">&#x3C;!DOCTYPE html>
+&#x3C;html>
+&#x3C;head>
+&#x3C;style>
+button {
+background: lightgreen;
+padding: 8px;
+border: none;
+cursor: pointer;
+}
+&#x3C;/style>
+&#x3C;/head>
+&#x3C;body>
+&#x3C;button onclick="alert('hi')">Click me&#x3C;/button>
+&#x3C;/body>
+&#x3C;/html>
+</code></pre>
+<p>对于个人使用的简单页面，这样完全没问题。</p>
+<p>但如果你想做一个更大、更复杂的项目，这种写法很快就可能变得混乱。你可能会反复写同样的代码，复制粘贴按钮，再手动更新屏幕内容。</p>
+<p>十多年前，Facebook 的一位软件工程师创建了 React。随后，很多大公司开始使用它，React 也变得非常流行，拥有大量资源、文档和用户。</p>
+<p>React 能让你更好地构建组件，就像搭乐高积木一样。这些积木可以重复使用，数据变化时，它们也会自动更新。</p>
+<p>下面是一个 React 项目的文件结构示例，附有我的注释：</p>
+<pre><code class="language-text">my-app/ # project root
+├── public/ # static files
+│ └── index.html # nothing much going on here...
+├── src/ # your React source code
+│ ├── index.js # entry point (the bridge between HTML &#x26; React)
+│ ├── App.js # main component/file that describes your UI
+│ ├── index.css # global CSS
+│ └── components/ # folder for reusable UI pieces
+│ └── Button.js
+│ └── xxxxx.js
+│ └── xxxxx.js
+├── package.json # the "brain" (dependencies, scripts, etc)
+</code></pre>
+<p>我也在自己的 AI 课程<sup><a href="#user-content-fn-missing-1" id="user-content-fnref-missing-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>里提到过：哪怕只是知道 React 项目的这套基础文件结构，也有助于更好地用 AI 构建东西。</p>
+<p>因为至少你知道，如果想调整整体 UI，就应该查看 <code>App.js</code>；如果想调整某个具体组件，就应该查看 <code>components</code> 文件夹。</p>
+<p>然后，你可以使用 Cursor 等工具中的 <code>@</code> 功能，缩小修改范围。</p>
+<h2>Shadcn UI 与 Tailwind CSS</h2>
+<h3>Shadcn UI</h3>
+<p>Shadcn 非常流行。Lovable、V0、Bolt 都在使用 Shadcn UI 组件。</p>
+<p>它不是 Material UI 或 Ant Design 那样的传统组件库。</p>
+<p>它是一组兼顾无障碍访问、可重复使用的 UI 组件，建立在 Tailwind CSS 和 Radix UI 基础组件（primitives）之上。</p>
+<p>当你从 Shadcn UI 中“添加”一个组件时，这个组件的实际代码会被复制到你的项目中。这样，你就能完全拥有并控制组件代码，不必担心某个库的内部结构。</p>
+<p>这也是 AI 工具喜欢 Shadcn 的原因：这种透明性，让 AI 模型更容易理解组件的结构、属性和行为。</p>
+<p>如果你想进一步了解代码，这里<sup><a href="#user-content-fn-missing-2" id="user-content-fnref-missing-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup>有一个很好的 Shadcn 视频。</p>
+<h3>Tailwind CSS</h3>
+<p>Tailwind CSS 也是一个常见术语，因为 Shadcn 建立在它之上。</p>
+<p>它本质上只是另一种写 CSS 的方式。</p>
+<p>我来做一个简单的比较。</p>
+<p>HTML：</p>
+<pre><code class="language-html">&#x3C;button class="btn">Click me&#x3C;/button>
+</code></pre>
+<p>CSS：</p>
+<pre><code class="language-css">.btn {
+background: lightgreen;
+padding: 8px 16px;
+border: none;
+border-radius: 5px;
+}
+.btn:hover { background: green; color: white; }
+</code></pre>
+<p>所以，在传统 CSS 中，你先定义一个类（例如上面示例中的 <code>btn</code>），再单独指定样式。</p>
+<p>对比一下 Tailwind CSS：</p>
+<pre><code class="language-html">&#x3C;button class="bg-green-300 px-4 py-2 rounded hover:bg-green-600 hover:text-white">
+Click me
+&#x3C;/button>
+</code></pre>
+<p>使用 Tailwind 时，你直接给元素应用样式，而不是先给它指定一个类名，再为这个类设置样式。</p>
+<p>如果我把这个 Tailwind 示例转换成普通 CSS，它的意思就是：</p>
+<pre><code class="language-css">.bg-green-300 { background-color: #86efac; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.rounded { border-radius: 0.25rem; }
+.hover\:bg-green-600:hover { background-color: #16a34a; }
+.hover\:text-white:hover { color: #ffffff; }
+</code></pre>
+<p>很多开发者喜欢 Tailwind CSS，也有一些人因为它的工作方式而讨厌它。</p>
+<p>不管怎样，很多 AI 工具喜欢 Tailwind CSS。与其花时间跨文件寻找 CSS 定义，不如直接在组件内理解和调整样式。对 AI 来说，这可以说更简单，也更不容易出错。</p>
+<p>如果你想进一步了解代码，这里<sup><a href="#user-content-fn-missing-3" id="user-content-fnref-missing-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup>有一篇 Tailwind CSS 创建者写的好文章，这里<sup><a href="#user-content-fn-missing-4" id="user-content-fnref-missing-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup>还有另一篇解释核心概念的文章。</p>
+<h2>Next.js</h2>
+<p>React 提供了一种构建 UI 的好方法，但它没有告诉我们如何构建一个完整的应用。</p>
+<p>Next.js 是最流行的 React 框架，而且具有可扩展性，因为它既能用于前端，也能用于后端。</p>
+<p>如果说 React 是用来建几栋房子的乐高积木，那么 Next.js 就像城市规划师。城市规划师带来道路、管道和电力，把这些房子连接起来。</p>
+<ul>
+<li>有一张地图，告诉你如何从首页前往关于页面。</li>
+<li>有一些水管，从服务器输送数据。</li>
+<li>有一些电线，让使用体验保持快速并得到优化。</li>
+</ul>
+<p>所有这些小事，对构建一个真正的应用都很重要。</p>
+<p>那么，Vue 和 Nuxt 呢？</p>
+<p>Nuxt 与 Vue 的关系，就像 Next.js 与 React 的关系。</p>
+<p>我更喜欢 Next.js，因为 React 生态很流行，这样开始时就不用过多纠结该用哪套技术栈。</p>
+<p>但我也认识一些开发者，他们更喜欢 Vue + Nuxt，而不是 React + Next.js，因为前者的开发体验更简单。</p>
+<p>那 Vite 呢？</p>
+<p>你可能经常看到“Vite”这个词，因为 Lovable 使用 React + Vite。</p>
+<p>Vite 不是 Next.js 或 Nuxt 那样的完整框架。</p>
+<p>它更像一个轻量的前端构建工具，让 React 顺畅地运行。</p>
+<p>它没有 Next.js 那么复杂和全面，但这也可能是优点。</p>
+<p>例如，如果你只是想做一个内部或个人使用的前端 Web 应用，不太需要考虑数据库或搜索引擎优化（SEO），又想尽快开始，就可以告诉 Cursor（或 Windsurf、Claude Code 等）使用 Vite。之后，再逐步扩展。</p>
+<p>否则，为了省心，我会直接让 AI 从 Next.js 开始。作为非开发者，我通常就是这么做的。</p>
+<p>（顺便说一句，Vue 和 Vite 都是尤雨溪，也就是 Evan You 创建的。他在中国出生、长大，从设计师转成了开发者。）</p>
+<h2>npm 与 Node.js</h2>
+<h3>npm</h3>
+<p>使用 Cursor 等工具时，你会经常看到 <code>npm run dev</code> 这样的命令。</p>
+<p>那么，npm 是什么？</p>
+<p>npm 的全称是 Node Package Manager。它与 Node.js 捆绑提供，所以安装 Node.js 时，npm 也会自动安装。</p>
+<p>npm 这个工具可以：</p>
+<ul>
+<li>安装 JavaScript 库，并在 <code>package.json</code> 中记录它们（可以参考前面展示的 React 文件结构）。</li>
+<li>运行项目脚本，例如使用 <code>npm run dev</code> 启动一个本地服务器。</li>
+</ul>
+<p>所以，当你在 Cursor 中看到“npm not found”这样的“bug”时，很可能是因为你还没有安装 npm。</p>
+<h3>Node.js</h3>
+<p>Next.js 运行在 Node.js 上。很多其他框架也运行在 Node.js 上。</p>
+<p>显然，在 Next.js 出现很多年前，Node.js 就已经被创建出来了。</p>
+<p>Node 提供了一个环境，让你可以在 Web 浏览器之外执行 JavaScript 代码，也就是改在自己的计算机或服务器上执行。</p>
+<p>所以，因为我们在开发应用，就需要安装 Node.js，以便在本地运行 React。</p>
+<p>相比之下，我们的用户不一定需要安装 Node.js，因为一旦我们把应用部署到某个 Web 服务器上，他们就可以直接在浏览器中查看它。</p>
+<p>可以看到，Web 开发在幕后涉及的事情，比用户在浏览器里看到的要多得多。你必须安装更多东西；如果你以前没用过开发环境，这需要转变一下思维方式。</p>
+<h2>服务器与客户端</h2>
+<p>客户端（client）是发出请求的一方。服务器（server）是响应请求的一方。</p>
+<p>在 Web 开发中，最常见的客户端是浏览器，例如 Chrome、Safari、Firefox。</p>
+<p>例如：</p>
+<ul>
+<li>你打开 Chrome，输入 <code>https://wikipedia.org</code>。</li>
+<li>Chrome（客户端）发出请求：“给我维基百科首页。”</li>
+<li>维基百科的服务器收到 Chrome 的请求。</li>
+<li>它返回一个 HTML 页面，以及 CSS 和 JavaScript 文件。</li>
+<li>Chrome（客户端）把它们渲染出来，让你看到网站。</li>
+</ul>
+<p>可以看到，Web 是流动的：数据从一端流到另一端，再流回来。这很有意思，也远不止你在浏览器里看到的那些。</p>
+<p>另外，我刚学 Web 开发时，以为客户端和服务器只是前端和后端的意思，其实并不正确。</p>
+<p>客户端与服务器的含义更广，指的是发送请求和响应请求的角色。</p>
+<p>例如，在 MCP 的语境下，Cursor 是客户端，因为它本身没有那些数据，需要向服务器发出请求。另一边，Figma MCP 是服务器，因为它响应这些请求，并提供数据。</p>
+<p>但如果另一个工具连接到 Cursor，获取数据或触发 Cursor 内部的操作，那么 Cursor 就变成了服务器，因为它是响应的一方。</p>
+<h2>MCP</h2>
+<p>MCP，即模型上下文协议（Model Context Protocol），是 AI 领域另一个流行的新概念。</p>
+<p>MCP 打开了很多可能性，因为它为 AI 应用与外部工具或系统之间的通信提供了一种共同语言。</p>
+<p>工具和系统之间沟通得更好，AI 就能获得有用的上下文，更好地完成任务。</p>
+<p>我发现，把 MCP 理解为 API 要容易得多，虽然两者大约有 80% 相似。</p>
+<p>它们的相似之处在于，都在解决“两个程序如何相互沟通”的问题，涉及客户端请求数据、服务器端提供数据。</p>
+<p>但它们也有一些区别，例如：</p>
+<ul>
+<li>API 更多是为开发者设计的；MCP 则是为 AI 工具集成设计的。</li>
+<li>每个服务都有自己的 API 风格，而 MCP 为所有工具定义了一套标准。</li>
+</ul>
+<p>现在已经有数百种 MCP 可供使用。这里<sup><a href="#user-content-fn-missing-5" id="user-content-fnref-missing-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup>是一份特别长的 MCP 列表，你可以看看。</p>
+<h2>Git 与 GitHub</h2>
+<h3>Git</h3>
+<p>Git 是一个版本控制系统（version control system）。也就是说，它会随着时间记录代码的变化，就像给项目配了一台时光机。</p>
+<p>想象一下，你正在 Word 里写一篇长文章。如果没有 Git，一旦犯错，就可能丢失旧版本，除非你不断保存副本，例如 <code>Essay_v1.docx</code>、<code>Essay_v2.docx</code>、<code>Essay_final.docx</code>。</p>
+<p>使用 Git 时，每次保存——这叫作“提交”（commit）——Git 都会记住究竟改了什么。<sup><a href="#user-content-fn-git-commit" id="user-content-fnref-git-commit" data-footnote-ref aria-describedby="footnote-label">6</a></sup>你可以随时回到过去的某个版本，比较版本之间的差别，或撤销错误。</p>
+<h3>GitHub</h3>
+<p>GitHub 不是 Git。</p>
+<p>GitHub 只是一个网站，让你能远程备份这些 Git 仓库。</p>
+<p>Git 是实现版本控制的技术；GitHub 则是你推送备份的地方，以便更安全地保存并开展协作。</p>
+<p>如果你想通过一个案例进一步了解 GitHub 和 Git 如何工作，可以看看我以前写的一篇文章<sup><a href="#user-content-fn-missing-6" id="user-content-fnref-missing-6" data-footnote-ref aria-describedby="footnote-label">7</a></sup>。</p>
+<p>感谢阅读。</p>
+<p>下一次，我会写一写如何安装今天提到的大多数东西。</p>
+<p>配置必要的开发环境很重要，但我发现，对很多新手来说，这是一个常见障碍。</p>
+<p>再说一次，如果你使用 Lovable、V0、Bolt、Replit 或 Magic Patterns 这样的 AI 工具来构建东西，就不用担心安装。这些工具已经预先配置好，托管在它们自己的服务器上，大部分必需的东西都已经内置了。</p>
+<p>但如果你有更大的目标，想用 Cursor 这样的 AI 工具，在本地开发环境中构建东西，就需要知道如何正确安装今天写到的这些工具。</p>
+<p>下次见。</p>
+<p>Xinran</p>
+<h2>译者说明</h2>
+<p>工具选择、流行程度和平台配置保留作者发表时的说法。文中的“80% 相似”属于作者用来理解 MCP 与 API 的类比。</p>
+<p><a href="https://designwithai.substack.com/p/web-development-101-for-ai-builders-concepts-explained">公开原文</a>目前只显示开头预览，以下六处参考资料的链接目标尚未核实。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-missing-1">
+<p>作者在 React 项目文件结构段落中提到的 AI 课程；链接目标尚未核实。 <a href="#user-content-fnref-missing-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-missing-2">
+<p>作者推荐的 Shadcn 介绍视频；链接目标尚未核实。 <a href="#user-content-fnref-missing-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-missing-3">
+<p>Tailwind CSS 创建者撰写的文章；链接目标尚未核实。 <a href="#user-content-fnref-missing-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-missing-4">
+<p>解释 Tailwind CSS 核心概念的另一篇文章；链接目标尚未核实。 <a href="#user-content-fnref-missing-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-missing-5">
+<p>MCP 集成的长列表；链接目标尚未核实。 <a href="#user-content-fnref-missing-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-git-commit">
+<p>译者校注：“保存就是提交”是入门类比，普通文件保存并不会自动产生 Git 提交，参见 <a href="https://git-scm.com/docs/git-commit">Git 官方的 git-commit 文档</a>。 <a href="#user-content-fnref-git-commit" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-missing-6">
+<p>作者此前介绍 Git 与 GitHub 的案例文章；链接目标尚未核实。 <a href="#user-content-fnref-missing-6" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-web-development-ai-builders","sender":"Design with AI","author":"Xinran Ma","authorAliases":["Xinran Ma"],"publisher":"Design with AI","subject":"🐴 AI 构建者的 Web 开发入门：常见概念详解","snippet":"面向非开发者，以组件、样式、运行环境、请求角色和版本管理解释 React、Shadcn、Tailwind、Next.js、Node、npm、MCP、Git 与 GitHub。","date":"2025-09-22","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["Web开发","前端开发","版本控制","AI编程"],"mdTheme":"magazine","sourcePath":"reports/web-development-ai-builders.md","sourceUrl":"https://designwithai.substack.com/p/web-development-101-for-ai-builders-concepts-explained","body":"$3","prompts":[]},"listPosition":{"index":431,"total":571},"matchedPerson":{"id":"xinran-ma","name":"Xinran Ma","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"web开发","name":"Web开发","count":1},{"id":"前端开发","name":"前端开发","count":1}]},"relatedArticles":[{"id":"talks-how-to-get-the-most-out-of-vibe-coding","subject":"如何充分利用 Vibe Coding | 创业学校讲座实录","sender":"Tom (YC 合伙人)","date":"2025-04-25","matchedPeople":[],"matchedTags":["版本控制","AI编程"]},{"id":"reports-open-source-contributions","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","sender":"Latent.Space","date":"2026-09-01","matchedPeople":[],"matchedTags":["AI编程"]},{"id":"reports-ai-code-verification","subject":"为何在AI时代，代码验证比以往更重要","sender":"ByteByteGo","date":"2026-08-24","matchedPeople":[],"matchedTags":["AI编程"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,73 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1af0,<h2>摘要</h2>
+<p>面对以 OpenAI 大规模数学成果为代表的 AI 浪潮，青年学生对攻读数学博士与学术前景产生了深刻的虚无感与迷茫。客座文章主张保持冷静、继续学业，认为当前大模型本质上是在人类现有知识库的“凸包”内进行高效组合，尚未产生真正突破边界的颠覆性思想；数学研究的核心在于人类对“为什么”的深层理解与传播，而非单纯产出证明，且大模型的介入会开拓更多课题并重塑协作范式。而评论区则呈现出极为尖锐的代际与立场撕裂：青年学者与在读研究生痛批终身教授“何不食肉糜”，指出传统证明被自动化和“抢发（scoop）”正在摧毁科研的成就感与初级职场生态；反思派则进一步探讨了“凸包”比喻的局限性、AI 证明的严谨度危机，以及数学未来是否会沦为纯人类智力竞技等深层现实问题。</p>
+<h2>文章核心观点总结</h2>
+<p>当前前沿大模型在数学领域的进展确实引发了深层的职业焦虑，甚至让人担忧会失去整整一代数学家，但过度悲观的叙事往往是由商业公司为了自身利益而刻意引导的。目前的模型在现有文献的范畴内展现出了惊人的组合与连接能力，然而这一过程本质上是在人类已有思想所构成的“凸包（convex hull）”内部进行插值。无论是反驳埃尔德什单位距离猜想，还是近期公开的大批成果，它们都没有诞生完全脱离现有文献雏形的颠覆性思想或“第 37 手”式的全新概念；攻克像黎曼猜想这样的核心命题，依然依赖人类数学家突破凸包边界去创造全新的尖点与概念架构，况且盲目堆砌算力也面临着巨大的经济与伦理现实边界。</p>
+<p>研究数学绝不会退化为单纯的“提示词工程”或结果解释，它更像是在与一位随时待命的合作者进行深入研讨，研究的质量终究取决于人类输入的直觉与方向引导。数学共同体的追求从来不只是确定某个命题真假的最终答案，而在于深入理解“为什么它是真的”。即便面对机器强大的算力，数学宇宙依然辽阔无边，大量冷门或新兴的细分领域依然需要各层次学者的参与；相反，技术降低了文献检索和跨领域探索的门槛，不仅拓展了个人的科研视野，也让本科生和研究生能够更早、更高效地参与到前沿课题的研究与学习中。</p>
+<p>数学家与高校数学系的核心使命包含“发现”与“传播”两大部分，培养能够像数学家一样思考、能够把数学思想传达给他人的学者，其价值永远不会消亡；如果证明本身缺乏人类的消化与理解，数学就会沦为一堆毫无生命力的符号。决定是否攻读数学博士的根本逻辑在今天并未发生改变：读博的核心动力始终应当是对数学本身的纯粹热爱，以及渴望在某一领域成为专家的追求。技术或许会改变获取专业知识的路径与协作效率，但它不应该剥夺那些真正热爱数学探索的年轻人投身其中的权利与热情。</p>
+<h2>讨论区主要观点梳理</h2>
+<ul>
+<li>
+<p><strong>代际认知脱节与现实生存危机（青年学者 vs. 终身教授）</strong></p>
+<ul>
+<li>
+<p>评论区充斥着青年在读博士与博士后的强烈反弹，批评文章带有典型的“幸存者偏差”与终身教授特权。他们指出，对于没有教职保障的年轻人而言，读博本就是一场经济与时间成本极高的赌博，单纯劝人“为了热爱”极其不负责任。</p>
+</li>
+<li>
+<p>青年研究人员的实际体验已发生异化：许多原本适合作为博士论文的课题被大模型几分钟内解决（或直接被同行用 AI 抢发），研究工作沦为替导师调试、改写大模型输出的混乱文本，科研探索的成就感与意义荡然无存。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>对“凸包（Convex Hull）”理论的质疑与辩驳</strong></p>
+<ul>
+<li>
+<p>部分评论者指出，将 AI 局限于人类知识“凸包内”过于武断且难以被证伪。神经网络在训练过程中建立的非线性跨领域关联（甚至包括吸收诗歌、哲学等泛知识跨界迁移），完全有可能催生人类此前未曾发现的隐藏概念。</p>
+</li>
+<li>
+<p>也有观点赞同凸包模型，指出大模型一旦脱离已有范式，其搜索空间就会呈指数级爆炸，因此在需要全新数学概念的攻坚战中，人类特有的洞察力与取舍判断依然不可替代。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>AI 证明的严谨度、炒作与验证困境</strong></p>
+<ul>
+<li>
+<p>讨论区对商业实验室近期公布的数百篇数学成果持审慎甚至怀疑态度，指出其中多数缺乏 Lean 等形式化交互证明验证，且已有部分预印本被撤回。</p>
+</li>
+<li>
+<p>人们担忧未来“人工审核 AI 证明”是否具备可持续性：若 AI 今后能自主生成无懈可击的形式化验证代码，人类连“阅卷人”的岗位也会失去；但若缺乏人类可读的阐释，单纯海量的数据堆砌仅是“暴力破解”，并不能推动人类对数学真理的理解。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>纯数学的未来形态：走向“国际象棋化”还是“自然科学化”</strong></p>
+<ul>
+<li>
+<p>一种悲观观点认为，纯数学可能会演变为类似国际象棋的业余竞技或纯人类智力游戏——机器早已远超人类，但人类仍保留自娱自乐的小圈子，然而对应的学术教职与公共财政资助将大幅缩减。</p>
+</li>
+<li>
+<p>另一种预测则认为数学家将更像“自然科学家”：不再以手工推导细节为荣，而是利用 AI 作为高能显微镜或望远镜，专注于提出高层假设、统揽宏观方向并提炼核心叙事。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>本科教学与基础能力的退化担忧</strong></p>
+<ul>
+<li>评论普遍对低年级学生的训练前景感到悲观，认为跳过纸笔推导的艰苦挣扎、过早依赖 AI，会导致学生无法建立真正的数学直觉和思维“肌肉”，最终导致未来学者丧失深入评估 AI 正误的能力。</li>
+</ul>
+</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li><strong>文章标题</strong>：<a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">What should we tell our students?</a></li>
+<li><strong>原文链接</strong>：<a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">What's new：What should we tell our students?</a></li>
+<li><strong>HN 讨论区链接</strong>：<a href="https://news.ycombinator.com/item?id=50015236">Hacker News 讨论区（Item 50015236）</a></li>
+<li><strong>整理日期</strong>：2026年10月8日</li>
+</ul>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"what-should-we-tell-math-students-in-the-ai-era","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"AI 时代，我们该如何劝告数学学生？学术热爱、职业焦虑与代际分歧","snippet":"围绕《What should we tell our students?》及相关讨论，梳理 AI 时代数学学生的学术热爱与职业焦虑，探讨知识凸包、证明验证、代际分歧与数学教育的未来。","date":"2026-10-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","数学教育","职业发展","代际关系"],"mdTheme":"magazine","sourcePath":"notes/what-should-we-tell-math-students-in-the-ai-era.md","sourceUrl":"https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/","body":"$3","prompts":[]},"listPosition":{"index":7,"total":571},"relatedArticles":[{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学教育"]},{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"henri","date":"2026-08-30","matchedPeople":[],"matchedTags":["人工智能","数学教育"]},{"id":"essays-career-ai-entry-level","subject":"当AI正在做你的入门工作，如何开启职业生涯","sender":"Every","date":"2026-05-18","matchedPeople":[],"matchedTags":["人工智能","职业发展"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

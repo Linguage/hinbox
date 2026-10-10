@@ -1,0 +1,106 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3261,<p><em>按token收费正在成为AI公司的默认做法。对大多数AI应用来说，这是个错误。</em></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!qdun!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c45e3ce-d381-4635-af6d-c5857947fda4_1460x650.png" alt="a16z News Opinion，2026年8月27日"></p>
+<p>token定价最初出现的位置是对的：模型层。OpenAI于2020年推出API时，按模型消耗的计算量收费，是计量原始推理（raw inference）的一种合理方式。然而，两年后ChatGPT问世，推动了一批基于这套基础设施构建的应用出现，它们能做的事多得多。这些新产品结合专有数据、工具、编排（orchestration）、集成和工作流逻辑，代客户完成工作。</p>
+<p>当应用按token为这些工作定价时，它就把模型提供商的成本结构带入了与客户的关系，并把产品价值锚定在一个成本不断下降的单位上。根据我们的工作经验，把模型层的定价逻辑照搬到应用层，往往是个错误。</p>
+<p>我们认为，企业应该在自己能够可靠衡量、明确归属并为之辩护的最高价值层次上定价。</p>
+<ul>
+<li>如果你出售模型访问权限，就按token定价。</li>
+<li>如果你把模型转化为有用的工作，就按客户能够识别的价值单位定价，通常通过额度（credits）来收费。</li>
+<li>如果你交付清晰且能够明确归属的业务结果，就按结果定价。</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!TE-E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc5bcf29-2dcb-483e-b099-4fdb6c5fd597_2000x909.png" alt="如果你出售的是价值，就别按token定价。原图：a16z"></p>
+<p><em>图中文字译文：</em></p>
+<table>
+<thead>
+<tr>
+<th>层次</th>
+<th>客户购买的内容</th>
+<th>最佳定价单位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模型</td>
+<td>原始推理</td>
+<td>token</td>
+</tr>
+<tr>
+<td>应用</td>
+<td>有用的工作</td>
+<td>客户能够识别的价值单位，通常打包为额度</td>
+</tr>
+<tr>
+<td>结果</td>
+<td>可衡量的业务结果</td>
+<td>结果本身</td>
+</tr>
+</tbody>
+</table>
+<p><em>原图注：仅供说明。</em></p>
+<p>这个选择一旦做错，就很难扭转。按token定价会训练客户拿应用与原始计算能力作比较。它白白让出了数据、工作流和编排的价值；让客户面对自己无法预测的技术复杂性；还可能使供应商被锁在低利润率之中。如果额度只是按token成本加成换算，它本身也解决不了这个问题；它计量的依旧是基础设施，而非价值。</p>
+<p>围绕客户能够识别的工作定价，效果恰好相反。它让价值清楚可见、支出可以预测，也让产品改进对双方都具有经济价值。在我们对50名技术型AI买家的调查中，27人偏好与可识别工作绑定的额度，只有14人偏好token。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!7GUs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64fee8ab-45a4-4ccf-982e-1c83b53625d7_2000x1537.png" alt="技术型AI应用买家偏好的计费单位。原图：a16z"></p>
+<p><em>图中文字译文：对技术型AI应用买家的小规模调查，样本量n = 50；横轴为受访人数。按每项可采取行动的发现或被采纳的建议收取额度：17人；按使用的token计费：14人；按每项任务收取额度：10人；不在意计费单位：5人；不考虑按使用量定价：4人。来源：a16z内部数据。</em></p>
+<h2>1. 按你出售的层次定价</h2>
+<p>技术栈的两端相对简单。模型提供商出售推理，可以按token计量。有些应用交付的结果足够可观察、可归属，可以直接为结果定价。</p>
+<p>中间更难。大多数AI应用都处在这里。</p>
+<p>例如，客户研究智能体（account-research agent）卖的不是搜索和模型调用，而是一份完成的客户简报。编程智能体卖的是一项已经实现的修改。数据平台可能出售完成的查询、流水线或智能体运行。应用的职责，就是把这个工作单位之下的复杂性抽象掉。</p>
+<p>由于每个品类打包价值的方式不同，AI应用不存在通用的计价指标。语音AI可能从分钟数开始，之后转向已解决的对话。Copilot类产品可能从席位开始，之后随着智能体工作让成本和价值的差异变大，再加入按使用量定价。</p>
+<p>正确的问题不是“AI该用什么定价指标？”，而是：“客户已经理解什么价值单位，我们能否始终如一地衡量它？”</p>
+<h2>2. 客户想要看得明白，不是token</h2>
+<p>客户还是会问起token。通常，他们想要的是以下两件事中的一件：可比较，或可控制。</p>
+<p>首先，买家需要共同的基准。token看起来能让他们将专用应用与通用模型API或内部自建方案作比较。但这种比较通常只是虚假的精确。每个应用结合的模型、数据、工具和自动化程度都不同。一个token流经某个产品所产生的工作，与一个token流经另一个产品所产生的工作并不相同。</p>
+<p>其次，买家需要分配支出。财务和IT团队需要把AI支出追溯到部门、项目、客户或发票，而且往往要跨越一个不断扩大的应用组合。要求他们分别为每款产品预测token用量，就又造出了这些产品本来应该隐藏的复杂性。</p>
+<p>这两种需求都合理。不过，token定价带来的摩擦往往多于清晰度。</p>
+<p>客服负责人可以估计公司处理多少次对话。要预测上下文长度、检索量、重试次数、推理时间或输出token数，就困难得多。一项本应直接明了的投资回报率（ROI）计算，变成了公司每部署一款AI应用，就要单独做一次计算资源预测。</p>
+<p>更好的答案是：披露足够的底层使用细节以建立信任，同时不要把这些用量变成商业计费单位。让客户看到完成了哪些工作、容量用在了哪里，以及为什么某些任务比其他任务消耗更多。为财务和IT团队提供预算管理及内部费用分摊（chargebacks）所需的报告。</p>
+<p>透明并不要求计费尺度与底层成本尺度相同。</p>
+<p>在竞争激烈或技术水平较高的市场，企业可能仍需提供token成本直通计费（token pass-through），尤其是模型用量成本异常昂贵或波动较大的情况。但这应该是混合定价模式中的一个明确组成部分，而不应成为产品价值的默认表达。</p>
+<h2>3. 额度应该把工作对应到价值，而不应隐藏token</h2>
+<p>对于AI技术栈中广阔的中间地带，额度可以有效地打包各种不同的工作。但额度是一种货币，不是价值指标。重要的是额度能买到什么。</p>
+<p>糟糕的额度体系把token数转换成一种不透明的内部货币。它隐藏了计量尺度，却没有改善它。</p>
+<p>好的额度体系对应客户认识的工作。它可以采用几个直观的工作量档位：修复一个小缺陷，比实现一项跨多个文件的功能花费更少；总结一条合同条款，比审阅整份协议花费更少；补充一条记录的数据，比运行多步骤的客户研究工作流花费更少。</p>
+<p>最好的额度体系做到三件事：</p>
+<ul>
+<li>抽象掉基础设施的复杂性。客户购买工作，不是原料。</li>
+<li>解释相对工作量。简单工作消耗少量额度；标准工作消耗可预测的额度；复杂工作消耗更多。</li>
+<li>提供商业灵活性。一个额度池可以覆盖多种工作负载、智能体或自动化，而采购部门只需管理一份合同。</li>
+</ul>
+<p>检验标准是能否理解。买家通常先知道自己的工作量，之后才知道自己的计算负载。如果客户用几句话还理解不了额度体系，那它就太复杂了。</p>
+<h2>4. 额度可以保护利润率</h2>
+<p>额度不仅能让用量变得容易理解。设计得当，它还能保护你的毛利率。</p>
+<p>在传统软件即服务（SaaS）中，增加一名用户带来的边际成本通常很低。在AI应用中，每个用户都可能产生推理、检索、搜索、工具调用、第三方数据、媒体生成、重试和失败的运行。如果每新增一美元收入，很快就要付给模型、云或数据提供商，那么快速增长可能掩盖一个虚弱的生意。</p>
+<p>定价体系需要把两个决定分开：</p>
+<ol>
+<li>这项工作值多少？客户价值、付费意愿和竞争决定额度池的价格。</li>
+<li>交付这项工作要花多少成本？相对成本和复杂性决定每项任务消耗多少额度。</li>
+</ol>
+<p>这种分离让供应商既能保护利润率，又能保留模型路由（model routing）、缓存、提示词优化、更好的基础设施，以及更加多样化且不断变化的专有模型与开源模型组合所带来的利润率上升空间。事实上，如果底层模型成本下降，应用甚至可能保留一部分收益，因为客户支付的是工作的价钱，而非仅仅报销公司的计算成本。</p>
+<p>Clay提供了一个有用的例子，而且它对定价的思考经常走在前面。在2026年的一份定价备忘录中，公司写道：早在2022年，它就错误地为Pro客户群的额度定价，导致这部分业务连续多年亏损。新模式把用于第三方数据的Data Credits，与用于编排工作的Actions分开。对于成本可预测的模型，Clay维持固定价格；对于波动较大、费用较高的推理模型，它则按实际token成本直接收费，不加价。换句话说，Clay在不同层次采用不同计量尺度：Actions用于平台价值，token成本直通用于不可预测的模型成本。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<h2>5. 当价值清楚时，转向结果定价</h2>
+<p>当产品执行有价值的工作，但最终业务结果不能明确归属于产品时，额度最有用。一旦结果变得可观察、可归属，而且价值足够高、能够支持稳定价格，计量尺度就应该再次转变。</p>
+<p>在这些条件下，按结果定价：一次已解决的客服对话、一条符合条件的销售线索、一次已预约的会议、一项已处理的理赔，或收回的一美元。</p>
+<p>如果结果的归属不够明确，就通过额度为工作单位定价。</p>
+<p>如果客户购买的是原始模型访问权限，就按token定价。</p>
+<p>很多产品会采用混合模式：席位用于访问权限，额度用于可变的工作量，token成本直通用于异常昂贵或难以预测的模型调用，而在归属明确的地方收取结果费用。多种计量尺度并不是问题，但应避免在某一层次使用错误的尺度。</p>
+<h2>让价值可见</h2>
+<p>token定价把与客户的讨论拉向一条不断下降的成本曲线。对于一个实用性、可靠性及其在工作流中的作用本应不断提升的产品来说，这是个糟糕的价值锚点。</p>
+<p>更好的路径是：在你能够可靠衡量、明确归属并为之辩护的最高价值层次上定价。把可变工作量转化为易于理解的单位。需要灵活性时，用额度打包这些单位。只要客户能够识别并信任结果，就尽快转向结果定价。</p>
+<hr>
+<p><em>原出版方披露：本通讯仅供信息参考，不应被当作法律、商业、投资或税务建议。此外，本内容不构成投资建议，也无意供任何a16z基金的投资者或潜在投资者使用。本通讯可能链接其他网站，或包含来自第三方来源的其他信息；a16z没有独立核实这些信息，也不就其当前或长期的准确性作任何陈述。如果本内容含有第三方广告，a16z没有审查这些广告，也不为其中的广告内容或相关公司背书。文中提及、引用或描述的任何投资或被投公司，并不能代表a16z管理的投资载体所作的全部投资；完整投资名单见<a href="https://a16z.com/investment-list/">a16z投资清单</a>。其他重要信息见<a href="https://a16z.com/disclosures">a16z披露</a>。</em></p>
+<hr>
+<p><em>此文章由AI翻译。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p><a href="https://www.clay.com/blog/clay-pricing-memo-internal">Clay定价备忘录</a>。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-pricing-ai-applications","sender":"a16z News","author":"Tugce Erten, Sarah Wang","authorAliases":["Tugce Erten, Sarah Wang","Tugce Erten","Sarah Wang"],"publisher":"a16z News","subject":"你不是模型。别按token定价。","snippet":"Tugce Erten与Sarah Wang讨论AI应用的价值单位、积分和结果定价，结合50人调查说明交付成本与收费方式的关系。","date":"2026-08-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["人工智能","产品定价","商业模式"],"mdTheme":"magazine","sourcePath":"reports/pricing-ai-applications.md","sourceUrl":"https://www.a16z.news/p/you-are-not-a-model-dont-price-per","body":"$3","prompts":[]},"listPosition":{"index":51,"total":571},"matchedPerson":{"id":"tugce-erten","name":"Tugce Erten","email":"","occupation":"定价策略顾问","website":"https://a16z.com/author/tugce-erten/","bio":"在 a16z 关注定价与套餐设计，撰写软件订阅、按用量收费及生成式 AI 商业化的分析文章。","contentCount":3,"topTags":[{"id":"产品定价","name":"产品定价","count":3},{"id":"人工智能","name":"人工智能","count":2},{"id":"商业模式","name":"商业模式","count":2}]},"relatedArticles":[{"id":"reports-surviving-ai-price-wars","subject":"在 AI 价格战中生存，而不毁掉自己的业务","sender":"a16z","date":"2026-04-13","matchedPeople":["Tugce Erten"],"matchedTags":["人工智能","产品定价","商业模式"]},{"id":"essays-generative-ai-pricing-packaging","subject":"如何为生成式 AI 功能定价和设计套餐：再回顾","sender":"a16z","date":"2025-11-25","matchedPeople":["Tugce Erten"],"matchedTags":["产品定价"]},{"id":"ai-results-in-china","subject":"中国企业AI转型的真实关口","sender":"人民公园说AI","date":"2026-05-28","matchedPeople":[],"matchedTags":["人工智能","商业模式"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

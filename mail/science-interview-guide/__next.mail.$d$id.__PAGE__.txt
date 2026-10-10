@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tf5b,<p>Quanta的The Joy of Why将研究问题放进对话：数学对象为什么会出现在不同领域，实验如何测量主观感受，理论怎样解释可观察的世界。以下七期各有简短导读，原文页面提供节目及已发表转录。</p>
+<h2>Lauren Williams：正格拉斯曼流形的联系</h2>
+<p>发表：2026-06-25。主要采访者：Steven Strogatz。</p>
+<p>在<a href="https://www.quantamagazine.org/what-is-the-positive-grassmannian-and-why-does-it-show-up-everywhere-20260625/">正格拉斯曼流形为何出现在不同领域</a>中，Williams讨论代数组合学的研究如何联系交通流、浅水波与粒子散射等问题。对话还涉及First Proof对AI数学证明能力的评估。原页另有录制后的项目结果补记，阅读时需区分访谈时的讨论与后来公布的信息。</p>
+<h2>Adam Riess：宇宙膨胀速度的测量分歧</h2>
+<p>发表：2026-07-23。主要采访者：Steven Strogatz。</p>
+<p><a href="https://www.quantamagazine.org/how-fast-is-the-universe-really-expanding-20260723/">Adam Riess的访谈</a>讨论不同方法给出的宇宙膨胀速度为何存在差异，以及这种“哈勃张力”可能意味着什么。阅读重点是测量路径、误差与理论解释之间的关系，访谈提出的可能解释仍需与已确定的观测结果区分。</p>
+<h2>Ishmail Abdus-Saboor：如何研究痛觉与愉悦</h2>
+<p>发表：2026-08-06。主要采访者：Janna Levin。</p>
+<p>在<a href="https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/">触碰如何带来疼痛或愉悦</a>中，Abdus-Saboor讨论研究者如何测量这些感受，以及触觉如何参与社交和情绪。裸鼹鼠研究为讨论提供了动物案例，也带出动物无法描述感受时的实验与伦理问题。</p>
+<h2>Melanie Mitchell：AI智能应当怎样评估</h2>
+<p>发表：2026-08-20。主要采访者：Steven Strogatz。</p>
+<p><a href="https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/">Melanie Mitchell的访谈</a>关注如何判断AI的表现来自什么机制。她主张借鉴研究婴儿与动物认知的方法，改进机器认知评估。对话涉及评估原则和历史上的“聪明的汉斯”案例，可从实验设计与证据解释的角度阅读。</p>
+<h2>ICM现场讨论：AI时代数学研究的价值</h2>
+<p>发表：2026-09-03；录制：2026-07-26。主持人：Janna Levin、Steven Strogatz。</p>
+<p>在<a href="https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/">ICM 2026现场讨论</a>中，Akshay Venkatesh、Ravi Vakil和Alex Kontorovich讨论AI生成证明、数学理解与研究者的创造活动。对话将“得到证明”与“理解证明的意义”分别作为问题展开，适合与Williams和Mitchell两期对照阅读。</p>
+<h2>Jonathan Halliwell：量子行为怎样过渡到经典世界</h2>
+<p>发表：2026-09-17。主要采访者：Steven Strogatz。</p>
+<p><a href="https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/">Jonathan Halliwell的访谈</a>介绍退相干和他使用的退相干历史（decoherent histories）方法。对话讨论环境相互作用如何参与量子到经典行为的过渡，也涉及观察者的问题。这里呈现的是基础物理中的解释讨论，各种量子诠释仍存在分歧。</p>
+<h2>Maggie Miller：怎样想象四维空间</h2>
+<p>发表：2026-10-01。主要采访者：Janna Levin。</p>
+<p>在<a href="https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/">第四维度究竟是什么样</a>中，Miller讨论四维中的结与曲面，以及三维直觉遇到的困难。她介绍用一系列三维截面想象四维空间的方式。这期所说的第四维是额外的空间维度，阅读时要与将时间视为第四维的物理语境区分。</p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"science-interview-guide","sender":"Quanta Magazine","author":"henri","authorAliases":["henri","Henri","Hinbox"],"publisher":"Quanta Magazine","subject":"科学访谈中的解释难题","snippet":"七期The Joy of Why访谈的中文导读，围绕数学理解、宇宙测量、量子解释和感知研究展开。","date":"2026-10-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["科学解释","数学理解","量子力学","感知"],"mdTheme":"magazine","sourcePath":"notes/science-interview-guide.md","body":"$3","prompts":[]},"listPosition":{"index":20,"total":571},"relatedArticles":[{"id":"talks-dirac-interview-by-hund-1982-symmetry-physics","subject":"保罗·狄拉克访谈——对称性在理论物理学中的核心地位（1982）","sender":"弗里德里希·洪德","date":"2023-02-17","matchedPeople":[],"matchedTags":["量子力学"]},{"id":"talks-paul-dirac-taciturn-genius-against-mainstream","subject":"保罗·狄拉克 - 反对主流的沉默天才","sender":"henri","date":"2020-11-30","matchedPeople":[],"matchedTags":["量子力学"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

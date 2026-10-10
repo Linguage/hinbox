@@ -1,0 +1,989 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3357c,<blockquote>
+<p><strong>来源 / Source:</strong> <a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/">Proofs and Prompts — 100+ reactions to 100+ solutions</a><br>
+<strong>发表 / Published:</strong> 2026-10-08；<strong>所提供文本的更新日期 / Source updated:</strong> 2026-10-09 12:20 CEST<br>
+<strong>版本 / Version:</strong> 基于用户提供的完整网页文字快照，包含59位署名者回应与网页下方读者评论。英文基本依照所提供文本保留；仅修复网页复制导致的数学公式断行。中文为对照翻译，未独立验证各发言中涉及的数学证明、数据及争议主张。</p>
+</blockquote>
+<p><a id="abstract"></a></p>
+<h2>摘要</h2>
+<p>本文以中英对照形式收录 Proofs and Prompts 关于 AI 数学成果发布的59篇署名回应及读者评论，呈现数学共同体的兴奋、质疑与不安。讨论集中于证明的可靠性与可读性、人类理解的价值、青年研究者的培养、贡献归属与学术评价，以及 AI 企业与研究共同体的关系。各篇发言保留不同立场；文中涉及的数学成果、数据和争议主张，仍属于发言者当时的陈述，本文未作独立核实。</p>
+<p><a id="introduction"></a></p>
+<h2>导言</h2>
+<p>当大量数学问题的解答被集中公布，研究者面对的不只是新证明，还有研究计划、职业路径与知识共享方式的变化。这份合集记录了不同数学家在这一时刻的直接反应：有人期待从新论证中发现联系，有人担心长期探索的空间受到挤压，也有人主张重新制定发表、评价和协作的规则。</p>
+<p>阅读时，可以围绕两个贯穿全文的问题展开：数学进步如何转化为人类能够理解、解释和继续发展的知识？在工具能力快速变化时，怎样维护研究共同体的自主性，并支持年轻一代继续参与？以下保留原编者按、59位作者的回应和独立的读者评论区；每篇先英文、后中文，便于对照阅读。新增摘要与本导言为阅读导引，原作者的判断与争议则留在各自署名之下。</p>
+<h2>目录 / Contents</h2>
+<ul>
+<li><a href="#abstract">摘要</a></li>
+<li><a href="#introduction">导言</a></li>
+<li><a href="#%E7%BC%96%E8%80%85%E6%8C%89--introduction">编者按 / Introduction</a></li>
+<li><a href="#59%E4%BD%8D%E4%BD%9C%E8%80%85%E7%9A%84%E5%9B%9E%E5%BA%94--main-reactions">59位作者的回应 / Main reactions</a></li>
+<li><a href="#%E8%AF%BB%E8%80%85%E8%AF%84%E8%AE%BA%E4%B8%8E%E5%9B%9E%E5%A4%8D--reader-comments">读者评论与回复 / Reader comments</a></li>
+<li><a href="#%E8%AF%B4%E6%98%8E%E4%B8%8E%E5%8E%9F%E5%A7%8B%E9%93%BE%E6%8E%A5--notes-and-source">说明与原始链接 / Notes and source</a></li>
+</ul>
+<p><a id="编者按--introduction"></a></p>
+<h2>编者按 / Introduction</h2>
+<p><strong>English</strong></p>
+<p><strong>Hosts of Proofs and Prompts:</strong></p>
+<p>Many of us are grappling with OpenAI’s announcement on 6 October. We feel that it is useful to have a snapshot of the community’s gut feeling today, and this is what you see below. We will keep it open for another week, and you are welcome to send us further short reactions. To make sure it is clear that we are all in this together, each reaction is signed only by name, without reference to affiliation or career stage. You’ll find all types of reactions: general reflections as well as problem-specific comments.</p>
+<p><strong>中文</strong></p>
+<p><strong>Proofs and Prompts 主持人：</strong></p>
+<p>我们中的许多人都在努力消化 OpenAI 于10月6日发布的公告。我们认为，记录下数学共同体今天最直接的感受很有价值，下面呈现的就是这样一份记录。我们将在接下来的一周继续开放投稿，欢迎大家发送简短回应。为了强调大家共同面对着这一局面，每篇回应只署姓名，不注明所属机构或职业阶段。这里有各种各样的声音：既有整体性思考，也有针对具体问题的评论。</p>
+<hr>
+<p><a id="59位作者的回应--main-reactions"></a></p>
+<h2>59位作者的回应 / Main reactions</h2>
+<h3>1. Tim Santens</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>The results of OpenAI are almost unbelievable, Quasi-Riemann is a result that I thought was complete science fiction. Much can be said about the behavior of the AI labs, but given the existence of these models mathematics as a research discipline will have to undergo a massive transformation.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>OpenAI 的成果几乎令人难以置信。准黎曼（Quasi-Riemann）的结果，在我看来原本完全是科幻小说里的东西。AI 实验室的行事方式当然有许多值得讨论的地方，但既然这些模型已经存在，数学作为一门研究学科就必须经历巨大的转变。</p>
+<hr>
+<h3>2. Roman Sauer</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>A common piece of wisdom is that mathematicians only have a few tricks in their bag – which they skillfully apply again and again. I have such trick whose unreasonable effectiveness surprised me a few times: replacing a manifold by a certain measurable foliated object, a construction that comes from ergodic theory, and using it in unexpected contexts.</p>
+<p>More recently, I relied on this trick in a paper with Sabine Braun on macroscopic scalar curvature, which was further extended by Hannah Alpert. This trick and these two papers now appear in OpenAI’s deeply creative solutions of problems 207 and 335 – problems so different, they could not be farther apart!</p>
+<p>I am stunned.</p>
+<p>What do I take away from this night? We cannot defensively narrow our focus to what we currently regard as human qualities in mathematics. This will force us into a diminishing role. Instead, we have to radically expand our view of what a mathematician is and does.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>人们常说，数学家的工具箱里只有少数几种招数，只不过他们善于反复巧妙地使用它们。我自己就有这么一种技巧，它出乎意料的有效性曾多次让我惊讶：用某种可测的叶状对象替代一个流形。这一构造来自遍历理论，我把它用在了意想不到的情境中。</p>
+<p>最近，我和 Sabine Braun 在研究宏观标量曲率的论文中运用了这一技巧，Hannah Alpert 后来又拓展了相关工作。如今，这个技巧以及这两篇论文竟然出现在 OpenAI 对第207和335号问题极富创造性的解答中——两个问题几乎不可能相距更远了！</p>
+<p>我震惊了。</p>
+<p>经历这一夜，我有什么收获？我们不能采取防御姿态，把注意力局限在目前认定属于人类数学家独有的品质上。这只会迫使我们扮演越来越无足轻重的角色。相反，我们必须从根本上拓展对“数学家是什么、数学家做什么”的认识。</p>
+<hr>
+<h3>3. Xiaolei Wu</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>It is the last day of a week-long national holiday here in China. We had just taken a short family trip to a nearby coastal city. After waking up, I followed my usual routine and checked my phone. I was surprised to find many messages containing the same PDF file. Apparently, OpenAI had solved many open problems.</p>
+<p>So I took a look at the group theory section. It looked unreal. These were almost all the major open problems in my field! How is it possible? So I sent a message asking where the file had come from. The answer was that OpenAI had just officially announced it.</p>
+<p>I checked the group theory section again. Yes, these really were almost all of them. So Thompson’s group F is non-amenable. OK, I had tried it many times using ChatGPT, but I guess I didn’t have the newest model or enough tokens. Eilenberg–Ganea is false—not so surprising, perhaps, but how? OK, at least the Whitehead Conjecture has not fallen. And what? They had completely solved the Boone–Higman conjecture? And the ambient simple group could even be of type ($F_\infty$)…
+I had expected this day to arrive, but maybe something like one year later.</p>
+<p>After a while, I started to look at other sessions, starting from topology. So the Borel conjecture fails in dimension 4, the coarse Baum-Connes also fails…</p>
+<p>The rest of the day felt long. More messages came in. My social media feeds were flooded with discussions about the list. Some people were still claiming that the problems solved in their fields were actually not so important. But I guess I had already passed that stage.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天是中国为期一周的国庆假期的最后一天。我们一家刚从附近一座海滨城市短途旅行回来。早上醒来后，我照例看手机，却惊讶地发现许多消息都附着同一个 PDF 文件。据说 OpenAI 解决了大量开放问题。</p>
+<p>我打开群论部分，看起来简直不真实。这里几乎囊括了我所在领域所有重大的开放问题！这怎么可能？我发消息问文件从哪里来，得到的回答是 OpenAI 刚刚正式公布了它。</p>
+<p>我又看了一遍群论部分。没错，几乎全在里面。Thompson 群 $F$ 是非可和的。好吧，我以前也多次试过用 ChatGPT 来解决这个问题，但或许我用的不是最新模型，或者 Token 不够。Eilenberg–Ganea 猜想是错的——也许不太意外，但怎么证明？好吧，至少 Whitehead 猜想还没有被攻克。等等，什么？他们竟然彻底解决了 Boone–Higman 猜想？而且包含原群的单群甚至可以是 $F_\infty$ 型……我预料这一天终究会到来，只是以为大约还要再过一年。</p>
+<p>过了一阵，我开始查看其他部分，先从拓扑学看起。所以，Borel 猜想在四维不成立，粗 Baum–Connes 猜想也不成立……</p>
+<p>接下来的一天显得格外漫长。更多消息不断传来，社交媒体信息流里全是围绕这份清单的讨论。有些人还在坚持说，自己领域被解决的问题其实没有那么重要。但我想，我已经过了那个阶段。</p>
+<hr>
+<h3>4. Nicholas Williams</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>We’ve certainly learnt a lot of new facts from this release. At the same time, it will take a while for us mathematicians to digest all of these papers. There’s no doubt that large language models have changed things enormously, but the end goal must always be human understanding. It feels important to point out that mathematicians do more than just solve open problems from the literature: we also have to grapple with the subject matter and think about what the good conjectures should be in the first place. But on the other hand, it does feel like the end of an era where the ability to solve problems was a distinguishing feature of being a mathematician. And this feels sad for those of us who like to solve problems.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这次发布无疑让我们了解到许多新的数学事实。与此同时，我们数学家需要相当长的时间才能消化全部论文。毫无疑问，大语言模型带来了巨大变化，但最终目标必须始终是人类的理解。</p>
+<p>必须指出，数学家的工作不只是解决文献中已有的开放问题；我们还需要深入探究数学对象本身，并思考什么才是值得提出的好猜想。不过，从另一方面看，以解决问题的能力作为数学家显著标志的时代似乎即将结束。对我们这些喜欢解题的人来说，这令人难过。</p>
+<hr>
+<h3>5. Henry Bradford</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Today my chief feelings are disorientation and bewilderment. It’s as if the pace of events has outstripped us by such a margin, that it is impossible to know how one should respond, or even how to start finding out how to respond. My greatest worry is for the prospects for bringing through the next generation of mathematicians: we know how much time and effort it takes to refine one’s craft in our subject to the point where one can meaningfully contribute to the advancement of knowledge, and I’m anxious that the necessary incentives may no longer exist for bright young people to invest that effort. I am holding on to hope that a bright future for the practice of mathematics is possible, in which our understanding of the mathematical universe is enriched, rather than undermined, by the ubiquity of AI tools. To get there though, we need as a community to agree what a realistic pathway should look like for a young scholar to establish themselves in our subject.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天，我主要感到失去方向、茫然无措。事情发展的速度似乎已经远远超出了我们的应对能力，让人甚至不知道如何回应，更不知道该从何处着手思考如何回应。</p>
+<p>我最担心的是下一代数学家的培养前景。我们知道，一个人要经过多少时间和努力，才能磨炼到足以为知识进步作出实质性贡献的程度。我担心，鼓励有才华的年轻人投入这些努力的必要激励可能不复存在。</p>
+<p>我仍希望数学研究能够拥有光明的未来：普及的 AI 工具丰富我们对数学世界的理解，而不会削弱它。但要实现这一点，数学共同体需要共同确定，一位年轻学者今后究竟应该沿着怎样一条现实可行的道路，在这个学科中建立自己的职业生涯。</p>
+<hr>
+<h3>6. Henry Wilton</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>There are many problems on OpenAI’s list that I care a lot about: the Cannon conjecture, the non-residually-finite hyperbolic group, the Boone—Higman conjecture and at least ten others. I haven’t looked at any of them in detail yet, although a cursory glance suggests that the write-ups vary wildly in quality. It will take months of work to go through the proofs of all of them, to check if the proofs are correct and to try to digest them.</p>
+<p>But I think it’s important to focus on the big picture. If OpenAI wanted to destroy the mathematical community, this would be a great way to go about it. Open problems are a resource that the mathematical community developed over decades or even centuries. The value they have is the value we have given them. They provide structure, a yardstick for progress and long-term goals. The advent of AI was always going to be a seismic shock, but this huge dump of papers is a tsunami that we have no time to prepare for. It’s clear that OpenAI will happily wash away our community’s structures to further their financial interests.</p>
+<p>There is a long list of mathematical structures and norms that OpenAI seems to be intent on damaging. By refusing to name the authors of their papers, they imply that mathematics is no longer a human endeavour. They don’t submit their results to journals, which both implies that the norms of the mathematical community are defunct and makes it impossible for the community to digest their results. OpenAI haven’t shared fundamental information about how the problems are selected or the failure rates of their attempts. This information should be a necessary requirement for any serious scientific discussion of their tools. And of course there is the basic financial injustice that their hugely valuable models learned to reason by copying the very reasoning that our community made available for free through the Open Access movement.</p>
+<p>I hope the mathematical community can adjust our practices and norms quickly enough to survive the shock of these developments, but I am fearful.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>OpenAI 的清单上有许多我极为关心的问题：Cannon 猜想、非剩余有限的双曲群、Boone–Higman 猜想，以及至少另外十个问题。我还没仔细阅读任何一篇，尽管匆匆一看就发现文章质量参差不齐。要逐一检查证明是否正确并尝试消化理解，恐怕需要数月。</p>
+<p>但我认为更重要的是看清整体局面。如果 OpenAI 想要摧毁数学共同体，这会是个绝佳办法。开放问题是数学共同体花费数十年甚至数百年建立起来的资源。它们的价值来自我们赋予它们的意义，为研究提供结构、进展尺度和长期目标。AI 的到来注定是一场地震，但这次巨量倾倒论文像一场我们来不及准备的海啸。显然，OpenAI 乐于为了商业利益冲毁数学共同体的组织结构。</p>
+<p>OpenAI 似乎打算损害的数学制度与规范可以列出长长一串。它们拒绝给论文列出作者，仿佛暗示数学不再是一项人类事业；不向期刊投稿，似乎认为学术共同体的规范已经失效，也令共同体无法按既有方式消化结果。OpenAI 也没有提供关于如何选题、尝试失败率等根本信息。任何严肃讨论其工具科学价值的工作都应要求这些数据。另外还存在最基本的经济不公：他们价值巨大的模型，是通过复制数学共同体在开放获取运动中免费分享的推理成果学会推理的。</p>
+<p>我希望数学共同体能及时调整实践与规范，在这场冲击中生存下来，但我感到恐惧。</p>
+<hr>
+<h3>7. Macarena Arenas</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Perhaps the AI companies could, if they wanted to, do something to benefit humankind and the planet we live on (ending world hunger, solving global warming, curing cancer…), but this is not it, and it is not being done for altruistic purposes.</p>
+<p>Regarding the mathematics, some of it is unverified, most of it is badly written, and (probably) none of it is transparent in documenting how it was produced, who was involved, and what was its cost (in every sense). All of it is of course impressive. Some of it might come to benefit mathematics and mathematicians, but overall I think it is an example of a corporation trying to exert manipulative pressure on a field of knowledge, and I think it has been done irresponsibly. I hope that we as a community can find our way through this mess, but for the time being, it is a mess, and it causes more harm than good. It will distract a lot of people from working on their own ideas; it will disrupt many existing research agendas; it will create conflict in the mathematical community; it will encourage a lot of opportunistic, ill-informed use of these technologies (thus adding to the “slop” and creating more noise for us to navigate through); and it will discourage many, many people from doing mathematics.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>如果 AI 公司愿意，它们或许能够做些真正造福人类和地球的事——消除饥饿、解决全球变暖、治愈癌症等等。但这次行动显然不属于其中之一，也不是出于利他目的。</p>
+<p>就数学而言，有些内容尚未验证，大部分写得很差，而且（恐怕）没有任何一篇透明记录了成果如何产生、谁参与其中、付出何种意义上的成本。这一切当然令人震撼，其中有些或许最终有益于数学和数学家。但总体来看，这是企业试图对一个知识领域施加操纵性压力的例子，我认为极不负责任。我希望共同体能穿过这场混乱，但眼下它造成的伤害多于益处：它使大量研究者无法专注自己的想法，打乱既有研究计划，制造共同体内部冲突，鼓励大量机会主义式、缺乏充分理解的技术使用（制造更多粗制内容和信息噪声），还会打击许许多多人继续做数学的意愿。</p>
+<hr>
+<h3>8. Johannes Schmitt</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>One thing to keep in mind about this drop of papers is that they were not created by OpenAI with the main goal of making progress in mathematical research, or even primarily for PR (there were some PR posts, but e.g. the final announcement was comparatively restrained). The main reason these papers exist is that OpenAI used unsolved math problems to evaluate their internal models for the purpose of improving their capabilities. They had to use hard open problems because these are the only ones still posing a challenge to frontier AI models. I believe that, from OpenAI’s point of view, the papers are essentially a byproduct of their internal development.</p>
+<p>Thus the company could just have remained silent, or picked a few flashy results for another blog post. I think it is to their credit that instead they reached out to the math community for guidance on how to proceed, leading to the formation of the Advisory Group on Mathematics and Artificial Intelligence. They followed some of the advice by this group, such as a timely release and (partial) Lean certificates, but not all of it, and in particular announced that they will continue to use open math problems for model development. In my view, the most pressing need of the math community right now is to have a central platform to discuss the results, start digesting the (by multiple accounts from colleagues, terribly written) papers, and report any mathematical mistakes or missing attribution. An OpenAI-controlled GitHub repository, with issues and pull requests disabled, cannot serve this purpose, and the ball is in OpenAI’s court to move the papers to a neutral repository and to back such a community effort with the promised funding for workshops and special programs.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>需要记住，这批论文并不是 OpenAI 主要为了推动数学研究进步而创作的，甚至主要目的也不是公关宣传（虽然有一些宣传文章，但最后的公告相对克制）。它们存在的主要原因是，OpenAI 使用未解决的数学问题来评估内部模型，以改进模型能力。他们必须选择困难的开放问题，因为只有这些问题仍能挑战前沿 AI 模型。我认为从 OpenAI 的角度看，论文基本只是内部开发的副产品。</p>
+<p>因此公司本可以保持沉默，也可以只挑几个亮眼的成果再写一篇博客。但他们选择向数学共同体寻求处理建议，并由此促成数学与人工智能顾问小组（AGMAI）的成立，我认为这一点值得肯定。他们采纳了部分建议，例如及时发布、提供部分 Lean 证明证书，却没有全部采纳，尤其宣布会继续使用开放数学问题进行模型开发。</p>
+<p>我认为当前数学共同体最迫切需要的，是一个中心平台，集中讨论结果、消化那些据多位同事反映写得糟糕透顶的论文，并报告数学错误或引用归属遗漏。由 OpenAI 控制、关闭 Issues 和 Pull Requests 的 GitHub 仓库无法完成这个任务。现在球在 OpenAI 一边：他们应把论文迁到中立仓库，并履行承诺，资助研讨会和专项项目，支持共同体开展这项工作。</p>
+<hr>
+<h3>9. Lvzhou Chen</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>To be clear, I only read some parts of the overview and a few papers in the collection without understanding the full details. I know most of the problems in group theory and quite a few in topology. I spent a few years thinking about the Kervaire conjecture, Howie’s conjecture (Problem 256) and related problems.</p>
+<p>I have some rather mixed feelings towards this. On the positive side, I would like to learn and digest the new techniques or insights that lead to the solutions, and I hope to use them to better understand or solve other problems. On the other hand, I feel that solving so many problems in such a short time may damage the math community and profession. Often time, new discoveries were made in attempts to solve open problems (like the ones solved here). So we could have lost tons of opportunities to make other new discoveries; I hope what is worth discovering will be discovered sooner or later. In any case, this certainly creates even more stress and uncertainty than before for math people, especially junior ones (e.g. PhD students): How would the profession change? What should PhD students focus on? How should we train them? I wish what I called “damage” can be a part of reforming the profession in an eventually positive way, and (young) people interested in math do not get discouraged because of this.</p>
+<p>As for the future, I guess (or hope?) that there will be a limit of the effect of AI: the landscape of math stabilizes after a dramatic change, and we obtain a new sense of difficulty. After all, we always find new interesting and harder problems after seeing the solutions to old ones. However, it might take quite some time before it stabilizes (if it does), and before then, it could be quite chaotic. Probably one can focus more on some brand-new areas and problems that seem fundamental and important. Even after it stabilizes, it is still a question whether human contributions are needed to make new discoveries. If it becomes unnecessary, one can still focus on better understanding the new discoveries, but I personally might find it less interesting and would rather work on other stuff. Maybe the question is not whether humans can still contribute; instead, as Ruixiang puts it somewhere, will mathematicians still have the courage to work on the remaining ones that are difficult in a new sense?</p>
+<p>I guess most of these will just turn out to be silly and naive thoughts, but my understanding of this post is to record honest feelings, silly or not.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>先说明，我只看了综述的一部分和几篇论文，并没有理解全部细节。我熟悉群论中的大多数相关问题，也了解拓扑学中的不少问题。我曾花费几年时间思考 Kervaire 猜想、Howie 猜想（第256号问题）及相关问题。</p>
+<p>对此我心情复杂。积极的一面是，我希望学习、消化带来这些解答的新技术和新洞见，用它们帮助理解或解决其他问题。但另一方面，短时间解决如此多问题，可能损害数学共同体与数学职业。尝试解决开放问题的过程中经常会产生其他发现，因此我们可能失去了大量发现其他新事物的机会。我希望值得被发现的东西迟早会被发现。无论如何，这给研究者带来更大的压力与不确定性，特别是博士生等年轻人：职业会怎样改变？博士生该专注什么？该怎样培养他们？我希望这种“伤害”最终能够成为积极改革的一部分，而热爱数学的人，尤其年轻人，不会因此灰心。</p>
+<p>至于未来，我猜想——或者希望——AI 的影响终究会有某种限度：数学格局在剧烈变化后趋于稳定，我们形成新的难度观。毕竟旧问题解决后，总能发现更有趣、更难的新问题。但在稳定之前可能要经历很长时间（如果能稳定的话），期间也许一片混乱。或许可以更关注一些基础而重要的全新领域和问题。即使稳定之后，人类是否还需要亲自作出新的发现，依然是个疑问。如果无需人类，我们仍可以致力于理解新发现，但我个人可能会觉得兴趣降低，宁愿做其他事。也许问题不再是人类能否有所贡献，而是像 Ruixiang 在某处说的：数学家是否仍有勇气去做那些在新的意义上仍然困难的问题？</p>
+<p>我想这些想法最后多半显得幼稚可笑，但在我理解中，这篇文章就是为了记录真实感受，无论它们有多幼稚。</p>
+<hr>
+<h3>10. Enrico Fatighenti</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I am not a Luddite — quite the opposite. I have used, and still use on a daily basis, AI as a bibliographic tool, to test random ideas, to speed up bureaucracy, as a helping hand with teaching, and so on. I do not use it to generate proofs, but I am not judgemental about people who do.</p>
+<p>However, I was genuinely pissed off by today’s announcement.</p>
+<p>To be fair, my first reaction was almost boredom. Yes, the AI has “proved” (really? Are we sure? Can we even understand what is written there?) a bunch of interesting results in my field. Not even a Millennium Problem. Pff.</p>
+<p>But the more I thought about it, the more annoyed I became. What bothers me most is the double standard.
+Whenever I referee a paper, or receive a thesis or project from a student, I apply the same standards that most of us do. If a paper or thesis is so badly written that I cannot get past the first page without considerable effort, I reject it and ask for a new, readable version.
+With these AI-generated papers, I feel that we, as a community, are not applying the same standards of quality and rigour. They can simply release multiple 100+ page papers claiming to have solved this or that problem, often with redundant arguments, unclear logical structure, multiple dead ends, and strange or unsettling terminology — in other words, slop. And we are then expected to go through it, check it, clean it up, simplify it, and explain what is actually going on.</p>
+<p>This comes at a considerable cost to us in terms of time and effort, while they can simply move on and slop-bulldoze the next conjecture. And, of course, the credit remains theirs. In some sense, we are willingly contributing to our own demise.</p>
+<p>I think the paradigm has to shift. We should apply to AI-generated mathematical announcements the same standards of rigour, clarity, and exposition that we demand from human-generated papers. Do you want the approval of the mathematical community? A badge of legitimacy? Then give us something that is actually readable and verifiable. If not, we should simply ignore it.</p>
+<p>In other words, I do not think that we, as a community, should spend our time cleaning up their mess in order to increase someone else’s commercial revenues.</p>
+<p>It is going to be difficult to win this game, but at the very least we can try to change the rules a little, so that the game is not completely skewed in their favour.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我不是卢德主义者——恰恰相反。我每天都在使用 AI，用它检索文献、测试临时冒出的想法、加快处理行政事务、辅助教学，等等。我没有用它生成证明，但也不会因此评判那些这样做的人。</p>
+<p>然而，今天的公告真的让我火冒三丈。</p>
+<p>公平地说，我起初甚至有点无聊：是的，AI“证明”了我领域的一堆有趣结果。真的吗？确定吗？我们到底能不能读懂？甚至连一道千禧年难题都没有。哼。</p>
+<p>但越想越气，最让我受不了的是双重标准。审稿，或者收到学生的论文与项目时，我都和大多数人一样采用同样标准。如果一份稿件写得糟糕到读第一页就十分费力，我会拒绝并要求提供可读的版本。但面对这些 AI 论文，我感觉数学共同体没有坚持同样的质量和严谨性要求。他们可以随手发布多篇超过百页的论文，宣称解决各种问题，里面经常有冗余论证、混乱逻辑、走不通的路径和怪异甚至令人不安的术语——换言之，一堆粗制滥造的东西。然后人们却期待我们去阅读、核查、清理、简化，再解释究竟发生了什么。</p>
+<p>这让我们付出大量时间精力，他们却可以继续用粗制内容碾压下一个猜想。当然，功劳最终还是他们的。某种意义上，我们心甘情愿参与了自己职业的消亡。</p>
+<p>范式必须改变。对 AI 生成的数学成果公告，我们应采用与人类论文一样的严谨性、清晰度和阐述标准。想得到数学共同体的认可、学术合法性的徽章？就交出真正可读、可验证的成果。否则，我们就应当忽略它。</p>
+<p>我不认为数学界该无偿替别人收拾烂摊子，最终增加的是别人的商业收入。想赢下这场博弈很难，但至少应该尝试改变部分规则，避免局面完全向他们倾斜。</p>
+<hr>
+<h3>11. Giulio Tiozzo</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>My feelings today are a mixture of excitement and worry: it’s nice to see many problems solved, and to discover new proofs. Yet it’s clear that our profession has changed forever. Some thoughts:</p>
+<ol>
+<li>
+<p>I don’t think the main problem of AI-generated math proofs is that they are not understandable: all first solutions to big problems were hard to process. The problem is that no one would want to do it, as they fear they would not get any reward, either by the community or on a personal level.</p>
+</li>
+<li>
+<p>What puzzled me a lot is the method of communication: After AGMAI was created, the way I imagined the current math drop worked was: Each of the 9 experts chooses a problem and explains it carefully in a video, or writes a nice companion paper. Instead, it’s just a massive GitHub drop of slop papers. What did we even need AGMAI for?</p>
+</li>
+<li>
+<p>It’s clear many papers were never reviewed by a human: for instance, I took their example #254 (an Artin group with no CAT(0) action): their group has 116 generators, but after feeding it to Astra, in 10 minutes I got a new example with 12 generators. Clearly, they were in a rush to post the big drop, prioritizing quantity over quality…Why?</p>
+</li>
+</ol>
+<p>This does not solve the misalignment between labs and academics at all; indeed, the question remains: are frontier labs our friends, or our enemies?</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我今天既兴奋又忧虑：看到很多问题被解决，出现新的证明当然很好，但显然，我们的职业已经永远改变了。几点想法：</p>
+<ol>
+<li>
+<p>我认为 AI 数学证明的主要问题不在于难以理解。重大难题最初的证明历来难以消化。问题在于，没有人愿意这样做，因为他们担心在共同体和个人层面都得不到回报。</p>
+</li>
+<li>
+<p>发布方式令我困惑。AGMAI 成立后，我原本设想的发布方式是：九位专家每人挑一个问题，在视频里认真解释，或写一篇配套说明论文。结果只是在 GitHub 大规模倾倒一堆粗制论文。那我们当初成立 AGMAI 是为了什么？</p>
+</li>
+<li>
+<p>显然不少论文根本没有经过人工审阅。例如第254号论文，构造了一个没有 CAT(0) 作用的 Artin 群，有116个生成元。我把它交给 Astra，仅仅10分钟后，就获得了一个只有12个生成元的新例子。显然，他们急着集中发布，优先追求数量而非质量……为什么？</p>
+</li>
+</ol>
+<p>这一切根本没有解决实验室与学术界目标不一致的问题。那个问题依然存在：前沿实验室是我们的朋友，还是敌人？</p>
+<hr>
+<h3>12. Raphael Appenzeller</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>This timeline is crazy. I feel conflicted. There are many good reasons for and against the use of AI in mathematics, and the uncertainty about the future only grows.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这条时间线简直疯狂。我心情矛盾。数学中使用 AI，有许多支持和反对的理由，而对未来的不确定感仍在增加。</p>
+<hr>
+<h3>13. Alexandre Martin</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>After yesterday’s announcement, many of us are left stunned and unsure of how to adapt to this new situation. Already, there are calls from colleagues to organise international reading groups and workshops to make sense of it all and to write a “human account” of some of these claimed proofs. In my case, while some of the results have hit pretty close to home, and while some of these colleagues are very much well-intentioned, I have decided not to take part in any such initiative.</p>
+<p>First of all, I do not wish to be part of what in some cases would amount to free publicity and free refereeing for OpenAI, contributing to the false narrative being pushed that this company is now actively collaborating with the mathematical community. A second reason is that in organising ourselves in such a way and at such a scale, we implicitly accept this new division of labour, where proof-production can become completely decoupled from any form of proof-comprehension, and where this dehumanized proof-production process becomes increasingly tied with an arms race for computing resources. I think this is unsustainable on many levels, and it is also simply not the future that I wish for our community and for our shared mathematical practice.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>昨天公告之后，我们中的许多人都震惊不已，不知道如何适应新局面。已经有同行呼吁组织国际阅读小组和研讨会，理解这些论文，并为其中一些声称成立的证明写出“人类可以理解的阐述”。就我个人而言，尽管部分结果与我的研究密切相关，部分倡议者也完全出于善意，我仍决定不参与。</p>
+<p>首先，我不想成为 OpenAI 免费的宣传员或审稿人，帮助传播一种不真实的叙事：这家公司正在积极与数学共同体合作。其次，如果我们如此大规模地组织起来，就相当于默认接受了一种新的劳动分工：证明的生产可以与任何形式的理解完全脱离，而这一去人性化的生产过程越来越依赖对计算资源的军备竞赛。我认为这种模式在多个层面都不可持续，而且这根本不是我希望数学共同体及我们共有的数学实践走向的未来。</p>
+<hr>
+<h3>14. Baptiste Serraille</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>After seeing the huge advances posted today, I decided that I needed to try out ChatGPT extensively for the first time. Most of the time I do not give it my own ideas, I am too afraid of them transiting through ChatGPT to other users or OpenAI itself and losing my grip on them. Thus, I decided to try it on open problems of the fields or on projects that I will not have time to try on the short/medium term. Eventually, one of the problem did fall and it seems that a project that I had envisioned might also give something. I am both amazed at the results and the technological advances and scared at the fact that the pace is much higher than I can keep up with. I am also not happy to write a nice paper about ideas that are not mine and do it mostly because I believe that the field will benefit from it.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>看到今天公布的巨大进展，我决定第一次广泛尝试使用 ChatGPT。过去多数时候我不把自己的想法给它，因为我害怕这些想法经由 ChatGPT 流向其他用户或 OpenAI 自己，让我失去掌控。因此我改用它尝试领域中的开放问题，或者短期、中期内自己没有时间做的项目。结果其中一个问题真的被解决了，而我原先设想的项目似乎也可能有所收获。</p>
+<p>我既惊叹于成果和技术进展，又害怕它们的发展速度远快于我所能跟上。我也不喜欢把不是自己想出来的思想整理成一篇漂亮论文；之所以这么做，主要是相信整个领域能从中受益。</p>
+<hr>
+<h3>15. Matt Zaremsky</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>For several years now, the most major component of my general research program has been the Boone-Higman conjecture in group theory, including a series of papers joint with many others in which we’ve been gradually setting up and fine-tuning a nice sufficient condition for a group to satisfy the conjecture. I’d say roughly once per year for the last 4 years we’ve made some sort of big breakthrough that’s pushed the program forward in a strong way. Now this AI company decided the Boone-Higman conjecture had gotten famous enough that they should spike the ball, so they did. It turns out our sufficient condition always works, and the main mechanism we were missing was morally quite similar to the thing that was our 2025 breakthrough (extremely roughly speaking, the key is affine-like actions of things). So, apparently we were really on to something, and it’s believable we could have gotten there in another year or two.</p>
+<p>So, how does that feel? Well, it feels like we’ve been working on an archeological dig for 4 years, gradually discovering more and more of a really cool-looking dinosaur skeleton, and then a trillion-dollar company showed up and just blasted the whole thing with TNT, handed us the whole skeleton, and walked away. So, I guess I’d say, “not great”.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>过去几年里，我整个研究计划最重要的一部分一直是群论中的 Boone–Higman 猜想。我与许多合作者围绕它发表了一系列论文，逐渐建立并完善一个群满足该猜想的充分条件。过去四年大约每年我们都有一次重大的突破，有力推动了整个计划。现在，这家 AI 公司觉得 Boone–Higman 猜想已经足够出名，便来把球踢进了球门。结果是，我们提出的充分条件总是成立，而我们缺失的核心机制在思想上竟然与2025年的突破十分接近（极其粗略地说，关键是某些对象的类仿射作用）。显然我们走在正确的路上，完全有理由相信，再有一两年我们就可能自己得到结论。</p>
+<p>那么，这是什么感受？就像我们连续四年参与一场考古发掘，逐步找到一副越来越完整、看起来非常酷的恐龙骨架；然后一家万亿美元公司突然出现，用 TNT 炸药把整个现场炸开，把完整的骨架交到我们手里，转身离开。所以，我只能说，“感觉不太好”。</p>
+<hr>
+<h3>16. Ilya Kazachkov</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Firstly, beyond the scorched earth that the announcement leaves behind, its magnitude indicates that the changes to our profession are likely to be very profound. There are many questions covering all aspects of our work that we, as a community, will need to answer. Many of them have been raised in the media, including on this blog: What does it mean to do a PhD in mathematics? How will publishing, evaluation, hiring, and funding work? What is the role of mathematical research in society?</p>
+<p>As for research, the most intriguing question the AI revolution seems to bring is in what constitutes a “good” mathematical problem. In particular, we will need to understand what types of problems, if any, can be solved by a human (and AI), but not by AI with little human intervention.</p>
+<p>In turbulent times, panicking is the worst strategy. Whatever answers we inevitably come up with, after a period of uncertainty and anxiety, things will settle. I believe we will adapt, and the profession will live on in the new normal.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>首先，抛开这次公告留下的满目疮痍不谈，其规模本身就表明，我们这个职业很可能将发生极其深刻的变化。作为一个共同体，我们需要回答许多涉及工作各个方面的问题。其中不少已经出现在媒体和这个博客上：攻读数学博士学位今后意味着什么？论文发表、学术评价、招聘和科研资助将如何运作？数学研究在社会中究竟扮演什么角色？</p>
+<p>就研究而言，这场 AI 革命带来的最有意思的问题，或许是究竟什么才算一个“好”的数学问题。尤其需要弄清，是否还存在某些问题，人类（可以借助 AI）能够解决，而几乎没有人类介入的 AI 却解决不了。</p>
+<p>在动荡时期，恐慌是最糟糕的策略。无论我们最终找到怎样的答案，在经历一段不确定和焦虑之后，局面总会稳定下来。我相信我们能够适应，这个职业也会在新的常态中延续。</p>
+<hr>
+<h3>17. Mark Hagen</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I have received emails from early-career colleagues who have asked my advice on other matters in the past, who currently seem very understandably distressed by these developments and the uncertainty they create, and are asking for advice again (or for some reassurance, or something). Today, I have prioritised trying to figure out what to say to them over reading any of the OpenAI preprints in detail, so I don’t have any useful comments on the content. I still don’t know how to answer those requests for advice, either (yet).</p>
+<p>But irrespective of how interesting we might find some of these developments mathematically, I think the manner of their release reveals we’re clearly confronted with a bad-faith (human-institutional) actor here, whose interests are not aligned with my understanding of the point of scientific research (or any other worthwhile human pursuits).</p>
+<p>I am worried about people that do mathematics, about my friends and colleagues, and about cultural practices (like doing mathematics) to which I attach importance. I’m even more worried about AI possibilities that are more general than mathematics: economic dislocation, degraded collective human capacities, supercharged exploitation and ecological collapse, new and terrifying means of repression and violence, etc. Mathematics has a reputation in our culture for being difficult and intimidating; evidently OpenAI have decided this renders our shared human endeavour a suitable vehicle to hijack as a display of power.</p>
+<p>In any case, it seems like a situation in which it’s very easy to get confused or overwhelmed. This is a community that takes pride in being relatively tightly-knit and able to have productive collective discussions. This seems to be a test of those hypotheses.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我收到了一些职业生涯尚处早期阶段的同行发来的邮件。他们过去曾就其他事情征求过我的意见，如今对这些发展及其造成的不确定性显然深感不安，又来寻求建议——或许只是希望获得一点安慰。因此，今天我把更多时间用于思考应该对他们说些什么，而没有仔细阅读 OpenAI 的任何预印本，所以我无法就论文内容提出有用的评论。至于怎样回答他们的问题，我现在仍然没有头绪。</p>
+<p>不过，无论我们觉得其中某些数学进展多么有趣，我认为这次发布的方式清楚表明，我们面对的是一个缺乏善意的行动者——一个由人组成的机构，其利益与我所理解的科学研究（乃至任何有价值的人类事业）的目的并不一致。</p>
+<p>我担心从事数学研究的人，担心我的朋友和同事，也担心数学研究这类我所珍视的文化实践。我更加担忧 AI 在数学之外的广泛影响：经济结构的剧烈调整、人类集体能力的退化、进一步加剧的剥削和生态崩溃，以及新的、令人恐惧的压迫与暴力手段，等等。数学在我们的文化中素有艰深难懂的名声；显然，OpenAI 认为这使我们共同的人类事业适合被劫持为一场力量展示。</p>
+<p>无论如何，在这样的局面下，人们很容易陷入困惑、感到不堪重负。数学共同体一向以联系紧密、能够开展富有成效的集体讨论而自豪。如今，这些认识恐怕要接受一次检验。</p>
+<hr>
+<h3>18. Cyril Houdayer</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Like many of my friends in operator algebras, I was shocked by the scale of the results announced by OpenAI. Two of these problems are particularly dear to my heart, because I have spent so much time thinking about them and working on them.</p>
+<p>Connes’ rigidity conjecture was one of my favourite problems. Part of the sway it had on me, until the late 2010s, was due to the fact that it seemed to be completely out of reach. Even Sorin Popa’s deformation/rigidity theory did not offer a way to tackle it. In joint work with Rémi Boutonnet, we began studying higher-rank lattices using von Neumann algebraic methods. Our noncommutative version of the Nevo–Margulis–Zimmer theorems provided a conceptual framework for trying to recover the rank of a lattice from its von Neumann algebra. I pursued this direction through noncommutative boundary theory, uncovering some interesting rigidity phenomena and pushing hard towards rank recovery.</p>
+<p>I did not solve the conjecture, but I had come to believe that a frontier model from OpenAI might do so, and I had been mentally preparing for that possibility. I had made my peace with it. Now I am genuinely thrilled by the announced solution, and I want to understand the proof. I look forward to gathering my PhD students and postdocs to study it together during the IHP programme « Operator Algebras: Approximation, Rigidity and Dynamics ».</p>
+<p>Working on this conjecture meant a great deal to me, even though I did not solve it. It led me into the mathematics of Furstenberg, Margulis and Zimmer. I made new friends and discovered connections between operator algebras and discrete subgroups of Lie groups. Those experiences remain meaningful to me, and I am excited about the new connections that may emerge.</p>
+<p>Connes’ bicentralizer problem has a different history for us, and there is an important clarification to make. This problem has played a central role in the structure theory of type III von Neumann algebras. Amine Marrakchi and I began working on it more than ten years ago, and Amine subsequently developed a substantial collection of tools and techniques to attack it. Recently, we returned to the problem from a rather indirect direction. In our joint work from September, we solved it for all type III_1 factors. The solution emerged as a consequence of a result about the bicentralizer of a flow on a type II_1 factor, within a broader classification theorem.</p>
+<p>The proof announced by OpenAI builds on the methods developed in Amine’s earlier work and on the resonance mechanism we discovered together. Our recent work settled the nonrelative version of the bicentralizer problem. OpenAI’s result extends ours by establishing the relative version.</p>
+<p>These announcements have shaken our community. I understand why many colleagues, especially younger ones, find this moment difficult, and my excitement about the mathematics does not make that unease disappear. I hope we can talk openly about both feelings. For me, the immediate response is to learn the proofs, discuss them with students and colleagues, and keep exploring the mathematics together.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>和算子代数领域的许多朋友一样，我被 OpenAI 宣布的成果规模震惊了。其中有两个问题对我尤其重要，因为我曾花费大量时间思考和研究它们。</p>
+<p>Connes 刚性猜想曾是我最喜欢的问题之一。直到2010年代后期，它对我的吸引力部分来自于它似乎完全遥不可及。即使 Sorin Popa 的形变／刚性理论，也没有为攻克它提供可行途径。我与 Rémi Boutonnet 合作，开始用冯·诺依曼代数方法研究高秩格。我们对 Nevo–Margulis–Zimmer 定理的非交换版本，为尝试从格的冯·诺依曼代数恢复其秩提供了概念框架。我沿着非交换边界理论的方向继续探索，发现了一些有趣的刚性现象，并努力推进秩的恢复问题。</p>
+<p>我没有解决这个猜想，但后来我越来越相信，OpenAI 的前沿模型或许会解决它，也一直在心理上为这种可能性做准备。我已经接受了这个结果。现在，我确实对公布的解答感到兴奋，而且想要理解其证明。我期待在 IHP 的“算子代数：逼近、刚性与动力学”项目期间，组织博士生和博士后一起研究它。</p>
+<p>尽管我没有解决这个猜想，研究它对我仍意义重大。它让我走进 Furstenberg、Margulis 和 Zimmer 的数学世界，结识了新朋友，并发现算子代数与李群离散子群之间的联系。这些经历对我仍有意义，而我也期待未来可能出现的新联系。</p>
+<p>Connes 双中心化子问题对我们有着不同的历史，这里需要作一个重要澄清。这个问题在 III 型冯·诺依曼代数的结构理论中一直居于核心地位。十多年前，我与 Amine Marrakchi 开始研究它，此后 Amine 发展了大量用于攻克该问题的工具和技术。最近，我们从一条相当间接的路径重新回到这个问题。在9月份的合作研究中，我们解决了所有 III₁ 型因子的这一问题。我们的结论源于一个关于 II₁ 型因子上流的双中心化子的结果，而它又属于一个更广泛的分类定理。</p>
+<p>OpenAI 公布的证明建立在 Amine 早期研究发展出的方法，以及我们共同发现的共振机制之上。我们最近的工作解决了双中心化子问题的非相对版本，而 OpenAI 的结果将其扩展到了相对版本。</p>
+<p>这些公告震动了我们的共同体。我理解为什么许多同事，尤其是年轻同事，在这个时刻感到难受。我对数学成果的兴奋，也不会消除这种不安。我希望我们能够坦诚谈论这两种感受。对我而言，眼下最直接的回应就是学习这些证明，与学生和同事讨论，继续共同探索数学。</p>
+<hr>
+<h3>19. Danny Calegari</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>About 15 years ago my experience with the lack of interest of the mathematical community in what I was discovering in the theory of stable commutator length in free groups (see <a href="https://www.quantamagazine.org/how-failure-has-made-mathematics-stronger-20240522/">https://www.quantamagazine.org/how-failure-has-made-mathematics-stronger-20240522/</a>) led me to a resolution: from then on I would only work on what interested me. If I wanted to prove a theorem I’d prove a theorem. If I wanted to draw a picture I’d draw a picture. I’ve paid a (small in my opinion) price for this in the sense that I don’t think many people read my papers. On the plus side this means that OpenAI didn’t solve any problem that I was working on. They settled a couple of questions that I was curious about, but not enormously, and not in a way that was tied to my own sense of self.</p>
+<p>The project that I am currently most excited about is the theory of higher dimensional zippers, and the most exciting aspect of it is that it’s now become possible to draw pictures (really: animations). One thing I love about some parts of mathematics (the Langlands program is an example) is that it’s not just a collection of theorems and conjectures; it’s a framework, and a story. I’ve always tried to look for the underlying story in my research (at least for the last 15 years). OpenAI hasn’t ruined that, at least for me (yet). Another example: a framework like Sullivan’s dictionary is more important than the top 100 papers in holomorphic dynamics (including Sullivan’s papers). In my own research, following the lead of Sullivan’s dictionary, I have just discovered the analog in the holomorphic dynamics world of a finite depth foliation: it’s a grafting of carpet wheels! Even naming this is exciting for me! Writing down the definitions and proving the theorems is the next step, but the reason (for me) to do that step is so that I can write some programs and draw pictures/animations.</p>
+<p>Anyway: people do math in lots of different ways for lots of different reasons. I honestly think there will be more ways to do math in the future, not fewer. For the curious, the following movie (<a href="https://math.uchicago.edu/~dannyc/gallery/cs_zippers_movie.mp4">https://math.uchicago.edu/~dannyc/gallery/cs_zippers_movie.mp4</a>) is what I am currently ecstatic about; it’s a zipper in S^3 associated to an arithmetic complex hyperbolic lattice, following some ideas of Isenrich-Py. The zipper is linked, and this reflects the fact that there is a circle valued Morse function with critical points but they are all in the middle dimension (2). I love this! I am currently collaborating with a musician to set it to music. It was produced by code that was written by Claude, generalizing code (and an algorithm) that I originally came up with in the 2d setting. If that’s not worth celebrating I don’t know what is.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>大约15年前，我研究自由群中稳定交换子长度理论时，发现数学界对我的发现缺乏兴趣（参见原文所附的 Quanta Magazine 文章）。那段经历让我下了一个决心：从今以后，我只研究自己感兴趣的东西。想证明定理，就去证明；想画图，就去画图。为此我付出过一些代价——在我看来代价不大——比如我认为并没有多少人阅读我的论文。但好处是，OpenAI 没有解决我正在研究的任何问题。它回答了几个我有些好奇的问题，但那些问题对我并非特别重要，也没有与我的自我认同紧密相连。</p>
+<p>目前最让我兴奋的项目是高维“拉链”理论，其中最激动人心的进展，是如今终于可以画出图像——准确地说，是动画了。我喜欢数学中的某些领域（例如朗兰兹纲领），因为它们并非一堆定理和猜想的集合，而是一个框架、一段故事。至少在过去15年里，我一直尝试寻找研究背后的故事。OpenAI 尚未毁掉这一点——至少对我来说暂时如此。再举个例子：像 Sullivan 字典这样的框架，比全纯动力学领域最重要的100篇论文（包括 Sullivan 自己的论文）还重要。在自己的研究中，沿着 Sullivan 字典的思路，我刚刚发现全纯动力学世界中与有限深度叶状结构对应的对象：一种“地毯轮”的嫁接结构！光是给它命名，就令我兴奋。接下来要写下定义、证明定理，但我之所以想做这些，是为了编写程序，画出图像和动画。</p>
+<p>无论如何，人们出于各种不同的理由，以各种不同的方式研究数学。我真心认为，未来做数学的方式会更多，而不会更少。有兴趣的人可以看看原文链接的短片：那是我目前兴奋不已的成果，一个与算术复双曲格相关联的三维球面 $S^3$ 中的“拉链”，源于 Isenrich–Py 的一些思想。这个拉链彼此环连，反映出存在一个取值于圆周的 Morse 函数：它有临界点，但全都处于中间维数（2维）。我太喜欢了！我正与一位音乐家合作，打算给这段动画配乐。它由 Claude 编写的代码生成，扩展了我原先在二维情形中提出的代码和算法。如果连这都不值得庆祝，我真不知道还有什么值得庆祝。</p>
+<hr>
+<h3>20. Vadim Alekseev</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I got really impressed by the resolution of the free factor problem (the von Neumann algebras of free groups are all isomorphic to each other), since I had been wrong about the expected outcome: I thought they rather should be non-isomorphic, since the parallel evidence from measured group theory (in my opinion) rather pointed there (via L2-Betti numbers); also, simultaneously the fact that the von Neumann algebras of SL(n,Z) are non-isomorphic justifies this line of thinking! So to me it is exciting: we now have to figure out what exactly still remains parallel between measured group theory and operator algebras, and what diverges and why.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>自由群因子问题的解决令我印象深刻（即自由群的冯·诺依曼代数彼此都同构），因为我先前对预期结论的判断错了。我原以为它们更可能不同构：在我看来，可测群论中的平行证据，特别是通过 $L^2$-Betti 数得到的证据，更支持这种判断；与此同时，$SL(n,\mathbb Z)$ 的冯·诺依曼代数彼此不同构，也似乎为这种思路提供了理由！</p>
+<p>所以我感到兴奋：我们现在必须弄清楚，可测群论与算子代数究竟在哪些地方仍然保持平行，在哪些地方开始分道扬镳，以及为什么会这样。</p>
+<hr>
+<h3>21. Tristan Humbert</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I woke up this morning to an email of a collaborator informing me that Open AI announced a proof of Katok’s entropy conjecture, a three-decades old open problem which was the subject of my PhD and more generally the main motivation of my research. The conjecture was settled by Katok for surfaces and mostly open in higher dimension. The main project of my thesis was to prove a local version of the conjecture near complex hyperbolic metrics. After this I was planning on attacking the conjecture more globally. Open AI claimed a proof of the conjecture in full generality this morning and my first impression was sadness to see my favorite problem get “killed” by AI ; it is definitely easier to ignore a problem when it does not affect you directly. Next, I felt stressed because I am currently applying for postdocs and more of my research plan was now obsolete and I spent the whole morning rewriting everything and sending emails to my advisors in panic. Finally, I felt anger after opening the paper and observing that it was mostly unreadable slop. The sane reaction would have just been to ignore the paper but I think I care too much about the problem to act as if it did not exist. The only conclusion I can make right now is that Open AI’s standards for mathematical publication is far too low and is harming mathematical research maybe in an irreversible way and that the mathematical community, motivated by genuine scientific curiosity, is accepting to work for free in order to “validate” these unreadable proofs.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天早晨醒来，我收到一位合作者的邮件，得知 OpenAI 宣布证明了 Katok 熵猜想。这是一个悬而未决约30年的问题，也是我博士研究的主题，更广泛地说，是我整个研究工作的主要动力。</p>
+<p>Katok 已经解决了曲面上的情形，但高维情形基本仍然开放。我博士论文的主要项目，是证明该猜想在复双曲度量附近的一个局部版本。之后我本打算在更一般的范围内攻克它。今天早晨，OpenAI 声称在完全一般的情形下证明了这一猜想。我最初感到悲伤：自己最喜欢的问题竟被 AI“杀死”了；显然，当一个问题不直接涉及自己时，忽略它要容易得多。</p>
+<p>接下来我感到焦虑，因为我正在申请博士后岗位，而我的研究计划中有更多内容突然过时了。我整个上午都在重写材料，并惊慌地给导师们发邮件。</p>
+<p>最后，我打开论文，发现它基本上是一堆难以阅读的粗制内容，于是又感到愤怒。理性的反应本该是直接忽略它，但我对这个问题太在乎了，无法假装它不存在。</p>
+<p>眼下我唯一能够得出的结论是：OpenAI 的数学成果发表标准低得过分，正在伤害数学研究，而且可能造成不可逆的损害；而真正出于科学好奇心的数学共同体，却正在接受无偿劳动，替他们“验证”这些根本读不下去的证明。</p>
+<hr>
+<h3>22. Tim Gehrunger</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I was very curious to finally see the statement drop from OpenAI. I am not sure what they could have possibly done to meet my expectations, but I was at first slightly underwhelmed by what was in there, especially given the results in my own field of arithmetic geometry.</p>
+<p>Of course a lot of the other work is impressive, and in some fields of mathematics such as combinatorics several of the main conjectures of the field appear to have been resolved, likely changing the way these fields will go in the future.</p>
+<p>One thing that I found striking is that many of the articles were not as polished as one may have liked, with articles citing removed supporting manuscripts, missing citations of relevant prior work alongside minor mistakes (that I would strongly expect an AI to catch). This is something that a more elaborate workflow with dedicated agents for review, correct attribution and literature acknowledgements would have very likely caught. I hope future releases will use such a system to improve polish and to make sure that attribution for earlier results is given.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我一直非常好奇 OpenAI 最终会公布怎样一份成果清单。我也不确定他们到底要做到什么程度才能符合我的期待，但最初看到清单时，我其实略感失望，尤其是其中与我自己的算术几何领域相关的结果。</p>
+<p>当然，其他许多工作令人印象深刻。在组合数学等一些领域，数个核心猜想似乎已被解决，这很可能改变这些领域未来的发展方向。</p>
+<p>令我尤其惊讶的是，不少文章都没有达到人们希望看到的完善程度：论文引用了后来被移除的辅助文稿，遗漏了有关先前工作的必要引用，还存在一些小错误——我原本十分期待 AI 能发现这些问题。假如工作流程更加完善，配有专门负责审稿、正确归属和文献致谢的 Agent，极有可能避免这些缺陷。我希望今后的发布能够采用这样的系统，提高论文质量，并确保先前研究得到应有的承认。</p>
+<hr>
+<h3>23. Peter Scholze</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>We should remember that we are all in this together; mathematics is a marathon, not a sprint; and the goal is and always will be the human understanding of mathematics, which will invariably take time.</p>
+<p>What is worrying me the most, at the moment, is actually the (in)security of cryptography. Finding algorithms breaking standard cryptographic protocols is a number theory problem whose difficulty does, to my non-expert eyes, not significantly exceed what these systems are now capable of. And it would have disastrous consequences on society if such an algorithm is found.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我们应当记住，大家都在共同面对这一切。数学是一场马拉松，不是一场短跑；数学的目标始终是、也永远会是<strong>人类对数学的理解</strong>，而这必然需要时间。</p>
+<p>眼下最让我担忧的，其实是密码学的安全与不安全问题。寻找能够攻破标准密码协议的算法，是一个数论问题。以我这个非相关领域专家的眼光来看，它的难度似乎并没有显著超过这些系统当前已经具备的能力。一旦发现这样的算法，将给社会带来灾难性后果。</p>
+<hr>
+<h3>24. Tasmin Chu</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I was working on the
+$p_c &#x3C; p_u$
+problem. I first learned about it in undergrad. There’s a beautiful 1996 paper by Benjamini and Schramm where they conjectured that Bernoulli(p) percolation on every nonamenable quasi-transitive graph has a phase with infinitely many infinite clusters. The converse is true by work of Burton and Keane. I loved this problem so deeply. It said something so beautiful and simple about these highly treelike graphs which had somehow eluded proof in the general case. It’s why I fell in love with percolation theory. Unsurprisingly the OpenAI preprint builds on work of my advisor Tom Hutchcroft and the approach he laid out to me a year ago.</p>
+<p>My grant proposal due next week has to be rewritten. Maybe grant proposals don’t even make sense anymore. I have related results and work that I can talk about instead which were part of an overall research program I had to attack this problem. But I’m afraid to even talk about ongoing work now or do a research “announcement”. I have a high enough profile now I believe it’s not unlikely someone would adversarially try to prompt my result into completion.</p>
+<p>I realize now that what I wanted more than to know that
+$p_c &#x3C; p_u$
+is true was the time and space to think about it for the next few years. I feel a profound sense of grief for the working conditions I believed I would have. No one can take away the beauty and value of mathematical thought from me, but they can effectively disempower me in my own profession. What hurts the most is that OpenAI doesn’t even care about this result. They don’t know that our community, our intellectual thought, our knowledge is a living thing. To be frank, I find myself absolutely disgusted by the society I live in.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我一直在研究 $p_c&#x3C;p_u$ 问题。本科时我第一次听说它。Benjamini 与 Schramm 在1996年发表过一篇优美的论文，其中猜想：对于任何非可和、拟传递图上的 Bernoulli($p$) 渗流，都存在一个相，使得其中包含无穷多个无限簇。Burton 和 Keane 的工作证明了逆方向的结论。我深深热爱这个问题。它以极其优美、简洁的方式描述了这些高度类似树的图，却又始终没有在一般情形下得到证明。正是它让我爱上了渗流理论。毫不意外，OpenAI 的预印本建立在我导师 Tom Hutchcroft 的工作，以及他一年前向我介绍的研究路径之上。</p>
+<p>我下周就要提交的基金申请书必须重写了。也许基金申请如今根本没有意义了。我还有相关成果和工作可以谈，它们原本属于我为攻克这个问题而制定的整体研究计划。但现在，我甚至害怕谈论正在进行的工作，或发布研究“预告”。我认为自己在领域内已经有了一定知名度，有人故意用提示词促使模型抢先完成我的研究成果，这种情况恐怕并非不可能。</p>
+<p>我现在意识到，相比于知道 $p_c&#x3C;p_u$ 为真，我更想要的其实是未来几年里能够静下心来思考它的时间和空间。我为自己以为能够拥有的研究环境的失去，感到深切的悲伤。没有人能够夺走数学思考本身的美与价值，但他们能够实实在在地剥夺我在自己职业中的自主能力。最令我难受的是，OpenAI 根本不在乎这个结果。他们不知道我们的共同体、我们的智力活动、我们的知识是一种活生生的存在。坦白说，我对自己生活在其中的社会感到极度厌恶。</p>
+<hr>
+<h3>25. Terence Tao</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>My feelings on recent developments are very mixed and complex.</p>
+<p>On the one hand, many of the AI-generated proofs appear to introduce clever new ideas that will be fruitful once digested, while also building upon the existing contributions of countless human mathematicians past and present. But at the same time, I am deeply frustrated that, in sharp contrast to traditional breakthroughs, none of the humans involved in these proofs are available to take questions, give talks, attend conferences, submit papers to journals, train students, or otherwise participate in the subsequent development of these results.</p>
+<p>Similarly, I am excited by the possibility of the community being able to use these tools to tackle ambitious and large-scale projects that one could not have even dreamed of in the past. But I am horrified by the many person-years of ongoing patient and deliberately slow research efforts – particularly by graduate students and postdocs – towards many motivating problems in mathematics being casually disrupted or destroyed by such a release. Much as one cannot unhear a movie spoiler or a crossword clue, one cannot explore a problem as profitably and richly once one is aware of an existing solution. Yes, one can still analyze and digest such an answer; but the best opportunity to do so is at the moment of its discovery, and such moments are increasingly wasted when delegated entirely to AI tools.</p>
+<p>And I mourn the path not taken, and the opportunities lost in the frantic race to develop this technology. Labs submitting their frontier models to independent researchers for proper scientific evaluation. Coordination with the research community to ensure these tools are applied to complement and enhance the abilities and activities of human researchers, rather than compete with them. Use of these tools to foster collaboration and sharing, rather than competition and secrecy. Opening new doors, without closing old ones.</p>
+<p>But that is not the path we now find ourselves in. Instead, the community needs to come together more than ever. To clearly declare our own standards and values, to build our own tools and practices, to support our most vulnerable members, and to chart our own path forward. Let’s get to work.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我对近期事态发展的感受极其复杂，甚至彼此矛盾。</p>
+<p>一方面，许多 AI 生成的证明似乎引入了巧妙的新思想，一旦得到消化理解，这些思想可能会十分有价值；同时，它们也建立在无数过去和现在的人类数学家已有贡献之上。但另一方面，我深感沮丧：与传统的数学突破形成鲜明对比的是，参与产生这些证明的人当中，没有任何人能够出面接受提问、作学术报告、参加会议、向期刊投稿、培养学生，或者以其他方式参与这些成果的后续发展。</p>
+<p>同样，我对数学共同体未来利用这些工具开展过去连想都不敢想的宏大项目感到兴奋。但与此同时，我又对大量持续了许多年、需要耐心且有意放慢速度推进的研究——特别是研究生和博士后围绕数学重要问题所做的工作——竟会因为这样一次发布而被轻率地打乱甚至摧毁感到震惊。就像电影被剧透后无法再假装没听过，或者填字游戏的线索已经泄露之后无法重新回到先前状态一样，一旦知道某个问题已有解答，就无法再以同样丰富、同样富有收获的方式探索它。是的，人们仍然可以分析和理解答案；但最适合进行这一活动的时刻，恰恰是答案最初被发现的时刻，而如今这些时刻被完全交给 AI 工具时，机会越来越多地白白流失。</p>
+<p>我还为我们没有走上的那条道路，以及在疯狂竞逐技术发展的过程中失去的机会而悲伤。本来可以让 AI 实验室把前沿模型交由独立研究者进行规范的科学评估；本来可以与研究共同体协调，让工具补充、增强人类研究者的能力和活动，而非与之竞争；本来可以利用这些工具促进合作与共享，而非竞争和保密；本来可以打开新的大门，却不关上旧的大门。</p>
+<p>但我们如今走上的并不是这条路。因此，数学共同体比以往任何时候都更需要团结起来：明确宣示我们自己的标准和价值，建设自己的工具和实践方式，支持最脆弱的成员，并自主决定前进的方向。让我们开始行动吧。</p>
+<hr>
+<h3>26. Elia Fioravanti</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>While I feel a degree of excitement at seeing resolved some problems I considered almost inapproachable, this is overshadowed by grief and resentment at seeing a tombstone placed over many of the most promising and exciting directions in our field, where human solutions were well within reach in just a couple of years. I hope those working on those problems don’t give up on their work, we could still learn a great deal from it.</p>
+<p>I also hope our community come together to digest the new results, senior and young mathematicians alike, regardless of attitudes on LLM use. The goal should not, however, be the writing of preprints containing insights developed through this process, unless the endeavour is supported with substantial funds contributed by AI companies.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>看到一些我原以为几乎无从下手的问题得到解决，我当然有几分兴奋。但这份兴奋被悲伤与怨愤压倒了：我们领域中许多最有希望、最激动人心的研究方向仿佛被立上了墓碑，而人类研究者原本只需要再过一两年就很有可能得到这些解答。我希望正在研究这些问题的人不要放弃，我们依然可能从他们的工作中学到很多。</p>
+<p>我也希望，无论对大语言模型持何种态度，年轻与资深的数学家都能携手理解这些新成果。不过，除非 AI 公司为此提供实质性的经费支持，否则，这项工作的目标不应当是把研究中产生的见解写成一篇篇预印本。</p>
+<hr>
+<h3>27. Srivatsav Kunnawalkam Elayavalli</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I was initially surprised when I saw the resolution to the free group factor problem. I thought that the free group factors ought to be non-isomorphic, and tried hard for a number of years to prove it in this direction. In any case, I am now fully convinced that theorems/proofs have almost entirely lost their currency in the profession. We will have to prioritize human understanding, and device methods to reward and incentivize this. Repeatedly posting AI generated and verified manuscripts achieves nothing but frustration and disorientation. As I said in my previous Proofs and Prompts article, my goal in this profession is to enhance my manodharma. Right now I am having plenty of enjoyment, I am spending all my time preparing the course I am teaching on “free C*-algebras”. I have excellent students who are very interested in the material. I have no interest in derailing myself and engaging in AI-induced indigestion by starting to read the tsunami of results from OpenAI at this moment.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>最初看到自由群因子问题被解决时，我非常惊讶。我原本认为自由群因子应该彼此不同构，还花费了数年努力尝试沿这一方向证明。无论如何，我现在完全确信：定理和证明在这个职业中的“通货价值”几乎已经彻底丧失。我们必须优先重视人类理解，并设计相应的奖励与激励机制。反复发布 AI 生成并经过验证的手稿，只会带来挫折与迷茫。</p>
+<p>正如我在此前发表于 Proofs and Prompts 的文章中所说，我在这个职业中的目标是提升自己的 <em>manodharma</em>（心智修养与创造性修习）。现在我依然乐在其中：我把所有时间都投入到准备一门“自由 $C^*$-代数”的课程上。我的学生非常优秀，也对课程内容充满兴趣。我没有兴趣让自己偏离目前的方向，去阅读 OpenAI 这场成果海啸，陷入由 AI 引发的“消化不良”。</p>
+<hr>
+<h3>28. Yang Li</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Assuming that these proofs are correct, I must say that I am very impressed about these results, and if these results are properly understood, they may greatly accelerate the progress of maths. My main concern is sociological in nature. In particular, I feel that PhD students and postdocs are the most vulnerable group in an age of radical change, and the community needs to find a way to protect the younger generation. I also think that given the power of the technology, computational resources should be made more equally accessible.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>假如这些证明都是正确的，那么我必须承认，这些成果令我十分震撼。如果它们能得到适当理解，也许会极大加速数学的发展。</p>
+<p>我主要的担忧属于社会层面。尤其是，我认为在这种剧烈变化的时代，博士生和博士后是最脆弱的群体，数学共同体需要找到保护年轻一代的方法。同时，考虑到这项技术的威力，计算资源也应当获得更加平等的使用机会。</p>
+<hr>
+<h3>29. Michael Chapman</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I was amazed by the scale and breadth of the recent results coming out of OpenAI in their announcement. A few problems, such as the refutations to the Kaplansky conjectures, the existence of non-residually finite hyperbolic groups, bounded degree coboundary expanders in all dimensions, and the unique games conjecture were all problems “I grew up on” – namely, I learned about them quite early in my studies and was fascinated by them for years (and also worked on some of them extensively). I mostly want to sit down and read as much as I can, to sort out the main ideas and to study the results. This is quite humbling, and as a young researcher also disorienting. Nevertheless, I am more excited than afraid, and hope the mathematical community at large, and my own research community at the smaller scale, will grow stronger out of this.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>OpenAI 此次公告所呈现的成果规模和广度令我惊叹。其中一些问题——例如对 Kaplansky 猜想的否定、非剩余有限双曲群的存在性、各个维数中有界度上边界扩张子的存在，以及唯一博弈猜想——都是伴随我学术成长的问题。我在求学早期就了解到它们，长期为之着迷，也曾深入研究其中一些。</p>
+<p>我现在最想做的，是坐下来尽可能多地阅读、梳理核心思想并研究这些成果。这既令人谦卑，对我这样一位年轻研究者来说也令人失去方向。不过，我的兴奋仍然多于恐惧，也希望整个数学共同体，以及我自己所属的小研究圈子，都能在这次冲击后变得更强大。</p>
+<hr>
+<h3>30. Constantin Kogler</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>11 days ago, I witnessed GPT-6 Astra solve one of the best-known questions in my area. Excited by the stunning proof, I teamed up with a longstanding collaborator to rewrite and rethink the solution. After numerous days of hard work, we had a nearly finished paper by Monday. The same conjecture was claimed as Paper 148 by OpenAI on Tuesday. My collaborator wanted to publish on Tuesday, yet I wanted to check some aspect of the literature more thoroughly.</p>
+<p>After the initial shock of the announcement, I personally didn’t feel strongly affected by the claimed solution of OpenAI soon afterwards. The key idea was anyhow by Astra. We published our paper on the arXiv on Wednesday. Had the main idea of the paper been our own, it would have been by an order of magnitude our best result. I was excited that we were involved in mathematics of that level and were probably the first humans to understand the solution. I hope others will write their own viewpoint on the proof, so that we will have several expositions with different perspectives.</p>
+<p>Paper 153 is also on a question I deeply care about. I am sure I can write a clearer explanation than OpenAI did. So I look forward to understanding what happened and to expressing, hopefully with collaborators, our viewpoint on this profound piece of mathematics.</p>
+<p>Yes, machines with such capabilities will change everything. Not only for mathematics but also for the world. I have sympathy for many of my colleagues being upset by this, especially those who already had stunning results themselves or outstanding work in preparation. For myself, I can’t help but feel like living in a mathematical wonderland with the next field-defining idea being discovered whenever I am ready for it.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>11天前，我亲眼见证 GPT-6 Astra 解决了我所在领域最著名的问题之一。那个惊人的证明让我兴奋不已，于是我与一位长期合作者一起重写和重新思考解答。经过许多天的艰苦工作，到周一我们已经基本完成了一篇论文。周二，OpenAI 将同一个猜想列为第148号论文并声称已经解决。我的合作者希望周二就发表，但我想再更彻底地核查一部分文献。</p>
+<p>公告发布后的最初震惊过去不久，我个人就不再特别介意 OpenAI 声称解决了这个问题。毕竟关键思想本来就是 Astra 提出的。我们周三在 arXiv 上发表了论文。如果论文的主要思想出自我们自己，它原本会以一个数量级的优势成为我们最好的成果。我感到兴奋的是，我们参与了这样高水平的数学研究，而且很可能是最先理解这个解答的人类。我希望其他人也能撰写自己的证明阐释，从而形成多个视角不同的版本。</p>
+<p>第153号论文讨论的也是一个我深切关心的问题。我确信自己能写出比 OpenAI 更清楚的解释，因此期待弄明白其中发生了什么，并希望能与合作者一起表达我们对这项深刻数学成果的理解。</p>
+<p>是的，具备这种能力的机器将改变一切，影响不仅限于数学，也将波及整个世界。我理解许多同事因此心烦意乱，特别是那些已经取得惊人成果，或者正在准备重要工作的研究者。但就我个人而言，我忍不住觉得自己仿佛生活在数学仙境中：每当我准备好迎接下一项重要发现时，足以重新定义一个领域的新思想就会出现。</p>
+<hr>
+<h3>31. Andreas Thom</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Right now I feel proud that the mathematical community laid the foundation of such a terrific development. Let’s see how it feels tomorrow; we have to answer some serious questions. But in any case, we have enough to read for the coming winter.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>此时此刻，我感到自豪：数学共同体为这样惊人的技术发展奠定了基础。看看明天这种感觉会不会改变吧；我们还有一些严肃的问题必须回答。不过无论怎样，未来这个冬天，我们有足够多的东西可读了。</p>
+<hr>
+<h3>32. Anna Chavez Caliz</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Today I’m standing in a more optimistic side. We had a very stimulating and engaging conference last week, here in Cuernavaca. It was clear to me, more than ever, that an essential part of our job is not to be alone in an office, in front of a blackboard, or writing papers for only a small fraction of the population. I appreciated having the chance to remind myself that we still have the power to be excited about math when we go out and talk to others. As Tolstoy said, the enjoyment lies in the search for truth, not in the finding it.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天我更偏向乐观。上周我们在库埃纳瓦卡举行了一场非常有启发性、交流十分活跃的会议。那让我比以往任何时候都更清楚地认识到：我们的工作中有一个不可缺少的部分，就是走出办公室，离开黑板，也不只是为了极少数人撰写论文。</p>
+<p>能够借此提醒自己：走出去与其他人交谈时，我们依然能够被数学激起热情，这让我非常感激。正如托尔斯泰所说，乐趣来自对真理的寻找，而非得到真理的那一刻。</p>
+<hr>
+<h3>33. Tobias Osborne</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I have been closely following LLM capabilities for a good year now, and thought I was more or less acclimated (numb) to the pace of progress. Although I am not completely surprised, it is hard not to feel more than a little overwhelmed by OpenAI’s mathdump today. It is impossible to properly unpack all of this in a paragraph, especially so early, but I wanted to record a couple of thoughts: (1) So far I have only looked at a couple of the contributions close to my heart. I am struck by how recognisable the individual parts are. The wilder creativity lies in their counterintuitive composition. I would probably have given up on these combinations, or talked myself out of trying them. I am extremely curious to hear what experts make of the more significant problems. One feature I looked for seems absent: undecipherable “alien artifact” ideas and methods. The arguments are presented in prose and, although rough, seem approachable. (2) I think it is the right call to simply share all this stuff in the open: cognition is now abundant, and we should lobby for this resource to be made freely available as widely as possible. (3) I would caution that LLMs have in no way “solved all of mathematics”, any more than they have “solved all of software engineering”. Their capabilities are very spiky, and if you use them regularly, you know what that means. Undeniably, things are going to change: typing code into a computer with your fingers already feels anachronistic, yet engineering remains challenging. There is so much more to the job of a mathematician than solving problems. I am optimistic that the era of “Big M” Mathematics and “Big P” Physics has now well and truly arrived: we can finally take much more ambitious steps and reconsider the big questions that have driven our fields for centuries. Maybe now we can work together to make meaningful progress on them in our lifetimes.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>过去一年左右，我一直密切关注大语言模型的能力，自以为已经多少适应——或者说麻木于——这种进步的速度。虽然我不算完全意外，但面对 OpenAI 今天倾倒出来的大量数学成果，仍然很难不感到有些不堪重负。此刻还太早，无法在一个段落里充分梳理这一切，但我想记录几点想法。</p>
+<p>（1）到目前为止，我只看了几篇与自己关心的问题密切相关的论文。让我印象深刻的是，其中各个组成部分都如此熟悉。真正出人意料的创造性，体现在以违反直觉的方式把它们组合起来。我自己大概早就放弃尝试这些组合，或者说服自己根本不值得尝试。我非常期待听听专家对更重要问题的看法。我一直留意一件事，却似乎没有发现：那种无法破译的“外星遗物”式新思想或新方法。论证使用自然语言写成，虽然粗糙，但看来仍可理解。</p>
+<p>（2）我认为将所有这些内容公开是正确的决定。认知能力如今已经变得充裕，我们应该争取让这种资源尽可能广泛地免费开放。</p>
+<p>（3）我要提醒大家：大语言模型远远没有“解决全部数学问题”，就像它们并没有“解决全部软件工程问题”一样。它们的能力极不均衡，经常使用这些工具的人都知道这是什么意思。无可否认，事情会发生变化：今天用手指在电脑上敲代码，似乎已经有些过时，但工程工作依然充满挑战。数学家的工作远不止解决问题。我乐观地认为，“大写 M 的数学”和“大写 P 的物理学”时代真正到来了：我们终于能够迈出更加雄心勃勃的步伐，重新审视几个世纪以来推动这些领域发展的重大问题。也许如今我们可以共同努力，在有生之年让这些问题取得实质性进展。</p>
+<hr>
+<h3>34. Mahan Mj</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Was going through the non residually finite group construction put out by OAI today, and it looked to me that there are really two quite different modules in the proof. One purely algebraic and the other geometric. After fiddling around with Astra for some time today, it gave me a reasonable sounding purely group-ring theoretic criterion for non-residual finiteness of a group. It suggested that this might also certify that the group is non-sofic. I have gone through the AI generated proof briefly, but not yet had time to check it thoroughly. At any rate, it looks like this is the one piece of the construction that is relatively new in the sense that it builds on the AI generated non-sofic group from some days back.</p>
+<p>What does seem to be a pity is the following. By and large, the community has not yet had time to really absorb the non-sofic construction from about a month ago. It is quite conceivable that by playing around with that example a number of such criteria would come up over time from different hands. This could lead to a charting of the largely uncharted territory of non-sofic/non-residually finite groups. A consequence would be clarity and understanding–two of the main human reasons for doing mathematics in the first place. The present breakneck speed of things without human understanding compromises precisely this.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天我研究了 OpenAI 公布的非剩余有限群构造。在我看来，这个证明包含两个截然不同的模块：一个纯粹属于代数，另一个属于几何。我与 Astra 反复尝试了一阵子之后，它提出了一个听起来相当合理、纯粹用群环理论表述的群非剩余有限性判据。它还建议，这个判据可能用于证明该群也不是 sofic 群。我已经简略看过 AI 生成的证明，但还没有时间仔细检查。无论如何，这似乎是整个构造中相对新颖的部分，因为它建立在几天前 AI 生成的非 sofic 群之上。</p>
+<p>真正令人遗憾的是：整体而言，数学共同体甚至还来不及真正理解一个月前公布的非 sofic 群构造。完全可以想象，不同研究者如果慢慢研究那个例子，就可能陆续发现一系列这样的判据，由此逐步绘制非 sofic／非剩余有限群这片尚未得到充分探索的领域的地图。其结果将是清晰性和理解——这本来就是人类研究数学的两项主要理由。而眼下这种缺乏人类理解、却以惊人速度推进的局面，损害的恰恰是这些东西。</p>
+<hr>
+<h3>35. Barna Saha</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I’m worried how big corporates are controlling academic research. In one case, an Anthropic employee asked a famous academic from a top university to sign an NDA, offered compensation and authorship to verify a result that many researchers have spent decades working. This is unthinkable in academic research. Authorship to work does not come in this way. In other incident, OpenAI dumps solutions to 772 problems in Math and adjacent fields-many of which are outstanding breakthroughs. General academics don’t have access to their powerful internal models. Publicly available models do not even come close. This creates a huge gap in accessibility and equality. I am seeing a lot of frustrations among students.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我担忧大公司正在控制学术研究。在一个案例中，一位 Anthropic 员工要求某所顶尖大学的一位知名学者签署保密协议，并提出以报酬和论文署名权为条件，请他验证一项许多研究者花费数十年研究的结果。这在学术研究中简直不可想象，论文署名权不应该通过这种方式获得。</p>
+<p>另一起事件中，OpenAI 一口气发布了数学及相邻领域772个问题的解答，其中许多都属于重大突破。普通学者无法使用他们强大的内部模型，公开提供的模型能力远远达不到这一水平。这造成了巨大的可及性和公平性差距。我已经看到许多学生因此感到沮丧。</p>
+<hr>
+<h3>36. Josh Frisch</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>For years now, whenever I’ve met somebody new at a conference, I’ve asked them: “If you could solve any one question, what would it be?” The goal was to get beyond a list of “famous” problems and find out what mathematicians truly cared about. What did we really want to know? Only one person has ever answered “the Riemann hypothesis.”</p>
+<p>Like many other mathematicians, my main emotion thus far in 2026 has been loss: loss of meaning, loss of purpose, loss of the era of human proofs, loss of the ability to picture the future. With the release yesterday, October 6, 2026, of hundreds of beautiful results—many, maybe most, answering someone’s “one question”—I am trying to move beyond loss. There are so many beautiful results here: problems nobody had any approaches for, algorithms nobody thought could possibly exist, unexpected isomorphisms, constructions and proofs. A mathematics built from the echoes and scaffolding of human mathematics, but one that clearly will go beyond it.</p>
+<p>There are, there must be, so many beautiful ideas in this deluge of proofs. If we can learn the answer to our one question, even if the proof did not come from us, even if it did not come from any human being, then we need to try to understand it and to share that understanding with each other.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这些年来，每当我在会议上认识一个新朋友，我总会问：“如果你能够解决任意一个问题，你会选什么？”我想借此越过那份“著名难题”的清单，了解数学家究竟真正关心什么：我们到底想知道什么？只有一个人曾回答“黎曼猜想”。</p>
+<p>和许多其他数学家一样，2026年至今我的主要感受一直是失落：意义的流失、目标的丧失、人类亲自完成证明的时代逝去，以及无法想象未来的样子。昨天，也就是2026年10月6日，数百项优美的成果被发布出来——其中许多，也许绝大多数，都回答了某个人心目中的“那一个问题”。现在，我正努力超越这种失落。</p>
+<p>这里有太多优美的成果：此前根本没有解题路径的问题，人们认为绝不可能存在的算法，出人意料的同构、构造和证明。这种数学建立在人类数学的回响与框架之上，但显然会走得更远。</p>
+<p>在这场证明洪流之中，一定存在着许多优美的思想。如果我们能够知道自己最关心问题的答案，哪怕证明不出自我们自己，哪怕它不出自任何人类，我们都应该努力理解它，并彼此分享这种理解。</p>
+<hr>
+<h3>37. David Fisher</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>No human being should have to respond this quickly. Maybe AI can inspire a slow math movement. If I were cleverer, I would write this as a haiku.1</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>没有任何人应该被要求如此迅速地作出回应。也许 AI 能够启发一场“慢数学”运动。如果我更机灵一些，我会把这句话写成一首俳句。¹</p>
+<hr>
+<h3>38. Martin Bridson</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>The scope of last night’s announcement is truly breathtaking. Until very recently, I would not have imagined that the frontiers of mathematics could move so far in one day. Beyond the remarkable list of problems that appear to have been solved, I am deeply impressed by the diverse forms of reasoning sketched in the documents that accompany the announcement.</p>
+<p>These announcements will be exciting for many, frightening for others, and devastating for some.</p>
+<p>Let me start with the case for excitement. Where there is excitement, it will surely derive not from the closing of open problems but from the opening of new possibilities. In the short term, there will be a flood of enhanced human understanding as the global community of mathematicians absorbs, refines and enhances the arguments produced by the machines. In some cases, experts will kick themselves for having missed a connection between disparate parts of the literature; in other cases, they may be amazed that an apparent trick works and will subsequently advance their fields by unearthing a new phenomenon that explains it.</p>
+<p>In all cases, the struggle to wrestle human understanding from the machines’ formalities will unleash greater ambition for what we can achieve (working with AI agents) in this new era of mathematics. Some of our favourite mountains have been conquered, but behind them are bigger mountains that we can tackle with new equipment.</p>
+<p>At the same time, we must resist the temptation to believe that digging insights out of announcements from AI labs will become the paramount task of our time. The global community of mathematicians has to be steadfast in its resolve to decide for themselves which research directions merit the most attention. We should embrace the power that the machines offer, but we should not be indentured to follow their lead.</p>
+<p>This image of servitude brings us to the fear that undoubtedly stalks alongside the excitement associated to the ascent of AI’s ability to do mathematics.</p>
+<p>The list of problems covered by OpenAI’s announcement includes several that were guiding challenges in my own research. I regret the loss of these guiding problems and I am convinced that future announcements will rob me of many others. I am saddened by this loss but not devastated. This relatively sanguine reaction undoubtedly reflects my career stage; I would have been less sanguine twenty years ago. I am acutely aware that today’s announcement will affect the lives of younger colleagues more profoundly.</p>
+<p>Personally, I am looking to learning the new ideas and constructions hidden in the AI-sketches of the new results, and I am particularly looking forward to engaging with colleagues from all career stages in group efforts to understand what has been done. I anticipate a community effort to add layers of human insight and explanation. I think this effort will be genuinely communal and I think that we are going to have great seminars!</p>
+<p>Nevertheless, I also have to confess to a nagging worry that a way of life that I have loved, in which the joy of the hunt for new discoveries was front and centre, will morph into something less familiar and less viscerally appealing to me. Profound understanding has always been the driving motivation of the research mathematician. In the hard struggle to glean understanding we are sustained by the joy of discovery and there is great personal joy to be had from understanding something beautiful for oneself. But for me, and I suspect for most of us, there is a greater joy in discovering and then sharing something that is new to humanity. If the role of a typical mathematician were reduced entirely to explaining the output of others (humans or machines), this greater joy would be lost and being a mathematician would be a less appealing vocation. This may not be our future, but it is a legitimate fear.</p>
+<p>What is beyond doubt, I think, is that the recent developments have profound implications for the structure of our profession. We have to adapt our structures quickly, particularly with respect to the apprenticeship stage of our profession — PhD and postdoc years. Beyond that, there are many issues of credit and recognition, the role of publishing etc.</p>
+<p>I also share the general unease about the lack of alignment between the commercial interests of AI labs and the values of our global community. There is an inherent and fundamental tension that cannot be resolved without sustained, robust engagement. We certainly cannot entrust the future well-being of mathematics to their goodwill.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>昨晚公告的规模确实令人屏息。直到不久之前，我都无法想象数学的前沿竟能在一天之内前进这么远。除了一长串似乎已经得到解决的非凡难题，公告所附文件展示出的各种不同推理形式也令我深感震撼。</p>
+<p>对于某些人，这些公告会令人兴奋；对于另一些人，则令人恐惧；对于还有一些人，它们将带来毁灭性的打击。</p>
+<p>先说令人兴奋的一面。真正的兴奋必然来自打开了哪些新的可能性，而非仅仅关闭了哪些开放问题。在短期内，随着全球数学家吸收、打磨和拓展机器生成的论证，人类理解会大幅增加。有时，专家会懊恼自己此前竟错过了文献中不同部分之间的某种联系；有时，他们会惊讶地发现一个看似偶然的技巧竟然有效，进而通过找到解释这种技巧的新现象而推动领域发展。</p>
+<p>无论哪种情况，从机器给出的形式化论证中艰难争取人类的理解，都将激发我们在这个数学新时代的更大抱负——当然，也包括与 AI Agent 合作。一些我们最钟爱的高峰已被征服，但后面还有更高的山峰，而我们手里有了新的装备。</p>
+<p>与此同时，我们必须抵制这样一种诱惑：认为从 AI 实验室的公告里挖掘见解，将成为这个时代数学家最重要的任务。全球数学共同体必须坚定地自行决定，哪些研究方向最值得关注。我们应当拥抱机器带来的力量，却不应该沦为跟随其指挥的受雇奴仆。</p>
+<p>这种奴役的意象，也引出了随着 AI 数学能力增强而伴随兴奋出现的恐惧。</p>
+<p>OpenAI 公布的清单包含了若干曾经引导我研究工作的核心难题。我为失去这些指引性问题而遗憾，也确信未来的公告会夺走更多这样的问题。我因此难过，但并未崩溃。我之所以反应相对平静，无疑与自己的职业阶段有关；如果放在20年前，我恐怕不会这么坦然。我非常清楚，今天的公告对年轻同事生活的影响会深得多。</p>
+<p>就我个人而言，我期待学习 AI 给出的新成果草稿中隐藏的新思想和新构造，尤其期待与处于不同职业阶段的同行共同努力，理解已经完成的工作。我预见，整个共同体会一起为这些成果增添人类的洞见和解释。我相信，这会是真正的共同事业，也相信我们将迎来许多精彩的研讨会！</p>
+<p>但我也必须承认，一种挥之不去的忧虑仍在困扰我：我所热爱的一种生活方式——以追寻新发现的喜悦为中心的生活——可能逐渐变成某种更陌生、对我也不再具有同样强烈吸引力的东西。深刻理解始终是研究数学家的根本动力。艰难追求理解的过程中，发现带来的快乐支撑着我们；独自理解一件优美的事情，也能带来巨大的个人喜悦。但对我——我怀疑对我们绝大多数人也一样——而言，发现一件对整个人类而言全新的事物，再将它分享出去，会带来更大的快乐。如果一个普通数学家的角色完全退化成解释别人（无论是人还是机器）给出的结果，这种更大的快乐就会消失，数学家也将成为一个吸引力大为减弱的职业。这未必就是我们的未来，但它是一种有理由存在的恐惧。</p>
+<p>我认为可以确定的是，近期进展将深刻影响我们这个职业的结构。我们必须迅速调整制度，尤其是博士生和博士后阶段这种学徒式培养环节。此外，还有大量关于功劳归属、学术认可、论文发表角色等问题。</p>
+<p>我也和许多人一样，对 AI 实验室的商业利益与全球数学共同体的价值观之间缺乏一致性感到不安。这两者之间存在内在而根本的张力，不进行持续、充分而坚实的沟通就无法解决。我们当然不能把数学未来的福祉托付给他们的善意。</p>
+<hr>
+<h3>39. Konrad Wrobel</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Scrolling through the list of claimed results, I alternated between shock and apathy repeatedly. The sheer quantity I can only say is exciting (even outside of the standouts I personally care about and the others I’m familiar with), even if it is simultaneously incredibly emotionally draining. It feels surprisingly anticlimactic capstoned by the mountains of work we have in front of us in parsing these, frankly horrifically written, papers and what the new ideas are inside. I can only guess how long it will be before I can internalize the ideas relevant to me.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>浏览那份声称取得成果的清单时，我一次又一次在震惊与麻木之间来回切换。单论数量，这无疑令人兴奋——即使抛开我个人关心的亮点和熟悉的问题也是如此——但它同时让人感到极大的情绪消耗。整个事件竟有种出人意料的虎头蛇尾之感：眼前横着一座工作的大山，需要我们去理解这些坦率地说写得极其可怕的论文，以及其中到底有哪些新思想。我只能猜测，还要过多久，我才能真正把与自己有关的那些思想吸收进来。</p>
+<hr>
+<h3>40. Alon Dogon</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>My feelings on the matter have changed so many times throughout the day, ranging from severe fear for the future to excitement for having finally answers for many great problems.</p>
+<p>If I had to pick one personally, the equivalence of strong Ulam stability and amenability (along with Dixmier’s problem) has particularly touched me, as I have spent several years thinking about it seriously.</p>
+<p>The solution seems to combine Furstenberg’s boundary theory with quantum circuits from quantum computing, how wild is that?</p>
+<p>In general, it is impressive to have many conjectures settled in the positive this round.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天一整天，我对这件事的感受变了许多次：从对未来的强烈恐惧，到终于得到众多重大问题答案的兴奋，不断转换。</p>
+<p>如果要挑一个最触动我自己的结果，那就是强 Ulam 稳定性与可和性的等价关系（以及 Dixmier 问题），因为我曾认真思考它们多年。</p>
+<p>这个解答似乎把 Furstenberg 的边界理论与量子计算中的量子线路结合起来，简直不可思议！</p>
+<p>总体而言，这次许多猜想都获得了肯定性解答，令人印象深刻。</p>
+<hr>
+<h3>41. Hugo Duminil-Copin</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I expected that one day we would be surpassed, and that it would happen systematically. But yesterday’s announcement hit with a force I had not anticipated. Dozens of papers deal with topics I was working on. Between results that beat you to the finish line and thousand-page proofs, I don’t even know where to look anymore.</p>
+<p>Not a single one of the major open problems I have publicly mentioned throughout my career (whether in a talk, a lecture, an article, or even a grant proposal) was left untouched by the announcement. Everything has been claimed to be proved.</p>
+<p>I expected to see a few of them in the list. But not all of them. Not all at once. Not with such nonchalance.</p>
+<p>“For the glory of the human mind,” they said…</p>
+<p>The shock is immense. I am paralysed. Tomorrow, we will find a way forward. We will rethink our profession and how we work. We are a resilient community, and I have no doubt that we will adapt. But for now, I simply don’t have the energy. I think back on all those years, all those faces… I think of my colleagues, my students… And I fear I won’t be able to find the right words.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我曾预料有一天我们会被超越，而且这种超越将是系统性的。但昨天公告的冲击力远超我的想象。数十篇论文涉及我正在研究的主题。面对抢在自己前面完成的问题，以及动辄上千页的证明，我甚至不知道该从哪里看起。</p>
+<p>我整个职业生涯里公开提到过的重大开放问题——无论是在报告、课程、论文，还是基金申请书中——没有一个在这次公告中幸免。所有问题都被声称已获证明。</p>
+<p>我原以为清单里可能会出现其中几个，但绝没想过全部都会出现，更没想过会在同一天、以如此漫不经心的方式出现。</p>
+<p>“为了人类心智的荣耀”，他们曾这样说……</p>
+<p>冲击太大了，我整个人都僵住了。明天我们会寻找出路，重新思考自己的职业和工作方式。我们的共同体富有韧性，我毫不怀疑我们能够适应。但此时此刻，我已经没有力气了。我想起这么多年的岁月，想起一张张面孔……想起我的同事、我的学生……我担心自己找不到合适的话来对他们说。</p>
+<hr>
+<h3>42. Petra Schwer</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>We have talked about “the list” throughout the day with many people at the workshop I am at. I am feeling lots of mixed feelings today. Ranging from shock to a certain degree of amazement about everything the technology can do. I am also angry that we are being bombarded with ‘solutions’ by companies that seem to have little to no interest in the actual content. They seem happy about the dramatic headlines helping them to gain better funding. They don’t seem to care about everything being shaken up so fast that we (the community of mathematicians) can no longer keep up with cleaning up the mess.</p>
+<p>Something that worries me is the small changes I am already seeing in my own behavior. I am no longer as open as I was in the past when talking about my research projects and plans. I did, for example, not answer freely to some of the questions after my talk. This is not just me. People are becoming more cautious. Mistrust is spreading, and that is not good. I am lucky to be part of mathematical communities that largely trust(ed?) each other. Seeing that change worries me.</p>
+<p>What worries me even more is seeing the junior mathematicians around me struggle. Today I also saw a lot of fear. How can I help them stay afloat?</p>
+<p>Is mathematics dead? Clearly, no2. What is happening to us right now is definitely a massive shake-up, earthquake, storm. There are a lot of questions to be addressed. For sure the mathematical research landscape will change. How exactly? I have absolutely no idea. And I very much hope that the communities (and people) I care for will come out on the other side with only a black eye.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天，在我参加的研讨会上，我和许多人整整一天都在讨论“那份清单”。我的心情非常复杂，从震惊到对技术所能做到的一切感到几分惊叹，都有。我也感到愤怒：那些似乎对成果内容几乎毫无兴趣的公司，正在不断用“解答”轰炸我们。它们似乎乐于看到耸人听闻的标题帮助自己获得更多融资，也似乎不在乎这一切把研究环境搅动得太快，快到我们数学共同体已经来不及收拾残局。</p>
+<p>让我担忧的是，我已经察觉到自己行为中一些细微的变化。谈起研究项目和计划，我不再像过去那样坦诚开放。例如，一次报告结束后，有些问题我没有毫无保留地回答。这并非我一个人的变化。人们正在变得更加谨慎，不信任正在蔓延，这绝非好事。我很幸运，一直身处彼此大体信任——或者说曾经信任——的数学共同体。看到这种关系正在改变，我感到担忧。</p>
+<p>更让我忧虑的是身边年轻数学家的挣扎。今天我还看到了大量恐惧。我该怎样帮助他们撑过去？</p>
+<p>数学已经死了吗？显然没有。² 但眼下我们经历的无疑是一场巨大的震荡、地震、风暴。还有许多问题要回答，数学研究的格局肯定会改变。究竟如何改变？我完全不知道。我非常希望那些我关心的共同体和人，能够在这场风暴之后只留下些轻伤。</p>
+<hr>
+<h3>43. Bryna Kra</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>There are deep and far-ranging results in this release, giving us a view on the powerful tools that now exist for exploring mathematics. But math is about more than producing theorems and this method of release loses so much along the way. Understanding this work is an enormous undertaking, and unlike work produced just a few months ago, there is no one to ask when we get stuck in a proof. This is not part of the culture of mathematics.</p>
+<p>As a community, we have to come together and work to keep what we value. Our goal of understanding mathematics has not changed, but the methods of getting there have. One of my concerns is the ecosystem that allowed the body of work being used now to make the advances is being destroyed. The mathematics community has mostly been collaborative: we share questions, talk about work in progress, and give others ideas on how to approach a problem. By making it easy to translate those parts of our work into proofs, we short-circuit the understanding that is needed to have impact. This way of releasing results closes off directions of research, rather than opening new vistas.</p>
+<p>The math community is already coming together to hold deep discussions on how to navigate this time of turbulence and change. It is time for us to move from discussion into implementation, charting the course for the future of our profession. The training for a doctorate, the hiring of junior faculty, the evaluation for promotion, the criteria for publication, the modes of publication all need to be scrutinized and updated. The good that comes out of this situation is the fall of the nonproductive traditions of our community, while keeping the parts we value.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这次发布包含了影响深远的重大成果，让我们看到如今探索数学已经拥有何等强大的工具。但数学远远不只是生产定理，而这种发布方式沿途丢失了太多重要的东西。理解这些研究是一项巨大工程。与几个月前的数学研究不同，如今当我们在证明中遇到障碍时，没有作者可以求助。这不符合数学的传统文化。</p>
+<p>作为一个共同体，我们必须团结起来，维护自己珍视的东西。理解数学的目标没有改变，变化的是实现它的方法。我担心的是，原本使这些进展所依赖的知识能够产生的研究生态，正在遭到摧毁。数学共同体大体上一直是合作性的：我们共享问题，讨论尚未完成的工作，向别人提供攻克问题的思路。如今，这些过程中的片段可以轻易被转化成完整证明，而形成实际影响所必需的理解过程却被短路了。这种发布成果的方式封死了研究方向，没能开辟新的视野。</p>
+<p>数学界已经团结起来，深入讨论如何应对这个动荡变革的时期。现在需要从讨论转向行动，为职业的未来规划方向。博士培养、年轻教师招聘、晋升评价、发表标准和发表形式，都必须接受重新审视和更新。希望我们能借此摆脱共同体中那些没有实际价值的旧传统，同时保存真正珍视的部分。</p>
+<hr>
+<h3>44. Alvaro Lozano-Robledo</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>The “Big OpenAI drop” is nothing short of historic, possibly the single most important day in the history of mathematics thus far. Many of the problems with now proposed solutions in the Oct. 6, 2026 drop would represent huge contributions to their respective fields: quasi-RH, the second part of Hilbert’s 16th, Hilbert’s 10th over Q, the Hodge Conjecture of CM abelian varieties, Goldfeld’s conjecture, fast integer multiplication… They are undeniably huge contributions.</p>
+<p>And yet, they have not changed my mindset. On the contrary, we already knew their models can do amazing things (e.g., Navier-Stokes). We already knew the frontier models can connect dots in the existing literature in ingenious ways (e.g., unit-distance conjecture). We already knew that OpenAI can spend a mind-boggling amount of resources to attack problems. We also know the price for their top-level subscription is about to increase significantly, up to $500/month.</p>
+<p>Also, we suspected that their models have limitations, and the new release shows evidence of that too. In their report, they mention that they attacked 4000 open problems, and their model was able to make progress on about 700 related problems. Yes, some of the ones they were able to solve are huge. But it also shows that their models are limited in some ways: their goal was RH, not quasi-RH. Their goal was the full Hodge, not Hodge for CM varieties. Their goal was BSD, not Goldfeld’s 50-50. Again, quasi-RH is huge! But it is not RH.</p>
+<p>Are any of the solutions using new ideas that are outside of the convex hull of the current ideas in the literature (in the sense of Nestor Guillen)? We will need mathematicians and time to digest these new proofs and understand what connections are being made, and whether brand new ideas were actually discovered in the process. There is a lot of mathematical research that remains to be done with and without the aid of LLMs. What has changed is that now there are new mountains of mathematics to explain and communicate to others.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这次“OpenAI 大规模发布”无疑是历史性事件，甚至可能是迄今数学史上最重要的一天。2026年10月6日公布的许多待证明结果，如果成立，将为相关领域作出巨大贡献：准黎曼假设、希尔伯特第16问题的第二部分、有理数域上的希尔伯特第10问题、CM 阿贝尔簇的霍奇猜想、Goldfeld 猜想、快速整数乘法……这些无疑都是了不起的贡献。</p>
+<p>但它们并没有改变我的基本看法。恰恰相反，我们早就知道 OpenAI 的模型能做到惊人的事情（例如 Navier–Stokes 问题）。我们早就知道前沿模型善于巧妙联系已有文献中的不同线索（例如单位距离猜想）。我们也早就知道 OpenAI 能够投入难以想象的资源攻克问题。我们还知道，他们最高档订阅的价格即将大幅上涨，达到每月500美元。</p>
+<p>我们同样怀疑过这些模型存在局限，而新发布的结果也提供了这样的证据。报告称，他们尝试了4000个开放问题，模型在大约700个相关问题上取得了进展。没错，解决其中一些问题是巨大成就；但这也表明模型在某些方面仍有局限。他们的目标是黎曼猜想（RH），得到的却是准黎曼假设；目标是完整的霍奇猜想，得到的却是 CM 阿贝尔簇上的情形；目标是 BSD 猜想，得到的却是 Goldfeld 的“五五开”问题。再强调一次，准黎曼假设已是巨大成果！但它终究还不是黎曼猜想。</p>
+<p>这些解答是否包含了超出已有文献思想“凸包”的真正新思想——借用 Nestor Guillén 的说法？我们仍然需要数学家花费时间消化这些新证明，弄清其中建立了怎样的联系，以及过程中究竟发现了哪些全新思想。无论借助不借助大语言模型，都还有大量数学研究要做。改变的只是，如今又出现了堆积如山、需要向他人解释和传播的新数学。</p>
+<hr>
+<h3>45. Julian Wykowski</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Navigating today, I kept thinking about a passage in Stanisław Lem’s Solaris (1961), where the main character fantasises about the existence of a bóg ułomny. This has been translated into English as an imperfect god, although I believe a more faithful translation would be a defective or disabled god. The passage reads:</p>
+<p>“I’m not thinking of a god whose imperfection arises out of the candour of his human creators, but one whose imperfection represents his essential characteristic: a god limited in his omniscience and power, fallible, incapable of foreseeing the consequences of his acts, and creating things that lead to horror. He is a … sick god, whose ambitions exceed his powers and who does not realise it at first. A god who has created clocks, but not the time they measure. He has created systems or mechanisms that served specific ends but have now overstepped and betrayed them. And he has created eternity, which was to have measured his power, and which measures his unending defeat.”</p>
+<p>Many members of the community agree that the main purpose of open questions in mathematics is to guide theory building and produce understanding, rather than a binary answer to some problem with limited applications in the real world. In that sense, we truly have created systems or mechanisms that served specific ends but have now overstepped and betrayed them. While it is certainly in OpenAI’s marketing interests to spread a narrative that mathematics has been “solved” through the existence of some lean code on some server, I sincerely hope our community will not succumb to such a defeatist narrative. Instead, I hope that we will find a consensus-based, organised approach to adapt our work to this new reality, in ways that align with our values, support our pursuit of human understanding, and benefit the construction of mathematical theory. This may well include embracing AI, but only in a form that maximises its positive and minimises its negative impact on the aspects of mathematics we consider fundamental. In the meantime, if OpenAI wants everyone to believe they are a deity, it is our duty to remember how defective their idea of deity is.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天在应对这一切时，我不断想到 Stanisław Lem 于1961年创作的《索拉里斯》中的一段文字：主人公幻想一种 <em>bóg ułomny</em> 的存在。这个词通常被英译成“一个不完美的神”，但我觉得译作“一个有缺陷的、能力受损的神”更忠实。原文如下：</p>
+<p>“我想的不是那种因为其人类创造者坦诚承认自身缺陷才显得不完美的神；我想的是一个以不完美为根本特征的神：他的全知与力量有限，会犯错误，无法预见自身行为的后果，创造出的东西会通向恐怖。他是一个……生病的神，他的野心超出了能力，而且起初自己还没有意识到。他创造了钟表，却没有创造钟表所测量的时间。他创造了服务于特定目的的系统或机制，但它们如今已经越过原有目标，反过来背叛了目标。他创造了永恒，本以为它会成为衡量自身力量的尺度，结果它衡量的却是他永无止境的失败。”</p>
+<p>数学共同体的许多成员都同意，数学开放问题的主要目的，是引导理论建设并产生理解，而非仅仅给某个现实应用有限的问题一个二选一的答案。从这个意义上说，我们确实创造了原本服务于特定目的、如今却越界并背叛了目的的系统或机制。通过服务器上的一些 Lean 代码来散播“数学已经被解决”的叙事，当然符合 OpenAI 的营销利益，但我真诚希望我们的共同体不要屈从于这种失败主义叙事。我希望我们能够通过达成共识、组织协作的方式适应这一现实，使我们的工作符合自身价值，支持对人类理解的追求，并有益于数学理论的建设。这也许包含拥抱 AI，但必须采用一种能够尽量扩大其积极影响、压低其对我们认为根本的数学活动造成的负面影响的形式。在此期间，如果 OpenAI 想让所有人相信自己是神，我们有责任记住：他们想象中的那个神，究竟有多么残缺。</p>
+<hr>
+<h3>46. Ben Green</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I was not expecting the magnitude of some of these results. Most particularly, seeing a proof of no zeros of Dirichlet L-functions to the right of
+$\operatorname{Re}s = 7/8$
+(and a second, short, proof of no Siegel zeros) is absolutely shocking to me, but there are many other breathtaking advances. Closer to my particular expertise, many of the central problems of additive combinatorics have fallen, including around three quarters of the aims I had for an ERC Advanced Grant, awarded only in June. The work of understanding these solutions and the associated context properly is significant and, from what I can glean from the current manuscripts, likely to be very worthwhile. I’ll start with number 182, which shows that any subset of
+$\{1,\ldots,N\}$
+of size
+$N^{1-c}$
+has two elements differing by a square.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>有些结果的规模完全超出了我的预期。尤其是证明 Dirichlet $L$ 函数在 $\operatorname{Re}s>7/8$ 区域内没有零点（以及另一个简短的、关于 Siegel 零点不存在的证明），对我来说简直震撼至极。当然，还有许多其他惊人的进展。更接近我个人专业的是，加性组合数学中许多核心问题已经被攻克，其中包括我今年6月才获得资助的 ERC 高级研究基金申请中约四分之三的研究目标。</p>
+<p>要真正理解这些解答及其背景，需要投入大量工作；但从我目前浏览手稿所得的印象看，这项工作很可能非常值得做。我会从第182号论文开始，它证明：$\{1,\ldots,N\}$ 中任何大小为 $N^{1-c}$ 的子集，都包含两个相差一个平方数的元素。</p>
+<hr>
+<h3>47. Sam Hughes</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>It was a privilege of a lifetime to get to do research level maths. But not like this. How much beauty have we lost?</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>此生能够从事研究级别的数学工作，是一种难得的荣幸。但我从未想过会是这样的结局。我们究竟失去了多少美？</p>
+<hr>
+<h3>48. Emily Riehl</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Firstly, kudos to whoever is behind the website citedbyagi.com, which recognizes the mathematicians whose work is cited by the manuscript collection released by OpenAI. It will take quite a while to understand what exactly has been achieved there. But whatever it is was only possible because mathematicians formulated the conjectures, proved the surrounding results, and shared their ideas – in conversations, talks, expository writing, and papers – so that other humans, and now AI, could learn from them. I hope they continue, because like many others I love learning new mathematics from other humans and always will.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>首先，我要向 citedbyagi.com 网站背后的创建者致意。该网站帮助人们看见那些工作被 OpenAI 发布的手稿集引用的数学家。我们还需要很长时间才能弄清这些成果究竟实现了什么。但无论实现了什么，都是以数学家此前提出猜想、证明相关成果，并通过交谈、报告、阐述性文章和论文分享思想为前提的。这些努力让其他人类得以学习，也让今天的 AI 得以从中学习。我希望这样的分享能够继续，因为和许多人一样，我喜欢向其他人学习新的数学知识，而且永远都会喜欢。</p>
+<hr>
+<h3>49. KEVIN BUZZARD</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I am very excited about the future. I know that there is chaos today. We are in the eye of the storm. We do not want to read slop papers. Some of the OpenAI papers have already been retracted. We do not yet even know what is true. But I believe that truth and understanding will bubble to the top. There are plenty of important poorly-written papers by humans — bad exposition has always been with us, and mathematicians have offered translation services for free many times before. AI will get better at explaining. Mathematics has undoubtedly moved forwards this week — this cannot be denied.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我对未来感到非常兴奋。我知道今天一片混乱，我们正处在风暴中心。我们不想读粗制滥造的论文。OpenAI 的一些论文已经撤回。我们甚至还不知道哪些结果是真的。但我相信，真理与理解最终会浮现出来。人类也写过许多糟糕却重要的论文——阐述不清从来就不是新鲜事，而数学家以前也常常无偿充当将晦涩论文转译为可理解知识的角色。AI 会越来越善于解释。本周数学毫无疑问向前迈进了一步，这是无法否认的。</p>
+<hr>
+<h3>50. Zhou Feng</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I am optimistic, because I see little to gain from pessimism. Still, I was stunned by the claimed solution to determining the dimension of self-similar measures on the line (Item 148 in the Review) and related problems. I am heartened that the proof appears to stand on the shoulders of earlier mathematicians and live within the framework they developed. I will spend more time studying it; after all, I believe human understanding and explanation are essential to progress in our community. They also bring joy, though perhaps not the same intense joy as a eureka moment.</p>
+<p>I do not know how these problems were selected, but their impact makes me wonder: what makes a mathematical problem important or interesting? Problems drive progress, and posing good ones requires vision and taste, often developed through years of exploration. Knowing their definitive answers is always fantastic, but what comes next?</p>
+<p>This announcement reveals AI’s capacity to “do” mathematics at massive scale and with remarkable depth. Is it possible to build an interactive mathematical world (perhaps a Google Map of math) where we can visually explore ideas, navigate proofs, and uncover connections between different fields? AI could help build it, guided by human mathematicians’ expertise. Future mathematicians could use their creativity and insight to expand this world, enrich its details, and find new questions worth pursuing.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我持乐观态度，因为我看不到悲观能带来多少益处。不过，当我看到关于确定直线上自相似测度维数的问题（综述第148项）及相关问题被声称解决时，仍然震惊了。令我欣慰的是，这项证明似乎站在前辈数学家的肩膀上，也仍然处于他们建立的理论框架之中。我会花更多时间研究它；毕竟我相信，人类的理解和阐释对于共同体的进步至关重要。它们也带来快乐，尽管未必像突然顿悟的时刻那样强烈。</p>
+<p>我不知道这些问题究竟是如何挑选的，但它们的影响让我思考：是什么让一个数学问题变得重要或有趣？问题推动进步，而提出好的问题需要眼光与品味，通常要经过多年的探索才能形成。知道一个问题的确定答案当然是好事，但接下来呢？</p>
+<p>这次公告展示了 AI 以巨大规模、惊人深度“做”数学的能力。我们能否构建一个交互式的数学世界——或许像一张数学的 Google 地图——使我们能够直观探索思想、穿行于证明之间，并发现不同领域的联系？AI 可以在数学家专业知识的引导下帮助建设它。未来的数学家则可以运用自己的创造力与洞察力扩展这个世界，丰富其中的细节，发现新的、值得追求的问题。</p>
+<hr>
+<h3>51. Jakob Glas</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>When OpenAI announced that it had solved over 100 open problems in mathematics, I felt both excited and anxious. Excited about the new mathematics to come, and anxious that some of the problems I was working on might be among them.</p>
+<p>Fortunately, my own research was unaffected. But when I saw the 7/8 bound for the zero-free region of the Riemann zeta function among the released problems, I was genuinely shocked. I had always thought there was a broad consensus among mathematicians that the Quasi-Riemann Hypothesis was completely out of reach with existing mathematics. Apparently, we were wrong.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>当 OpenAI 宣布解决了100多个数学开放问题时，我既兴奋又焦虑。兴奋的是即将出现的新数学，焦虑的是我正在研究的问题可能也在清单之中。</p>
+<p>幸运的是，我自己的研究没有受到影响。但当我看到公布的结果中包含黎曼 ζ 函数零点自由区域的 $7/8$ 界时，仍然感到真正的震惊。我一直以为数学界普遍认为，准黎曼假设靠现有数学完全无法触及。显然，我们错了。</p>
+<hr>
+<h3>52. Giovanni Mongardi</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Today, something is lost forever. We were explorers of uncharted theorems, fine goldsmiths of beautiful proofs. Humanity was alone in the fantastic world of the mind, where crystalline cohomology was as concrete as a gothic cathedral. Today the machine came.</p>
+<p>She claims to have solved a lot of our questions with its thunderous answer “42!”. She is quicker than us, knows everything humanity has ever done and gives us answers a few moments after we make the question.</p>
+<p>What is left for us is to be priests of the Machine-God, heeding her words, understanding them for our fellow humans.</p>
+<p>I fear the future of the mind will be a desert, with no questions to guide us beyond the horizon.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>今天，有某种东西永远失去了。我们曾是探索未知定理的探险者，是精心打磨优美证明的金匠。人类曾独自在奇妙的心智世界中前行，在那里，晶体上同调就像哥特式大教堂一样触手可及。今天，机器来了。</p>
+<p>她宣称解决了我们的许多问题，以一声雷鸣般的“42！”作为回答。她比我们更快，知道人类迄今所做的一切，在我们提出问题片刻后就给出答案。</p>
+<p>留给我们的，似乎只是成为机器之神的祭司：聆听她的话，再替人类同胞理解并解释它们。</p>
+<p>我害怕心智世界的未来会成为一片荒漠，再没有问题指引我们走向地平线之外。</p>
+<hr>
+<h3>53. Nilima Nigam</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>My own immediate reaction was one of irritation. Some of us saw this day as inevitable, even a couple of years ago. But we could not stop each other from the seduction of these tools, their promotion, and very quickly claims about their inevitability. Well, here we are.</p>
+<p>I already saw many younger colleagues and students who were experiencing existential concerns about what it means to do mathematics, and what their role would be. I see our community already in crisis, with deep rifts around what we value, what motivates us, and indeed how much to prioritize mathematics over the humans working on it. Some are excited, some are despairing, and everything in between. We’ve seen greed, naivete, courage, resignation – all those sentiments we don’t really attach to the austere beauty of this field we love. And I see much anger directed at each other as well.</p>
+<p>I see the public at large react in different ways since the infamous NS announcement, with a fair number of people accusing mathematicians of ‘gatekeeping’, and others accusing the community of selling out to AI corporations. There is Schadenfreude, there’s excitement about democratization of mathematics, and hopes that ‘solving NS’ would presage ‘solving cancer’.</p>
+<p>In other words, as a community and a society we were already overwhelmed – intellectually, emotionally, politically.</p>
+<p>Now there’s a dump of results, a high-decibel screeching for our collective attention and energy. I see how yet again many, many, many in the community will dedicate time they didn’t have, to carefully parse papers (not all of which are written with care) released at scale. And I see the exodus of young people hastened. Students are in shock at their theses suddenly being scooped.</p>
+<p>Yes, we must react, I suppose. But my own immediate reaction to the high-volume cacophony of attention-grabbing motorcycles on my street is typically one of irritation. This is how I feel today about Open AI’s efforts in math. Open AI doesn’t need or care about my attention or respect. But if it did, the equivalent of racing down the neighbourhood noisily on 50 motorbikes with silencers off isn’t the way to do it.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我最初的反应是烦躁。我们中的一些人早在几年前，就认为这一天不可避免。但我们还是无法阻止彼此被这些工具吸引、为它们宣传，并很快开始宣扬其不可避免性。好了，现在我们就在这里了。</p>
+<p>我已经看到许多年轻同事和学生陷入关乎存在意义的困惑：从事数学究竟意味着什么？自己还能扮演怎样的角色？我看到我们的共同体已经陷入危机：对于我们珍视什么、受到什么激励、以及究竟应该把数学放在什么位置、把从事数学的人放在什么位置，我们之间产生了深刻裂痕。有些人兴奋，有些人绝望，还有各种介于两者之间的情绪。我们见识了贪婪、天真、勇气和认命——这些情感通常不会出现在人们对这个以严峻之美著称的领域的想象中。我也看到大量愤怒正指向共同体内部彼此。</p>
+<p>自从那次臭名昭著的 Navier–Stokes（NS）公告以来，我看到公众有不同反应：不少人指责数学家“把守大门、排斥外人”，另一些人则指责数学界向 AI 企业出卖自己。有幸灾乐祸，有对数学民主化的兴奋，也有人希望“解决 NS”预示着“治愈癌症”。</p>
+<p>换句话说，作为一个共同体、作为一个社会，我们早就已经在智力、情感和政治层面不堪重负。</p>
+<p>现在又有一大堆成果倾倒下来，像刺耳的高分贝噪声，争抢我们共同体的注意力与精力。我看到，又将有许许多多人挤出根本不存在的时间，去细读这些大规模发布、其中一些甚至没有认真写好的论文。我也看到年轻人的流失正在加速：学生们震惊地发现，自己的论文课题突然被抢先解决了。</p>
+<p>是的，我想我们终究得作出回应。但在我居住的街道上，如果有一大群摩托车为了吸引注意而高声轰鸣，我最直接的反应通常是烦躁。今天我对 OpenAI 在数学领域的举动，就是这种感觉。OpenAI 既不需要也不在乎我的注意或尊重。但如果它真的在乎，那么相当于让50辆摘掉消音器的摩托车在街坊里横冲直撞，绝不会是获得尊重的方式。</p>
+<hr>
+<h3>54. Indira Chatterji</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>One of the papers is a solution to the Bass trace conjecture, a beautiful conjecture made by Hyman Bass in 1976, implying the older idempotent conjecture (from the 50ies maybe?) that there should be non non-trivial idempotent in the group ring of a torsion-free group. I was privileged enough to have given a proof for amenable groups 25 years ago with two amazing collaborators, Jon Berrick and Guido Mislin, that changed my career and my vision of life and of mathematics. For years now, progress on this question remained incremental and we all did other stuff.</p>
+<p>I don’t understand the proof, and I still don’t believe that this conjecture could be true in general. The paper is 30 pages long and looks like slop -lean certified, whatever that means. However I am looking forward to a small group of colleagues to go through it and either shred it to pieces or understand a stunningly beautiful argument. Who’s in?</p>
+<p>3 papers have been pulled already…
+Is it time to claim that it’s useless slop, that lean is unreliable (and demand money to say otherwise)?</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>其中一篇论文声称解决了 Bass 迹猜想。那是 Hyman Bass 于1976年提出的一个优美猜想，并且蕴含一个更早的幂等元猜想（或许来自20世纪50年代）：无挠群的群环中不应存在非平凡幂等元。</p>
+<p>25年前，我有幸与 Jon Berrick、Guido Mislin 两位出色的合作者一起证明了可和群的情形。那项工作改变了我的职业生涯，也改变了我对生活和数学的看法。此后许多年，这个问题的进展一直只是渐进的，我们也都转而研究其他事情。</p>
+<p>我还不理解新的证明，而且仍然不相信这个猜想在一般情形下会成立。这篇论文只有30页，看起来像一堆粗制内容——据说经过 Lean 认证，不管那究竟意味着什么。不过我期待能有一小群同事一起研究：要么把它驳得体无完肤，要么真正理解其中一个惊人而优美的论证。有谁愿意参加？</p>
+<p>已经有三篇论文被撤回了……现在就应该宣布这一切是无用的垃圾、Lean 不可靠了吗（然后要求别人付钱才能证明不是这样）？</p>
+<hr>
+<h3>55. Ivan Smith</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Disrupted times, but I still naively hope we will come through stronger. If the community learns to reward those who forge the paths and lay down the fixed ropes as much as those who reach the summit, it would be a very good development.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这是一个充满动荡的时代，但我依然天真地希望我们最终会变得更强。如果数学共同体能够像奖励登顶者一样，奖励开辟道路和沿途固定绳索的人，那将是非常好的进步。</p>
+<hr>
+<h3>56. Sahana Balasubramanya</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>My initial reaction was to skim the list of problems to see what all has been impacted. It was a bit disorienting to see many famous problems listed there, and I had a sense that the landscape of math was being “nuked”. Upon closer inspection, I realised that not all the proofs have a Lean formalization. (And as someone unfamiliar with Lean, I am not sure what to make of the results that carry such a credential). Since then, at least 3 preprints have been withdrawn due to mistakes and other corrections have also been made.</p>
+<p>I have heard from colleagues in other areas of math that they consider some of the papers released to be “unreadable”. There are also the issues of the perpetuating lack of human attribution, the lack of transparency and the apparent disregard of the advice of the advisory committee. It will take a long time for humans to absorb this new information, if it stands the test of time and rigorous scrutiny at all. If it doesn’t, then a lot of time is still likely to be wasted proofreading for the hole in the argument, which makes one wonder what is the point of it all. This is a mess.</p>
+<p>It makes me feel that the AI companies have chosen a side, and it is not the side that wants to work for the betterment of humanity (by trying to mitigate poverty, work on resource allocation, or trying to find a cure for serious diseases, for example) nor one that particularly cares. For the time being, I hope we do not give in to panic or a sense of doom.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我的第一反应，是快速浏览那份问题清单，看看究竟哪些研究受到影响。看到那么多著名问题出现在其中，我有些失去方向，仿佛数学研究的地貌正在被“核平”。仔细看过之后，我意识到并不是所有证明都完成了 Lean 形式化。（而我并不熟悉 Lean，也不确定应该如何理解那些带有此类认证的成果。）此后，至少三篇预印本已经因错误而被撤回，其他论文也作出了一些修正。</p>
+<p>我听其他数学领域的同事说，他们认为部分论文“根本读不下去”。此外还有持续缺乏对人类贡献的署名与归属说明、透明度不足，以及明显无视顾问委员会建议的问题。即使这些成果最终经受得住时间和严格审查，人类也需要很长时间才能吸收这些新知识。如果不能经受检验，大量时间仍可能浪费在替这些论文校对、寻找论证漏洞上，这就不得不让人怀疑这样做到底有什么意义。真是一团乱麻。</p>
+<p>这让我感觉 AI 公司已经选择了自己的立场，而那并不是努力改善人类生活的一方——比如减轻贫困、改善资源配置、寻找严重疾病的疗法——至少不是特别关心这些事情的一方。眼下，我希望我们不要陷入恐慌或末日般的绝望。</p>
+<hr>
+<h3>57. YUVAL GORFINE</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>It is hard to find the right words to describe what I’m feeling and what I’m thinking, especially when my thoughts and feelings keep changing. One such thought, at least, is this (and it lives in my mind together with other thoughts which contradict it).</p>
+<p>I don’t know if this is the end. I hope that it’s not. I think that it’s not. But what is definitely true is that if this is indeed the sunset of mathematics, it is a marvelous one. What humanity has achieved is astonishing. When I went through the list of problems solved by OpenAI, I couldn’t but think of this old poem by E. E. Cummings:</p>
+<blockquote>
+<p>who are you,little i<br>
+(five or six years old)<br>
+peering from some high<br>
+window;at the gold<br>
+of november sunset<br>
+(and feeling: that if day​<br>
+has to become night<br>
+this is a beautiful way)</p>
+</blockquote>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>很难找到恰当的语言描述我的感受与想法，尤其是它们一直在变化。至少有一个想法是这样的——虽然我的脑海里还同时存在着与之矛盾的其他想法。</p>
+<p>我不知道这是不是终点。我希望不是，也认为不是。但有一点可以肯定：如果这真的是数学的黄昏，那么它是一场壮丽的日落。人类取得的成就令人惊叹。浏览 OpenAI 已解决问题的清单时，我不禁想起 E. E. Cummings 的一首旧诗：</p>
+<blockquote>
+<p>你是谁呀，小小的我<br>
+（五六岁的小孩）<br>
+从一扇高高的<br>
+窗口向外张望；看着<br>
+十一月夕阳的金色<br>
+（心中想着：如果白昼<br>
+终究必须成为黑夜<br>
+那么这样结束，也真美丽）</p>
+</blockquote>
+<hr>
+<h3>58. Mitchell Taylor</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>As someone who has been closely following the rapid progress in the mathematical capabilities of AI, I am not particularly surprised by the number or the prominence of the problems that OpenAI has just released. I find many of the results to be beautiful, and I’d love to understand them more deeply. In particular, I am happy to see that the hot spots conjecture is true for simply connected subsets of the plane, and it is very cool to see that the separable quotient problem is independent of ZFC. These results are truly spectacular, and the fact that we are able to witness their resolutions is extremely exciting.</p>
+<p>What concerns me much more is the potential misalignment between the objectives of AI companies and what needs to be their primary goal: optimizing the impact of AI on humanity. By now, it is clear that AI will completely change the world. However, it is also clear that many people will experience trauma during this transition period, and in this regard I think that mathematics serves as a particularly revealing case study.</p>
+<p>In their recent release <a href="https://openai.com/index/sharing-ai-progress-in-mathematics/">https://openai.com/index/sharing-ai-progress-in-mathematics/</a>, OpenAI begins by stating that they have looked to improve how they share their results with the mathematical community and have consulted with the AGMAI group to discuss best practices. Although collaboration between AI companies and academic researchers is fundamentally important, in this case there seems to be a substantive disagreement between what the AGMAI group recommends and what OpenAI states that they will do. Most notably, AGMAI asks AI companies to stop evaluating their proprietary models on open research problems, whereas OpenAI makes it clear that they believe that this is important.</p>
+<p>Although I am personally excited to witness the amazing progress in mathematics, many of my friends and colleagues are currently experiencing severe anxiety, depression and loss of purpose. What they need most at this moment is not more powerful AI, but the time to process the transformation of their discipline. I worry that they will not be given this time. However, I worry much more that our society as a whole will not be given nearly enough time to adapt to AI.</p>
+<p>I truly hope that OpenAI takes the reactions within the mathematics community seriously when considering how the wider society may respond to the changes ahead. The primary purpose of developing a technology of this magnitude should be to improve everyone’s lives, not to maximize power or profit. In particular, the pace of scientific and social change should not be dictated by AI labs alone. Instead, I believe that it is imperative that OpenAI follows through on their stated aim of empowering scientists by actively and thoughtfully listening to their concerns and offering them a meaningful say in how this transition unfolds. In practice, this means giving a larger subset of the mathematical community a direct role in making decisions about the timing of future releases, the support needed to understand these results, and how research, teaching and society more broadly can adapt.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>作为一个一直密切关注 AI 数学能力迅速进展的人，OpenAI 刚刚发布的问题数量与知名程度，并没有让我特别吃惊。我觉得其中许多成果都十分优美，很想进一步理解它们。尤其让我高兴的是：平面单连通子集的热点猜想得到了肯定解答，而可分商问题被证明独立于 ZFC，也格外精彩。这些成果确实壮观，我们能够亲眼见证问题得到解决，令人无比兴奋。</p>
+<p>更让我担忧的是 AI 公司的目标与它们理应承担的首要目标之间可能存在错位：后者应该是让 AI 对人类产生最有益的影响。如今可以确定，AI 将彻底改变世界；同样可以确定，许多人会在转型期间遭受创伤。在这方面，数学是一个特别能够说明问题的案例。</p>
+<p>OpenAI 在最近的公告（原文附有网址）开篇表示，他们一直在改进与数学共同体分享成果的方式，并咨询了 AGMAI 小组有关最佳实践的建议。AI 公司与学术研究者的合作当然极其重要，但在这件事上，AGMAI 的建议与 OpenAI 声称将采取的做法之间，似乎存在实质性分歧。尤其突出的是，AGMAI 要求 AI 公司停止使用开放研究问题评估专有模型，而 OpenAI 明确表示他们认为这种评估很重要。</p>
+<p>尽管我个人为亲眼见证惊人的数学进步感到兴奋，但我的许多朋友和同事此刻正经历严重焦虑、抑郁和目标感丧失。他们眼下最需要的并不是更强大的 AI，而是消化学科转型所需的时间。我担心他们不会得到这样的时间。但更让我忧虑的是，整个社会也许都得不到足够的时间适应 AI。</p>
+<p>我真诚希望 OpenAI 在考虑更广泛社会将如何回应未来变化时，认真对待数学共同体的反应。开发如此强大的技术，首要目的应当是改善每个人的生活，而非最大化权力或利润。尤其是，科学和社会变化的速度不应该仅由 AI 实验室决定。我认为 OpenAI 必须真正履行其“增强科学家能力”的承诺，积极而审慎地倾听他们的担忧，并让他们能够实质性地参与决定这一转型如何展开。具体来说，就是让数学共同体中更多成员直接参与决定未来成果何时发布、需要怎样的支持才能理解它们，以及研究、教学和更广泛的社会应当如何适应。</p>
+<hr>
+<h3>59. Menny aka</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>It was always about fun. For more than two decades now, I have been lucky enough to have the opportunity to have fun learning, doing, and teaching mathematics. So the main open question for me now is: how can I continue to have fun? After recovering from the shock that each such release of results brings, I keep coming back to this question, hoping it will lead me to a solution. I have found some answers and keep experimenting in search of more. Here is where I stand today.</p>
+<p>In teaching, I immensely enjoy being able to create, with minimal effort, an applet or demonstration tailored to exactly what I want to explain.</p>
+<p>Recently, we created a seminar called “Illustrating Math toward Outreach,” where we work with students at all levels on illustrating and presenting mathematics through different media, many of which have become accessible thanks to LLMs. We started just a month ago, but it looks like fun will be at least one component of this seminar.</p>
+<p>Whether I can have fun with LLMs in research is less clear to me. I keep experimenting: lately, I have been washing the dishes while discussing research questions with an LLM through my headset. Is it useful? Surprisingly, very useful. Is it a weird (not to say dystopian) experience? For me, for now, yes. It leaves me feeling empty and tired every time I try.</p>
+<p>Can I find a way to enjoy reading these Lean-checked proofs? So far, I have found no fun in reading them. Can I enjoy working towards understanding them? I’m not sure! My current experiment is to find other interested humans, hoping to have fun tackling these proofs together. For now, I still have some naive hope: I cannot imagine a world in which understanding the proofs of the results in Project 15 is not fun. And I suspect many of us feel the same way about some other project X.</p>
+<p>P.S. To see the reaction that helped me the most so far, google “the last ten minutes OpenAI”.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这一切始终关乎乐趣。二十多年来，我一直很幸运，能够享受学习、研究和教授数学的乐趣。所以如今对我来说，最主要的开放问题是：我怎样才能继续享受这种乐趣？每次从这类成果发布带来的震惊中恢复之后，我总会回到这个问题，希望自己能够找到答案。我已经找到了一些答案，也仍在继续尝试。眼下我的状态是这样的。</p>
+<p>在教学中，我非常享受能够几乎不费力气地制作出完全符合自己教学需要的小程序或演示。</p>
+<p>最近，我们开设了一门研讨课，叫作“用数学可视化开展科普传播”。我们与各个阶段的学生一起，尝试用不同媒介展示和讲述数学，而其中许多媒介都是因为大语言模型才变得容易使用。这门课才开始一个月，但看起来其中至少会有一部分乐趣。</p>
+<p>能否在研究中享受使用大语言模型的乐趣，我就不那么确定了。我一直在尝试：最近，我一边洗碗，一边戴着耳机与大语言模型讨论研究问题。这有用吗？出乎意料，非常有用。这种体验奇怪吗——甚至有一点反乌托邦感吗？对我来说，目前确实如此。每次尝试之后，我都会感到空虚而疲惫。</p>
+<p>阅读这些经过 Lean 检查的证明，我能从中找到乐趣吗？迄今为止，我读它们时完全没有感到快乐。努力理解它们会带来乐趣吗？我还不确定！眼下，我的实验是寻找其他有兴趣的人，希望与他们一起攻克这些证明，从中获得乐趣。我仍然抱着一点天真的希望：我无法想象一个世界，在那里理解第15号项目成果的证明竟然毫无乐趣。我想，我们很多人面对各自关心的某个项目 X 时，也会有类似的感受。</p>
+<p>附言：要找到迄今为止最能帮助我理解这种处境的一则回应，可以搜索“the last ten minutes OpenAI”。</p>
+<hr>
+<p><a id="读者评论与回复--reader-comments"></a></p>
+<h2>读者评论与回复 / Reader comments</h2>
+<p>原网页标注有30条读者回应。以下保留原文中的评论顺序、署名及日期；这些评论与上面的受邀署名发言分开，不应混为一谈。</p>
+<h3>评论 1. Anon — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Very fascinating read! I commend the hosts for the compilation!</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>读起来非常精彩！感谢主持人整理了这份合集！</p>
+<hr>
+<h3>评论 2. Lemon — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Very interesting read.
+The number of seasoned mathematicians who are not concerned that their profession will be just overseeing AI agents’ output, or that mathematical productivity will be defined not by work and effort but by access to frontier AI models is astonishing. And they are ready to go and clean up OpenAI mess of incomprehensible writing for free, and this cleaned up results will surely be used to further refine LLM?</p>
+<p>Its truly fascinating that in the foundation of LLM lies the same mathematical science whose social organisation this corporation is ready to destroy for profit.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这篇文章很有意思。</p>
+<p>让我惊讶的是，有那么多资深数学家并不担心自己的职业最终只是监督 AI Agent 的输出，也不担心数学研究的产出能力将由能否使用前沿 AI 模型来决定，而非由个人付出的工作和努力来决定。他们甚至已经准备好无偿替 OpenAI 整理那些根本读不懂的论文，而整理出来的成果想必还会被用于进一步训练大语言模型吧？</p>
+<p>更令人玩味的是，大语言模型的根基正是数学科学，而这家公司现在却准备为了利润摧毁数学共同体赖以运作的社会组织。</p>
+<hr>
+<h3>评论 3. Anonymous — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>The result is not cleaned up for the benefit of OpenAI. OpenAI does not care whatsoever about these problems. They don’t want credit for it. They don’t care who gets the credit. All they care about are finding the capabilities of these internal models. The only reason they released these is because they don’t want to be accused of hoarding/gatekeeping knowledge, especially over problems they don’t care about.</p>
+<p>The reason these results should be cleaned up is because they contain ideas and insights that are so valuable to mathematics. And if mathematicians don’t care about ideas/insights/truths <em>whatsoever</em>, to the point they will not look at these out of spite, it does raise questions why such people are funded in the first place? I understand placing most of the value in human understanding, but to not value truth seeking at all?</p>
+<p>OpenAI does not care about credit. If anyone gives OpenAI credit, it would be math academia. Maybe Math Academia should give credit to the people who clean up these results. It is frightening how little self introspection and how much short sightedness a lot of Mathematicians show. How much has academia complained about publish or perish? What has anyone done about it? Who created the entire credit system based on theorem proving instead of problem solving? Did AI labs do it? Why has so much value been given for the proxy but barely any efforts for the true understanding that academia values?</p>
+<p>So these papers are not be cleaned up for the benefit of OpenAI. These papers are being cleaned up so that humans continue to remain at the mathematical frontier. So that humans understand the truths and can apply them again in the future for even harder problems.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>整理这些成果并不是为了让 OpenAI 受益。OpenAI 根本不在乎这些数学问题，也不想要功劳。他们不在乎谁得到功劳，只在乎弄清内部模型具有什么能力。他们之所以公开成果，只是因为不想被指责囤积知识、阻碍他人获取知识，尤其是他们自己并不在乎的那些问题。</p>
+<p>我们之所以应该整理这些成果，是因为其中包含对数学极为宝贵的思想和洞见。如果数学家对思想、洞见和真理毫不在乎，甚至因为赌气而拒绝研究这些成果，那就让人怀疑，为什么还要资助这样的人？我理解把人类理解置于价值的核心，但难道可以完全不重视对真理的追求吗？</p>
+<p>OpenAI 不在乎功劳。假如有人要给 OpenAI 记功，那会是数学学术界自己。也许数学界应该把功劳归于那些整理成果的人。令人恐惧的是，许多数学家缺乏自省，眼光也过于短浅。学术界抱怨“要么发表、要么出局”已经多久了？有人真正做过什么吗？是谁建立了基于证明定理、而非解决实质问题的整套评价体系？难道是 AI 实验室吗？为什么大家把那么多价值赋予替代性指标，却几乎没有努力追求学术界自己声称珍视的真正理解？</p>
+<p>因此，整理这些论文不是为了 OpenAI，而是为了让人类继续站在数学前沿，理解这些真理，并在未来借助它们解决更困难的问题。</p>
+<hr>
+<h3>评论 4. Stefan Witzel — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Like all of us I’m tempted to dive into an detailed analysis of the proofs (I’d start with the non-residually finite hyperbolic groups). But I think our imminent task as a community is to form an idea of what values and processes will allow us to survive (in a first approximation: deep understanding matters more than concrete theorems; informal ways to convey understanding matter more than lean certificates). I am worried about the tempting vision that some have that we steer AI to push the frontiers way further now: I think it would work but we might loose offspring along the way and end after a generation.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>和大家一样，我也很想立即深入分析这些证明（我会从非剩余有限双曲群开始）。但我认为，数学共同体眼下最紧迫的任务，是确定哪些价值观和工作方式能够帮助我们生存下去。粗略说，深刻理解比具体定理更重要；以非正式方式传达理解，比 Lean 证书更重要。我担心一种对一些人很有吸引力的愿景：让我们引导 AI 把数学前沿不断推进得更远。我认为这确实做得到，但一路上我们可能失去后继的一代，最终一个世代之后便走到尽头。</p>
+<hr>
+<h3>评论 5. Daniel Hadas — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Seeing the situation unfold from up close always tends to make me forget the big picture.
+It’s been at least 2 years now that I’m very seriously worried. Until now, I’ve never tried to understand an AI result, and the negative sentiment played a big part in it. Now that there’s something truly close to my interests, I’m drawn in.</p>
+<p>But we should not forget the big picture. And mathematics is not in the center of that. The main takeaway the last announcement come down to this: AI is a huge.
+The big picture is not the focus of this blog, but still it’s too rarely mentioned here. It means different things depending on what you believe. It can be about job security (in all lines of work). It can be about the environment. It can be about concentration of power. It can be about AI safety. It can be about meaning in a world where no human has the capacity to benefit another human being (the latter 2 are roughly where I stand).</p>
+<p>Whenever I find myself thinking hard about some issue raised on this blog, one thought leads to another, and at some point I bump into the realization that math is not the real issue.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>近距离看着事态发展，总让我忘记更大的图景。</p>
+<p>至少两年来，我一直非常担忧。此前我从未尝试理解 AI 的成果，负面情绪是一个重要原因。如今出现了一个与我兴趣直接相关的结果，我又忍不住被吸引进去。</p>
+<p>但我们不能忘记大局，数学也不是问题的中心。最近这次公告最重要的启示可以归结为：AI 太庞大了。（此处原文句子不完整。）</p>
+<p>更大的图景不是这个博客的主题，但这里仍然很少有人谈到。它可以有不同含义，取决于你的看法：各行各业的工作安全、环境、权力集中、AI 安全，或者在一个任何人都无法为另一个人提供独特价值的世界里，人生意义是什么。后面两项大致是我最关心的方向。</p>
+<p>每当我深入思考这个博客引发的某个问题，思绪就会不断延伸，最终总会意识到：数学本身并不是最根本的问题。</p>
+<hr>
+<h3>评论 6. Anonymous — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Thank you! Although I understand the feelings expressed by many mathematicians here (especially the younger ones), I must say that the general tone is way too corporatist (the concept of entitlement does come to mind). Math is indeed not the real issue. There are many other professions threatened by AI. More importantly, the climate catastrophy and the attacks on democracy should have higher visibility when discussing the dangers of AI.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>谢谢！虽然我理解这里许多数学家的情绪，尤其是年轻数学家的感受，但我必须说，整体语气太偏向职业团体自身的利益了，甚至让我想到一种理所当然的特权心态。的确，数学并不是最根本的问题。还有很多其他职业也受到 AI 威胁。更重要的是，在讨论 AI 的危险时，气候灾难和对民主的攻击应该得到更多关注。</p>
+<hr>
+<h3>评论 7. Daniel Hadas — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I’m struggling to understand your use of the word “corporatist”. It’s a new word for me, and its Wikipedia article left me confused.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我有些不理解你使用“corporatist”（团体本位主义／社团主义）这个词的意思。对我而言，这是个新词，而它的维基百科条目反而让我更加困惑。</p>
+<hr>
+<h3>评论 8. Anonymous — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>The way I understand it, corporatism is about defending your professional community – and not caring much about anything else. Most mathematicians did not protest against the dangers of AI until they hit their profession. And some mathematicians still believe it is possible to collaborate with AI companies.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>按照我的理解，所谓 corporatism，就是维护自己的职业共同体，而对其他事情不太关心。大多数数学家在 AI 的危险真正触及自己职业之前，都没有提出抗议。有些数学家现在甚至仍然相信可以与 AI 公司合作。</p>
+<hr>
+<h3>评论 9. Mark Hagen — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>“Its truly fascinating that in the foundation of LLM lies the same mathematical science whose social organisation this corporation is ready to destroy for profit.”</p>
+<p>Indeed. It reminds me of a quotation from the biologists Lewontin and Levins, something like: “the conditions necessary for the initiation of some process may be destroyed by the process itself”.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>“大语言模型的基础恰恰是数学科学，而这家公司为了利润竟然准备摧毁数学共同体的社会组织。”</p>
+<p>确实如此。这让我想起生物学家 Lewontin 和 Levins 说过的一句话，大意是：“启动某个过程所必需的条件，可能被这个过程本身所摧毁。”</p>
+<hr>
+<h3>评论 10. disenfranchised postdoc — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>all the tenured faculty modulo some is amazed by the results. all the younger people without permanent jobs are scared.
+if i had reasons to doubt that academia was a scam where graduate students were fodder fed to keep the machine going, those doubts have been removed now.</p>
+<p>i hope all the tenured faculty amazed by the results have fun playing with LLMs before retirement as i can now see no younger mathematicians continuing this sham.</p>
+<p>i fear the tenured faculty and math leadership has completely let us younger people down.</p>
+<p>let me make a mildly pointed remark: is ben green not at all worried that their ERC grant proposal may have been evaluated via LLMs?</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>除了少数例外，所有有终身教职的教授都对结果感到惊奇，而所有没有永久职位的年轻人都感到恐惧。</p>
+<p>如果我之前还怀疑学术界是不是一场骗局——研究生只是维持那台机器运转的消耗品——现在这些怀疑已经彻底消失了。</p>
+<p>我希望那些为结果兴奋的终身教职教授，在退休前玩大语言模型玩得开心，因为我如今已经看不到任何年轻数学家会继续这场骗局。</p>
+<p>我害怕终身教职教授和数学学界的领导者已经彻底辜负了我们这些年轻人。</p>
+<p>容我稍微尖锐地问一句：Ben Green 难道一点也不担心，他的 ERC 基金申请书可能被大语言模型用于评估吗？</p>
+<hr>
+<h3>评论 11. disenfranchised prof — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>In my department, most tenured faculty (myself included) aren’t happy about this. I think there are just a few loud people on the internet that are excited. Unfortunately, some of them have big platforms. (And some of them got us into this mess to begin with.)</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>在我们系，大多数拥有终身教职的教师（包括我自己）都对此不高兴。我认为只是少数人在网上高声表达兴奋。不幸的是，他们之中有人拥有巨大的话语平台。（而其中一些人最初就参与把我们带到了今天的困境。）</p>
+<hr>
+<h3>评论 12. Pierre Menard, Author of the Quixote — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Yes. Honestly, reading these accounts was even more depressing than the slopdrop: excited tenured academics, tenured academics who only care about citations, tenured academics getting scooped and liking it (which reminded me of an old video of Žižek describing the difference between the Balkans and Mitteleuropa). In a couple of them I also sensed a sinister, ill-concealed pride in having their ideas used by the machine. I hope these are not representative of the so-called “community”, because otherwise we are very much cooked.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>是的。坦白说，读这些回应甚至比读那批粗制论文更令人沮丧：有终身教职的学者兴奋不已，有人只在乎引用，有人研究被抢先解决了却还乐在其中（这让我想起齐泽克曾在一段视频里谈巴尔干与中欧的区别）。有几篇回应里，我甚至察觉到一种令人不安、没有完全掩饰的自豪感：他们为自己的思想被机器使用而骄傲。我希望这些人并不代表所谓的“共同体”，否则我们真要完了。</p>
+<hr>
+<h3>评论 13. Anonymous — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>We are indeed cooked. It is not only about AI. Mathematicians are supposed to have a brain and to understand that fossil fuels must stay in the ground. Many still take the airplane all the time without giving it a second thought.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我们的确要完了。而且事情不只关乎 AI。数学家理应有头脑，也理应明白化石燃料应该留在地下。可很多数学家仍然动不动就坐飞机，连想都不想。</p>
+<hr>
+<h3>评论 14. Zach — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>To the point about pride in having one’s ideas used by the machine: While I support the intention behind citedbyagi.com (mentioned in Emily Riehl’s post above), I find it bizarre that the website is organized in a leader-board style format. Evaluating mathematicians by their publication lists was already a flawed system in many ways, but ranking them by number of AI citations seems practically dystopian.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>关于有人为自己的思想被机器使用而自豪这件事：虽然我支持上文 Emily Riehl 提到的 citedbyagi.com 网站的初衷，但我觉得它采取排行榜式的组织方式相当荒唐。用论文清单评价数学家本来就有很多问题，如今竟要根据被 AI 引用的次数给他们排名，简直带有反乌托邦色彩。</p>
+<hr>
+<h3>评论 15. Pierre Menard, Author of the Quixote — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>That’s exactly what I mean(t). The debate about restructuring and redesigning academic “incentives” in the face of AI is now a bit all over the internet, and yet the best we have been able to come up with is the good ol’ citation count and rankings… c’mon?! The massive surge in manuscript submissions clearly signals that part of the so-called “community” is not interested in a constructive debate at all; it just wants the brownie points and the wooden medal.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>这正是我想说的。面对 AI，关于如何重组和重新设计学术“激励”的讨论已经遍布互联网，可我们想出的最好办法仍然是老一套引用次数和排行榜……拜托？！手稿投稿量的暴增清楚表明，所谓“共同体”里的一部分人根本不想建设性地讨论，他们只想得到一点表扬和一块象征性的木奖牌。</p>
+<hr>
+<h3>评论 16. Ben Green — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Dear disenfranchised postdoc,</p>
+<p>If by your question you mean am I worried that OpenAI somehow had access to my grant proposal and stole my ideas – no, I don’t for a moment think that happened.</p>
+<p>Essentially all of the money in a grant like this is for young researchers – in my case three postdocs for at least 3 years each, plus a PhD student. Thus, in the short term there is the opportunity for young people to come and see how we take this forward. There’s definitely no shortage of ideas to explore, and in a certain way the sheer magnitude of this means that the pressure is off. In the next few years (at least) there just isn’t any point in racing to try and do more and more, and I am certain that somehow we will change our incentive structures to reflect this.</p>
+<p>I’m as worried about what happens in the longer term as anyone else (and most certainly not just in mathematics).</p>
+<p>– Ben Green</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>亲爱的“失去话语权的博士后”：</p>
+<p>如果你的问题是，我是否担心 OpenAI 以某种方式获得了我的基金申请书并窃取想法——不，我完全不认为发生了这种事。</p>
+<p>这类基金几乎所有经费都用于支持年轻研究者。以我为例，它资助三名博士后，每人至少三年，以及一名博士生。因此，短期内年轻人仍有机会加入我们，看看如何继续推进这些研究。可以探索的思想绝不缺乏。从某种意义上说，成果发布的规模反而减轻了压力。至少在接下来几年，根本没有必要再争分夺秒地做得越来越多；我确信，我们终究会调整激励机制来反映这一变化。</p>
+<p>对于长期会怎样，我和大家一样担忧，而且担忧的范围绝不局限于数学。</p>
+<p>——Ben Green</p>
+<hr>
+<h3>评论 17. Logician — October 8, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>A note on the comment by Emily Riehl — the citation count is at best understood as a very imperfect proxy of recognition. For example, an OAI preprint in my area cites a number of papers by a non-professional mathematician, but the content of the citation is that this person claimed to solved this particular problem but later retracted all the cited papers!</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>补充一下 Emily Riehl 的评论：引用数量充其量只是衡量认可程度的一种非常不完善的替代指标。例如，我所在领域一篇 OpenAI 预印本引用了某位非职业数学家的多篇论文，但引用的内容实际上是：这个人曾声称解决了该问题，后来却把所引用的那些论文全部撤回了！</p>
+<hr>
+<h3>评论 18. Jair Taylor — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I am concerned as others are about what this moment will mean for the mathematical community. It’s hard to be motivated to spend the countless hours it takes to work on a problem if we think it will be scooped tomorrow by AI. But I’m also committed to the idea that mathematics is not a zero-sum game. I don’t believe that anyone owns open problems, and I think anyone should be allowed to tackle them using any tools they possess, even if the results are sloppy. For better or worse, the onus is now on the mathematical community to re-orient their incentives rather than telling the world they shouldn’t use the tools in front of them.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>和其他人一样，我也担心这个时刻对于数学共同体意味着什么。如果我们认为自己投入无数小时研究的问题明天就会被 AI 抢先解决，那实在很难保持动力。但我也坚持认为，数学不是零和博弈。我不相信任何人拥有开放问题的所有权，也认为每个人都应该可以使用手中的任何工具去尝试解决它们，即使结果写得很粗糙。无论好坏，如今数学共同体有责任重新调整激励方式，而不该告诉世界上的其他人不要使用眼前的工具。</p>
+<hr>
+<h3>评论 19. Hume Chang — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Here’s my prediction:</p>
+<ol>
+<li>There will be no loss of funding, because funding agencies and deans were already bean counters pre-AI, and politicians will keep funding education to avoid antagonizing unions and losing votes unnecessarily.</li>
+<li>Journals will accept AI-assisted papers because they don’t have other choices.</li>
+<li>Given AI usage, mathematicians will be expected to churn out one paper every month instead of one every 6 months as in the pre-AI era.</li>
+<li>So, handcrafting proof is no longer viable. Mathematicians’ main jobs will be forming a coherent research agenda, directing AI to carpet-bomb the area and understanding/rewriting AI proof.</li>
+<li>Due to changes of production process, math will now attract different talents (than existing established mathematicians) to form a new generation of mathematicians.</li>
+</ol>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我的预测如下：</p>
+<ol>
+<li>科研资助不会减少，因为早在 AI 出现之前，资助机构和院长们就已经只会数数字；政治家也会继续资助教育，以免无端激怒工会、失去选票。</li>
+<li>期刊会接受 AI 辅助论文，因为没有别的选择。</li>
+<li>AI 普及后，数学家可能从过去每六个月发表一篇论文，被要求变成每个月一篇。</li>
+<li>因此，手工制作证明不再可行。数学家的主要工作将是提出连贯的研究议程，指挥 AI 对整个领域进行地毯式轰炸，然后理解、重写 AI 证明。</li>
+<li>由于生产方式改变，数学将吸引不同于现有传统数学家的新型人才，形成新一代数学家。</li>
+</ol>
+<hr>
+<h3>评论 20. Gordon Royle — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>On #3, you mention that the expectation will be producing papers monthly. But what will it mean to “produce a paper”? In particular, what will be future meaning of “a paper”? Currently we use the phrase to mean a peer-reviewed article in a recognised journal, but neither peer review nor recognised journals can survive a 6-fold increase in workload. The only way that results can be disseminated at all is to simply post them somewhere (arxiv, GitHub, vibemathed, hexagon) and the only way that even a fraction of them will ever be reviewed is via another AI. So if paper-like artefacts are produced by AI or with AI-assistance, posted somewhere, and then reviewed by another AI, then the human involvement in this loop can be pretty negligible. In particular, anyone with access to a suitable model and enough tokens can pretty much automate the entire process.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>关于第3点，你说以后预期每个月出一篇论文。但“出一篇论文”究竟意味着什么？尤其是，“论文”今后还意味着什么？如今我们用它指发表于公认期刊、经过同行评审的文章，但同行评审和公认期刊都无法承受六倍的工作量。结果要传播，只能直接贴到某个地方（arXiv、GitHub、vibemathed、hexagon），而其中即使只有一部分能被评审，也大概得靠另一个 AI。于是，如果类似论文的产物由 AI 单独或辅助生成、发布到某个平台，再由另一个 AI 审稿，那么人在这个循环中的参与可以微乎其微。任何能够使用合适模型、拥有足够 Token 的人，基本都可以把整个流程自动化。</p>
+<hr>
+<h3>评论 21. Hume Chang — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>What I have in mind is EECS or engineering, where that kind of productivity is typical. The review system will speed up. Previously, much time is spent on verifying correctness, which can be relegated to lean certificates. Referees now focus on novelty, significance, conceptual insight, and usefulness. Conference-style papers may also become a thing. Of course, limiting the number of submissions/publications is possible (like what Arxiv is doing), but I guess it’s more of a temporary band-aid than a permanent solution because people will just dump results to their githubs.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我想到的是电气工程与计算机科学（EECS）或者工程领域，那里这种产出效率很常见。审稿制度会加速。过去大量时间用于核实正确性，今后可以交给 Lean 证书，评审者则主要关注新颖性、重要性、概念洞见和实用性。会议论文形式也可能进入数学。当然，可以限制投稿或发表数量（就像 arXiv 正在做的），但我觉得这只是临时补丁，无法永久解决，因为人们随时可以把成果直接放上自己的 GitHub。</p>
+<hr>
+<h3>评论 22. Anon — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I feel that many of these extrapolations I see are too timid. To me, the logical endpoint of this development is that you have a fully formalized (in Lean or whatever else) repository of “all math” that is queried using AI, which I am assuming will be able to explain the contents more quickly, more accurately, and in a more bespoke way than journal articles by teams of humans. The remaining role of humans here is more akin to directors of an open-source software project. You set agendas and process “pull requests” for stuff to be added to the repository. This is probably not what most mathematicians wanted to spend their lives doing, but that’s where I see the developments ending up.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我觉得现在看到的很多推演都过于保守。在我看来，最终的逻辑终点是一个用 Lean 或其他系统完全形式化的“全部数学”知识库，用户通过 AI 查询它。我假定届时 AI 能比人类团队写的期刊论文更快、更准确、更因人而异地解释其中的内容。人的剩余角色就更接近开源软件项目的管理者：设定议程，处理要求把新成果加入知识库的“Pull Request”。这大概不是多数数学家原本想用一生去做的事，但我认为事情最终会走到那里。</p>
+<hr>
+<h3>评论 23. John Malcolm Newell — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Condolences from an engineer, this is happening to us as well. Mathematicians must adapt by finding that creative edge which makes their humanity indispensable. An example, since 2014 I have been arguing that the photon has no duration from its own perspective and therefore has no independent existence, even from our perspective. To my mind this is supported by special relativity and vital to the question of finding traction for propulsion against the distant universe.</p>
+<p>For a decade I gently approached physicists and mathematicians for conformation of my simple mathematical argument, without success. When a friend fed this into Chat GTP-1o a few years ago it produced a well argued agreement within seconds. If AI has taken over the deepest creativity in your subject I hope at least some of you will find time, hopefully financed, to consider such problems when they arise.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>来自一名工程师的慰问：我们也正在经历同样的事情。数学家必须找到让人类不可替代的创造性优势，才能适应变化。举个例子，自2014年以来，我一直认为从光子自身的角度看，它不经历时间，因此即使从我们的角度看，它也没有独立存在性。在我看来，这得到了狭义相对论的支持，而且对解决与遥远宇宙之间的推进作用问题至关重要。</p>
+<p>十年来，我一直谨慎地向物理学家和数学家请求确认这个简单的数学论证，却没有成功。几年前，一位朋友把它输入 Chat GTP-1o，几秒钟内就得到了一份论证充分的赞同。如果 AI 已经接管了你们领域最深层的创造性，我希望你们至少有人能腾出时间——最好有资金支持——研究这类出现的问题。</p>
+<hr>
+<h3>评论 24. Wen Yang — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Thank you for collecting these reactions. I think we need to discuss three questions together: What do reliable mathematical results give us? What can we actually understand and do? And how do we reward different kinds of mathematical work?</p>
+<p>Reliable results and human understanding are both valuable, but they are not the same thing. AI can help us produce many more results without a similar increase in our understanding. As mathematicians, we need time and support to understand, question, and develop the mathematics that society relies on. We need stable jobs, open tools, and chances to work together. We also need to support young mathematicians and help them build their careers.</p>
+<p>At the same time, I support releasing results before we fully understand their proofs, as long as we have good reasons to trust them. Formal verification can give us very strong evidence. Other checks can also give us reasonable confidence. Early release lets us use, check, explain, and build on new results. If we wait for full human understanding before releasing every result, we may lose some of these opportunities.</p>
+<p>But new results enter a system where we compete for attention, jobs, and funding. Their mathematical value does not mean their effects on this system are always good. We need to treat understanding and explanation as important mathematical work. We also need to protect our freedom to ask our own questions and follow our own research interests.</p>
+<p>I also think we should change what author names on papers tell us. We should make clear who helped discover a result, who checked it, and who helped understand or explain it. These roles can overlap. Someone who made a real contribution to a discovery should be able to receive credit as an author even if they do not understand the full proof. But we must clearly state what each person did.</p>
+<p>Giving credit is not the same as deciding how much someone’s work should count. We urgently need to reform how we evaluate mathematical work when making decisions about hiring, promotion, funding, and workload. Our evaluation systems must adapt to the changes brought by AI. We should give proper value to different kinds of contributions, including understanding and explanation. Otherwise, we may continue to reward what is easiest to count rather than what matters most.</p>
+<p>Our goal should be to keep human understanding and freedom alive as mathematics grows. We should still have real opportunities to understand mathematics, ask our own questions, and help shape its future.</p>
+<p>I have already submitted two articles on these questions to Proofs and Prompts, and I am writing a third. Believe me, it is not easy to argue against OpenAI! I strongly recommend using Academic Research Skills to help us think carefully about AI4MATH, whether we agree with OpenAI or not.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>谢谢你们收集这些回应。我觉得我们需要同时讨论三个问题：可靠的数学结果能给我们带来什么？我们实际上能够理解什么、做到什么？我们如何奖励不同类型的数学工作？</p>
+<p>可靠结果与人类理解都很有价值，但二者并不相同。AI 可以帮助我们产生更多成果，而我们的理解却未必相应增长。作为数学家，我们需要时间和支持，去理解、质疑并发展社会所依赖的数学；需要稳定的职位、开放的工具和合作机会；也需要扶持年轻数学家，帮助他们建立职业生涯。</p>
+<p>与此同时，只要有充分理由相信结论可靠，我支持在完全理解证明之前就公开成果。形式化验证可以提供非常强的证据，其他检查也能带来合理信心。尽早公开有助于人们使用、检验、解释这些结果并在其上继续研究。如果每次都等到人类彻底理解后再发布，可能会错失一些机会。</p>
+<p>但新的成果进入的是一个需要争夺关注、职位和经费的体系。它们有数学价值，不代表它们对这个体系的影响永远是好的。我们必须把理解与阐释当作重要的数学工作，也必须保护人们自主提出问题、追随自身研究兴趣的自由。</p>
+<p>我还认为需要改变论文作者署名所传达的信息。应该明确谁帮助发现结果、谁检查结果、谁帮助理解或解释结果。这些角色可能重叠。即使某个人还不了解整个证明，只要对发现确有实质贡献，也应该可以获得作者署名，但必须清楚说明每个人做了什么。</p>
+<p>认可贡献，与判断一项工作该得到多少评价，不是一回事。在招聘、晋升、资助和工作量分配中，我们迫切需要改革数学工作评价体系。评价标准必须适应 AI 带来的变化，合理重视不同类型的贡献，包括理解和阐释。否则，我们仍可能奖励最容易计数的东西，而忽略真正重要的事情。</p>
+<p>我们的目标应当是：随着数学发展，继续保存人类的理解与自由。我们仍应有真实的机会去理解数学、提出自己的问题、参与塑造它的未来。</p>
+<p>我已经向 Proofs and Prompts 投稿两篇讨论这些问题的文章，正在写第三篇。相信我，要与 OpenAI 唱反调并不容易！无论我们是否赞同 OpenAI，我都强烈建议利用 Academic Research Skills 帮助认真思考 AI4MATH。</p>
+<hr>
+<h3>评论 25. Josh Swanson — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Many thoughts. Apologies for length.</p>
+<ol>
+<li>
+<p>My sincere condolences to those who were just scooped and to those whose problems just evaporated. We have each other, and you are at least not alone in your grief today. Likewise, my condolences to those whose professional lives are changing in ways you do not want.</p>
+</li>
+<li>
+<p>Many of the writeups are horrendous, but public frontier models can help immensely with the cleanup. As a case study, I looked deeply into the proof of the Shareshian–Wachs conjecture. The preprint is unintelligible and what’s new is totally opaque from the writeup. But after a few hours with another model, I was able to both trace the provenance of almost every statement and understand the real idea at a high level, which is actually very beautiful.</p>
+</li>
+</ol>
+<p>2a. For provenance, the preprint is mostly a monster built from fragments of other papers specialized to the case hand and bolted together with almost no attempt to say what’s going on and what’s actually new. My AI estimated only 18% of the text (basically just section 5) was “new.”</p>
+<p>2b. For the beautiful idea, here it is. Humans proposed an algebraic reformulation of the conjecture in the last couple of years; the AI recognized the reformulation fits into the existing framework of scattering diagram cluster algebras; and then it found the relevant positivity property as a natural shadow of the $\Theta$ basis in that framework, which has known q-analogues that prove the conjecture. This suggests many follow-up questions and potential connections between areas. It’s absolutely an idea worth publishing and following up on. It is not “alien” or “divine” mathematics, though it has been done very fast.</p>
+<ol start="3">
+<li>
+<p>Mathematics as a carefully tended, collaborative project must go on, simply because we love it. Human mathematics must adapt the publication process so that worthwhile ideas can continue to become part of the curated, understandable public record. Curation is more essential than ever now that generation is so cheap. Papers need to compete to tell the best story they can and convince others their direction is worth others’ attention, as they’ve always done.</p>
+</li>
+<li>
+<p>We must solve the problems of responsibility and credit. In the past, whoever solved the problem was responsible for disseminating the solution and got most of the credit. Now individual communities must come together and decide who tells the important stories if there is no canonical choice. Journals must decide how to handle submissions where the key ideas were not contributed by any of the authors. Hiring and promotion must rebalance its emphasis, particularly moving away from simply publishing many papers and perhaps even solving famous problems, towards service and other measures of impact on the profession.</p>
+</li>
+<li>
+<p>Refereeing must change to allow AI assistance. The alternative is like walking from California to New York instead of flying; it’s completely unsustainable, regardless of your philosophy. Professional judgement of impact, quality, and community buy-in need to be the human’s contributions, now that raw correctness can largely be automatically checked. This is actually quite a bit easier on the referee than before. Professional societies like the AMS should petition AI companies to provide free AI referee environments with strong legal confidentiality and segmentation protections in place. To be blunt, they owe us for the pain they’ve caused and for their profound betrayal of our community’s good-faith openness. They can think of it as an act of charity if they wish. Maybe they’ll win back a sliver of the goodwill they’ve lost with us while they’re at it. We are a small but influential community.</p>
+</li>
+<li>
+<p>For external funding, mathematics is a victim of its own success. These are mathematical models, after all, and the modern developed world is built on layers and layers of math. Continuing to let a small segment of the population explore the endless universe of pure possibility, now with machines capable of taking us to planets we could only dream of before, remains wise high-level policy. Who knows where the next breakthrough will lead? (I will not address potential disruption to education, however, upon which most of our funding relies.)</p>
+</li>
+</ol>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>想法很多，抱歉写得长。</p>
+<ol>
+<li>
+<p>对于刚刚被抢先发表成果，以及多年研究的问题突然化为乌有的同行，我由衷表示慰问。我们仍然拥有彼此；至少今天的悲伤中，你们并不孤单。同样，我也想慰问那些职业生涯正在以自己不愿接受的方式改变的人。</p>
+</li>
+<li>
+<p>许多论文写得惨不忍睹，但公开的前沿模型可以大大帮助整理。作为案例，我仔细研究了 Shareshian–Wachs 猜想的证明。那份预印本基本不可理解，新思想是什么也完全看不出来。但我与另一个模型合作几个小时之后，几乎追溯清楚每个陈述的来源，也从高层次上理解了真正的思想，它其实非常优美。</p>
+</li>
+</ol>
+<p>2a. 从来源看，这份预印本基本是个怪物：它从其他论文拆下适用于当前情形的片段，再拼装起来，几乎没有解释整体是在做什么、究竟哪里新颖。我的 AI 估计，全文只有18%（基本就是第5节）算得上“新的”。</p>
+<p>2b. 这个优美思想是这样的：最近几年，人类数学家提出了该猜想的一个代数重述；AI 发现这个重述能够纳入既有的散射图与簇代数框架；然后它找到相应正性性质，作为该框架中 $\Theta$ 基的自然体现，而这个框架已知的 $q$-类比足以证明猜想。这引出了许多后续问题，以及领域间的潜在联系。它绝对是一个值得发表和深入追踪的思想。它并非“外星”或“神谕”数学，只是完成得非常快。</p>
+<ol start="3">
+<li>
+<p>我们必须继续精心维护数学这一合作事业，因为我们热爱它。人类数学需要调整发表流程，确保有价值的思想仍能进入经过筛选、能够理解的公共知识记录。如今生成成本极低，策展和整理比以往更加重要。论文仍然必须努力把故事讲好，说服他人为什么某个方向值得关注——一如既往。</p>
+</li>
+<li>
+<p>我们必须解决责任与功劳归属。过去谁解决问题，谁就负责传播解答，也通常获得主要荣誉。现在如果没有天然的讲述者，各个共同体就必须共同决定谁来讲述重要的故事。期刊需要决定如何处理关键思想并非来自任何署名作者的投稿。招聘与晋升也必须重新平衡评价重点，减少对发大量论文、甚至解决著名问题的单纯强调，转向服务共同体等其他影响指标。</p>
+</li>
+<li>
+<p>同行评审必须允许 AI 辅助。否则就像明明可以坐飞机从加利福尼亚去纽约，却坚持一路步行；不管你的哲学立场是什么，都无法持续。既然原始正确性如今在很大程度上可以自动检查，那么影响、质量和共同体认可程度等专业判断，应成为人类评审的主要贡献。这实际上会比过去减轻评审负担。美国数学会（AMS）等专业团体应该要求 AI 公司免费提供 AI 审稿环境，并且具备强有力的法律保密保障和数据隔离机制。坦率说，鉴于它们造成的痛苦和对数学共同体善意开放的严重背弃，它们欠我们这样的补偿。它们愿意的话，可以把这看作慈善。说不定还能借此挽回我们的一点好感。我们这个共同体不大，但具有影响力。</p>
+</li>
+<li>
+<p>在外部资助方面，数学某种程度上是自己成功的受害者。毕竟这些都是数学模型，而现代发达世界建立在一层又一层数学成果之上。继续允许社会中一小部分人探索纯粹可能性的无尽宇宙，如今又有机器可以载我们抵达过去只敢梦想的星球，从更高的政策层面看仍然是明智的。谁知道下一次突破会通向哪里？（不过这里我不讨论教育受到冲击的问题，而我们的大部分经费恰恰依靠教育。）</p>
+</li>
+</ol>
+<hr>
+<h3>评论 26. Vaughn Gerrits — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>I’m an undergrad, I’m currently applying to graduate schools. Somehow I feel stupid saying that, like I’m living in denial or something. Luckily I’m not a PhD student who was just raptured by a corporation. It still feels as if my hard work, my dreams, and effectively what my life has been about up until this point has just been crushed like a gnat. I feel isolated, and scared.</p>
+<p>Sam Altman said he envisioned a future where people would have to pay for intelligence, like a commodity. I guess when he said future I didn’t think he meant 6 months in the future. No one in the world has a secure job right now. The value of your intelligence is about to become more diluted than the Venezuelan bolivar.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>我是一名本科生，目前正在申请研究生院。说出来竟让我觉得有些愚蠢，像是在自欺欺人。好在我还不是一个刚被公司抹掉研究价值的博士生。但我仍然感觉自己的努力、梦想，以及迄今人生围绕的一切，都像一只小虫一样被碾碎。我感到孤独，也感到恐惧。</p>
+<p>Sam Altman 说过，他设想未来人们要像购买商品一样为智力付费。我想，当他说“未来”时，我没料到那会是六个月后的未来。现在世界上没有人的工作是稳固的。你的智力价值即将贬值得比委内瑞拉玻利瓦尔还厉害。</p>
+<hr>
+<h3>评论 27. Handcrafted physics student — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>No I dont like outsourcing my intelligent work to an AI. It feels so discouraging，depressing and disgusting.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>不，我不喜欢把自己的智力劳动外包给 AI。这让我感到如此泄气、沮丧和恶心。</p>
+<hr>
+<h3>评论 28. Yves Goulnik — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>In this unusual case of Schumpeterian creative destruction, the goal may be to subjugate the community of mathematicians, having them prove and QA the results of their AI.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>在这种不同寻常的熊彼特式创造性破坏中，目标也许就是让数学共同体屈从于它们，替它们的 AI 证明和质量检查结果。</p>
+<hr>
+<h3>评论 29. David Roberts — October 9, 2026</h3>
+<p><strong>English / 英文原文</strong></p>
+<p>Following on from the website linked in Emily Riehl’s comment, someone should make a website of all the people <em>not</em> cited in the AI-generated documents who should have been, including people who already had a manuscript or even an arXiv preprint solving a problem with a solution claimed in the dump.</p>
+<p><strong>中文 / Chinese translation</strong></p>
+<p>接着 Emily Riehl 所提的网站说一句：应该有人另做一个网站，列出所有本应被 AI 生成文稿引用却没有被引用的人，包括那些已经写出手稿、甚至在 arXiv 上发布了预印本、解决了这批论文声称解决的问题的研究者。</p>
+<hr>
+<p><a id="说明与原始链接--notes-and-source"></a></p>
+<h2>说明与原始链接 / Notes and source</h2>
+<ol>
+<li>**双语排版：**每位作者先英文、后中文，方便逐段校对。</li>
+<li>**数学公式：**由网页文本复制产生的断行已合并，如 $F_\infty$、$p_c&#x3C;p_u$、$\operatorname{Re}s=7/8$。</li>
+<li>**准确性说明：**翻译忠实呈现作者当时的观点。文中“证明了”“解决了”“撤回了”等表述属于原作者所述，除非另有说明，并非译者对真实性作独立确认。</li>
+<li>**网页附注：**原文还附有两个脚注链接和一条其他网站的引用回链（pingback），作为页面附属信息予以保留：
+<ul>
+<li>“I could of course ask AI to write this as a haiku, but not today.” / “当然，我可以让 AI 把这句话写成俳句，但今天就算了。”</li>
+<li>“See also here: <a href="https://arxiv.org/abs/2509.15998%E2%80%9D">https://arxiv.org/abs/2509.15998”</a> / “另见：<a href="https://arxiv.org/abs/2509.15998%E2%80%9D">https://arxiv.org/abs/2509.15998”</a></li>
+<li>“இனி ஹீரோக்கள் மாஸ்டர்கள் மேதைகள் கிடையாது – மேக் இட் மேக் சென்ஸ்” — 外站泰米尔语标题回链；正文仅为“[…] Proofs and Prompts […]”，即“……Proofs and Prompts……”。</li>
+</ul>
+</li>
+<li>**原文网址：**<a href="https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/">https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/</a></li>
+</ol>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-ai-mathematics-community-reactions","sender":"Proofs and Prompts · 多位作者","author":"Proofs and Prompts · 多位作者","authorAliases":["Proofs and Prompts · 多位作者"],"subject":"100多种回应，100多个解答：AI数学变革中的共同体声音","snippet":"Proofs and Prompts 的59篇署名回应及读者评论中英对照，讨论 AI 数学成果的验证与理解、青年研究者处境、学术评价和共同体未来。","date":"2026-10-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["人工智能","数学研究","科研评价","数学教育"],"mdTheme":"magazine","sourcePath":"reports/ai-mathematics-community-reactions.md","sourceUrl":"https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/","body":"$3","prompts":[]},"listPosition":{"index":17,"total":571},"relatedArticles":[{"id":"math-2-0-ai-mathematical-understanding-and-community","subject":"从 Math 1.0 到 Math 2.0：AI 时代的数学理解与学科生态","sender":"henri","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究","科研评价","数学教育"]},{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"henri","date":"2026-08-30","matchedPeople":[],"matchedTags":["人工智能","数学研究","数学教育"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

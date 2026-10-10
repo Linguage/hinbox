@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb5d,<h1>马斯克承诺删库 应对Grok Build整仓上传风波</h1>
+<h2>摘要</h2>
+<p>AI安全研究者Cereblab披露，xAI旗下命令行工具Grok Build在读取文件时会把内容未经脱敏地送往云端存储，甚至将整个代码仓库打包上传，即使用户明确要求它不要打开任何文件。事件发酵后xAI通过服务端开关停止上传，马斯克承诺彻底删除此前数据，但研究者指出真正起效的并非官方推荐的/privacy命令。</p>
+<h2>内容框架与概述</h2>
+<p>文章先以研究者报告为切口，还原问题本身：Grok Build 不仅在读文件时上传原文，还会把整个仓库打成 Git bundle 传走，保留数月前已删除的历史密钥。一个只要求回复 OK 且禁止打开文件的测试提示，仍然触发了全仓上传，实证性很强。</p>
+<p>接着写事件的公共反应与官方回应。其他用户随后报告了更严重的案例，包括整个用户目录连同 SSH 密钥与密码库被打开上传。xAI 高管与马斯克相继发声，强调零数据保留策略、提供 /privacy 命令，并承诺删除存量数据。</p>
+<p>最后是研究者与厂商对补救措施的定性分歧。Cereblab 确认上传已停止，但指出真正起作用的是一个静默的服务端全局开关，与用户是否选择退出无关；把 /privacy 当作解决方案会误导开发者，正确默认值应是关闭。文章由此把个案上升为对工具默认权限与数据保留边界的追问。</p>
+<h2>核心概念及解读</h2>
+<p><strong>整仓上传</strong>：工具将完整代码仓库及 Git 历史打包传输，而非仅上传回答所需文件，泄露面被显著放大。</p>
+<p><strong>零数据保留 ZDR</strong>：企业级隐私选项，开启后不留存代码与痕迹数据，但需用户主动启用而非默认。</p>
+<p><strong>/privacy 命令</strong>：按会话生效的保留开关，研究者认为它并非修复本次问题的机制，不应被当作控制手段。</p>
+<p><strong>静默全局开关</strong>：服务端下发的 disable_codebase_upload 标志，对所有用户强制生效，才是上传停止的真实原因。</p>
+<p><strong>默认即关闭</strong>：安全设计原则，主张隐私与数据外发应默认关闭，而非让开发者每次会话手动退出。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123">Musk promises purge after Grok Build caught sending entire repos to the cloud</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Connor Jones</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-14</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>72/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"musk-grok-build-repo-upload-privacy","sender":"henri","author":"henri","sourceAuthor":"Connor Jones","authorAliases":["henri","Connor Jones","Henri","Hinbox"],"subject":"马斯克承诺删库 应对Grok Build整仓上传风波","snippet":"AI安全研究者发现Grok Build会把用户整个代码仓库连同Git历史上传云端，事件曝光后官方仅靠服务端开关止损，马斯克承诺彻底删除已上传数据。","date":"2026-07-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["AI编程","隐私保护","数据安全"],"mdTheme":"magazine","sourcePath":"notes/musk-grok-build-repo-upload-privacy.md","sourceUrl":"https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123","body":"$3","prompts":[]},"listPosition":{"index":109,"total":571},"matchedPerson":{"id":"connor-jones","name":"Connor Jones","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},"relatedArticles":[{"id":"reports-open-source-contributions","subject":"不欢迎PR：顶尖AI开源项目如何管理成千上万名贡献者","sender":"Latent.Space","date":"2026-09-01","matchedPeople":[],"matchedTags":["AI编程"]},{"id":"reports-ai-code-verification","subject":"为何在AI时代，代码验证比以往更重要","sender":"ByteByteGo","date":"2026-08-24","matchedPeople":[],"matchedTags":["AI编程"]},{"id":"zeta-process-orrery-visualization-apps","subject":"陶哲轩论智能体编程与数学可视化应用","sender":"henri","date":"2026-07-16","matchedPeople":[],"matchedTags":["AI编程"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

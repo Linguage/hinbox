@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb1b,<h1>代数几何的千重风景：从圆锥曲线到概形</h1>
+<h2>摘要</h2>
+<p>借Claire Voisin出任法兰西公学院首位数学女教授的契机，巴黎南奥赛大学教授François Charles以问答形式回顾代数几何两千年脉络：从古希腊圆锥曲线、十九世纪德国抽象代数，到格罗滕迪克的概形理论，并以方程与图形双向翻译的视角，展现这门学科与算术、拓扑、分析的深度交融。</p>
+<h2>内容框架与概述</h2>
+<p>文章以访谈形式展开，由法兰西公学院新任教授Claire Voisin的就职讲座引出话题，随即围绕学科的基本思想设问：几何图形如何用方程描述，以及方程与图形之间何以能双向互译，这正是代数几何最富魅力的内核。</p>
+<p>中段回溯历史脉络。古希腊人已熟悉圆锥曲线，十九世纪末德国抽象代数兴起，意大利学派积累了大量直觉性成果却缺乏严格语言，甚至出现错误定理。二十世纪由Zariski与Weil推动基础重建，最终由Grothendieck的概形理论确立今日通行的语言与概念框架。</p>
+<p>后段转向当代图景，指出代数几何已分化为解析、算术、热带、导数等多个分支，并与逻辑、动力系统、数学物理广泛交融。两位菲尔兹奖得主Lafforgue与Ngô Báo Châu的工作，正是以几何方法解决算术问题的典范。</p>
+<p>结尾强调法国学派的世界地位与开放性，指出Voisin的当选象征着这门古老学科的现代与包容。</p>
+<h2>核心概念及解读</h2>
+<p><strong>代数簇</strong>：由多项式方程组定义的几何对象，是代数与几何互译的核心载体，圆与圆锥曲线即为最简单例子。</p>
+<p><strong>概形理论</strong>：Grothendieck于二十世纪五六十年代创立，为代数几何提供现代语言，并极大拓宽了几何直觉的适用范围。</p>
+<p><strong>拓扑学</strong>：研究空间整体性质的学科，如是否闭合、是否连通，用以刻画代数簇的形状特征。</p>
+<p><strong>双向翻译方法</strong>：以代数方法研究几何、以几何方法研究代数，是这门学科最独特的思想内核。</p>
+<p><strong>算术几何</strong>：将几何直觉应用于整数方程等问题，Lafforgue与Ngô Báo Châu的菲尔兹奖成果即源于此。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://lejournal.cnrs.fr/articles/les-mille-paysages-de-la-geometrie-algebrique">Les mille paysages de la géométrie algébrique</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-24</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>84/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"algebraic-geometry-landscapes","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"代数几何的千重风景：从圆锥曲线到概形","snippet":"借Claire Voisin出任法兰西公学院首位数学女教授之机，巴黎南奥赛大学教授François Charles以问答形式讲述代数几何从古希腊圆锥曲线到格罗滕迪克概形理论的两千年演进及其当代活力。","date":"2026-07-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["代数几何","概形","数学史"],"mdTheme":"magazine","sourcePath":"notes/algebraic-geometry-landscapes.md","sourceUrl":"https://lejournal.cnrs.fr/articles/les-mille-paysages-de-la-geometrie-algebrique","body":"$3","prompts":[]},"listPosition":{"index":77,"total":571},"relatedArticles":[{"id":"grothendieck-mathematics-revolution","subject":"格罗滕迪克如何重塑现代数学的空间观","sender":"henri","date":"2026-05-20","matchedPeople":[],"matchedTags":["代数几何","概形","数学史"]},{"id":"grothendieck-a-committed-genius-legacy","subject":"格罗滕迪克逝世十周年：天才的数学遗产与反思","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["代数几何","数学史"]},{"id":"essays-kodaira-kunihiko-biography","subject":"游里工夫独造微——小平邦彦传","sender":"颜一清","date":"1997-07-26","matchedPeople":[],"matchedTags":["代数几何","数学史"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

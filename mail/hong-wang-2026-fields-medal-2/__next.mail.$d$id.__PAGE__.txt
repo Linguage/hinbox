@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tab3,<h1>王虹获2026年菲尔兹奖与三维Kakeya猜想告破</h1>
+<h2>摘要</h2>
+<p>中国数学家王虹因在调和分析领域的突出贡献，尤其是与Joshua Zahl合作证明三维Kakeya集猜想，于2026年在费城国际数学家大会上获菲尔兹奖。她现任IHES终身教授与纽约大学柯朗研究所教授，该成果终结了悬置近百年的难题，也再度凸显法国数学传统的深厚实力与多机构协同的学术生态。</p>
+<h2>内容框架与概述</h2>
+<p>文章首先宣布王虹获2026年菲尔兹奖，点明其在IHES与纽约大学的双重身份，并以第九枚、第十二枚、第十七枚的计数方式，把个人荣誉接入IHES、巴黎萨克雷大学与CNRS的机构谱系，同时列出本年度其他三位获奖者。</p>
+<p>随后文章汇集IHES所长、巴黎萨克雷大学校长、CNRS主席与纽约大学校长等负责人的致辞，均强调三维Kakeya猜想的突破性意义，以及王虹选择在法国继续研究的象征价值。</p>
+<p>文章继而梳理其学术履历，从北京大学本科、巴黎综合理工与巴黎萨克雷硕士，到MIT博士、普林斯顿高等研究院博士后、UCLA与纽约大学任教，最终于2025年入职IHES，呈现一条跨国流动的成长路径。</p>
+<p>最后介绍其研究领域与荣誉清单：以几何测度论为工具研究Fourier限制、局部光滑、Furstenberg与Kakeya等猜想，并列举从Mirzakhani新前沿奖、Salem奖到菲尔兹奖的获奖序列。</p>
+<h2>核心概念及解读</h2>
+<p><strong>Kakeya集猜想</strong>：1917年提出，追问包含各个方向单位线段的集合能有多小，三维情形由其证明Hausdorff维数为3。</p>
+<p><strong>调和分析</strong>：研究函数分解为基本波的数学分支，王虹借助几何测度论工具推进其中多个核心猜想。</p>
+<p><strong>几何测度论</strong>：以测度与维数刻画几何集合结构的学科，是攻克Kakeya与限制猜想的关键方法。</p>
+<p><strong>Hausdorff维数</strong>：衡量集合粗细与分形结构的实数指标，此处用于判定Kakeya集的真实规模。</p>
+<p><strong>菲尔兹奖</strong>：数学界最高荣誉，每四年颁发给不超过四位的年轻数学家。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.ihes.fr/en/hong-wang2026-fields-medal/">Hong Wang, Permanent Professor at IHES, awarded the 2026 Fields Medal</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-23</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>78/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"hong-wang-2026-fields-medal-2","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"王虹获2026年菲尔兹奖与三维Kakeya猜想告破","snippet":"中国数学家王虹因与Joshua Zahl合作证明三维Kakeya集猜想，于2026年获菲尔兹奖，现任IHES终身教授与纽约大学柯朗研究所教授。","date":"2026-07-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["Kakeya猜想","调和分析","数学研究"],"mdTheme":"magazine","sourcePath":"notes/hong-wang-2026-fields-medal-2.md","sourceUrl":"https://www.ihes.fr/en/hong-wang2026-fields-medal/","body":"$3","prompts":[]},"listPosition":{"index":85,"total":571},"relatedArticles":[{"id":"wang-hong-fields-medal-profile","subject":"从北大数学系小透明到菲尔兹奖得主王虹专访","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["Kakeya猜想","数学研究"]},{"id":"hong-wang-2026-fields-medal","subject":"王虹获2026年菲尔兹奖：第三位女性得主","sender":"henri","date":"2026-07-23","matchedPeople":[],"matchedTags":["Kakeya猜想","调和分析"]},{"id":"2026-fields-medal-four-laureates","subject":"2026菲尔兹奖揭晓：四位数学新星","sender":"henri","date":"2026-07-23","matchedPeople":[],"matchedTags":["调和分析","数学研究"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

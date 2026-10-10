@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tbb9,<h1>生命只是与众不同吗：生物能动性之争</h1>
+<h2>摘要</h2>
+<p>1993年，研究者仅凭伽利略号探测器的遥感数据初步判断地球存在生命，引出生命为何不同于岩石与飓风的追问。文章聚焦生物能动性之争：米切尔等认为能动性是所有生命真实作用于世界的因果能力，奥卡沙视其为表型可塑性的华丽同义词，迪弗里斯科则称其为缺乏研究纲领的概念。作者意在评估这一概念能否成为有产出的科学议题。</p>
+<h2>内容框架与概述</h2>
+<p>文章以萨根团队用伽利略号数据初步判断地球有生命开篇，提出生命与无机物的根本差异何在，并引出一种答案：生命为目标和理由而行动。仅用非平衡态与能量流描述生命并不够，因为飓风同样如此，却谈不上目标。</p>
+<p>作者随后指出，生命具有目标导向性本身并不争议，争议在于其含义。基因中心论视之为自动化程序的表演，但兔子逃窜时向左或向右的临场抉择难以归因于特定基因。由此引出能动性的操作性定义：设定近端目标并据此改造自身与环境。</p>
+<p>反对意见构成文章另一极。奥卡沙认为能动性往往只是行为可塑性的花哨说法，迪弗里斯科与高恩更称其既无新意又暗藏神秘的整体力量，类似十八世纪的活力论。苏丹与莫切克、沃尔什则回应，生物能动性并不超物质，是可检验的假说。</p>
+<p>作者最终自陈倾向认同能动性，因为它呼应了生命不只是基因程序的直觉，但同时警惕这一概念可能瓦解对生命机制的深入研究，故不急于褒贬，而是考察其科学产出性。</p>
+<h2>核心概念及解读</h2>
+<p><strong>生物能动性</strong>：生命体出于自身理由行动、并成为世界变化真实原因的能力，学界尚无统一定义。</p>
+<p><strong>目的论</strong>：生命表现出的合目的性，是生物学与哲学长期纠结的难题，易滑向设计与活力论。</p>
+<p><strong>表型可塑性</strong>：生物对同一刺激作出不同反应的能力，被批评者视为能动性的平凡替代解释。</p>
+<p><strong>近端目标</strong>：非繁衍等终极目标，而是此刻该采取何种行动的即时判断，构成能动性的操作核心。</p>
+<p><strong>活力论</strong>：十八世纪认为生命由某种特殊力量驱动的学说，被用作批评能动性含混的类比。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://www.quantamagazine.org/is-life-just-different-20260708/?mc_cid=8bb5409531&#x26;mc_eid=9ed96560c1">Is Life Just Different?</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Philip Ball</td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-08</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"is-life-just-different-biological-agency","sender":"henri","author":"henri","sourceAuthor":"Philip Ball","authorAliases":["henri","Philip Ball","Henri","Hinbox"],"subject":"生命只是与众不同吗：生物能动性之争","snippet":"文章从伽利略号在太空探测到地球生命谈起，探讨生物能动性概念之争，追问生命是否因有目标与理由而区别于无机物，以及该概念能否成为有产出的科学议题。","date":"2026-07-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["生物能动性","生命科学","科学哲学"],"mdTheme":"magazine","sourcePath":"notes/is-life-just-different-biological-agency.md","sourceUrl":"https://www.quantamagazine.org/is-life-just-different-20260708/?mc_cid=8bb5409531&mc_eid=9ed96560c1","body":"$3","prompts":[]},"listPosition":{"index":121,"total":571},"matchedPerson":{"id":"philip-ball","name":"Philip Ball","email":"","contentCount":1,"topTags":[{"id":"生命科学","name":"生命科学","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},"relatedArticles":[{"id":"essays-how-we-became-irrational","subject":"我们如何变得（不）理性","sender":"Reboot","date":"2026-03-12","matchedPeople":[],"matchedTags":["科学哲学"]},{"id":"essays-what-ultimately-is-there-metaphysics-ruliad","subject":"究竟什么是存在？形而上学与规则宇宙","sender":"Stephen Wolfram","date":"2026-02-04","matchedPeople":[],"matchedTags":["科学哲学"]},{"id":"essays-theyre-made-out-of-meat-terry-bisson-of-the-universe","subject":"他们是用肉做的","sender":"henri","date":"2020-08-29","matchedPeople":[],"matchedTags":["生命科学"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

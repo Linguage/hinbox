@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2e41,<p>原文：<a href="https://on.substack.com/p/open-tab-hunter-harris">Open Tab: Hunter Harris</a></p>
+<p>本文完整翻译公开发表的访谈成稿。原作注明，谈话内容经过编辑和删节。</p>
+<h2>访谈正文</h2>
+<p>Hunter Harris 是 <a href="https://open.substack.com/pub/hunterharris">Hung Up</a> 的创作者，这是一份每周两期的 Substack 通讯，她以法医般的视角审视我们文化中的执念以及她自己的执念。她说，她和近 200,000 名订阅者组成的读者群共享同一种“病”——永不满足——而他们被一种特定的隧道视野紧紧联结：只要好奇心需要，她就愿意写十几篇关于《一个明星的诞生》的文章，或者花时间去追查 Taylor Swift 公关的结婚证。<a href="https://open.substack.com/pub/hunterharris">Hung Up</a> 既是文化批评，也是深夜群聊，更是一场关于流行文化为何重要的持续论证。她的<a href="https://hunterharris.substack.com/chat">聊天区</a>——付费订阅者在那里复盘从剧集首播到自己生活的一切——已成为互联网上最忠诚、典故最密集的地方之一，也是一堂关于如何把受众变成社交世界的大师课。</p>
+<p>Harris 在俄克拉荷马州塔尔萨长大，在那里她和姨妈一起看情节剧，和爸爸一起看犯罪片，并在 12 岁时写信给当地影评人，质疑他对《另一个波琳家的女孩》的评论。在 Open Tab 的本季终集里，她与 Substack 新媒体负责人 Hanne Winarsky 坐下来，聊了聊学习新闻（以及曾以为自己可能会揭开下一个水门事件）、她在 New York 杂志 Vulture 的四年，以及 2020 年在 Substack 上创办 <a href="https://open.substack.com/pub/hunterharris">Hung Up</a>。她们在布鲁克林 Prospect Heights 的 Nitehawk Cinema 里的 Trees Lounge 见面——那是 Harris 常去的影院之一——喝着龙舌兰 gimlet，把剩下的故事补齐。</p>
+<hr>
+<p><strong>Hanne:</strong> 所以你的核心是订阅收入，但你也有播客，你做电视编剧，你仍然为传统媒体做一些自由撰稿，你也做一些品牌合作。你怎么看整个混合收入流，也就是 Hung Up 这门生意？</p>
+<p><strong>Hunter:</strong> 通讯是我的工作。其他一切感觉像是有趣的事，是我感到好奇的事。但我非常认真地觉得，读通讯的人就是客户，而我在履行我与他们之间的契约。我就是觉得，说“好吧，也许会出，也许不会出”是世界上最不尊重人的事。在我欠任何其他人工作之前，我欠他们工作——读者。然后品牌合作就只是有点好玩。有时候就像锻炼另一块肌肉。比如我剪一个 TikTok 会想死，因为我拇指太大、指甲太长，打不开 CapCut。播客一开始只是：我想和我最好的朋友一起做点东西。而这一切有点像衔尾蛇（ouroboros），我一遍又一遍地谈论同一件事。但有些人读通讯但不听播客，反过来也一样。电视那部分也许是我的梦想。但如果我明天就能写自己的剧集，我仍然会保留通讯，因为半夜里我会想，“我喜欢一个女孩的情感支持型手腕内侧纹身”，我需要一个地方说出来。</p>
+<hr>
+<p><strong>Hanne:</strong> 你形容自己有疯狂的隧道视野。当你产生这些执念之一时，你真的、真的会一路追下去。你觉得为什么这对你和你的受众都有效？</p>
+<p><strong>Hunter:</strong> 我觉得我们只是得了同一种病：永不满足。我觉得就是这样。一部分原因是作为独生子女长大，我很多时候只能自己娱乐自己。所以我可能会比其他人花更多时间在某件事上。隧道视野这个说法其实来自我以前的一位编辑，她说：“你的隧道视野真的很糟。”</p>
+<p><strong>Hanne:</strong> 那是夸奖还是侮辱？</p>
+<p><strong>Hunter:</strong> 不，那是侮辱。她是认真的。但后来我想，“哦，对，我完全就是这样。”在我生活的每一个部分都是。</p>
+<p><strong>Hanne:</strong> 你曾经因为隧道视野而有过的最尴尬的执念是什么？</p>
+<p><strong>Hunter:</strong> Charlie Puth。我经历过一个很大的 Charlie Puth 阶段。他真的就是流行王子。就像，他本该是下一代的 Justin Bieber。然后有一次我去 Radio City 看他的演唱会，我每一首歌都跟着唱，而且没有把相机静音。所以所有人都听到我跟着唱了。我的一个朋友到今天还在说这件事。</p>
+<p><strong>Hanne:</strong> 你怎么考虑在一篇名人特写里带入多少你自己？</p>
+<p><strong>Hunter:</strong> 我觉得，一点都不要。在理想世界里，你能感受到我的好奇心，但这不是关于我的。每当我读到一篇感觉太关于作者本人的特写时，我就会想，好吧，但 George Clooney 说了什么？</p>
+<p>而且，当你准备一篇特写时，会有一种真正的浪漫：你读关于这个人的一切，他们说过的一切，然后你进入采访，而他们令人失望，只因为你在脑子里把他们建构得太高。但那种失望不应该出现在文章里。有一个真正的时刻，你必须变得非常冷静。这几乎像分手，因为你真的必须和你对某个人的想象分手，然后只按事情发生的样子讲述故事。</p>
+<p><strong>Hanne:</strong> 失望是因为你在画面里添加了什么东西吗？还是总是一样，他们比你想象的更有人性？</p>
+<p><strong>Hunter:</strong> 我觉得只是他们总体上就是人。要了解像 Julia Roberts 这样的人，然后想，“天哪，她是真的。她是一个真实的人”，这很难。老实说，这就像你和某人出去约会。那种飘飘然的感觉淡了一点，因为现在你真实地出现在我面前。你知道，当一个人长时间存在于纸面上，然后这件事发生了，就像：好吧，我们只是两个人在说话。</p>
+<p><strong>Hanne:</strong> 你在 Hung Up 里的很多写作都融入了你的个人经历和关系。当你允许个人生活进入写作时，你内心的温度计是怎样的？</p>
+<p><strong>Hunter:</strong> 通讯是我写的。一开始我以为我想让朋友们投稿之类的。然后很快我就想，不。这是我的。我就是太完美主义了，每一件事都必须亲自盯着。我已经渐渐爱上通讯的这一点。我是明星学生、明星员工，但是糟糕的老板。而我是唯一决定一切的人，这很好。</p>
+<hr>
+<p><strong>Hanne:</strong> 你的写作过程实际上是什么样的？你多次提到，你醒来后就必须写点什么东西。</p>
+<p><strong>Hunter:</strong> 基本上，是的。我手机里有一个想法清单，是我醒来或睡觉时会想到的。日常来说，我对日程相当严格。我必须起床、遛狗、洗澡，最晚 9:30 坐到桌前。然后我会有一个小小的午休，到了下午我写不下去时，我会看一部预览片 或者去看电影。然后我在下午 6 点、7 点或 8 点左右会有一大波能量，我会换个地点，坐在咖啡桌旁，在那里写。</p>
+<p><strong>Hanne:</strong> 你还在做[HBO 医疗剧] The Pitt 的配套播客。那看起来像是稍微不同的肌肉组合。</p>
+<p><strong>Hunter:</strong> 我喜欢通讯的一点，是我之前没有真正考虑过的：当我写东西时，每个人都知道它来自 Hunter，一个黑人女性，31 岁，住在布鲁克林，有一条雪纳瑞与贵宾犬的混种犬（schnoodle），但她不会这么说。她会说自己有一条贵宾混种犬（poodle mix），因为 schnoodle 这个名字听起来太疯了。</p>
+<p>当我为 Vulture 写作、为杂志写作时，你不总是有那种语境。有时候我会开一个关于 SZA 的玩笑，然后有人会说，“天哪，这个白人男性在居高临下地对这个黑人女性说话。”效果不一样。做 The Pitt 播客时，这是我一段时间以来第一次感受到其中一些东西，听的人对我其他方面一无所知。我是我自己，但我也会在一定程度上收敛些，因为人们可能不能理解我的每一个玩笑。</p>
+<p><strong>Hanne:</strong> 听起来这更像是在舞台上，而不是在客厅里和你的 Hung Up 伙伴们闲逛。</p>
+<p><strong>Hunter:</strong> 完全正确。</p>
+<hr>
+<h3><strong>脚注</strong></h3>
+<p><strong><a href="https://nitehawkcinema.com/prospectpark/trees-lounge/">Trees Lounge</a></strong>——布鲁克林 Prospect Heights 的 Nitehawk Cinema 内一家出人意料的酒吧。</p>
+<p><strong><a href="https://www.youtube.com/watch?v=M44ZHmPoLSU">The Other Boleyn Girl</a></strong>——被 Tulsa World 影评人恶评。被 12 岁的 Hunter 辩护。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!j8q7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a311d18-57c2-4ae8-90cf-838c96d4789b_2548x3100.jpeg" alt=""></p>
+<p><em>那篇激起年幼 Hunter 愤怒的 OBG 评论</em></p>
+<p><strong><a href="https://www.vulture.com/tv/gossip-girl/">Vulture 的 Gossip Girl 复盘</a></strong>——把 Hunter 引向了在互联网上写流行文化。</p>
+<p><strong><a href="https://www.gq.com/story/zendaya-february-2021-cover-profile">GQ 的 Zendaya 封面报道</a></strong></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!wQWl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51dffae2-afc0-40c8-8490-0952f649db2c_1600x2175.jpeg" alt="Zendaya on &#x27;Euphoria,&#x27; &#x27;Malcolm and Marie,&#x27; and Figuring Herself Out | GQ"></p>
+<p><strong><a href="https://www.vulture.com/2018/05/charlie-puth-was-voicenotes-interview-attention.html">Charlie Puth</a></strong>——被低估的“流行王子”，也是 Hunter 最“尴尬”的隧道视野对象。</p>
+<p><strong><a href="https://podcasts.apple.com/us/podcast/the-pitt-podcast/id1864935801">The Pitt</a></strong>——Hunter 联合主持这档热门剧集的官方配套播客。</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Ouroboros">Ouroboros</a></strong>——蛇吞自己尾巴的古老象征。Hunter 说她的通讯、播客和品牌合作存在于一个循环中。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!fGbt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa369bb6f-7313-4800-badd-96cb56c77e73_625x621.png" alt=""></p>
+<p><strong><a href="https://www.ask-polly.com/">Ask Polly</a></strong>——由 Heather Havrilesky 撰写。Hunter 在 Substack 上的北极星。“我永远无法在纸面上如此赤裸、脆弱，同时又有点喜怒无常和调皮。”</p>
+<p><strong><a href="https://www.youtube.com/watch?v=7V_A1JW9cKI">Friends with Money</a></strong>——Nicole Holofcener 的电影，用 Hunter 的话说，其中所有角色都“绝对令人作呕”。</p>
+<p><strong><a href="https://www.youtube.com/watch?v=gnaDj74UMqs">关于在床上吃东西的不可思议的电影</a></strong>——Meryl Streep、Jack Nicholson，以及《Heartburn》中的一碗 carbonara，改编自 Nora Ephron 的半自传体小说。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!QA2F!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faece2453-8f08-42a0-a8e2-e2dbe9318c49_584x342.png" alt=""></p>
+<p><em>本次对话经过编辑和浓缩以确保清晰。Open Tab 的新一期节目每周更新，持续到六月。你可以在 YouTube 上观看，在你常用的播客平台收听，并始终在 Substack 上找到完整系列。</em></p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-interview-open-tab-hunter-harris","sender":"Hunter Harris、Hanne Winarsky","author":"Hunter Harris、Hanne Winarsky","authorAliases":["Hunter Harris、Hanne Winarsky","Hunter Harris","Hanne Winarsky"],"subject":"Open Tab 访谈：Hunter Harris","snippet":"Hunter Harris 谈流行文化、写作、对名人的关注与她的读者社群。","date":"2026-06-18","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["流行文化","写作","读者社群"],"mdTheme":"magazine","sourcePath":"talks/interview-open-tab-hunter-harris.md","sourceUrl":"https://on.substack.com/p/open-tab-hunter-harris","body":"$3","prompts":[]},"listPosition":{"index":157,"total":571},"matchedPerson":{"id":"hanne-winarsky","name":"Hanne Winarsky","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},"relatedArticles":[{"id":"talks-interview-model-behavior-george-saunders","subject":"模型行为：George Saunders","sender":"On Substack","date":"2026-09-30","matchedPeople":[],"matchedTags":["写作"]},{"id":"yann-martel-writing-storytelling","subject":"扬·马特尔谈写作：故事不是解释世界，而是让读者参与创造","sender":"henri","date":"2026-05-06","matchedPeople":[],"matchedTags":["写作"]},{"id":"talks-writing-advice-every-writer-should-hear-anne-lamott-interview","subject":"Anne Lamott 谈写作心法","sender":"David Perell","date":"2026-04-29","matchedPeople":[],"matchedTags":["写作"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb87,<h1>Cloudflare 细分 AI 爬虫流量管控</h1>
+<h2>摘要</h2>
+<p>Cloudflare 在其第二个内容独立日宣布，将 AI 流量管理从笼统的封锁 AI 机器人升级为按搜索、代理、训练三类用途细分管控，覆盖包括免费版在内的全部客户。文章指出，内容方既想保护原创，又不愿失去可发现性，因此需要更细粒度而非一刀切的选择。自 2026 年 9 月 15 日起，新接入域名在展示广告的页面上默认屏蔽训练与代理爬虫，搜索保持放行；混合用途爬虫按最严格规则处理。同时面向企业客户推出 BotBase 机器人目录，先做可见性再做控制。</p>
+<h2>内容框架与概述</h2>
+<p>文章以内容独立日一周年为切入点，回顾一年前推出的封锁 AI 机器人与按次付费抓取方案，指出行业诉求已从单纯反对无偿训练，转向既要保护内容又要保留曝光与补偿的更细致平衡。</p>
+<p>随后文章解释了为何放弃以是否属于 AI 来定义机器人，转而追问机器人在站点上做什么、存储什么、如何再分享内容，并提出搜索、代理、训练三类务实分类法，同时呼吁厂商将混合用途的自动化拆分为独立爬虫以提升透明度。</p>
+<p>接着文章介绍具体的产品与默认策略变更，说明广告页与搜索流量的不同处理逻辑，以及混合用途爬虫按最严格规则执行的后果，并强调客户可随时在安全设置中选择退出默认配置。</p>
+<p>最后文章介绍面向企业客户的 BotBase，作为可搜索的机器人目录与后续控制中枢，并给出更完整的机器人行为分类表，涵盖交易、数据采集与安全测试等用途。</p>
+<h2>核心概念及解读</h2>
+<p><strong>搜索类爬虫</strong>：抓取并建立站点索引以便日后回答查询，站主应获得引荐流量或等值补偿。</p>
+<p><strong>代理类爬虫</strong>：代表真人实时访问网页应用完成某项任务，通常有人类在另一端等待结果。</p>
+<p><strong>训练类爬虫</strong>：抓取内容用于训练或微调模型，数据被永久吸收进模型底层架构。</p>
+<p><strong>多元用途爬虫</strong>：同时承担搜索与训练等多种目的，需按全部行为而非单一行为被识别与管控。</p>
+<p><strong>BotBase</strong>：Cloudflare 面向企业客户的机器人数据库，提供可搜索的全目录视图与检测 ID 复制。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://blog.cloudflare.com/content-independence-day-ai-options/">Your site, your rules: new AI traffic options for all customers</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-01</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>82/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"cloudflare-ai-traffic-control-options","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"Cloudflare 细分 AI 爬虫流量管控","snippet":"Cloudflare 推出按搜索、代理、训练三类用途管理 AI 爬虫的新选项，将于 2026 年 9 月 15 日对新域名设置默认规则，并发布 BotBase 机器人可见性数据库。","date":"2026-07-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["网络爬虫","人工智能","流量管理","开放网络"],"mdTheme":"magazine","sourcePath":"notes/cloudflare-ai-traffic-control-options.md","sourceUrl":"https://blog.cloudflare.com/content-independence-day-ai-options/","body":"$3","prompts":[]},"listPosition":{"index":136,"total":571},"relatedArticles":[{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Gary Marcus","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

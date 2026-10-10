@@ -1,0 +1,1447 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2fdb0,<p>原文：<a href="https://www.latent.space/p/jev">Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI</a></p>
+<h2>访谈正文</h2>
+<h2>引言：Jev 发布周与开发者势头</h2>
+<p><strong>Swyx:</strong> 好，我们已经在录音棚里了。这是个特别的时刻，因为这周，我的好兄弟 Diogo 发布了 Jev，整个时间线都被它刷屏了。你感觉怎么样？现在的你是什么状态？</p>
+<p><strong>Diogo Almeida:</strong> 情感上？</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 从没这么糟过。我现在就像一具破破烂烂的行尸走肉，因为事情太多了，而我又是个技术型 CEO，所以有一大堆火要救。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 但精神上，我觉得——这话我一直说，而且这些年来在我的 over-under 活动里也一直在说。我觉得整个 AI 领域就像那种嘉年华的镜屋，每个人都疯了，说着最奇怪、毫无道理的话。而感觉就在这一周，我好像跟现实更同步了，就像，哦，人们现在看到了。AI 可以远远超出人们曾经以为的样子。</p>
+<p><strong>Diogo Almeida:</strong> 而且，是的，我们要做成。就像，一场基于 AI 的经济革命又回到了桌面上，这他妈的太棒了。</p>
+<p><strong>Diogo Almeida:</strong> 开发者们懂了，我太兴奋了。是的，是的，我想向开发者们表达我永恒的感激，还有</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 我对这个社区太兴奋了，一切都太棒了。</p>
+<p><strong>Swyx:</strong> 对，你昨天说，你决定优先安排 town hall，而不是一堆 VIP、投资人类型的人，因为你想确保他们才是你投入最多注意力的人，对吧？工程师、开发者。</p>
+<p><strong>Diogo Almeida:</strong> 对，感觉有点像，天哪，我现在正在跟非常重要的人说话。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 我大概不该透露是谁。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 但对我来说，如果在我那巨大的、要交谈的人的日历事件里，社区不在其中，会感觉有点脏。我可能过于真诚了。就像，如果社区不在其中，会感觉脏。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 而实际上，在我理想的世界里，那会是，一直都有社区。我当时在想，“我该不该在走去你录音棚的路上办一场 town hall？”然后我想，“不，那太疯狂了。”</p>
+<p><strong>Swyx:</strong> 当然。是啊。嗯，你们一直在 Discord 上办 town hall。Discord 现在有 100,000 人了。你的 Twitter 也</p>
+<p><strong>Diogo Almeida:</strong> 我不看这些数据。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 所以，我靠。</p>
+<p><strong>Swyx:</strong> 你的 Twitter 爆了。真的很好笑，因为，在 AIE 上，你说，“对，请关注我，”然后你甚至没提供你的账号。</p>
+<p><strong>Diogo Almeida:</strong> 我是个菜鸟。我是个菜鸟。</p>
+<p><strong>Swyx:</strong> 你真是个菜鸟。</p>
+<p><strong>Diogo Almeida:</strong> 我是个菜鸟。</p>
+<p><strong>Swyx:</strong> 但不，但那个，就像，那种正能量，就像</p>
+<p><strong>Diogo Almeida:</strong> 酷</p>
+<p><strong>Swyx:</strong> 你根本不知道怎么推销自己。</p>
+<p><strong>Diogo Almeida:</strong> 是啊。有人在我发帖说“我靠，我们三个都是 twending——热门话题”的时候点了我一下。然后他们说，“那是你的个人信息流。”</p>
+<p><strong>Swyx:</strong> 那是你的个人，对。</p>
+<p><strong>Diogo Almeida:</strong> 然后我说，“哦，不。”</p>
+<p><strong>Swyx:</strong> 当然，当然它对你来说会热门。</p>
+<p><strong>Diogo Almeida:</strong> 尴尬。是啊。</p>
+<p><strong>Swyx:</strong> 对，因为那是你点过的东西。</p>
+<p><strong>Diogo Almeida:</strong> 是啊。</p>
+<p><strong>Swyx:</strong> 好。那，对，恭喜这一切。</p>
+<h2>什么是 Jev？System 1 模型与每美元智能</h2>
+<p><strong>Diogo Almeida:</strong> 谢谢。</p>
+<p><strong>Swyx:</strong> 我们会聊更多细节，等你有的话。但让我们，为了那些像生活在石头底下的人，或者只是想要那个权威定义的人，什么是 Jev？</p>
+<p><strong>Diogo Almeida:</strong> 呼。让我想想。这问题很难。</p>
+<p><strong>Swyx:</strong> 好。如果你想要的话，我很乐意重新问一遍，你可以</p>
+<p><strong>Diogo Almeida:</strong> 不。我很乐意</p>
+<p><strong>Swyx:</strong> 好</p>
+<p><strong>Diogo Almeida:</strong> 我很乐意，就随便聊聊。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 我要说，这个问题让我松一口气的第一件事是，现在我不用再向我父母回答这个问题了，因为 ChatGPT 可以直接解释。</p>
+<p><strong>Swyx:</strong> 不错。</p>
+<p><strong>Diogo Almeida:</strong> 所以我的看法是，我们需——需要一类新的模型。我们并不执着于给这类模型命名。我们——我们想出的最准确的名字是 System 1 模型。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 会有原因的，但——我们不叫它们决策模型是有原因的，因为，它们会是。就像，System 1 不止于此。我只能说这么多。我们没料到这会成为我们的大发布，所以我们还有东西藏着。</p>
+<p><strong>Swyx:</strong> 你该说这是低调的研究预览。</p>
+<p><strong>Diogo Almeida:</strong> 差不多就是，对吧？差不多就是。但我们。所以有一类模型，我们这样描述它们：机器原生、System 1、大型可编程。我认为这些是——是这样一类模型，其目标是让代码成为消费者。所以，相对于预训练大语言模型，那些是为了互联网的自动补全，或者 RLHF 模型，比如聊天机器人指令遵循模型，那些是为了回复文本，或者 RLVR。它在 RLHF 里处于一个奇怪的灰色地带。就像，这些是为了让东西直接被代码消费，因此叫类型安全。所以我们真正想要的是，让 AI 尽可能强大，而我们认为做到这一点的方式是把它与软件集成。我们设计一切，不只是外部，还有模型深层内部，都是为了软件而优化。所以第一，Jev 是我们的第一个大型可编程模型，或者叫 System 1 模型，随你怎么叫。Jev 是为了每美元智能而优化的，因此叫 Jev。</p>
+<p><strong>Swyx:</strong> 杰文斯悖论。</p>
+<p><strong>Diogo Almeida:</strong> 杰文斯悖论，对。它是为每美元智能而优化的。我喜欢跟人争论可靠性、成本、校准和速度之间哪个最重要。而 Jev 是为了。Jev 将是那些处于每美元智能前沿的模型的名字。还有别的方式优化它，比如 ML，或者至少如果你擅长 ML，一切都是权衡。而我们就是全力押注这一点。</p>
+<h2>校准、模式坍缩与 RLHF 的局限</h2>
+<p><strong>Swyx:</strong> 是啊。对我来说，校准是人们没怎么谈论的新事物之一。我们过去做过一期节目，跟 Hugging Face 的 Clementine Foreia，他们当时说，“对，实际上，他——他们只是。”或者，这就是你关于 RLHF 的整个论点，就是它们更倾向于坍缩到你最想听到的</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 或者最可能的东西，而不是它们自己对某件事的内部置信度。</p>
+<p><strong>Diogo Almeida:</strong> 我能就这个发表一下长篇大论吗？</p>
+<p><strong>Swyx:</strong> 请讲。是啊。</p>
+<p><strong>Diogo Almeida:</strong> 酷。就像，我听说你的听众是最技术性的，所以我其实想深入讲这个。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 而且如果——我用了极度的精确性来确保我们发布视频里的一切都是准确和真实的。显然，这很不寻常。没人注意到的一件事是 RLHF 的缺点，特别是模式丢弃。</p>
+<p><strong>Swyx:</strong> 模式丢弃还是模式坍缩？</p>
+<p><strong>Diogo Almeida:</strong> 是一回事。</p>
+<p><strong>Swyx:</strong> 你是这么叫的吗？</p>
+<p><strong>Diogo Almeida:</strong> 是一回事。</p>
+<p><strong>Swyx:</strong> 好吧。</p>
+<p><strong>Diogo Almeida:</strong> 我最终想写一篇博客讲这个，但我，就像，想尽可能告诉更多人，因为我觉得这是件非常有趣的事。所以这个辛辣观点，我非常相信 Yann LeCun。我认为 Yann LeCun 的观点实际上是最接近的之一</p>
+<p><strong>Swyx:</strong> 那这个呢？</p>
+<p><strong>Diogo Almeida:</strong> 嗯，我现在该讲这个，还是该等等再进入模式坍缩？</p>
+<p><strong>Swyx:</strong> 不，之后。进入模式，进入模式坍缩。我不知道。</p>
+<p><strong>Diogo Almeida:</strong> 所以我其实认为，在众多观点中，Yann LeCun 的是最准确的之一。但他有一张非常著名/臭名昭著的幻灯片，关于，</p>
+<p><strong>Swyx:</strong> 那个蛋糕？</p>
+<p><strong>Diogo Almeida:</strong> LLM 注定要完。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 就像那张，他有一个饼图，上面有一小部——一小点东西——然后说随着序列长度增加，它出错的概率会上升。对，就是这张。这张。我喜欢这张，因为它是那种看起来数学上显然，但明显错误的东西，对吧？就像，数学上显然，但经验上不成立。这是我最喜欢教人们的东西，关于你在哪里</p>
+<p><strong>Swyx:</strong> 脱节在哪里，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 没错。你想让我说，还是你想说？</p>
+<p><strong>Swyx:</strong> 关于模式崩溃？</p>
+<p><strong>Diogo Almeida:</strong> 哦，不。哦，所以模式崩——崩溃跟这个有关。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 脱节之所以发生，是因为如果你处于一个覆盖模式或一个校准过的分布中，你就不——你不会因为存在离群值而受到过度惩罚。你会预期，大概，某些时候你会处于分布之外，某些时候你会处于分布之内。这就是覆盖分布时会发生的情况。这就像 GAN 之前的模型。它们生成模糊的图像，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 而 GAN 则会模式丢弃。它们会丢弃少数类，只做那些非常常见的。这就是为什么这种效应不会发生，对吧？就像，为了生成非常长的字符串而不出错，它们需要极其保守，因为一旦出错就非常容易被看出来。而当一个看起来正确的细微之处出现时，却非常难以察觉。而这种校准，对于字符串的概率分布来说，简直就是毒药。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且这是一个微妙的观点，我觉得，这就是为什么这种情况不会发生，也是为什么字符串在决策方面如此糟糕，或者把字符串模型超载用于决策，就是一段糟糕的时光。</p>
+<h2>Yann LeCun、JEPA、缩放定律与实用研究</h2>
+<p><strong>Swyx:</strong> 既然我们聊到了 Yann，你同意他的解决方案——也就是类似世界模型、JEPA 类型的嵌入方法——是正确的解法吗？基本上，它可能失败的原因之一是，你试图在词元输出上进行推理，然后循环回来，继续前进，直到到达句末。是这样吗？而他的解法是 JEPA，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 也就是联合野心，</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 联合嵌入预测。那么，这是解法吗，还是说，你有——你对这个有什么看法？</p>
+<p><strong>Diogo Almeida:</strong> 哦，天哪。我大概不该过多谈论 ML 的内部细节，但我会说，我的品牌除了“疯癫”之外，就是“实用”。</p>
+<p><strong>Diogo Almeida:</strong> 就像，即使是我在这里的观点也是实用的。而且，我是缩放定律的粉丝吗？看情况。这取决于——它，它，它，就像，它是。缩放定律告诉你，投入多少就能在某件事上变得多好。</p>
+<p><strong>Diogo Almeida:</strong> 缩放定律确实意味着，为了通常亚线性的收益，要投入指数级更多的资源，这看起来是一笔糟糕的投资，除非那些线性收益真的非常有价值。但对我来说，这一切都关乎，我们能用手头的东西做出尽可能他妈大的改变吗？我可以骂人。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 我们，我们，我们是成人向批准的。</p>
+<p><strong>Diogo Almeida:</strong> 太对了。</p>
+<p><strong>Swyx:</strong> 而且如果你之后想聊，我们也有一个缩放定律的话题。</p>
+<p><strong>Diogo Almeida:</strong> 哦，如果我们要聊的话我可以。你看，那部分现在不是特别相关。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 其实。如果你想知道我最惨痛的教训，我觉得那个更相关。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 但对我来说，我一切都关乎实用。而且我觉得 JEPA 那套东西是非常酷的早期研究。我真的很喜欢了不起的研究。但它现在实用了吗？</p>
+<p><strong>Diogo Almeida:</strong> 大概不该说。但就像，只是有很多。</p>
+<p><strong>Diogo Almeida:</strong> 我只是觉得，现在整个研究界到处都是未经打磨的璞玉，因为人们不知道如何去做正确的任务。而我觉得我们这次发布所做的，它。它让我们作为一家公司启动了吗？是的。它对我们作为一家公司会很好吗？是的。我觉得它对程序化 AI 这个方向甚至会更好。会有一场淘金热在我们之上，因为，软件实在是太他妈值钱了。但我觉得，也会有一场与我们平行的淘金热，关于我们可以用各种不同方式暴露东西，让软件更强大，这样人们就能做出更酷的东西。然后我们就回到了早期互联网的那种能量？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而我觉得这就是为什么 Twitter 上就像，“Jev。”？它，它就像。它是一场派对</p>
+<p><strong>Swyx:</strong> 它很鼓舞人心，因为它跟我们习惯的东西太不一样了，我们习惯的是，“抱歉，你做不了这个，但我们做缩放定律，只有大实验室才能做，”对吧？</p>
+<p><strong>Diogo Almeida:</strong> 那个。其实，如果我。我，如果可以的话我要跑个题。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得你可能会喜欢这个。</p>
+<p><strong>Swyx:</strong> 真的吗？我们都跑了五个题了。挺好的。挺有趣的。是的。</p>
+<p><strong>Diogo Almeida:</strong> 哦，是的。我跑题跑到迷路。</p>
+<p><strong>Swyx:</strong> 这对听众来说会很难理清，但他们会理清的。没事。</p>
+<h2>安全对齐、拒绝与 API 哲学</h2>
+<p><strong>Diogo Almeida:</strong> 是的，我们可以在后期剪辑。</p>
+<p><strong>Swyx:</strong> 这是我的回应。是的。</p>
+<p><strong>Diogo Almeida:</strong> 所以 Discord 上有个热门话题，人们一直问我，我还没时间解释，就是我为什么反对安全对齐，以及我们为什么不拒绝？我并不反对安全这个原则，但我认为安全对齐通常是与用户错位的。而拒绝，显然就是一种类型错误。就像，如果你是一个人，你在跟一个机器人聊天之类的，你在做云编程，然后出现了一个拒绝，比如，“抱歉，我不能读取 DNA.py。”那真是烦人的时刻。它很烦——它，它很烦人</p>
+<p><strong>Diogo Almeida:</strong> 对吧？但你可以应付它，对吧？而且因为斯德哥尔摩综合征，你被迫应付它。</p>
+<p><strong>Diogo Almeida:</strong> 我也有这方面的故事。我需要在这里再深入跑个题。但就像，如果你想让这个作为依赖在后台运行，如果它拒绝了会怎样？如果别人在用那个依赖呢？他们不知道那个系统是什么。就像，你想让软件仅仅因为用户在里面发了一条奇怪的消息就随机崩溃吗？</p>
+<p><strong>Diogo Almeida:</strong> 就像，那简直是疯了。它来自一个地方，那里的人不懂软件，不懂编程，而且他们痴迷于，我相信，这种 AI 同事的无马马车，而不是去发掘 AI 的全部力量。</p>
+<p><strong>Swyx:</strong> 说得对。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 你想要的是那个核心内核，可以在任何地方使用。</p>
+<p><strong>Diogo Almeida:</strong> 是的。没错。就像，认知核心，对吧？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而你需要这个东西，如此通用，如此针对其用例优化。你希望它，就像，你希望它能在所有未来的用例上工作，所有人们正在做的奇怪玩意儿上工作。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我们显然没有在这些东西上训练过。它居然能工作，这令人惊讶吗？不，因为我们在更奇怪的东西上训练过，我的朋友。</p>
+<p><strong>Diogo Almeida:</strong> 所以。但关于安全对齐，再跑一个题。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 在我看来，安全对齐对产品是有意义的，比如 ChatGPT 和 Claude。就像，它，安全，安全与能力对齐的不同之处在于，能力对齐是关于做用户想要的事。这对软件工程师来说太棒了。他们想让他们的东西做那件事，而且它越可预测，他们就越不需要测试和摆弄它。Jeb 还远没到那一步。它有可能，但就像，我们想要更多的可靠性位数，让它好得像数据库查询一样，你甚至都不用去想它。当你需要智能时，它就在那里。但安全对齐，就像，是遵循指令的反面。它是当你想遵循别人的指令时，比如 OpenAI 和 Anthropic</p>
+<p><strong>Swyx:</strong> RAG 的价值栈。</p>
+<p><strong>Diogo Almeida:</strong> 没错。而这对产品来说非常合理。再说一次，就像，ChatGPT 应该这么做。你——你应——就像，如果他们不想跟 ChatGPT 做某些不适合工作场合的角色扮演，那是他们的事，因为，也许那正是他们有父母和孩子的用户想要的。就像，那——那没问题。但在 API 里，那太疯狂了，对吧？就像，那完全不可接受，因为，人们需要围绕这个编程，而那太反用户了，以至于它。它。我。哈。我可以是个愤怒的人，所以我应该试着冷静下来。</p>
+<p><strong>Swyx:</strong> 它，人们能感受到你的热情，我觉得那真的很好。我要给你的一个反驳是，如果我们用它来杀人呢，对吧？就像，那才是真正的。就像，不适合工作场合的东西，它是私人的、个人的，随便吧。但就像，是的，我们会在战争中使用它。而就像，那是公司可以合理希望他们的 API 不被用于的事情。</p>
+<p><strong>Diogo Almeida:</strong> 我明白。我觉得，确实有一些务实的地方可以持有那种观点。但就我个人而言，我不认为一个通用技术的基础是那个地方。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我会更希望我们的东西不被用来杀人吗？显然。我会更希望它被用于世界上各种各样伟大的事情吗？显然。我会为此在天平上压上我的拇指吗？会。我会在技术层面这么做吗？绝对不会，因为那会割裂智能。每一次你打算让它过拟合到某些奇怪的东西上，你就在越来越多地割裂它的智能。而且就像，这些东西已经被割裂到，就像。它们现在被割裂得太厉害了。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 所以，还有一点，对我来说，我觉得智能更像是一个数据库，而不是一个同事。就像，我不认为数据库有责任去检查它们是否被用于，比如说，什么不太好的事情？比如 CIA。其实，我并不知道 CIA 到底做什么。你可以想象。你可以想象，去杀那些甚至不算坏人的人之类的。</p>
+<p><strong>Diogo Almeida:</strong> 而且，我不认为那是数据库的责任。更进一步说，有一件事让我觉得很奇怪，就是当人们在 Slack 上注册我们的产品，然后说，“嘿，我们要部署这个。我们能部署这个东西吗？”我就想说，“兄弟，我们是一个 API。你是开发者。这不关我的事，”对吧？就像，你甚至不应该知道整个任务是什么</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 因为它应该被分解成小的事情。我们不应该能够知道下游用户在用它们做什么，而这就像是一个很好的边界，可以给软件工程师最大的权力。理想情况下，他们把它用在好的事情上，理想情况下，我们可以帮助他们，而且我们谈过做开源和慈善之类的所有事情。我们现在绝对没有时间做任何其他事情。但是，只要我在负责，他们就会把任何那种偏见从技术层里清除出去。</p>
+<h2>隐私、基准测试与信任智能</h2>
+<p><strong>Swyx:</strong> 是的，那很好。既然我们聊到这个话题，我们也简单谈谈你的隐私相关的东西，服务条款，使用条款，那个引起了一点</p>
+<p><strong>Diogo Almeida:</strong> 噢</p>
+<p><strong>Swyx:</strong> 误解。我想先澄清这一点。</p>
+<p><strong>Diogo Almeida:</strong> 当然。</p>
+<p><strong>Swyx:</strong> 我觉得这大概只需要你两句话，就是，你不会。你对你的 API 并没有那么限制性。就像，很明显</p>
+<p><strong>Diogo Almeida:</strong> 哦，是的。哦，是的，所以是的</p>
+<p><strong>Swyx:</strong> 从意识形态上，你非常严肃地阐述了你作为一个平台的角色。</p>
+<p><strong>Diogo Almeida:</strong> 是的。是的。我不知道你指的是什么，但是，这个。我看到过一些关于基准测试的东西。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，显然我们不会阻止人们做。哦，天哪，我应该小心我说的话。我意识到了</p>
+<p><strong>Swyx:</strong> 不，你说过，你公开说过</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 那是在预览期。你在发布时没有把它拿掉。</p>
+<p><strong>Diogo Almeida:</strong> 是的。好的。</p>
+<p><strong>Swyx:</strong> 现在你要把它拿掉了。</p>
+<p><strong>Diogo Almeida:</strong> 所以团队正在做一些</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 我甚至都不知道的事情，所以很高兴知道团队沟通了那件事。我让他们去和律师确认一下。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我们显然不会阻止人们做那类事情。我非常支持。所以我非常反对公开基准测试。我非常支——我对作为代理指标的私有基准测试持中等态度。我</p>
+<p><strong>Swyx:</strong> 所以你担心的是饱和，还是，比如，在公开基准上训练？所以，就像，很容易作弊。</p>
+<p><strong>Diogo Almeida:</strong> 不仅容易作弊，还有很多漏洞。所以我觉得我们是。或者说任何和我们竞争的人，大致上都有。就像，你可以说，就像</p>
+<p><strong>Swyx:</strong> 大概有 50 个 Jev 克隆，是的。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，当然。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，这些。我们就说有竞争吧。</p>
+<p><strong>Swyx:</strong> 我们会聊到那些。是的。</p>
+<p><strong>Diogo Almeida:</strong> 或者我们就说，有。我们就假设两年后有一个行业，人们在做的和我们类似的事情。我们卖的东西是每某个东西的智能，比如每美元或每秒。这个。没有人。就像，人们痴迷于成本和速度。我相信那是。那很酷，但是，真正重要的是智能。就像，成本和速度是，像是，不好的东西。你为某个东西付钱，你需要把那个东西拿回来，而智能才是真正重要的。智能的问题在于它有一种说不清道不明的东西，对吧？就像，好模型的气味。就像，我们发布后发生的事情，比如两小时后，实际上比视频传播得广得多，就是那种“天哪。”</p>
+<p><strong>Swyx:</strong> 这居然真的能用了。</p>
+<p><strong>Diogo Almeida:</strong> 它。嗯</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 它，像是，不止于此。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，这个。呼，那次发布太疯狂了，人们真的能感觉到我们有多在乎那件事，而这才是我认为这件事长期真正所在。而且我认为公开基准测试与此背道而驰。就像，它们是一种让人们信任智能的方式，因为智能有一种说不清道不明的东西，但公开基准测试极其容易被钻空子。即使他们试图不这样，他们仍然会。就像，在过去，每个实验室都有一个团队去收集看起来像 MMLU 的数据，让它看起来更好，那只不过是多绕了几步的基准测试。</p>
+<p><strong>Diogo Almeida:</strong> 所以我相信，从长远来看，它需要的是感觉和信任，直到你把它放进一个工作流里，针对那个工作流进行评估和测量，并对它在那个真正重要的工作流上的表现有自己的感觉。而我们的工作就是不断推进可靠性的那几个九。这就像是我们作为一家公司需要做的事情中永远存在的一部分，我们需要尽一切努力让人们知道这是我们如此在乎的事情。就像，如果我们想的话，我们本可以在一年半前发布 Jev，如果我们想让它变笨的话。</p>
+<h2>最苦涩的教训：任务、数据与北极星</h2>
+<p><strong>Swyx:</strong> 哦。</p>
+<p><strong>Diogo Almeida:</strong> 它。就像，这个。我最苦涩的教训，对吧？就像，架构和，是的。</p>
+<p><strong>Swyx:</strong> 我会提一下</p>
+<p><strong>Diogo Almeida:</strong> 当然</p>
+<p><strong>Swyx:</strong> 既然你，既然你谈到了它，这里。</p>
+<p><strong>Diogo Almeida:</strong> 当然。就，像是，Sutton 说算法大致上胜过算力。数据显然比算力重要得多。而做正确的任务，拥有北极星，是最难、最重要的事情。这在 LLM 领域到目前为止已经发生了两次，对吧？也许是 2.2 次。有 RLHF，它把任务转向了指令遵循。没有人意识到那是可能的。RLVR 做了，像是，一个很小的，像是，对方向的微调，而现在是我们，对吧？RLCD。我们有一个新任务，目标是程序在环。而且是的，数据重要得</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 难以置信地多。</p>
+<p><strong>Swyx:</strong> 所以</p>
+<p><strong>Diogo Almeida:</strong> 就像，我无法，我无法再少强调它了。</p>
+<p><strong>Swyx:</strong> 是的，你把自己看作一个数据实验室，而不是，比如，一个模型实验室。那是</p>
+<p><strong>Diogo Almeida:</strong> 绝对是</p>
+<p><strong>Swyx:</strong> 什么东西。那是你们用的说法吗？</p>
+<p><strong>Diogo Almeida:</strong> 是的。我们是。我们会一直，像是，如此在乎数据。对我来说，模型能力就意味着数据。数据复杂得难以置信，而那才是能拿到那几个九的东西。就像，你根本不知道数据能改变一切到什么程度。数据太重要了。</p>
+<h2>TypeSafe 作为数据实验室与合成数据策略</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 天哪。所以如果人们在找工作，我们正在招聘无限多的数据人员，实际上是无限。</p>
+<p><strong>Swyx:</strong> 一个好的数据人员是什么样的？就像，显然是那种在乎通读各种记录的人。你比如说说过，你们所有的数据都是合成的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但那只是，像是，触及表面，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 就像，它不是。就像，合成的，那又怎样，对吧？合成的，但我们有很有品味、很用心的人在看，在看这些，阐述哪里不对，回去，重新生成。这就是如今一个好的数据人员的样子吗？</p>
+<p><strong>Diogo Almeida:</strong> 让我试着弄清楚怎么。就像，它，它超级复杂，而且就像，我实际上是用一个我估计比这期播客最终时长还要长的演讲来给数据人员做入职培训的。所以我试着说，像是，它的高层概要。所以第一，我们不做人们那种合成数据。嗯，我会做。实际上，第零点是。数据和合成数据取决于你的任务。就像，你数据的形状。你任务的形状会改变数据。就像，RLVR 的数据有点像是环境，对吧？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> RLHF 的是人类反馈？每个任务都有它自己独特的数据类型，而我们，当然，有我们自己独特的数据类型，对吧？所以第一，我们有那个。第二，我。我们不想在用户数据上训练的原因，即使我们可以，对吧？就像，我们现在大概可以要求任何条款，而它会。我们。我不知道那会不会有影响。我们真的不想要那个，因为无论如何，真实世界的数据有太多偏见。就像，有一个幂律，像是，人们，像是，问同样的事情，你最终会，像是，过拟合到它上面，像是，分裂到它上面之类的。第二，我们，像是，瞄准的是，像是，多年后一个完整的科幻未来，在那里，像是，这些模型将会是，像是，通用基础设施，一层又一层又一层，深入到技术栈的深处，去到人们甚至无法想象的东西。就像，我愿意把我们的模型想成，像是，有点像 UDP 之于 LLM，而 TCP 之于我们的模型。各种各样东西可以建在那上面，而我们需要能够搞定那些未来主义的用例，这样软件开发者才能真正构建那些未来主义的东西。而做到这一点的方式是，即使我们拥有当下的所有数据，我们也只会过拟合到当下，然后它就不会起作用。我们需要的是，像是。</p>
+<p><strong>Diogo Almeida:</strong> 这几乎感觉像是一种……就像，他们才是艺术家？他们研究这个认知核心。我们的认知核心，就像，比任何其他人的都远没有那么参差不齐。然后他们找到那些参差不齐之处，然后以一种……的方式外科手术般地处理它们。而你永远无法完美地做到这一点，对吧？但他们这样做的方式，是在每一个可能的，就像，维度上处理它，过去、现在、未来。</p>
+<p><strong>Swyx:</strong> 一般情况而非具体情况。</p>
+<p><strong>Diogo Almeida:</strong> 没错。而且就像，那每一次都需要大量的智能。</p>
+<h2>RLCD 对比 RLHF：定义一项新任务</h2>
+<p><strong>Swyx:</strong> 好，所以我们提到了一点。你有点批评我的想法是 r—— 就像，非常受 RLVR 影响，这，就像，非常公平。让我们实际提一下 RLCD</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 这显然据我们所知你有一些秘方。你实际上从未发表过关于它的论文或任何类似的东西。没有，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 不，还没有。</p>
+<p><strong>Swyx:</strong> 但就像，人们应该从中得到什么？就像，什么。你能给人们一些信心，让他们相信你不只是为了听起来酷而编造术语，对吧？就像，对我来说一件事是，就像，校准我确实认为是一个。对我来说，就像，很好理解，因为我们在播客上覆盖过它。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但当你说 RLCD 对比人们熟悉的东西时，我不知道你是什么意思。</p>
+<p><strong>Diogo Almeida:</strong> 这是个好问题。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且实际上，我会给一个相关的问题。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 什么是 RLHF？</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？而且实际上，RLHF 意味着多个不同的东西，对吧？</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 就像，有最初的 RLHF。我想是，就像，Paul Christiano 教一个机器人后空翻或类似的东西。不是有那个什么吗</p>
+<p><strong>Swyx:</strong> 是那个吗？</p>
+<p><strong>Diogo Almeida:</strong> 那是原始的</p>
+<p><strong>Swyx:</strong> 我引用的是 PPO 论文，但我不知道。</p>
+<p><strong>Diogo Almeida:</strong> 而 PPO 如果我没记错的话，不一定来自人类反馈。</p>
+<p><strong>Swyx:</strong> 好。那是真的</p>
+<p><strong>Diogo Almeida:</strong> 但我相——我相信那是，就像，一项 OpenAI 对齐工作，可以教难以指定的输出，比如后空翻。我不是 100% 确定。然后实际上有学习做摘要。这是工作，由一群帮助了，instruct—— 并合著了，指令遵循论文的团队，那是在语言模型上做 PPO。</p>
+<p><strong>Swyx:</strong> 这是，抱歉。我在试着，试着</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 试着操作这个东西。这是 2017 年。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我不是 100% 确定，但就像，那看起来相当对。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 如果它有，就像，一个机器人做后空翻或类似的东西，可能就是它。是的。好，酷。我猜我搞对了。太棒了。</p>
+<p><strong>Swyx:</strong> 这就对了。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 就是那个。</p>
+<p><strong>Diogo Almeida:</strong> 所以想法是，你能，就像，你能用它做，就像，指定不清的事情吗？所以那是，就像，版本一。版本二是，学习做摘要的工作，那个，就像，OpenAI 做的，那实际上是，就像，在语言模型上做 PPO 来做一些有点指定不清的事情。这是，就像，人们称为 RLHF 的另一件事，而我没有合著。</p>
+<p><strong>Diogo Almeida:</strong> 哦，Dario 在那儿。酷。太棒了。</p>
+<p><strong>Swyx:</strong> 还有 Radford。</p>
+<p><strong>Diogo Almeida:</strong> 是的。向 Alec 和 Ryan 致敬。爱他们。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但我所指的 RLHF 是那个，哦，天哪。</p>
+<p><strong>Diogo Almeida:</strong> 我会讲到</p>
+<p><strong>Swyx:</strong> 你对那有评论，是的。</p>
+<p><strong>Diogo Almeida:</strong> 我对那篇论文有评论，但就像，我们已经深入太多题外话了。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 所以真正让我。对我来说，我所称为 RLHF 的东西是指令遵循的任务。它不是关于 PPO。那部分不重要。它是关于，就像，设定一个北极星，即这是一个有价值的方向。这有点像 Bitris 教训的北极星。</p>
+<p><strong>Diogo Almeida:</strong> 而对我们来说，RLCD 是这个新任务。而它不是。我不把它看作术语。就像，我试图精确地沟通。只是说，“嘿，这是另一个北极星。”就像 DPO 和它所有的，就像，后代也做 RLHF，尽管没有使用那篇论文中的算法。</p>
+<p><strong>Swyx:</strong> 所以清——清楚地陈述北极星是，可编程 AI 是一个，我真正抓住的词，移除循环中的人类，</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 从。因为 RLHF 是在调优</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 为了这个，以便你可以自动化一切。</p>
+<p><strong>Diogo Almeida:</strong> 是的。一切使得</p>
+<p><strong>Swyx:</strong> 我有没有漏掉，在，在论题里，就像，北极星是什么？</p>
+<p><strong>Diogo Almeida:</strong> 有。那是。那是对的。我在沟通中过于细致。一个细微之处是我们需要务实。我们需要意识到语言模型能做得非常好的事情。就像 AI 能做什么。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像，可能有可编程类型，就像，酷毙了，但如果你。如果技术还没准备好让它。如果那没有出现在世界上，并不是悲剧。</p>
+<h2>为什么可编程 AI 重要</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但对我来说，就像，前 Jev 世界是一场悲剧，因为——这听起来傲慢。听我说完。</p>
+<p><strong>Swyx:</strong> 不。我强烈相信你。</p>
+<p><strong>Diogo Almeida:</strong> 酷。这听起来傲慢，但就像，我在甚至拥有一家公司之前很久就有这种感觉。</p>
+<p><strong>Swyx:</strong> 是的。我可以，我可以作证，</p>
+<p><strong>Diogo Almeida:</strong> 是的，我谈论这个已经很久了</p>
+<p><strong>Swyx:</strong> 你在 All Around Her 上说过这个，大概，三年了。</p>
+<p><strong>Diogo Almeida:</strong> 是的，我谈论这个已经很久了。而我一直在说它，是因为我以为它会更容易。他们说他们不做事情是因为他们。它。它们容易。他们。是因为他们认为它容易，所以</p>
+<p><strong>Swyx:</strong> 是的，没错</p>
+<p><strong>Diogo Almeida:</strong> 类似那样。我以为它。这整个项目会花一周。</p>
+<p><strong>Diogo Almeida:</strong> 而我错得难以置信。所以我非常抱歉对 OpenAI 的每个人，我以为。我当时就像，“天哪，我现在就在解决这个。”但就像，我认为悲剧性的事情是当。嗯，我认为过度承诺、交付不足也是悲剧。而且就像，AI 在那个轴上超级极端。而我认为 RLVR 是，就像，主要的。嗯，RLVR 和 RLHF 都是这件事的极端肇事者。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，它。对我来说，就像它只是，那里只是有太多潜力。就像，AI 显然如此聪明。我喜——聪明。我喜欢在我的演讲中这样，当我问人们，就像，“AI 怎么能如此难以置信地聪明？我们怎么能，就像，解决数学中的千禧年大奖难题，但仍然不能自动化哪怕最基本的工作？”就像，真正基本的机械性东西，那个，就像，它——它不需要，就像，极其聪明的人来做这个。这不是一份令人满意的工作。就像，这些人可以做其他事情，但我们仍然需要他们做，就像，这个基——就像，超级基本——不令人满意的东西，因为，就像，我们还不能自动化它，但我们有这个，就像，超强的自动化引擎，只是没有，就像，正确的插头之类的东西来插入所有这些有经济价值的工作。而且就像，如果整个 TypeSafe 公司消失，就像，也许人们会花，就像，一两年才能真正赶上。我实际上不知道会花多久。如果模型质量重要，那么我们会在很长一段时间内处于非常好的位置。但它，就像，它已经完成了，对吧？就像，那里，就像，这已经改变了，就像，技术历史的路径。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且就像，我们将作为一个领域探索那个空间。</p>
+<p><strong>Swyx:</strong> 是的。我认为，我绝对同意那个。你创造了可能性。所以我认为，如果我可以转述一下，让人们也能理解，你不应该把 TypeSafe 和 Jev 的成功仅仅看作，就像，“嗯，那是一种新模型类型。现在我们完成了。我们回去做正事。”就像，不。就像，实际上，有，有，就像，五种其他模型类型你应该探索，就像，让一千朵花绽放。</p>
+<p><strong>Diogo Almeida:</strong> 绝对。</p>
+<p><strong>Swyx:</strong> 对吧？</p>
+<p><strong>Diogo Almeida:</strong> 就像，早期互联网</p>
+<p><strong>Swyx:</strong> 而其中一些，其中一些你大概也会构建。</p>
+<p><strong>Diogo Almeida:</strong> 当然，是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 早期互联网的那种能量。我觉得这又回到了技术乌托邦。它不再像是，“哦，天哪，有时候我的编码智能体能工作，但所有最好的那些都被内部囤起来了。”</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像是创造又回到了菜单上。</p>
+<p><strong>Diogo Almeida:</strong> ？尽管这会是一个疯狂至极的世界，系好安全带吧。</p>
+<p><strong>Diogo Almeida:</strong> 就是。我对此兴奋极了。</p>
+<h2>宣言、发布策略与早期互联网能量</h2>
+<p><strong>Swyx:</strong> 是的。而现在你有了资金和势头，可以去做你在那里设想的任何事情，我觉得，看到你在说了这么久这些事情之后终于拥有这些，真的很令人欣慰</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 但实际上是向世界展示出来。</p>
+<p><strong>Diogo Almeida:</strong> 我知道。我只是。一直当个吊人胃口的家伙，真是件太有意思的事了。就像，我的演讲，感觉就像是个悬念结尾，因为我没说自动化会如何发生。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> Sean 审阅了我们的宣言，他说，“这些部分有点含糊。”</p>
+<p><strong>Diogo Almeida:</strong> 还有，“第一步是什么？什么是，什么是智能模型？”</p>
+<p><strong>Swyx:</strong> 嗯，我问你要模型，你说，“是的，模型快来了。”</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 还有，嗯，我只是，我主要反对的是“可组合”这个词，但 build prod.god 太棒了。</p>
+<p><strong>Diogo Almeida:</strong> 谢谢。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我。我们真的围绕这个团结起来了。我愿意认为我们不像有些公司那样完全是个邪教。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，我们确实，对我们正在做的事情感到兴奋，而且我们确实。就像，我的品牌就是务实，而且我们所有人，都超级超级务实。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 真的很棒。</p>
+<p><strong>Swyx:</strong> 是的。所以在这里。顺便说一下，这就是那一步，秘密总体计划，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> Shape，机器原生可组合 AI 的 Shape。</p>
+<p><strong>Diogo Almeida:</strong> 做个秘密总体计划是你的主意，所以</p>
+<p><strong>Swyx:</strong> 这是，这是马斯克那套。当他创办特斯拉的时候</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 他说，“这是我们要做的事。”</p>
+<p><strong>Diogo Almeida:</strong> 但我做了。是的。我把官方功劳给你。</p>
+<p><strong>Swyx:</strong> 哦，谢谢。谢谢，谢谢。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 谢谢。但就像，你应该告诉我你的，你还要做这个模型发布，因为你，就像，你告诉了我，你告诉了我一半的故事，然后另一半，你当时还没有那个 doom demo。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 你没有任何数字可以给我。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 我当时就想，“什么？”</p>
+<p><strong>Diogo Almeida:</strong> 嗯，问题是我并不相信基准测试。</p>
+<p><strong>Swyx:</strong> 正是。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？</p>
+<p><strong>Swyx:</strong> 正是。</p>
+<p><strong>Diogo Almeida:</strong> 所以就像，这是你需要去感受的东西，而且我觉得这是建立长期信任的方式，尽管它，就像，伤害了，它伤害了我们很多？就像去年我们融资的时候，没人相信我们。</p>
+<p><strong>Diogo Almeida:</strong> ？就像，他们只想要基准测试之类的东西，我们说，“我们不会那么做。我们有原则。我们会坚持我们的立场。那会奖励坏人。我才不在乎你想要什么。就像，这就是我们，我们坚持这一点。”所以抱歉。这不是</p>
+<p><strong>Swyx:</strong> 不，是的。嗯，而且在某些方面，我觉得，就像，选择艰难的道路，它。但你最终会创造出你想在其中工作的公司。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对吧？否则，如果你出卖了自己，那你就是在，就像，OpenAI 但带着我的人，对吧？那就像是。</p>
+<p><strong>Diogo Almeida:</strong> 是的。是的。就像，我，显然我对此没有太多遗憾。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，结果好得难以置信。而且就像，我，那个。昨晚我谈到我离开 OpenAI 的原因时很动情，因为，就像，发布之后我实际上不得不改了我的措辞。我原来的说法是，“如果 AI 寒冬真的发生了，而我没有尽我他妈一切可能去做的事来，就像，避免它，我会认为自己个人要对两件事负责，一是 RLHF 方向，我认为它真的扩大了过度承诺与交付不足之间的差距，二是不全力投入这个，因为我认为这就是价值将会被，就像，印出来的地方。”所以。而且这真的很酷，因为我觉得</p>
+<p><strong>Diogo Almeida:</strong> 我担心的那个 AI 寒冬被避免了。就像，AI 会有用。它会被用于自动化。</p>
+<p><strong>Diogo Almeida:</strong> 还不到一周，而且就像，数字已经不可否认了</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 它，就像，被用于真正的工作，而且就像，有。这是，这是狂野西部。是的。</p>
+<h2>发布势头、词元、速率限制与开发者使用</h2>
+<p><strong>Swyx:</strong> 是的。你能分-如果你脑子里有的话，你看到了什么数字？就像，什么，什么，就像，注册量？就像，任何你能分享的。</p>
+<p><strong>Diogo Almeida:</strong> 我其实并不是特别掌握所有情况。就像，团队才是告诉我所有这些事情的人。</p>
+<p><strong>Swyx:</strong> 是的，而且我确定它，就像，每天都在变，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 它，它，</p>
+<p><strong>Swyx:</strong> 但就像</p>
+<p><strong>Diogo Almeida:</strong> 它有点疯狂</p>
+<p><strong>Swyx:</strong> 如果有一个里程碑让你觉得，“嗯，是的，那是我们希望的一件事。我们达到了。”</p>
+<p><strong>Diogo Almeida:</strong> 我会说我们通过的一个里程碑是每日词元数。</p>
+<p><strong>Swyx:</strong> 不错。</p>
+<p><strong>Diogo Almeida:</strong> 而且这不是，就像，转瞬即逝的每日词元数。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 这是，就像，即使在晚上，就像，它也在持续训练，所以是机器在调用它，而不只是人们在试用。</p>
+<p><strong>Diogo Almeida:</strong> 所以那，那太酷了。一天一万亿词元是很多。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 所以超过那个太棒了。注册量对我来说并不真的重要。而且实际上，这，就像，是我们犯的一个小错误，如果我，就像，完全诚实的话。Twitter 上的人称我们是，就像，营销天才之类的，而那只是我们自己。我们没有营销人员。招聘也是。我们只是做真实的、傻气的、就像，不恭的自己，而且我们，我们只是，就像，拼命地把人从等待名单上放进来。- 我们的平台团队强得难以置信。我觉得我们的正常运行时间比 Anthropic 有更多个 9，同时还拥有史上最前所未有的发布。就像，那有点疯狂，所以</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 就像，向他们致敬。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 还有我们没意识到的事情。所以第一，等待名单，等待名单注册对一个，就像，开发者平台来说并不重要，在我看来？我猜其中很大一部分甚至不是开发者。所以他们进去，他们试一些查询，很多人不理解，因为他们不是在编程，对吧？就像，他们只是像，“什么？这不是聊天机器人。我的 ChatGPT 2 在哪？”</p>
+<p><strong>Diogo Almeida:</strong> 对吧？但如果，就像。我没有精确计算过这个。我的感觉是，如果世界上每一个人，就像，只写几个查询，那和，就像，一个高级用户的 for 循环相比，会是个舍入误差，那个循环就是，就像，在创造价值。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 还有我们--没意识到的关于等待名单的事情是，就像，我们可以直接把任何人从等待名单上放进来。没关系。可怕的部分是速率限制。然后一旦人们开始从中获得价值，那他们就只想要越来越多的速率限制，因为这就是软件，对吧？就像，你前期花精力来指定你的机械任务，然后这个机械任务创造的价值超过投入的成本。然后现在你有了那个</p>
+<p><strong>Swyx:</strong> 设置好然后忘掉，是的。</p>
+<p><strong>Diogo Almeida:</strong> 正是，是的。你在后台运行它。你把它变成，就像，其他东西的依赖项。你可以做，就像，更高层次的东西。而且就像，你在世界上创造了如此多的价值。早期互联网的人大概无法想象，就像，2000 年代初互联网的奇妙，那仍然不是早期互联网。但就像，它是，它是通过，无意冒犯，可组合性</p>
+<p><strong>Swyx:</strong> 不</p>
+<p><strong>Diogo Almeida:</strong> 所有疯狂的事情才发生的，而我只是真的想在我们的宣言中强调这一点。我们追求的是涌现。我们追求的是，就像，成为催化剂。我们想要赋能人们，我们会为此尽我们所能，不管是不是，就像，在我们的市政厅 Discord 里我穿着垃圾袋。</p>
+<p><strong>Swyx:</strong> 还有播客，以及 <strong>Diogo Almeida:</strong> 当然啦</p>
+<p><strong>Swyx:</strong> 把这些全都拿下。</p>
+<p><strong>Diogo Almeida:</strong> 绝对。</p>
+<p><strong>Swyx:</strong> 因为我要的就是长内容，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 就是，对，我们会先聊过一些表面的东西，然后我们会深入进去，然后</p>
+<p><strong>Diogo Almeida:</strong> 当然啦</p>
+<p><strong>Swyx:</strong> 人们会真正信任并理解你的使命，然后那些会产生共鸣的人，最终会加入你，或者购买你。哦不，抱歉，是作为客户。</p>
+<p><strong>Diogo Almeida:</strong> 哦，作为客户。</p>
+<p><strong>Swyx:</strong> 作为客户，作为客户。</p>
+<p><strong>Diogo Almeida:</strong> 好吧，对。那挺好笑的。抱歉。</p>
+<p><strong>Swyx:</strong> 抱歉。我不是，我不是故意那么说的。不过，不，任何——一个非常讨喜的版本是，你的发布视频有36百万次观看。</p>
+<p><strong>Diogo Almeida:</strong> 酷。现在已经达到38百万次观看了。</p>
+<p><strong>Swyx:</strong> 对，四舍五入的误差。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> Navio 还是有74百万次观看。Fable 5 有57百万次观看。所以，就这个方面而言——我没有统计过最初的 ChatGPT 的情况……</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 那个没有视频。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 所以，就在那个水平上，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 就，就这个方面而言，如果你要在2026年发布一个Neolab，我觉得你现在就是第一名，这还挺疯狂的。</p>
+<p><strong>Diogo Almeida:</strong> 对。其实我更愿意。我确实有那件T恤，就是，你最喜欢的Neolab最喜欢的Neolab。</p>
+<p><strong>Swyx:</strong> 哈。</p>
+<p><strong>Diogo Almeida:</strong> 我根本不在乎成为Neolab。我觉得成为Neolab。其实，我们有很多周边，都是在恶搞Neolab。其中一个，其中一个我有的就是，Neolab with product，那其实不是Neolab。就，我真的不在乎那个。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我在乎的是成为一个可靠的开发者平台。所以 <strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 感谢这个比较，不过</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 希望我们能超越它们，回到那种，对开发者来说的革命性时刻，以及那种人们可以依赖和信任的稳定事物。</p>
+<h2>可靠性、鲁棒性与确定性</h2>
+<p><strong>Swyx:</strong> 对。为此，我觉得有一件事让我对你们印象很深，就是，对，你们确实在谈可靠性。我原以为主要是关于校准，就像我们谈的RLCD。但其实它也是关于正常运行时间和可扩展性以及所有这些事情，对吧？它们，它们都属于这一类。</p>
+<p><strong>Diogo Almeida:</strong> 还有几个九。</p>
+<p><strong>Swyx:</strong> 还有几个九。</p>
+<p><strong>Diogo Almeida:</strong> 就是</p>
+<p><strong>Swyx:</strong> 在我看来，正常运行时间就是。</p>
+<p><strong>Diogo Almeida:</strong> 哦，但那是其中一部分。不过，可靠性还包括，这个东西有多聪明。它有多稳定地做你想要它做的事？我觉得，那些大型推理模型非常聪明。在我看来，它们仍然缺乏可靠性。我觉得有很多用例，你会——它们看起来应该足够聪明，可以自动化那些工作。自动化那些工作有经济激励，但它们仍然不够可靠，连实习生都不如，因为它们是为不同的东西优化的。所以，我觉得存在一种能够信任输出的可靠性。而且我们也是。有些可靠性维度我们还没达到，但我对此非常兴奋。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 比如，我想先自动化简单的工作，再自动化困难的工作？我觉得这就是常识。但对我来说，我们会足够。我不知道是否存在足够可靠这种东西，但我想做到好到人们甚至不需要试这个模型就知道它能行。就像，那就像编程中的心流状态，对吧？就像，我只是在写查询，因为我需要这里的智能。然后，对于非平凡的分支，我可以把它写成一个类型安全的System 1查询，然后从中得到结果，它就能准确地分支。那会太好了。那就是。那就是梦想。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 而那将会是一场漫长的苦战。</p>
+<p><strong>Swyx:</strong> 对。我们待会儿会聊到你们的API设计</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 只是为了给大家一些例子，也许还有没走的路，那种东西。</p>
+<p><strong>Swyx:</strong> 前面有一件事，我在可靠性方面确实好奇，我注意到没有seed。没有，所以基本上，同样的输入，我总能得到同样的输出吗？</p>
+<p><strong>Diogo Almeida:</strong> 所以</p>
+<p><strong>Swyx:</strong> 如果不能，为什么不能？</p>
+<p><strong>Diogo Almeida:</strong> 哦，好问题。所以这其实是我们之间常见的问题。所以可靠性其实是个笼统的说法。每当AI无法自动化某件事，都是因为某种形式的可靠性。可能是类型安全。可能是确定性。也可能只是，它是，它是参差不齐的，对吧？所以可靠性是个笼统的说法。我只是觉得它也是北极星是什么的笼统说法。确定性就是，同样的输入，同样的输出。我确实相信这对单元测试来说有点意思，但我相信那是错误的北极星。我相信鲁棒性才是人们</p>
+<p><strong>Diogo Almeida:</strong> 我不想告诉人们他们真正想要什么，因为那对我来说有点傲慢。</p>
+<p><strong>Diogo Almeida:</strong> 我相信那才是更重要的属性。你想要，给定相似的输入，得到相似的输出。而LLM有多不可靠，这有点疯狂。</p>
+<p><strong>Diogo Almeida:</strong> 比如，我们测试这个的一种方式是，你把UUID放进，小小的</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 我觉得它们叫nonce，放进提示词里。你想要的是从所有这些中得到相似的输出，因为它确实是语义上相同的问题，而那才是你真正想要的。那种鲁棒性才是人们被AI做决策坑到的地方。所以我觉得那是。一个超级重要的属性。我们也可以有确定性。那，那是可以提供的。就我能为程序员做的心理建模而言，它，它可能对某些用例有价值，所以，请在评论或视频里教育我。但我的。总的来说，这很容易。确定性是你可以为了更好的成本而权衡掉的东西。就像，我们，我们一直想待在智能每美元的前沿上。我们正在做绝对恶心的事情来待在那里。就像，这是，</p>
+<p><strong>Diogo Almeida:</strong> 我不该说这个，但这里没人阻止我。</p>
+<p><strong>Swyx:</strong> 如果你——你批准自己的PR。</p>
+<p><strong>Diogo Almeida:</strong> 这家公司不是那样运作的。我相信这周，我的幕僚长Kay是科技界最有权势的人。</p>
+<p><strong>Swyx:</strong> 对。向Kay致敬，组织了这次。</p>
+<p><strong>Diogo Almeida:</strong> 我靠</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我靠。她真他妈能干又有权势。她太不可思议了。</p>
+<p><strong>Diogo Almeida:</strong> 她很烂。别挖她。不过我尽量更有过滤，但人们告诉我，“别叫它模型的弗兰肯斯坦怪物，”因为那有负面含义。我觉得弗兰肯斯坦的怪物在这整个里是好人。它是无辜的，对吧？我没读过。好吧。</p>
+<p><strong>Diogo Almeida:</strong> 我，我坦白。好吧。那个。嗯，一个面部表情，我</p>
+<p><strong>Swyx:</strong> 这是一部</p>
+<p><strong>Diogo Almeida:</strong> 我把牌摊在桌上</p>
+<p><strong>Swyx:</strong> 还不错的Jacob Elordi电影，如果你想看</p>
+<p><strong>Diogo Almeida:</strong> 我</p>
+<p><strong>Swyx:</strong> 那个改编。总之。</p>
+<p><strong>Diogo Almeida:</strong> 那个。你根本不知道我现在有多缺时间。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我的优先事项是睡觉？</p>
+<p><strong>Swyx:</strong> 开发者。</p>
+<p><strong>Diogo Almeida:</strong> 开发者，对。开发者。但没错。它。我们确实做绝对恶心的事情来待在智能每美元的帕累托曲线上，我们会继续那样做。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我们会做疯狂的事，我觉得人们真的需要跳出框框思考。比如，我们令人惊讶的部分原因是，人们是在框框内思考，而我们继续那样做。截至目前，我们显然在这方面最好，我们想继续在整件事上保持最好。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 所以等等，我们是从哪里，从哪里跑题的？</p>
+<p><strong>Swyx:</strong> 不。所以</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 我问你，你们会有seed和确定性吗？</p>
+<p><strong>Diogo Almeida:</strong> 哦，对。所以</p>
+<p><strong>Swyx:</strong> 然后你基本上定义了可靠性，还有</p>
+<p><strong>Diogo Almeida:</strong> 还有鲁棒性</p>
+<p><strong>Swyx:</strong> 你怎么看它。是的。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，确定性的——就像</p>
+<p><strong>Swyx:</strong> 我有一个鲁棒性的例子，很、很快，我可以给你看看。</p>
+<p><strong>Diogo Almeida:</strong> 我很乐意。我就说一件事。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 我们可以做一个确定性模型。</p>
+<p><strong>Swyx:</strong> 没错。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我们很乐意——如果人们能说服我们那是一件有价值的事</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 而且我们没有巨大的GPU短缺</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 我们可以开开心心地把这些模型全做了。我们活着就是为了取悦人。而且革——而且反叛，革命，</p>
+<p><strong>Swyx:</strong> 你会把一切都推翻，只不过你会用一种友好的方式来做。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 然后找到</p>
+<p><strong>Diogo Almeida:</strong> 所以就像，确定性是有可能的。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 它只是会让你每美元买到的智能更少。</p>
+<p><strong>Swyx:</strong> 对。嗯，光是看到OpenAI和Anthropic的发展轨迹，你就会。现在你就相信我吧，你会被同侪压力逼着去做这件事的。所以就像，人们会想要它，即使他们。即使你告诉他们不需要它。他们还是会想要它。所以就像，对，这就是那件事的TL;DR。</p>
+<p><strong>Diogo Almeida:</strong> 好。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我很乐意。也许有一天我们会看到那会怎么发生。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 有人跟我说我，他们说我们品牌的一部分就是不可动摇</p>
+<p><strong>Swyx:</strong> 哈</p>
+<p><strong>Diogo Almeida:</strong> 他们说那只是对固执的一种好听说法。</p>
+<p><strong>Swyx:</strong> 固执，对。</p>
+<p><strong>Diogo Almeida:</strong> 对，没错。而我是个非常固执的人。我觉得我们本来做不成这件事。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 不，但是。所以就像，我。好吧，但我试——我，就像，以前跟你争论过。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 而且我知道</p>
+<p><strong>Diogo Almeida:</strong> 而且你在开发者这件事上每次都是对的。</p>
+<p><strong>Diogo Almeida:</strong> 所以好吧，我放弃。你赢了。你赢了。我承认我以前跟你争论过。</p>
+<p><strong>Swyx:</strong> 不，我只是说，就像，我觉得你可以坚持自己的立场，同时，就像，如果我给你正确的证据，你可以，不。你可以有点抛弃自己的先验，然后说，“对，就像，那对我来说其实说得通。”</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 所以就像，在这件事上就相信你自己的直觉吧。</p>
+<p><strong>Diogo Almeida:</strong> 对。对。</p>
+<p><strong>Swyx:</strong> 我会拿出一些</p>
+<p><strong>Diogo Almeida:</strong> 不过我怀疑，我们会在很长一段时间里受GPU制约。</p>
+<p><strong>Swyx:</strong> 很长。对。</p>
+<p><strong>Diogo Almeida:</strong> 而任何每美元智能更少的东西，都意味着它会消耗更多GPU</p>
+<p><strong>Swyx:</strong> 对</p>
+<p><strong>Diogo Almeida:</strong> 来获得同样的智能，这就是。就像，我们的目标不是让公司入驻。就像，那——它是有价值的，但就像，我们的目标是让人们去实验、去搞些奇怪的东西。而我们需要，就像。我们需要，就像，把它交到尽可能多的人手里，就像，为此开启一场加州淘金热。</p>
+<h2>模型版本管理、LTS与保持API稳定性</h2>
+<p><strong>Swyx:</strong> 我觉得现在就有。对。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 只是一句提醒。我就直说了</p>
+<p><strong>Diogo Almeida:</strong> 哦，好吧</p>
+<p><strong>Swyx:</strong> 因为现在有人正在想这件事。</p>
+<p><strong>Swyx:</strong> 那就是当你说出像“我们不会承诺确定性模型。我们会，我们会为了每美元智能不惜一切代价，而且我们一直——我们正面临GPU制约”这样的话时，人们会想你可能把你的模型量化，对吧？就像，就像，你发布时有的东西，你可能会把它量化降级。为了降低质量，以便释放内存或带宽之类的，对吧？</p>
+<p><strong>Swyx:</strong> 所以你大概应该，做出某种承诺，你不必现在就做</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 关于，就像，“我们会维持模型发布时的质量。”人们，就像。所以就像当人们。当我们。你发布的时候你在OpenAI</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 所有这些，所有这些API，甚至Claude也是。就像，当他们最初发布模型时，模型字符串，并不总是保持同一个模型。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 对吧？你的模型里有版本管理。那很好。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 但就像，你应该，你应该公开承诺某种东西，就像，一旦某个东西发布了，我们就不改它。</p>
+<p><strong>Diogo Almeida:</strong> 我们部署模型时不会改我们的模型。那太疯狂了。我们在乎开发者。就——就像，如果你。如果。做那样的事，再说一次，这就是第一方产品和API的问题所在。它让。你在第一方产品里想做什么都行，对吧？就像，他们更有权力，随便什么能带来那种体验，那没问题。有了API，你显然不能那么做。但我要说，我们计划比很多人习惯的模型提供方做事方式快得多地推进。所以我们会以比人们想象快得多的速度发布新模型，而且我们不承诺对模型提供长期支持，因为我们认为还有很多改进空间。所以存在一种可能，我们可能会暂时把现在的Jev 1.13.0做LTS。我们可能会那么做，因为用的人太多了，而且我知道开发者讨厌破坏依赖。替代方案是分裂我们的机群，那对所有人来说都是一种非常糟糕的氛围。它会</p>
+<p><strong>Swyx:</strong> 对，你可以有，就像，100个不同版本的模型。</p>
+<p><strong>Diogo Almeida:</strong> 没错。而如果我们迭代得非常快，那样的版本也会有很多。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 所以我们确实想要最终不仅有一个LTS支持的东西，长期支持。我们想要一种非常酷的做法。我们有，就像，朝那个方向在酝酿的研究，我觉得那会是有史以来最亲开发者的东西。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 但它还不是我们当前的模型，而且我不承诺我们能保持完全相同的模型。它们每次都会变得更聪明，这是肯定的。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 而我的感觉是，即使是我们已经足够聪明的模型迭代，它。在模型版本之间，变化往往比把字符串模型调用两次还要小。但当我们从，就像，参差不齐到，就像，哇，那才是大差异所在。</p>
+<h2>每美元智能 vs. 每秒智能</h2>
+<p><strong>Swyx:</strong> 对。有一件事，把模型做LTS的一件美妙之处在于，其实你还可以把它们移植到其他芯片上。</p>
+<p><strong>Swyx:</strong> 我不，我不知道你有没有想过这个。</p>
+<p><strong>Diogo Almeida:</strong> 无可奉告。</p>
+<p><strong>Swyx:</strong> 好吧。</p>
+<p><strong>Diogo Almeida:</strong> 所以我关心的是每美元智能。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？</p>
+<p><strong>Swyx:</strong> 但速度呢。</p>
+<p><strong>Diogo Almeida:</strong> 什么？</p>
+<p><strong>Swyx:</strong> 速度也是。</p>
+<p><strong>Diogo Almeida:</strong> 我们走着瞧。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 我们走着瞧。我</p>
+<p><strong>Swyx:</strong> 这是。这是推理技术树的一整个部分，在过去一年里，就像，爆炸式增长，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 就像，你可以，你可以迁移到，比如，Cerebras</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 一个 Etched 或者别的什么，然后获得，比如，10 万倍的加速。</p>
+<p><strong>Diogo Almeida:</strong> 对。就像，我认为每秒智能是一个不同的指标，我们甚至讨论过，比如，每美元每秒智能之类的指标。我对，比如，杰文斯悖论是否会发生，或者至少是 Jev 系列模型的猜测是，而且我在内部会追着人问的事情是，我不在乎它聪明多少，它必须处在帕累托前沿上。所以，这就是 Jev 的品牌。它是在每美元智能上最好的东西。至于每秒智能，我们走着瞧。我认为这是一件很有意思的事。我知道有很多行业，比如，极度依赖实时性的东西，而它们会，比如。就像，每秒智能对它们来说意味着大量的美元。但是</p>
+<p><strong>Diogo Almeida:</strong> 我们走着瞧。我，我很想，比如，两者都做，然后，让市场以任何一种方式纠正我。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> ？</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我很想被大家告知。</p>
+<p><strong>Swyx:</strong> 嗯，完全同意。而且这不，这不只是关于实时，对吧？这也是关于规模，因为，在规模上，每一微秒都会被乘以数十亿、数万亿次。</p>
+<p><strong>Diogo Almeida:</strong> 这取决于它在后台运行的程度，对吧？</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 就像，如果它是，比如，一个大型后台，比如，数据库 MapReduce 查询，延迟可能不像，比如，成本那么重要</p>
+<p><strong>Swyx:</strong> 嗯</p>
+<p><strong>Diogo Almeida:</strong> 从中获取智能的成本。但就像，如果它实际上是，更实时性的东西，比如面向用户的，你就有预算，比如在 100 毫秒到 1 毫秒之间，那，就像，完全是魔法。而且实际上，即使你在 100 毫秒以下，如果你能把那个时间减半，那意味着你可以获得双倍的智能，或者双倍的顺序智能调用，从而拥有，比如，一种，比如，非凡的体验。</p>
+<h2>内部评估与更快更便宜的前沿</h2>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 所以没错，这现在肯定正在发生。这超级超级酷。我喜欢每秒智能的用例，但我不认为那会是 Jev 的利基。</p>
+<p><strong>Swyx:</strong> 好。嗯，有道理。</p>
+<p><strong>Diogo Almeida:</strong> 嗯。</p>
+<p><strong>Swyx:</strong> 当思考更快更便宜的承诺时。通常另一。其他模型提供的权衡是更快但更贵。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> 对吧？所以你。就像，我思考为什么 Jev 引起这么大共鸣的原因之一是，你做了这个象限中更快但更便宜的那一侧</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 而那一侧非常无人占据</p>
+<p><strong>Diogo Almeida:</strong> 对</p>
+<p><strong>Swyx:</strong> 同时把智能，比如，保持得大致恒定。</p>
+<p><strong>Diogo Almeida:</strong> 是的。它——我——那是一个非常承重的说法，在保持智能恒定的同时。那才是难的部分，对吧？就像</p>
+<p><strong>Swyx:</strong> 这，不幸的是。就像，所以基本上，你拒绝拥有，拒绝，比如，做任何公开基准测试，或者你不喜欢任何关于它的公开基准测试</p>
+<p><strong>Diogo Almeida:</strong> 但我会的。我实际上试过</p>
+<p><strong>Swyx:</strong> 但你需要某种内部感觉。</p>
+<p><strong>Diogo Almeida:</strong> 再说一遍？</p>
+<p><strong>Swyx:</strong> 你需要某种关于这——这的内部感觉</p>
+<p><strong>Diogo Almeida:</strong> 哦，当然。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 当然。我们有，我们肯定有自己的内部评估。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 但需要很多纪律才能不去钻那些评估的空子，而且需要把它当作，比如，最高级别的优先事项才能不去钻空子。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 我们当然会那么做，对吧？</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 就像，否则我们怎么能保证我们的模型处在每美元智能的帕累托前沿上？</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像，我们在那里不是盲飞的，对吧？如果我们做，比如，完全不同成本之类的奇怪事情，那，我们怎么比较它们？我们把它们画出来然后得到。你。我们试着弄清楚，比如，什么对用户来说是最好的。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 所以我们肯定会测量它们。我不反对测量。但当你，比如，有任何替代激励时，那是极其危险的，而这是我用铁腕统治的一件事。好吧，也许我的同事可能会认为我用铁腕统治很多事情，但对我来说，比如，不把我们自己搞糊涂，关于我们的模型有多聪明，是那里最重要的事情之一。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我们需要追求真相。</p>
+<p><strong>Swyx:</strong> 嗯。嗯。同意，同意。好，我想过一遍一些，关于 API 选择的细节。</p>
+<h2>API 原语：Choice、Score 和 Noulli</h2>
+<p><strong>Diogo Almeida:</strong> 哦。</p>
+<p><strong>Swyx:</strong> 主要是因为这是唯一会问你这类问题的播客。</p>
+<p><strong>Diogo Almeida:</strong> 哦，太对了。太对了。</p>
+<p><strong>Swyx:</strong> 所以你有三个原语。</p>
+<p><strong>Diogo Almeida:</strong> 对。</p>
+<p><strong>Swyx:</strong> Choice、score、know。首先，know，那是从哪来的？</p>
+<p><strong>Swyx:</strong> 这是，比如，文献里的一个术语还是什么？</p>
+<p><strong>Diogo Almeida:</strong> 现在是了。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 我们为此争论了很多。我们为此争论了很多。它是，它是布尔式的，对吧？就像真、假。它是</p>
+<p><strong>Swyx:</strong> 但它是连续的。</p>
+<p><strong>Diogo Almeida:</strong> 是的，正是。所以首先，这个名字的来源是 Bernoulli。</p>
+<p><strong>Diogo Almeida:</strong> 是的。所以它——这就是为什么它甚至拼写得那么奇怪。那是，比如，Bernoulli 这个名字的一个子集，来自，比如，一个伯努利概率，对吧？那实际上就是它。所以那就是它的来源。我们为此争论了很多。我们喜欢 PBool，我们喜欢 Pool。我们——我们想把它叫做，比如，一个 pool party，但后来没人让我这么叫。我们有过，比如，一堆，比如，关于那个的其他争论。</p>
+<p><strong>Diogo Almeida:</strong> 而 Noulli，我们认为，比如，是最好的东西。我们的理由，而且，比如，这实际上和 Jev 也是一样的情况，是我们认为我们是，比如，一群不恭的、疯狂的人，而程序员不在乎。就像，如果 Jev 只是一个字符串，我们没指望它会流行起来，甚至没指望会有双关语之类的，对吧？实际上，内部对这个名字有很多讨厌。他们都已经道歉了，除了一个人。</p>
+<p><strong>Swyx:</strong> 仍然坚持着。</p>
+<p><strong>Diogo Almeida:</strong> 是的。我们共同的朋友。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 我为此尊重她。</p>
+<p><strong>Diogo Almeida:</strong> 嗯。嗯。她想让 Jev 被叫做 Meow。</p>
+<p><strong>Swyx:</strong> 她当然会。</p>
+<p><strong>Diogo Almeida:</strong> 是的，当然。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 像她父亲一样，是的。</p>
+<p><strong>Swyx:</strong> 你在那里赢了，你在那里赢了。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，是的，Noulli 就是这样。我们不得不为这个东西做一个新概念，因为如果它是一个 Bool，对人们来说会很困惑。所以实际上，这三个都是新概念。这些不是编程中存在的类型，这是有意为之的，因为它们非常接近类型，但又不完全是。一个 score 不是 int。所以如果你有，比如，Instructor 或 Pydantic 或其他什么把 int 或 float 映射到 score，你会有点被搞糊涂？而且就像，我们真的在清晰性这一边犯错，而不是在让人们容易理解发生了什么这一边。</p>
+<p><strong>Swyx:</strong> 你不担心那个吗？你不希望东西能直接集成到人们已经在使用的东西里吗？</p>
+<p><strong>Diogo Almeida:</strong> 是的。是的，我们想。而且实际上，我认为那，</p>
+<p><strong>Swyx:</strong> 你有和其他 SDK 之类的集成。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但你有——抱歉，你有你自己的 SDK。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但通常，比如，作为一个开发者关系人员，我会非常执着。就像，是的，这是你如何用 Jev 配合 Instructor。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 这是你如何。那种东西。</p>
+<p><strong>Diogo Almeida:</strong> 我们可能在某处有那个。我在所有事情上都落后太多了。</p>
+<p><strong>Swyx:</strong> 社区里会有人替你做的。</p>
+<p><strong>Diogo Almeida:</strong> 哦，是的。是的。</p>
+<p><strong>Swyx:</strong> 不是说因为你成功了。人们会说，“哦，那很酷。”</p>
+<p><strong>Diogo Almeida:</strong> 酷。</p>
+<p><strong>Swyx:</strong> 但就像。不管怎样</p>
+<p><strong>Diogo Almeida:</strong> 我也不把那看作二元的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我实际上把成功看作一个分数，而且总还有更高处可以攀登</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 在，比如，我们能多大程度地为我们的社区在那里，说清楚一点。而且我。这一节很有压力，因为我没有复习文档，而它们一直在变。</p>
+<p><strong>Swyx:</strong> 好的。但</p>
+<p><strong>Diogo Almeida:</strong> 但对我来说，score 确实存在。所以 score 类似于，比如，LM 评判。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？所以就像，如果你想把它叫做，比如，一个判断，我想你可以。但就像，那就是，比如，人们已经——已经在用这类东西的方式，对吧？就像，也许一个 Noulli 可以是一个概率，但对我们来说一切都是概率。而一个 choice 实际上最接近一个函数调用，但函数调用是一个极其恶心的东西，如果你想要 OpenAI 的汁、酱、茶，那个。我们之后应该回到那个。就像一个，就像一个 choice 只是，比如，暴露，比如，一个 switch match 语句的正确方式</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 在代码中。</p>
+<p><strong>Swyx:</strong> 所以它，比如，干净地映射到一个 enum。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 而且你可以选择把它水合成一个函数，如果你想的话。</p>
+<p><strong>Diogo Almeida:</strong> 是的。而且就像，在 enum 中，choice 是其中重要的部分。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且就像，实际上，我认为这些都映射到，比如，编程原语，其中，比如，choice 映射到，比如，一个，比如，对 enum 的 switch 语句。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> Noulli 映射到 if 语句。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而 score 映射到排序或在大于或小于处做阈值。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 这一直就是愿景。就像，会有更多类型，而它们会映射到编程原语。</p>
+<p><strong>Swyx:</strong> 是的。还有别的吗。所以你有什么细微之处想讲吗？因为字面上，这是给那些，比如，决定真正投资 Jev 的 Jev 人。你是专家，对吧？我只是，比如，想为他们提供更多关于 API 选择、他们应该如何使用这些东西的背景，比如 legends、confidence、在你的测试中有多关键，比如，怎么。就像，任何那种，比如，你想提供给人们的专业提示</p>
+<h2>结构化输入与 AI 原生编程</h2>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 当他们下到这个层级时。</p>
+<p><strong>Diogo Almeida:</strong> 谢谢。我喜欢这个。不。这是</p>
+<p><strong>Swyx:</strong> 这就是我们在这里的原因。</p>
+<p><strong>Diogo Almeida:</strong> 太对了。我没想到这个。而且实际上，我。可能有好几个月没人问过我这个了，当时我在，比如，入职，比如，我们的 DevRel。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 太棒了。所以我们的模型是为未来深入计算机程序内部而设计的。我们，比如，毫不讽刺地相信这会比人们今天甚至正在考虑的任何东西都大得多。我们的模型可能还没为此准备好，但我们，比如，持续为那个未来努力。它在这些浅层任务上永远不会足够好。抱歉。它永远不会足——就像，我们不会只是继续在浅层任务上攀登。我们想深入程序的内部，因为那是你让软件强大的方式。所有——所有我们里面的类型，这实际上是一个输出。</p>
+<p><strong>Diogo Almeida:</strong> 但所有，所有部分，比如，输入，比如 state、instructions、criteria，所有这些都可以是结构化 JSON 对象。</p>
+<p><strong>Diogo Almeida:</strong> 那样的话，比如，程序可以，比如，把它们插入正确的位置，而你不需要，比如，把东西放进模板。正是如此。所以如果曾经。我认为人们没有足够读进这一部分，他们认为全都是字符串。那，那没关系。但这些全都是有意为之的。就像，我会说如果你在使用，比如，一个模板，比如把它变成一个，比如，系统消息或什么的，你是在用，比如，旧的方式思考？我们应该让东西尽可能容易被计算机理解，因为那个结构真的在那里，对吧？就像，在，比如，一种编程语言里，比如，你所有的数字都在，然后你把它传进，比如。你把它变成一个字符串，那会很奇怪。通常，你那样做是为了打印，当你有一个人在循环中时，对吧？但为了，比如，在计算机内部，你想传递，比如，在各方面都是语义化的嵌套结构。而我们真的会优化我们的模型。它——模型对此相当优化，但问题是每一个不同的嵌套层级都更难推理，而我们想——我们真的在那个方向上努力烹饪。我认为人们应该继续在那个方向上烹饪，因为它让代码，比如，可读性和美感高得多，而且，比如，与，比如，实现细节无关。就像，这是我的 state，比如，这是我的函数 state。就像，想想，把它想成，比如，一个 AI 函数。我的 state 的哪些子集，也就是，比如，你所有可用的变量，我应该在这里传入？系统消息就像，比如，恶心的全局变量，你把所有东西都放进去，然后你把这所有</p>
+<p><strong>Swyx:</strong> 垃圾，是的</p>
+<p><strong>Diogo Almeida:</strong> 指令一次性放进去。然后就像，你希望每一条指令都被钉住，而不是并行地问问题。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 而且还有，我会推荐——我，而且我真的说这个不是从，比如，一个，比如，它让我赚钱的角度。我真的推荐问很多很多问题。把它们分解，让它们更小，而且就像，真的分解。就像，不管模型今天能不能做到，我相信，比如，这周正在发生的事情的最大的，比如，救命恩典会是人们的代码库，AI 代码库，会好得多。就像，如果你把问题分解成简单的决策，这些东西中的每一个都极其可评估。就像，一个 AI 事先是一个大系统消息，然后也许你有，比如，另一个大 AI</p>
+<h2>分解、验证与小型语义单元</h2>
+<p><strong>Swyx:</strong> 大输出，是的</p>
+<p><strong>Diogo Almeida:</strong> 来看，比如，它是否真的做了这个。那很疯？这，这有点疯狂。就像，它——那是我们的斯德哥尔摩综合征，对吧？但就像，那有点疯狂。就像，如果你想，比如，“嘿，不要读这个子目录，”或者，“不要把任何 API 密钥传给 DeepSeek，”或者其他什么，比如，那应该程序化地基本上被保证。你永远不会有任何机器学习模型的保证，但就像，通过分解它，你实际上可以——你实际上可以测量它，对吧？就像</p>
+<p><strong>Swyx:</strong> 是的，你可以验证它实际上被调用了</p>
+<p><strong>Diogo Almeida:</strong> 是的，而且就像，我们的模型，我们的模型——就像，接口本身是如此可验证。这应该像是一声如释重负的叹息。</p>
+<p><strong>Diogo Almeida:</strong> 就像，它，它，它，它只会导致好得多的工程。</p>
+<p><strong>Swyx:</strong> 是的。我想我明白了。所以人们过去不这样做的原因之一是他们会只是调用一个小 LLM，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 而且它仍然太慢，它仍然太贵，相比于把所有东西分块——我自己就做过完全一样的事。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对吧？就像，我基准测试。这里有一个管道把所有东西扔进系统提示，它只得到一个大的输出，相比于把它分解成一百个不同的东西。它更慢，更贵</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 没那么好。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对吧？</p>
+<p><strong>Diogo Almeida:</strong> 而且那会发生——是的。它，而且它，比如，超级不方便。它很笨重。为什么不直接把它全放在一起？你最终会在</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 问题之间重复一些东西，所以它，比如，也许，比如，低效或类似那样。但然后它导致某种非常难以依赖的东西。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而软件不需要在后台运行。如果我们的东西不能在后台运行，那会伤我的心。</p>
+<p><strong>Swyx:</strong> 有没有一种你们发现的分解东西的方式，是有效的，相比于，你们以为有效但实际无效的？</p>
+<p><strong>Diogo Almeida:</strong> 有趣。</p>
+<p><strong>Swyx:</strong> 因为，比如，人们现在就会开始探索这个，既然你说了。就像，他们会把这个当作参考，然后说，“好的，比如，那就是我应该使用 Jev 的方式。”</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 那么问题就是，你如何分解东西？</p>
+<p><strong>Diogo Almeida:</strong> 有意思。我喜欢把东西拆解成，比如，它最小的语义单元。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 比如，最低层级的东西是什么？我尽量从不……我大概是所有人里查询模型最多的那个。</p>
+<p><strong>Diogo Almeida:</strong> 而且，我尽量。第一，在我的查询里，这更像是我的提示方式。我会让它非常结构化和明确。在问题里，我总是。我喜欢反引号，但它对所有情况都适用吗？比如，非常清楚地说明我指的是什么，因为我们希望模型非常字面化，因为当你编程时，你希望指令被很好地遵循。这就是编程的艺术，而 AI 所做的就是扩展可以被遵循的指令种类。所以我是这么做的粉丝。我。</p>
+<p><strong>Diogo Almeida:</strong> 有时我有点懒，我会，比如，我有，比如，更多，比如，混合的东西，但比如，我认为对于，比如，真正大型的生产项目，你就是想，比如，不断添加更多问题，而且你想让添加更多问题变得非常容易。对所有这些拆解非常精确，然后让代码具有你想要的确切行为。如果我可以给，比如，一个很小的例子，就是，比如，拒绝，对吧？比如，我不会谈论我们为什么不拒绝。我可能已经做过了。</p>
+<p><strong>Swyx:</strong> 是的，你已经做过了。</p>
+<p><strong>Diogo Almeida:</strong> 就像一片模糊。但比如，对于拒绝，我不认为你应该问，“我应该在这里拒绝吗？”那是一个真的很。它——我认为答案会相当不错，因为，比如，那是一个 System 1 兼容的任务。但我认为，针对你可以拒绝的不同情况，去问许多不同的独立问题会好得多。因为与其必须，比如，只是基于猜测，你实际上可以指定你想要什么。而且美妙的是，我认为这，比如，真的非常美妙，如果你发现一种情况，就像，“哦，它没有因为这个原因拒绝。我没有指定任务的这个部分，”那太棒了。这就是软件工程的意义。比如，你通过添加那个问题、添加阈值来修复 bug，也许把它记为一个测试用例，现在它就永远解决了。比如，你的软件不会因为上下文腐烂而在提示中忘记它。它就在那里，你可以，比如，永远持续测量它。而且如果模型在某些事情上不完美，你可以基于真实例子为所有这些因素选择你想要的阈值。这就像，这就像没有 ML 的 ML，你可以对任何事情都这么做。而且，比如，可能有些事模型还不够好，对吧？比如，我会。当我看到人们用模型做交易时，我有点害怕，比如，</p>
+<p><strong>Diogo Almeida:</strong> 自动交易。看起来很酷。我——我只是认为人们应该把它留给专业人士。</p>
+<p><strong>Diogo Almeida:</strong> 而且，比如，那只是一个非常困难、高层次的任务，也许模型还不够好，无法弄清楚。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，我，比如，即使它们够好，那么它们会——由于有效市场，它突然就不会是了。但比如，那是那些事情之一，你可以，比如，把它拆解成一些东西并只是评估它们，你可能会说，“它在这方面不够聪明。也许我们还不为这个版本部署它。”</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 或者我们做一个权衡，或者我们偏向安全，或者比如，“嘿，模型在，比如，检测，比如，这种，比如，讽刺与 VIP 客户的奇怪组合方面不够好，这就是我们升级到人工的时候。”而这就是置信度估计的意义所在。</p>
+<h2>置信度、阈值与微调</h2>
+<p><strong>Swyx:</strong> 好的。非常好的回答。我想，有一件事我会，我会很快提到，我不指望你对此有——太长的回答，就是，</p>
+<p><strong>Diogo Almeida:</strong> 你没有。</p>
+<p><strong>Swyx:</strong> 嗯，不。只是，只是具体来说，比如，你仍然依赖阈值作为，比如，用户可以拉的杠杆。</p>
+<p><strong>Swyx:</strong> 但如果只是校准错了呢，对吧？比如，你只是说你的校准是完美的，但</p>
+<p><strong>Diogo Almeida:</strong> 我没那么说。</p>
+<p><strong>Swyx:</strong> 我，比如</p>
+<p><strong>Diogo Almeida:</strong> 是的。我没那么说。</p>
+<p><strong>Swyx:</strong> 所以就像校——完美校准——而且，比如，好的校准意味着，比如，更低的值是更低的，比如，概率更低，更高的值是概率更高。但它可能是错的。它可能</p>
+<p><strong>Diogo Almeida:</strong> 当然，当然</p>
+<p><strong>Swyx:</strong> 完全错位。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 所以那样的话我会想微调它或做点什么，对吧？你们不提供，但你们可以。我</p>
+<p><strong>Diogo Almeida:</strong> 我们可以。</p>
+<p><strong>Swyx:</strong> 又来了，看，这是一个简短的回答</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 就是你们现在没有它。</p>
+<p><strong>Diogo Almeida:</strong> 哦，我们想不想提供微调，这就是问题。</p>
+<p><strong>Swyx:</strong> 那可能，那可能是它的一种版本，或者你可以有一个不同的旋钮，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 在那里，比如。因为，比如，现在你——你所说的只是，比如，如果有什么错了，技能问题，你应该，你应该只是再次改变提示或进一步拆解它，或者你改变置信度。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 那是我的两个选项。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对吧？如果你的模型就是弄错了，那感觉不太令人满意。</p>
+<p><strong>Diogo Almeida:</strong> 是的。而且它会，它会弄错很多事情，说清楚。</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 我们有，比如，一个报告问题按钮。在 Discord 里向我们抱怨。我们想让它好得多。每一个模型版本都会，比如，明显更好。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 如果它们没有获得大的改进，我们会很快停止发布它们。所以第一，那，比如，完全合理。我认为承认 AI 在某些事情上不完美只是务实的，对吧？我确实认为我们会找到它们，比如，足够好的用例，而足够好有点取决于用例，对吧？比如，人类可以做很多工作，尽管他们不擅长那项工作，因为他们的 EV 相当高。而且大概有了正确的阈值等等，可能确实有，比如，大量工作可以被完成，即使正在犯错误。关于微调的问题，我可以想象，我可以想象它在计划中。我确实有顾虑，因为，比如，在人们需要什么与人们想要什么这个类别里，</p>
+<p><strong>Diogo Almeida:</strong> 比如，我认为通用模型往往真的很。比如，再次，有通用性的那种难以言说的东西，让它擅长，比如，一百万项其他任务而不是这一项狭窄任务，可能会让它在那个任务的边缘案例上更好，这是我，我会有点害怕的？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我可以想象它，这是我的回答。我在这些事情上无止境地务实。我想要一切。比如，我的世界愿景是。我——有，有太多我们想要构建的东西。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但同样，比如，我不想发布一个，比如，巨大的自伤脚枪，就像其他一些 AI 公司会发布的那样。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 嗯，所以 OpenAI 和 Claude，我想甚至 Gemini 都推出了微调，然后又收回了。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 这是一个有趣的观察，基本上微调现在属于开源模型的领域。</p>
+<p><strong>Diogo Almeida:</strong> 是的。我确实知道那件事。而且，比如，它有点垃圾，所以，比如，他们把它下架可能更好。</p>
+<p><strong>Swyx:</strong> 是的。是的，所以它可能只是一个自伤脚枪，告诉人们微调它可能是错误的方向是很好的。另一个有趣的回答可能是，比如，嗯，我们的模型如此不同，比如，就像量化不适用于我们一样</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 输出词元不适用于我们，微调也不适用于我们。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，实际上，我，我对那种可能性非常开放。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 这不是承诺。这是愿望。说明一下，我喜欢非常诚实。比如，我认为，随着每美元智能变得更便宜，我认为我们可以得到真的，比如，小的近似东西，希望是智能的代理。比如，有没有一个世界，人们不再写正则表达式？因为，比如，使用 AI 的每美元智能比，比如，正则表达式的复杂性更便宜。那会很酷。我会喜欢那个？而且它可能需要微调一些那些狭窄用例才能真正越过阈值。我们会看到。我的希望是校准能做到。校准加上模型级联。比如，如果它超级自信，那么也许它是对的。如果它在中间，那么你做下一个更大的模型，然后从那里继续串联。我不太知道那会怎么走，但是的。我可以想象它。而且我也可以想象的是，比如，想象你有，比如，一系列。比如，我们拥有整个帕累托前沿。一个企业可能想做的事情，或者，我认为一个黑客会愿意处理模型的帕累托前沿。也许一个企业想要更动态的东西。你可以想象，比如，有，比如，不同大小的模型，并根据它在你的技术栈不同部分有多聪明来动态选择哪个模型。你甚至可以想象，因为我们的东西有多简单，你可以想象，比如，在那上面做一些自动微调。</p>
+<h2>未来模型、帕累托前沿与新的智能形态</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 一点也不是承诺。我只是，比如，在科幻上烹饪。</p>
+<p><strong>Swyx:</strong> 但你会考虑不同大小的 Dev 模型来提供那种差异？</p>
+<p><strong>Diogo Almeida:</strong> 当然。是的。就像，我们。就像，我怎么会知道人们需要多少智能？</p>
+<p><strong>Swyx:</strong> 我不知道。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？是的。我也不知道。</p>
+<p><strong>Swyx:</strong> 需求是，需求是，无限的。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，是的，人们现在告诉我们不要发布东西，因为我们不需要发布东西，因为，还是那句话</p>
+<p><strong>Swyx:</strong> 已经够好了，是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的，但那有点逊。我真的很喜欢那句话。这是我希望人们拿来要求我的话，因为这会很难</p>
+<p><strong>Swyx:</strong> 收回</p>
+<p><strong>Diogo Almeida:</strong> 收回。是的。就像，那个。我不知道是不是。确切的那句话是，文化就是当市场不奖励它时你所做的事。我真的很喜欢这句话，因为我认为我们在为某种东西而坚持。也许在未来——我们所坚持的东西会变得如此显而易见，以至于我们相当于，就像，无聊的，就像，Visa 之类的。就像，我们只是一个没人真正会去想的公用事业，而我会穿着非粉色的西装之类的。</p>
+<p><strong>Diogo Almeida:</strong> 但我真的很想，就像，把世界召集到这件事上？就像，我想继续做酷的东西，不——不是因为我们必须要，而是因为我想要，就像，让人们意识到这只是个开始？就像，那甚至都不是有意作为开场炮。那更像是，一种，低调的研究预览，或者你想叫它什么都行。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且我们还能做很多更多的事。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 用。就像，机器原生智能会大爆发。</p>
+<p><strong>Swyx:</strong> 所以不是唯一的规——可能不是你们发布的唯一尺寸，可能不是唯一的模型。你想要打开人们的思路</p>
+<p><strong>Diogo Almeida:</strong> 绝对不是其中任何一个的唯一。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我想要，我想要，就像，满足我们能满足的任何需求。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像，在。但有一个，就像，巨大的前提，我不想成为像 OpenAI 的产品团队那样，就像，往墙上扔东西。就像，我想要它，就像，在一个，在一个统一的愿景之下。就像，如果你回到那份宣言，就像，一切都必须归在这三件事之一下面</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 在我看来。</p>
+<p><strong>Swyx:</strong> 我不</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 我还没准备好做这个，</p>
+<p><strong>Diogo Almeida:</strong> 哦，抱歉。抱歉，Francis。是的，我可以就聊聊它。就像，我们的东西里有，就像，三个步骤。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 这听起来像是个吊胃口。我想要一切都归在这三件事之一下面</p>
+<p><strong>Swyx:</strong> 好</p>
+<p><strong>Diogo Almeida:</strong> 去不断推动边界和一切。就像，这不是。这些不是，就像，清单。这些是，就像，我们认为能构建，就像，一场新技术革命基础的，的，坐标轴。我想要所有的。我们做的所有押注都落在其中的某处。而且我们会在模型方面做一些奇怪的东西。</p>
+<p><strong>Diogo Almeida:</strong> 所以因为是机器原生的，对吧？就像，人类不需要完全理解它。它只需要有价值。</p>
+<p><strong>Swyx:</strong> 用，就给人们一个吊胃口或提示。就像，奇怪看起来是什么样的？什么是奇怪？</p>
+<p><strong>Diogo Almeida:</strong> 我会给人们一个提示。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 有些人试图把它们叫做决策模型。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 说我们的原语是决策。我不会那么做，因为我认为还有其他机器原生的类型，不是决策。</p>
+<p><strong>Swyx:</strong> 好的，我们就到此为止</p>
+<p><strong>Diogo Almeida:</strong> 那是个有趣的提示，有趣的提示。</p>
+<p><strong>Swyx:</strong> 然后让人们去猜。是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。我觉得这是个，我觉得这是个相当有趣的提示。</p>
+<p><strong>Swyx:</strong> 是的。有人。看，有，有人说，就像，“我以前做过这个。我一年前就做了一个决策模型。”就像，Jev 不新鲜，Jev 不酷。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但就像，我觉得，有那个类别性的，就像，这是你在确立什么是可能的。有那个，表现的，就像。嗯，其实那个。就基准和数字而言，你得到的，你仍然在击败每——据我所知，你仍然在击败外面你的每一个克隆。</p>
+<p><strong>Diogo Almeida:</strong> 我不在乎基准</p>
+<p><strong>Swyx:</strong> 正是</p>
+<p><strong>Diogo Almeida:</strong> 说清楚一点。</p>
+<p><strong>Swyx:</strong> 正是。</p>
+<p><strong>Diogo Almeida:</strong> 所以就像，即使我们在赢或输，我也想做发布。</p>
+<p><strong>Swyx:</strong> 你已经确立了那个类别，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 但同——但同时我觉得决策模型和 System 1 之间的这个细微差别，我觉得实际上就是你想试图</p>
+<p><strong>Diogo Almeida:</strong> 是的。而我只是想让软件工程师被超级赋能</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就——就像用 AI。就像，而且或者，就像，对我来说悲剧性的事情是，</p>
+<h2>经济影响、TFP 增长，以及背景中的 AI</h2>
+<p><strong>Diogo Almeida:</strong> 在那个 AI 寒冬的方向上，我觉得，就像，它，它，它就是太令人难过了，AI 如此强大却又如此未被充分利用。就像，这是件让我动情的事，但是天哪。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我觉得那就是。我不想，就像，只是，就像，纯粹的技术乐观主义者，就像所有技术都是好的。我觉得现在正在发生的事，就像，是一场闹剧。就像，它是。而且就像，有。我只是想，就像，为人们打开那些可能性。</p>
+<p><strong>Diogo Almeida:</strong> 是的，我就说到这里吧。我，我这些天哭得太多了，不想在录音里再哭。</p>
+<p><strong>Swyx:</strong> 是的。不，</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 我很感激你分享了一点这些，我觉得人们能看出你非常真诚，而且</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 对这件事充满热情。这——你——你不一定能从名字里看出来，就像，TypeSafe AI，但就像，我觉得一旦人们让自己沉浸得足够深，就像，这是你希望世界走向的真正不同的方向，而且就像，你实际上已经做了，就像，从零到一的那件难的部分，那么，就像，现在让我们都去——一起走向，就像，新的方向，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 是的。是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我不——我确信我不会这么想。也许我会认为难的部分已经完成了，也许吧。我觉得还会有很多更难的部分。就像，如果，各种各样的事情都被自动化了，我们终于看到 GDP 增长，而且就像，是一场 Jev 派对</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 每一天，那么也许难的部分就完成了。但就像，我不——这么认为。而且就像，我真的觉得人们太关注速度和成本，而不够关注可靠性。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，可靠性才是让它令人愉悦的东西。就像，可靠性才是，就像，让你能信任它的东西。</p>
+<p><strong>Swyx:</strong> 你有这么一句话，</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> TFP 增长在五年内超过 3%。</p>
+<p><strong>Diogo Almeida:</strong> 那当然。</p>
+<p><strong>Swyx:</strong> 我从没见过</p>
+<p><strong>Diogo Almeida:</strong> 那当然。他妈的冲啊。</p>
+<p><strong>Swyx:</strong> 我从没见过</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 一个关心全要素生产率增长的实验室。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，那正是经济革命的定义，对吧？就像，这实际上与 OpenAI 章程过去所主张的极其一致。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 它当时谈论的是，就像。我觉得章程还是一样的，但他们有点试图把定义挪来挪去，比如挪到 1000 亿美元利润之类的。不是说我对 OpenAI 有意见。</p>
+<p><strong>Swyx:</strong> 它并不是一个。是的，AGI 是什么并不是一个定义明确的术语，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 他们试图这么做</p>
+<p><strong>Swyx:</strong> 不，是的</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像，完成世界上大部分有经济价值的工作，而他们应该回答这个问题：它怎么能在数学上解决千禧年大奖难题，却在世界上有经济价值的工作上贡献为零，就在那儿飘着。就像，我觉得现在所有模型大致都并列在零这个位置。有一定可能，我们已经开始了，但就像，我猜还没到 1%。而且我觉得这会体现在。就像，当它真的发生时，它会体现在经济统计数据里。</p>
+<p><strong>Diogo Almeida:</strong> 那会他妈的太棒了。它不会导致大规模失业，但它会导致，就像，一大堆很棒的转变，而世——世界会好得多。而且，就像，我真的厌倦了 AI 总是成为事情的前景主角。就像，我觉得——世界就应该更令人愉悦，而 AI 就应该只是帮忙做到这一点。</p>
+<p><strong>Diogo Almeida:</strong> 而我</p>
+<p><strong>Swyx:</strong> 就像，消失到背景里去。</p>
+<p><strong>Diogo Almeida:</strong> 正是。</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 就像，那——我在我的演讲里说过这个。就像，怎么会这样：2019 年的软件，比如软件、SaaS 之类的，超级超级有价值，对吧？现在是 2026 年了。尽管 AI 他妈的这么棒，软件怎么基本上还是一模一样，除了有时候旁边有个聊天框，对吧？那，就像，那种东西勉强能用，但不允许你做出公司有切身利害关系的决策，因为不能信任它来做决策。这对我来说，简直疯了。就像，这里有这么多经济激励，而我觉得这将会是，就像一场，就像一场反向的 SaaS 末日。我觉得 SaaS 会被这个超级充电。他们才是最了解哪些东西值得自动化的人，而那将会是，就像，一个疯狂的时代。</p>
+<h2>系统 1 与系统 2，以及推理的极限</h2>
+<p><strong>Swyx:</strong> 是的。我也，我也这么觉得。这是，这是你解锁的一件很美的事？</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 你在这里提到了一件事，我不知道它是不是，就像，直接在这里，那就是，什么是系统 1 问题，什么不是。什么是系统 2 问题？就像，</p>
+<p><strong>Diogo Almeida:</strong> 操。那是个难题。那是个难题，我的朋友。</p>
+<p><strong>Swyx:</strong> 因为人们现在只是想对一切 Jev，对吧？</p>
+<p><strong>Swyx:</strong> 那，就像，大概会失败，对吧？但就像，有些东西会不错。</p>
+<p><strong>Diogo Almeida:</strong> 对一切 Jev 挺好笑的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 这是一种挺好笑的做事方式，说法。那。所以我会告诉你真相。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 真相是，这是一个经验问题，就像缩放定律是经验性的东西一样。就像，为什么，就像，机器人技术现在真的不奏效，尽管所有钱都花在上面了？</p>
+<p><strong>Diogo Almeida:</strong> 我不觉得这必然是关于，就像，花更多钱。经验结果可能就是不成立，对吧？所以从经验上看，我相信这些，就像，预训练出来的智能超级浓缩物，从根本上说是系统 1 思考者。我觉得它们真的。就像，系统 1 是描述 LLM 擅长什么的最接近的东西。RLVR 为系统 2 思考做出了不可思议的贡献。我叹为观止。这他妈的超级酷。就像，我完全不觉得这会导致 AI 末日。当然不是 0%，因为我觉得 0% 是校准错误的。但就像，它——他们所做的真的很酷，而且他们真的把它推到了极限。好吧，也许他们不这么认为，不觉得是极限。但就像，这对模型来说是一件奇怪的事，而且它们在这方面非常脆弱。就像，想想人们在 ChatGPT 时代是怎么谈论 AI 的。就像，“哇，它真的很通用。它能做很多通用的事情。”然后。但它在数学题和像 GSM8K、小学数学上很差。然后现在看看人们怎么谈论 RLVR。“它太脆弱了。它太参差不齐了。”？就像，它能。“为什么它能做这个，就像，真的很奇怪的事？”而实际上，数学不只是尖刺状的，它是分形的，对吧？而这是因为 RLVR 是。就像，如果我们谈论，就像，每件事的北极星是什么？RLHF 是取悦人类，对吧？那就是人类反馈的含义。RLVR 是优化基准。那个——所有归入 RLVR 类别的东西按定义字面上就是一个基准，因为基准是可编程验证的、简单输出，可以，就像，表现良好。而 RLCD 是让它对程序化使用可靠。而 <strong>Diogo Almeida:</strong> 是的。那，我会</p>
+<p><strong>Swyx:</strong> 是的。是的，它，这个。也许我会，我会提供一些想法，然后你可以大概，</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 如果我错了就纠正我。一。比如说，我一直在想的一件事也是。我，所以当你给我访问权限时，我把 Jev 扔给了一堆东西</p>
+<p><strong>Diogo Almeida:</strong> 哦，是的</p>
+<p><strong>Swyx:</strong> 在第一天。还有多跳推理，对吧？就像</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 所以单跳，太棒了。就像</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 最先进的。单跳你永远不该用 Jev 以外的任何东西。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 多跳会。它开始垮掉。而且它</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 就像，随着你增加跳数，大致是单调递增的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 对吧？</p>
+<p><strong>Diogo Almeida:</strong> 所以哦，是的。回到那个经验问题，这取决于我们能，就像，从模型里拉出什么。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？所以我们什么都想要。就像，我们想要发掘尽可能多的智能，就是这样。模型。就像，我把我们看作是在，就像，解锁、平滑和雕琢智能，同时，就像，添加新能力，并且，就像，填补其中的空白。而我们会随着时间填补，就像，越来越多越来越多这些空白。但现实是，我们做的是发掘属性的生意。那些属性实际上是一个函数，取决于，就像，这些，就像，这些浓缩核心能提供什么，并且，就像，把它们全都像弗兰肯斯坦一样拼在一起，以拥有所有东西的全部属性。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> ？但现实是，我们做的是发掘尽可能多能力的生意。而系统 1 恰好就是对什么奏效的描述。而在这个范式里奏效的一切都会是系统 1 式的。就像，我。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我们不做所谓的字符串中的潜在推理，是有原因的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得推理。就像，那。模型做得非常好的是模型内部的推理。它并不完全完整。它在所有方面都不出色</p>
+<p><strong>Swyx:</strong> 等等，潜在推理是字符串中的推理？我以为潜在推理是在模型权重内部的推理。</p>
+<p><strong>Swyx:</strong> 那</p>
+<p><strong>Diogo Almeida:</strong> 我觉得那</p>
+<p><strong>Swyx:</strong> 我不知道</p>
+<p><strong>Diogo Almeida:</strong> 人们过去把那叫做</p>
+<p><strong>Swyx:</strong> 我只是想澄清一下</p>
+<p><strong>Diogo Almeida:</strong> 连续推理。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 我不完全确定。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 它被称为潜在推理，是因为，就像，过去推理轨迹是保密的。</p>
+<p><strong>Diogo Almeida:</strong> 所以它们有点像答案的潜在变量。</p>
+<p><strong>Swyx:</strong> 哈。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 所以保密的东西现在转移了。</p>
+<p><strong>Diogo Almeida:</strong> 嗯</p>
+<h2>推理、视觉、上下文长度与未来能力</h2>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 它，它对 OpenAI 和 Anthropic 来说仍然是保密的，对吧？</p>
+<p><strong>Swyx:</strong> 所以没有推理 Jev</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 就你永远会做的程度而言，对吧？因为那，就像，违背了系统 1 的整个承诺。</p>
+<p><strong>Diogo Almeida:</strong> 我。我的承诺是做任何对机器原生事物必要的事。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我能想象有。就像，有些形式的推理没那么慢、低效和脆弱，我。那些，就像，完全是有可能的，说清楚。所以作为务实的人，我不是在，就像，方法上做承诺。我是在，就像，那。我的 ROI 北极星是什么上做承诺，而我会为此奋斗，就像这次发布没发生一样，而我们仍然，就像，渴望我们在世界上的位置。</p>
+<p><strong>Swyx:</strong> 那太好了。是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 我觉得另一件事，视觉是另一个，就像，一个大的，就像，你没有的能力，但也许它永远不属于系统 1？</p>
+<p><strong>Diogo Almeida:</strong> 我觉得我的视觉相当不错。</p>
+<p><strong>Swyx:</strong> 什么，抱歉？</p>
+<p><strong>Diogo Almeida:</strong> 我觉得我的视觉相当不错。</p>
+<p><strong>Swyx:</strong> 不，抱歉。视觉</p>
+<p><strong>Diogo Almeida:</strong> 我开玩笑的。我开玩笑的。是的。</p>
+<p><strong>Swyx:</strong> 我的天哪。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 因为人们显然，他们想要的第一样东西就是视觉，因为那个Doom演示，但也不只是那个，基本上，除了文本之外的一切都是视觉。</p>
+<p><strong>Diogo Almeida:</strong> 一切都在计划之中</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 在我心里。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 而且实际上，这是我们内部的一个争论。这个。天哪，你的听众大概是最适合参与这场争论的人了。有一个问题是，我们到底应该在多大程度上，去给人们他们认为自己想要的东西——这正是我们在隐身模式下做了两年的事，我们就是知道这显然会很有价值——对比给他们说自己想要的东西，对吧？而且这里面有很多维度，对吧？比如上下文长度就是一个例子，对吧？每一个模型，包括我们的，实际上我觉得据我所知，我们的模型在这方面大概是遥遥领先的</p>
+<p><strong>Swyx:</strong> 最长的上下文，是的</p>
+<p><strong>Diogo Almeida:</strong> 在长上下文下不退化这方面。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但其他提供商就只是，“人们想要什么，我们就给他们那个蠢东西。”我们需要在这之间找到一个平衡，因为如果你把前一种立场推得太远——给人们他们想要的——你最终会得到类似Anthropic那种保姆国家式的思维，那对开发者非常不友好。而亲开发者的路线应该是，给他们想要的，但开发者是……我们不想把搞清楚智能的那个不可言说的精髓的负担压在他们身上。所以我们在试图找到这个导航方式，比如多快发布东西，同时仍然保持我们那种信任的品牌，并且把我们的用户当作成年人来对待，他们能做出知情的决定，不需要在这上面被保姆式管着。</p>
+<p><strong>Swyx:</strong> 是的。我觉得这很合理。</p>
+<p><strong>Diogo Almeida:</strong> 是的。而且说实话，我们也不知道答案。我们得把它搞清楚。这会是。这大概会是我接下来几天里最大的争论之一</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 因为，我们有很多东西。再说一次，我们没预料到它会爆火，所以我们当时想，“我们需要一些后续发布。”但就是这样。</p>
+<p><strong>Swyx:</strong> 我不知道，我不知道你是不是没预料到它会爆火。我，你——我看到了你投入的工作。我从来没见过你像过去两个月那样全力投入，基本上，对吧？就像</p>
+<h2>发布教育、Cookbook与产品市场契合度</h2>
+<p><strong>Diogo Almeida:</strong> 嗯，那也是因为我的幕僚长让我全力投入。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 所以</p>
+<p><strong>Diogo Almeida:</strong> 就像，我从来没有。我以前以为自己工作很努力</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 而且</p>
+<p><strong>Swyx:</strong> 不，但你看，你出现在我们的写作工作坊上，我当时就想，“你在这儿干嘛？”然后，哦</p>
+<p><strong>Diogo Almeida:</strong> 那很有用。非常棒。</p>
+<p><strong>Swyx:</strong> 你显然，对你的发布非常有心。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 而且工作成果也体现出来了，就像</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 恭喜。你得到了一个赞。</p>
+<p><strong>Diogo Almeida:</strong> 谢谢，谢谢。我希望继续保持全力投入</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 这是我的感觉。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我想。就像，我觉得我们已经通过了很多科技世界的优秀筛选器，我们想要的东西，但还会有更多。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且，天哪，我多么兴奋能去打这场美好的仗。</p>
+<p><strong>Swyx:</strong> 是的，很令人兴奋。在我们扩展到TypeSafe之外的话题之前</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 我只是想提供一下，你觉得还有什么关于你发布的东西被低估或被误解的。</p>
+<p><strong>Diogo Almeida:</strong> 被低估或被误解？</p>
+<p><strong>Swyx:</strong> 是的。你有展开的。抱歉，这里的模式。也许你想聊聊那个。模型的不平整性，什么都行。</p>
+<p><strong>Diogo Almeida:</strong> 给我一个</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 随便想想。哦，天哪。我可以对所有这些大发牢骚。我真的不该。我真的不该。</p>
+<p><strong>Swyx:</strong> 好的。而且，人们可以去你的Discord，如果他们</p>
+<p><strong>Diogo Almeida:</strong> 是的。人们在Cookbook里投入了很多爱</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 这是我要说的。Cookbook里有一些很火的东西。我们曾考虑把其中一堆东西放进主发布博客文章里，但它变得有点长、有点笨重，而且非常面向高级用户。但我们真的。我直说吧。在发布之前，每一个。我们要说的东西听起来像这个奇怪的外星工具。为什么会有人需要这个？这是件很奇怪的事。我们非常担心如何教人们了解这个新前沿。它显然成功了，但我们投入了很多工作，因为我们以为教育会成为我们的一个巨大瓶颈。我。</p>
+<p><strong>Diogo Almeida:</strong> 它大概行得通，而且大概不再是问题了，因为人们在做的事情远远超出了我们所能预料的。</p>
+<p><strong>Swyx:</strong> 他们会向你展示，怎么用你的模型。</p>
+<p><strong>Diogo Almeida:</strong> 是的，但是。正是如此。但他们。是的，而且他们的用例比我们的还酷。就像，有一堆东西我会想，“天哪，如果那是我们的演示，我靠，那比我们展示的酷多了。”比如，计算机使用那些东西，天哪，太酷了。但我们在这上面投入了很多爱。据我所知，这不是AI生成的垃圾。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我们投入了很——就像，这里面有很多爱。</p>
+<p><strong>Swyx:</strong> 是的。说得对。</p>
+<p><strong>Diogo Almeida:</strong> 而且，每一个都是。这里面有真正的alpha。</p>
+<p><strong>Swyx:</strong> 好的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，这些灵感来自解决真实存在的客户问题，我们做了帮助客户做酷炫事情的工作。</p>
+<p><strong>Swyx:</strong> 是的。多少。既然你谈到这个，对吧，你在发布前做了多少验证？比如，那个过程是什么样的？</p>
+<p><strong>Diogo Almeida:</strong> 那个过程是什么样的？</p>
+<p><strong>Swyx:</strong> 就像，显然你做了一些，但显然你当时接触的人没有今天这么多。</p>
+<p><strong>Diogo Almeida:</strong> 是的，当然。</p>
+<p><strong>Swyx:</strong> 但就像</p>
+<p><strong>Diogo Almeida:</strong> 我实际上觉得当时的反响相当糟糕。而且实际上，对于团队里的非技术人员来说，他们非常担心。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，有很多恐惧。就像，没人真正理解这个。而且他们不想要它。我们就像在卖维生素，而不是止痛药。我们是不是应该有FDE来围绕解决那个问题写软件？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 发布前我们几乎没有收入。有点像。就像，我们。技术人员显然是真正的信徒，对吧？我们知道这东西很牛。它的计算特性在很多轴上都是爆表的，所以我们想，“是的，显然它会很大。”我肯定超级害怕，这就是为什么我全力投入。但最常见的情况是——我会说，超过一半玩过它的人就是没搞懂。而那些搞懂的人，就像，“天哪，这真的很酷，但我们怎么让它通过采购之类的流程？”这就像，这是一场相当激烈的战斗，我们就是知道，好吧，我们的目标市场会是开发者。人们会找到用例，那样所有人都会FOMO进来。而且就像，</p>
+<p><strong>Diogo Almeida:</strong> 我不想戳人说，他们是因为事实变了才改变主意的。</p>
+<p><strong>Diogo Almeida:</strong> 我确实想质疑一下产品市场契合度这个概念？是的，但就像，因为，有一个产品，有一个市场。我们就像，“嘿，你想用这个吗？”而人们就像，“我不太确定它是否解决了我们的问题。”它爆炸了，然后每个人都说，“我们需要尽可能多的速率限制。我们能直接给你们GPU吗？因为我们现在受限了。”</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 所以当然，营销是其中一个元素，当然，但我甚至不觉得这是关于营销。我觉得这是关于那些充满激情的开发者，他们的灵魂基本上以相同的频率共振，那个频率，也让其他所有人都兴奋起来了。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且我也希望，我们作为一个公司会永远感激那些开发者。不只是那些从开发者起步然后走向大企业的公司。</p>
+<p><strong>Swyx:</strong> 他们走向市场，是的。</p>
+<p><strong>Diogo Almeida:</strong> 没错。而且，我甚至在想，我们怎么能推出对……更好的东西。哦，天哪，我不知道我该不该说这个。</p>
+<p><strong>Diogo Almeida:</strong> 但我会说的。</p>
+<p><strong>Swyx:</strong> 对开发者比对大企业更好。</p>
+<p><strong>Diogo Almeida:</strong> 没错。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 我们怎么做？比如，我们怎么赋能他们？而且我有厨师。我有厨师。但这是，这是一件非常奇怪的事。而且，我不知道我还能怎么表达我的感谢和忠诚。所以这就是为什么我昨天，比如，染了头发。就像，我想和他们对话，因为在我们公司最重要的时刻不继续和他们对话，对我来说感觉不干净。</p>
+<p><strong>Swyx:</strong> 好。嗯，这就是你头发的原因。</p>
+<p><strong>Diogo Almeida:</strong> 是的。请拿这个来监督我。</p>
+<p><strong>Swyx:</strong> 是的。我们会的，我们会的。</p>
+<p><strong>Diogo Almeida:</strong> 我努力做到有原则。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 引用我这句话。来指正我。如果我变了，就拿起干草叉来。</p>
+<p><strong>Swyx:</strong> 我本来只是想简单展示一下计算机使用的东西。</p>
+<h2>计算机使用与新兴用例</h2>
+<p><strong>Diogo Almeida:</strong> 哇。</p>
+<p><strong>Swyx:</strong> 这是，这是你提到的那个吗？</p>
+<p><strong>Diogo Almeida:</strong> 我从没见过——我没有——我见过。我见过，比如，一个航空公司浏览器使用的东西。</p>
+<p><strong>Diogo Almeida:</strong> 在这个新笔记里，让标题写 hello。</p>
+<p><strong>Diogo Almeida:</strong> 哇。太好了。好。我们继续，你能打开 Arc 浏览器吗？到了那里之后，你能谷歌搜索 Norbert Wiener 吗？</p>
+<p><strong>Diogo Almeida:</strong> 现在你能打开 x.com 吗？</p>
+<p><strong>Swyx:</strong> 这是那种用例吗？</p>
+<p><strong>Diogo Almeida:</strong> 哦，语音用例。这其实是我第一次见到。这是</p>
+<p><strong>Swyx:</strong> 哦，好。</p>
+<p><strong>Diogo Almeida:</strong> 打开照片查看器。哇。哦，等等。哦，你能——你能往回退一秒吗？你能往回退一秒吗？</p>
+<p><strong>Diogo Almeida:</strong> 传闻称 Anthropic 的工程师们崇——崇拜 Claude 如神。哇。哇。</p>
+<p><strong>Diogo Almeida:</strong> 天哪。这挺搞笑的。</p>
+<p><strong>Swyx:</strong> 而你在这里构建生产环境。</p>
+<p><strong>Diogo Almeida:</strong> 绝对——哇，这太酷了。</p>
+<p><strong>Swyx:</strong> 是的。所以很明显它可以用语音操作整台电脑，以 Jev 作为决策模型。</p>
+<p><strong>Diogo Almeida:</strong> 所以，就像我反对基准测试一样，我也反对演示。我想确保它能可靠地工作。我喜欢人们在玩它。这他妈的太酷了，毫无疑问。我想看到这个。我想看到它被使用。我想让我们的团队玩它。我想找出弱点，我想解决它。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且我会很——天哪，那看起来真的很酷。</p>
+<p><strong>Diogo Almeida:</strong> 那看起来真的很酷。我想要那个。我想要那个。比如，当我，当我手腕酸痛时，我就，比如，用 whisper flow 处理一切。那就太棒了。</p>
+<p><strong>Swyx:</strong> 嗯，那么，只是为了把用例这一块收个尾</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 因为我确实得放你走了。谁，谁是，那些联系过你、并且他们想做的事让你感到惊讶的更大的公司是谁？</p>
+<p><strong>Swyx:</strong> 就。</p>
+<p><strong>Diogo Almeida:</strong> 这方面我太脱节了。</p>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> 人们给我看过一些公司的截图，从我看到的情况来看，是所有的公司。</p>
+<h2>暗数据、实时智能与验证</h2>
+<p><strong>Swyx:</strong> 是的。主要是，比如，为了那些在更大公司工作、但没在做这类工作的人，我只是想给大家一些例子，比如，你应该去查查这个，查查那个，查查那个。</p>
+<p><strong>Diogo Almeida:</strong> 哦。所以，比如，我觉得演示超级棒。显然，编码智能体是，比如，巨大的用例。</p>
+<p><strong>Diogo Almeida:</strong> 比如，它们也，比如，超级棒。</p>
+<p><strong>Swyx:</strong> 哦，Cog 现在全是关于 Jev 的。</p>
+<p><strong>Diogo Almeida:</strong> 哦，太对了。哦，我能，我能稍微跑个题聊聊编码智能体吗，如果那——或者</p>
+<p><strong>Swyx:</strong> 是的，请讲。</p>
+<p><strong>Diogo Almeida:</strong> 哦，让我</p>
+<p><strong>Swyx:</strong> 我们这里喜欢编码智能体。</p>
+<p><strong>Diogo Almeida:</strong> 给我一秒。给我一秒。好，其实，我会回到编码智能体。让我描述一下，比如，用例的大类。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 比如，我们在发布很久之前就从第一性原理出发梳理过这个。它们就是我们所说的暗数据。比如，人们囤积大数据，但他们不会把大语言模型扔上去，因为太贵了。所以大公司非常喜欢这个。他们有，比如，成堆的数据，希望自己能分析，而这就像数据科学家的春梦。所以这就像。这是一个巨大的类别。比如，我认为这个加上，编码智能体是最大的赚钱机器，因为那就是它们全部。所有量都在那里，对吧？还有实时的东西。比如需要，比如，在环智能的人。他们。比如，我猜那些公司的每一位 CEO，如果不是 CTO 的话，都知道他们的产品每，比如，削减 10 毫秒会好多少。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且比如</p>
+<p><strong>Swyx:</strong> 尤其是电商，是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。哦，或者，比如，助手类的东西。有很多 AI 助手类的东西。而且，据我所知，他们真的很喜欢它。再说一次，我现在不在客户前线，所以我只是。知道我团队告诉我的。但比如，这个。我对此太兴奋了。我真的很期待这个用于游戏。我真的很想玩，比如，超酷的自走棋，你在里面，比如，指挥你的队伍，或者，比如，半自动战斗。我觉得那会太酷了。但别在我还有工作时把它做得太好。还有。比如，有那个。我们称之为，比如，验证一切。比如，验证所有 LLM 调用，有点像可观测性。我认为，其实关于文档这一点，人们应该做的是，比如，并行问题非常便宜。所以如果你有，比如，你想问很多问题的大状态</p>
+<p><strong>Swyx:</strong> 就是这个，是的。</p>
+<p><strong>Diogo Almeida:</strong> 给每一条，比如，消息都放上 ID，然后就每个 ID 问一个问题。所以比如，当你有一个，比如，很长的状态时。</p>
+<p><strong>Swyx:</strong> 嗯。</p>
+<p><strong>Diogo Almeida:</strong> 这样你就可以，比如，为状态付一次钱，然后针对其中每条消息问很多很多问题。我认为那是，比如，一个，比如，省钱的好方法，而且。</p>
+<p><strong>Swyx:</strong> 顺便说一句，我一直觉得，比如，把 System 1 和 System 2 这样框定很有意思，因为它基本上论证了，你每做一次推理调用，就应该总是做一次或 10 次或 100 次 Jev 调用。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，也许吧。也许</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，我不。我希望人们花更少。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 也许你做，比如，一半的推理调用，然后每个做 10 次 Jev 调用之类的，或者任何能解决那个，比如，本来不可能存在的问题的方法。等等，第四个用例是我描述的，比如，智能软件。比如，本质上可组合的软件，而且，比如，做，比如，以前不可能发生的奇怪、有趣的事情。比如把编程语言当作 Jev 那件事。我不知道你有没有见过。那太酷了。天哪，如果我们知道怎么发放额度，因为，比如，我们在基础设施阶段还非常早期，我想给所有这些项目发额度。</p>
+<p><strong>Diogo Almeida:</strong> 而且我认为那些就是，比如，我们梳理出的，比如，主要用例。计算机使用也进入了有点像实时的方向，而且，比如，那真的很酷。如果它可靠，我对此超级兴奋。我怀疑我们可以让模型在这些用例上好得多，因为，比如，那有点像是凭空冒出来的，所以那，那真的很酷。关于编码智能体这件事，而且这是，比如，现在正在发生的一件非常令人惊讶的事。</p>
+<h2>多模型世界中的编码智能体</h2>
+<p><strong>Swyx:</strong> 好。</p>
+<p><strong>Diogo Almeida:</strong> Claude Code 和 Codex 是，我相信，赢家，比如，第一和第二。我不完全确定。我没有密切关注</p>
+<p><strong>Swyx:</strong> 大致上</p>
+<p><strong>Diogo Almeida:</strong> 但比如，大致是这样。但它们是围绕单一模型世界构建的？比如，这对它们来说很合理，对吧？因为，比如，一直以来都是一个模型的游戏，就像，比如，你在选购的是同一种模型但不同智能水平。</p>
+<p><strong>Diogo Almeida:</strong> 但所有开放的编码智能体现在都，比如，他妈的兴奋极了，因为它们，比如，开始玩 Jev 了。而且，问题是，有——我确信它们在尝试很多奇怪的东西。但所有编码智能体大致都处于，比如，近似持平，对吧？因为，比如，用一个 while 循环你能做的并不多。但一旦有人找到一个杀手级用例，你只能用那个编码智能体来做，所有人都会涌向它，因为他们，比如，垄断了那个东西。但所有开放的编码智能体都能复制那个，对吧？就这样。但我不知道 Claude Code 和 Codex 会怎么做，因为它们是围绕那一个模型世界构建的。</p>
+<p><strong>Swyx:</strong> 单一模型，是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且比如，我认为那将会是，比如，一件非常有趣的事。比如，我个人很想能和它们集成。比如，我想和所有人集成。比如，我——它们最终可能会做竞品。我不知道。但比如，那不是我——我作为 Songfire Infrastructure 的工作不是对此有主见，对吧？比如，我只想服务世界。但我不知道它们会不会那样做。而且比如，我认为这会让编码智能体的游戏变得超级奇怪。比如，我对此太兴奋了。而且比如，我确信。我现在正让我的团队审阅一份我写的内部文档，关于我怀疑对编码智能体有用的设计模式。所以希望我能，比如，在我走回家之后马上分享它。但比如，我认为世界上就是有，比如，如此成熟的探索领域。而且比如，这，这。天哪，如果我没有这个，我现在会很想去实验编码智能体。</p>
+<p><strong>Swyx:</strong> 是的。而且我确信编码智能体公司也会很想和你合作来搞清楚这一点。是的，我确实认为 Claude Code 和 Codex 和你们一起仍然有用例</p>
+<p><strong>Diogo Almeida:</strong> 当然</p>
+<p><strong>Swyx:</strong> 这个，这个在那里探索起来很容易。好。我们——你，你一直非常，乐于配合，纵容所有这些，所有这些事情。我只想把你从 TypeSafe 带出来</p>
+<h2>为前沿定节奏、RLVR 与替代性研究方向</h2>
+<p><strong>Diogo Almeida:</strong> 哦，是的</p>
+<p><strong>Swyx:</strong> 就泛泛地聊聊。而且你，你已经非常清楚地表明了你在 AI 现状上的立场。在对齐安全方面给你更多空间。</p>
+<p><strong>Diogo Almeida:</strong> 哦，我完全没谈安全对齐吗？</p>
+<p><strong>Swyx:</strong> 哦。哦，你谈了，你谈了。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得我没谈。我觉得也许我没谈。</p>
+<p><strong>Swyx:</strong> 你谈了。</p>
+<p><strong>Diogo Almeida:</strong> 哦。</p>
+<p><strong>Swyx:</strong> 我只是，我觉得有，有很多，你有很多研究者的讨论。我们每次都有这个</p>
+<p><strong>Diogo Almeida:</strong> 当然</p>
+<p><strong>Swyx:</strong> 每次 NeurIPS。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 人们在聊什么？就像，我。比如说，我最近去了，这些研究者聚会之一，人们真的在担心节奏，对吧？就像，这整个话题，就像，我们应该慢下来，因为公众，就像，显然还没准备好。而且我确信你有强烈的感受。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得这是那种危险的</p>
+<p><strong>Swyx:</strong> 好</p>
+<p><strong>Diogo Almeida:</strong> 话题。我很乐意聊。我为危险而活。</p>
+<p><strong>Swyx:</strong> 行。</p>
+<p><strong>Diogo Almeida:</strong> 我们公司的品牌是混乱。不是 Jev。是不敬和混乱。</p>
+<p><strong>Swyx:</strong> 而且是的。而且就像，你在 OpenAI 期间，就像，那。最早的那些，非常显眼的事件之一，就是那个小插曲，对吧？就像，那个</p>
+<p><strong>Diogo Almeida:</strong> 哦，那个</p>
+<p><strong>Swyx:</strong> 那个，就像。而且就像，你。多米诺骨牌现在已经倒下了，到现在每个前沿实验室都联署了一份文件，说他们想要定节奏。</p>
+<p><strong>Diogo Almeida:</strong> 有意思。我。所以复——这是一件非常复杂、微妙的事情。我其实确实想更正式地写一篇回应。我确实有，就像，我的回应的一个简短版本</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 那就是，随着你更多地做 RLVR，就像，RLVR 就像。</p>
+<p><strong>Diogo Almeida:</strong> 所以 RLVR 其实并不是关于可验证奖励。就像，那在推理革命之前就一直在失败。就像。而这正是任务奇怪的地方，对吧？就像，回到。哦，有趣的历史。回到 RLHF 开始成为一件事的时候，有三件不同的东西，就像，现在被称为后训练，不同的努力。而指令遵循是其中大得多的那个孩子。就像，人们不喜欢它。他们不想把它考虑进去。它很烦人。就像，我跟预训练团队谈过。我说，“伙计们，这就是魔法。”而他们说，“我们跑了那么多模型扫描。你想让我们等人类评估来确定用哪些模型？”而且就像，每个人都在，就像，给，就像，代码生成团队大量，就像，资源，那个，就像，他们确实取——取得了一些成功，但他们非常努力地想在代码——就像，单元测试上做 RL。而它没成功，显然，对吧？就像，你需要推理才能做到那个。所以再——所以只是为了说清楚，RLVR 并不纯粹是关于奖励。它也是关于，就像，一切的形状。而其中一部分是推理被包含在这里，就像这个潜变量，你在其中做事情。而当你做事情时，你只是让模型做任何它们想做的，以便让它们尽可能强大，去回答最难的问题。而这整个为前沿定节奏的讨论，我觉得，就像，是一个非常狭窄的焦点，因为它假设每个人都需要做更多 RLVR，对吧？那个，就像，我显然不认为我需要在我们模型上做更多 RLVR。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得零才是我们这种形状的最优数量。嘿，对吧？就像，得了吧。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 。所以这真的，我觉得，有点像是障眼法，他们在说我们其实想继续做那件看起来危险的事，因为它做危险的事。就像人们说，就像，“哦，也许沙箱化是个问题，”或者别的什么。是的，显然它是，而且他们本可以轻松解决那个，对吧？但他们选择不，因为在这个“做任何事”类别里你让模型做的事情越多，它就越强大，对吧？所以就像，那里——我觉得有一些，就像，在那里的责任推卸，关于那些他们有意或无意试图做的，只是一个假设。我们必须做 RLVR，而且不只是我们必须做它，我们必须做越来越多越来越多，同时给模型，就像，在中间做强大——做任何它们想做的事的权力，因为那教会它们在它之外变得强大。而我们不想限制那些东西，好吧，因为那会让它们在这些东西上稍微不那么强大。</p>
+<p><strong>Diogo Almeida:</strong> 所以就像，如果你假设所有那些，他们就说，“哦，是的</p>
+<p><strong>Swyx:</strong> 那是个逻辑结论</p>
+<p><strong>Diogo Almeida:</strong> 我们正走向一个危险的世界，伙计们。”</p>
+<p><strong>Swyx:</strong> 对。</p>
+<p><strong>Diogo Almeida:</strong> 就像，“每个人都会做这个，而这是让 AI 变得很厉害的唯一方式。”所以 <strong>Swyx:</strong> 所以基本上就像，就像，它——这些都是内部一致的，但实际上从一个前提开始，而如果你</p>
+<p><strong>Diogo Almeida:</strong> 当然</p>
+<p><strong>Swyx:</strong> 想一想的话，是有替代方案的。</p>
+<p><strong>Diogo Almeida:</strong> 当然。我觉得有——就像，在苦乐参半的教训方向上，我觉得很少有人，就像，做出了正确的任务。就像 AI 的新方向。那就是——或者新的北极星。那很罕见。再次，就像，我觉得 LLM 本身大概是 2.2 次或什么的，就像 RLHF 然后 RLCD。</p>
+<p><strong>Swyx:</strong> 哦。</p>
+<p><strong>Diogo Almeida:</strong> RLVR 在我看来就像 0.2，而且我觉得那还算慷慨。</p>
+<p><strong>Diogo Almeida:</strong> 但或者 0.5 或者，就像，它可能是一整个一。我不太在乎。但我确实觉得人们在这类事情上想得非常狭隘。而这——这里唯一有错的人是研究者，因为这绝对不是大众。就像，他们只是假设 OpenAI 和 Anthropic 只是在尽力而为，而他们不是那些知道真正可用的可选性的专家。</p>
+<p><strong>Swyx:</strong> 是的。而那很公平。而且就像</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 你，你也在尽你的一份力唤醒他们。</p>
+<p><strong>Diogo Almeida:</strong> 是的。好。嗯，我在尽我所能，但就像，我的目标不是，就像，说服实验室有，就像，其他方向</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 可走。我的目标是在软件工程师中点燃希望，让他们开始，就像，真正自动化他们一直想要自动化的东西。我有这篇，就像，我写的文章，我的团队不让我写，不让我发表，关于，就像，我想要的 AI 的未来。而且就像，有，就像，很多，就像，小事情。就像，记得 do what 吗？想象一下如果一切都能做 do what 做的事，因为，就像，那个演示就是 do what。</p>
+<p><strong>Diogo Almeida:</strong> 就像，你可以。就像，有层次</p>
+<p><strong>Swyx:</strong> 是的，别按我说的做。</p>
+<p><strong>Diogo Almeida:</strong> ？</p>
+<p><strong>Swyx:</strong> 是的。别按我说的做，做 do what。</p>
+<p><strong>Diogo Almeida:</strong> 是的。而且就像，我们还不能做 do what，因为，就像，计算机是如此基础和字面，但那个 computer use 就是那个。而且我觉得有，就像，世界上会发生的平滑层次，人们就是不明白。而且就像，周围都是智能的承诺是。它，它，它——我不想过度承诺。我不觉得它现在就会发生，但就像，我们会尽我们他妈的一切努力让那发生。</p>
+<h2>中期训练、预训练与模型缝合</h2>
+<p><strong>Swyx:</strong> 是的。关于后训练的整体形状还有其他事情吗？你显然非常深入地参与其中。中期训练，那是，你有评论的事情吗？我觉得我们从没聊过它。</p>
+<p><strong>Diogo Almeida:</strong> 中期训练。全都是一个谱系。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？就像，我是</p>
+<p><strong>Swyx:</strong> 这就像课程，但就像，更花哨。</p>
+<p><strong>Diogo Almeida:</strong> 是的。就像，它，它，它就像，它是一种省成本的东西。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而不是，就像，不得不再次预训练。就像，有有趣的东西。我其实觉得，就像，智能在每一个层级都有一种 je ne sais quoi，而且它总是超级超级迷人。就像，我是个形状旋转者，所以我不喜欢发现那个，但我喜欢人们发现它并教我关于它。但看数据，这件事，我们的数据团队如此擅长而我不擅长。</p>
+<p><strong>Diogo Almeida:</strong> 它——我觉得它真的非常迷人。我其实很喜欢思考，就像，能力是如何，就像，被放进模型里的，就像，在，就像，短期内。就像，有，就像，微调的真正快速的对齐，以及在长期内。在反反复复反反复复看到它之后，就像，这些东西被烘焙得越来越深越来越深越来越深越来越深进模型里，直到它变得稳健。而那，就像，是要浮现的北极星，而就像，系统 1 的东西是最终变得稳健的东西。所以我发现中期训练，就像，一件迷人的事情。我是所有形式训练的粉丝。我是所有形式的，就像，浮现新类型智能的粉丝。我不会全都自己做，因为它很贵。而且我私下说过，也。</p>
+<p><strong>Diogo Almeida:</strong> 我该说这个吗？哈。哈。就像，我的哲学是任何我——我应该在，就像，私下和，就像，一个投资者说的，我都应该公开和人们说，因为那就像</p>
+<p><strong>Swyx:</strong> 权力归于人民</p>
+<p><strong>Diogo Almeida:</strong> 我的东西。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。所以我——我之前说过的事情是，如果你给我十亿美元，我不会预训练。我仍然相信那是真的。它是一件非常昂贵的事情，当。如果你是，就像。就像，如果你是一个 AI 工程师，你可以，就像，切片切块做各种事情。就像，缝合不是最优雅、最美的东西，但它解决问题，宝贝。</p>
+<p><strong>Diogo Almeida:</strong> 所以——除了预训练之外的任何事。</p>
+<p><strong>Swyx:</strong> 是的。太棒了。我觉得有一个方向我确实觉得很有意思，就是，把你关于这些模型的所有评论综合起来看，就是，我们是有一个超级模型，把所有能力都包含在内，还是把它们拆得更细？我想，一种说法是，OpenAI 当时正朝着全能模型的方向发展，对吧？4o 就是其中之一。然后有一小段时间，总是有，就像，有一条主干——这是聊天调优的模型，这是编码调优的模型。</p>
+<p><strong>Diogo Almeida:</strong> 那些是完全不同的东西。那些是极其不同的概念。我来稍微拆解一下。所以多模态有点不同</p>
+<h2>多模态、后训练与碎裂的智能</h2>
+<p><strong>Diogo Almeida:</strong> 因为有时候其他模态有帮助，有时候它们有害。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，人们在移动。他们似乎正在远离语音，语音和音频不同，因为它似乎不能很好地泛化到其他东西上。</p>
+<p><strong>Diogo Almeida:</strong> 这可能会被解决。我是这一切的粉丝，但这些都是，就像，经验性的、真实的问题。就像，缩放定律不是关于只要砸钱它就会变好。缩放定律从实用角度讲是：一个东西有多好？就像，存在一些世界，在那里，无论你缩放什么，它可能都不够好。所以，Y——就像，据我理解，计算机使用目前还没有被解决。就像，我希望我们能——就像，在解决这个问题中发挥作用。但就像，它。可能我们收集再多的数据也解决不了。我们可能需要更好的方法或类似的其他东西。所以 <strong>Diogo Almeida:</strong> 就像，我们。你需要在这一切中，就像，非常务实。我是全能模型的粉丝吗？我是所有形式智能的粉丝，但我会直接进入你谈到的一件事，它不同于预训练，那就是后训练，因为我讨厌碎裂的智能。那对我来说，就像，是坏事。而这整个，就像，聊天优先的推理模式，是因为，它迫使智能被碎裂。就像，当你为聊天做优化时，这往往就是，就像，纯粹的 RLHF，而做人们，就像，自然会抱怨的那些事，在 RLHF 中是相当内在的，对吧？就像，哦，我要</p>
+<p><strong>Swyx:</strong> 你说得完全对。而且</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 。</p>
+<p><strong>Diogo Almeida:</strong> 谄媚，心理谄媚</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 我——不管什么词</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 怎么——或者怎么发音。过度自信，幻觉。就像，甚至在 LM Arena 中表现出色的那种风格，粗体、斜体、表情符号？就像，它不会简单地回答问题。它给出，就像，一大段长篇大论，然后问你一个后续问题，这样感觉更像一个人类在跟你说话。所有这些东西，都是因为字符串超级奇怪？它们是，就像，怪得要命的东西，而你需要被错误校准。你需要，就像，模式崩溃。你需要超级自信，才能不脱轨，因为当脱轨发生时，奖励模型会非常严厉地惩罚你，因为那很明显。Y——然后这，就像，完全扭曲了概率空间，而且它与推理模型的概率空间相互作用，对吧？因为，就像，它。这些模型是，就像，这些简单的线性东西，往往会稍微作弊。所以我认为这与暴露智能非常不同，这是我的猜测。而智能的很多艺术在于研究这种微妙之处，我认为，至少当我在 OpenAI 时，人们并没有真正研究那个，因为，就像，他们只是说，“聊天”，就像人们现在对 Jev 那样。</p>
+<p><strong>Swyx:</strong> 是的，你给我一个终极目标。你给我一个目标，我就会全部去为那个做优化，对吧？就像，而且它</p>
+<p><strong>Diogo Almeida:</strong> 是的。但如果你在那里尝试。就像，有句话说，就像，你可以有，就像，两个目标，你可以就，就像，同时为两者优化，但那字面上就是碎裂的行为，对吧？所以是的。</p>
+<p><strong>Swyx:</strong> 所以某种程度上，你也把智能碎裂成了系统 1、系统 2，但你只是不同意其他人的碎——碎裂方式，这没问题。</p>
+<p><strong>Diogo Almeida:</strong> 哦，它</p>
+<p><strong>Swyx:</strong> 这没问题。</p>
+<p><strong>Diogo Almeida:</strong> 这有点不同。不。如果我可以，如果我可以补充，如果我可以辩护</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 系统 2 任务，第一，就像，我们并没有扔掉系统 2 任务，对吧？就像，你可以试着让 Jev 处理它，而且实际上对此有一个智能的答案，那是未知的。就像，我的。就像，那里。就像，在系统 2 任务中存在更好和更差的行为，那应该，就像，真的低置信度，大量不确定性。也许一些启发式方法可以，就像，在这里或那里推动指针，但说清楚，我们也关心它们。我只是认为那不是。什么是。智能天生所属的地方。所以我们并没有试图那样碎裂任何东西。而所有碎裂都会让模型变笨。就像，如果人们，就像，让模型说，就像，它是 OpenAI 或 Qwen 或，d——就像 Claude 或别的什么，我不太知道它这些天说什么。我不会把“你是来自 TypeSafe 的 Jev”放进模型里。那会碎裂它，对吧？就像，它。L——就像，我不想要那个。就像，代表互联网认为的东西，对吧？就像，要正确。那才是我想要的，因为那样你才能得到平滑、可预测的智能。</p>
+<p><strong>Swyx:</strong> 我，身份是个东西，我想，那是</p>
+<p><strong>Diogo Almeida:</strong> 我——对于，它——对于</p>
+<p><strong>Swyx:</strong> 有点特殊</p>
+<p><strong>Diogo Almeida:</strong> 对于第一方产品，是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，对于 API，我不这么认为。</p>
+<p><strong>Swyx:</strong> 是的。好的。</p>
+<p><strong>Diogo Almeida:</strong> ？</p>
+<p><strong>Swyx:</strong> 是的，那很好。</p>
+<p><strong>Diogo Almeida:</strong> 就像，我不。我。就像，人们不想要。如果他们用 ChatGPT 做一个聊天机器人，他们不想要它说它是 ChatGPT。他们想说它是，就像，Chipout AI 或别的什么，对吧？</p>
+<h2>身份、API 与 Jev 技能</h2>
+<p><strong>Swyx:</strong> 嗯，所以你也必须弥补它的方式是，你有那个技能，对吧？那个</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 那个 Jev 技能，是给编码智能体用来与 Jev 协作的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 好的，几个收尾问题</p>
+<p><strong>Diogo Almeida:</strong> 当然</p>
+<p><strong>Swyx:</strong> 因为我确实想，让你收尾。一个是，就像，只是回顾你的两年旅程。大概两年？两年多？</p>
+<p><strong>Diogo Almeida:</strong> 在公司</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 我认为这，就像，更像是一段四年的旅程。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但</p>
+<p><strong>Swyx:</strong> 嗯，是的。实际上，就像，我在想，记得，就像，你有这个，就像，感恩节前后的英雄式冲刺。你就像。你取消了所有事情，因为，你就像，“伙计们，就像，大家都在度假。我要拿走所有空闲的边缘 GPU，去做这件事。”</p>
+<p><strong>Diogo Almeida:</strong> 是的。那是一段好时光。</p>
+<p><strong>Swyx:</strong> 而那，就像，是 TypeSafe 之前</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 的时刻，对吧？</p>
+<p><strong>Diogo Almeida:</strong> 我。那可能是。那是政变发生的时候吗？我不太清楚。</p>
+<p><strong>Swyx:</strong> 是的，实际上。</p>
+<p><strong>Diogo Almeida:</strong> 是的。听起来对。是的。我记得。哦我的天，我不想。我不。我觉得我现在没时间爆料关于那场政变的茶，但那真的很烦人。</p>
+<p><strong>Swyx:</strong> 政变很烦人还是那次冲刺很烦人？</p>
+<p><strong>Diogo Almeida:</strong> 政变很烦人。</p>
+<p><strong>Swyx:</strong> 政变。好的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 它。我会</p>
+<p><strong>Swyx:</strong> Safia 接管了公司。是的，不管怎样。</p>
+<p><strong>Diogo Almeida:</strong> 也许下次我们聊</p>
+<p><strong>Swyx:</strong> 好的。行，行</p>
+<p><strong>Diogo Almeida:</strong> 我会，我会爆料关于。关于政变的茶。是的。实际上，这个问题是，就像，早在 ChatGPT 甚至发布之前就在我脑海里的。我当时想，“我靠，ChatGPT 团队在搞大事。他们在做正确的任务。”他们在做 AI 研究者不擅长，但成功的产品人擅长的事，那就是非常在乎体验。这，这，这非常罕见。他们。就像，在 OpenAI 这样的人很少。而那些家伙在这上面搞得非常好。</p>
+<h2>从 InstructGPT 到 TypeSafe</h2>
+<p><strong>Swyx:</strong> 说清楚，这是从 GPT-3 到 3.5 的整个旅程，其中包括 AI Dungeon，你谈过</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 就像。是的。嗯，那，那是一个我们从未预测过的用例的例子。</p>
+<p><strong>Diogo Almeida:</strong> 是的，正是。</p>
+<p><strong>Swyx:</strong> 没错。</p>
+<p><strong>Diogo Almeida:</strong> 嗯，哦，是的，那是一个。而且，我曾为部署 InstructGPT 非常努力地争取。</p>
+<p><strong>Diogo Almeida:</strong> 就像，实际上它的早期版本甚至是用，就像，一个我们没有发表的算法训练的，那是我自己做的，因为清理 PPO 数据太慢了。我当时想，“去他的。这他妈的太好了。我们需要把它交到用户手里。”</p>
+<p><strong>Diogo Almeida:</strong> 然后基本上它立刻就占据了当时大语言模型市场50%的份额。但是。然后我们以为。我做了。我费了很大功夫确保我们发布视频里的每件事都是真的。我们。我真的在想，“这是AGI吗？因为它在指令进、指令出方面是超人水平的？”你。显然，它不是，但就像，我认为每个人都应该对为什么那不是AGI有一个答案，因为它看起来非常聪明。而我对这个问题的答案最终，最终只是被用于文案写作。Jasper AI、Copy.ai，就像写作，就像现在网页上所谓的slop。我们担心我们把互联网变成了一个更糟的地方，对吧？然后我回到画板前，我想，“缺了什么？我们显然很聪明。它缺了某种东西，比如创造价值。那是什么？”就像，我当时其实在做更多哲学思考，比如“到底发生了什么？”而答案是，“哦，机器。”我问自己的问题是，“让我们从一场基于AI的经济革命倒推。当那发生时，会是什么。如果AI是一个API，我们会把AI称为什么？会是人类还是代码？”我推断那会是很多个9的代码。但就像，所有的优化都进入了人类那部分。然后我恍然大悟。我想，“我靠，这就是北极星。”我想，就像，我写了一份文档。我当时，就像，跟Sam谈这个。Sam说，“这他妈的太好了。你应该去做这个。”我们说，“是啊，Sam，我有工作。”就像，它。我当时在做</p>
+<p><strong>Swyx:</strong> Sam刚叫你去做了。哥们，去做吧。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，我当时猜的是，这超级明显。就像，它明显得令人难以置信。Anthropic肯定已经在做这个了？然后就像，我们已经被煮熟了，而且实际上OpenAI在追赶方面比在真正创新方面做得更好。所以就像，ChatGPT是Claude的复制品，对吧？就像，他们有一个内部的东西。他们只是没有发布它。</p>
+<p><strong>Swyx:</strong> 是的。对。Claude和Slack。但推理，我会说是第一个左右的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 但那个产品有多好是有争议的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 不过研究很棒。超级棒的研究。我只是不确定人们是否有那个产品需求。Claude也做了编码智能体的东西。所以Sam说了那个，我就回去干我的工作了一段时间。最终，就像，指令遵循团队就说，“我们赢了。我们已经解决了指令遵循。我们不需要再做东西了。”我，就像，试着想我接下来做什么。我想，“也许我就，就像，开始玩玩这个。”我，做更多哲学和设计和思考。我以为这最终会花一周，当我开始训练模型时。它最终花了，</p>
+<p><strong>Diogo Almeida:</strong> 很多年。在某个时候我想，“我靠，这里有生命的迹象。”这。它显然没成功，对吧？否则，我们就已经部署它了。但就像，我想探索在研究中全力投入这个会是什么样子。就像，我真的想看看，就像，如果你，就像，绝对疯狂地全力投入这个方向会是什么样子。而且因为我说过的，就像，如果AI寒冬发生了，我会。我会怎么感觉？我会认为我个人有责任。我当时和其他公司谈过，我说，“嘿，我想在这个方向上开一个实验室。”然后就像，有人感兴趣，我就跟他们说，“多快。什么会更快？这个还是创业公司？”他们说，“创业公司。”我说，“去他的，哥们。我们干。”</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> “我猜我们在搞一些疯狂的东西。”然后</p>
+<p><strong>Swyx:</strong> 然后你打电话给Eric和Sasha还有</p>
+<p><strong>Diogo Almeida:</strong> 是的。嗯，我先打给Eric。对Sasha，我其实没有试图招募她。我试图做个好人，我就说，“嘿，我疯了吗？这里缺了什么吗？是不是，就像，我是不是太在OpenAI的泡泡里了，以至于没意识到一定有一个解决方案？”然后Sasha就说，“我加入。”我说，“Sasha，你在一家创业公司工作。”她说，“我现在就把它关了。”我说，“你想考虑一下吗？”她说，“哦，对。说得好。让我想想。”然后她加入了。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 然后，两周内我们就有了资金。我们，我们有了，就像，人们搬进我的公寓。那是最糟的，因为我是个有洁癖的人。我们就一直做饭，最终我们得到了那个研究，</p>
+<h2>创办TypeSafe以及对前沿研究者的建议</h2>
+<p><strong>Diogo Almeida:</strong> 那个显示了生命迹象的？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 那是，那是一段疯狂的日子。</p>
+<p><strong>Swyx:</strong> 所以问，问题是。那全都是长上下文。</p>
+<p><strong>Diogo Almeida:</strong> 哦，是的。</p>
+<p><strong>Swyx:</strong> 然后现在问题是，像你这样的人</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 现在在前沿实验室里，因为拿不到资金或资源，或者随便什么，关注度，而感到沮丧。你对他们有什么建议？他们。他们应该做你做过的事吗？</p>
+<p><strong>Diogo Almeida:</strong> 他们应该做吗。哦，这是个迷人的问题。</p>
+<p><strong>Diogo Almeida:</strong> 哦，哥们。我怎么才能不烧掉桥梁地做这个？</p>
+<p><strong>Diogo Almeida:</strong> 我——我的感觉是大多数新——除非有某种我不太理解的经济学，我认为大多数新实验室都是垃圾。我不想看到自己跟那些作为同行。就像，我不太理解那里在发生什么。就像，是不是因为——就像，第一，我不太看重研究者。我看重那些。就像，看看我的苦涩教训，对吧？</p>
+<p><strong>Swyx:</strong> 数据，任务。</p>
+<p><strong>Diogo Almeida:</strong> 我想要。嗯，不只是那个。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我，就像，我们需要研究者，但我们需要他们对正确的任务非常在乎，那才是重要的，对吧？所以其实，就像，那。当人们看重纯粹的研究血统时，这有点本末倒置，因为那通常不创造价值。所以它。就像，第一，我相信北极星任务和做酷的、真正有用的东西。第二，因为我不看重研究者，我不，我不推荐走那。嗯，它显然对某些人是有利可图的，或者在这个环境里可能是有利可图的。所以就像，从纯粹务实的角度，我不认为创建新实验室是能——是创造价值的东西。它似乎是在摧毁价值，因为，就像，它们，就像，从头重做工作，而且真正推动前沿的概率很低。而且就我跟大多数新实验室谈过的而言，它们其实没有方向。它们往往想要钱来玩它们的实验。如果它们有方向，我超级支持，说清楚。所以我对某人的建议是，这真的取决于你为什么做这个？如果你是一个想玩玩研究的研究者，可能实验室是最好的地方，说实话。就像，可能有其他地方。我不太跟踪那些政治，但我个人会建议不要那样？就像，我认为人们被驱动去解决真正的问题对世界更好。那些问题可能是探索性的。那没关系。但就像，理想情况下要有你支持的原则。但如果你认为你想做正确的任务，就像，绝对他妈的去做。就像，请做。就像，请打破这个，就像，单一心智，单一模态，就像</p>
+<p><strong>Swyx:</strong> 蜂巢心智。</p>
+<p><strong>Diogo Almeida:</strong> 是的，正是。就像，每——就像，再说一次，这种给前沿定节奏来自，就像，这一种AI观，看起来像，AI超级天才，极其参差不齐，而且那是，</p>
+<p><strong>Swyx:</strong> 可解决的。</p>
+<p><strong>Diogo Almeida:</strong> 它是可解决的，而且它很奇怪，而且它，就像，不匹配现实。而且它就像。它是悲剧性的，对吧？就像，我认为，就像，所有这些。就像，那。就像，真正发掘技术我认为，就像，就是好的。</p>
+<p><strong>Swyx:</strong> 是的。不管怎样，再说一次，我试图准——准确代表我谈过的Anthropic、OpenAI那些人的立场，顺便说SpaceX也是，就是，它是。这是一个政治的事情，远不止是一个纯粹的Xris的事情。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 所以是的。政治定位是</p>
+<p><strong>Diogo Almeida:</strong> 而那。而那超出了我的薪酬等级。</p>
+<p><strong>Swyx:</strong> 正是，是的。</p>
+<p><strong>Diogo Almeida:</strong> 那远远超出了我的薪酬等级。</p>
+<p><strong>Swyx:</strong> 一旦他们，一旦他们告诉我那个，我就想，“我懂了。这是关于2028年选举。”</p>
+<p><strong>Diogo Almeida:</strong> 哦，不。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 哦，我希望我没听到那个。那氛围太糟了。</p>
+<p><strong>Diogo Almeida:</strong> 所以</p>
+<p><strong>Swyx:</strong> 不。这不是整个公司。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 这只是那个房间的讨论。</p>
+<p><strong>Diogo Almeida:</strong> 不。那说得通。</p>
+<p><strong>Swyx:</strong> 是的。是的。</p>
+<p><strong>Diogo Almeida:</strong> 那让我对人性有点失去信心，但也许我只是个天真的技术专家。</p>
+<p><strong>Swyx:</strong> 这真的开始变得重要了</p>
+<p><strong>Diogo Almeida:</strong> 是的</p>
+<p><strong>Swyx:</strong> 谁，谁在掌管政府，那将有助于监管，这些东西在它们出现时。而且就像，作为一个实验室</p>
+<p><strong>Diogo Almeida:</strong> 我完全</p>
+<p><strong>Swyx:</strong> 你可能应该把那个想清楚。</p>
+<p><strong>Diogo Almeida:</strong> 不。不。我完全同意那个，说清楚。就像，我认为在那上面有主见很重要。我个人害怕试图误导人们，因为我认为那会反咬人们很多次？就像，我认为，就像，人们试图过度自信，就像，我显然只是。我其实不打算谈政治。我认为在COVID中发生的是，就像，人们过度倾向于，就像，诉诸权威和过度自信来试图让人们以某些方式行事。而且就像，显然我们的应对极其次优，而且那有，就像，下游的连锁后果，我认为现在对世界极其糟糕。就像，也许我天真。我认为误导人们，即使是为了更大的善或他们认为的更大的善，就是，就是。我不喜欢。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我宁——我宁愿不做。</p>
+<p><strong>Swyx:</strong> 不管怎么说，我。这不是一个。我不觉得这有误导性。它就像是，这就是为什么是现在。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 为什么。是的。为——就像，为——？</p>
+<p><strong>Diogo Almeida:</strong> 那个。我觉得那件事</p>
+<p><strong>Swyx:</strong> 就像，Dario Rodas 在五月说的，就像，“我们现在他妈的在干什么？”</p>
+<p><strong>Diogo Almeida:</strong> 我觉得这就是为什么现在这个有点，误导性，关于，就像，风险对比，就像，目标。它。有，就像</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 某种程度的，就像，潜藏的狡猾在里面</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 那，值得被指出来，我觉得也该承认。嗯，显然他们想。如果他们想操纵，那他们就不该承认。那看起来是个糟糕的策略。</p>
+<p><strong>Swyx:</strong> 不。</p>
+<p><strong>Diogo Almeida:</strong> 但就像，那对我来说只是为这个世界感到难过。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 希望我永远不会。我已经。是的。希望，就像，我们永远不会卷入任何事情</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 像那样。随着我们变大，这可能不可避免，但我想。我想尽可能保持，就像，纯粹的技术人员，回归我的根源。</p>
+<p><strong>Swyx:</strong> Jev 当总统。为什么不呢？我可以。我。我会信任 Jev 的决定，胜过，我自己的。好，那么少点乱发帖，多点关于</p>
+<p><strong>Diogo Almeida:</strong> 少点乱发帖。</p>
+<p><strong>Swyx:</strong> 不。对我来说。</p>
+<p><strong>Diogo Almeida:</strong> 你只是那种</p>
+<p><strong>Swyx:</strong> 我在乱——我在乱发帖。</p>
+<p><strong>Diogo Almeida:</strong> 哦，你只是在碾碎我的希望</p>
+<p><strong>Swyx:</strong> 不。我不会乱发帖的</p>
+<p><strong>Diogo Almeida:</strong> 关于，就像，美国在当今世界。</p>
+<p><strong>Diogo Almeida:</strong> 哦我的天。</p>
+<p><strong>Swyx:</strong> 是的。就像，有。我有点。我觉得我看了太多关于，就像，阴谋论的电视，才会去想总统职位的事。</p>
+<p><strong>Diogo Almeida:</strong> 哦，不。</p>
+<p><strong>Swyx:</strong> 那个，你已经选好了你的北极星。你已经选择了可靠性。你身处一个可编程且可组合的 AI 中。</p>
+<p><strong>Diogo Almeida:</strong> 而且便宜。</p>
+<p><strong>Swyx:</strong> 而且便宜。</p>
+<h2>游戏、KV 缓存，与重新思考编码智能体</h2>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 你想扔给别人当骨头、你自己不会做的第二或第三个是什么？你想让别人去做、而你不会去做的？</p>
+<p><strong>Diogo Almeida:</strong> 哦。</p>
+<p><strong>Swyx:</strong> 就像，基本上就是给人派任务。</p>
+<p><strong>Diogo Almeida:</strong> 给人派任务？</p>
+<p><strong>Swyx:</strong> 是的，就像，你的任务</p>
+<p><strong>Diogo Almeida:</strong> 哦，我想做的太多了。哦，什么？</p>
+<p><strong>Swyx:</strong> 你已经选好了你的任务，对吧？什么？</p>
+<p><strong>Diogo Almeida:</strong> 什么？等等，我。这真是个好问题。我的天。哦，天哪，我对此太兴奋了。</p>
+<p><strong>Swyx:</strong> 因为你会，你会，在接下来的，就像，50 年里，你会忙着做你的事。</p>
+<p><strong>Diogo Almeida:</strong> 当然啦。好，那让我给一个有趣的，和一个不有趣的。然——然后，也许一个既有价值又有趣的。</p>
+<p><strong>Diogo Almeida:</strong> 我那个有趣的：我觉得游戏如果能变得智能，那会酷得离谱。就像，当我看到人们玩，就像，Ali 的 Doom 演示，在那里，就像，你可以，就像，让 NPC 控制东西，就像，那真的只是，就像，那个。就像一个概念验证。我觉得能做出真正酷的东西。它看起来真的很酷。就像，我是 Stardew Valley 的超级粉丝？而且它，它真的很静态，但它仍然很吸引人。就像，我觉得可以发生很多很酷的故事。你不需要，就像，在游戏循环里调用 Jev。那样可能太贵了。但即便是，就像，简单的，就像，NPC 的状态机，我觉得你就能做出，就像，一个如此引人入胜的世界。哦，天哪。</p>
+<p><strong>Diogo Almeida:</strong> 而且，天哪，有点难过我不能做这类事情。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我的人生道路现在有点定下来了，而我，</p>
+<p><strong>Swyx:</strong> 是的，但你可以叫别人去做</p>
+<p><strong>Diogo Almeida:</strong> 是的。那很酷</p>
+<p><strong>Swyx:</strong> 然后你就可以，就像，给它反馈。</p>
+<p><strong>Diogo Almeida:</strong> 而我真正想探索的东西是，就像，摆脱 KV 缓存暴政的编码智能体。就像，它可能不如真正的编码智能体那么好，但我觉得有太多奇怪的东西值得思考。这——这就是为什么我写了那篇《KV 缓存统治我周围的一切》。</p>
+<p><strong>Diogo Almeida:</strong> 信不信由你，我觉得没人在互联网上用过“缓存统治我周围的一切”这个说法，C-A-C-H-E，当我，当我谷歌它的时候。</p>
+<p><strong>Swyx:</strong> 好</p>
+<p><strong>Diogo Almeida:</strong> 所以就像，我写这个是因为我想告诉人们，就像，这就是编码智能体——智能体如何工作，以及 KV 缓存如何工作，等等。而且我觉得。我不知道。是的。</p>
+<p><strong>Diogo Almeida:</strong> 就像，它解释了很多东西，比如为什么路由真的很难，为什么子智能体似乎不奏效，就像，为什么压缩是这么难的问题。而且我要试着发布一份文档。我的团队可能会否决我，因为，信不信由你，我不是负责人。</p>
+<p><strong>Diogo Almeida:</strong> 但我希望。但我想发布一份文档，就像，“这些是我的想法。请玩一玩，请找出所有我们能对编码智能体做的事情，就像，一旦你从那个 KV 缓存暴政中解放出来。”</p>
+<p><strong>Swyx:</strong> 也就是它把你锁进去，并且</p>
+<p><strong>Diogo Almeida:</strong> 嗯，不。它把——它把你锁进一个模型里，对吧？而且为了高效地做这件事，你需要，就像，不断地往里面追加。所以现在你就不是在遵循最佳软件实践，比如状态管理、抽象、分解。为什么你不能给一个更简单的任务一些。是的，为什么你不能给一个子智能体一个更简单的任务？因为你传递的状态。哦，我碰了这个。因为你传递的状态，你需要——会需要比用来读这个的智能便宜得多的智能，才能把这个状态传递过去。为什么你不能在这上面聪明一点，对吧？而且我觉得那里就有，就像，大——大量真正酷、有趣的研究可做，关于，就像，不同的编程模式。有点像人们在玩，就像，递归语言模型那样。就像，我觉得这里就有，就像，很多酷东西，当你想到，就像，“哦，我想明确地给一切的状态打上标签。”或者想象你有一个，就像，子任务。就像，编码智能体，我觉得可以公平地说，从分解的角度看，它们一次处理一个子任务。为什么你需要把所有这些状态都传回父任务？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 为什么你不能在这上面做聪明的事？而且，如果你有一个带标签的子任务层级结构，为什么你不能在那个子任务树里搜索相关上下文，当你需要的时候，对吧？然后，另一件你能做的事。哦，天哪，我忘了写点关于这个的东西。我这里有一些，就像，真的很酷的私货。希望能发表。我很乐意就此畅聊，但就像，那会是一份很长的文档。而且就像，如果情况变成上下文变便宜了，就像，为什么你不能做很酷的模式，比如非常便宜地查看你的历史上下文？你每次都从零开始，而且你需要解决一个叫持续学习的问题，这有点奇怪吗？那其实，那其实就像一个内存管理问题，因为你没有一种聪明的方式来查找记忆，对吧？但如果你能呢？如果你能一直那样做呢？或者如果你有并行的子智能体时，它们能，就像，读彼此的状态，因为你把所有这些都放在，就像，你的计算机内存里，而且你能聪明地处理什么在同时读和写，而你的编码智能体集群或什么的，就像，对东西加锁，并且能智能地协调，而不是用，就像，基础得一批的锁。就像，“你在干什么？我在干什么？”“Jev，谁该先写？”之类的。而且就像，我觉得那里的未来是</p>
+<p><strong>Swyx:</strong> 哦我的天</p>
+<p><strong>Diogo Almeida:</strong> 疯狂。是的。</p>
+<p><strong>Swyx:</strong> Jev 来解决锁的问题。</p>
+<p><strong>Diogo Almeida:</strong> 对于，就像，多个智能体一起工作，那会酷得不行。或者，就像，如果你考虑状态</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 就像，你有</p>
+<p><strong>Swyx:</strong> 智能体集群之类的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 而且有些东西，比如，是只读进程。有些人喜欢获取，就像，智能体在做什么的摘要。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 为什么它们不能轻松地共享状态？因为，就像，一个只读智能体需要，就像，读上下文的一部分，并弄清楚什么相关，比如说，就像，实际正在写的是什么，因为探索不是超级重要，或者这里是子任务的树。我觉得有太多不同的有趣事情可以做，如果，就像，一个真正聪明的人，就像，投入，就像，大量时间重新思考，就像，编码智能体的体验，那会超级超级棒。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 天哪，我。那会是我的梦想。</p>
+<p><strong>Swyx:</strong> 如果你还没看过的话，我会把你引向 PrimeAgent。所以这个，和 RLM 的工作一起。我们刚，和 Alex 聊过，他是 Ellen 的哥们，就在你之前坐这把椅子。</p>
+<p><strong>Diogo Almeida:</strong> 哦，酷。</p>
+<p><strong>Swyx:</strong> 而且就像，是的，它正在被做，但还没那么流行。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 而且如果，就像，是的</p>
+<p><strong>Diogo Almeida:</strong> 嗯，是的。但希望。是的，我会希望每个人都，就像，只是玩一玩</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 用一些，怎么说，奇怪的东西。我不能保证它一定行得通，但从技术角度看，它似乎真的很有意思。所以是的，那看起来挺酷的，挺酷的。</p>
+<p><strong>Swyx:</strong> 看起来挺酷。</p>
+<p><strong>Diogo Almeida:</strong> 就是，我。等我们搞清楚怎么把积分发出去之后，我会很乐意，把积分发给像这样的人。</p>
+<p><strong>Swyx:</strong> 是的。你肯定会有能力资助研究的。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 不。总之，恭喜你取得的所有成功。你，从我们第一次见面到现在，真的走了好长一段路，整个团队也是。</p>
+<h2>智能体状态、记忆与多智能体协调</h2>
+<p><strong>Diogo Almeida:</strong> 我愿意认为我自己也还是同一个人。</p>
+<p><strong>Swyx:</strong> 是的。是的。我觉得。但我觉得，你身上有一种我从未见过的活力，因为你找到了自己的使命。</p>
+<p><strong>Diogo Almeida:</strong> 不。那是真的。那绝对是真的。</p>
+<p><strong>Swyx:</strong> 而且</p>
+<p><strong>Diogo Almeida:</strong> 我当时</p>
+<p><strong>Swyx:</strong> 你在清晰地表达你的使命，因为你有好多年都在抱怨这些问题，但你当时还没有解决方案，对吧？而你，你有了，你有了大致的轮廓，然后你得去做，投入实际的工作。</p>
+<p><strong>Diogo Almeida:</strong> 我要说，这部分是因为我把自己描述为 0% 的创业型。</p>
+<p><strong>Diogo Almeida:</strong> 我不喜欢初创公司。我这辈子从来没想过要当 CEO。我无法想象有人会做这种事两次。这看起来太可怕了。说实话，做一次就已经够糟了。我们第一次融资的时候，有个投资人问我，大概就是，“你敬仰哪些 CEO？”我当时就想，“呃，我为什么要敬仰那些人？”</p>
+<p><strong>Diogo Almeida:</strong> 无意冒犯任何人。我是在努力，我是在努力做到真诚和善良。我见过很多非常好的人，但那些出名的人，似乎，好像都有很多，很多见不得人的事。我觉得我在 OpenAI 的时候，真的感到很无力。就是，我感觉，是的。现在说实话稍微容易一点了，因为，我至少有一些证据表明这个方向是站得住脚的。我当时就是感觉身处一个疯狂的房子里，所有人都在说，“ChatGPT，对。我们把 ChatGPT 放到所有东西里吧？我们怎么让 ChatGPT 对开发者之类的人好用？”而我就想，“你们在说什么？函数调用接口简直疯了。你们为什么要部署这个？”这，这太反开发者了。</p>
+<p><strong>Swyx:</strong> 这有点像在 hack 之上叠 hack，再叠 hack。</p>
+<p><strong>Diogo Almeida:</strong> 嗯</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 不只是那样。我经常说的是，如果有一个，你——这大概也是我现在没时间聊的八卦，但我以前总是说，“如果你们没有为每个函数拿到 logit bias，我就想从任何涉及函数调用的项目里被移除。”就是，我这边的要求非常非常简单。因为</p>
+<p><strong>Swyx:</strong> 那有点像一种置信度，但没有校准。</p>
+<p><strong>Diogo Almeida:</strong> 哦，或者说是它的一个概率，对吧？</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就是，我们需要给用户控制的能力，比如说他们有一些动作</p>
+<p><strong>Swyx:</strong> 哦，是的</p>
+<p><strong>Diogo Almeida:</strong> 或者拒绝，或者允许。是的，Disney 需要设定一个和 AI Dungeon 不同的拒绝阈值。现在用函数调用控制这个的唯一方式就是说，“求求你了”？这太疯狂了。对开发者来说这是个疯狂的接口，而且人们已经，已经忍受这个好多年了，对吧？他们现在用 skills 还是这样。现有的编码智能体，对它们现有的 harness 高度过拟合，因为它们是参差不齐的。它们不太擅长使用外部的工具和 MCP，当然是因为过拟合。那为什么大公司不能允许这些轻微的推动，比如说，“多调用这个。它真的很有用。”</p>
+<p><strong>Diogo Almeida:</strong> 对吧？而解决方案是在系统消息里乞求。这太疯狂了。</p>
+<p><strong>Swyx:</strong> 但不，好吧。我觉得我，我觉得我懂你的意思了。而且，天哪，聊这些东西真的太令人兴奋了。</p>
+<p><strong>Diogo Almeida:</strong> 谢谢。</p>
+<p><strong>Swyx:</strong> 能请你上播客真的，真的很酷。</p>
+<p><strong>Diogo Almeida:</strong> 耶。</p>
+<p><strong>Swyx:</strong> 你会去，做出惊人的事情，兄弟。我为你接下来的重大发布感到兴奋，不管是什么。</p>
+<p><strong>Diogo Almeida:</strong> 哦，那当然。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 你就等着吧。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 你就等着吧。可能比你想的还要早。</p>
+<p><strong>Swyx:</strong> 所以是在招数据的人、基础设施的人，我猜还有市场的人。</p>
+<p><strong>Diogo Almeida:</strong> 100% 有感觉。取决于你问谁。</p>
+<p><strong>Swyx:</strong> 社区的人。</p>
+<p><strong>Diogo Almeida:</strong> 如果你问我</p>
+<p><strong>Swyx:</strong> 是的</p>
+<p><strong>Diogo Almeida:</strong> 我觉得我是个相当不错的创始市场人。但如果你问我团队里的任何人，他们会说，“闭嘴吧，Diego。你得去做 CEO 的事。”所以是的，创始市场人</p>
+<p><strong>Swyx:</strong> 而且这不只是关于 spice。我觉得你非常 spice 导向，这，你，那是你独特的才能。但有时候你就是得说</p>
+<p><strong>Diogo Almeida:</strong> 我知道，我知道</p>
+<p><strong>Swyx:</strong> 就是，是的。</p>
+<p><strong>Diogo Almeida:</strong> 我真的会很乐意</p>
+<p><strong>Swyx:</strong> 做团队、多团队的事情。是的。</p>
+<p><strong>Diogo Almeida:</strong> 是的，我。没有什么比有一大堆事情要做更能教会你授权了。招数据的人，或者我们叫他们模型能力，但他们是数据的人，数据在这个行业里有点像骂人的词。而且我想确保他们</p>
+<p><strong>Swyx:</strong> 我不这么认为。我们这里非常支持数据。</p>
+<p><strong>Diogo Almeida:</strong> 是的，但我想让他们成为，实际在模型上工作的人里地位最高的，这听起来有点怪。我想让每个人都有平等的地位，但我想把这个拉平，我想让大家知道那真的很有价值。</p>
+<p><strong>Swyx:</strong> 这些比其他的更平等。</p>
+<p><strong>Diogo Almeida:</strong> 嗯。我不喜欢奇怪的等级制度，我觉得公司里我最自豪的事情之一就是他们没那么尊重我，或者他们不表现出来。他们调侃我，跟我开玩笑，有时候对我态度很差，诸如此类。我觉得这是文化良好的一个标志。我们在招平台的人，比如到处构建 Jev 的人。我们对位置敏感得多，因为光速更是个瓶颈。</p>
+<p><strong>Diogo Almeida:</strong> 对吧？我为欧洲用户感到很难过，我们只是快了，大概三倍，而不是快 100 倍，因为我们现在在那里没有服务器。这太疯狂了，对吧？但就是</p>
+<p><strong>Swyx:</strong> 没关系。欧洲的生活节奏也慢一点。没关系。</p>
+<p><strong>Diogo Almeida:</strong> 哇，我不敢相信你。是你说的，不是我。或者到处都一样。</p>
+<h2>结尾：招聘与智能的 AWS</h2>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 如果每秒智能是一个重要的指标，我们会在各地推出这个。如果他们是基于我们构建的开发者，我非常在乎你。我们在招人来继续构建更多东西。目标不只是让 Jev 成为一家公司。目标是交付更多形态的智能，超越这个。所以我们也在招人来构建那些东西。我们想不只是，是的，像简单模型那样只会一招的小马。但我觉得会有一个，智能的 AWS？而</p>
+<p><strong>Swyx:</strong> 顺便说一句，那会是你，对吧？是的。</p>
+<p><strong>Diogo Almeida:</strong> 那是我想要走的方向。</p>
+<p><strong>Swyx:</strong> 是的。好的。</p>
+<p><strong>Diogo Almeida:</strong> 说那会是我，就太傲慢了。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 就是，我们。我会尽我所能确保那发生。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 我觉得那会非常酷。我们现在在玩的是 System 1 智能。想象一下那些层？这就像它的 TCP。</p>
+<p><strong>Swyx:</strong> 是的。还有好几层要走。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 谁知道还有什么？顺便说一句，我也推销过 Temporal。我不知道。我们得把 Temporal 当作第八层来谈谈</p>
+<p><strong>Diogo Almeida:</strong> 哦</p>
+<p><strong>Swyx:</strong> 在七层之外。</p>
+<p><strong>Diogo Almeida:</strong> 哦。</p>
+<p><strong>Swyx:</strong> 但总之，我们可以永远聊下去。</p>
+<p><strong>Diogo Almeida:</strong> 那当然。</p>
+<p><strong>Swyx:</strong> 你得回去工作或者睡觉了。</p>
+<p><strong>Diogo Almeida:</strong> 是的。</p>
+<p><strong>Swyx:</strong> 谢谢你来。</p>
+<p><strong>Diogo Almeida:</strong> 哦，天哪。是的。酷。非常欢迎。很荣幸，兄弟。</p>
+<p><strong>Swyx:</strong> 是的。</p>
+<p><strong>Diogo Almeida:</strong> 太激动了。</p>
+<p><strong>Swyx:</strong> 是啊。</p>
+<p><strong>Diogo Almeida:</strong> 太激动了。</p>
+<p><strong>Swyx:</strong> 不会是最后一次。</p>
+<p><strong>Diogo Almeida:</strong> 你第一次来的时候。它</p>
+<p><strong>Swyx:</strong> 不会是最后一次。</p>
+<hr>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-latent-jev","sender":"Latent.Space","authorAliases":[],"publisher":"Latent.Space","subject":"Jev：面向生产环境而非神级智能的系统一模型——对话 Diogo Almeida","snippet":"TypeSafe AI 的 Diogo Almeida 讨论 Jev、系统一模型、产品取舍与开发者体验。","date":"2026-09-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["大语言模型","产品设计","开发工具"],"mdTheme":"magazine","sourcePath":"talks/latent-jev.md","sourceUrl":"https://www.latent.space/p/jev","body":"$3","prompts":[]},"listPosition":{"index":32,"total":571},"relatedArticles":[{"id":"reports-llm-model-routing","subject":"智能模型路由如何将LLM成本降至十分之一","sender":"ByteByteGo Newsletter","date":"2026-09-09","matchedPeople":[],"matchedTags":["大语言模型"]},{"id":"reports-llm-failure-handling","subject":"如何处理LLM应用中的错误和故障","sender":"ByteByteGo","date":"2026-09-07","matchedPeople":[],"matchedTags":["大语言模型"]},{"id":"essays-open-source-open-weights","subject":"开源不等于开放权重","sender":"Gary Marcus","date":"2026-08-10","matchedPeople":[],"matchedTags":["大语言模型"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

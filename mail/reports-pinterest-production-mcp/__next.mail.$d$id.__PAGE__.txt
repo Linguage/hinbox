@@ -1,0 +1,134 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T4d69,<p>Pinterest 的工程师每天都要使用一大批内部系统。他们通过 Presto 查询数据，在 Spark 中调试批处理作业，用 Airflow 管理工作流，搜索内部文档，并在工单平台上追踪缺陷。</p>
+<p>Pinterest 开始构建 AI 智能体（AI agents）时，希望这些智能体能做的不只是回答问题。他们希望智能体能直接访问这些系统，提取日志、调查缺陷工单、查询数据库并提出修复方案，而且这一切都在工程师已经使用的各种应用入口中完成。</p>
+<p>这项挑战来自一道简单的算术题。如果有五个由 AI 驱动的应用入口（内部聊天应用、IDE 插件、聊天机器人、CLI 智能体，以及其他自主智能体）和十个内部工具，在没有共享协议的情况下，就需要五十套定制集成。换句话说，每增加一个应用入口或工具，工作量都会成倍增加。</p>
+<p>模型上下文协议（Model Context Protocol，MCP）承诺把这种乘法变成加法。为每个应用入口构建一个 MCP 客户端，为每个工具构建一个 MCP 服务器，它们就都能使用同一种语言交流。</p>
+<p>Pinterest 采用 MCP 作为这一愿景的基础。然而，事实证明，实现协议反而是容易的部分。真正的工程投入花在了协议周边的各种设施上，例如中央注册表、两层身份认证与授权系统、统一部署流水线，以及从第一天就内置的可观测性（observability）。</p>
+<p>本文将探讨 Pinterest 如何设计这个生态系统，以及除了协议本身，他们还必须做好哪些事情。</p>
+<p>免责声明：本文依据 Pinterest 工程团队公开分享的细节撰写。如发现任何不准确之处，请在评论中指出。</p>
+<h2>什么是 MCP</h2>
+<p>模型上下文协议（MCP）是一项开源标准，为大语言模型提供了与外部工具和数据源通信的统一方式。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!qn5M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0acd8c0-dcbb-4462-914c-207889b0bd28_2576x1520.png" alt="模型上下文协议"></p>
+<p>MCP 定义了共享的客户端—服务器协议，使开发者不必在每个 AI 应用及其需要访问的每个工具之间编写定制的胶水代码（glue code）。AI 应用入口充当客户端，MCP 服务器封装工具或数据源，双方通过标准化格式来发现工具、调用工具，并返回结构化结果。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!n9Ei!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F333c5263-12c0-4e4d-9b13-8d19f9e97055_2474x1600.png" alt="MCP 客户端与服务器通信"></p>
+<p>在 MCP 出现之前，将 AI 应用入口连接到内部工具是一个 N x M 问题。五个入口乘以十个工具，意味着需要构建和维护五十套定制集成。MCP 将其转化为 N+M 问题。构建五个客户端和十个服务器，任意客户端就能与任意服务器通信。工作量从五十项变成了十五项，而且随着入口或工具增加，差距还会进一步扩大。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!AUtX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0d5cf78-b1ae-46f3-91d5-e310ad8fa76b_2998x1678.png" alt="从 N x M 套集成到 N+M"></p>
+<p>但 MCP 只定义通信协议。它并不负责身份认证（authentication）、授权（authorization）、部署、服务发现或治理。</p>
+<p>这些问题必须由 Pinterest 自行解决。换句话说，MCP 规范提供了语法，而 Pinterest 得围绕它建立整套学校体系。</p>
+<h2>Pinterest 的三项架构选择</h2>
+<p>Pinterest 决定采用 MCP 时，早期的三个决定塑造了整个生态系统。每个决定都涉及实质性的取舍；理解这些取舍，有助于我们弄清楚这套架构为何会是现在的样子。</p>
+<p>下面的图展示了整体架构：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!4mQ3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcdfc21a-411f-4eea-ab98-31984a2dbb80_3336x2010.png" alt="Pinterest MCP 生态系统的整体架构"></p>
+<h3>选择一：服务器托管在云端，而不是本地</h3>
+<p>MCP 支持在开发者笔记本电脑上运行、通过标准输入/输出通信的本地服务器。许多个人开发者会搭配 Claude 或 Cursor 等工具，以这种方式使用 MCP。</p>
+<p>Pinterest 选择了相反的方向。</p>
+<p>他们明确围绕内部云端托管的 MCP 服务器进行优化，以便统一应用自己的路由和安全基础设施。本地服务器仍可用于实验，但 Pinterest 所谓的推荐标准路径（paved path）是：编写服务器，将其部署到公司的云计算环境，并在中央目录中注册。每次工具调用都会成为网络请求，与本地服务器相比，这会增加延迟。</p>
+<p>不过，将服务器集中放在云端，意味着 Pinterest 能对每台服务器应用一致的身份认证、授权、日志记录和监控，而不必依赖各个开发者在自己的机器上正确配置这些机制。</p>
+<h3>选择二：多个小型服务器，而不是一个庞大的服务器</h3>
+<p>Pinterest 曾讨论过，是构建一台暴露所有工具的单体 MCP 服务器，还是构建多个面向特定领域的服务器。他们选择了后者。</p>
+<p>例如，Presto MCP 服务器负责数据查询，Spark MCP 服务器负责作业调试，Knowledge MCP 服务器负责文档和组织知识问答。每台服务器拥有一组规模较小、职责连贯的工具。</p>
+<p>两个因素推动了这一决定。</p>
+<ul>
+<li>
+<p>首先，不同服务器需要不同的访问控制。Presto 服务器会接触敏感业务数据，需要严格的用户组准入控制。文档服务器风险较低，可以向更广泛的用户开放。如果把它们捆绑到一台服务器中，就不得不对敏感程度差异很大的工具应用同一套访问策略。</p>
+</li>
+<li>
+<p>其次，每条工具描述都会占用 AI 模型上下文窗口（context window）中的词元（tokens）。上下文窗口是模型在单次交互中能够处理的有限文本量。一台包含五十个工具的单体服务器，会把当前任务不需要的工具描述塞进模型提示词，挤占真正用于对话的空间。</p>
+</li>
+</ul>
+<p>面向特定领域的服务器能让工具列表保持精简，并与任务相关。这种上下文窗口限制是 AI 特有的，因为在传统微服务架构中，你不会担心服务目录占用词元。</p>
+<p>这里的代价是，每台服务器都会产生更多运维开销，因为每台都需要部署、监控和明确的负责方。这项成本直接引出了第三项选择。</p>
+<h3>选择三：统一部署流水线</h3>
+<p>各团队最初的反馈很明确：启动一台新的 MCP 服务器需要太多样板配置，包括部署流水线、服务配置和运维设置。所有这些工作都要在任何人写下第一行业务逻辑之前完成。</p>
+<p>Pinterest 工程团队的应对方式是构建统一部署流水线。团队定义自己的工具，平台负责部署、扩缩容和基础设施。原本需要数天的搭建过程由此发生改变，领域专家可以将精力全部放在业务逻辑上。如果没有这项投入，多个小型服务器的方案就会被自身的运维负担压垮。</p>
+<p>支撑这一切的是 MCP 注册表（registry）：一个中央目录，作为权威信息来源，记录有哪些服务器、由谁负责，以及如何连接。它有两种访问方式。</p>
+<ul>
+<li>
+<p>Web 界面供人浏览可用服务器、查看实时状态、查找负责团队和支持渠道，并检查可见的工具。</p>
+</li>
+<li>
+<p>API 供 AI 客户端以程序方式发现服务器、验证服务器，并检查某位用户是否获准访问某台服务器。</p>
+</li>
+</ul>
+<p>只有在这里注册的服务器，才被视为已获准用于生产环境。换句话说，注册表不仅是通讯录，更是整个生态系统的治理骨架。</p>
+<h2>两层身份认证与授权</h2>
+<p>允许 AI 智能体访问会接触真实生产系统和敏感数据的工具，会立即带来安全方面的担忧。</p>
+<p>Pinterest 从第一天起，就把 MCP 视为与安全团队共同推进的项目，最终形成了一套值得仔细研究的两层授权模型。</p>
+<p>请看下图：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!c0I9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33838bcb-4b89-4899-a9fa-192e8920a4f9_2498x1416.png" alt="两层授权模型"></p>
+<p>设想一位工程师打开 Pinterest 的内部 AI 聊天应用，要求智能体从数据仓库中查询收入数据。如下所述，这一个请求会跨越多个系统：</p>
+<ul>
+<li>
+<p>聊天前端与 MCP 注册表通信，查找可用服务器。</p>
+</li>
+<li>
+<p>请求被路由到 Presto MCP 服务器，由它对一个包含敏感业务信息的真实数据库执行查询。</p>
+</li>
+<li>
+<p>在每一跳，系统都需要回答两个问题：这个人是谁？他是否获准执行这项具体操作？</p>
+</li>
+</ul>
+<p>第一层在网络边缘执行粗粒度检查。</p>
+<p>工程师打开 Pinterest 的任何 AI 应用入口时，都会经过 OAuth 流程。这是使用公司账号登录，并授权应用代表用户执行操作的标准流程。该流程会生成一个 JWT（JSON Web Token），这是一种小型签名令牌，编码了用户身份及其所属用户组。这个 JWT 会随之后的每次请求一起传递。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!1586!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde99cc29-698e-4c6e-aeab-206f5ef376b4_1722x1246.png" alt="OAuth 与 JWT 身份认证"></p>
+<p>请求到达任何 MCP 服务器之前，都会经过 Envoy。Envoy 是位于 Pinterest 基础设施中每个服务前面的网络代理。它通过检查签名和有效期来验证 JWT，然后将其转换为 <code>X-Forwarded-User</code> 和 <code>X-Forwarded-Groups</code> 等标准请求头。</p>
+<p>Envoy 还会执行粗粒度访问策略。这些是范围较大的规则，例如“生产环境的 AI 聊天应用可以与 Presto MCP 服务器通信，但不允许访问在 dev 命名空间中运行的实验服务器”。如果请求违反这些规则，就会在 MCP 服务器看到它之前被拒绝。可以把 Envoy 想象成大楼的安保前台：它检查你的工牌，确保你本来就有资格进入这栋楼。</p>
+<p>第二层在每台服务器内部执行细粒度检查。</p>
+<p>即使 Envoy 放行了请求，MCP 服务器仍会在单个工具层面执行第二层授权。Pinterest 在工具函数上使用装饰器模式（decorator pattern），即 <code>@authorize_tool(policy=’...’)</code>，检查这位特定用户是否获准调用这个特定工具。</p>
+<p>例如，很多团队可能都能访问 Presto MCP 服务器，但只有 Ads 工程组才能调用 <code>get_revenue_metrics</code> 这样的工具。这就像获准进入大楼与获准进入某个具体房间之间的区别。</p>
+<p>对于处理特别敏感数据的服务器，Pinterest 还增加了业务组准入控制（business-group gating）。服务器从 JWT 中提取用户的业务组归属，在建立会话之前就将其与已批准的名单进行核对。这份已批准的组名单是在服务器首次注册时的初始安全审查中确定的。</p>
+<p>例如，虽然从技术上说，可以通过 Pinterest 广泛使用的 AI 聊天界面访问 Presto MCP 服务器，但只有 Ads、Finance 或某些基础设施团队等特定组，才能实际连接并执行查询。这意味着，在一个广泛使用的应用入口中启用功能强大、涉及大量数据的服务器，并不会悄悄扩大能够查看敏感数据的人员范围。</p>
+<p>为什么需要两层，而不是一层？</p>
+<p>Envoy 的策略是快速的网络级检查，可在明显未获授权的流量触及任何应用代码之前将其拦截。工具层面的装饰器则处理细致的、与具体业务逻辑有关的权限，网络代理不具备判断这些权限的能力。二者结合，提供了纵深防御（defense in depth）。即使其中一层配置有误，另一层仍能拦截未经授权的访问。</p>
+<p>官方 MCP 规范定义了 OAuth 2.0 授权流程，用户分别向每台 MCP 服务器进行身份认证，通常涉及同意授权的界面，以及各服务器各自的令牌管理。Pinterest 完全跳过了这套流程。由于他们控制着整个内部环境，因此直接复用用户打开 AI 应用入口时已经建立的认证会话。用户调用 MCP 工具时，不会再出现额外的登录提示或授权同意对话框。</p>
+<p>这对最终用户而言更简单，但之所以行得通，是因为 Pinterest 拥有整个技术栈的每一部分。依赖第三方 MCP 服务器的公司，很可能仍需要采用规范中所描述的逐服务器 OAuth 方式。</p>
+<p>最后，对于没有人类参与的自动化服务间调用，Pinterest 使用基于 SPIFFE 的身份认证。在这种模式中，调用方服务通过服务网格（service mesh）颁发的加密证书证明自己的身份，而不是提供人类用户的 JWT。Pinterest 将这种方式限定于低风险、只读、且影响范围（blast radius）受到严格约束的场景。</p>
+<h2>接入工程师已经使用的工作环境</h2>
+<p>Pinterest 对一件事作出了明确选择：MCP 不能成为一个存在于独立界面中的实验项目，它必须出现在工程师每天已经使用的工具中。</p>
+<p>下图展示了 Pinterest 如何在各种应用入口中完成 MCP 集成。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!zdKK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F248d1662-1ada-4da5-8cec-441567c2a9e3_2310x1236.png" alt="Pinterest 各种 AI 应用入口中的 MCP 集成"></p>
+<p>来源：<a href="https://medium.com/pinterest-engineering/building-an-mcp-ecosystem-at-pinterest-d881eb4c16f1">Pinterest 工程博客</a></p>
+<p>Pinterest 的内部 AI 聊天界面是大多数员工每天都会使用的工具。前端会自动处理 OAuth 流程，并依据当前用户的权限返回一份可用 MCP 工具列表。连接建立后，AI 智能体会将 MCP 工具直接绑定到自己的工具集中，因此调用 MCP 工具的体验与调用任何其他内置能力完全相同。从用户的角度看，他们只是让 AI 做一件事，MCP 的底层连接机制对他们是不可见的。</p>
+<p>Pinterest 还在内部沟通平台中嵌入了 AI 机器人，这些机器人同样会暴露 MCP 工具。身份认证与授权通过注册表 API 处理，与 Web 界面一样。这些机器人支持根据上下文限定工具范围，即某些 MCP 工具只在某些频道中可用。例如，Spark MCP 工具只会出现在 Airflow 支持频道中。这样既能让工具列表与对话相关，也能防止用户意外调用在当前上下文中没有意义的工具。</p>
+<p>具备 AI 功能的 IDE 可以按需通过 Presto MCP 服务器获取数据，让智能体将数据直接带入编码工作流，无须工程师切换到单独的仪表板。CLI 智能体则为基于终端的工作流提供类似能力。</p>
+<p>使用最频繁的服务器反映了最常见的工程痛点。</p>
+<ul>
+<li>
+<p>Presto MCP 服务器始终是流量最高的服务器，因为各个团队普遍都有数据访问需求。</p>
+</li>
+<li>
+<p>Spark MCP 服务器支撑着 Pinterest 的 AI 辅助调试体验：智能体诊断作业失败、汇总日志，并协助记录结构化根因分析，将嘈杂的运维讨论串转化为可复用的知识。</p>
+</li>
+<li>
+<p>Knowledge MCP 服务器是组织知识的通用访问端点，让智能体能够搜索文档，并利用内部各类来源回答问题。</p>
+</li>
+</ul>
+<p>由于 MCP 服务器支持自动化操作，出错时的影响范围会比由人手动执行相同步骤时更大。</p>
+<p>Pinterest 的智能体指导规范要求：任何敏感或成本高昂的操作，都必须先经过人工参与审批（human-in-the-loop approval）。智能体提出操作建议，人在执行前批准或拒绝，也可以选择批量审批。对于危险操作，Pinterest 还使用主动征询机制（elicitation）：例如在覆盖数据表中的数据之前，AI 会明确要求用户确认。这是一项治理决策。</p>
+<h2>效果测量</h2>
+<p>Pinterest 从一开始就将可观测性内置于 MCP 生态系统。所有 MCP 服务器都使用一套共享库函数，开箱即用地提供输入输出日志、调用次数、异常追踪及其他遥测信息。这是服务器框架本身的一部分，因此团队使用统一部署流水线时，就能直接获得可观测性。</p>
+<p>在生态系统层面，Pinterest 追踪已注册服务器和工具的数量、所有服务器的调用次数，以及一个把整体效果汇总成单一数值的北极星指标（north-star metric）。这个数值就是节省的时间。服务器负责方会为每个工具提供“每次调用节省的分钟数”估计，依据是简单的用户反馈，以及与原先人工工作流的比较。将其乘以调用次数，就能从数量级上了解实际影响。</p>
+<p>截至 2025 年 1 月，Pinterest 的 MCP 服务器每月为 844 名月活跃用户处理 66,000 次调用。根据负责方提供的估计，MCP 工具每月节省的时间约为 7,000 小时。</p>
+<h2>结论</h2>
+<p>Pinterest 的 MCP 生态系统为那些正在构建需要操作内部系统的 AI 智能体的组织，提供了清晰的蓝图。他们建立的模式——标准协议、中央注册表、分层身份认证与授权、统一部署流水线，以及内置可观测性——可以迁移到远超 Pinterest 具体情境的其他场景中。</p>
+<p>最重要的启示是，精力实际花在了哪里。MCP 协议为 Pinterest 的 AI 应用入口和工具提供了共享语言，这是必要条件，但远远不够。注册表、身份认证与授权层、部署流水线和测量框架，才是把一个前景可期的协议变成每月处理数万次调用的生产系统的关键。</p>
+<p>最后，Pinterest 的方法提示了一个务实的起点：先建立少量能够切实解决痛点、带来较大效益的 MCP 服务器，再投入平台建设，尤其是部署流水线，让其他团队能够轻松在此基础上继续构建。Pinterest 的统一流水线，正是将平台团队的项目转变为全组织生态系统的突破口。</p>
+<h2>参考资料</h2>
+<ul>
+<li>
+<p><a href="https://medium.com/pinterest-engineering/building-an-mcp-ecosystem-at-pinterest-d881eb4c16f1">在 Pinterest 构建 MCP 生态系统</a></p>
+</li>
+<li>
+<p><a href="https://www.anthropic.com/news/model-context-protocol">介绍模型上下文协议</a></p>
+</li>
+</ul>
+<h2>译者说明</h2>
+<p><a href="https://blog.bytebytego.com/p/how-pinterest-built-a-production">原文</a>装饰器示例 <code>@authorize_tool(policy=’...’)</code> 中的引号为排版引号，按原样保留；该行是说明性示例，不能作为可直接复制执行的 Python 代码。原文与<a href="https://medium.com/pinterest-engineering/building-an-mcp-ecosystem-at-pinterest-d881eb4c16f1">Pinterest 工程文章</a>均将统计时间写为“2025 年 1 月”。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-pinterest-production-mcp","sender":"ByteByteGo","authorAliases":[],"publisher":"ByteByteGo","subject":"Pinterest 如何构建生产级 MCP 生态系统","snippet":"Pinterest 如何通过中央注册表、统一部署、两层授权、人工审批与可观测性，将 MCP 接入工程师的日常工作。","date":"2026-05-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["MCP","开发基础设施","权限管理","可观测性"],"mdTheme":"magazine","sourcePath":"reports/pinterest-production-mcp.md","sourceUrl":"https://blog.bytebytego.com/p/how-pinterest-built-a-production","body":"$3","prompts":[]},"listPosition":{"index":219,"total":571},"relatedArticles":[{"id":"talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai","subject":"Stripe 数据与 AI 负责人谈 Agent 准备","sender":"Every","date":"2026-04-29","matchedPeople":[],"matchedTags":["开发基础设施"]},{"id":"reports-stripe-minions-coding-agents","subject":"Stripe 的 Minions 如何每周交付 1,300 个 PR","sender":"ByteByteGo","date":"2026-03-16","matchedPeople":[],"matchedTags":["开发基础设施"]},{"id":"talks-distinguished-colloquium-jeff-dean-february-10-2026","subject":"AI 的重要趋势：我们如何走到今天、现在能做什么、未来走向何方","sender":"Princeton University Computer Science","date":"2026-02-14","matchedPeople":[],"matchedTags":["开发基础设施"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

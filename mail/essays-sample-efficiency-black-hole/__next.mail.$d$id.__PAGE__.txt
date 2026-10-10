@@ -1,0 +1,55 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2ce6,<blockquote>
+<p>我们眼中的这些AI，是一片能力熠熠生辉的星系；但在它们的中心，有一个肉眼看不见、将所有星座凝聚在一起的数据黑洞，其质量之大超乎想象。</p>
+</blockquote>
+<p>智力的一种定义是样本效率（sample efficiency）——也就是说，你需要在某个领域接触多少数据，才能熟练而胜任地开展工作。过去几年，我们在训练的样本效率上是否真的取得了很大进展，还不清楚；看起来，我们更多是大幅拓宽并改善了数据分布（data distribution）。</p>
+<p>AI变得更好的主要方式，是增加<a href="https://epoch.ai/gradient-updates/the-least-understood-driver-of-ai-progress">更多、更好的数据</a>，并扩大算力规模，以便先把这些数据开发出来。显然，强化学习（reinforcement learning，RL）是实现这一点的主要方式。你可以把RL看作一种合成数据生成（synthetic data generation）：向一个验证器（verifier）投入大量算力，找出那些“好”数据。然后训练模型预测这些正确的展开轨迹（rollouts），这与训练模型预测互联网文本的下一个词很相似。</p>
+<p>要让这个过程奏效，模型至少必须预先有一定概率能够预想到正确解法。这也是为什么，在你希望模型能够胜任的每个领域和每项技能上，你还需要数量大到难以想象的人类专家轨迹（human expert trajectories）。</p>
+<p>这种人类专家数据有多么针对具体任务、多么需要专门定制，怎么强调都不为过。如果你想建立一些直观认识，可以去读读<a href="https://work.mercor.com/explore">Mercor</a>或Surge网站上的职位描述。招聘岗位包括<a href="https://work.mercor.com/explore?listingId=list_AAABnfU_UoKURfBKz-hPsIhO">Word专家</a>，负责把旧文档转换成精致的Word文件；<a href="https://work.mercor.com/explore?listingId=list_AAABndKk8wND-PxLaqFAq5HH">法律专家</a>，负责撰写贴近真实情况的并购尽职调查材料（M&#x26;A diligences）或证券申报文件；<a href="https://work.mercor.com/explore?listingId=list_AAABmu1UcrKMfGwlYNNP64qU">管理顾问</a>，负责撰写模板式市场研究；还有几十种其他具体类别。</p>
+<p>不仅数据必须如此贴合具体领域，而且数量还必须如此之多！每项技能都对应着至少数百名人类专家，他们生成示例答案（example completions）、编写评分细则（rubrics），并解释自己的思维链（chain of thought）。生产这些专家标注的数据产业，以及让专家们精细编目过的技能得以凝结成形的RL环境，每年收入达到数十亿美元、很快将达到数百亿美元，是有原因的。</p>
+<p>想象一下，如果你要学会把一个Word文件整理得精致，需要上几十年的课，几百位教授同时授课，还要完成几百万道练习题，会是什么样子。即便任务数量的差异，也仍低估了这道鸿沟——模型的任务多得多，而且每个任务还得练得更狠。人类学生可能只练习一两次某道课本习题，组相对策略优化（Group Relative Policy Optimization，GRPO）却会让模型为每个任务生成数百到数千条展开轨迹。我们正在打造某种弗兰肯斯坦式的怪物，把十亿块精心构造的示例移植物缝合在一起。</p>
+<p>Epoch最近报告说，<a href="https://epoch.ai/data-insights/open-closed-eci-gap">开放模型仅落后于最先进的闭源模型4个月</a>。我认为，开源模型和先前的落后者之所以相对容易追赶到距离前沿只有几个月的位置，是因为数据才是进步的真正驱动力。数据可以很容易地从公开API中蒸馏（distillation）出来，而超参数（hyperparameters）、训练技巧和架构上的微优化却不能——如果后者推动了大部分进步，追赶就应该比我们实际观察到的更困难。</p>
+<p>人们很容易忘记，这些模型用来训练的数据有多么庞大，比我们人类一生接触到的数据多出多少。我们眼中的这些AI，是一片能力熠熠生辉的星系；但在它们的中心，有一个肉眼看不见、将所有星座凝聚在一起的数据黑洞，其质量之大超乎想象。</p>
+<h2>幕间：比较人类与AI的样本效率</h2>
+<ul>
+<li>如果一个人平均每小时听到和看到约2,000个词，那么从出生到成年，他会接触约2亿个词元（tokens）。相比之下，前沿模型接受训练所用的数据大约是数十万亿到数百万亿个词元。两者相差接近一百万倍。</li>
+<li>一个人可以在几小时内学会远程操控（teleoperate）任意一种人形机器人或机械臂。机器人产业之所以还没有成为一个数十万亿美元的产业、还没有无穷无尽的Unitree G1大军在世界上做各种有用的工作，是因为我们的AI学习效率远低于人类；即使已经收集了数百万小时的示范数据，仍不足以让它们执行复杂、开放式的任务。</li>
+<li>一个青少年通过大约20小时的练习就可以学会开车。即使把他约16年积累的物理直觉也算作相关训练数据，这仍至少比Waymo和Tesla训练自动驾驶模型所需的数据量少3—4个数量级。</li>
+</ul>
+<p>我想回应人们对这类比较提出的一些常见反驳：</p>
+<ul>
+<li>几十亿年的进化就是我们的预训练（pre-training），所以，只拿我们一生中接触的少量数据，与这些从零开始的大语言模型（large language models，LLMs）必须学习的数据相比，并不公平。
+<ul>
+<li>我们的基因组大小是3GB，其中约1%—2%是蛋白质编码部分。这根本没有足够空间存储那些据说经过预训练的模型参数（前沿模型的大小以TB计）。更接近的类比或许是，进化找到了合适的超参数和损失函数（loss functions）。顺带一提，我曾与Adam Marblestone录制过一期有趣的<a href="https://www.dwarkesh.com/p/adam-marblestone">播客</a>，他认为，损失函数是进化更重要的发现。不过，与参数训练相对应的过程，仍发生在个体的一生之中，编码在一生中逐渐建立的大脑神经连接图谱里。</li>
+<li>即使预训练基础模型所需的数万亿个词元，确实可以解释为追赶进化的成果，这也无法解释，为什么新增能力需要如此多的数据——接受过教育之后，你学一门新的编程语言，不需要100位不同的教授，但AI需要，即使它们已经完成了预训练。</li>
+</ul>
+</li>
+<li>这些比较没有计入我们一生中接触的多模态数据（multimodal data）。如果把所有这些感官信息都包括进来，从出生到成年，我们接触的数据量可能是数百亿到数千亿个词元。
+<ul>
+<li>无法获得这类感官信息的盲人或聋人，可能缺少相应感官的能力，但仍拥有与其他人相同的一般智力（general intelligence）。这提示，数十亿个感官词元并不是真正让人类变得聪明的东西。</li>
+<li>事实上，只能通过手语和阅读、而不能通过听觉交流的聋人，摄入的语言词元远少于我们刚才算出的2亿个；但即便这些，也足以使他们拥有完整的通用智能。</li>
+</ul>
+</li>
+<li>缩放定律（scaling laws）告诉我们，更大的模型具有更高的样本效率。人脑有100万亿个突触（synapses）——如果每个突触约等于1个参数，而当时的前沿模型大约有5万亿个参数，那么，或许再把参数规模扩大一两个数量级，我们就能达到人类水平的样本效率。
+<ul>
+<li>缩放定律方程的形式是，参数项与数据项各自独立地加到损失上。假设你有一个按计算最优（compute optimal）方式训练的模型，然后你问：如果我只想最大化样本效率、使用更少的数据呢？为此，无论需要多少参数，我都愿意投入。采用Chinchilla缩放定律论文中的常数，即使把参数数量增加到无穷大，为保持相同损失而需要的数据量，也只能减少到原来的约十分之一；即使换用其他常数，这个结果的性质也不会改变。人类的样本效率比这些模型高出数千到数百万倍。扩大现有模型的规模，根本无法弥补这种差距。这确实提示，人类处在一条完全不同的缩放曲线上。</li>
+</ul>
+</li>
+</ul>
+<h2>样本效率重要吗？</h2>
+<p>不过，你可能会问：样本效率为什么重要？各家实验室有两个总体目标：将白领工作自动化，以及将AI研究本身自动化。实现这两个目标中的任意一个，是否需要人类水平的样本效率？</p>
+<p>对白领工作的押注是：软件工程师、分析师或会计做的常见任务，确实就是常见任务。通过RL和监督微调（supervised fine-tuning，SFT），我们可以相当容易地让常见任务进入模型的数据分布。这些AI实验室的<a href="https://www.anthropic.com/news/series-h">收入曲线</a>提示，即使没有复制人类的样本效率，让任务进入数据分布也能创造巨大的价值。</p>
+<p>是的，训练AI完成这些任务，比训练人类低效得多。但那又如何？人类的寿命无法容纳这些模型经历的训练数量与广度。如果你作为一个人，有某种奇怪的学习障碍，需要读完GitHub上的每个公开仓库，才能成为一名合格的开发者，那么培养你就不划算。在受教育的早期阶段，你就已经开始领社会保障金了；即使终于完成培养，你也只能一次做一个项目。但AI可以通过每次投入吉瓦级的训练来学习这些技能。它们学到的东西可以分摊到数十亿次会话中，因此，我们训练它们时可以低效到荒唐的程度，同时仍然赚得盆满钵满。</p>
+<p>白领员工究竟需要做多少无法提前训练的“分布外”（out-of-distribution）思考？这更多是关于不同工作性质的问题，而非AI研究的问题。它也取决于具体工作——有些工作足够机械、足够可预测，早在现代AI时代之前就已经实现了自动化，例如银行柜员或旅行代理。另一些工作，则需要每天处理与数据分布相距甚远的问题。即使软件工程——那些据说会最先被AI取代的工作——也是其中之一。我愿意打赌，到2028年，对人类软件工程师的总体需求会比现在更多，主要原因就是AI提供的互补性投入。</p>
+<p>对于后一类工作，实验室的计划是先让AI研究自动化，再让自动化的AI研究者解决这个样本效率问题。那么，问题就变成了：没有人类水平样本效率的AI，是否仍能解决通往类似人类的智力与学习能力之路上剩下的研究问题？</p>
+<p>我会在未来的一篇博客文章里讨论这个问题。我认为，人们目前思考智能爆炸（intelligence explosion）的方式相当笨拙。人们要么彻底否认AI加速AI进步的可能性，要么径直假设另一端会冒出一个上帝。人们没有在认真推理：以大语言模型为起点的极其迅速的进步，会是什么样子。</p>
+<hr>
+<h2>译者说明</h2>
+<p>中文标题为译题。文中的数量估算、行业收入判断和2028年需求预测均保留<a href="https://www.dwarkesh.com/p/the-sample-efficiency-black-hole">原作者</a>当时的语境。</p>
+<p><em>此文章由AI翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-sample-efficiency-black-hole","sender":"Dwarkesh Patel","author":"Dwarkesh Patel","authorAliases":["Dwarkesh Patel"],"publisher":"Dwarkesh Patel","subject":"样本效率的黑洞","snippet":"Dwarkesh Patel讨论模型能力进步中数据的作用，比较人类与AI的样本效率，回应进化、多模态输入和参数规模等反驳，并追问样本效率对工作自动化与AI研究自动化的意义。","date":"2026-06-19","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["样本效率","机器学习","模型训练"],"mdTheme":"magazine","sourcePath":"essays/sample-efficiency-black-hole.md","sourceUrl":"https://www.dwarkesh.com/p/the-sample-efficiency-black-hole","body":"$3","prompts":[]},"listPosition":{"index":156,"total":571},"matchedPerson":{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},"relatedArticles":[{"id":"essays-learning-on-the-job","subject":"下一次重大突破，将是AI在工作中学习","sender":"Dwarkesh Patel","date":"2026-06-26","matchedPeople":["Dwarkesh Patel"],"matchedTags":["样本效率"]},{"id":"essays-pretraining-versus-rl","subject":"思考预训练与强化学习各自如何学习","sender":"Dwarkesh Patel","date":"2025-11-17","matchedPeople":["Dwarkesh Patel"],"matchedTags":["样本效率"]},{"id":"llm-training-serving-infrastructure","subject":"大模型背后的算力账本：GPT、Claude 与 Gemini 是如何训练和服务的","sender":"henri","date":"2026-04-30","matchedPeople":["Dwarkesh Patel"],"matchedTags":["模型训练"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,351 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T97fb,<p>turbopuffer联合创始人Simon Eskildsen谈长期任职的好处、如何从第一性原理出发构建经得住时间考验的软件，以及创始人为何应该谨慎对待风险投资融资。</p>
+<p>最近，我在AI Engineer’s World Fair的主舞台上采访了turbopuffer联合创始人兼CEO Simon Eskildsen。活动现场的许多人告诉我，他在同一家公司待了近十年的选择、他相信“餐巾纸估算”（napkin math）能揭示产品为何运行缓慢或成本过高的理念，以及他对于太多风险投资融资围绕的是个人虚荣而非业务需求的见解，都让他们感到亲切，也深受启发。</p>
+<p>这篇文章收录了那次对话中最有意思的部分，尤其是“餐巾纸估算”这个概念：通过快速计算得到大致答案，以此质疑现有系统，并推动改进。我们在AI Engineer’s World Fair上的这场讨论，完整视频长55分钟，可以在这里观看：</p>
+<p><a href="https://youtu.be/h8TBLKyo7Rs">观看完整访谈</a></p>
+<p>今天，我们会谈到：</p>
+<ul>
+<li><strong>算法编程速成。</strong> 高中时期，Simon参加了国际信息学奥林匹克竞赛（International Olympiad for Informatics，IOI）。这推动他学习如何写出正确、速度快、内存利用高效的程序，以及更多知识。</li>
+<li><strong>在Shopify做了八年基础设施。</strong> 长期任职有许多好处：Simon学习了基础设施概念，深入研究跨区域运行的数据库，也学会了写出经得住时间考验的软件。</li>
+<li><strong>作为超能力的“餐巾纸估算”。</strong> Simon开始痴迷于寻找计算操作的理论极限，例如传输数据、读取字节。这在Shopify以及后来自己的创业公司都让他获益良多。</li>
+<li><strong>turbopuffer的起源。</strong> ChatGPT兴起时，上下文窗口很小，因此，用正确的信息填满窗口是AI应用的关键。这需要快速搜索，但搜索方案贵得出乎意料。通过“餐巾纸估算”，Simon发现这些方案的费用远远超出了必要水平。</li>
+<li><strong>没有风险投资融资的新产品，以及第一位客户Cursor。</strong> Cursor在获得800万美元种子融资后，在Simon帮助他们解决搜索和数据库需求之后，决定在这支新成立的turbopuffer团队身上赌一把。</li>
+<li><strong>获得风险投资的理由。</strong> 为研发提供资金、为增长提供资金、满足创始人的虚荣心，等等。</li>
+</ul>
+<p>利益披露：turbopuffer是<a href="https://pragmaticpodcast.com/">本播客</a>的本季赞助商。不过，与我们所有的深度报道一样，这篇文章独立于播客赞助关系。</p>
+<h2>1. 算法编程速成</h2>
+<p>Simon是一位自学成才的专业人士。他没有上大学，而是去Shopify工作，在那里待了近十年，构建过各种系统。他对计算机的兴趣始于12岁时接触网站制作。他在丹麦长大，使用Microsoft FrontPage、Adobe Dreamweaver之类的工具，尝试着编写HTML。</p>
+<p>十几岁时，他已经读遍互联网上可用来学习编程的丹麦语资料，因而“撞上了一堵墙”。后来，他玩起了大型多人在线游戏《魔兽世界》，这帮助他学会了英语。</p>
+<p>发现国际信息学奥林匹克竞赛（IOI）后，他决定参赛，尽管这项面向丹麦所有高中的赛事，要经过竞争非常激烈的多轮选拔。IOI题目与LeetCode题目很相似：都是重视正确性、速度和内存使用的算法挑战。</p>
+<p>Simon通过了线上资格赛，受邀参加丹麦全国赛。这不仅是一场竞赛，也是一整个周末的训练营，教授参赛者更高级的编程技巧，例如递归（Simon已经会了）、<a href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm">分治算法</a>，以及<a href="https://en.wikipedia.org/wiki/Dynamic_programming">动态规划</a>；后者是算法编程中比较难掌握的概念之一。</p>
+<p>我要向组织者致敬：他们举办了如此有挑战性的训练营，给Simon这样的人提供了机会——他参赛时甚至还不知道“NP完全”（NP complete）是什么意思。<a href="https://sirupsen.com/my-journey-to-the-international-olympiad-in-informatics">他回忆道</a>：</p>
+<blockquote>
+<p>“安排是每四个小时向我们介绍一个新的‘编程概念’，然后布置大约2—6道题，需要把这个概念和之前介绍过的概念结合起来使用。所有解答都必须提交到我提交资格赛解答的同一个网站，因为这些也是最终评估的一部分。这些题目难得惊人，与我之前做过的任何题目都不同。</p>
+<p>有时，我极度绝望，加上旅途的疲劳，会想干脆坐下一班火车回家。但每当我终于解出一道题，那种无比的快乐与自信就会让这个念头消失；而当我做一道新题，折腾了一个小时还没头绪时，它又会悄悄回来。不过，正是这些让我坚持了下来。到了周六下午，我差不多赶上了其他人，开始做和他们一样的题目。”</p>
+</blockquote>
+<p>最终，Simon拿到了丹麦国家队六个名额中的一个，进入了区域决赛。</p>
+<p>意识到自己对编程知道得太少，Simon加倍努力追赶。他发现其他大多数参赛者准备得比自己充分，自己必须做些什么，才能挺过下一轮资格赛。于是，他开始行动：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Gp-r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7d73bb2-e470-41b1-afe7-059ddbd78d55_1294x916.png" alt="Simon的书桌上放着Donald Knuth的《计算机程序设计艺术》，旁边是他为自己安排的训练周计划"></p>
+<p>Simon回忆道：</p>
+<blockquote>
+<p>“我借了一本《计算机程序设计艺术》（The Art of Computer Programming）武装自己，做里面的练习，在Wikipedia上查阅常见算法，在USACO上做题，还把Vim配置中的关键部分记下来，好在比赛用的计算机上使用。我给自己安排了一个相当高强度的训练周末。”</p>
+</blockquote>
+<p>区域决赛比全国赛更难，参赛者都在费力地为题目编写性能足够好的解法。尽管付出了努力，Simon还是很确定自己已经出局了，并<a href="https://sirupsen.com/my-journey-to-the-international-olympiad-in-informatics">记下了</a>自己的收获：</p>
+<blockquote>
+<p>“［从编程竞赛中］我学到，必须避免给自己挖坑。我一次又一次地发现，自己太执着于让某个想法奏效，结果毫无进展。有时，你必须狠下心，删掉程序，拿一张新的纸，从头开始。一个典型的例子是：你开始围绕一个通用解法打补丁，以处理特定的边界情况。我学到，几乎总有一种简单的方式来解决问题，而无须显式处理边界情况。如果有两个边界情况，那几乎肯定还有另外两个。简单的解法会自动处理边界情况，甚至包括你可能没有想到的那些。”</p>
+</blockquote>
+<p>但结果是，两个月后，他被告知自己获选代表丹麦参加竞赛的最后阶段。Simon继续推动自己走出网站开发的舒适区——他之前用的是HTML和一点PHP——开始深入算法编程。</p>
+<p>另一个后来对职业生涯产生积极影响的决定，是在高中时开始写博客，尽管他当时并不知道这一点。2010年，Simon开办了<a href="https://sirupsen.com/">自己的英语博客</a>，但每年只发表一两篇文章，大多是介绍自己解决过的问题的短文：</p>
+<ul>
+<li><a href="https://sirupsen.com/a-simple-imgur-bash-screenshot-utility">一个五行脚本</a>，用于截屏并上传到Imgur，所有操作都在命令行中完成（2010年）。</li>
+<li>使用<a href="https://tomayko.com/blog/2009/unicorn-is-unix">Unicorn</a>库，在NGINX上<a href="https://sirupsen.com/setting-up-unicorn-with-nginx">配置一个Ruby HTTP服务器</a>（2010年）。</li>
+<li><a href="https://sirupsen.com/stop-relying-on-your-orm-and-learn-sql">Simon为何更喜欢SQL</a>，而不是ORM：对象关系映射（Object-Relational Mapping，ORM）是对SQL进行抽象的框架，在当时非常流行（2011年）。</li>
+</ul>
+<p>他发表的两篇文章后来影响了自己的人生。一篇讲的是<a href="https://sirupsen.com/my-journey-to-the-international-olympiad-in-informatics">他的IOI经历与收获</a>。另一篇则源于一场灾难：高中的最后一年，他把iPhone摔坏了，彻底用不了了。</p>
+<h2>2. 在Shopify做了八年基础设施</h2>
+<p>智能手机坏了，Simon只好改用老式Nokia“非智能”手机。他写了一篇介绍这段经历的短文，题为<a href="https://sirupsen.com/iphone">《为什么我庆幸自己的iPhone坏了》</a>。这篇文章<a href="https://news.ycombinator.com/item?id=5109159">在Hacker News上走红</a>，登上首页，收到许多评论。</p>
+<p>看起来，加拿大Shopify的某个人读到了这篇文章，以及他写的其他文章，包括他在国际信息学奥林匹克竞赛中出色表现的总结。因为后来，Shopify的招聘人员安排Simon飞到加拿大Ottawa参加面试，公司向他提供了一个软件工程师职位。</p>
+<p>在基础设施团队的新工作中，Simon把自己不懂的东西记下来，再查阅资料，学习新概念。他告诉我：</p>
+<blockquote>
+<p>“刚加入Shopify时，我因为没有学过计算机科学而缺乏自信，之前接触编程最多的经历就是IOI。至少，准备IOI让我明白，只要投入足够的时间，你就能坐下来读一篇论文，把事情搞清楚。所以，我不断这样做。</p>
+<p>在Shopify的第一年，每次听到自己不知道的东西，我就记在一张纸上，然后当天晚上去查阅资料。</p>
+<p>例如，如果工作中有人提到TCP，我就认为他们肯定确切地知道三次握手里有什么，也知道TLS是怎样叠加在上面的。我还以为他们看过Wireshark以及所有相关东西。我现在不觉得真是这样，但当时我就是这么想的！所以，遇到的每件事，我都会深入研究。”</p>
+</blockquote>
+<p>从事基础设施工作，意味着解决有意思的工程问题。当时，Shopify的负载每年增长120%—140%，Simon接触到的问题领域包括：</p>
+<ul>
+<li><strong>Ruby on Rails和数据库：</strong> Shopify已经是世界上最大的Ruby on Rails单体应用之一，从事基础设施工作，就意味着要贴近数据库层。</li>
+<li><strong>分片与切换：</strong> Simon的经理常说，“你不能缓存写入”，因此，Shopify必须从单组机器运行，迁移到机器分片（分区）的架构。团队在一年中最繁忙的黑色星期五到来前，仅提前一周完成了切换，也就是迁移到分片架构。</li>
+<li><strong>多个数据中心：</strong> 将数据库部署范围从一个数据中心（data center，DC）扩展到多个数据中心。</li>
+<li><strong>拆分关键服务：</strong> Shopify有一台128GB内存的机器（这在当时大得惊人），运行Redis作为键值存储。没有人敢碰它，直到有一天服务宕机了。后来，团队把不同职责拆到各自独立的服务中。</li>
+</ul>
+<p>Simon构建了一个模拟网络状况的框架，叫作<a href="https://github.com/shopify/toxiproxy">toxiproxy</a>。当时，他尝试编写更全面的系统级测试，看看Shopify的应用在局部故障期间表现如何，这让他产生了这个想法。他为Shopify的各项服务做了一张矩阵，希望针对矩阵编写完整的测试套件，检查系统是否有足够的韧性，能应对某些部分不可用的情况。例如：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!9au0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fdba208-a817-42fe-b4a0-f6ba813d8541_512x135.png" alt="Simon想运行的一个测试用例示例"></p>
+<p>下表忠实转录原图，便于阅读；Down表示不可用，Up表示正常，Degraded表示服务降级。</p>
+<table>
+<thead>
+<tr>
+<th>不可用项（原图列名：Unavailable）</th>
+<th>区段A</th>
+<th>区段B</th>
+<th>区段C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据存储A（Datastore A）</td>
+<td>不可用</td>
+<td>不可用</td>
+<td>降级</td>
+</tr>
+<tr>
+<td>数据存储B（Datastore B）</td>
+<td>正常</td>
+<td>不可用</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>消息队列A（Message queue A）</td>
+<td>降级</td>
+<td>正常</td>
+<td>不可用</td>
+</tr>
+<tr>
+<td>外部HTTP API A（External HTTP API A）</td>
+<td>不可用</td>
+<td>正常</td>
+<td>降级</td>
+</tr>
+</tbody>
+</table>
+<p>Simon当时谈到这个问题时<a href="https://shopify.engineering/building-and-testing-resilient-ruby-on-rails-applications">写道</a>：</p>
+<blockquote>
+<p>“必须为这张矩阵编写测试，否则，我们就无法保证矩阵中的状态不会随着时间推移而退化。由于前面提到的工具需要root权限，我们调查了可以在TCP层模拟延迟和不可用状况的代理，但没有找到适合我们需求的。我们需要能够在线修改代理的API，也需要支持确定性的延迟，这样才适合用于集成测试。”</p>
+</blockquote>
+<p>这个想法催生了toxiproxy。Simon在舞台上告诉我：</p>
+<blockquote>
+<p>“Toxiproxy是一个位于应用与数据库之间的代理。有了这个代理，你就可以做这样的事：向代理发出一次API调用，指示它模拟数据库宕机，或者让数据库变慢。</p>
+<p>随着时间推移，我们又加入了许多其他故障注入方式。有了这个代理，我们不必对底层驱动做模拟（mock），却能非常充分地测试故障处理。”</p>
+</blockquote>
+<p>Toxiproxy于2014年<a href="https://github.com/shopify/toxiproxy">开源</a>。据Simon所知，12年后，它似乎仍然运行在Shopify的持续集成（CI）系统中！</p>
+<p>在一家公司长期任职，最大的好处是学会写出经得住时间考验的软件。Simon告诉我，正是学到了这一点，才让那段经历如此值得。他也常常看到，某个人在一两周内做出的简单方案，使用寿命超过了那些由多个团队参与、依照RFC提案流程推动的大型方案。直到今天，他仍在运用这一经验。</p>
+<h2>3. 作为超能力的“餐巾纸估算”</h2>
+<p>在Shopify时，Simon开始对某些计算机操作的理论极限感兴趣。例如，动态随机存取存储器（DRAM）进行内存传输的带宽有多大？一次往返AWS S3的操作需要多久，成本是多少？一GB内存的成本是多少？</p>
+<p>他去寻找实际数字，编写脚本收集这些数字，并做成了一张数据表：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!W-hZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c561ff1-c96d-48f0-8396-a0c2572f17a8_1336x854.png" alt="Simon测量并记住的一些数字"></p>
+<p>Simon测量并记住的一些数字。<a href="https://github.com/sirupsen/napkin-math">完整表格见GitHub</a>。</p>
+<p>以下表格忠实转录原图，保留图中的数值、单位和“[6]”标记。MiB、GiB为原图使用的二进制容量单位。</p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>延迟</th>
+<th>吞吐量</th>
+<th>1 MiB</th>
+<th>1 GiB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>非密码学安全的哈希计算（64 bytes）</td>
+<td>10 ns</td>
+<td>5 GiB/s</td>
+<td>200 μs</td>
+<td>200 ms</td>
+</tr>
+<tr>
+<td>随机内存读/写（64 bytes）</td>
+<td>20 ns</td>
+<td>3 GiB/s</td>
+<td>300 μs</td>
+<td>300 ms</td>
+</tr>
+<tr>
+<td>系统调用</td>
+<td>300 ns</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>密码学安全的哈希计算（64 bytes）</td>
+<td>100 ns</td>
+<td>1 GiB/s</td>
+<td>1 ms</td>
+<td>1 s</td>
+</tr>
+<tr>
+<td>顺序SSD读取（8 KiB）</td>
+<td>1 μs</td>
+<td>8 GiB/s</td>
+<td>100 μs</td>
+<td>100 ms</td>
+</tr>
+<tr>
+<td>顺序HDD读取（8 KiB）</td>
+<td>10 ms</td>
+<td>250 MiB/s</td>
+<td>2 ms</td>
+<td>2 s</td>
+</tr>
+<tr>
+<td>Blob存储GET，1个连接（128 KiB）</td>
+<td>80 ms</td>
+<td>100 MiB/s</td>
+<td>10 ms</td>
+<td>10 s</td>
+</tr>
+<tr>
+<td>区域间网络[6]</td>
+<td>视情况而定</td>
+<td>25 MiB/s</td>
+<td>40 ms</td>
+<td>40 s</td>
+</tr>
+<tr>
+<td>北美中部↔东部网络</td>
+<td>25 ms</td>
+<td>25 MiB/s</td>
+<td>40 ms</td>
+<td>40 s</td>
+</tr>
+<tr>
+<td>北美西部↔Singapore网络</td>
+<td>180 ms</td>
+<td>25 MiB/s</td>
+<td>40 ms</td>
+<td>40 s</td>
+</tr>
+</tbody>
+</table>
+<p>Simon开始用抽认卡记忆关键数字。他希望能立刻回想起所有重要的数值。他告诉我：</p>
+<blockquote>
+<p>“餐巾纸估算基本上就是我在GitHub上维护的这张表。大概有50个这样的数字，还有一个生成所有数字的脚本。</p>
+<p>例如，一GB内存多少钱？2美元。一GB S3多少钱？2美分。一GB这种东西多少钱？10美分。用竞价实例（spot）是什么价格？承诺使用三年是什么价格？我做了一张很大的表，然后几乎为每个单元格都制作了抽认卡，因此我知道所有这些数字。</p>
+<p>我在Shopify时开始做这个项目，因为我需要评审项目，而这些数字会很有帮助。”</p>
+</blockquote>
+<p>餐巾纸估算使他能够质疑那些依据有问题的基准测试而作出的设计决策。他告诉我：</p>
+<blockquote>
+<p>“评审项目时，产品团队会告诉我，他们选择数据库A而不是数据库B，是因为他们对两者做了基准测试，数据库A表现更好。我讨厌基准测试，因为依据基准测试作出设计决策，对我来说不是一个令人满意的答案。</p>
+<p>例如，你说按照基准测试，数据库A做这件事需要10秒。但如果做餐巾纸估算，它应该只需要10毫秒。假设这是一条搜索查询。好，你在搜索三个词。每个词都有这么多匹配的文档，也就是这么多MB。我们要对这么多个列表求交集。在多个核心上，DRAM带宽有100 GB/sec。所以算一下，应该是10毫秒。</p>
+<p>现在，你却告诉我，同一件事的基准测试结果是10秒。这就意味着我们中有一个人错了！要么是我的理解有缺口——这完全可能！——要么是基准测试测错了东西。</p>
+<p>很多时候，问题出在做基准测试的人没有意识到，这条查询会是分布式查询，会在一百个不同的节点上运行。那么，在这种情况下，p99当然会非常高！”</p>
+</blockquote>
+<p>离开Shopify后，Simon进一步深入研究“餐巾纸估算”。他<a href="https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second">调查</a>了MySQL每秒最大事务数是否等于每秒fsync次数（一个系统每秒能处理的文件写入次数）。<sup><a href="#user-content-fn-fsync" id="user-content-fnref-fsync" data-footnote-ref aria-describedby="footnote-label">1</a></sup>他发现，MySQL能够处理的写入数，比操作系统能够同步到文件中的次数还多，这让他感到意外：</p>
+<blockquote>
+<p>“执行16,000次插入大约需要3秒，也就是每秒约5,300次插入。这是餐巾纸估算告诉我们的理论最大事务吞吐量——每秒1,000次fsync——的5倍！</p>
+<p>通常，餐巾纸估算的目标是落在同一个数量级之内，这次确实如此。但当我做餐巾纸估算时，它通常会为系统确立一个下界，也就是说，从第一性原理出发，这个系统在理想条件下能有多快？</p>
+<p>系统实际速度比餐巾纸估算快5倍，这种情况很少见。当我们发现现实性能与预期性能之间存在一个看起来很显著的差距时，我把它叫作‘第一性原理差距’（first-principle gap）。好奇心就在这个时候出现了。这通常意味着：（1）存在改进系统的机会，或者（2）我们对系统建立的模型有缺陷。这一次，只有（2）说得通，因为系统比我们预测的更快。”</p>
+</blockquote>
+<p>Simon<a href="https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second">开始调查</a>，发现MySQL会把事务分组，并不是每次写入都做一次fsync；它还会巧妙地合并多个本来并行处理的fsync操作，实际上通过“组提交”（group commit）进一步改善性能。后来，他把这个收获用在了S3之上：将写入分组，以降低延迟、减少成本。</p>
+<p>就我个人而言，做一些测量，再追问系统为什么能够取得违背“餐巾纸估算”所提示极限的结果，居然就能学到这么多东西，这令我惊叹！</p>
+<h2>4. turbopuffer的起源</h2>
+<p>“餐巾纸估算”也参与了turbopuffer的诞生。Simon告诉我，要让这个项目出现，必须有三件事汇合在一起。</p>
+<ol>
+<li><strong>在Shopify，搜索是一个艰难的项目。</strong> 构建搜索是Simon在这家公司最后的几个项目之一，他在这个项目中的体验并不好。他使用一家流行的数据库供应商，却很难让数据库达到餐巾纸估算所预示的性能。数据库没有方便地暴露查询计划，因此，除非阅读大量源代码，他就无法弄清缺了什么，以及为什么性能达不到估算水平。此外，搜索基础设施也很难运维。</li>
+<li><strong>餐巾纸估算成了一种出人意料地高效的推理工具。</strong> 作为一套工具，餐巾纸估算让Simon能够推理：如果一台机器得到充分利用，它能够做到什么。</li>
+<li><strong>朋友们的创业公司因为AI而迫切需要快速搜索。</strong> 2023年初，Simon帮助几位朋友处理他们创业公司的基础设施。许多人面临同一个问题：大语言模型（LLM）的上下文窗口很小，只有4—8 KB，他们需要用文档中的恰当部分来填满窗口，但这就要求搜索速度非常快。一家创业公司估算，新搜索供应商将花费每月3万美元，而现有基础设施账单仅为每月5,000美元！对于一家靠自身收入维持的加拿大公司来说，这个成本太高，因此，他们没有发布那项AI功能。</li>
+</ol>
+<p>Simon一直在想，为什么搜索这么贵，为什么它与“餐巾纸估算”所预测的成本对不上。最后，他勾勒出一个使搜索既快又便宜的基本架构：</p>
+<ul>
+<li>把需要搜索的数据存放在AWS S3中。</li>
+<li>做一些聚类，并组织好文件。</li>
+<li>降低延迟。S3便宜、可靠，但延迟很高。</li>
+</ul>
+<p>好奇这样做能如何奏效，他开始动手构建。他告诉我：</p>
+<blockquote>
+<p>“那个夏天［2023年］，我完全痴迷于构建这个东西。第一个版本是最简单的实现。我是一个非常务实的人，所以没有陷入细节。我几乎没读有关日志结构合并（log-structured merge，<a href="https://en.wikipedia.org/wiki/Log-structured_merge-tree">LSM</a>）的文献。</p>
+<p>最简单的做法，是对向量运行一个聚类算法。得到各个簇后，把它们放进文件里。文件叫作‘cluster_01’、‘cluster_02’、‘cluster_03’。然后，再有一个文件，存放各簇的质心。搜索时，下载质心，查看它们，再下载最近的簇。</p>
+<p>为了控制成本、提高性能，我们围绕合并文件中相邻的簇做了几项优化。但核心就是这些。”</p>
+</blockquote>
+<p>性能如何呢？Simon说：</p>
+<blockquote>
+<p>“第一个版本里，我甚至没有实现专门的缓存层。我只是在S3前面放了一个反向代理（NGINX），就这样！性能提升来自对所有S3对象进行缓存。这就是NGINX层面上能做的最简单的一层。”</p>
+</blockquote>
+<h2>5. 没有风险投资融资的新产品，以及第一位客户Cursor</h2>
+<p>我第一次听说turbopuffer是在去年，当时我采访了Cursor联合创始人Sualeh Asif，了解他们如何构建AI编程工具的支撑框架（harness）。我们之前发表的<a href="https://newsletter.pragmaticengineer.com/p/cursor">Cursor深度报道</a>中写道：</p>
+<blockquote>
+<p>“随着使用量增长，不断重新分片的需求，变得容易出错，也让人沮丧。Sualeh告诉我，团队学到的最大教训是，未来应尽可能避免分片。因此，他们开始寻找一个可以支持多租户、不需要手动分片的向量数据库。</p>
+<p>turbopuffer是一家承诺做到这一点的创业公司，所以Cursor试用了它，并把相当一部分向量搜索用例迁移过去。”</p>
+</blockquote>
+<p>那么，一家价值数十亿美元的创业公司，为什么会押注于一个小小的、未经验证、一个客户都没有的基础设施产品？这里有几个因素：</p>
+<p>首先，在2023年秋天，Cursor还不是一家价值数十亿美元的公司，而是一家成立不久的创业公司。公司在同一个月获得了800万美元种子融资。2024年，公司估值为4亿美元，后来估值猛涨至293亿美元。今年，它以600亿美元的价格出售给了SpaceX。</p>
+<p>其次，这与Simon发出的一条推文有关。他整个夏天都在开发，已经做得受够了，想试探一下市场。他告诉我：</p>
+<blockquote>
+<p>“我已经烦透了开发［turbopuffer］。整个夏天我都在做，却不知道有没有人关心。只有有人关心，我才想继续做。所以，我决定把它发到Twitter上。</p>
+<p>当时，我只有一个<a href="https://groups.google.com/g/gce-discussion/c/eNl7L3_Y6Mg">TMUX</a>实例，运行在GCP某处的一个8核节点上。我想：‘如果有人要上生产环境，我再把它妥善部署到多个节点上。’</p>
+<p><strong>但首先，先看看有没有人关心。</strong></p>
+<p>任何做过数据库内部实现的人，都会因为太过自尊而不愿发布这种东西；而我只是像发布一个SaaS项目那样发布它。为什么不能像做SaaS那样开发数据库呢？”</p>
+</blockquote>
+<p>于是，他发出了这条听上去信心十足的推文：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!HfSI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefb6c554-160e-4136-bb74-a114be3d0bb5_1182x1000.png" alt="turbopuffer的发布推文"></p>
+<p>turbopuffer的发布推文。来源：<a href="https://x.com/Sirupsen/status/1709602855160869275?s=20">Simon Eskildsen</a>。</p>
+<p>图中推文及产品介绍文字译为：</p>
+<blockquote>
+<p>“经过四个月的专注工作，我要发布这个据我所知首个真正的无服务器向量数据库：turbopuffer.com。</p>
+<p>每百万个向量每月1美元（比其他方案便宜10—70倍）。</p>
+<p>每百万次查询4美元。”</p>
+</blockquote>
+<p>图中的产品卡片写道：“真正的无服务器向量数据库。”并列出：</p>
+<ul>
+<li><strong>便宜。</strong> 每百万个向量每月1美元，比其他向量数据库便宜10—70倍。每百万次查询4美元。</li>
+<li><strong>无服务器（serverless）。</strong> 只按实际使用付费，无须担心手动扩容。</li>
+<li><strong>速度还不错。</strong> 在100万个向量上，延迟约100毫秒。很快会快得多。</li>
+</ul>
+<p>卡片最后是“查看规格说明”。图中推文日期为2023年10月4日。</p>
+<p>Simon有信心发布产品，是因为他知道产品非常稳固，而且可以扩展：</p>
+<blockquote>
+<p>“我知道turbopuffer是可靠的。它守住了自己的不变量（invariants）。例如，你关掉所有虚拟机（VM），也不会丢失任何数据。所有写入都直接提交到Blob存储。”</p>
+</blockquote>
+<p><strong>Cursor联系了他。</strong> 当时，这家公司只有八个人，刚刚拿到种子融资，正在快速增长，但存在搜索方面的问题，希望与一家创业公司合作解决。Simon回忆道：</p>
+<blockquote>
+<p>“现在我了解Cursor的创始人了，我确信他们一定在某天坐在餐桌前说过：‘我们现在把所有向量都放在DRAM里，这个单位经济模型（unit economics）行不通。’</p>
+<p>他们大概会问，为什么没有人做一个方案，把代码库中的全部向量放到S3里，降低成本；再把正在使用的那部分代码库移到内存中，提高速度。这样，所有东西都存放在Blob存储里，再按需把它们加载进缓存。打开代码库后，过几秒钟，所有东西就都在RAM里了，查询和其他方案一样快。</p>
+<p>Aman［联合创始人之一］当时已经在谈把S3用作键值缓存，而那时几乎没有人会为了单位经济模型而考虑这种做法。”</p>
+</blockquote>
+<p><strong>那时，Simon对B2B销售一无所知，也没有试图向Cursor“推销”什么。</strong> 他与Cursor团队互发了几封邮件，讨论他们搜索大量小型本地代码库的用例。他希望帮助Cursor改善单位经济模型，同时证明turbopuffer能够工作。于是，他从加拿大坐飞机前往San Francisco，来到Cursor的办公室，开始调试他们的数据库供应商所提供的服务：</p>
+<blockquote>
+<p>“我到Cursor办公室时，他们正遇到一些Postgres问题。我问：‘你们有<a href="https://pganalyze.com/">pganalyze</a>吗？’他们没有，所以我说：‘好，那我们先把它用起来，看看情况。’</p>
+<p>问题跟Postgres通常遇到的问题一样：<a href="https://www.postgresql.org/docs/current/runtime-config-vacuum.html">自动清理（autovacuum）</a>运行得不够。所以，本来应该做索引扫描之类的操作，都跑去访问<a href="https://medium.com/@Amir_M4A/how-postgresql-stores-data-heaps-blocks-and-ctids-explained-f66d052cf87d">堆（heap）</a>了。于是，我们就在讨论这些事情。</p>
+<p><strong>我只是帮他们一把：我的‘数据库基因’启动了。</strong> 我想，这让他们产生了足够的信任：如果我有足够的知识来帮他们解决数据库问题，也许我也知道如何构建一个数据库。”</p>
+</blockquote>
+<p>turbopuffer另一位联合创始人<a href="https://justine.li/">Justine Li</a>加入前后，与Cursor的合作正式开始。Simon说，Justine是他在Shopify合作过的最优秀的工程师。两人一起做了更多性能优化。Cursor把本地代码库搜索迁移到了这个全新的产品上。</p>
+<p><strong>Simon承诺将Cursor的账单降低95%，而且做到了——这要归功于餐巾纸估算！</strong> Cursor当时每月在索引和搜索上花费约8万美元，采用turbopuffer后，降到了每月4,000美元。Simon之所以有信心作出这一预测，就是因为餐巾纸估算！他依据基础原理进行计算，只计入Cursor实际使用的资源量，当时没有为turbopuffer的运营成本留出利润空间。</p>
+<h2>6. 获得风险投资的理由</h2>
+<p>拿下Cursor作为第一个客户后，Simon仍不确信turbopuffer应该接受风险投资（venture capital，VC）融资。他解释了自己的想法：</p>
+<blockquote>
+<p>“<strong>我明白，如果你接受风险投资，无论房间里有多少笑脸，每个人都期待获得高额回报</strong>，而且是在一个对所有参与者都合理的时间安排里。这里的‘所有参与者’，包括加拿大的养老基金。</p>
+<p>但那时，我不知道turbopuffer能不能成为一家价值十亿美元的公司。它感觉像一个非常小众的搜索引擎。而我完全能接受这一点！</p>
+<p>所以，我只是看看我们开出的账单，再看看自己的GCP账单。我在算的是这个等式：</p>
+<p><code>Customer Invoices >= GCP bill [the turbopuffer costs]</code></p>
+<p>即：客户账单金额 >= GCP账单［turbopuffer的成本］。</p>
+<p>Justine和我打算一直优化系统，直到这两个数字大致相等。如果我们还能把其他一些工作负载迁到turbopuffer上，就可以开始给自己发薪水。</p>
+<p>但不管怎样，我甚至不知道自己能不能去融一大笔钱。我没有什么人脉。我是个局外人，在丹麦Aarhus长大，后来搬到加拿大。”</p>
+</blockquote>
+<p>几个月后，turbopuffer最终总共融到了70万美元，只是为了能够以真正的工资聘用两名工程师，一直做到年底。Simon发现，大多数风险投资人并不认真对待他们，因为他们想融的钱太少，并认为这意味着缺乏抱负！两年后，在最初融资不足100万美元的情况下，turbopuffer的年化收入（annual run rate）突破了1亿美元。显然，他们是有抱负的！</p>
+<p>自从我们的对话之后，Simon思考了风险投资这一话题，建立了一个思维模型，列出六个足以支持获得外部融资的理由：</p>
+<p><strong>理由一：研发。</strong> 这就是turbopuffer融资的目的：他们需要资金，再聘用两名工程师工作到年底，进一步构建平台。然后，要么获得更多客户，产生足够收入，不再需要融资；要么项目无法获得市场认可，就把它关掉。</p>
+<p><strong>理由二：增长。</strong> 当你已经做出某个产品，希望让全世界知道它时，往往需要花钱来做到这一点。</p>
+<p><strong>理由三：满足创始人的虚荣心。</strong> Simon说：</p>
+<blockquote>
+<p>“这是一个非常、非常流行的理由！你会看到很大的数字，得到大量媒体报道。但我认为，这是一个非常危险的融资理由。</p>
+<p>我希望大家更多地讨论这个理由，因为这样做会稀释所有员工的股权。对一些人来说，这可能变成一场地位游戏。这不是我们追求的：我们是来一起做大一家企业的。”</p>
+</blockquote>
+<p><strong>理由四：回报员工。</strong> 创业是一段漫长的旅程，每个人都希望与最优秀的人一起工作。但这样的人必然很少，所以，你希望通过融资，让员工可以出售股份，以回报其中最出色的人。这就是turbopuffer在2025年12月融资的原因：那一轮让员工可以出售一部分股权，意味着他们无须等待未来某个财务事件，例如首次公开募股（IPO）。</p>
+<p><strong>理由五：战略合作。</strong> 某家风险投资机构的人脉网络，可能是企业取得成功的关键；也可能接受某个战略投资者的资金，能让你获得使用其平台或服务的机会。</p>
+<p><strong>理由六：并购（Mergers &#x26; Acquisitions，M&#x26;A）。</strong> 用融资所得收购另一家公司，以扩大业务。</p>
+<p>Simon鼓励创始人诚实面对自己为什么要融资——如果理由是以自我为中心，就要当心了！</p>
+<h2>收获</h2>
+<p>在这里<a href="https://www.youtube.com/watch?v=h8TBLKyo7Rs">观看完整访谈</a>。</p>
+<p><strong>通过“餐巾纸估算”和对底层的理解，竟然能够走这么远，令人深受启发。</strong> Simon不愿根据匆忙编写、可能测错东西的基准测试，来作出供应商选择。通过理解数据传输延迟和存储成本的约束，他找到了一种估算系统理论下界的方法。</p>
+<p>这帮助Shopify作出依据更充分的设计决策，也让他看到一个机会：构建一个比现有方案更快、更便宜的搜索产品。</p>
+<p><strong>在商业上变得“幸运”，需要许多本领，而面对面接触对第一印象大有帮助。</strong> turbopuffer的第一个客户就是Cursor，这听上去几乎好得难以置信。但<a href="https://newsletter.pragmaticengineer.com/i/165641889/sharding-headaches">Cursor联合创始人Sualeh Asif</a>的讲述，以及现在Simon的讲述，揭示了更具体的构成因素：</p>
+<ul>
+<li><strong>发现新的业务需求：</strong> Cursor这样的AI原生创业公司，发现搜索账单暴涨，但要提供可用的AI产品，又必须拥有搜索功能。</li>
+<li><strong>提供价格低一个数量级的产品：</strong> 让人们突然开始关注turbopuffer的，是它承诺节省的并非“仅仅20%—50%”的成本，而是看似激进的90%以上。当你进入一个市场较晚，例如搜索市场，你需要有显著的差异，然后兑现承诺！这也是吸引Cursor注意的原因。</li>
+<li><strong>销售之前先建立信任：</strong> Simon先帮助Cursor团队修好了现有数据库，之后才讨论使用自己的产品。</li>
+<li><strong>面对面留下印象：</strong> 如果Simon没有飞到San Francisco，与Cursor团队当面见面，他们会在turbopuffer身上赌一把吗？</li>
+<li><strong>尽早发布：</strong> 如果Simon没有在确定产品能工作、但它还相当粗糙时发布第一个版本，那么，这些事情都不会发生！</li>
+</ul>
+<p><strong>了解风险投资融资的运作关系总是有帮助的，其中有些关系很少被提及。</strong> Simon知道，投资者会期待在自己设定的时间安排内获得回报和增长。融资在许多情况下很有帮助，但以虚荣心为理由，就会产生问题。Simon认为，太多创始人会把这些理由放在优先位置，无论是有意还是无意。</p>
+<h2>译者说明</h2>
+<ul>
+<li>本文译出<a href="https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits">2026年7月21日独立发表的文章</a>，包括六节正文及结尾；文章整理了访谈选段，<a href="https://youtu.be/h8TBLKyo7Rs">完整访谈视频</a>长55分钟。</li>
+<li>测试矩阵与性能数字表为原图的转录译表，保留原图数值与单位。图中“[6]”标记保留；完整数据见<a href="https://github.com/sirupsen/napkin-math">GitHub表格</a>。</li>
+<li>原文将早期LLM上下文窗口写为“4—8 KB”，本译文保留这个单位。引文中的“下界”也沿用原文用语。</li>
+<li>融资、估值、收入，以及原文所称Cursor“今年”以600亿美元出售给SpaceX，均属于<a href="https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits">2026年7月21日原文</a>中的作者叙述。原文结尾有一句不完整的英文“This is also what Cursor’s attention.”，按上下文译为“这也是吸引Cursor注意的原因”。</li>
+</ul>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-fsync">
+<p>译者校注：<a href="https://pubs.opengroup.org/onlinepubs/009695399/functions/fsync.html">fsync指文件同步操作</a>，不等同于一般写入调用次数；正文括注沿用作者原文。 <a href="#user-content-fnref-fsync" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-napkin-math-engineering","sender":"The Pragmatic Engineer","author":"Gergely Orosz","authorAliases":["Gergely Orosz"],"publisher":"The Pragmatic Engineer","subject":"用‘餐巾纸估算’突破软件工程的极限","snippet":"turbopuffer联合创始人Simon Eskildsen谈长期任职、第一性原理估算、搜索基础设施，以及创业融资的动机。","date":"2026-07-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["软件工程","性能优化","搜索系统","创业"],"mdTheme":"magazine","sourcePath":"essays/napkin-math-engineering.md","sourceUrl":"https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits","body":"$3","prompts":[]},"listPosition":{"index":95,"total":571},"matchedPerson":{"id":"gergely-orosz","name":"Gergely Orosz","email":"","occupation":"软件工程师、科技作者","website":"https://blog.pragmaticengineer.com/about/","bio":"撰写 Pragmatic Engineer 通讯，报道软件工程实践与科技行业，曾负责 Uber 的工程团队。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"代码审查","name":"代码审查","count":1}]},"relatedArticles":[{"id":"dex-horthy-context-notes","subject":"Dex Horthy的上下文工程实践","sender":"The Pragmatic Engineer","date":"2026-07-15","matchedPeople":["Gergely Orosz"],"matchedTags":[]},{"id":"talks-bret-taylor-three-ai-shifts-changing-everything","subject":"OpenAI 董事长 Bret Taylor 谈改变一切的三大 AI 变革","sender":"Bret Taylor","date":"2025-01-22","matchedPeople":[],"matchedTags":["软件工程","创业"]},{"id":"talks-latent-openrouter","subject":"OpenRouter：从种子轮到 Stripe——对话 Alex Atallah 与 Anjney Midha","sender":"Latent.Space","date":"2026-09-25","matchedPeople":[],"matchedTags":["创业"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

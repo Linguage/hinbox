@@ -1,0 +1,451 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T6439,<p><em>一些出色的 SaaS 公司正如何更新定价，以参与当下市场的竞争。</em></p>
+<blockquote>
+<p>出版方导言：</p>
+<p>假期临近，我们邀请几位合伙人回顾档案中最受欢迎的文章。与原文发表时相比，他们的想法发生了什么变化？当初提出的论点又有了怎样的演变？</p>
+<p>今天带来的是 Tugce Erten 去年写的一篇文章，讨论在 AI 这个大胆的新世界里如何定价和设计套餐。过去 18 个月，世界变化得如此之快，我们很高兴能在这里更新这篇文章。</p>
+</blockquote>
+<h2>2025 年 11 月更新</h2>
+<p>去年春天，我和 a16z Growth 的几位同事发表了一套框架，讨论如何为面向企业（B2B）或专业消费者（prosumer）的生成式 AI（generative AI，gen AI）功能定价和设计套餐。我回访了原文提到的一些 SaaS 公司，看看它们在过去约 20 个月里如何调整定价和套餐，结果见下表。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!18fG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F616b2164-6018-4503-8d87-f555428d4e29_1460x1439.png" alt="SaaS AI 功能定价与套餐变化，2024 年 3 月至 2025 年 11 月"></p>
+<p><em>原图逐行转录译表。金色底纹表示价格或套餐有所更新；箭头表示变动。<a href="https://www.a16z.news/p/how-to-price-and-package-your-gen">作者原图</a>注明来源为公开定价页面。</em></p>
+<table>
+<thead>
+<tr>
+<th>公司</th>
+<th>AI 套餐结构</th>
+<th>订阅制／按使用量／混合制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ClickUp</td>
+<td>附加项</td>
+<td>订阅制 → 混合制</td>
+</tr>
+<tr>
+<td>Notion</td>
+<td>附加项 → 核心产品</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Replit</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Jira Service Management</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Tableau</td>
+<td>附加项 → 捆绑进最高档套餐</td>
+<td>订阅制 → 混合制</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td>附加项／升级档 → 核心产品</td>
+<td>订阅制 → 混合制</td>
+</tr>
+<tr>
+<td>Freshworks</td>
+<td>附加项 → 核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Intuit Mailchimp</td>
+<td>核心产品</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>核心产品</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Adobe</td>
+<td>附加项</td>
+<td>按使用量 → 混合制</td>
+</tr>
+<tr>
+<td>HubSpot</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Asana</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Zapier</td>
+<td>核心产品 → 附加项</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Zoom</td>
+<td>核心产品</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Mixpanel</td>
+<td>核心产品</td>
+<td>按使用量</td>
+</tr>
+<tr>
+<td>G Suite</td>
+<td>附加项 → 核心产品</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>New Relic</td>
+<td>核心产品 → 附加项</td>
+<td>未公开</td>
+</tr>
+<tr>
+<td>Copilot</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Intercom</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>monday.com</td>
+<td>核心产品</td>
+<td>混合制</td>
+</tr>
+</tbody>
+</table>
+<p>先说几个简要结论：</p>
+<p>最初作为高级附加项收费的 AI 功能，已经变成了入场标配。Notion、Salesforce 等主要 SaaS 厂商，从为 AI 单独收费转向将其捆绑进核心产品。在我看来，这说明在竞争极其激烈的市场中，AI 功能现在已经成为参与竞争的必要条件。</p>
+<p>把 AI 功能从附加项转入核心产品的公司，通常也把这部分 AI 功能的定价从订阅制改为混合制，想必是为了更好地将推理成本考虑在内。尽管围绕按结果定价（outcome-based pricing）的讨论很多，我们目前并未看到大量 SaaS 公司采用它。提供 AI 智能体的公司，通常更容易让这种定价模式奏效。</p>
+<p>虽然 Microsoft 和 Adobe 仍然单独将 AI 变现，但我看到的整体趋势相当清楚：AI 原先主要吸引早期采用者，现在则吸引所有公司，这意味着客户如今已经把 AI 功能视为基本预期。</p>
+<p>正如下文所说，定价是一个持续迭代的过程。在 AI 和软件这样变化迅速的市场中，公司仍应做好准备，随时适应推理成本的波动。</p>
+<h2>原文——2024 年 3 月 22 日</h2>
+<p><a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">原文链接</a>；原文作者：Sarah Wang、Tugce Erten、Alex Immerman。</p>
+<p>任何新技术要有效变现，都要在争夺市场份额的同时，为业务增长留出空间。但对于生成式 AI，利害关系要大得多：虽然它有望为企业带来前所未有的价值，但每多服务一位客户，成本也可能非常高。尤其在增长阶段，创始人需要留意单位经济效益（unit economics）和利润率。我们经常听到这些创始人问：我该怎样获取生成式 AI 创造的价值？生成式 AI 功能的成本，该由我自己承担，还是转嫁给客户？客户到底愿不愿意为生成式 AI 付费？如果愿意，会付多少？</p>
+<p>生成式 AI 仍处于非常早期的阶段。在采用曲线和成本稳定下来之前，还不会有经过反复验证的定价或套餐框架。尽管如此，我们还是概述了自己如何思考市场中某一部分的定价与套餐问题：B2B SaaS 和专业消费者公司，正在争论该怎样让新的生成式 AI 功能变现。我们也梳理了其他公司如何应对同一个问题，帮助你更好地理解自己的策略在当下处于什么位置。</p>
+<h2>综合早期使用情况、客户画像和产品使命</h2>
+<p>与任何定价和套餐设计工作一样，最好的起点是理解：</p>
+<ul>
+<li>你的功能带来了多大价值，价值给了谁；以及</li>
+<li>提供这项功能的成本有多高。</li>
+</ul>
+<p>然后，将这些发现与你对生成式 AI 在整体产品中应处于多核心的位置的判断相对照。</p>
+<p>其中一些判断会更像艺术，而不是科学，因为创始人仍在摸索生成式 AI 到底给客户带来了什么价值、又要花多少钱。不过，早期使用情况和客户画像，可以帮助你理解这两个维度。</p>
+<h3>测试版和早期使用情况</h3>
+<p>针对测试版（beta）和早期使用情况，你需要了解哪些客户在使用你的产品、使用频率有多高、服务他们要花多少钱，以及他们愿意为生成式 AI 功能支付多少。比如，下面这些问题值得深入探究：</p>
+<ul>
+<li>它是否扩大了你的总体可服务市场（TAM）？例如，你以前只能服务 10 位客户，现在能服务 100 位了吗？</li>
+<li>生成式 AI 功能是否提升了从免费档转向付费档，或转向更高付费档的转化率？</li>
+<li>你的产品是否有一群贡献了该功能大部分使用量的重度用户（power users）？如果有，他们对你的销售成本（COGS）有什么影响？</li>
+</ul>
+<h3>客户画像</h3>
+<p>对于客户画像，你需要弄清楚哪些类型的客户愿意付费，哪些不愿意。是所有客户都从生成式 AI 功能中获得了价值，还是只有部分客户？</p>
+<p>访谈、问卷和销售团队的数据，是进一步了解客户画像和客户群体的好办法。</p>
+<ul>
+<li><strong>访谈。</strong> 如果客户数量不多，访谈可以更清楚地告诉你，谁对购买你的产品感兴趣，以及他们未来可能对哪些产品感兴趣。</li>
+<li><strong>问卷。</strong> 如果客户数量较多，你可以询问他们，哪些潜在的新功能对他们最重要，再把这些信息与他们所在公司的行业或职能关联起来。</li>
+<li><strong>销售团队的数据。</strong> 销售团队日复一日与客户交谈，因此，他们通常很了解不同类型的客户需要什么功能，才能成功使用你的产品。</li>
+</ul>
+<p>这里提醒一点：要警惕“AI 游客”（AI tourists）——这些客户注册产品，可能是因为公司要求全员试验生成式 AI（B2B），也可能是因为他们本人兴奋地想试试新的生成式 AI 功能（专业消费者）。即使他们愿意付费尝试，你也可能很难留住他们。不过，我们正看到更多企业<a href="https://a16z.com/generative-ai-enterprise-2024/">把生成式 AI 支出从创新预算转入标准软件预算</a>，这表明生成式 AI 正在成为许多企业的关键组成部分。</p>
+<h3>产品愿景</h3>
+<p>这就涉及你作为创始人的愿景了。也许目前只有一部分客户对生成式 AI 感到兴奋，但你相信，生成式 AI 最终会重塑产品的客户体验，提供丰富得多的价值主张（value proposition）。也许你仍在判断生成式 AI 将如何让客户受益，而眼下，它只是对某些用户而言‘有了会更好’的功能。这部分工作是定性的，面向愿景；生成式 AI 在未来的产品路线图和价值主张中会处于多核心的位置，要由你来决定。</p>
+<p>当你既对生成式 AI 功能的价值和成本有了较好的理解，又对生成式 AI 如何融入现有产品和未来路线图形成了一个工作假设，就可以开始具体考虑套餐和定价。</p>
+<h2>套餐设计：核心、升级档，还是附加项？</h2>
+<p>我们通常看到，面向 B2B 和专业消费者的生成式 AI 功能分为三类：作为<strong>核心产品（core offering）<strong>的一部分、纳入</strong>升级档（upgrade tier）</strong>，或作为<strong>附加项（add-on）</strong>。目前，非生成式 AI 的专业消费者产品和 B2B SaaS 的许多套餐设计最佳实践，在生成式 AI 时代依然适用。因此，参考公司过去如何为新的非生成式 AI 功能设计套餐，也会有所帮助。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!UoBM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F366ab8ab-fed8-415e-884a-0ae7b7336498_2000x1285.png" alt="面向 B2B 或专业消费者的 AI 功能：正在形成的套餐设计最佳实践"></p>
+<p><em>原图逐行转录译表。<a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">作者原图</a>注明来源为公开定价页面或博客。</em></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>核心产品（core）</th>
+<th>升级档（upgrade）</th>
+<th>附加项（add-on）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI 功能如何影响业务？</td>
+<td>同时提升采用和转化</td>
+<td>提高向更高价套餐的转化率</td>
+<td>加快重度用户的使用</td>
+</tr>
+<tr>
+<td>哪些客户群愿意为 AI 付费？</td>
+<td>所有客户群</td>
+<td>1）相当多客户将从该功能及其套餐中获益，并愿意付费；2）但不是每个人都需要，核心产品仍然重要。</td>
+<td>1）较小的一部分客户愿意支付显著更高的费用，并使用该功能；2）对产品更广泛的体验并非至关重要。</td>
+</tr>
+<tr>
+<td>你对 AI 的愿景是什么？</td>
+<td>对核心产品体验至关重要；必需功能</td>
+<td>改善产品体验，但未必对所有用户都至关重要；有了会更好的功能</td>
+<td>目前给特定的一部分客户增加显著价值</td>
+</tr>
+<tr>
+<td>非 AI 功能的类比</td>
+<td>Adobe 推出 Creative Cloud，并最终停止 Creative Suite</td>
+<td>Figma 仅在企业套餐中提供访客访问控制及其他安全功能</td>
+<td>Box 和 Zendesk 出售高级数据隐私功能</td>
+</tr>
+</tbody>
+</table>
+<h3>核心产品</h3>
+<p>如果所有客户都对生成式 AI 功能感到兴奋并愿意付费，早期使用数据表明它显著提升了采用和转化，而且生成式 AI 对你的价值主张至关重要，那么把它纳入核心产品可能是明智的。在这种情况下，你可能不必直接将生成式 AI 功能变现，因为它会对总体可服务市场和转化产生显著的后续影响。前面举的例子在这里也适用：也许现有产品只能服务 10 位客户，有了生成式 AI 功能，你现在就能服务 100 位。</p>
+<p>由于我们正处于生成式 AI 采用的“抢地盘”阶段，把生成式 AI 功能纳入核心产品，也能让你的产品比现有大厂和其他初创公司的产品更有吸引力。不过，各类客户都对这项功能有需求，因此我们预计，有些公司最终会提高核心套餐的总价，以更好地覆盖提供这项功能的成本。</p>
+<h3>升级档</h3>
+<p>当生成式 AI 功能属于‘有了会更好’的功能，并且能推动大多数客户购买更高档产品时，将它放进升级档就很合适。它不会彻底改变客户使用产品的方式，却能帮助其中大多数人获得更多价值。比如，一些生成式 AI 公司可能会在升级功能中提供更多数据集。再以 Mailchimp 为例：大多数用户可能并不需要核心产品中包含生成式 AI 功能——他们很可能只是想建立和维护一份邮件名单——但生成式 AI 生成的邮件文案、客户分群和分析，可以改善大多数用户的产品体验。我们也看到，有些公司把生成式 AI 功能作为追加销售（upsell）的杠杆，以提高向更高价档位的转化率，或覆盖一部分提供生成式 AI 的成本。</p>
+<h3>附加项</h3>
+<p>如果生成式 AI 功能能给一小部分愿意支付溢价的客户带来显著价值，而你又希望在提供该功能时直接管理利润率，将其设计为附加项是明智的。附加项可以：</p>
+<ul>
+<li>直接让创新变现，从而在短期内形成更可持续的利润率。不过，如果你相信 AI 长期会成为产品的核心差异化因素，可能就需要转向其他套餐模式。</li>
+<li>扩大总体可服务市场：对愿意支付更多的客户收取更高费用，同时保留按现有价格付费的客户。</li>
+<li>为测试版功能提供一群对产品感到兴奋、又愿意提供反馈的用户。</li>
+</ul>
+<p>我们把附加项视为“重度用户套餐”：一部分重度用户会从该功能中获得格外多的益处，因此公司可以为产品收取溢价。不过，我们也看到，一些把生成式 AI 功能设计为附加项的公司，在做企业交易时会把附加项卖给整个公司，以防止用户共享登录账号，即使实际上只有少数个人用户想用它。这样可能在短期内覆盖成本，但要注意，买方未必总愿意接受这种必须整体购买的要求。</p>
+<p>再提醒一点：我们看到，有些公司在核心档或较低价的付费档中提供基础生成式 AI 功能，把性能更好的生成式 AI 功能或更多生成式 AI 使用额度放在更高档位中。在这种情况下，按价值分群的逻辑仍然相同。比如，如果一项生成式 AI 功能能扩大你可以服务的用户数量，就考虑将它作为核心功能。如果另一项更强大的生成式 AI 功能能帮助重度用户，则可以把它放在付费门槛之后，收取更高费用。</p>
+<h2>定价：订阅制还是混合制？</h2>
+<p>由于大多数 B2B SaaS 和专业消费者公司销售的是<a href="https://a16z.com/usage-based-pricing-rule-of-thumb/">供人使用的软件（software-to-human）</a>，通过订阅而非使用量变现是合理的——没有客户想去估算自己会使用“多少”生成式 AI。但生成式 AI 时代的订阅定价，可能放大客户使用产品的程度与你实际收入之间的差距。事实上，为生成式 AI 功能出售席位，甚至可能让你陷入希望客户别使用产品的境地。重度用户与几乎不使用产品的客户，支付相同的固定费用，这意味着最重要的客户可能侵蚀你的利润率。</p>
+<p>那么，你怎样才能更好地让自身激励与客户的激励保持一致？由于生成式 AI 采用仍处于早期阶段，这依然是一个没有定论的问题。</p>
+<p>不过，观察当前市场，我们看到核心和升级档的套餐，默认按席位定价。生成式 AI 要么是基础产品的一部分，要么是现有订阅档中的新增功能。不过，有些公司正试验订阅与消耗相结合的混合模式，为附加项功能定价，以更好地覆盖成本，并从重度用户身上获得收入。这些混合方式包括消耗预购点数的模式，例如 Box；或固定价格的席位，再按额外的消耗档位提供点数，例如 Adobe Creative Cloud。在现有订阅销售模式中加入按使用量收费的要素时，需要考虑如何<a href="https://a16z.com/customers-want-predictability-in-usage-based-pricing-heres-how-to-help-them-get-it/">让客户能预测费用</a>，以及如何<a href="https://a16z.com/overages-problem-usage-based-pricing/">处理超额使用</a>。</p>
+<h2>其他公司在做什么？</h2>
+<p>我们研究了 31 家推出了新生成式 AI 产品的公司，看看它们如何为新的生成式 AI 功能定价和设计套餐。下面是我们从数据中看到的情况。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!IlZv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f2278cb-8055-45a1-a1ba-56faff8c1b03_2000x1502.png" alt="将 AI 纳入核心产品"></p>
+<p><em>2024 年原文图表逐行转录译表。<a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">作者原图</a>注明来源为公开定价页面或博客。</em></p>
+<table>
+<thead>
+<tr>
+<th>公司</th>
+<th>基础产品的定价单位</th>
+<th>AI 套餐结构</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hex</td>
+<td>按用户</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Replit</td>
+<td>按用户</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Dropbox</td>
+<td>按用户</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>HubSpot</td>
+<td>按联系人数套餐</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Zapier</td>
+<td>按任务量套餐</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Typeform</td>
+<td>按回复量套餐</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Mixpanel</td>
+<td>事件量</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>New Relic</td>
+<td>按用户 + 数据量</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>Intercom</td>
+<td>按用户</td>
+<td>核心产品</td>
+</tr>
+<tr>
+<td>monday.com</td>
+<td>按用户</td>
+<td>核心产品</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://substackcdn.com/image/fetch/$s_!5eQc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cff474b-03d7-4c24-97df-a732bfc74e09_2000x1168.png" alt="将 AI 纳入升级档"></p>
+<p><em>2024 年原文图表逐行转录译表。<a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">作者原图</a>注明来源为公开定价页面或博客。</em></p>
+<table>
+<thead>
+<tr>
+<th>公司</th>
+<th>基础产品的定价单位</th>
+<th>AI 套餐结构</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jira Service Management</td>
+<td>按用户</td>
+<td>升级档</td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td>按用户</td>
+<td>附加项或升级档</td>
+</tr>
+<tr>
+<td>Mailchimp</td>
+<td>按联系人数套餐</td>
+<td>升级档</td>
+</tr>
+<tr>
+<td>Shopify</td>
+<td>按公司</td>
+<td>升级档</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>按用户</td>
+<td>升级档</td>
+</tr>
+<tr>
+<td>Asana</td>
+<td>按用户</td>
+<td>升级档</td>
+</tr>
+<tr>
+<td>Zoom</td>
+<td>按用户</td>
+<td>升级档</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Y8am!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49d33551-c455-4789-9026-499a504c5428_2000x1715.png" alt="将 AI 作为附加项"></p>
+<p><em>2024 年原文图表逐行转录译表。<a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">作者原图</a>注明来源为公开定价页面或博客。</em></p>
+<table>
+<thead>
+<tr>
+<th>公司</th>
+<th>基础产品的定价单位</th>
+<th>AI 套餐结构</th>
+<th>订阅制／按使用量／混合制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ClickUp</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Notion</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Tableau</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td>按用户</td>
+<td>附加项或升级档</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Freshworks</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Adobe</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>按使用量</td>
+</tr>
+<tr>
+<td>G Suite</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+<tr>
+<td>Box</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>混合制</td>
+</tr>
+<tr>
+<td>Power BI (Fabric)</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>按使用量</td>
+</tr>
+<tr>
+<td>Power BI (Copilot)</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>按使用量</td>
+</tr>
+<tr>
+<td>Microsoft 365 (Copilot)</td>
+<td>按用户</td>
+<td>附加项</td>
+<td>订阅制</td>
+</tr>
+</tbody>
+</table>
+<h2>生成式 AI 的定价和套餐会如何演变？</h2>
+<h3>按结果定价和其他定价指标得到更多采用</h3>
+<p>随着生成式 AI 开始给客户带来显著的生产力提升，一些公司正提前考虑按结果定价：供应商向公司收取的是软件产生的结果的费用，而不是软件本身的费用。</p>
+<p>目前，按结果定价更难做好，因为创始人仍在摸索如何量化生成式 AI 给客户带来的价值。但如果生成式 AI 功能以后能显著提升公司的生产力，那么在用户数量收缩的基础上为产品定价，在经济上就不合理了。因此，我们认为，按结果定价可能会对销售<a href="https://a16z.com/usage-based-pricing-rule-of-thumb/">供人使用的软件产品</a>的公司产生显著影响，比如工作流工具或人力资源工具。</p>
+<p>这种定价模式的优点，是能让你与客户的激励紧密一致。但要确保双方就“结果”或“解决”如何定义达成一致，可能并不容易，而且你必须相信生成式 AI 能够可靠地解决客户的问题。不过，我们已经看到一些公司开始试验，比如 Intercom 的 <a href="https://www.intercom.com/drlp/ai-chatbot">Fin Chat</a> 产品；我们很期待看到它接下来如何发展。</p>
+<h3>做好准备，灵活调整定价</h3>
+<p>推理成本正在趋于稳定，开源正在蓬勃发展，不同模型提供商也在不断降低模型价格，以吸引更多用户。有鉴于此，随着模型提供商持续降低 API 成本，公司应做好调整定价模式的准备。</p>
+<p>目前，把价格定在至少能让业务在短期内基本算得过账的水平，同时预期长期服务成本会下降——实际上它已经下降了！——并推动未来利润率扩大，可能是明智的。不过，如果你押注生成式 AI 功能会成为业务的核心部分，却迟迟看不到效果，就不要犹豫，应重新审视定价和套餐结构。</p>
+<p>生成式 AI 有望给软件终端用户带来前所未有的价值。现在，增长阶段创始人的目标，是在保持稳定的单位经济效益和良好的利润率的同时，弄清楚如何最好地获取这种价值。没有一套适合所有人的方案；成功的创始人必须结合过去和当下积累的经验，建立清楚、灵活的定价和套餐结构，传达产品路线图的价值。</p>
+<p>尽管最佳实践仍在形成，我们希望这些框架能帮助你，更好地推进新生成式 AI 功能的定价与套餐设计。</p>
+<h2>披露事项</h2>
+<p>本通讯仅供信息参考，不应作为法律、商业、投资或税务建议的依据。此外，这些内容不是投资建议，也不打算供任何 a16z 基金的投资者或潜在投资者使用。本通讯可能链接至其他网站，或包含来自第三方来源的其他信息；a16z 并未独立核实这些信息，也不对其当前或持续的准确性作出任何声明。如果这些内容包含第三方广告，a16z 并未审查这些广告，也不认可其中的任何广告内容或相关公司。文中提及、引用或描述的任何投资或被投公司，都不代表 a16z 管理的投资工具中的全部投资；完整投资清单请见 <a href="https://a16z.com/investment-list/">a16z.com/investment-list</a>。其他重要信息请见 <a href="https://a16z.com/disclosures/">a16z.com/disclosures</a>。</p>
+<h2>译者说明</h2>
+<ul>
+<li>本文包括<a href="https://www.a16z.news/p/how-to-price-and-package-your-gen">2025年11月25日的更新</a>和<a href="https://a16z.com/pricing-packaging-ai-b2b-prosumer/">2024年3月22日的原文</a>。文中的“现在”“当前”“去年春天”等表述属于相应版本的时间语境。</li>
+<li>图下表格为作者原图的转录译表。2025 年更新表包含 22 行。原文称研究了 31 家公司，但 2024 年三个案例表合计显示 29 行，Salesforce 在两个表中出现；图表没有逐一列齐 31 家公司。</li>
+<li>表中的“点数”“按使用量”和“混合制”按原文语义翻译；定价模型的进一步描述仍以作者正文为准。原图的金色底纹表示价格或套餐调整，表格转录以箭头表示变动。</li>
+</ul>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-generative-ai-pricing-packaging","sender":"a16z","author":"Tugce Erten","authorAliases":["Tugce Erten"],"publisher":"a16z","subject":"如何为生成式 AI 功能定价和设计套餐：再回顾","snippet":"完整翻译生成式 AI 功能的核心、升级档与附加项包装框架，以及订阅和混合定价策略；保留 2024 年原文、2025 年更新和全部案例图表。","date":"2025-11-25","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["生成式AI","产品定价","SaaS"],"mdTheme":"magazine","sourcePath":"essays/generative-ai-pricing-packaging.md","sourceUrl":"https://www.a16z.news/p/how-to-price-and-package-your-gen","body":"$3","prompts":[]},"listPosition":{"index":417,"total":571},"matchedPerson":{"id":"tugce-erten","name":"Tugce Erten","email":"","occupation":"定价策略顾问","website":"https://a16z.com/author/tugce-erten/","bio":"在 a16z 关注定价与套餐设计，撰写软件订阅、按用量收费及生成式 AI 商业化的分析文章。","contentCount":3,"topTags":[{"id":"产品定价","name":"产品定价","count":3},{"id":"人工智能","name":"人工智能","count":2},{"id":"商业模式","name":"商业模式","count":2}]},"relatedArticles":[{"id":"reports-surviving-ai-price-wars","subject":"在 AI 价格战中生存，而不毁掉自己的业务","sender":"a16z","date":"2026-04-13","matchedPeople":["Tugce Erten"],"matchedTags":["产品定价"]},{"id":"reports-pricing-ai-applications","subject":"你不是模型。别按token定价。","sender":"a16z News","date":"2026-08-27","matchedPeople":["Tugce Erten"],"matchedTags":["产品定价"]},{"id":"essays-to-teach-in-the-time-of-chatgpt-is-to-know-pain","subject":"在 ChatGPT 时代教书是一种痛苦","sender":"Scott K. Johnson","date":"2026-04-13","matchedPeople":[],"matchedTags":["生成式AI"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

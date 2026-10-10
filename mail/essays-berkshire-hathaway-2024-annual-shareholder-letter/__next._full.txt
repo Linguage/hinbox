@@ -1,0 +1,565 @@
+1:"$Sreact.fragment"
+3:I[7121,[],""]
+4:I[4581,[],""]
+6:I[484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+b:I[484,[],"MetadataBoundary"]
+d:I[7123,[],""]
+:HL["/hinbox/_next/static/media/636a5ac981f94f8b-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hinbox/_next/static/css/007013509a699845.css","style"]
+0:{"P":null,"b":"_9cnp1yQSAz2iT8XTekKv","c":["","mail","essays-berkshire-hathaway-2024-annual-shareholder-letter"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","essays-berkshire-hathaway-2024-annual-shareholder-letter","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/css/007013509a699845.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[3805,["452","static/chunks/452-271a3cbabd68d29e.js","893","static/chunks/893-cb934759b516a882.js","177","static/chunks/app/layout-646664d00cb53be4.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"__variable_cd543f","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Le",null,{"weeklyNavCounts":{"inboxWeeklyCount":21,"starredTotalCount":23},"people":[{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":"","occupation":"播客主持人、作者","website":"https://www.dwarkesh.com/about","bio":"主持 Dwarkesh Podcast，通过深入访谈和文章讨论人工智能的发展、模型学习机制与计算资源。","contentCount":31,"topTags":[{"id":"大语言模型","name":"大语言模型","count":5},{"id":"模型训练","name":"模型训练","count":5},{"id":"人工智能","name":"人工智能","count":4}]},{"id":"david-perell","name":"David Perell","email":"","occupation":"写作者、播客主持人","website":"https://perell.com/","bio":"主持 How I Write 播客，访谈作家并讨论写作过程，文章涉及商业、教育与互联网生活。","contentCount":10,"topTags":[{"id":"写作","name":"写作","count":9},{"id":"创作","name":"创作","count":3},{"id":"叙事技巧","name":"叙事技巧","count":3}]},{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":9,"topTags":[{"id":"智能体","name":"智能体","count":4},{"id":"ai编程","name":"AI编程","count":3},{"id":"反馈机制","name":"反馈机制","count":2}]},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":"","occupation":"计算科学家、企业家","website":"https://www.stephenwolfram.com/about/","bio":"开发 Mathematica 与 Wolfram|Alpha，研究元胞自动机、计算不可约性及计算与自然界的关系。","contentCount":8,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"效率工具","name":"效率工具","count":2}]},{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":7,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"数学研究","name":"数学研究","count":3},{"id":"形式化数学","name":"形式化数学","count":2}]},{"id":"christian-skau","name":"Christian Skau","email":"","occupation":"数学家","website":"https://www.ntnu.no/ansatte/christian.skau","bio":"挪威科技大学荣休教授，研究算子代数与拓扑动力系统，并长期采访阿贝尔奖得主。","contentCount":6,"topTags":[{"id":"数学研究","name":"数学研究","count":5},{"id":"动力系统","name":"动力系统","count":2},{"id":"拓扑学","name":"拓扑学","count":2}]},{"id":"ryan-peterman","name":"Ryan Peterman","email":"","occupation":"软件工程师、播客主持人","website":"https://www.developing.dev/about","bio":"曾任 Instagram 软件工程师，创办职业成长通讯与访谈播客，分享工程实践和技术人物的职业经历。","contentCount":6,"topTags":[{"id":"p与np","name":"P与NP","count":2},{"id":"分布式系统","name":"分布式系统","count":2},{"id":"计算复杂性","name":"计算复杂性","count":2}]},{"id":"lex-fridman","name":"Lex Fridman","email":"","occupation":"人工智能研究者、播客主持人","website":"https://lexfridman.com/","bio":"研究人机交互、机器人与机器学习，主持同名播客，访谈话题涵盖科学、技术与人文。","contentCount":5,"topTags":[{"id":"文学编程","name":"文学编程","count":2},{"id":"算法","name":"算法","count":2},{"id":"ai基础设施","name":"AI基础设施","count":1}]},{"id":"dan-shipper","name":"Dan Shipper","email":"","occupation":"创业者与科技作者","website":"https://danshipper.com/","bio":"Every 联合创办人，通过人工智能专栏、访谈与软件产品，探索 AI 如何改变知识工作。","contentCount":4,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1}]},{"id":"martin-raussen","name":"Martin Raussen","email":"","occupation":"数学家","website":"https://vbn.aau.dk/en/persons/martin-raussen-2/","bio":"研究几何、代数拓扑与变换群，探索拓扑方法在并发计算中的应用，并参与数学家访谈。","contentCount":4,"topTags":[{"id":"数学研究","name":"数学研究","count":3},{"id":"代数k理论","name":"代数K理论","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"steve-jobs","name":"Steve Jobs","email":"","occupation":"企业家","website":"https://stevejobsarchive.com/","bio":"苹果联合创始人，创办 NeXT，曾领导皮克斯，2005 年在斯坦福大学发表毕业演讲。","contentCount":4,"topTags":[{"id":"人生经历","name":"人生经历","count":2},{"id":"苹果","name":"苹果","count":2},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"andrej-karpathy","name":"Andrej Karpathy","email":"","occupation":"人工智能研究者与教育者","website":"https://karpathy.ai/","bio":"OpenAI 创始成员，曾领导特斯拉自动驾驶视觉团队，并主讲斯坦福深度学习课程及人工智能视频课程。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"公众认知","name":"公众认知","count":1},{"id":"博士培养","name":"博士培养","count":1}]},{"id":"demis-hassabis","name":"Demis Hassabis","email":"","occupation":"人工智能研究者、企业家","website":"https://royalsociety.org/people/demis-hassabis-13817/","bio":"共同创办 DeepMind，推动 AlphaGo 和蛋白质结构预测研究，获 2024 年诺贝尔化学奖。","contentCount":3,"topTags":[{"id":"通用人工智能","name":"通用人工智能","count":3},{"id":"科学发现","name":"科学发现","count":2},{"id":"ai安全","name":"AI安全","count":1}]},{"id":"elon-musk","name":"Elon Musk","email":"","occupation":"科技企业家","website":"https://ir.tesla.com/corporate/elon-musk","bio":"参与特斯拉与 SpaceX 的发展，联合创办 PayPal，并创办 Neuralink 等科技企业。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"政府改革","name":"政府改革","count":2},{"id":"交通基础设施","name":"交通基础设施","count":1}]},{"id":"jared-weiss","name":"Jared Weiss","email":"","occupation":"篮球记者","bio":"为 The Athletic 报道马刺与文班亚马，曾长期跟踪凯尔特人，并参与赛后节目制作。","contentCount":3,"topTags":[{"id":"nba","name":"NBA","count":3},{"id":"体育心理","name":"体育心理","count":2},{"id":"篮球","name":"篮球","count":2}]},{"id":"jeremy-stern","name":"Jeremy Stern","email":"","occupation":"记者、编辑","website":"https://colossus.com/author/jeremy-stern/","bio":"在 Colossus 撰写企业家和投资人的长篇人物报道，作品涉及人工智能、科技公司及创业经历。","contentCount":3,"topTags":[{"id":"ai编程","name":"AI编程","count":3},{"id":"创业","name":"创业","count":3},{"id":"devin","name":"Devin","count":2}]},{"id":"sauteedveggies","name":"SauteedVeggies","email":"","contentCount":3,"topTags":[{"id":"创造力","name":"创造力","count":3},{"id":"教育","name":"教育","count":2},{"id":"学术文化","name":"学术文化","count":1}]},{"id":"simon-willison","name":"Simon Willison","email":"","occupation":"开源软件开发者","website":"https://simonwillison.net/","bio":"Django 联合创建者和 Datasette 作者，开发数据探索与发布工具，并记录编程和大语言模型实践。","contentCount":3,"topTags":[{"id":"claude","name":"Claude","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"python","name":"Python","count":1}]},{"id":"tugce-erten","name":"Tugce Erten","email":"","occupation":"定价策略顾问","website":"https://a16z.com/author/tugce-erten/","bio":"在 a16z 关注定价与套餐设计，撰写软件订阅、按用量收费及生成式 AI 商业化的分析文章。","contentCount":3,"topTags":[{"id":"产品定价","name":"产品定价","count":3},{"id":"人工智能","name":"人工智能","count":2},{"id":"商业模式","name":"商业模式","count":2}]},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":"","occupation":"科技记者、播客主持人","website":"https://alexkantrowitz.com/","bio":"创办 Big Technology 通讯与播客，报道科技巨头及其社会影响，著有《Always Day One》。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"amit-raghuvanshi","name":"Amit Raghuvanshi","email":"","occupation":"软件工程师与技术作者","website":"https://thearchitectsnotebook.substack.com/about","bio":"创办 The Architect’s Notebook，结合软件工程实践，讲解系统设计、分布式架构与可靠性。","contentCount":2,"topTags":[{"id":"分布式系统","name":"分布式系统","count":2},{"id":"可观测性","name":"可观测性","count":1},{"id":"尾延迟","name":"尾延迟","count":1}]},{"id":"andy-matuschak","name":"Andy Matuschak","email":"","occupation":"应用研究者","website":"https://andymatuschak.org/","bio":"设计帮助人们理解、记忆和运用知识的交互工具，曾参与 Apple 的 iOS 开发并负责可汗学院研发。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"软件设计","name":"软件设计","count":2}]},{"id":"ben-brubaker","name":"Ben Brubaker","email":"","occupation":"科学记者","website":"https://www.quantamagazine.org/authors/brubaker_ben/","bio":"在 Quanta 报道计算机科学，曾从事物理学研究，拥有耶鲁大学物理学博士学位。","contentCount":2,"topTags":[{"id":"计算复杂性","name":"计算复杂性","count":2},{"id":"人工智能","name":"人工智能","count":1},{"id":"独特博弈","name":"独特博弈","count":1}]},{"id":"bj-rn-ian-dundas","name":"Bjørn Ian Dundas","email":"","occupation":"数学家","website":"https://www4.uib.no/finn-ansatte/bjorn-ian.dundas","bio":"卑尔根大学数学教授，研究代数 K 理论与同伦论，并参与阿贝尔奖得主访谈。","contentCount":2,"topTags":[{"id":"数学研究","name":"数学研究","count":2},{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1}]},{"id":"danya-issawi","name":"Danya Issawi","email":"","occupation":"记者、作者","website":"https://mishmashy.substack.com/about","bio":"创办 Mish Mashy 通讯，撰写有关时尚、流行文化与日常生活的报道、随笔和访谈。","contentCount":2,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"出版业","name":"出版业","count":1}]},{"id":"elena-verna","name":"Elena Verna","email":"","occupation":"增长顾问、写作者","website":"https://www.elenaverna.com/","bio":"从事企业软件增长与咨询，曾在 Miro、Dropbox 等公司任职，关注产品驱动的增长策略。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"gary-marcus","name":"Gary Marcus","email":"","occupation":"人工智能研究者与作者","website":"https://mitpress.mit.edu/author/gary-f-marcus-4510/","bio":"纽约大学荣休教授，曾创办机器学习公司，著有《Rebooting AI》等书，讨论人工智能的能力与风险。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业治理","name":"企业治理","count":1}]},{"id":"gergely-orosz","name":"Gergely Orosz","email":"","occupation":"软件工程师、科技作者","website":"https://blog.pragmaticengineer.com/about/","bio":"撰写 Pragmatic Engineer 通讯，报道软件工程实践与科技行业，曾负责 Uber 的工程团队。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"代码审查","name":"代码审查","count":1}]},{"id":"gregory-zuckerman","name":"Gregory Zuckerman","email":"","occupation":"财经记者、作家","website":"https://www.gregoryzuckerman.com/","bio":"长期报道金融机构、对冲基金与能源行业，写作聚焦投资人物、市场交易和企业发展。","contentCount":2,"topTags":[{"id":"人生经历","name":"人生经历","count":1},{"id":"价值投资","name":"价值投资","count":1},{"id":"投资决策","name":"投资决策","count":1}]},{"id":"han-lee","name":"Han Lee","email":"","occupation":"机器学习工程师","website":"https://leehanchung.github.io/","bio":"构建大语言模型、搜索与推荐系统，围绕生产环境中的人工智能、模型评估和工程实践写作。","contentCount":2,"topTags":[{"id":"上下文工程","name":"上下文工程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"hugo-duminil-copin","name":"Hugo Duminil-Copin","email":"","occupation":"数学家","website":"https://www.ihes.fr/en/professeur/hugo-duminil-copin-2/","bio":"运用概率论研究统计物理中的临界现象与相变，研究涉及渗流和伊辛模型，获 2022 年菲尔兹奖。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"数学教育","name":"数学教育","count":2},{"id":"数学研究","name":"数学研究","count":2}]},{"id":"jc","name":"JC","email":"","contentCount":2,"topTags":[{"id":"企业战略","name":"企业战略","count":1},{"id":"企业治理","name":"企业治理","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"jd-vance","name":"JD Vance","email":"","occupation":"美国政治人物","website":"https://www.whitehouse.gov/administration/jd-vance/","bio":"美国副总统，曾任联邦参议员，早年服役于海军陆战队，著有回忆录《乡下人的悲歌》。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"国际关系","name":"国际关系","count":1}]},{"id":"jensen-huang","name":"Jensen Huang","email":"","occupation":"企业家","website":"https://nvidianews.nvidia.com/bios/jensen-huang","bio":"1993 年创办英伟达，长期领导公司发展图形处理器、加速计算及面向人工智能的计算平台。","contentCount":2,"topTags":[{"id":"gpu","name":"GPU","count":2},{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"cuda","name":"CUDA","count":1}]},{"id":"jordana-cepelewicz","name":"Jordana Cepelewicz","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/jordana-cepelewicz/","bio":"曾为 Quanta 报道数学与生物学，拥有耶鲁大学数学与比较文学双学位，亦为科学刊物撰稿。","contentCount":2,"topTags":[{"id":"科研生涯","name":"科研生涯","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"katie-parrott","name":"Katie Parrott","email":"","occupation":"科技作者与工具开发者","website":"https://katieparrott.com/","bio":"在 Every 记录人工智能对知识工作的影响，制作写作与编辑工具，并以个人实验介绍实际使用方法。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"konstantin-kakaes","name":"Konstantin Kakaes","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/konstantin-kakaes/","bio":"为 Quanta 撰写数学与人工智能报道，曾负责该刊数学编辑工作，也曾在《经济学人》等媒体工作。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"代数几何","name":"代数几何","count":1},{"id":"开放问题","name":"开放问题","count":1}]},{"id":"melanie-mitchell","name":"Melanie Mitchell","email":"","occupation":"人工智能研究者、作家","website":"https://melaniemitchell.me/","bio":"研究人工智能、认知科学与复杂系统，关注人类和机器的抽象、类比与推理，并撰写科普著作。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"抽象推理","name":"抽象推理","count":1}]},{"id":"peter-dizikes","name":"Peter Dizikes","email":"","occupation":"新闻记者","bio":"在 MIT News 撰稿，主要报道人文与社会科学，撰写研究新闻、校园人物和学术活动报道。","contentCount":2,"topTags":[{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":"","occupation":"体育记者","website":"https://espnpressroom.com/bio/ramona-shelburne/","bio":"为 ESPN 报道 NBA 新闻，参与电视与广播节目，并获职业篮球记者协会的专栏写作和突发新闻奖。","contentCount":2,"topTags":[{"id":"体育训练","name":"体育训练","count":2},{"id":"身心健康","name":"身心健康","count":2},{"id":"nba","name":"NBA","count":1}]},{"id":"sam-altman","name":"Sam Altman","email":"","occupation":"科技企业家","website":"https://blog.samaltman.com/","bio":"2015 年参与创办 OpenAI，曾任创业孵化器 Y Combinator 总裁，参与人工智能与科技创业。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创业","name":"创业","count":1},{"id":"样本效率","name":"样本效率","count":1}]},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":"","occupation":"投资者与企业家","bio":"长期领导伯克希尔·哈撒韦，撰写年度股东信，阐述投资决策、资本配置与企业经营原则。","contentCount":2,"topTags":[{"id":"价值投资","name":"价值投资","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"资本配置","name":"资本配置","count":2}]},{"id":"aaron-a-sandel","name":"Aaron A. Sandel","email":"","contentCount":1,"topTags":[{"id":"动物行为","name":"动物行为","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"群体冲突","name":"群体冲突","count":1}]},{"id":"abhi-abh1a0","name":"Abhi@abh1a0","email":"","contentCount":1,"topTags":[{"id":"信息检索","name":"信息检索","count":1},{"id":"搜索系统","name":"搜索系统","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"adam-mcneilly","name":"Adam McNeilly","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"addy-osmani","name":"Addy Osmani","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"adrian-sanborn","name":"Adrian Sanborn","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"alan-edelman","name":"Alan Edelman","email":"","contentCount":1,"topTags":[{"id":"julia","name":"Julia","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"alex-albert","name":"Alex Albert","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1},{"id":"开发工具","name":"开发工具","count":1}]},{"id":"alex-paino","name":"Alex Paino","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"alex-erik-barry-anthropic","name":"Alex, Erik, Barry (Anthropic)","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"allyn-jackson","name":"Allyn Jackson","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"amin-tootoonchian","name":"Amin Tootoonchian","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"andrew-wiles","name":"Andrew Wiles","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1}]},{"id":"andrey-mir","name":"Andrey Mir","email":"","contentCount":1,"topTags":[{"id":"媒介生态","name":"媒介生态","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"身份认同","name":"身份认同","count":1}]},{"id":"anish-acharya","name":"Anish Acharya","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创作","name":"创作","count":1},{"id":"媒介","name":"媒介","count":1}]},{"id":"anna-bawden","name":"Anna Bawden","email":"","contentCount":1,"topTags":[{"id":"神经科学","name":"神经科学","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"语言学习","name":"语言学习","count":1}]},{"id":"anne-trafton","name":"Anne Trafton","email":"","contentCount":1,"topTags":[{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1}]},{"id":"ariana-gaines","name":"Ariana Gaines","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"arielle-swedback","name":"Arielle Swedback","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"auriel-wright","name":"Auriel Wright","email":"","contentCount":1,"topTags":[{"id":"奖励投机","name":"奖励投机","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"austin-tedesco","name":"Austin Tedesco","email":"","contentCount":1,"topTags":[{"id":"codex","name":"Codex","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"知识工作","name":"知识工作","count":1}]},{"id":"ben-landau-taylor","name":"Ben Landau-Taylor","email":"","contentCount":1,"topTags":[{"id":"人际关系","name":"人际关系","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社群组织","name":"社群组织","count":1}]},{"id":"bilal-tahir","name":"Bilal Tahir","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"政治经济","name":"政治经济","count":1}]},{"id":"bob-nystrom","name":"Bob Nystrom","email":"","contentCount":1,"topTags":[{"id":"异步编程","name":"异步编程","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"boris-cherny","name":"Boris Cherny","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1},{"id":"开发工具","name":"开发工具","count":1}]},{"id":"bradford-morgan-white","name":"Bradford Morgan White","email":"","contentCount":1,"topTags":[{"id":"企业管理","name":"企业管理","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"科技史","name":"科技史","count":1}]},{"id":"brandon-vigliarolo","name":"Brandon Vigliarolo","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"社交媒体","name":"社交媒体","count":1}]},{"id":"bret-taylor","name":"Bret Taylor","email":"","contentCount":1,"topTags":[{"id":"创业","name":"创业","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"carson-gross","name":"Carson Gross","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"复杂度","name":"复杂度","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"casey-newton","name":"Casey Newton","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"c-dric-villani","name":"Cédric Villani","email":"","contentCount":1,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"chris-stokel-walker","name":"Chris Stokel-Walker","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"chris-williamson","name":"Chris Williamson","email":"","contentCount":1,"topTags":[{"id":"人生哲学","name":"人生哲学","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"幸福","name":"幸福","count":1}]},{"id":"claire-giangrav","name":"Claire Giangravè","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"社会正义","name":"社会正义","count":1}]},{"id":"claire-vo","name":"Claire Vo","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"原型设计","name":"原型设计","count":1}]},{"id":"cleo-abram","name":"Cleo Abram","email":"","contentCount":1,"topTags":[{"id":"gpu","name":"GPU","count":1},{"id":"机器人","name":"机器人","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"clive-thompson","name":"Clive Thompson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"connor-jones","name":"Connor Jones","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"craig-smith","name":"Craig Smith","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"模型训练","name":"模型训练","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"cyrus","name":"Cyrus","email":"","contentCount":1,"topTags":[{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"dan-koe","name":"Dan Koe","email":"","contentCount":1,"topTags":[{"id":"个人品牌","name":"个人品牌","count":1},{"id":"创业","name":"创业","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"dan-mcateer","name":"Dan McAteer","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"dan-pupius","name":"Dan Pupius","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创业","name":"创业","count":1},{"id":"平台经济","name":"平台经济","count":1}]},{"id":"daniel-grant","name":"Daniel Grant","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"daniel-selsam","name":"Daniel Selsam","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"darrin-joy","name":"Darrin Joy","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"创造力","name":"创造力","count":1},{"id":"大语言模型","name":"大语言模型","count":1}]},{"id":"david-chapman","name":"David Chapman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"博士培养","name":"博士培养","count":1},{"id":"学术写作","name":"学术写作","count":1}]},{"id":"david-george","name":"David George","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"经济增长","name":"经济增长","count":1}]},{"id":"david-kelly","name":"David Kelly","email":"","contentCount":1,"topTags":[{"id":"代谢健康","name":"代谢健康","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"运动健康","name":"运动健康","count":1}]},{"id":"david-louapre","name":"David Louapre","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"david-ondrej","name":"David Ondrej","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"david-pogue","name":"David Pogue","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"davide-castelvecchi","name":"Davide Castelvecchi","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"流体力学","name":"流体力学","count":1}]},{"id":"dennis-sullivan","name":"Dennis Sullivan","email":"","contentCount":1,"topTags":[{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"dimitris-koukoulopoulos","name":"Dimitris Koukoulopoulos","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"dylan-patel","name":"Dylan Patel","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"edsger-w-dijkstra","name":"Edsger W. Dijkstra","email":"","contentCount":1,"topTags":[{"id":"程序正确性","name":"程序正确性","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"自然语言","name":"自然语言","count":1}]},{"id":"eric-blair","name":"Eric Blair","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"文学","name":"文学","count":1}]},{"id":"eric-zakariasson","name":"Eric Zakariasson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"工具调用","name":"工具调用","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"evan-schuman","name":"Evan Schuman","email":"","contentCount":1,"topTags":[{"id":"供应链","name":"供应链","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"科技政策","name":"科技政策","count":1}]},{"id":"g-h-哈代","name":"G. H. 哈代","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"garanglow","name":"garanglow","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"数学反例","name":"数学反例","count":1}]},{"id":"george-m-whitesides","name":"George M. Whitesides","email":"","contentCount":1,"topTags":[{"id":"学术写作","name":"学术写作","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"科学传播","name":"科学传播","count":1}]},{"id":"george-saunders","name":"George Saunders","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"gilles-castel","name":"Gilles Castel","email":"","contentCount":1,"topTags":[{"id":"latex","name":"LaTeX","count":1},{"id":"vim","name":"Vim","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"gio-ahern","name":"Gio Ahern","email":"","contentCount":1,"topTags":[{"id":"企业软件","name":"企业软件","count":1},{"id":"数据管理","name":"数据管理","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"guillaume-chillet","name":"Guillaume Chillet","email":"","contentCount":1,"topTags":[{"id":"信息操纵","name":"信息操纵","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"认知科学","name":"认知科学","count":1}]},{"id":"hanne-winarsky","name":"Hanne Winarsky","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},{"id":"harrison-chase","name":"Harrison Chase","email":"","contentCount":1,"topTags":[{"id":"持续学习","name":"持续学习","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"长期记忆","name":"长期记忆","count":1}]},{"id":"harry-goldstein","name":"Harry Goldstein","email":"","contentCount":1,"topTags":[{"id":"投资","name":"投资","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数据中心","name":"数据中心","count":1}]},{"id":"harry-schwarz","name":"Harry Schwarz","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"任务管理","name":"任务管理","count":1}]},{"id":"harry-stebbings","name":"Harry Stebbings","email":"","contentCount":1,"topTags":[{"id":"windsurf","name":"Windsurf","count":1},{"id":"企业并购","name":"企业并购","count":1},{"id":"强化学习","name":"强化学习","count":1}]},{"id":"hilary-gridley","name":"Hilary Gridley","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"原型设计","name":"原型设计","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"hunter-harris","name":"Hunter Harris","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},{"id":"ilaria-parogni","name":"Ilaria Parogni","email":"","contentCount":1,"topTags":[{"id":"博物馆","name":"博物馆","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"艺术史","name":"艺术史","count":1}]},{"id":"ilya-sutskever","name":"Ilya Sutskever","email":"","contentCount":1,"topTags":[{"id":"科技伦理","name":"科技伦理","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1}]},{"id":"ingrid-wickelgren","name":"Ingrid Wickelgren","email":"","contentCount":1,"topTags":[{"id":"情绪调节","name":"情绪调节","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"神经科学","name":"神经科学","count":1}]},{"id":"iqiipi","name":"iqiipi","email":"","contentCount":1,"topTags":[{"id":"ada","name":"Ada","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"ivan-zhao","name":"Ivan Zhao","email":"","contentCount":1,"topTags":[{"id":"notion","name":"Notion","count":1},{"id":"产品设计","name":"产品设计","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"j-k-trotter","name":"J.K. Trotter","email":"","contentCount":1,"topTags":[{"id":"交通安全","name":"交通安全","count":1},{"id":"公共问责","name":"公共问责","count":1},{"id":"执法监督","name":"执法监督","count":1}]},{"id":"ja-westenberg","name":"JA Westenberg","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"创业","name":"创业","count":1},{"id":"劳动观念","name":"劳动观念","count":1}]},{"id":"jacek-krywko","name":"Jacek Krywko","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"火星探索","name":"火星探索","count":1}]},{"id":"jack-murtagh","name":"Jack Murtagh","email":"","contentCount":1,"topTags":[{"id":"整数乘法","name":"整数乘法","count":1},{"id":"算法","name":"算法","count":1},{"id":"计算复杂性","name":"计算复杂性","count":1}]},{"id":"jacob-sujin-kuppermann","name":"jacob sujin kuppermann","email":"","contentCount":1,"topTags":[{"id":"理性决策","name":"理性决策","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"jake-angelo","name":"Jake Angelo","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"投资回报","name":"投资回报","count":1}]},{"id":"jake-orlowitz","name":"Jake Orlowitz","email":"","contentCount":1,"topTags":[{"id":"公共知识","name":"公共知识","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"社区治理","name":"社区治理","count":1}]},{"id":"james-bennett","name":"James Bennett","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"james-clear","name":"James Clear","email":"","contentCount":1,"topTags":[{"id":"习惯养成","name":"习惯养成","count":1},{"id":"自我管理","name":"自我管理","count":1},{"id":"行为设计","name":"行为设计","count":1}]},{"id":"james-somers","name":"James Somers","email":"","contentCount":1,"topTags":[{"id":"分布式系统","name":"分布式系统","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"谷歌","name":"谷歌","count":1}]},{"id":"janna-levin","name":"Janna Levin","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"系外行星","name":"系外行星","count":1}]},{"id":"jared-henderson","name":"Jared Henderson","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"自我反思","name":"自我反思","count":1}]},{"id":"jasper-jolly","name":"Jasper Jolly","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"jay-dixit","name":"Jay Dixit","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"写作","name":"写作","count":1}]},{"id":"jean-pierre-serre","name":"Jean-Pierre Serre","email":"","contentCount":1,"topTags":[{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"数学证明","name":"数学证明","count":1},{"id":"数论","name":"数论","count":1}]},{"id":"jeff-dean","name":"Jeff Dean","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"gemini","name":"Gemini","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1}]},{"id":"jennifer-elias","name":"Jennifer Elias","email":"","contentCount":1,"topTags":[{"id":"搜索系统","name":"搜索系统","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"足球","name":"足球","count":1}]},{"id":"jer-lifeof-jer","name":"JER (@lifeof_jer)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"数据库安全","name":"数据库安全","count":1}]},{"id":"jeremy-hsu","name":"Jeremy Hsu","email":"","contentCount":1,"topTags":[{"id":"医疗技术","name":"医疗技术","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"jerry-han","name":"Jerry Han","email":"","contentCount":1,"topTags":[{"id":"计算规模","name":"计算规模","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"预训练","name":"预训练","count":1}]},{"id":"jim-simons","name":"Jim Simons","email":"","contentCount":1,"topTags":[{"id":"公益慈善","name":"公益慈善","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"量化投资","name":"量化投资","count":1}]},{"id":"joe-rogan","name":"Joe Rogan","email":"","contentCount":1,"topTags":[{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"国际关系","name":"国际关系","count":1},{"id":"太空探索","name":"太空探索","count":1}]},{"id":"joe-schmidt-iv","name":"Joe Schmidt IV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业软件","name":"企业软件","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"joel-khalili","name":"Joel Khalili","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"金融分析","name":"金融分析","count":1}]},{"id":"john-milnor","name":"John Milnor","email":"","contentCount":1,"topTags":[{"id":"代数k理论","name":"代数K理论","count":1},{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1}]},{"id":"john-nash","name":"John Nash","email":"","contentCount":1,"topTags":[{"id":"几何","name":"几何","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"john-paul-brammer","name":"John Paul Brammer","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"jon-brodkin","name":"Jon Brodkin","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"算法歧视","name":"算法歧视","count":1}]},{"id":"jordan-b-peterson","name":"Jordan B. Peterson","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"joseph-howlett","name":"Joseph Howlett","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"数学","name":"数学","count":1}]},{"id":"jumploops","name":"jumploops","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"kat-boboris","name":"Kat Boboris","email":"","contentCount":1,"topTags":[{"id":"arxiv","name":"arXiv","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"非营利组织","name":"非营利组织","count":1}]},{"id":"kathleen-schmidt","name":"Kathleen Schmidt","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"kenneth-chang","name":"Kenneth Chang","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科研伦理","name":"科研伦理","count":1},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":1}]},{"id":"kevin-hartnett","name":"Kevin Hartnett","email":"","contentCount":1,"topTags":[{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"类型论","name":"类型论","count":1}]},{"id":"kevin-kelly","name":"Kevin Kelly","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"内容创作","name":"内容创作","count":1},{"id":"未来预测","name":"未来预测","count":1}]},{"id":"kevin-roose","name":"Kevin Roose","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"kieran-klaassen","name":"Kieran Klaassen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"kunihiko-kodaira","name":"Kunihiko Kodaira","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1}]},{"id":"ky","name":"Ky","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科技行业","name":"科技行业","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"kyle-kingsbury","name":"Kyle Kingsbury","email":"","contentCount":1,"topTags":[{"id":"信息生态","name":"信息生态","count":1},{"id":"心理健康","name":"心理健康","count":1},{"id":"机器学习","name":"机器学习","count":1}]},{"id":"lee-boonstra","name":"Lee Boonstra","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"提示工程","name":"提示工程","count":1}]},{"id":"lee-child","name":"Lee Child","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"类型小说","name":"类型小说","count":1}]},{"id":"leerob","name":"leerob","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"cursor","name":"Cursor","count":1},{"id":"上下文工程","name":"上下文工程","count":1}]},{"id":"leiden-declaration","name":"Leiden Declaration","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"leila-sloman","name":"Leila Sloman","email":"","contentCount":1,"topTags":[{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"高维几何","name":"高维几何","count":1}]},{"id":"leo-pp-xiv","name":"LEO PP. XIV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"宗教","name":"宗教","count":1}]},{"id":"lilian-weng","name":"Lilian Weng","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"思维链","name":"思维链","count":1}]},{"id":"lincoln-michel","name":"Lincoln Michel","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"linus-torvalds","name":"Linus Torvalds","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"开源","name":"开源","count":1},{"id":"版本控制","name":"版本控制","count":1}]},{"id":"lionel-martellini","name":"Lionel Martellini","email":"","contentCount":1,"topTags":[{"id":"量子计算","name":"量子计算","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"风险管理","name":"风险管理","count":1}]},{"id":"logan-kugler","name":"Logan Kugler","email":"","contentCount":1,"topTags":[{"id":"容错计算","name":"容错计算","count":1},{"id":"航天工程","name":"航天工程","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"lucas-gu","name":"Lucas Gu","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"luciano-nooijen","name":"Luciano Nooijen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码编辑器","name":"代码编辑器","count":1},{"id":"技能退化","name":"技能退化","count":1}]},{"id":"maggie-dong","name":"Maggie Dong","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"malcolm-spittler","name":"Malcolm Spittler","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"marcus-moretti","name":"Marcus Moretti","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"martin-alderson","name":"Martin Alderson","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"算力","name":"算力","count":1},{"id":"能源","name":"能源","count":1}]},{"id":"masaki-kashiwara","name":"Masaki Kashiwara","email":"","contentCount":1,"topTags":[{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"max-schoening","name":"Max Schoening","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"产品管理","name":"产品管理","count":1},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"maya-bar-hillel","name":"Maya Bar-Hillel","email":"","contentCount":1,"topTags":[{"id":"心理学","name":"心理学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"认知偏差","name":"认知偏差","count":1}]},{"id":"michael-douglas","name":"Michael Douglas","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"michael-truell","name":"Michael Truell","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"cursor","name":"Cursor","count":1},{"id":"代码编辑器","name":"代码编辑器","count":1}]},{"id":"michelle-starr","name":"Michelle Starr","email":"","contentCount":1,"topTags":[{"id":"x射线成像","name":"X射线成像","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"migoroedu","name":"MigOroEdu","email":"","contentCount":1,"topTags":[{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"组合数学","name":"组合数学","count":1}]},{"id":"mike-perham","name":"Mike Perham","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"指令遵循","name":"指令遵循","count":1}]},{"id":"mike-prada","name":"Mike Prada","email":"","contentCount":1,"topTags":[{"id":"nba","name":"NBA","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"团队管理","name":"团队管理","count":1}]},{"id":"mike-taylor","name":"Mike Taylor","email":"","contentCount":1,"topTags":[{"id":"开发工作流","name":"开发工作流","count":1},{"id":"成本优化","name":"成本优化","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"nat-eliason","name":"Nat Eliason","email":"","contentCount":1,"topTags":[{"id":"创作","name":"创作","count":1},{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"natalie-wolchover","name":"Natalie Wolchover","email":"","contentCount":1,"topTags":[{"id":"kakeya猜想","name":"Kakeya猜想","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"nathan-parde","name":"Nathan Parde","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"neil-j-rubenking","name":"Neil J. Rubenking","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"nick-mcgreivy","name":"Nick McGreivy","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"可复现研究","name":"可复现研究","count":1}]},{"id":"nir-eyal","name":"Nir Eyal","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"注意力","name":"注意力","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"nolan-lawson","name":"Nolan Lawson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"软件质量","name":"软件质量","count":1}]},{"id":"oussama-khatib","name":"Oussama Khatib","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"机器人","name":"机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"owen-williams","name":"Owen Williams","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"原型设计","name":"原型设计","count":1}]},{"id":"p-w-anderson","name":"P. W. Anderson","email":"","contentCount":1,"topTags":[{"id":"凝聚态物理","name":"凝聚态物理","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"涌现","name":"涌现","count":1}]},{"id":"paul-graham","name":"Paul Graham","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"审美","name":"审美","count":1},{"id":"设计","name":"设计","count":1}]},{"id":"pere-villega","name":"Pere Villega","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"软件工程","name":"软件工程","count":1},{"id":"软件经济","name":"软件经济","count":1}]},{"id":"peter-thiel","name":"Peter Thiel","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"peter-yang","name":"Peter Yang","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"codex","name":"Codex","count":1},{"id":"产品开发","name":"产品开发","count":1}]},{"id":"philip-ball","name":"Philip Ball","email":"","contentCount":1,"topTags":[{"id":"生命科学","name":"生命科学","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"philippe-tibi","name":"Philippe Tibi","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"quincy-mackay","name":"Quincy Mackay","email":"","contentCount":1,"topTags":[{"id":"ai艺术","name":"AI艺术","count":1},{"id":"文化","name":"文化","count":1},{"id":"集体创作","name":"集体创作","count":1}]},{"id":"r-jimmy","name":"R.Jimmy","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"技能学习","name":"技能学习","count":1}]},{"id":"rafael-tus","name":"Rafael Tus","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"民主制度","name":"民主制度","count":1}]},{"id":"rahul-kalvapalle","name":"Rahul Kalvapalle","email":"","contentCount":1,"topTags":[{"id":"好奇心","name":"好奇心","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"reece-rogers","name":"Reece Rogers","email":"","contentCount":1,"topTags":[{"id":"即时通信","name":"即时通信","count":1},{"id":"网络安全","name":"网络安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"reiner-pope","name":"Reiner Pope","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"推理优化","name":"推理优化","count":1},{"id":"模型训练","name":"模型训练","count":1}]},{"id":"reuben-hersh","name":"Reuben Hersh","email":"","contentCount":1,"topTags":[{"id":"形式主义","name":"形式主义","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学实践","name":"数学实践","count":1}]},{"id":"richard-baraniuk","name":"Richard Baraniuk","email":"","contentCount":1,"topTags":[{"id":"优化算法","name":"优化算法","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"压缩感知","name":"压缩感知","count":1}]},{"id":"richard-sutton","name":"Richard Sutton","email":"","contentCount":1,"topTags":[{"id":"强化学习","name":"强化学习","count":1},{"id":"机器学习","name":"机器学习","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"rishi-athavale","name":"Rishi Athavale","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"roula-khalaf","name":"Roula Khalaf","email":"","contentCount":1,"topTags":[{"id":"中美关系","name":"中美关系","count":1},{"id":"关税政策","name":"关税政策","count":1},{"id":"国际贸易","name":"国际贸易","count":1}]},{"id":"russ-roberts","name":"Russ Roberts","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"sara-hashemi","name":"Sara Hashemi","email":"","contentCount":1,"topTags":[{"id":"低碳技术","name":"低碳技术","count":1},{"id":"材料科学","name":"材料科学","count":1},{"id":"混凝土","name":"混凝土","count":1}]},{"id":"sarah-wang","name":"Sarah Wang","email":"","contentCount":1,"topTags":[{"id":"产品定价","name":"产品定价","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"商业模式","name":"商业模式","count":1}]},{"id":"scott-galloway","name":"Scott Galloway","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人际沟通","name":"人际沟通","count":1},{"id":"劳动市场","name":"劳动市场","count":1}]},{"id":"scott-k-johnson","name":"Scott K. Johnson","email":"","contentCount":1,"topTags":[{"id":"学术诚信","name":"学术诚信","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"scott-wu-russell-kaplan-受访-joe-lonsdale-","name":"Scott Wu & Russell Kaplan（受访） / Joe Lonsdale（主持）","email":"","contentCount":1,"topTags":[{"id":"devin","name":"Devin","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"sebastian-raschka","name":"Sebastian Raschka","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"shmuel-berman","name":"Shmuel Berman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"sophie-wu","name":"Sophie Wu","email":"","contentCount":1,"topTags":[{"id":"来源引用","name":"来源引用","count":1},{"id":"知识档案","name":"知识档案","count":1},{"id":"维基百科","name":"维基百科","count":1}]},{"id":"stella-garber","name":"Stella Garber","email":"","contentCount":1,"topTags":[{"id":"产品开发","name":"产品开发","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"steven-levy","name":"Steven Levy","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1}]},{"id":"steven-vaughan-nichols","name":"Steven Vaughan-Nichols","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"linux","name":"Linux","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"susam-pal","name":"Susam Pal","email":"","contentCount":1,"topTags":[{"id":"lisp","name":"Lisp","count":1},{"id":"vim","name":"Vim","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"tanya-klowden","name":"Tanya Klowden","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"thomas-claburn","name":"Thomas Claburn","email":"","contentCount":1,"topTags":[{"id":"claude-code","name":"Claude Code","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"timothy-gowers","name":"Timothy Gowers","email":"","contentCount":1,"topTags":[{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"加性数论","name":"加性数论","count":1}]},{"id":"tom-yc-合伙人","name":"Tom (YC 合伙人)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"版本控制","name":"版本控制","count":1}]},{"id":"vadim-drobinin","name":"Vadim Drobinin","email":"","contentCount":1,"topTags":[{"id":"ios","name":"iOS","count":1},{"id":"体育","name":"体育","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"varun-mohan","name":"Varun Mohan","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"windsurf","name":"Windsurf","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"walden-walden-yan","name":"Walden (@walden_yan)","email":"","contentCount":1,"topTags":[{"id":"多智能体","name":"多智能体","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"william-p-thurston","name":"William P. Thurston","email":"","contentCount":1,"topTags":[{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"数学证明","name":"数学证明","count":1}]},{"id":"xinran-ma","name":"Xinran Ma","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"web开发","name":"Web开发","count":1},{"id":"前端开发","name":"前端开发","count":1}]},{"id":"yann-lecun","name":"Yann LeCun","email":"","contentCount":1,"topTags":[{"id":"jepa","name":"JEPA","count":1},{"id":"世界模型","name":"世界模型","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"yoko-li","name":"Yoko Li","email":"","contentCount":1,"topTags":[{"id":"反馈机制","name":"反馈机制","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"z400racer37","name":"z400racer37","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"zach-winn","name":"Zach Winn","email":"","contentCount":1,"topTags":[{"id":"储能","name":"储能","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"材料科学","name":"材料科学","count":1}]},{"id":"乔治-帕克","name":"乔治·帕克","email":"","contentCount":1,"topTags":[{"id":"科技发展","name":"科技发展","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"风险投资","name":"风险投资","count":1}]},{"id":"倪忆","name":"倪忆","email":"","contentCount":1,"topTags":[{"id":"人才培养","name":"人才培养","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"凯瑞恩-詹姆斯-caryn-james","name":"凯瑞恩·詹姆斯（Caryn James）","email":"","contentCount":1,"topTags":[{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"吕超","name":"吕超","email":"","contentCount":1,"topTags":[{"id":"ci-cd","name":"CI/CD","count":1},{"id":"可观测性","name":"可观测性","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"埃马纽埃尔-马克龙","name":"埃马纽埃尔·马克龙","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"医疗技术","name":"医疗技术","count":1}]},{"id":"大内鲁社长","name":"大内鲁社长","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"债务","name":"债务","count":1},{"id":"房地产","name":"房地产","count":1}]},{"id":"布拉德-史密斯","name":"布拉德·史密斯","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"公益慈善","name":"公益慈善","count":1},{"id":"微软","name":"微软","count":1}]},{"id":"布里特-希尔兹","name":"布里特·希尔兹","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"弗里德里希-洪德","name":"弗里德里希·洪德","email":"","contentCount":1,"topTags":[{"id":"宇宙学","name":"宇宙学","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"相对论","name":"相对论","count":1}]},{"id":"迈克尔-j-巴拉尼","name":"迈克尔·J·巴拉尼","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"迈克尔-桑德尔","name":"迈克尔·桑德尔","email":"","contentCount":1,"topTags":[{"id":"优绩主义","name":"优绩主义","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"政治哲学","name":"政治哲学","count":1}]},{"id":"颜一清","name":"颜一清","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]}],"tags":[{"id":"人工智能","name":"人工智能","count":106},{"id":"ai编程","name":"AI编程","count":69},{"id":"智能体","name":"智能体","count":66},{"id":"数学研究","name":"数学研究","count":43},{"id":"大语言模型","name":"大语言模型","count":29},{"id":"科研生涯","name":"科研生涯","count":23},{"id":"企业管理","name":"企业管理","count":22},{"id":"创业","name":"创业","count":21},{"id":"数学教育","name":"数学教育","count":21},{"id":"职业发展","name":"职业发展","count":21},{"id":"模型评估","name":"模型评估","count":20},{"id":"软件工程","name":"软件工程","count":20},{"id":"写作","name":"写作","count":17},{"id":"开源","name":"开源","count":16},{"id":"开发工作流","name":"开发工作流","count":15},{"id":"产品设计","name":"产品设计","count":14},{"id":"劳动市场","name":"劳动市场","count":13},{"id":"科研自动化","name":"科研自动化","count":13},{"id":"nba","name":"NBA","count":11},{"id":"企业战略","name":"企业战略","count":11},{"id":"算力","name":"算力","count":11},{"id":"软件架构","name":"软件架构","count":11},{"id":"通用人工智能","name":"通用人工智能","count":10},{"id":"ai基础设施","name":"AI基础设施","count":9},{"id":"claude","name":"Claude","count":9},{"id":"claude-code","name":"Claude Code","count":9},{"id":"上下文工程","name":"上下文工程","count":9},{"id":"创造力","name":"创造力","count":9},{"id":"模型训练","name":"模型训练","count":9},{"id":"苹果","name":"苹果","count":9},{"id":"ai安全","name":"AI安全","count":8},{"id":"gpu","name":"GPU","count":8},{"id":"人机协作","name":"人机协作","count":8},{"id":"代码审查","name":"代码审查","count":8},{"id":"创作","name":"创作","count":8},{"id":"多智能体","name":"多智能体","count":8},{"id":"强化学习","name":"强化学习","count":8},{"id":"机器学习","name":"机器学习","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"知识管理","name":"知识管理","count":8},{"id":"社交媒体","name":"社交媒体","count":8},{"id":"科学发现","name":"科学发现","count":8},{"id":"能源","name":"能源","count":8},{"id":"自我管理","name":"自我管理","count":8},{"id":"计算机史","name":"计算机史","count":8},{"id":"软件可靠性","name":"软件可靠性","count":8},{"id":"工具调用","name":"工具调用","count":7},{"id":"心理健康","name":"心理健康","count":7},{"id":"生产率","name":"生产率","count":7},{"id":"科技政策","name":"科技政策","count":7},{"id":"篮球","name":"篮球","count":7},{"id":"编程语言","name":"编程语言","count":7},{"id":"计算复杂性","name":"计算复杂性","count":7},{"id":"认知科学","name":"认知科学","count":7},{"id":"ai写作","name":"AI写作","count":6},{"id":"产品开发","name":"产品开发","count":6},{"id":"代数几何","name":"代数几何","count":6},{"id":"数学史","name":"数学史","count":6},{"id":"研究方法","name":"研究方法","count":6},{"id":"科学哲学","name":"科学哲学","count":6},{"id":"科学计算","name":"科学计算","count":6},{"id":"科研评价","name":"科研评价","count":6},{"id":"网络安全","name":"网络安全","count":6},{"id":"风险投资","name":"风险投资","count":6},{"id":"deepseek","name":"DeepSeek","count":5},{"id":"devin","name":"Devin","count":5},{"id":"云计算","name":"云计算","count":5},{"id":"产品管理","name":"产品管理","count":5},{"id":"内容创作","name":"内容创作","count":5},{"id":"分布式系统","name":"分布式系统","count":5},{"id":"叙事技巧","name":"叙事技巧","count":5},{"id":"平台经济","name":"平台经济","count":5},{"id":"开发基础设施","name":"开发基础设施","count":5},{"id":"开放模型","name":"开放模型","count":5},{"id":"形式化数学","name":"形式化数学","count":5},{"id":"推理优化","name":"推理优化","count":5},{"id":"政府改革","name":"政府改革","count":5},{"id":"教育","name":"教育","count":5},{"id":"数学哲学","name":"数学哲学","count":5},{"id":"数学证明","name":"数学证明","count":5},{"id":"数据中心","name":"数据中心","count":5},{"id":"版本控制","name":"版本控制","count":5},{"id":"生成式ai","name":"生成式AI","count":5},{"id":"科技伦理","name":"科技伦理","count":5},{"id":"航天工程","name":"航天工程","count":5},{"id":"计算规模","name":"计算规模","count":5},{"id":"软件开发","name":"软件开发","count":5},{"id":"量子计算","name":"量子计算","count":5},{"id":"银行业","name":"银行业","count":5},{"id":"ai治理","name":"AI治理","count":4},{"id":"chatgpt","name":"ChatGPT","count":4},{"id":"codex","name":"Codex","count":4},{"id":"cursor","name":"Cursor","count":4},{"id":"git","name":"Git","count":4},{"id":"lean","name":"Lean","count":4},{"id":"linux","name":"Linux","count":4},{"id":"mcp","name":"MCP","count":4},{"id":"世界模型","name":"世界模型","count":4},{"id":"人生经历","name":"人生经历","count":4},{"id":"价值投资","name":"价值投资","count":4},{"id":"企业治理","name":"企业治理","count":4},{"id":"企业软件","name":"企业软件","count":4},{"id":"体育心理","name":"体育心理","count":4},{"id":"体育训练","name":"体育训练","count":4},{"id":"供应链","name":"供应链","count":4},{"id":"信息检索","name":"信息检索","count":4},{"id":"偏微分方程","name":"偏微分方程","count":4},{"id":"国际关系","name":"国际关系","count":4},{"id":"定理证明","name":"定理证明","count":4},{"id":"成本优化","name":"成本优化","count":4},{"id":"提示工程","name":"提示工程","count":4},{"id":"文化","name":"文化","count":4},{"id":"机器人","name":"机器人","count":4},{"id":"样本效率","name":"样本效率","count":4},{"id":"模型架构","name":"模型架构","count":4},{"id":"流体力学","name":"流体力学","count":4},{"id":"知识交流","name":"知识交流","count":4},{"id":"科学传播","name":"科学传播","count":4},{"id":"组织信任","name":"组织信任","count":4},{"id":"编程教学","name":"编程教学","count":4},{"id":"芯片","name":"芯片","count":4},{"id":"软件维护","name":"软件维护","count":4},{"id":"量化投资","name":"量化投资","count":4},{"id":"隐私保护","name":"隐私保护","count":4},{"id":"领导力","name":"领导力","count":4},{"id":"kakeya猜想","name":"Kakeya猜想","count":3},{"id":"p与np","name":"P与NP","count":3},{"id":"windsurf","name":"Windsurf","count":3},{"id":"产品定价","name":"产品定价","count":3},{"id":"人际关系","name":"人际关系","count":3},{"id":"人际沟通","name":"人际沟通","count":3},{"id":"代码编辑器","name":"代码编辑器","count":3},{"id":"企业文化","name":"企业文化","count":3},{"id":"保险","name":"保险","count":3},{"id":"关税政策","name":"关税政策","count":3},{"id":"出版业","name":"出版业","count":3},{"id":"博士培养","name":"博士培养","count":3},{"id":"原型设计","name":"原型设计","count":3},{"id":"反馈机制","name":"反馈机制","count":3},{"id":"可复现研究","name":"可复现研究","count":3},{"id":"可观测性","name":"可观测性","count":3},{"id":"哲学","name":"哲学","count":3},{"id":"商业模式","name":"商业模式","count":3},{"id":"团队管理","name":"团队管理","count":3},{"id":"复杂度","name":"复杂度","count":3},{"id":"好奇心","name":"好奇心","count":3},{"id":"并行计算","name":"并行计算","count":3},{"id":"开发工具","name":"开发工具","count":3},{"id":"微软","name":"微软","count":3},{"id":"情绪调节","name":"情绪调节","count":3},{"id":"技能学习","name":"技能学习","count":3},{"id":"持续学习","name":"持续学习","count":3},{"id":"搜索系统","name":"搜索系统","count":3},{"id":"政治哲学","name":"政治哲学","count":3},{"id":"数据分析","name":"数据分析","count":3},{"id":"数论","name":"数论","count":3},{"id":"文学编程","name":"文学编程","count":3},{"id":"权限管理","name":"权限管理","count":3},{"id":"模型蒸馏","name":"模型蒸馏","count":3},{"id":"注意力","name":"注意力","count":3},{"id":"浏览器","name":"浏览器","count":3},{"id":"消费者产品","name":"消费者产品","count":3},{"id":"独立媒体","name":"独立媒体","count":3},{"id":"用户体验","name":"用户体验","count":3},{"id":"用户研究","name":"用户研究","count":3},{"id":"社区治理","name":"社区治理","count":3},{"id":"神经科学","name":"神经科学","count":3},{"id":"科学史","name":"科学史","count":3},{"id":"科研伦理","name":"科研伦理","count":3},{"id":"算术几何","name":"算术几何","count":3},{"id":"算法","name":"算法","count":3},{"id":"篮球战术","name":"篮球战术","count":3},{"id":"经济增长","name":"经济增长","count":3},{"id":"网络讨论","name":"网络讨论","count":3},{"id":"自动化","name":"自动化","count":3},{"id":"药物研发","name":"药物研发","count":3},{"id":"计算机体系结构","name":"计算机体系结构","count":3},{"id":"计算理论","name":"计算理论","count":3},{"id":"调和分析","name":"调和分析","count":3},{"id":"谷歌","name":"谷歌","count":3},{"id":"财政政策","name":"财政政策","count":3},{"id":"资本市场","name":"资本市场","count":3},{"id":"足球","name":"足球","count":3},{"id":"身心健康","name":"身心健康","count":3},{"id":"软件测试","name":"软件测试","count":3},{"id":"量子力学","name":"量子力学","count":3},{"id":"雅可比猜想","name":"雅可比猜想","count":3},{"id":"预训练","name":"预训练","count":3},{"id":"高等教育","name":"高等教育","count":3},{"id":"ai芯片","name":"AI芯片","count":2},{"id":"ai辅助学习","name":"AI辅助学习","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"notion","name":"Notion","count":2},{"id":"org-mode","name":"Org Mode","count":2},{"id":"python","name":"Python","count":2},{"id":"saas","name":"SaaS","count":2},{"id":"vim","name":"Vim","count":2},{"id":"web开发","name":"Web开发","count":2},{"id":"个人理财","name":"个人理财","count":2},{"id":"乌克兰战争","name":"乌克兰战争","count":2},{"id":"代码验证","name":"代码验证","count":2},{"id":"代谢健康","name":"代谢健康","count":2},{"id":"仿真","name":"仿真","count":2},{"id":"企业并购","name":"企业并购","count":2},{"id":"信号处理","name":"信号处理","count":2},{"id":"债务","name":"债务","count":2},{"id":"公共问责","name":"公共问责","count":2},{"id":"公益慈善","name":"公益慈善","count":2},{"id":"凝聚态物理","name":"凝聚态物理","count":2},{"id":"出口管制","name":"出口管制","count":2},{"id":"创意产业","name":"创意产业","count":2},{"id":"动力系统","name":"动力系统","count":2},{"id":"动物行为","name":"动物行为","count":2},{"id":"动画电影","name":"动画电影","count":2},{"id":"劳动尊严","name":"劳动尊严","count":2},{"id":"劳动权益","name":"劳动权益","count":2},{"id":"医疗技术","name":"医疗技术","count":2},{"id":"压缩感知","name":"压缩感知","count":2},{"id":"古希腊神话","name":"古希腊神话","count":2},{"id":"品牌管理","name":"品牌管理","count":2},{"id":"团队协作","name":"团队协作","count":2},{"id":"增强现实","name":"增强现实","count":2},{"id":"外星生命","name":"外星生命","count":2},{"id":"奖励投机","name":"奖励投机","count":2},{"id":"学习动机","name":"学习动机","count":2},{"id":"学术写作","name":"学术写作","count":2},{"id":"学术诚信","name":"学术诚信","count":2},{"id":"宗教","name":"宗教","count":2},{"id":"容错计算","name":"容错计算","count":2},{"id":"工业设计","name":"工业设计","count":2},{"id":"开发环境","name":"开发环境","count":2},{"id":"开放科学","name":"开放科学","count":2},{"id":"开放网络","name":"开放网络","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"心理学","name":"心理学","count":2},{"id":"思维链","name":"思维链","count":2},{"id":"性能优化","name":"性能优化","count":2},{"id":"技能退化","name":"技能退化","count":2},{"id":"投资","name":"投资","count":2},{"id":"抽象推理","name":"抽象推理","count":2},{"id":"拓扑学","name":"拓扑学","count":2},{"id":"推理模型","name":"推理模型","count":2},{"id":"政治制度","name":"政治制度","count":2},{"id":"效率工具","name":"效率工具","count":2},{"id":"数学基础","name":"数学基础","count":2},{"id":"数据治理","name":"数据治理","count":2},{"id":"数据科学","name":"数据科学","count":2},{"id":"数据管理","name":"数据管理","count":2},{"id":"文艺复兴","name":"文艺复兴","count":2},{"id":"新闻业","name":"新闻业","count":2},{"id":"材料科学","name":"材料科学","count":2},{"id":"概形","name":"概形","count":2},{"id":"概率论","name":"概率论","count":2},{"id":"模型路由","name":"模型路由","count":2},{"id":"民主制度","name":"民主制度","count":2},{"id":"沙箱安全","name":"沙箱安全","count":2},{"id":"法律责任","name":"法律责任","count":2},{"id":"涌现","name":"涌现","count":2},{"id":"渗流理论","name":"渗流理论","count":2},{"id":"球员评价","name":"球员评价","count":2},{"id":"理性决策","name":"理性决策","count":2},{"id":"生命科学","name":"生命科学","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"电动汽车","name":"电动汽车","count":2},{"id":"电影","name":"电影","count":2},{"id":"知识档案","name":"知识档案","count":2},{"id":"视频生成","name":"视频生成","count":2},{"id":"私募股权","name":"私募股权","count":2},{"id":"科学研究","name":"科学研究","count":2},{"id":"科技发展","name":"科技发展","count":2},{"id":"科技史","name":"科技史","count":2},{"id":"科技行业","name":"科技行业","count":2},{"id":"科研资助","name":"科研资助","count":2},{"id":"类型论","name":"类型论","count":2},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":2},{"id":"组合数学","name":"组合数学","count":2},{"id":"统计学","name":"统计学","count":2},{"id":"维基百科","name":"维基百科","count":2},{"id":"莫德尔猜想","name":"莫德尔猜想","count":2},{"id":"行为设计","name":"行为设计","count":2},{"id":"计算不可约性","name":"计算不可约性","count":2},{"id":"计算宇宙","name":"计算宇宙","count":2},{"id":"计算数学","name":"计算数学","count":2},{"id":"设计","name":"设计","count":2},{"id":"资本配置","name":"资本配置","count":2},{"id":"软件设计","name":"软件设计","count":2},{"id":"运动健康","name":"运动健康","count":2},{"id":"运动恢复","name":"运动恢复","count":2},{"id":"远程操控","name":"远程操控","count":2},{"id":"递归自我改进","name":"递归自我改进","count":2},{"id":"金融监管","name":"金融监管","count":2},{"id":"长期记忆","name":"长期记忆","count":2},{"id":"零知识证明","name":"零知识证明","count":2},{"id":"青蒿素","name":"青蒿素","count":2},{"id":"风险管理","name":"风险管理","count":2},{"id":"ada","name":"Ada","count":1},{"id":"ai对齐","name":"AI对齐","count":1},{"id":"ai艺术","name":"AI艺术","count":1},{"id":"alphago","name":"AlphaGo","count":1},{"id":"api设计","name":"API设计","count":1},{"id":"arxiv","name":"arXiv","count":1},{"id":"c","name":"C++","count":1},{"id":"ci-cd","name":"CI/CD","count":1},{"id":"cuda","name":"CUDA","count":1},{"id":"d模","name":"D模","count":1},{"id":"ffmpeg","name":"FFmpeg","count":1},{"id":"gemini","name":"Gemini","count":1},{"id":"glm","name":"GLM","count":1},{"id":"gpu内核","name":"GPU内核","count":1},{"id":"grok","name":"Grok","count":1},{"id":"haskell","name":"Haskell","count":1},{"id":"ios","name":"iOS","count":1},{"id":"julia","name":"Julia","count":1},{"id":"kimi","name":"Kimi","count":1},{"id":"kv缓存","name":"KV缓存","count":1},{"id":"latex","name":"LaTeX","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"ocr","name":"OCR","count":1},{"id":"openclaw","name":"OpenClaw","count":1},{"id":"paxos","name":"Paxos","count":1},{"id":"postgresql","name":"PostgreSQL","count":1},{"id":"raft","name":"Raft","count":1},{"id":"usenet","name":"Usenet","count":1},{"id":"vlc","name":"VLC","count":1},{"id":"webassembly","name":"WebAssembly","count":1},{"id":"wolfram-language","name":"Wolfram Language","count":1},{"id":"x射线成像","name":"X射线成像","count":1},{"id":"zed","name":"Zed","count":1},{"id":"个人品牌","name":"个人品牌","count":1},{"id":"个人经验","name":"个人经验","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"习惯养成","name":"习惯养成","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"互联网史","name":"互联网史","count":1},{"id":"交易","name":"交易","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"交通安全","name":"交通安全","count":1},{"id":"产业经济","name":"产业经济","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人性","name":"人性","count":1},{"id":"人才培养","name":"人才培养","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"人类进化","name":"人类进化","count":1},{"id":"付费内容","name":"付费内容","count":1},{"id":"代数k理论","name":"代数K理论","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"代际关系","name":"代际关系","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"企业传承","name":"企业传承","count":1},{"id":"企业数据","name":"企业数据","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优化算法","name":"优化算法","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"传统医学","name":"传统医学","count":1},{"id":"低碳技术","name":"低碳技术","count":1},{"id":"体育","name":"体育","count":1},{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"体育管理","name":"体育管理","count":1},{"id":"作者收入","name":"作者收入","count":1},{"id":"供应链安全","name":"供应链安全","count":1},{"id":"信息操纵","name":"信息操纵","count":1},{"id":"信息熵","name":"信息熵","count":1},{"id":"信息物理","name":"信息物理","count":1},{"id":"信息生态","name":"信息生态","count":1},{"id":"信贷","name":"信贷","count":1},{"id":"储能","name":"储能","count":1},{"id":"儿童保护","name":"儿童保护","count":1},{"id":"公众认知","name":"公众认知","count":1},{"id":"公共治理","name":"公共治理","count":1},{"id":"公共知识","name":"公共知识","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"内存优化","name":"内存优化","count":1},{"id":"内存管理","name":"内存管理","count":1},{"id":"内容传播","name":"内容传播","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"军事史","name":"军事史","count":1},{"id":"军事技术","name":"军事技术","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"凝聚数学","name":"凝聚数学","count":1},{"id":"几何","name":"几何","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"创业融资","name":"创业融资","count":1},{"id":"创作方法","name":"创作方法","count":1},{"id":"创新","name":"创新","count":1},{"id":"利率","name":"利率","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"前端开发","name":"前端开发","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"加密资产","name":"加密资产","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"加速器","name":"加速器","count":1},{"id":"动物福利","name":"动物福利","count":1},{"id":"劳动观念","name":"劳动观念","count":1},{"id":"协作开发","name":"协作开发","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非历史","name":"南非历史","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"博物馆","name":"博物馆","count":1},{"id":"卫星通信","name":"卫星通信","count":1},{"id":"印刷术","name":"印刷术","count":1},{"id":"即时通信","name":"即时通信","count":1},{"id":"历史解释","name":"历史解释","count":1},{"id":"古代dna","name":"古代DNA","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"后量子密码","name":"后量子密码","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"国际合作","name":"国际合作","count":1},{"id":"国际贸易","name":"国际贸易","count":1},{"id":"图像生成","name":"图像生成","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复利","name":"复利","count":1},{"id":"外交政策","name":"外交政策","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多媒体","name":"多媒体","count":1},{"id":"多模态","name":"多模态","count":1},{"id":"多项式映射","name":"多项式映射","count":1},{"id":"大学体育","name":"大学体育","count":1},{"id":"大学发展","name":"大学发展","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"媒介","name":"媒介","count":1},{"id":"媒介生态","name":"媒介生态","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"媒体权力","name":"媒体权力","count":1},{"id":"存储系统","name":"存储系统","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习方法","name":"学习方法","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"学术文化","name":"学术文化","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"完美胚空间","name":"完美胚空间","count":1},{"id":"实时系统","name":"实时系统","count":1},{"id":"审美","name":"审美","count":1},{"id":"客户服务","name":"客户服务","count":1},{"id":"家庭关系","name":"家庭关系","count":1},{"id":"密码学","name":"密码学","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小波","name":"小波","count":1},{"id":"尾延迟","name":"尾延迟","count":1},{"id":"干细胞","name":"干细胞","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"幸福","name":"幸福","count":1},{"id":"幽默创作","name":"幽默创作","count":1},{"id":"广义相对论","name":"广义相对论","count":1},{"id":"应激反应","name":"应激反应","count":1},{"id":"应用开发","name":"应用开发","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"开放问题","name":"开放问题","count":1},{"id":"异步智能体","name":"异步智能体","count":1},{"id":"异步编程","name":"异步编程","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"形式化验证","name":"形式化验证","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"意识","name":"意识","count":1},{"id":"感知","name":"感知","count":1},{"id":"房地产","name":"房地产","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"托尔金","name":"托尔金","count":1},{"id":"执法监督","name":"执法监督","count":1},{"id":"执行环境","name":"执行环境","count":1},{"id":"技术债","name":"技术债","count":1},{"id":"投资决策","name":"投资决策","count":1},{"id":"投资回报","name":"投资回报","count":1},{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"指令遵循","name":"指令遵循","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提示注入","name":"提示注入","count":1},{"id":"提示缓存","name":"提示缓存","count":1},{"id":"播客经营","name":"播客经营","count":1},{"id":"操作系统","name":"操作系统","count":1},{"id":"政治历史","name":"政治历史","count":1},{"id":"政治经济","name":"政治经济","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"数字孪生","name":"数字孪生","count":1},{"id":"数字技术","name":"数字技术","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"数学","name":"数学","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学可视化","name":"数学可视化","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学理解","name":"数学理解","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"数据平台","name":"数据平台","count":1},{"id":"数据库","name":"数据库","count":1},{"id":"数据库安全","name":"数据库安全","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"数据自主权","name":"数据自主权","count":1},{"id":"整数乘法","name":"整数乘法","count":1},{"id":"文学","name":"文学","count":1},{"id":"文档处理","name":"文档处理","count":1},{"id":"文档管理","name":"文档管理","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"新闻自由","name":"新闻自由","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"无线网络","name":"无线网络","count":1},{"id":"时间序列","name":"时间序列","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"未来预测","name":"未来预测","count":1},{"id":"本地模型","name":"本地模型","count":1},{"id":"权力","name":"权力","count":1},{"id":"来源引用","name":"来源引用","count":1},{"id":"检索增强生成","name":"检索增强生成","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"模型服务","name":"模型服务","count":1},{"id":"模式识别","name":"模式识别","count":1},{"id":"模拟宇宙","name":"模拟宇宙","count":1},{"id":"殖民历史","name":"殖民历史","count":1},{"id":"气候变化","name":"气候变化","count":1},{"id":"泛化能力","name":"泛化能力","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"流量管理","name":"流量管理","count":1},{"id":"海岸侵蚀","name":"海岸侵蚀","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"深空通信","name":"深空通信","count":1},{"id":"混凝土","name":"混凝土","count":1},{"id":"清代历史","name":"清代历史","count":1},{"id":"漏洞研究","name":"漏洞研究","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"激励机制","name":"激励机制","count":1},{"id":"火星探索","name":"火星探索","count":1},{"id":"热力学","name":"热力学","count":1},{"id":"爵士乐","name":"爵士乐","count":1},{"id":"版权","name":"版权","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"独特博弈","name":"独特博弈","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"甜味剂","name":"甜味剂","count":1},{"id":"生成式智能体","name":"生成式智能体","count":1},{"id":"生殖医学","name":"生殖医学","count":1},{"id":"生物信息学","name":"生物信息学","count":1},{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"睡眠科学","name":"睡眠科学","count":1},{"id":"知识产权","name":"知识产权","count":1},{"id":"知识分子","name":"知识分子","count":1},{"id":"知识工作","name":"知识工作","count":1},{"id":"知识社群","name":"知识社群","count":1},{"id":"社交焦虑","name":"社交焦虑","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"社会关系","name":"社会关系","count":1},{"id":"社会压力","name":"社会压力","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社会模拟","name":"社会模拟","count":1},{"id":"社会正义","name":"社会正义","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"社群组织","name":"社群组织","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"科学解释","name":"科学解释","count":1},{"id":"科幻","name":"科幻","count":1},{"id":"科研制度","name":"科研制度","count":1},{"id":"科研基础设施","name":"科研基础设施","count":1},{"id":"科研竞争","name":"科研竞争","count":1},{"id":"科研管理","name":"科研管理","count":1},{"id":"科研组织","name":"科研组织","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"程序正确性","name":"程序正确性","count":1},{"id":"程序验证","name":"程序验证","count":1},{"id":"稳定币","name":"稳定币","count":1},{"id":"空间转录组","name":"空间转录组","count":1},{"id":"算法歧视","name":"算法歧视","count":1},{"id":"类型小说","name":"类型小说","count":1},{"id":"类型系统","name":"类型系统","count":1},{"id":"粒子物理","name":"粒子物理","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"系外行星","name":"系外行星","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"红队测试","name":"红队测试","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"组织管理","name":"组织管理","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1},{"id":"细胞重编程","name":"细胞重编程","count":1},{"id":"经济统计","name":"经济统计","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"结构化日志","name":"结构化日志","count":1},{"id":"编程竞赛","name":"编程竞赛","count":1},{"id":"网络互连","name":"网络互连","count":1},{"id":"网络文化","name":"网络文化","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"网络爬虫","name":"网络爬虫","count":1},{"id":"群体冲突","name":"群体冲突","count":1},{"id":"群论","name":"群论","count":1},{"id":"考古学","name":"考古学","count":1},{"id":"职业培训","name":"职业培训","count":1},{"id":"肠道菌群","name":"肠道菌群","count":1},{"id":"能效","name":"能效","count":1},{"id":"能量模型","name":"能量模型","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"自主性","name":"自主性","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我反思","name":"自我反思","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自然语言","name":"自然语言","count":1},{"id":"自然选择","name":"自然选择","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"航天产业","name":"航天产业","count":1},{"id":"艺术史","name":"艺术史","count":1},{"id":"艺术教育","name":"艺术教育","count":1},{"id":"芯片设计","name":"芯片设计","count":1},{"id":"范畴论","name":"范畴论","count":1},{"id":"莫尔材料","name":"莫尔材料","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"虚无主义","name":"虚无主义","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"行为科学","name":"行为科学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"行为金融","name":"行为金融","count":1},{"id":"表示论","name":"表示论","count":1},{"id":"表达方法","name":"表达方法","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算成本","name":"计算成本","count":1},{"id":"计算机使用智能体","name":"计算机使用智能体","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机硬件","name":"计算机硬件","count":1},{"id":"计算经济","name":"计算经济","count":1},{"id":"订阅经济","name":"订阅经济","count":1},{"id":"认知偏差","name":"认知偏差","count":1},{"id":"认知工具","name":"认知工具","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"设计系统","name":"设计系统","count":1},{"id":"证明助手","name":"证明助手","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"语言学习","name":"语言学习","count":1},{"id":"读者社群","name":"读者社群","count":1},{"id":"诽谤诉讼","name":"诽谤诉讼","count":1},{"id":"谄媚行为","name":"谄媚行为","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"费马大定理","name":"费马大定理","count":1},{"id":"资源稀缺","name":"资源稀缺","count":1},{"id":"资源管理","name":"资源管理","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"跨学科学习","name":"跨学科学习","count":1},{"id":"身份认同","name":"身份认同","count":1},{"id":"软件经济","name":"软件经济","count":1},{"id":"软件质量","name":"软件质量","count":1},{"id":"辛几何","name":"辛几何","count":1},{"id":"进化心理学","name":"进化心理学","count":1},{"id":"递归语言模型","name":"递归语言模型","count":1},{"id":"通缩","name":"通缩","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化","name":"量化","count":1},{"id":"量子模拟","name":"量子模拟","count":1},{"id":"量子证明","name":"量子证明","count":1},{"id":"金融分析","name":"金融分析","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融科技","name":"金融科技","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"随机算法","name":"随机算法","count":1},{"id":"集体创作","name":"集体创作","count":1},{"id":"集体智能","name":"集体智能","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非营利组织","name":"非营利组织","count":1},{"id":"面向对象编程","name":"面向对象编程","count":1},{"id":"音乐创作","name":"音乐创作","count":1},{"id":"项目规划","name":"项目规划","count":1},{"id":"预测","name":"预测","count":1},{"id":"饮食文化","name":"饮食文化","count":1},{"id":"高维几何","name":"高维几何","count":1},{"id":"黑洞","name":"黑洞","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":97},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":228},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":72},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":174}],"children":"$Lf"}]]}]]}]
+f:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+10:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+11:T91ae,<h1>伯克希尔·哈撒韦公司 2024 年度股东信</h1>
+<h2>摘要</h2>
+<p>巴菲特在2024年度股东信中回顾了伯克希尔的经营表现，坦承投资与用人中的失误，讲述了Forest River创始人Pete Liegl的传奇故事，强调天赋胜于学历。伯克希尔全年运营收益达474亿美元，向美国国税局缴纳268亿美元所得税创下纪录，保险业务尤其是GEICO表现突出。信中还探讨了气候变化对财产险的影响以及公司六十年再投资策略的成果。</p>
+<h2>核心概念及解读</h2>
+<p><strong>运营收益</strong>：伯克希尔强调的核心业绩指标，排除股票和债券的资本利得或损失，反映企业实际经营状况，2024年达474亿美元</p>
+<p><strong>资本配置</strong>：巴菲特作为CEO的核心职责，即决定将公司资金投向何处，包括收购企业和购买有价证券，错误的配置决策会带来长期损失</p>
+<p><strong>浮存金与保险业务</strong>：伯克希尔最重要的业务板块之一，通过承保收入和投资收益双重驱动盈利，GEICO在Todd Combs领导下完成重大改革</p>
+<p><strong>持续再投资</strong>：伯克希尔六十年来仅派发过一次现金股息，将利润不断投入再生产，使公司应税收入持续增长，累计缴纳联邦所得税超1010亿美元</p>
+<p><strong>天性胜于培养</strong>：巴菲特的用人哲学，从不看候选人毕业院校，认为商业才能很大程度上是与生俱来的，Pete Liegl和Ben Rosner等案例印证了这一观点</p>
+<p>致伯克希尔·哈撒韦公司股东：</p>
+<p>这封信是伯克希尔年度报告的一部分。作为一家上市公司，我们被要求定期向您披露许多具体的事实和数据。</p>
+<p>然而，“报告”一词意味着更大的责任。除了强制性的数据外，我们相信我们还欠您关于您所拥有的资产以及我们如何思考的额外评论。我们的目标是以我们希望您使用的方式与您沟通——如果我们互换位置——也就是说，如果您是伯克希尔的首席执行官，而我和我的家人是被动投资者，将我们的储蓄托付给<em>您</em>。</p>
+<p>这种方法引导我们每年都会详细叙述您通过伯克希尔股票间接拥有的许多业务的好与坏的发展。然而，在讨论特定子公司的问题时，我们会尽力遵循汤姆·墨菲 60 年前给我的建议：“按名字表扬，按类别批评。”</p>
+<h2>错误——是的，我们在伯克希尔也会犯错</h2>
+<p>有时，我在评估我为伯克希尔购买的企业的未来经济状况时犯了错误——每一个都是资本配置出错的案例。这既发生在对有价证券的判断上——我们将这些视为企业的部分所有权——也发生在对公司的 100% 收购上。</p>
+<p>在其他时候，我在评估伯克希尔正在招聘的经理的能力或忠诚度时犯了错误。忠诚度方面的失望所造成的伤害可能超出其财务影响，这种痛苦可能类似于失败的婚姻。</p>
+<p>在人事决策中，一个体面的打击率是所有可以希望的。最大的罪过是延迟纠正错误或查理·芒格所说的“吮吸拇指”。他会告诉我，问题不能被希望消失。它们需要行动，无论这多么令人不舒服。</p>
+<hr>
+<p>在 2019-23 年期间，我在给你们的信中使用了 16 次“错误”或“失误”这两个词。许多其他大公司在这段时间内<em>从未</em>使用过这两个词。我应该承认，亚马逊在其 2021 年的信中做出了一些残酷的坦率观察。在其他地方，通常都是快乐的谈话和图片。</p>
+<hr>
+<p>我也曾担任过大型上市公司的董事，在这些公司中，“错误”或“失误”在董事会会议或分析师电话会议上是被禁止的词语。这种暗示管理层完美的禁忌总是让我感到紧张（尽管有时可能会有法律问题，使得有限的讨论是可取的。我们生活在一个非常喜欢诉讼的社会。）</p>
+<hr>
+<p>94 岁时，格雷格·阿贝尔取代我担任首席执行官并撰写年度信件的日子不会太久了。格雷格认同伯克希尔的信条，即“报告”是伯克希尔首席执行官每年对所有者应尽的义务。而且他还明白，如果你开始愚弄你的股东，你很快就会相信你自己的胡言乱语，并且也会愚弄你自己。</p>
+<h2>Pete Liegl – 独一无二</h2>
+<p>请允许我暂停一下，告诉您 Pete Liegl 的非凡故事，他是一位大多数伯克希尔股东都不认识的人，但他为他们的总财富贡献了数十亿美元。Pete 于 11 月去世，享年 80 岁，仍在工作。</p>
+<p>我第一次听说 Forest River——Pete 创立和管理的印第安纳州公司——是在 2005 年 6 月 21 日。那天，我收到了一位中间人的来信，详细介绍了这家公司的相关数据，这是一家休闲车（“RV”）制造商。作者说，Forest River 的 100% 所有者 Pete 特别想卖给伯克希尔。他还告诉了我 Pete 期望收到的价格。我喜欢这种毫不废话的方式。</p>
+<p>我向房车经销商做了一些调查，喜欢我了解到的情况，并安排了 6 月 28 日在奥马哈的会议。Pete 带了他的妻子 Sharon 和女儿 Lisa 一起来。见面时，Pete 向我保证他想继续经营这家企业，但如果他能确保家人的财务安全，他会感到更舒服。</p>
+<p>Pete 接下来提到他拥有一些租赁给 Forest River 的房地产，而这在 6 月 21 日的信中并未提及。几分钟之内，我们就这些资产的价格达成了一致，因为我表示伯克希尔不需要评估，而会直接接受他的估值。</p>
+<p>然后我们谈到了另一个需要明确的要点。我问 Pete 他的薪酬应该是多少，并补充说无论他说什么，我都会接受。（我应该补充一点，这<em>不是</em>我推荐普遍使用的方法。）</p>
+<p>Pete 停顿了一下，他的妻子、女儿和我都向前倾。然后他让我们大吃一惊：“嗯，我看了伯克希尔的委托书，我不想比我的老板赚得多，所以每年给我 10 万美元。”在我从地板上爬起来后，Pete 补充道：“但我们今年将赚到 X（他报了一个数字），我想要年终奖金，奖金是公司目前盈利之上部分的 10%。”我回答说：“好的，Pete，但如果 Forest River 进行任何重大收购，我们将对因此使用的额外资本进行适当的调整。”我没有定义“适当”或“重大”，但这些模糊的术语从未引起问题。</p>
+<hr>
+<p>然后我们四个人去奥马哈的 Happy Hollow 俱乐部吃饭，从此过上了幸福的生活。在接下来的 19 年里，Pete 大放异彩。没有竞争对手能接近他的表现。</p>
+<hr>
+<p>每家公司都没有一个容易理解的业务，而且很少有像 Pete 这样的所有者或管理者。当然，我预计会在伯克希尔购买的业务上犯下我的错误，有时会在评估我正在打交道的人的类型时出错。</p>
+<p>但我也在业务的潜力以及经理的能力和忠诚度方面获得了许多惊喜。我们的经验是，一个<em>单一</em>的成功决策可以随着时间的推移产生惊人的差异。（想想 GEICO 作为一项业务决策，Ajit Jain 作为一项管理决策，以及我找到查理·芒格作为独一无二的合作伙伴、私人顾问和坚定朋友的运气。）错误会消失；赢家可以永远绽放。</p>
+<hr>
+<p>关于我们首席执行官选择的另一点：我<em>从不</em>看候选人上过哪所学校。<em>从不！</em></p>
+<p>当然，有一些伟大的管理者曾就读于最著名的学校。但也有很多像 Pete 这样的人可能受益于就读于一所不那么负盛名的机构，甚至不费心完成学业。看看我的朋友比尔·盖茨，他认为在一个爆炸性发展的行业中开始工作比留下来拿一张可以挂在墙上的羊皮纸要重要得多，这个行业将改变世界。（阅读他的新书，《源代码》。）</p>
+<p>不久前，我通过电话认识了杰西卡·图恩克尔，她的继祖父本·罗斯纳很久以前为查理和我经营一家企业。本是一位零售天才，在准备这份报告时，我向杰西卡核实了本的教育经历，我记得他的教育经历有限。杰西卡的回答是：“本从未超过六年级。”</p>
+<p>我很幸运在三所优秀的大学接受了教育。而且我热衷于终身学习。然而，我观察到，很大一部分商业才能是与生俱来的，天性胜过培养。</p>
+<p>Pete Liegl 是天生的。</p>
+<hr>
+<h2>去年的表现</h2>
+<p>2024年，尽管我们189家运营企业中有53%的盈利出现<em>下降</em>，但伯克希尔的表现还是超出了我的预期。我们受益于投资收益的可预测大幅增长，因为国库券收益率提高，我们大幅增加了这些高流动性短期证券的持有量。</p>
+<p>我们的保险业务也实现了盈利的大幅增长，这主要得益于GEICO的表现。五年来，Todd Combs以一种主要的方式重塑了GEICO，提高了效率并将承保实践更新到最新水平。GEICO是一颗长期持有的宝石，需要进行重大抛光，而Todd不知疲倦地完成了这项工作。虽然尚未完成，但2024年的改进是惊人的。</p>
+<p>总的来说，财产意外险（“P/C”）的定价在2024年有所加强，这反映了对流风暴造成的损害大幅增加。气候变化可能已经宣布了它的到来。然而，2024年没有发生“怪物”事件。总有一天，任何一天，一个真正惊人的保险损失将会发生，并且不能保证每年只有一个。</p>
+<p>P/C业务对伯克希尔来说非常重要，因此有必要在本文后面进一步讨论。</p>
+<p>伯克希尔的铁路和公用事业运营，我们保险之外的两大业务，提高了它们的总收益。然而，两者都有很多工作要做。</p>
+<p>在今年晚些时候，我们将公用事业业务的所有权从大约92%提高到100%，成本约为39亿美元，其中29亿美元以现金支付，余额以伯克希尔“B”股支付。</p>
+<hr>
+<p>总而言之，我们在2024年记录了474亿美元的<em>运营收益</em>。我们经常——无休止地，一些读者可能会抱怨——强调这个指标，而不是K-68页上报告的GAAP规定的收益。</p>
+<p>我们的衡量标准<em>不包括</em>我们拥有的股票和债券的资本收益或损失，无论是已实现的还是未实现的。随着时间的推移，我们认为收益很有可能占上风——否则我们为什么要购买这些证券？——尽管逐年的数字将剧烈波动且不可预测。我们对此类承诺的期限几乎总是远长于一年。在许多情况下，我们的思考涉及几十年。这些长期投资有时会让收银机像教堂的钟声一样响起。</p>
+<hr>
+<p>以下是我们认为的2023-24年收益的细分。所有计算均扣除折旧、摊销和所得税。EBITDA，华尔街一个有缺陷的最爱，不适合我们。</p>
+<table>
+<thead>
+<tr>
+<th>(单位：百万美元)</th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保险承保*</td>
+<td>$ 9,020</td>
+<td>$ 5,428</td>
+</tr>
+<tr>
+<td>保险投资收益</td>
+<td>13,670</td>
+<td>9,567</td>
+</tr>
+<tr>
+<td>BNSF</td>
+<td>5,031</td>
+<td>5,087</td>
+</tr>
+<tr>
+<td>伯克希尔哈撒韦能源</td>
+<td>3,730</td>
+<td>2,331</td>
+</tr>
+<tr>
+<td>其他控股企业</td>
+<td>13,072</td>
+<td>13,362</td>
+</tr>
+<tr>
+<td>非控股企业*</td>
+<td>1,519</td>
+<td>1,750</td>
+</tr>
+<tr>
+<td>其他**</td>
+<td>1,395</td>
+<td>(175)</td>
+</tr>
+<tr>
+<td><strong>运营收益</strong></td>
+<td>$47,437</td>
+<td>$37,350</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>*包括伯克希尔拥有20%至50%所有权的某些企业，如卡夫亨氏、西方石油和Berkadia。</li>
+<li>** 包括2024年约11亿美元和2023年约2.11亿美元的外币兑换收益，这些收益是由我们使用非美元计价的债务产生的。</li>
+</ul>
+<h2>惊喜，惊喜！一项重要的美国纪录被打破</h2>
+<p>六十年前，现任管理层接管了伯克希尔。这一举动是一个错误——<em>我的</em>错误——并且困扰了我们二十年。我应该强调，查理立即发现了我的明显错误：虽然我为伯克希尔支付的价格看起来很便宜，但它的业务——一家大型北方纺织企业——正走向灭绝。</p>
+<p>美国财政部，在所有地方，已经收到了伯克希尔命运的无声警告。1965年，该公司没有支付一分钱的所得税，这在该公司十年中普遍存在，令人尴尬。这种经济行为对于迷人的初创公司来说可能是可以理解的，但当它发生在一家受人尊敬的美国工业支柱企业时，这是一个闪烁的黄灯。伯克希尔正走向垃圾桶。</p>
+<p>快进60年，想象一下财政部的惊讶，当同一家公司——仍然以伯克希尔哈撒韦公司的名义运营——支付的公司所得税远远超过美国政府从任何公司收到的——即使是那些市值数万亿美元的美国科技巨头。</p>
+<p>准确地说，伯克希尔去年向美国国税局支付了四笔款项，总额为268亿美元。这大约是所有美国公司支付的5%。（此外，我们还向外国政府和44个州支付了大量的所得税。）</p>
+<hr>
+<p>请注意一个允许这种破纪录付款的关键因素：伯克希尔股东在 1965-2024 年期间仅收到一次现金股息。1967 年 1 月 3 日，我们支付了我们唯一的款项——101,755 美元或每 A 股 10 美分。（我不记得我为什么向伯克希尔董事会建议采取这一行动。现在看来这像是一个噩梦。）</p>
+<p>六十年来，伯克希尔股东赞成持续再投资，这使得该公司能够建立其应税收入。向美国财政部支付的现金所得税，在第一个十年中微不足道，现在总计超过 1010 亿美元……并且还在增加。</p>
+<hr>
+<p>巨大的数字可能难以想象。让我重新计算一下我们去年支付的 268 亿美元。</p>
+<p>如果伯克希尔在整个 2024 年每 20 分钟向财政部发送一张 100 万美元的支票——想象一下 366 个日日夜夜，因为 2024 年是闰年——我们在年底仍然欠联邦政府一大笔钱。事实上，要到一月份，财政部才会告诉我们可以稍作喘息，睡个好觉，并为我们的 2025 年纳税做好准备。</p>
+<h2>你的钱在哪里</h2>
+<p>伯克希尔的股权活动是双管齐下的。一方面，我们拥有许多企业的控制权，持有被投资方至少 80% 的股份。通常，我们拥有 100%。</p>
+<p>这些 189 家子公司与有价普通股有相似之处，但远非相同。该集合价值数千亿美元，包括一些稀有的宝石、许多不错但远非卓越的企业，以及一些令人失望的落后者。我们没有拥有任何主要的拖累，但我们有一些我不应该购买的。</p>
+<p>另一方面，我们拥有十几家非常庞大且利润丰厚的企业的一小部分，这些企业拥有家喻户晓的名称，如苹果、美国运通、可口可乐和穆迪。其中许多公司在运营所需的净有形权益上获得了非常高的回报。截至年底，我们部分拥有的股份价值 2720 亿美元。
+可以理解的是，真正优秀的企业很少被全部提供，但这些宝石的一小部分可以在周一至周五在华尔街购买，而且偶尔会以低廉的价格出售。</p>
+<p>我们在选择股权工具时是不偏不倚的，根据我们可以在哪里最好地部署您（和我家人的）储蓄来投资任何一种。通常，没有什么看起来很吸引人；很少情况下，我们会发现自己深陷机遇之中。格雷格生动地展示了他在这种时候采取行动的能力，查理也是如此。</p>
+<hr>
+<p>对于有价证券，当出现错误时，改变方向更容易。</p>
+<p>伯克希尔目前的规模，应该强调，削弱了这一宝贵的选择。我们不能以低廉的价格进出。有时需要一年或更长时间才能建立或剥离一项投资。此外，由于拥有少数股权，如果需要采取行动，我们无法改变管理层，或者如果对所做的决定不满意，我们也无法控制资本流动的去向。</p>
+<p>对于受控公司，我们可以决定这些决策，但我们在处理错误方面的灵活性要小得多。实际上，伯克希尔几乎从不出售受控企业，除非我们面临我们认为无休止的问题。一个抵消因素是，一些企业主因为我们坚定的行为而寻求伯克希尔。偶尔，这可能是对我们的一个明显优势。</p>
+<hr>
+<p>尽管一些评论员目前将伯克希尔的现金状况视为非同寻常，但您的绝大部分资金仍留在股票中。这种偏好不会改变。</p>
+<p>虽然我们在<em>有价</em>证券中的所有权去年从3540亿美元下降到2720亿美元，但我们未报价的<em>受控</em>权益的价值有所增加，并且仍然远大于有价投资组合的价值。</p>
+<p>伯克希尔股东可以放心，我们将永远将他们的绝大部分资金部署在股票中——主要是美国股票，尽管其中许多股票将具有重要的国际业务。伯克希尔<em>永远不会</em>更喜欢拥有现金等价物资产而不是拥有优质企业，无论是受控的还是仅部分拥有的。</p>
+<p>如果财政愚蠢行为盛行，纸币的价值可能会蒸发。在一些国家，这种鲁莽的做法已经成为一种习惯，而在我们国家的短暂历史中，美国已经接近边缘。固定息票债券无法防止失控的货币。</p>
+<p>然而，拥有理想人才的企业和个人通常会找到一种方法来应对货币不稳定，只要他们的商品或服务是该国公民所需要的。个人技能也是如此。由于缺乏诸如卓越的运动能力、美妙的嗓音、医疗或法律技能或任何特殊才能等资产，我一生都不得不依赖股票。实际上，我一直依赖于美国企业的成功，我将继续这样做。</p>
+<hr>
+<p>公民储蓄的明智——更确切地说，富有想象力的——部署是推动社会不断增长的理想商品和服务产出所必需的。这个系统被称为资本主义。它有其缺点和滥用——在某些方面现在比以往任何时候都更加严重——但它也可以创造其他经济体系无法比拟的奇迹。</p>
+<p>美国就是例证 A。我们国家在其仅仅 235 年的存在中所取得的进步，即使是 1789 年宪法获得通过、国家能量得到释放时最乐观的殖民者也无法想象。</p>
+<hr>
+<p>诚然，我们国家在起步阶段有时会向国外借款以补充我们自己的储蓄。但是，与此同时，我们需要许多美国人持续储蓄，然后需要这些储蓄者或其他美国人明智地部署由此产生的资本。如果美国消费了它生产的所有东西，那么这个国家就会原地踏步。</p>
+<p>美国的过程<em>并不</em>总是美好的——我们的国家一直有许多恶棍和发起人试图利用那些错误地将储蓄托付给他们的人。但即使存在这种渎职行为——今天仍然存在——以及由于残酷的竞争或颠覆性创新而最终失败的大量资本部署，美国人的储蓄也提供了超出任何殖民者梦想的数量和质量的产出。</p>
+<p>从仅有 400 万人的基础上——尽管早期发生了一场残酷的内战，美国人自相残杀——美国在眨眼之间改变了世界。</p>
+<hr>
+<p>在很小的程度上，伯克希尔股东通过放弃股息参与了美国奇迹，从而选择再投资而不是消费。最初，这种再投资很小，几乎没有意义，但随着时间的推移，它迅速增长，反映了持续储蓄文化与长期复利魔力的结合。</p>
+<p>伯克希尔的活动现在影响着我们国家的各个角落。我们还没有完成。公司会因多种原因而消亡，但与人类的命运不同，老龄本身并不致命。今天的伯克希尔比 1965 年时年轻得多。</p>
+<p><em>然而</em>，正如查理和我一直承认的那样，伯克希尔不会在除美国以外的任何地方取得其成果，而如果伯克希尔从未存在，美国也会取得同样的成功。</p>
+<hr>
+<p>所以谢谢你，山姆大叔。总有一天，您在伯克希尔的侄女和侄子们希望向您支付比我们在 2024 年支付的更多的款项。明智地使用它。照顾那些并非由于自己的过错而在生活中抽到短签的人。他们应该得到更好的。永远不要忘记，我们需要您维持稳定的货币，而这一结果需要您兼具智慧和警惕。</p>
+<h2>财产意外险</h2>
+<p>P/C 保险仍然是伯克希尔的核心业务。该行业遵循一种财务模式，这种模式在大型企业中很少见——非常罕见。</p>
+<p>通常情况下，公司在销售其产品或服务<em>之前</em>或<em>同时</em>会产生劳动力、材料、库存、厂房和设备等成本。因此，他们的首席执行官在销售<em>之前</em>就已经很好地了解了他们的产品<em>成本</em>。如果销售价格低于其成本，经理们很快就会知道他们遇到了问题。失血是很难忽视的。</p>
+<hr>
+<p>在撰写 P/C 保险时，我们会预先收到付款，并且<em>很久之后</em>才会知道我们的产品成本是多少——有时，真相时刻会被推迟 30 年或更长时间。（我们仍在为 50 多年前发生的石棉暴露支付大量款项。）</p>
+<p>这种运营模式具有在 P/C 保险公司产生大多数费用<em>之前</em>向其提供现金的理想效果，但同时也带来了公司可能在首席执行官和董事意识到正在发生的事情<em>之前</em>就一直在亏损——有时是巨额亏损——的风险。</p>
+<p>某些保险险种可以最大限度地减少这种不匹配，例如农作物保险或冰雹损害，在这种情况下，损失会迅速报告、评估和支付。然而，其他险种可能会导致高管和股东在公司破产时感到幸福。想想医疗事故或产品责任等保险范围。在“长尾”险种中，P/C 保险公司可能会向其所有者和监管机构报告多年甚至数十年的巨额但虚构的利润。如果首席执行官是乐观主义者或骗子，那么会计可能特别危险。这些可能性并非虚构：历史表明每种类型都大量存在。</p>
+<p>近几十年来，这种“预付资金，延期支付损失”的模式使得伯克希尔能够投资大量资金（“浮存金”），同时通常提供我们认为的小额承保利润。我们对“意外”进行估计，到目前为止，这些估计已经足够。</p>
+<p>我们不会被我们活动所持续的戏剧性和不断增长的损失支付所吓倒。（当我写这篇文章时，想想野火。）我们的工作是定价以吸收这些损失，并在意外发生时冷静地接受我们的损失。我们的工作还包括对“失控”的判决、虚假的诉讼和彻头彻尾的欺诈行为提出质疑。</p>
+<p>在 Ajit 的领导下，我们的保险业务已从一家默默无闻的奥马哈公司发展成为世界领先者，以其对风险的偏好和直布罗陀般的财务实力而闻名。此外，格雷格、我们的董事和我都在伯克希尔拥有相对于我们收到的任何补偿而言非常大的投资。我们<em>不</em>使用期权或其他单方面的补偿形式；如果<em>您</em>赔钱，我们也会赔钱。这种方法鼓励谨慎，但<em>不</em>能确保远见。</p>
+<hr>
+<p>P/C 保险的增长取决于经济风险的增加。没有风险——就不需要保险。</p>
+<p>回想一下 135 年前，当时世界上还没有汽车、卡车或飞机。现在仅在美国就有 3 亿辆汽车，这是一个庞大的车队，每天造成巨大的损失。飓风、龙卷风和野火造成的财产损失是巨大的、不断增长的，并且它们的模式和最终成本越来越难以预测。</p>
+<hr>
+<p>为这些保险范围制定十年期保单将是愚蠢的——更确切地说是疯狂的——但我们认为对这些风险的一年假设通常是可以管理的。如果我们改变主意，我们将更改我们提供的合同。在我的一生中，汽车保险公司通常放弃了一年期保单，转而采用六个月期的保单。这种变化<em>减少</em>了浮存金，但允许了更智能的承保。</p>
+<hr>
+<p>没有哪家私人保险公司愿意承担伯克希尔可以提供的风险量。有时，这种优势可能很重要。但当价格不足时，我们也需要<em>缩减</em>。我们绝不能为了留在游戏中而承保价格不足的保单。这种政策是企业自杀。</p>
+<p>正确地为 P/C 保险定价既是艺术又是科学，绝对不是乐观主义者的生意。招募 Ajit 的伯克希尔高管 Mike Goldberg 说得最好：“我们希望我们的承保人每天都紧张地来上班，但不要瘫痪。”</p>
+<hr>
+<p>综合考虑，我们喜欢 P/C 保险业务。伯克希尔可以在财务和心理上处理极端损失而不会眨眼。我们也不依赖再保险公司，这给了我们一个实质性的和持久的成本优势。最后，我们有优秀的经理（没有乐观主义者），并且特别适合利用 P/C 保险为投资提供的巨额资金。</p>
+<p>在过去的二十年中，我们的保险业务产生了 320 亿美元的税后承保利润，大约是扣除所得税后每美元销售额的 3.3 美分。与此同时，我们的浮存金从 460 亿美元增长到 1710 亿美元。浮存金可能会随着时间的推移略有增长，并且通过智能承保（和一些运气），有合理的希望成为无成本的。</p>
+<h2>伯克希尔增加其在日本的投资</h2>
+<p>一个虽小但重要的例外是我们以美国为中心的重点，这是我们在日本不断增长的投资。</p>
+<p>伯克希尔开始购买五家日本公司的股票已经快六年了，这五家公司以与伯克希尔本身有些相似的方式非常成功地运营。这五家公司（按字母顺序排列）是伊藤忠商事、丸红、三菱商事、三井物产和住友商事。反过来，这些大型企业中的每一家都拥有广泛业务的权益，其中许多位于日本，但也有其他业务遍布全球。</p>
+<hr>
+<p>伯克希尔在2019年7月首次购买了这五家公司的股票。我们只是查看了他们的财务记录，并对他们股票的低价感到惊讶。随着时间的推移，我们对这些公司的钦佩之情与日俱增。Greg与他们多次会面，我定期关注他们的进展。我们都喜欢他们的资本配置、他们的管理层以及他们对投资者的态度。</p>
+<p>这五家公司中的每一家都在适当的时候增加股息，在合理的时候回购股票，而且他们的最高管理人员在薪酬计划方面远不如他们的美国同行积极。</p>
+<p>我们对这五家公司的持股是长期的，我们致力于支持他们的董事会。从一开始，我们也同意将伯克希尔的持股比例保持在每家公司股份的10%以下。但是，随着我们接近这一限制，这五家公司同意适度放宽上限。随着时间的推移，您可能会看到伯克希尔对这五家公司的所有权有所增加。</p>
+<p>截至年底，伯克希尔的总成本（以美元计）为138亿美元，我们持股的市场价值总计235亿美元。</p>
+<p>与此同时，伯克希尔一直在——但不是根据任何公式——增加其日元计价的借款。所有这些都是固定利率，没有“浮动利率”。Greg和我对未来的汇率<em>没有</em>看法，因此寻求一个接近货币中性的头寸。然而，根据GAAP规则，我们需要在我们的收益中定期确认我们借入的日元的任何收益或损失的计算，并且在年底，包括了由于美元走强而产生的23亿美元的税后收益，其中8.5亿美元发生在2024年。</p>
+<p>我预计Greg和他的继任者们将持有这个日本头寸数十年，并且伯克希尔将找到其他方式与这五家公司进行富有成效的合作。</p>
+<p>我们也喜欢我们目前日元平衡策略的数学计算。在我写这篇文章时，预计2025年来自日本投资的年度股息收入总额约为8.12亿美元，而我们日元计价债务的利息成本约为1.35亿美元。</p>
+<h2>奥马哈的年度聚会</h2>
+<p>我希望您能在5月3日加入我们在奥马哈的行列。我们今年遵循一个稍微改变的时间表，但基本要素保持不变。我们的目标是让您的许多问题得到解答，让您与朋友建立联系，并让您对奥马哈留下良好的印象。这座城市期待着您的光临。</p>
+<hr>
+<p>我们将拥有同样一群志愿者为您提供各种各样的伯克希尔产品，这些产品将减轻您的钱包并照亮您的一天。像往常一样，我们将在周五中午至下午 5 点开放，提供可爱的 Squishmallows、Fruit of the Loom 的内衣、Brooks 跑鞋以及一系列其他商品来吸引您。</p>
+<p>同样，我们将只出售一本书。去年，我们推出了《可怜的查理年鉴》，并且售罄——5000 册在周六营业结束前就消失了。</p>
+<p>今年我们将推出《伯克希尔哈撒韦公司 60 年》。2015 年，我请 Carrie Sova 在她的众多职责中负责管理年会的大部分活动，尝试编写一部轻松愉快的伯克希尔历史。我让她充分发挥她的想象力，她很快就制作了一本书，它的独创性、内容和设计让我震惊。</p>
+<p>随后，Carrie 离开了伯克希尔去组建家庭，现在有三个孩子。但每年夏天，伯克希尔办公室的工作人员都会聚在一起观看奥马哈风暴追逐者队与 Triple A 对手的比赛。我请一些校友加入我们，Carrie 通常会和她的家人一起来。在今年的活动中，我厚颜无耻地问她是否愿意做一个 60 周年纪念版，以查理的照片、语录和很少公开的故事为特色。</p>
+<p>即使要照顾三个年幼的孩子，Carrie 还是立即说“好”。因此，我们将在周五下午和周六上午 7 点至下午 4 点提供 5,000 册新书供出售。</p>
+<p>Carrie 拒绝为她在新“查理”版本上的大量工作支付任何费用。我建议她和我共同签署 20 份副本，赠送给任何向为奥马哈南部无家可归的成人和儿童服务的斯蒂芬中心捐款 5,000 美元的股东。Kizer 家族，从我的老朋友兼 Carrie 的祖父 Bill Kizer, Sr. 开始，几十年来一直在帮助这个有价值的机构。无论通过出售 20 本亲笔签名的书籍筹集到多少资金，我都将进行匹配。</p>
+<hr>
+<p>Becky Quick 将在周六报道我们经过某种程度重新设计的聚会。Becky 像一本书一样了解伯克希尔，并且总是安排与经理、投资者、股东和偶尔的名人进行有趣的采访。她和她的 CNBC 工作人员在向全球传播我们的会议和存档大量与伯克希尔相关的材料方面做得非常出色。我们的导演 Steve Burke 应该为存档的想法获得荣誉。</p>
+<p>我们今年不会有电影，而是在早上 8 点提前一点开会。我将做一些介绍性发言，我们将立即开始问答环节，在 Becky 和观众之间交替提问。</p>
+<hr>
+<p>格雷格和阿吉特将和我一起回答问题，我们将在上午 10:30 休息半小时。当我们在上午 11:00 重新开会时，只有格雷格会和我一起上台。今年我们将在下午 1:00 解散，但会在展区继续开放购物至下午 4:00。</p>
+<p>您可以在第 16 页找到有关周末活动的完整详细信息。特别注意周日早上总是很受欢迎的 Brooks 跑步。（我会睡觉。）</p>
+<hr>
+<p>我去年写过的我聪明又漂亮的姐姐伯蒂将和她的两个女儿一起参加会议，她们也很漂亮。观察人士都同意，产生这种耀眼结果的基因<em>只</em>流向家族的女性一方。（呜咽。）</p>
+<p>伯蒂现在 91 岁了，我们每周日都会用老式电话定期交谈。我们谈论老年生活的乐趣，并讨论诸如我们拐杖的相对优点等令人兴奋的话题。就我而言，它的用途仅限于避免脸朝下摔倒。</p>
+<p>但伯蒂经常通过断言她享有一个额外的好处来胜过我：当一个女人使用拐杖时，她告诉我，男人会停止“骚扰”她。伯蒂的解释是，男人的自尊心是这样的，拿着拐杖的小老太太根本不是一个合适的目标。目前，我没有数据来反驳她的断言。</p>
+<p>但我有怀疑。在会议上，我从台上看不到太多，如果与会者能留意伯蒂，我将不胜感激。让我知道拐杖是否真的发挥了作用。我打赌她会被男性包围。对于那些有一定年龄的人来说，这个场景会让他们想起《乱世佳人》中斯嘉丽·奥哈拉和她成群的男性仰慕者。</p>
+<hr>
+<p>伯克希尔董事和我非常高兴您来到奥马哈，我预计您会玩得开心，并可能结交一些新朋友。</p>
+<p>2025 年 2 月 22 日</p>
+<p>沃伦·E·巴菲特
+董事会主席</p>
+<hr>
+<p><strong>伯克希尔相对于标准普尔 500 指数的表现</strong></p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>伯克希尔每股市场价值的年度百分比变化</th>
+<th>标准普尔 500 指数（含股息）的年度百分比变化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1965</td>
+<td>49.5%</td>
+<td>10.0%</td>
+</tr>
+<tr>
+<td>1966</td>
+<td>(3.4)</td>
+<td>(11.7)</td>
+</tr>
+<tr>
+<td>1967</td>
+<td>13.3</td>
+<td>30.9</td>
+</tr>
+<tr>
+<td>1968</td>
+<td>77.8</td>
+<td>11.0</td>
+</tr>
+<tr>
+<td>1969</td>
+<td>19.4</td>
+<td>(8.4)</td>
+</tr>
+<tr>
+<td>1970</td>
+<td>(4.6)</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>1971</td>
+<td>80.5</td>
+<td>14.6</td>
+</tr>
+<tr>
+<td>1972</td>
+<td>8.1</td>
+<td>18.9</td>
+</tr>
+<tr>
+<td>1973</td>
+<td>(2.5)</td>
+<td>(14.8)</td>
+</tr>
+<tr>
+<td>1974</td>
+<td>(48.7)</td>
+<td>(26.4)</td>
+</tr>
+<tr>
+<td>1975</td>
+<td>2.5</td>
+<td>37.2</td>
+</tr>
+<tr>
+<td>1976</td>
+<td>129.3</td>
+<td>23.6</td>
+</tr>
+<tr>
+<td>1977</td>
+<td>46.8</td>
+<td>(7.4)</td>
+</tr>
+<tr>
+<td>1978</td>
+<td>14.5</td>
+<td>6.4</td>
+</tr>
+<tr>
+<td>1979</td>
+<td>102.5</td>
+<td>18.2</td>
+</tr>
+<tr>
+<td>1980</td>
+<td>32.8</td>
+<td>32.3</td>
+</tr>
+<tr>
+<td>1981</td>
+<td>31.8</td>
+<td>(5.0)</td>
+</tr>
+<tr>
+<td>1982</td>
+<td>38.4</td>
+<td>21.4</td>
+</tr>
+<tr>
+<td>1983</td>
+<td>69.0</td>
+<td>22.4</td>
+</tr>
+<tr>
+<td>1984</td>
+<td>(2.7)</td>
+<td>6.1</td>
+</tr>
+<tr>
+<td>1985</td>
+<td>93.7</td>
+<td>31.6</td>
+</tr>
+<tr>
+<td>1986</td>
+<td>14.2</td>
+<td>18.6</td>
+</tr>
+<tr>
+<td>1987</td>
+<td>4.6</td>
+<td>5.1</td>
+</tr>
+<tr>
+<td>1988</td>
+<td>59.3</td>
+<td>16.6</td>
+</tr>
+<tr>
+<td>1989</td>
+<td>84.6</td>
+<td>31.7</td>
+</tr>
+<tr>
+<td>1990</td>
+<td>(23.1)</td>
+<td>(3.1)</td>
+</tr>
+<tr>
+<td>1991</td>
+<td>35.6</td>
+<td>30.5</td>
+</tr>
+<tr>
+<td>1992</td>
+<td>29.8</td>
+<td>7.6</td>
+</tr>
+<tr>
+<td>1993</td>
+<td>38.9</td>
+<td>10.1</td>
+</tr>
+<tr>
+<td>1994</td>
+<td>25.0</td>
+<td>1.3</td>
+</tr>
+</tbody>
+</table>
+<p>注：数据为日历年数据，但以下年份除外：1965 年和 1966 年，截至 9/30；1967 年，15 个月截至 12/31。</p>
+<hr>
+<p><strong>伯克希尔相对于标准普尔 500 指数的表现</strong></p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>伯克希尔每股市场价值的年度百分比变化</th>
+<th>标准普尔 500 指数（含股息）的年度百分比变化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995</td>
+<td>57.4%</td>
+<td>37.6%</td>
+</tr>
+<tr>
+<td>1996</td>
+<td>6.2</td>
+<td>23.0</td>
+</tr>
+<tr>
+<td>1997</td>
+<td>34.9</td>
+<td>33.4</td>
+</tr>
+<tr>
+<td>1998</td>
+<td>52.2</td>
+<td>28.6</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>(19.9)</td>
+<td>21.0</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>26.6</td>
+<td>(9.1)</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>6.5</td>
+<td>(11.9)</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>(3.8)</td>
+<td>(22.1)</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>15.8</td>
+<td>28.7</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>4.3</td>
+<td>10.9</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>0.8</td>
+<td>4.9</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>24.1</td>
+<td>15.8</td>
+</tr>
+<tr>
+<td>2007</td>
+<td>28.7</td>
+<td>5.5</td>
+</tr>
+<tr>
+<td>2008</td>
+<td>(31.8)</td>
+<td>(37.0)</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>2.7</td>
+<td>26.5</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>21.4</td>
+<td>15.1</td>
+</tr>
+<tr>
+<td>2011</td>
+<td>(4.7)</td>
+<td>2.1</td>
+</tr>
+<tr>
+<td>2012</td>
+<td>16.8</td>
+<td>16.0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>32.7</td>
+<td>32.4</td>
+</tr>
+<tr>
+<td>2014</td>
+<td>27.0</td>
+<td>13.7</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>(12.5)</td>
+<td>1.4</td>
+</tr>
+<tr>
+<td>2016</td>
+<td>23.4</td>
+<td>12.0</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>21.9</td>
+<td>21.8</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>2.8</td>
+<td>(4.4)</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>11.0</td>
+<td>31.5</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>2.4</td>
+<td>18.4</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>29.6</td>
+<td>28.7</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>4.0</td>
+<td>(18.1)</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>15.8</td>
+<td>26.3</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>25.5</td>
+<td>25.0</td>
+</tr>
+<tr>
+<td><strong>1965-2024 年复合年增长率</strong></td>
+<td><strong>19.9%</strong></td>
+<td><strong>10.4%</strong></td>
+</tr>
+<tr>
+<td><strong>1964-2024 年总增长率</strong></td>
+<td><strong>5,502,284%</strong></td>
+<td><strong>39,054%</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+5:["$","$L10",null,{"email":{"id":"essays-berkshire-hathaway-2024-annual-shareholder-letter","sender":"沃伦·巴菲特","author":"沃伦·巴菲特","sourceAuthor":"$undefined","authorAliases":["沃伦·巴菲特"],"publisher":"$undefined","publishedAt":"$undefined","subject":"伯克希尔·哈撒韦公司 2024 年度股东信","snippet":"巴菲特在2024年度股东信中回顾了伯克希尔的经营表现，坦承投资与用人中的失误，讲述了Forest River创始人Pete Liegl的传奇故事，强调天赋胜于学历。伯克希尔全年运营收益达474亿美元，向美国国税局缴纳268亿美元所得税创下纪录，保险业务尤其是GEICO表现突出。信中还探讨了气候变化对财产险的影响以及公司六十年再投资策略的成果。","date":"2025-02-22","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["价值投资","资本配置","企业管理"],"mdTheme":"magazine","sourcePath":"essays/berkshire-hathaway-2024-annual-shareholder-letter.md","sourceUrl":"$undefined","coverImage":"$undefined","body":"$11","prompts":[]},"listPosition":{"index":483,"total":571},"matchedPerson":{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":"","occupation":"投资者与企业家","bio":"长期领导伯克希尔·哈撒韦，撰写年度股东信，阐述投资决策、资本配置与企业经营原则。","contentCount":2,"topTags":[{"id":"价值投资","name":"价值投资","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"资本配置","name":"资本配置","count":2}]},"relatedArticles":[{"id":"talks-berkshire-hathaway-2024-annual-shareholders-meeting","subject":"伯克希尔哈撒韦2024股东大会","sender":"沃伦·巴菲特","date":"2024-05-04","matchedPeople":["沃伦·巴菲特"],"matchedTags":["价值投资","资本配置","企业管理"]},{"id":"essays-continual-learning-predictions","subject":"持续学习时代的8项预测","sender":"Dwarkesh Patel","date":"2026-08-07","matchedPeople":[],"matchedTags":["企业管理"]},{"id":"ai-mania-eviscerating-global-decision-making","subject":"AI狂热正在瓦解全球组织的理性决策","sender":"henri","date":"2026-07-18","matchedPeople":[],"matchedTags":["企业管理"]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[6869,[],"IconMark"]
+c:[["$","title","0",{"children":"伯克希尔·哈撒韦公司 2024 年度股东信 · Hinbox"}],["$","meta","1",{"name":"description","content":"巴菲特在2024年度股东信中回顾了伯克希尔的经营表现，坦承投资与用人中的失误，讲述了Forest River创始人Pete Liegl的传奇故事，强调天赋胜于学历。伯克希尔全年运营收益达474亿美元，向美国国税局缴纳268亿美元所得税创下纪录，保险业务尤其是GEICO表现突出。信中还探讨了气候变化对财产险的影响以及公司六十年再投资策略的成果。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/essays-berkshire-hathaway-2024-annual-shareholder-letter"}],["$","meta","4",{"property":"og:title","content":"伯克希尔·哈撒韦公司 2024 年度股东信"}],["$","meta","5",{"property":"og:description","content":"巴菲特在2024年度股东信中回顾了伯克希尔的经营表现，坦承投资与用人中的失误，讲述了Forest River创始人Pete Liegl的传奇故事，强调天赋胜于学历。伯克希尔全年运营收益达474亿美元，向美国国税局缴纳268亿美元所得税创下纪录，保险业务尤其是GEICO表现突出。信中还探讨了气候变化对财产险的影响以及公司六十年再投资策略的成果。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/essays-berkshire-hathaway-2024-annual-shareholder-letter"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"伯克希尔·哈撒韦公司 2024 年度股东信"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-02-22T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"沃伦·巴菲特"}],["$","meta","16",{"property":"article:tag","content":"价值投资"}],["$","meta","17",{"property":"article:tag","content":"资本配置"}],["$","meta","18",{"property":"article:tag","content":"企业管理"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"伯克希尔·哈撒韦公司 2024 年度股东信"}],["$","meta","21",{"name":"twitter:description","content":"巴菲特在2024年度股东信中回顾了伯克希尔的经营表现，坦承投资与用人中的失误，讲述了Forest River创始人Pete Liegl的传奇故事，强调天赋胜于学历。伯克希尔全年运营收益达474亿美元，向美国国税局缴纳268亿美元所得税创下纪录，保险业务尤其是GEICO表现突出。信中还探讨了气候变化对财产险的影响以及公司六十年再投资策略的成果。"}],["$","meta","22",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","23",{"rel":"icon","href":"/hinbox/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","link","24",{"rel":"icon","href":"/hinbox/icon.svg?6bf83d62ba40c678","type":"image/svg+xml","sizes":"any"}],["$","$L12","25",{}]]
+8:null

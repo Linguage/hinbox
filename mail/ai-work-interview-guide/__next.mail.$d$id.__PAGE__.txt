@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tf29,<p>这些访谈分别讨论个人如何使用AI、产品如何形成互动，以及组织如何改变工作习惯。以下是各期的简短导读，完整对话见相应原文。前五期首次发表于2025年，不能将页面在2026年的更新日期当作节目首发日期。</p>
+<h2>Kevin Kelly：从历史理解技术</h2>
+<p>首次发表：2025-04-23。主持人：Dan Shipper。</p>
+<p>在<a href="https://every.to/podcast/transcript-be243312-ea22-4193-8c56-b9cd45a79a87">如何像Kevin Kelly一样预测未来</a>中，Kelly将对新技术的观察与历史阅读联系起来，也谈到Annie Dillard对自己的写作影响。他讨论如何利用AI辅助研究、组织想法和进入编辑状态。这期适合从创作经验与技术史的角度阅读，关于智能构成的判断保留为他的看法。</p>
+<h2>Sarah Tavel：消费AI的社交机会</h2>
+<p>首次发表：2025-04-30。主持人：Dan Shipper。</p>
+<p><a href="https://every.to/podcast/transcript-c09360f3-efda-4688-952d-203b9f5f4315">Sarah Tavel的访谈</a>围绕消费产品直觉、ChatGPT的体验局限和社交互动展开。讨论中还涉及如何判断网络效应是否成立。这些问题可以帮助区分模型能力和产品留存机制；关于下一款热门产品的判断属于投资人的预测。</p>
+<h2>Kevin Scott：智能体需要怎样的互联网</h2>
+<p>首次发表：2025-05-20。主持人：Dan Shipper。</p>
+<p>在<a href="https://every.to/podcast/transcript-microsoft-s-ai-vision-an-open-internet-made-for-agents">微软的智能体互联网愿景</a>中，Scott讨论模型已经具备的能力与产品实际交付能力之间的落差。开放生态、互操作和安全如何共同成立，是这期的主要阅读问题。对话呈现的是当时的技术路线与行业判断。</p>
+<h2>Quinten Farmer与Eliot Peper：AI陪伴产品的交互设计</h2>
+<p>首次发表：2025-04-17。主持人：Dan Shipper。</p>
+<p><a href="https://every.to/podcast/transcript-this-ai-alien-will-bring-in-4-million-a-year-in-revenue">Tolan访谈</a>讨论语音响应速度、角色个性、即兴互动和用户体验的评估。主持人在开场披露自己是Portola的投资人。阅读时可关注人物塑造与模型行为如何配合；标题中的收入表述来自当时的节目，不能当作当前财务结果。</p>
+<h2>Will England：组织中的AI采用</h2>
+<p>首次发表：2025-05-14。主持人：Dan Shipper。</p>
+<p>在<a href="https://every.to/podcast/transcript-6ee07ebc-1598-401b-bfa4-ef39ba70af47">Walleye Capital的AI工作方式访谈</a>中，England介绍自己的思考习惯与推动员工使用AI的方式。主持人说明Walleye是Every的咨询客户。这期提供一家机构管理者的经验和主张，可从组织培训、决策过程与风险管理角度阅读。</p>
+<h2>Katie Parrott：让写作经验累积下来</h2>
+<p>首次发表：2026-09-02。主持人：Natalia Quintero。</p>
+<p><a href="https://every.to/podcast/transcript-how-an-every-staff-writer-developed-compound-writing">Compound Writing访谈</a>介绍Parrott的写作流程，节目目录涉及上下文文件、风格指南和编辑技能。该转录页要求免费账号继续阅读；也可进入<a href="https://www.youtube.com/watch?v=vey_dBnDTAU">对应YouTube节目</a>。这里保留节目主题与阅读入口。</p>
+<h2>Sam Altman：持续运行的智能体</h2>
+<p>首次发表：2026-09-30。主持人：Dan Shipper。</p>
+<p><a href="https://every.to/podcast/transcript-how-sam-altman-uses-dots-to-take-back-his-time">Sam Altman谈Dots与时间管理</a>的节目目录涵盖智能体协作、共同编辑文档以及软件开发方式。该转录页要求免费账号继续阅读；另有<a href="https://www.youtube.com/watch?v=jZh55CQwSh8">对应YouTube节目</a>。对话中的产品描述应放回节目发表时的语境理解。</p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-work-interview-guide","sender":"Every","author":"henri","authorAliases":["henri","Henri","Hinbox"],"publisher":"Every","subject":"AI工作方式的访谈导读","snippet":"七期Every访谈的中文阅读入口，涵盖个人创作、消费产品、智能体生态和组织采用。","date":"2026-10-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","内容创作","智能体","企业管理"],"mdTheme":"magazine","sourcePath":"notes/ai-work-interview-guide.md","body":"$3","prompts":[]},"listPosition":{"index":19,"total":571},"relatedArticles":[{"id":"essays-continual-learning-predictions","subject":"持续学习时代的8项预测","sender":"Dwarkesh Patel","date":"2026-08-07","matchedPeople":[],"matchedTags":["人工智能","企业管理"]},{"id":"ai-mania-eviscerating-global-decision-making","subject":"AI狂热正在瓦解全球组织的理性决策","sender":"henri","date":"2026-07-18","matchedPeople":[],"matchedTags":["人工智能","企业管理"]},{"id":"essays-ai-strategy-trust-problem","subject":"你的 AI 战略有信任问题，而不是工具问题","sender":"Elena's Growth Scoop","date":"2026-06-05","matchedPeople":[],"matchedTags":["人工智能","企业管理"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

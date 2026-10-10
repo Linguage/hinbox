@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T16c0,<h2>摘要</h2>
+<p>本文主张科学界不应在 AI 变革浪潮中陷入消极退守，而必须通过多国公共资金建立类似 CERN 的科研专用前沿 AI 基础设施。通过提供免除商业隐患的基础算力、对话与 Agent 工具，保障科研机密、原创学术成果归属并拉平青年学者面临的巨大算力鸿沟。评论区对此展开了激烈讨论，焦点集中在公共投资规模的可行性、前沿 AI 成果的透明度规范、人类与 AI 智力贡献的界定机制，以及盲目依赖集中式 AI 对传统学术训练带来的潜在侵蚀。</p>
+<h2>原文核心观点</h2>
+<p>2026 年世界杯半决赛英格兰在领先局面下主动退防最终惨遭逆转的战例表明，面对重大变革时，恐惧、保守与被动防御绝不是避免最坏结局的策略。面对前沿 AI 取得突破性科学进展的新现实，学术界若仅以自满或失败主义态度应对，只会让科研被颠覆的最坏设想演变为现实。科学探索离不开高度敏感甚至机密的研究数据，需要强有力的数据安全和泄密追责体系；同时，未发表的提示词、阶段性成果极易被私营模型无意吸收并被复用，从而严重动摇学者信任。更关键的是，商业公司的竞争逻辑天然追求高调、快速的突破，而基础科学更依赖严谨的阐释、消化与对青年学者的长期培养；若任由最先进的未公开发布模型仅向少数与科技巨头合作的精英圈子倾斜，整个学术界将不可避免地沦为两极分化的双层特权体系。</p>
+<p>摆脱对少数商业巨头结构性依赖的出路，在于联合建立一个面向 AI 辅助科学的“CERN”。这种由政府与公共资金支持的基础设施绝不仅是冷冰冰的超算中心，更需要具备友好的前端交互界面。每位普通科研人员都应获得免费的基础访问权，利用直观的对话系统与多智能体环境进行文献检索、假设推演与策略检验，而无需成为底层 GPU 架构或模型部署的专家；针对更大规模、复杂的科研攻关，则可以通过类似于现有先进计算联盟的同行评审机制，竞争性申请海量算力和高阶多智能体集群支持。这一构想的核心并非为了替学者省下商业软件的订阅费用，而是为了捍卫科学探索长期独立的命脉。</p>
+<p>推进这一战略的时机已然成熟。欧盟与加拿大近期在主权算力投资上的深度结盟——包括加拿大 20 亿加元的主权 AI 算力规划与欧盟高达百亿欧元规模的“AI 工厂/千兆工厂”部署——为多边科研基建合作奠定了良好契机。尽管在推进过程中仍须直面诸多关键难题，例如公共资助模型能否在技术迭代中持续保持在前沿水平、应自主从头训练还是融合开源与商业模型、如何设计治理架构以防官僚僵化和利益俘获，但科学界面临的选择绝不是“拥抱还是拒绝 AI”，而是决定未来的科研基础设施是作为公共利益存在，还是彻底交由商业垄断集团摆布。</p>
+<h2>讨论区主要观点</h2>
+<ul>
+<li>
+<p><strong>公共资金规模与竞争可行性存疑</strong>：多位评论者指出，欧盟与加拿大公布的数十亿级别资金，相比科技巨头与美中两国动辄数百亿的单日或年度 Capex 而言杯水车薪；官僚化治理和有限预算很难在全球范围内维持具有真正前沿竞争力的模型。部分人建议应优先通过科研基金资助学者采购成熟的商业服务，而非政府亲自下场造轮子。</p>
+</li>
+<li>
+<p><strong>呼吁统一建立公开透明的 AI 成果库</strong>：有观点主张，防范学术乱象的最基础手段是透明度，建议设立统一的开放获取数据库（类似学术版 arXiv/开放数据库），强制归档所有借助 AI 得出的计算数据、提示设置与实验代码，以便独立同行进行复现和检验。</p>
+</li>
+<li>
+<p><strong>知识归属与双向溯源机制（Provenance）</strong>：有评论深入探讨了人类智慧与 AI 探索的边界。学者长年累月摸索出的失败路径、核心直觉与问题定义是 AI 能取得突破的前提，这些心智贡献不应被稀释为模糊的“人类公共语料”；建议建立结构化的协作记录机制，双向记录“AI 给人类带来了什么”以及“何种人类原创知识赋予了 AI 这一能力”。</p>
+</li>
+<li>
+<p><strong>知识产权与未发表稿件泄漏的现实隐患</strong>：评论者提出警示，在线协作工具或语法检查器默认开启的 AI 功能，可能在学者不知情的情况下将未发表论文用于训练，导致成果被外部用户“合法劫持”先行发表，凸显了对可信公共环境的迫切需求。</p>
+</li>
+<li>
+<p><strong>过度依赖 AI 对科研直觉的潜在侵蚀</strong>：有学者以国际象棋为例提出警示，初学者借助引擎评估条能在短时间内击败大师，却无法内化出真正的战术洞察与著书立说的能力；如果数学界毫无边界地将人类直觉与机器生成揉碎混合，将严重破坏学术训练与原创性归属，主张将 AI 生成成果严格区隔为外部可引用的独立对象，而非模糊共创。</p>
+</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li><strong>文章标题</strong>：<a href="https://terrytao.wordpress.com/2026/09/17/a-cern-for-ai-assisted-science/">A CERN for AI-assisted science?</a></li>
+<li><strong>文章链接</strong>：<a href="https://terrytao.wordpress.com/2026/09/17/a-cern-for-ai-assisted-science/">陶哲轩博客上的原文</a></li>
+<li><strong>HN讨论区链接</strong>：<a href="https://news.ycombinator.com/item?id=49781453">Hacker News 讨论</a></li>
+<li><strong>整理日期</strong>：2026-10-10</li>
+</ul>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"a-cern-for-ai-assisted-science","sender":"henri","author":"henri","sourceAuthor":"Dimitris Koukoulopoulos","authorAliases":["henri","Dimitris Koukoulopoulos","Henri","Hinbox"],"subject":"为 AI 辅助科学建立一座 CERN","snippet":"以多国公共资金建设科研专用前沿 AI 基础设施，为研究者提供可信、平等的算力与智能体工具，维护科研独立、知识归属和青年学者的成长空间。","date":"2026-09-18","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["科研自动化","AI基础设施","科研资助","开放科学"],"mdTheme":"magazine","sourcePath":"notes/a-cern-for-ai-assisted-science.md","sourceUrl":"https://terrytao.wordpress.com/2026/09/17/a-cern-for-ai-assisted-science/","body":"$3","prompts":[]},"listPosition":{"index":33,"total":571},"matchedPerson":{"id":"dimitris-koukoulopoulos","name":"Dimitris Koukoulopoulos","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},"relatedArticles":[{"id":"essays-science-foundries-navigators","subject":"科研工厂与导航者：降低科学研究的成本","sender":"Latent Space: AI for Science","date":"2026-09-24","matchedPeople":[],"matchedTags":["科研自动化"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Latent.Space","date":"2026-09-14","matchedPeople":[],"matchedTags":["科研自动化"]},{"id":"talks-dwarkesh-john-beren-charlie","subject":"AI 研究者讨论：我们距离递归自我改进有多近？","sender":"Dwarkesh Patel","date":"2026-09-11","matchedPeople":[],"matchedTags":["科研自动化"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

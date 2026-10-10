@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T3e1e,<p>Every 如何使用定制智能体安排工作优先级、整理会议记录、规划 OKR 和追踪增长，以及供你搭建自己的智能体的示例提示词。</p>
+<p><img src="https://every.to/_next/image?url=https%3A%2F%2Fd24ovhgu8s7341.cloudfront.net%2Fuploads%2Fpost%2Fcover%2F4105%2FFour_Notion_Agents_You_Can_Build_Today.png&#x26;w=1920&#x26;q=75" alt="四个 Notion 智能体的文章封面插图"></p>
+<p><em>插图：Midjourney／Every。</em></p>
+<p><em>本次活动与 <a href="https://www.notion.com/">Notion</a> 合作举办。Notion 未参与本文的创作。</em></p>
+<p>Every 以大约 25 人的团队运营六款产品、一家媒体公司和一家咨询公司。在任何一个时刻，每个人的待办清单上都大约有 30 项任务。那么，他们怎样决定先做哪一项？</p>
+<p>团队过去依靠 Every 的首席运营官 <a href="https://every.to/@brandon_5263">Brandon Gell</a> 来调度工作、协调全公司。为此，他必须手动交叉核对发布日历、公司战略文档和任务清单。现在，他在 Slack 中给一个名叫 Anton 的 Notion 智能体（agent）发消息，几秒钟内就能拿到为自己或他人排好优先级的清单。</p>
+<p>过去几个月，Every 借助 <a href="https://www.notion.com/en-gb/product/ai">Notion AI</a> 搭建了四个定制智能体，Anton 是其中之一。每个智能体都把一种不同的任务自动化了；如果没有它们，团队就需要做繁琐的协调工作来追踪和安排这些任务。它们都利用团队已经在维护的同一组相互关联的数据库。</p>
+<p>在我们与 <a href="https://www.notion.com/">Notion</a> 合作举办的第一期 <a href="https://every.to/events">Custom Agents Camp</a> 中，Brandon 和 Every 的增长负责人 <a href="https://every.to/@tedescau">Austin Tedesco</a> 带着 500 多位订阅者了解他们搭建的四个智能体、底层数据库，以及如何搭建自己的智能体。Notion 产品设计师 Brian Levin 也参加了活动，分享 Notion 团队的最佳实践。</p>
+<h2>要点</h2>
+<ul>
+<li>描述结果，不要描述步骤。告诉 AI 你想完成什么，让它自己想办法实现。把步骤规定得太细，例如“创建一个数据库，然后添加一个关联，再按照……筛选”，往往会让模型困惑。</li>
+<li>你的 Notion 就是智能体的大脑。定制智能体能够查询相互关联的数据库时，能力才会增强。Every 的智能体之所以能发挥作用，是因为战略、日历、任务、人员和会议记录都放在 Notion 中，并且相互引用。</li>
+<li>不要自己编写智能体的指令。告诉 Notion AI 你希望智能体完成什么，它就会生成指令。你也可以让 Claude Code 使用 Notion 的 API，从终端里把整套东西搭建起来。</li>
+</ul>
+<h2>Anton：安排优先级的智能体</h2>
+<p>Every 几乎每天都有东西发布，可能是产品更新、文章、活动、咨询交付成果，或者其中几项的组合。每次发布在 Notion 中都有自己的一组任务；把发布事项加入日历时，这些任务会从模板中自动填充出来。</p>
+<p>这套系统能很好地追踪所有任务。问题出在优先级上。每周多项发布交叠，要从自己的 30 项任务中找出今天早上最重要的一项，就得在脑中同时权衡发布日期、公司战略，以及哪些事情卡住了同事。过去，Brandon 充当着处理这一切的人工路由器。现在，这项工作由 Anton 完成。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4105/optimized_d5de7857-15eb-48ac-94bd-42574bffd9e6.png" alt="Anton 在 Notion 和 Slack 中帮助团队追踪优先级"></p>
+<p><em>Anton 智能体可以通过 Notion 或 Slack 使用，帮助 Every 的团队成员掌握自己的工作优先级。图片由 Katie Parrott 提供。</em></p>
+<p>Anton 还每天在 Slack 中向全公司发送一条消息，概括当周的情况。大家可以在消息串中继续提问。“智能体直接就在 Slack 里，大部分这样的对话也就发生在那里，”Brandon 说。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4105/optimized_84660cde-7e19-4fca-8566-423d8705aa9f.png" alt="Every 当日发布安排的 Slack 消息"></p>
+<p><em>Every 工作日的一幕：要发布什么、何时发布、由谁负责。图片由 Katie Parrott 提供。</em></p>
+<p>具体设置：</p>
+<ul>
+<li><strong>目标：</strong> 回答任何团队成员提出的“我今天应该做什么？”，并每天向 Slack 发布一份全公司的优先事项摘要。</li>
+<li><strong>访问的数据：</strong> 公司战略文档、<a href="https://www.atlassian.com/agile/agile-at-scale/okr">目标与关键结果（OKR）</a>数据库、统一日历、与日历条目关联的任务数据库，以及将每个人对应到所属团队和角色的人员数据库。</li>
+<li><strong>输出：</strong> 根据提问者定制的任务优先级清单。智能体也可以回答团队层面的问题，例如“<a href="https://cora.computer/">Cora</a> 本周的优先事项是什么？”，因为它了解组织结构。</li>
+</ul>
+<p>下面这段提示词可以让你在 Notion 中自行搭建：</p>
+<blockquote>
+<p>我想要一个帮助团队安排工作优先级的定制智能体。我们有一个日历数据库，其中每条记录都是带有日期的发布事项或项目。我们有一个任务数据库，每项任务都关联到一个日历条目，并分配给某个人。我们还有一份战略文档，概述了本季度最重要的优先事项。这个智能体应该：（1）根据即将开展的发布事项，以及任务与战略的契合程度，告诉任何团队成员今天最重要的任务。（2）每天向 Slack 发布一份摘要，列出公司本周的优先事项。如果数据库还不存在，就创建它们，并创建智能体，为其编写指令。</p>
+</blockquote>
+<h2>Max：把会议转成任务的智能体</h2>
+<p>Every 最近把所有会议记录迁到了 Notion。会议会被录音、转写，并存入一个数据库。这些内容有参考价值，但会议记录的保鲜期大约只有六小时；随后，大家就会忘掉自己同意要做什么。真正的价值在于行动项，以及把这些行动项保存在记录会议的同一套系统里。</p>
+<p>这时就轮到 Max 出场了。会议结束后，Max 处理转写文本，提取行动项，再以编号列表的形式把它们发到一个 Slack 频道。任何人都可以回复，说明哪些条目应该变成任务，例如“4、5 和 7”；Max 随即在任务数据库中创建它们，并关联到正确的发布事项。会议直接进入团队原本就用来追踪工作的系统，从 Zoom 通话到待办清单之间，不会有事情被漏掉。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4105/optimized_e1db190c-85ba-42b9-a7a8-8a78deae2079.png" alt="Max 从 Every 的工作室站会中提取行动项"></p>
+<p><em>Max 汇总了 Every 最近一次工作室站会产生的行动项。图片由 Katie Parrott 提供。</em></p>
+<p>具体设置：</p>
+<ul>
+<li><strong>目标：</strong> 处理会议录音，提取行动项，并将选中的条目送回任务系统。</li>
+<li><strong>访问的数据：</strong> 会议数据库，使用 Notion 内置的转写功能；日历；任务数据库；Slack。</li>
+<li><strong>输出：</strong> 每次会议后向 Slack 发布一份带编号的行动项清单。回复重要条目的编号，例如“4、5 和 7”，Max 就会把它们创建为任务，关联到正确的发布事项。</li>
+</ul>
+<p>下面这段提示词可以让你在 Notion 中自行搭建：</p>
+<blockquote>
+<p>我想要一个处理会议记录的定制智能体。当我们的会议数据库中记录了一场会议时，这个智能体应该：（1）根据转写文本更新会议标题。（2）标记与会者。（3）提取行动项。（4）将行动项编号后发布到 [Slack频道]。（5）当有人回复编号，例如“2、4、6”时，在我们的任务数据库中把这些条目创建为任务，并关联到日历上的相关项目。完成后，将会议标记为“processed”。</p>
+</blockquote>
+<h2>战略访谈智能体</h2>
+<p>大多数公司的 OKR 规划要花上几周。有人发出模板，大家拖着不做，管理层审阅那些与公司目标不一致的草稿，然后这一轮不断重复，直到所有人都筋疲力尽，而第二季度已经过去六周。Brandon 在周一告诉团队，OKR 要在周三交；没有这个智能体的话，这样的时限会显得荒唐。</p>
+<p>战略访谈智能体的工作方式就像一位优秀的幕僚长。它了解公司的总体目标，并通过访谈每个团队成员，引出他们对本季度的计划，追问明确的细节和可衡量的成果。像 Austin 这样的一些人，把自己已经收集的笔记贴进去，大约十分钟就拿到了整理好的 OKR。另一些人把访谈当作思考工具，一边讲述自己的优先事项，一边让智能体实时整理成结构化内容。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4105/optimized_537848f9-9fe4-44d0-b1e1-9043f48a4d8b.png" alt="战略访谈智能体帮助 Every 制定 2026 年 OKR"></p>
+<p><em>Every 的战略访谈智能体帮助整个团队制定了与全公司目标一致的 2026 年 OKR。图片由 Katie Parrott 提供。</em></p>
+<p>Notion 的 Brian 提出了一个有用的改进办法：访谈结束后，问智能体：“为了实现这些目标，我们能搭建的最笨、最简单的系统是什么？”反复这样问，能削去复杂性，找到核心。</p>
+<p>具体设置：</p>
+<ul>
+<li><strong>目标：</strong> 就季度目标访谈每个团队成员，并生成与公司战略一致的结构化 OKR。</li>
+<li><strong>访问的数据：</strong> 公司战略文档和 OKR 数据库。</li>
+<li><strong>输出：</strong> 为每个人生成一套完整的 OKR，存入共享数据库，供管理层审阅。Every 团队在两天内完成了自己的 OKR。</li>
+</ul>
+<p>下面这段提示词可以让你在 Notion 中自行搭建：</p>
+<blockquote>
+<p>我想要一个帮助团队编写季度 OKR 的定制智能体。这是我们的公司战略：[粘贴战略文档或其链接]。智能体应该访谈每个人，了解他们的目标，继续追问，让目标明确、可衡量，并编写与公司战略一致的 OKR。将结果存入一个 OKR 数据库，包含目标、关键结果、负责人、团队和季度这些字段。</p>
+</blockquote>
+<h2>活动报告智能体</h2>
+<p>Austin 会在 PostHog、Stripe 和其他几个平台上追踪增长。在使用智能体之前，他<a href="https://every.to/p/the-agent-that-saved-my-brain">每天早上</a>要打开仪表盘，手动提取数字，为团队汇总成报告。把数据整理成有用的东西，比分析数据本身更费力。</p>
+<p>现在，一个定制 Notion 智能体每天向增长团队的 Slack 频道发布一份成绩单，包含关键指标、进度指标，以及团队领先还是落后于目标的标记。底层数据库通过 Notion Workers 从外部来源提取数据；Workers 是把 Notion 与外部 API 连接起来的定制脚本。向一个编程智能体描述你的需求，例如“我需要把 PostHog 的每日流量数字提取到一个 Notion 数据库中”，它就会利用 Notion 的<a href="https://github.com/makenotion/workers-template">公开 Workers 模板</a>为你编写脚本。以前，这类连接需要应用本身开发官方集成。Workers 让你可以连接自己已经在用的任何工具。</p>
+<p><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/4105/optimized_0b9928ed-09b1-4af2-85f5-4faff181972f.png" alt="活动报告智能体追踪 Every 的 Plus One 活动"></p>
+<p><em>Austin 的活动报告智能体监测 Every 的 Plus One 活动的进展。图片由 Austin Tedesco 提供。</em></p>
+<p>Austin 在 Claude Code 终端中使用 Notion API，搭建了整个流程。他用 <a href="https://www.monologue.to/">Monologue</a>——Every 的语音转文字工具——一股脑地说出想要的结果，让 Claude Code 创建数据库和数据管线，再把生成的指令粘贴到 Notion 定制智能体的设置中。第一份输出中的数字有误时，他把那条 Slack 消息的链接复制回 Claude Code，并附上一句“这个数字看起来不对”，然后从那里继续迭代。</p>
+<p>具体设置：</p>
+<ul>
+<li><strong>目标：</strong> 每天向 Slack 发布一份增长成绩单，显示活动是否按预期进度推进。</li>
+<li><strong>访问的数据：</strong> 一个通过 Notion Workers 从 PostHog 和 Stripe 拉取数据的 Notion 数据库。本文所述的 Workers 当时处于 alpha 阶段。Notion 的 Brian 演示了<a href="https://github.com/makenotion/workers-template">公开 Workers 模板仓库</a>，供需要连接外部数据来源的人使用。</li>
+<li><strong>输出：</strong> 每天早上一条排版好的 Slack 消息，包含关键指标、进度指标和完整报告的链接。</li>
+</ul>
+<p>下面这段提示词可以让你在 Notion 中自行搭建：</p>
+<blockquote>
+<p>我正在为 [产品] 开展一项活动。我需要每天向 [Slack频道] 发布一份成绩单，显示以下内容：[列出3—5项关键指标]。流量数据在 PostHog 中，订阅数据在 Stripe 中。设置一个 Notion 数据库来存储这些数据，创建一个读取该数据库的定制智能体，并每天发布一份报告，显示我们的进度领先还是落后。这是我们的目标：[列出目标]。</p>
+</blockquote>
+<p>如果你的 Notion 数据库需要外部数据，可以这样问编程智能体：</p>
+<blockquote>
+<p>我想创建一个 Notion Worker，从 [服务] 中提取 [数据类型]。这是 Workers 模板仓库：<a href="https://github.com/makenotion/workers-template">https://github.com/makenotion/workers-template</a>。请带我一步步完成设置。</p>
+</blockquote>
+<h2>搭建自己的智能体：通用模板</h2>
+<p>上面的智能体针对 Every 的工作流，但它们背后的模式每次都一样。Brian 在活动中的建议是：不要安装别人的模板，然后指望它正好适合你。相反，让 Notion AI 就你的问题来访谈你，再根据你的回答搭建智能体。下面这段起始提示词可以调整后用于任何事情：</p>
+<blockquote>
+<p>请访谈我，帮助我搭建一个定制 Notion 智能体。这是我想完成的事情：[用日常语言描述你想要的结果，例如“我想知道哪些客户项目有错过截止日期的风险”，或“我想每周收到一份团队交付成果的摘要”]。</p>
+<p>请问我现在怎样做这项工作、需要让智能体访问哪些信息、希望输出发送到哪里（Notion、Slack、电子邮件），以及它应该多久运行一次。然后搭建数据库，编写智能体指令，并设置所需的定期运行安排。从简单的做起——我更希望今天就有一个能用的东西，再逐步改进它。</p>
+</blockquote>
+<p>第一个智能体运行起来之后，第二个就容易多了，因为它创建的数据库会成为接下来搭建任何东西的基础。Every 就是这样在三个数据库上拥有了四个智能体。Brandon 从日历和任务开始。智能体一个接一个地加入，每个都接到已有的系统中。</p>
+<p>Brian 对控制范围的建议是：访谈之后，问智能体：“为了完成这件事，我们能搭建的最笨、最简单的系统是什么？”从那里开始。用上一周后，你就会知道该加什么了。</p>
+<hr>
+<p>Katie Parrott 是 Every 的专职撰稿人和 AI 编辑负责人。更多作品见<a href="https://katieparrott.substack.com/">她的通讯</a>。</p>
+<p><em>本文由 AI 翻译。</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-four-agents-company","sender":"Every","author":"Katie Parrott","authorAliases":["Katie Parrott"],"publisher":"Every","subject":"我们如何用四个 AI 智能体运营一家 25 人的公司","snippet":"Every 将公司战略、日历、任务和会议记录连接在 Notion 中，用四个定制智能体处理工作优先级、会议行动项、季度 OKR 和增长报告。Katie Parrott 介绍各智能体的目标、可访问数据和输出，并提供可改用的提示词与通用搭建模板。","date":"2026-04-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["智能体","企业管理","开发工作流"],"mdTheme":"magazine","sourcePath":"reports/four-agents-company.md","sourceUrl":"https://every.to/source-code/how-we-run-a-25-person-company-on-four-ai-agents","body":"$3","prompts":[]},"listPosition":{"index":306,"total":571},"matchedPerson":{"id":"katie-parrott","name":"Katie Parrott","email":"","occupation":"科技作者与工具开发者","website":"https://katieparrott.com/","bio":"在 Every 记录人工智能对知识工作的影响，制作写作与编辑工具，并以个人实验介绍实际使用方法。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"开发工作流","name":"开发工作流","count":1}]},"relatedArticles":[{"id":"essays-career-ai-entry-level","subject":"当AI正在做你的入门工作，如何开启职业生涯","sender":"Every","date":"2026-05-18","matchedPeople":["Katie Parrott"],"matchedTags":[]},{"id":"vibe-coding-agent-control","subject":"别迷信氛围编程，真正有用的是可控的智能体工作流","sender":"henri","date":"2026-05-03","matchedPeople":[],"matchedTags":["智能体","开发工作流"]},{"id":"talks-notions-token-town-5-rebuilds-100-tools-mcp-vs-clis-and-the-software-factory-future-simon-last-sarah-sachs-of-notion","subject":"Notion 的 Token Town：五次推倒重来、100+ 工具与软件工厂愿景","sender":"Latent.Space","date":"2026-04-15","matchedPeople":[],"matchedTags":["智能体","开发工作流"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-cb934759b516a882.js","174","static/chunks/app/mail/%5Bid%5D/page-fd762ebd32643da7.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Ta96,<h1>格罗滕迪克逝世十周年：天才的数学遗产与反思</h1>
+<h2>摘要</h2>
+<p>法国国家科研中心刊物专访数学家 Leila Schneps，回顾亚历山大·格罗滕迪克（1928-2014）的数学遗产。他先以函数分析博士论文成名，后转向代数几何，用概型、拓扑斯等宏大结构重塑学科，1966年获菲尔兹奖。约七万页手稿由 Grothendieck circle 整理，他晚年亦投身生态与反核运动，兼具天才与介入者双重身份。</p>
+<h2>内容框架与概述</h2>
+<p>文章以问答访谈形式展开，围绕格罗滕迪克逝世十周年，邀请数学家 Leila Schneps 回溯其学术生涯与遗产整理工作。开篇交代 Grothendieck circle 的缘起：2003 年一群数学家与旧友聚于巴黎咖啡馆，决定汇集散落各处的信件、笔记与未刊稿。</p>
+<p>随后按时间顺序梳理他三段数学时期。第一段是函数分析，他引入核空间解决拓扑学难题，导师甚至称他终结了该课题。第二段自 1954 年起转向新兴的代数几何，他拥抱概型理论，视其为极具威力的工具，并在 1955 至 1970 年间产出巨量成果。</p>
+<p>第三段聚焦他引入的拓扑斯概念，被形容为万花筒式的物体，凝聚对同一对象的所有可能视角。访谈最后坦承，他设想中统一几何与算术的桥梁至今尚未真正建成，因他未清晰指明路径，其抽象视野也难被同行完全承接。</p>
+<h2>核心概念及解读</h2>
+<p><strong>概念名称：概型（schémas）</strong>：以复杂数学对象取代方程来刻画代数簇，便于极精细地测量其性质。</p>
+<p><strong>概念名称：拓扑斯（topos）</strong>：借重构点的定义推广空间概念，每个点携带测量信息的复杂对象。</p>
+<p><strong>概念名称：核空间</strong>：格罗滕迪克在论文中提出的空间类型，其上两种自然拓扑重合。</p>
+<p><strong>概念名称：Grothendieck circle</strong>：为汇集其手稿与信件而成立的数学家与旧友协作组织。</p>
+<p><strong>概念名称：数学作为语言</strong>：他视算术、几何、分析为描述同一对象的多种语言，互译可生出新证明。</p>
+<hr>
+<h2>原文信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文</td>
+<td><a href="https://lejournal.cnrs.fr/articles/alexandre-grothendieck-un-genie-engage">Alexandre Grothendieck, un génie engagé</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>发表日期</td>
+<td>2026-07-24</td>
+</tr>
+<tr>
+<td>评分</td>
+<td>88/100</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此摘要卡片由 AI 自动生成</em></p>
+0:{"buildId":"_9cnp1yQSAz2iT8XTekKv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"grothendieck-a-committed-genius-legacy","sender":"henri","author":"henri","authorAliases":["henri","Henri","Hinbox"],"subject":"格罗滕迪克逝世十周年：天才的数学遗产与反思","snippet":"菲尔兹奖得主格罗滕迪克逝世十周年之际，数学家 Leila Schneps 回顾他横跨函数分析与代数几何的三段学术生涯、七万页手稿的整理，以及他将数学视为沟通语言的独特视野。","date":"2026-07-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["代数几何","数学史","知识交流"],"mdTheme":"magazine","sourcePath":"notes/grothendieck-a-committed-genius-legacy.md","sourceUrl":"https://lejournal.cnrs.fr/articles/alexandre-grothendieck-un-genie-engage","body":"$3","prompts":[]},"listPosition":{"index":79,"total":571},"relatedArticles":[{"id":"algebraic-geometry-landscapes","subject":"代数几何的千重风景：从圆锥曲线到概形","sender":"henri","date":"2026-07-24","matchedPeople":[],"matchedTags":["代数几何","数学史"]},{"id":"essays-kodaira-kunihiko-biography","subject":"游里工夫独造微——小平邦彦传","sender":"颜一清","date":"1997-07-26","matchedPeople":[],"matchedTags":["代数几何","数学史"]},{"id":"grothendieck-mathematics-revolution","subject":"格罗滕迪克如何重塑现代数学的空间观","sender":"henri","date":"2026-05-20","matchedPeople":[],"matchedTags":["代数几何","数学史"]}]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
