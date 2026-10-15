@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-611cbd4bed14efdd.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T161b,<h2>摘要</h2>
+<p>本文及相关社区讨论聚焦于 DHH 利用 AI 将 Rails 应用重写为 Rust、Elixir 等语言所引发的争议。文章指出，不读代码、脱离思考的 AI 编程会导致隐性约束失真及盲目的基准测试，系统的核心始终在于处理并发机制、内存与延迟之间的工程权衡。社区讨论则围绕“废话不对称原理”、AI 代码审查的认知负荷转移、代码抽象历史类比以及高阶架构设计权衡进一步展开。</p>
+<h2>导读</h2>
+<p>Piotr Sarnacki 从一次跨语言重写实验切入，追问性能数字背后究竟保留了哪些功能与约束。阅读时可沿着三个问题展开：不同版本是否承担相同任务，测试是否反映真实负载，以及系统在过载时选择怎样失败。下文涉及的性能数据来自原作者对特定实现与测试条件的分析。</p>
+<h2>原文核心观点</h2>
+<p>当要求 AI 代理在没有明确约束的情况下重写代码时，所有未被指定的非功能性决策都变成了随机抛硬币。在将 Rails 应用迁移至 Rust 和 Elixir 的实验中，Rust 版本为了简化缓存直接丢弃了 CSRF 令牌，并将 Redis 改为进程内队列，而 Elixir 版本则尽量保留了向后兼容性。这种架构约束层面的不一致直接让跨语言性能对比失去了意义；更糟糕的是，AI 在 Rust 中混用了阻塞操作与异步任务、误用锁机制，在 Elixir 中采用了单进程串行查询，暴露出对各语言底层并发特性的无知。编程并未被 AI “解决”，不读代码就无法发现这些脆弱的实现。</p>
+<p>单纯以吞吐量为指标的闭环基准测试极具欺骗性，完全掩盖了系统在真实负载下的行为。虽然初步测试显示 Rust 在极限重载下只有 1% 的通知送达率，让不少人轻易得出“Elixir 并发更优”的片面结论，但切换到固定到达率测试后，全貌才得以展现：Rust 在高并发下以丢弃滞后消息、强制客户端重连为代价保持了零 HTTP 错误，而 Elixir 虽保障了更高的事件送达率，却出现了 23% 的请求超时、高达 3 分钟的事件延迟以及逼近 1.8GB 的内存开销，面临更严重的 OOM 风险。</p>
+<p>软件工程从来不存在既要又要的银弹，核心永远在于为具体的系统边界选择合适的权衡与失败模式。Rust 丢弃消息源于广播通道默认的容量上限，虽然仅修改一行配置扩大缓冲区能将送达率大幅拉高至 90%，但这会导致延迟急剧飙升至 130 秒以上，反而破坏了快速失败并重连的更优体验。无论是何种编程语言或运行时，都不会自动抚平底层的并发缺陷；构建可靠系统的关键依然在于清醒地认知约束、设计合理的背压与降级策略，工程师依然必须保持批判性思考。</p>
+<h2>社区讨论区观点概述</h2>
+<h3>一、验证不对称性与“工作废品（Workslop）”困境</h3>
+<ul>
+<li>依据布兰多里尼定律（废话不对称原理），生成海量代码的成本极低，但审查与排错的成本极高。</li>
+<li>AI 将开发者的“思考成本”直接转嫁为审阅者（Reviewer）的认知负荷，导致团队整体效率被劣质 PR 拖垮。</li>
+<li>责任归属争议加剧：提交低质 AI 代码本质是提交者个人的失职，但在追求交付速度的环境下，坚持严谨 Code Review 的人反而常被视作效率障碍。</li>
+</ul>
+<h3>二、语言重写场景的现实落差</h3>
+<ul>
+<li>理想中，具有完备旧代码和测试用例的重写（Porting）应是 AI 的强项；但实际上，诸如并发调度、资源限制、鉴权兼容等最核心的“暗知识”，AI 往往在模糊提示下随意决策。</li>
+<li>针对 DHH 实验本身的批判：未利用 Erlang/OTP 特性照搬 Rails 逻辑导致性能不佳，体现出测试本身的不严谨，不能轻易将模型生成的劣质实现归咎于目标语言生态。</li>
+</ul>
+<h3>三、系统理解与“读代码”的必要性争议</h3>
+<ul>
+<li>编译器演进派认为，90 年代老工程师同样告诫“不能盲信编译器必须看汇编”，未来人类也终将从阅读具体业务代码中脱离，抽象层级必然上移。</li>
+<li>确定性反驳派指出，编译器是高确定性的规则系统，而大模型具备不可控的幻觉与随机性；在关乎可用性与稳定性的场景中，放弃理解实现等于放弃对系统的掌控。</li>
+</ul>
+<h3>四、高阶工程角色的范式重塑</h3>
+<ul>
+<li>“保持思考”不等于手写每一行样板代码，工程师的重心正转向“定义硬性约束、构建沙盒架构、编写详尽测试与协议规范”。</li>
+<li>提倡“测试驱动与结对协作”模式，通过严密控制模块粒度与多模型对抗审查，避免将系统交付给黑盒式全量生成。</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题</strong>：<a href="https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/">I'm sorry, but you still have to think</a></li>
+<li><strong>原文作者</strong>：Piotr Sarnacki</li>
+<li><strong>来源网站</strong>：<a href="https://itsallaboutthebit.com/">It's all about the bit</a></li>
+<li><strong>原文链接</strong>：<a href="https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/">阅读原文</a></li>
+<li><strong>原文日期</strong>：2026年10月11日</li>
+<li><strong>HN 讨论区链接</strong>：<a href="https://news.ycombinator.com/item?id=50043689">Hacker News 讨论（Item #50043689）</a></li>
+<li><strong>整理日期</strong>：2026年10月12日</li>
+</ul>
+0:{"buildId":"IfoOur86LB41a3rO1wPOT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-coding-still-requires-engineering-thinking","sender":"Piotr Sarnacki","author":"henri","sourceAuthor":"Piotr Sarnacki","authorAliases":["henri","Piotr Sarnacki","Henri","Hinbox"],"publisher":"It's all about the bit","media":"It's all about the bit","subject":"AI 编程之后，工程师仍须思考：重写实验、性能测试与系统权衡","snippet":"从 DHH 的 Rails 跨语言重写实验出发，梳理 AI 编程中的隐性约束、基准测试偏差与审查成本，讨论并发、内存、延迟和失败模式之间的工程权衡。","date":"2026-10-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","软件工程","性能测试","系统设计"],"mdTheme":"magazine","sourcePath":"notes/ai-coding-still-requires-engineering-thinking.md","sourceUrl":"https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/","body":"$3","prompts":[]},"listPosition":{"index":11,"total":593},"matchedPerson":{"id":"piotr-sarnacki","name":"Piotr Sarnacki","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"性能测试","name":"性能测试","count":1},{"id":"系统设计","name":"系统设计","count":1}]},"relatedArticles":[{"id":"anthropic-scion-agent-scale-source-control","subject":"Anthropic 重构版本控制：Scion、智能体规模与工程师的新角色","sender":"Anthropic","date":"2026-10-14","matchedPeople":[],"matchedTags":["人工智能","软件工程"]},{"id":"ai-erodes-intellectual-communities","subject":"人工智能对人类智力社群与个人思考的侵蚀","sender":"Fernando Borretti","date":"2026-10-13","matchedPeople":[],"matchedTags":["人工智能","软件工程"]},{"id":"fable-took-my-job-ai-software-careers","subject":"AI 没有胜任我的工作，却让公司裁掉了我：软件工程的职业重构","sender":"Cendyne","date":"2026-10-12","matchedPeople":[],"matchedTags":["人工智能","软件工程"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

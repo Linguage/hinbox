@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-611cbd4bed14efdd.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2902,<h2>目录</h2>
+<ul>
+<li><a href="#section-1">摘要</a></li>
+<li><a href="#section-2">导读</a></li>
+<li><a href="#section-3">原文概述：将网站发布到 HN 后遭遇 AI 机器人流量洪峰</a></li>
+<li><a href="#section-4">讨论区观点梳理</a></li>
+<li><a href="#section-5">基本信息</a></li>
+</ul>
+<p><a id="section-1"></a></p>
+<h2>摘要</h2>
+<p>本文围绕独立开发者将自研的可定制订阅源阅读器发布到 Hacker News 后，意外遭遇海量 AI 爬虫、网页监控服务和漏洞扫描冲击的经历展开。全文首先以原作者的第一人称视角还原了从发现服务器异常高负载、排查 NGINX 日志锁定高频轮询的“AI 垃圾简报”制造者与各类爬虫，到最终通过流量封禁与底层架构重构提升网站韧性的完整过程。随后，系统性地梳理了 Hacker News 社区开发者们针对此类现象的多维度探讨，涵盖恶意流量与住宅代理僵尸网络的特征、各种反制与验证手段的攻防利弊、服务端性能与静态化架构反思、AI 流量作为新兴引流渠道的商业价值分歧，以及对开放互联网逐渐退化为“围墙花园”的悲观预期。</p>
+<p><a id="section-2"></a></p>
+<h2>导读</h2>
+<p>一次项目曝光带来的并不全是真实读者。Sammy 的经历把两个问题放在了一起：网站如何承受自动化访问，站长又应如何区分滥用、搜索索引与替真实用户访问的代理？社区的不同回答，也反映了开放访问、运营成本和用户体验之间的取舍。</p>
+<p><a id="section-3"></a></p>
+<h2>原文概述：将网站发布到 HN 后遭遇 AI 机器人流量洪峰</h2>
+<p>在过去几年里，我一直致力于开发一款名为 sprinklz.io 的免费可定制订阅源阅读器，它允许用户根据自己的需求编程定制过滤规则，比如根据 Hacker News 的得分进行排序，或者将泛滥的 AI 和大语言模型（LLM）等特定话题降低优先级甚至直接屏蔽。一个月前，我将这个项目发布到了 Hacker News 上，收获了一百多个赞。大家显然对铺天盖地的 LLM 资讯感到厌倦，非常喜欢这种能主动净化信息流的工具。然而好景不长，就在帖子走红并过去好几天之后，网站非但没有恢复平静，反而变得极其缓慢，甚至越来越糟。当时真实活跃的登录用户其实只有一小批，但服务器却表现出了极不正常的超高负载，监控指标完全无法用正常的访问逻辑来解释。</p>
+<p>为了查明真相，我为每个接口路径添加了顶层访问日志，结果发现绝大多数请求甚至根本没有尝试去拉取新闻文章。由于我的网站是一个单页应用（SPA），这意味着绝大部分流量连渲染页面所必需的 JavaScript 代码都没有执行。进一步深入排查聚合后的 NGINX 日志后，我震惊地发现近一半的流量竟然全部来自同一个特定用户——这是一家专门高频监听网站变动并将其总结成“AI 垃圾简报（AI slop newsletter）”的服务，所谓的“监听”就是每分钟对我的网站发起无数次轮询查询。除此之外，流量中还混杂着主动亮明身份的 ClaudeBot、OpenAI 爬虫、Google 搜索索引器等常规爬虫，以及试图在我这个非 WordPress 网站上探测 <code>-/wp-content/phpinfo.php</code> 等路径的漏洞扫描器。</p>
+<p>针对这场流量闹剧，我果断封禁了那个高频轮询的滥用者，配置了 <code>robots.txt</code> 以劝退大多数 AI 扫描器（同时保留对 Google 等正常搜索流量的放行），设置了合理的速率限制，甚至让 Claude 模拟漏洞扫描器的路径对网站进行了一轮自查，以确保没有任何安全泄露。不过，这次遭遇给我上的最重要一课，是时候让我的网站变得更快、更具韧性了。我希望它未来能够真正具备扛住高并发真实流量（高 QPS）的扩展能力。受此启发，我在过去几周内对底层基础设施进行了一系列重大改进，为所有真实用户带来了显著的性能提升。</p>
+<p><a id="section-4"></a></p>
+<h2>讨论区观点梳理</h2>
+<h3>恶意流量的来源与特征</h3>
+<ul>
+<li><strong>主流云服务商与科技巨头</strong>：评论者称，大量激进的抓取和漏洞扫描来自 AWS、Google Cloud、Azure、阿里云和 Oracle 等主流云厂商的 ASN。大厂爬虫表现不一，Meta 和 Bing 的爬虫被多人吐槽“极其激进且无视 <code>robots.txt</code>”，而 Apple 和 Anthropic 相对遵守规则。</li>
+<li><strong>住宅代理僵尸网络（Residential Proxy Botnets）</strong>：评论者认为，这是目前最难防御的对手。攻击者通过入侵未打补丁的路由器、电脑，或利用免费的 IPTV 机顶盒建立隧道并作为住宅代理出售。请求分散在全球海量真实的家庭宽带 IP 上且高频轮换，使传统基于 IP 封禁的手段（如 <code>fail2ban</code>）难以奏效。</li>
+<li><strong>攻击与滥用行为多样化</strong>：除了原帖遭遇的每分钟高频轮询生成“AI 垃圾简报”外，还有开发者称，标识为 <code>ClaudeBot</code> 的抓取导致单月产生 1 万美元 GCP 账单，并怀疑有人用 AI 插件试图逆向克隆其软件；也有人的 AI 网站被机器人批量注册并刷光免费额度。此外，有站长发现，只要为子域名配置了 TLS 证书并出现在证书透明度日志（CT Logs）中，几秒钟内就会引来针对 <code>.env</code>、WordPress 后台等已知漏洞的无差别扫描。</li>
+</ul>
+<h3>防御手段与猫鼠游戏</h3>
+<ul>
+<li><strong>网络层与 ASN 封禁</strong>：有评论建议在 Cloudflare 边缘或利用 <code>ipsets</code> 封禁整段云厂商 IP，或订阅开源封禁列表（如 AbuseIPDB Blocklist）。但痛点在于容易误伤使用公有云企业 VPN 的正常付费用户，且对住宅代理无效。</li>
+<li><strong>验证挑战（PoW／验证码）</strong>：讨论提到部署 Cloudflare Turnstile，或使用 Anubis、Sphinx 等工作量证明（PoW）工具要求客户端执行消耗算力的 JS 计算。但评论者指出，预算充足的爬虫会用无头浏览器（Headless Chrome）获取初始通过 Cookie 后分发给工作节点继续抓取，且验证机制容易影响无障碍访问（ADA 合规）。</li>
+<li><strong>反击与陷阱（Tarpits &#x26; Zipbombs）</strong>：讨论中有人提出向恶意爬虫返回高压缩比大文件（压缩炸弹），或采用基于 BEAM（Elixir／Erlang）的慢速代理来耗尽爬虫连接池。也有开发者称，某些爬虫会等待 5 到 15 分钟。但其他评论提醒，面对百万级请求或数十万并发时，小服务器自身的带宽和连接极限同样会被耗尽。</li>
+<li><strong>隐藏与认证隔离</strong>：讨论提到使用通配符证书（<code>*.domain.example</code>）隐藏真实子域名，或在首页直接写明账号密码并开启全站 Basic Auth 基础认证，以阻挡不会读取网页内容并填入认证弹窗的简单爬虫。但字典暴力枚举依然存在，且强制登录会严重影响公开网页的转化率。</li>
+</ul>
+<h3>架构反思：堵不如疏？</h3>
+<ul>
+<li><strong>静态化与 CDN 缓存</strong>：部分开发者认为，如果每分钟几十上百次的请求就能打挂服务器，说明架构本身存在缺陷。应尽量减少沉重的动态渲染，做到读写分离、静态资源上 CDN，让边缘节点扛下绝大部分噪音流量。</li>
+<li><strong>使用高性能语言与优化服务端</strong>：有观点主张，与其用验证工具折腾真实用户，不如用 Rust 等高效语言重写服务或优化代码；支持者认为，只要响应足够快，在一台老旧笔记本或每月 5 欧元的 Hetzner VPS 上也能应对上万并发，即早已解决的 C10k 问题。</li>
+<li><strong>单页应用（SPA）的争议</strong>：有人建议砍掉 SPA 改为静态缓存；但也有人反驳，面对只用 <code>curl</code> 抓取 HTML 而不执行 JS 的低级爬虫，SPA 反而将渲染工作卸载到了客户端，客观上保护了后端的业务接口。</li>
+</ul>
+<h3>AI 流量的商业价值之争</h3>
+<ul>
+<li><strong>区分“训练抓取”与“用户代理”</strong>：评论者建议在日志中区分纯后台抓取训练的 <code>GPTBot</code>／<code>ClaudeBot</code>，与代表真实用户在与 AI 对话时触发实时检索的 <code>ChatGPT-User</code>／<code>Claude-User</code>。</li>
+<li><strong>AI 正在成为核心引流渠道</strong>：多位站长称，随着传统搜索流量因 AI Overviews 下滑，ChatGPT 已成为其网站最大的外部引流来源（Top Referrer）；经由聊天机器人推荐过来的用户，其注册转化率和留存活跃度也高于传统搜索用户。部分开发者甚至希望通过限制免费速率，向高频调用的 AI Agent 开发者推销付费 API。</li>
+</ul>
+<h3>对互联网未来的悲观预期</h3>
+<ul>
+<li><strong>“保护费”闭环</strong>：部分评论认为，像 Google 这样既拥有爬虫又售卖云服务的巨头，无形中形成了一种闭环——站长必须购买大厂的云服务器和 CDN，才能扛住大厂自家爬虫的高频抓取。</li>
+<li><strong>开放网络的萎缩与“围墙花园”的兴起</strong>：悲观者认为，由于公有云对内部滥用行为监管乏力（滥用者也在付带宽费），加上跨国网络执法成本过高，个人站长自建公开服务（Self-hosting）的门槛和心智负担已高得令人却步。未来互联网可能会进一步退缩回强制登录、验证身份甚至绑卡付费的“围墙花园（Walled Gardens）”及小圈子信任网络中。</li>
+</ul>
+<p><a id="section-5"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题</strong>：I posted to HN, and then my website was flooded with AI BOT traffic</li>
+<li><strong>原作者</strong>：Sammy</li>
+<li><strong>原文链接</strong>：<a href="https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic">Sammy's Blog：登上 HN 后的网站机器人流量</a></li>
+<li><strong>相关项目</strong>：<a href="https://sprinklz.io/">sprinklz.io 订阅源阅读器</a></li>
+<li><strong>HN 讨论区链接</strong>：<a href="https://news.ycombinator.com/item?id=50073221">Hacker News 讨论串 #50073221</a></li>
+<li><strong>整理日期</strong>：2026年10月13日</li>
+</ul>
+0:{"buildId":"IfoOur86LB41a3rO1wPOT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"hacker-news-ai-bot-traffic-and-open-web","sender":"Sammy","author":"henri","sourceAuthor":"Sammy","authorAliases":["henri","Sammy","Henri","Hinbox"],"publisher":"Sammy's Blog","media":"Sammy's Blog","subject":"登上 Hacker News 之后：AI 爬虫洪峰与开放网站的生存压力","snippet":"从 sprinklz.io 遭遇异常抓取的经历出发，梳理流量滥用、网站防御、缓存架构与 AI 引流的争论，讨论开放网络的运营成本。","date":"2026-10-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["网络安全","网站架构","人工智能","开放互联网"],"mdTheme":"magazine","sourcePath":"notes/hacker-news-ai-bot-traffic-and-open-web.md","sourceUrl":"https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic","body":"$3","prompts":[]},"listPosition":{"index":8,"total":593},"matchedPerson":{"id":"sammy","name":"Sammy","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"开放互联网","name":"开放互联网","count":1},{"id":"网站架构","name":"网站架构","count":1}]},"relatedArticles":[{"id":"ai-hacking-criminal-liability-debate","subject":"AI 越界入侵，谁应承担责任？刑事追责与责任鸿沟之争","sender":"Mortoray","date":"2026-10-13","matchedPeople":[],"matchedTags":["网络安全","人工智能"]},{"id":"cedric-villani-ai-math-concerns","subject":"菲尔兹奖得主维拉尼警示AI对数学教育的冲击","sender":"AI 101","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Zephyr Teachout","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

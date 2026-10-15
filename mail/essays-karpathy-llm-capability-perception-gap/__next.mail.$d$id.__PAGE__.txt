@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-611cbd4bed14efdd.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T2870,<h2>摘要</h2>
+<p>Karpathy 认为，人们对大语言模型能力的理解正在进一步分化：多数人尚未接触这些系统，普通用户看到的是聊天工具，数学与编程领域的专业用户已经体验到智能体带来的巨大变化，而极少数拥有内部前沿系统访问权限的人，又置身于另一种技术现实。从 4 月的“两群人各说各话”，到 10 月的四层认知漏斗，他将这种差异与任务规模、模型能力的不均衡分布，以及不同层级的访问权限联系起来。</p>
+<h2>导读</h2>
+<p>10 月的帖子将视野扩展到从普通大众到内部前沿系统使用者的整个梯度；4 月的帖子则更详细地解释了，为什么免费聊天产品的体验与专业编码智能体的体验会如此不同。文中人数和比例是作者的粗略估计，评论区也提出了来自非技术工作、软件架构和工具学习门槛等角度的不同观察。</p>
+<h2>一、2026 年 10 月：从认知鸿沟到四层漏斗</h2>
+<p><a href="https://x.com/karpathy/status/2109361546505966046">原帖</a> · 页面标注最后更新于 2026 年 10 月 11 日</p>
+<p>我把这条 4 月的旧推文重新翻出来，是因为人们对大语言模型能力的共同理解之间，那道鸿沟正在<strong>扩大</strong>。如今，它已经不太像“两群人各说各话”，而更像一道急剧收窄的漏斗。</p>
+<h3>四层截然不同的体验</h3>
+<ul>
+<li>
+<p><strong>几乎没有接触过大语言模型的人。</strong> 粗略估算，大约有 60 亿人，约占总人口的 75%，几乎从未接触过大语言模型。</p>
+</li>
+<li>
+<p><strong>偶尔使用免费产品的普通用户。</strong> 大约有 10 亿至 20 亿人，约占 20%，只是偶尔、不频繁地使用免费版 ChatGPT 一类的产品。他们看到的是有点傻乎乎的聊天机器人，把它当作更好用的 Google 搜索、写作助手之类的工具。也许某个智能体会试着帮你订一张机票。我有一些非技术背景的朋友，说自己实在没什么地方用得上它；在我看来，这种感受很合理。就连许多数学和编程领域之外的专业人士，也处在这一层。例如，高管以及许多其他职能岗位的人，大量时间都花在与人沟通上。因此，尽管他们在理性上理解正在发生什么，这种理解仍然是间接的，而且有些抽象。</p>
+</li>
+<li>
+<p><strong>在数学与编程中专业使用前沿大模型的人。</strong> 再往下，是在数学和编程领域专业使用前沿级大语言模型的人。大约有 2,000 万人，约占 0.2%，亲眼看到那些过去需要自己花费数周乃至数月才能完成的大型复杂项目，如今只需给出一段提示，便能由智能体完成。开发应用、复刻应用、翻译应用、从二进制文件反编译应用……这一切都发生得非常快，而且就在最近：不到一年前，我还在手动写代码，把记在脑子里的计算机代码命令，一个字符接一个字符地敲进代码编辑器，偶尔按一下 Tab，让它自动补全一小段代码。</p>
+</li>
+<li>
+<p><strong>能够使用内部前沿系统的人。</strong> 最后，是大约 5,000 人，约占 0.00006%，他们可以在内部使用前沿级系统。外界已经看过预演：数以千计的智能体成群协作，连续数周投入超大型软件项目，挖掘零日漏洞、以机器速度开展网络攻防、作出新的科学发现、推进数学前沿。这些事情，原本需要行业顶尖专业人士花上数年才能完成。与此同时，人类的审查和理解能力开始跟不上了。例如，对于几个月前发生的 OpenAI-HF 事件，人们至今还在做“考古”。数学家们可能还要花很长一段时间，仔细研读那 722 篇前沿数学研究手稿。</p>
+</li>
+</ul>
+<h3>漏斗为何形成</h3>
+<p>这道漏斗是多种因素共同作用的结果：</p>
+<ol>
+<li>
+<p><strong>影响随着目标的雄心、问题规模和时间跨度而扩大。</strong> 一个只需用一段话作答的问题，几乎无法让系统真正承受压力。你需要有一批自己真正在意的大问题、难问题。这一因素塑造了漏斗中的消费级使用与专业使用之分。</p>
+</li>
+<li>
+<p><strong>系统能力的参差不齐。</strong> 关于这一点，我此前已经专门写过很多。能力的高峰出现在数字化、可验证且具有经济价值的领域。这是因为，大语言模型的能力来自基于可验证奖励的强化学习，而训练所用的环境组合经过精心筛选，其取舍由潜在收入所驱动。这一因素主要塑造了漏斗中的领域差异，例如数学与编程。</p>
+</li>
+<li>
+<p><strong>访问权限。</strong> 免费层、付费层、内部使用层。</p>
+</li>
+</ol>
+<p>所以，这就是当下的奇特之处。普通大众大多还没有与这些系统打过交道。即使接触过，看到的也像是一个傻乎乎的聊天机器人。大多数专业人士仍然只感受到有限的提升。而极小一部分专业人士，正在体验能力曲线陡然转为垂直上升时的眩晕感。这一切，正在同时发生。</p>
+<h3>帖中引用的 4 月旧帖</h3>
+<p><strong>Andrej Karpathy · 2026 年 4 月 9 日</strong></p>
+<blockquote>
+<p>根据我的观察，关于 AI 能力的理解存在日益扩大的差距。</p>
+</blockquote>
+<p><a href="https://x.com/karpathy/status/2042334451611693415">4 月原帖全文</a>见本文第二部分。</p>
+<h2>二、2026 年 4 月：两群人正在各说各话</h2>
+<p><a href="https://x.com/karpathy/status/2042334451611693415">原帖</a> · 2026 年 4 月 9 日</p>
+<p>从我的时间线来看，人们对 AI 能力的理解存在越来越大的鸿沟。</p>
+<h3>使用时效与模型层级</h3>
+<p>我认为，第一个问题在于使用的时间和层级。很多人大概在去年某个时候试过免费版 ChatGPT，然后就让那次体验过多地决定了他们对 AI 的看法。这一群人的反应，是嘲笑模型的各种古怪表现、幻觉等等。是的，我也看到了那些广为流传的视频：OpenAI 的高级语音模式连“我应该开车还是走路去洗车店”这样的简单问题都答不好。问题在于，这些免费、老旧或已被弃用的模型，并不能代表今年最新一轮先进智能体模型的能力，尤其是 OpenAI Codex 和 Claude Code。</p>
+<h3>能力集中在特定技术领域</h3>
+<p>但这就引出了第二个问题。即便人们每月花 200 美元使用最先进的模型，许多能力也仍然在高度技术性的领域呈现相对突出的“峰值”。搜索、写作、建议等典型请求，<strong>并不是</strong>能力进步最显著、最惊人的领域。部分原因来自强化学习的技术细节，以及它对可验证奖励的使用；但另一部分原因是，公司在不断优化模型的过程中，没有充分优先考虑这些使用场景，因为它们带来的经济价值没那么高。金矿在别处，注意力自然也就跟着转移。</p>
+<h3>专业用户为何感到震撼</h3>
+<p>于是，就有了第二群人。他们<strong>同时</strong>满足两个条件：第一，付费并使用最先进的前沿智能体模型，例如 OpenAI Codex 或 Claude Code；第二，在编程、数学和研究等技术领域中专业地使用这些模型。这群人最容易陷入所谓的“AI 精神病”（AI Psychosis），因为今年以来，这些领域最近取得的进步实在令人瞠目结舌。把一个计算机终端交给这样的模型，如今你就能看着它轻松化解那些你通常预计需要花上数天乃至数周才能解决的编程问题。也正是这第二群人，对这些能力、能力增长的斜率，以及各种网络安全层面的影响，赋予了远为重大的意义。</p>
+<h3>同一时间，两种技术现实</h3>
+<p>简而言之，这两群人正在各说各话。以下两件事确实可以同时发生：OpenAI 免费的、在我看来似乎已有点被冷落的“高级语音模式”（是这样吗？），会在你刷到的 Instagram 短视频中被最简单的问题难住；<strong>与此同时</strong>，OpenAI 最高档的付费 Codex 模型，却可以独自工作一个小时，有条不紊地重构整个代码库，或发现并利用计算机系统中的漏洞。</p>
+<p>后一部分确实有效，而且进步显著，原因有两点。第一，这些领域提供了明确、可验证的奖励函数，因此很适合用强化学习来训练：例如，单元测试通过了没有？相比之下，写作就难以作出如此明确的判断。第二，这些能力在企业对企业的商业场景中更有价值，因此团队最大的一部分精力都集中在改进它们上。这就是我们现在所处的局面。</p>
+<h3>引用与补充</h3>
+<p><strong>staysaasy（@staysaasy） · <a href="https://x.com/staysaasy/status/2042063369432183238">原帖</a></strong></p>
+<blockquote>
+<p>你对 AI 的惊叹程度，与你使用 AI 编写代码的程度完全正相关。</p>
+</blockquote>
+<p><strong>Karpathy 的补充 · <a href="https://x.com/karpathy/status/2042341482531864741">2026 年 4 月 9 日</a></strong></p>
+<p>最近有人向我提出一种解释：OpenClaw 时刻之所以如此引人注目，是因为这是第一次有一大群非技术人员体验到最新的智能体模型；在此之前，他们把 AI 等同于一个名叫 ChatGPT 的网站。</p>
+<h2>相关阅读</h2>
+<p><a href="https://linguista.cn/hinbox/mail/karpathy-llm-capability-gap-community-debate">Karpathy 认知鸿沟之争：智能体提效、工程质量与社会分化</a>梳理了 X 与 Hacker News 社区围绕本文的讨论，包括工程质量、产品落地与社会分配等分歧。</p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>作者</strong>：Andrej Karpathy（@karpathy）</li>
+<li><strong>来源平台</strong>：X</li>
+<li><strong>10 月帖子</strong>：<a href="https://x.com/karpathy/status/2109361546505966046">关于大模型能力认知漏斗的讨论</a>，页面标注最后更新于 2026 年 10 月 11 日</li>
+<li><strong>4 月帖子</strong>：<a href="https://x.com/karpathy/status/2042334451611693415">关于 AI 能力理解鸿沟的讨论</a>，发布于 2026 年 4 月 9 日</li>
+<li><strong>中文发布日期</strong>：2026 年 10 月 12 日</li>
+</ul>
+0:{"buildId":"IfoOur86LB41a3rO1wPOT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-karpathy-llm-capability-perception-gap","sender":"Andrej Karpathy","author":"Andrej Karpathy","authorAliases":["Andrej Karpathy","Andrej karpathy","karpathy"],"subject":"Karpathy：从各说各话到认知漏斗，大模型能力的理解鸿沟","snippet":"Karpathy 在 10 月与 4 月的两篇帖子中，追踪人们对 AI 能力的认知分化：使用场景、模型层级与访问权限，如何让大众和专业用户置身于不同的技术现实。","date":"2026-10-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","智能体","模型评估","公众认知"],"mdTheme":"magazine","sourcePath":"essays/karpathy-llm-capability-perception-gap.md","sourceUrl":"https://x.com/karpathy/status/2109361546505966046","body":"$3","prompts":[]},"listPosition":{"index":15,"total":593},"matchedPerson":{"id":"andrej-karpathy","name":"Andrej Karpathy","email":"","occupation":"人工智能研究者与教育者","website":"https://karpathy.ai/","bio":"OpenAI 创始成员，曾领导特斯拉自动驾驶视觉团队，并主讲斯坦福深度学习课程及人工智能视频课程。","contentCount":8,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"智能体","name":"智能体","count":4},{"id":"公众认知","name":"公众认知","count":3}]},"relatedArticles":[{"id":"essays-thread-by-karpathy","subject":"Karpathy 推文：AI 能力感知的两极分化","sender":"Andrej Karpathy","date":"2026-04-09","matchedPeople":["Andrej Karpathy"],"matchedTags":["人工智能","模型评估","公众认知"]},{"id":"karpathy-llm-capability-gap-community-debate","subject":"Karpathy 认知鸿沟之争：智能体提效、工程质量与社会分化","sender":"Andrej Karpathy","date":"2026-10-12","matchedPeople":["Andrej Karpathy"],"matchedTags":["人工智能","智能体","公众认知"]},{"id":"talks-karpathy-vibe-coding-agentic-engineering","subject":"Andrej Karpathy：从氛围编程到智能体工程","sender":"Andrej Karpathy","date":"2026-04-29","matchedPeople":["Andrej Karpathy"],"matchedTags":["智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
