@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T31d0,<h2>概述</h2>
+<p>OpenAI 公布的准黎曼猜想证明，正在被数学家逐步拆解和理解。它出人意料地组合了已有的数论工具，可能让数学多个领域的大量结果得到确立，但完整的黎曼猜想似乎仍然遥不可及。</p>
+<h2>全文译文</h2>
+<p>在 OpenAI 于 2026 年 10 月 6 日<a href="https://www.quantamagazine.org/updates/transformation/#167703">公布</a>的 377 项成果中，有一项格外引人注目。它声称解决了“准黎曼猜想”，也就是黎曼猜想的一个较弱版本；而黎曼猜想可以说是数学中最重大的未解问题。用斯坦福大学的 <a href="https://mathematics.stanford.edu/people/jared-duker-lichtman">Jared Duker Lichtman</a> 的话说，这个新证明是“迄今为止 AI 在数学领域取得的最重要成就，而且遥遥领先于其他成果”。</p>
+<p>黎曼猜想已经悬而未决了 160 多年。解决它，将使数学家能够更好地理解素数的本质。素数是数学最重要的基本构件之一。而这还只是一个开始。</p>
+<p>纽约大学的 <a href="https://maksym-radziwill.github.io/">Maksym Radziwiłł</a> 说，即便只是范围更有限的“准黎曼猜想”这一结果，其影响也“令人震撼”。“从某种意义上说，黎曼猜想的绝大多数推论，仅凭准黎曼猜想就已经能够得出。”</p>
+<p>此外，与数学家长期以来的预期相反，这个证明并不需要引入任何新概念，而是发掘出了旧概念之间隐藏的联系。“这个证明以一种出人意料的方式，将一些众所周知的思想综合到了一起。”佐治亚理工学院的 <a href="https://alexjdunn.weebly.com/">Alexander Dunn</a> 说。</p>
+<p>这项成果部分依赖于 Radziwiłł 和 Dunn 开创的技巧。他们与其他数论学家一道，一直在努力理解这个证明，以及它可能意味着什么。现在，他们开始找到答案了。</p>
+<h2>从 ζ 函数出发，走向更远处</h2>
+<p>要理解准黎曼猜想说的是什么，首先必须理解黎曼猜想。在世纪之交，克雷数学研究所<a href="https://www.claymath.org/millennium-problems/">公布</a>了七大“千禧年大奖难题”，而黎曼猜想在其中比其他六个问题更为引人瞩目。一个世纪之前，大卫·希尔伯特曾公布过一份<a href="https://www.simonsfoundation.org/news/solved-unsolved-and-unsolvable-the-status-of-hilberts-23-problems-in-mathematics/">著名的问题清单，为数学研究指明方向</a>；黎曼猜想是其中唯一被保留到千禧年大奖难题中的问题。</p>
+<p>从表面上看，这个猜想关乎一个特定函数的行为。先从这个和式开始：$1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots$。再利用这个和式，并借助一种特殊的数学技巧来扩展其适用范围，就能构造出一个更一般的函数，称为黎曼 zeta（ζ）函数：</p>
+<p>$$
+\zeta (s) = 1 + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \cdots
+$$</p>
+<p>这里，输入值 <em>s</em> 是一个复数。复数包含两部分：“实部”和“虚部”，后者是 −1 的平方根（记作 <em>i</em>）的倍数。任何复数都可以看作平面上的一个点：</p>
+<p><img src="https://www.quantamagazine.org/wp-content/uploads/2026/10/RiemannHypothesis_Fig1_crMarkBelan_Desktopv1.svg" alt="复平面上的复数"></p>
+<p>Mark Belan / <em>Quanta Magazine</em></p>
+<p>黎曼猜想所讨论的是：<em>s</em> 取哪些值时，ζ 函数会等于零。</p>
+<p>但它涉及的内容，远不止这个特定函数如何表现。正如伯恩哈德·黎曼在 1859 年首次提出这一猜想时所意识到的，这个函数与素数中的规律有关。素数是只能被 1 和自身整除的整数，许多数学家将其称为“算术的原子”。</p>
+<p>人们早已知道，沿着数轴向前走，素数会变得越来越稀疏。黎曼证明，在某种意义上，素数究竟<em>如何</em>变得稀疏，是由 ζ 函数决定的，尤其取决于这个函数在哪些位置等于零。</p>
+<p>很容易证明，如果 <em>s</em> 是负偶数（−2、−4、−6，……），那么 ζ(<em>s</em>) = 0。这些称为平凡零点。黎曼猜想认为，ζ 函数其余的零点，也就是非平凡零点，只会出现在 <em>s</em> 的实部等于 1/2 的位置。也就是说，它们应该全部落在一条竖直线上：</p>
+<p><img src="https://www.quantamagazine.org/wp-content/uploads/2026/10/RiemannHypothesis_Fig2_crMarkBelan_Desktopv2-1.svg" alt="黎曼 ζ 函数的非平凡零点与临界线"></p>
+<p>如果在这条竖直线之外的某个地方发现了任何一个非平凡零点，就意味着素数必定呈现出一种极其出人意料的规律，而这样的规律迄今从未被观察到。</p>
+<p>仅仅缩小非平凡零点可能出现的区域，就已经产生了巨大的影响。黎曼本人证明，ζ 函数的非平凡零点只能出现在实部介于 0 和 1 之间的一条竖直带状区域内。随后，在 1896 年，两位数学家证明，零点不可能落在这个带状区域的边界上。由此，他们直接证明了一个重要结果，称为素数定理：它给出了一个公式，描述素数平均而言以多快的速度变得稀疏。</p>
+<p>如果黎曼猜想成立，数学家就能保证：相对于素数定理给出的平均情况，任何偏差都始终很小。</p>
+<p>数学家已经通过<a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12460">数值计算验证</a>，前 12 万亿个非平凡零点都位于实部为 1/2 的直线上。但他们无法确定这一猜想对所有零点都成立，而哪怕只有一个孤零零的例外，也会带来地震般的冲击。正如 <a href="https://www.ias.edu/idea-tags/enrico-bombieri">Enrico Bombieri</a> 在为千禧年大奖阐述这一问题的<a href="https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf">论文</a>中所写的：“黎曼猜想若不成立，将给素数分布带来一场浩劫。”</p>
+<h2>糟粕中的钻石</h2>
+<p>这就把我们带到了准黎曼猜想。黎曼猜想断言，所有非平凡零点都位于实部为 1/2 的竖直线上；而“准”版本只要求证明，它们全都包含在一条竖直带状区域内，而且这个区域比已知的实部介于 0 和 1 之间的区域更窄。这个带状区域越窄，人们对素数如何分布就能说得越多。</p>
+<p>OpenAI 公布了两个不同版本的准黎曼猜想证明。<a href="https://github.com/openai/math/tree/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026">标注日期为 2026 年 9 月 30 日</a>的第一个版本声称，所有非平凡零点都必须位于实部介于 1/8 和 7/8 之间的区域内，并且已经使用 Lean 编程语言完成形式化验证。第二个版本在将近<a href="https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf">一周后</a>完成，尚未经过形式化验证，声称证明了一个较弱的结果：零点的实部必须介于 1/12 和 11/12 之间。不过，第一篇论文长达 199 页，第二篇相比之下只有较为精简的 49 页。</p>
+<p>与近来许多 AI 生成的成果一样，这两篇论文“都写得糟糕透顶（糟糕到任何数学期刊都会立即拒稿）”，Radziwiłł 在一封电子邮件中说。“它们在论述和清晰程度上，远远没有达到我们这个领域的标准。”因此，数学家们暂时搁置了界为 7/8 的那篇论文，转而集中研究界为 11/12 的那篇，因为两者似乎采用了类似的技巧，也有类似的推论。“大家主要研究 11/12 这一结果，原因就是它更短。”Radziwiłł 说。</p>
+<p><img src="https://www.quantamagazine.org/wp-content/uploads/2026/10/Maksym-Radziwill-cr.Caltech.webp" alt="一名男子坐在椅子上，面带微笑。"></p>
+<p>一名男子坐在椅子上，面带微笑。</p>
+<p>并非巧合的是，在 OpenAI 于 10 月 6 日发布的 722 篇论文中，11/12 这一结果的论文是唯一经过人工编辑的。对于编辑者是谁，以及为什么只有这篇论文在发布前得到了人类专业知识的帮助，OpenAI 没有回应相关询问。在回复 <em>Quanta</em> 的提问时，公司表示：“这篇论文是 OpenAI 所有人员共同工作的成果。”</p>
+<p>在论文发布后的这两周左右，数学家们一直在密集研究它。普林斯顿大学著名数论学家 <a href="https://www.math.princeton.edu/people/peter-sarnak">Peter Sarnak</a> 决定，改变自己本学期一门课程的内容，用来研究这篇论文。Radziwiłł 说，他现在可以用半页纸勾勒出证明的论证思路，而其他数学家更详细的论述则在 7 至 13 页之间。（截至本文撰写时，这些文章尚未发表，但正在私下流传。）这些专家大体一致认为，这一结果是正确的；它的新颖之处在于，将数论中一些已经存在了一段时间的思想结合在一起。</p>
+<p>几十年来，Sarnak 一直主张，数学家应该把 ζ 函数视为一个更广泛的函数族中的一员，再去证明有关这个函数族的命题，从而接近黎曼猜想。“但究竟该怎么做，或者该考虑哪个函数族，一直并不清楚。”滑铁卢大学的 <a href="https://math.uwaterloo.ca/~mrubinst/">Michael Rubinstein</a> 说。</p>
+<p>事实证明，Sarnak 的直觉是对的。但 OpenAI 的模型识别出的这个函数族，此前一直被忽略。罗格斯大学数学家 <a href="https://math.rutgers.edu/people/department-directory/detail/344-department-directory/1759-iwaniec-henryk">Henryk Iwaniec</a> 在 2002 年与之擦肩而过：当时，他为了证明黎曼猜想，找出了一些与它密切相关的函数族。</p>
+<p><img src="https://www.quantamagazine.org/wp-content/uploads/2021/01/Riemann-Hypothesis-Lede-still-1720x968.jpg" alt=""></p>
+<p>视频：在这段全面的讲解中，罗格斯大学数学教授 Alex Kontorovich 解析了以难度著称的黎曼猜想。Emily Buder / Quanta Magazine；Guan-Huei Wu 和 Clay Shonkwiler 为 Quanta Magazine 制作</p>
+<p>要找到正确的函数族，需要用到一种鲜为人知的数学对象，称为亚辛形式（metaplectic forms）。Dunn 过去五年一直在研究它们。“没人预料到这一点。”他说。他还表示，在此之前，亚辛形式在数论中并不常见，“所以我希望，这个优美而深奥的理论能得到它应有的关注”。</p>
+<p>令 Dunn 和 Radziwiłł 惊讶的是，他们在 2021 年<a href="https://www.quantamagazine.org/a-numerical-mystery-from-the-19th-century-finally-gets-solved-20220815/">证明的一个公式</a>，与其他许多数学家的工作一道，成为了这个证明的关键组成部分。Radziwiłł 说，回过头来看，研究这些工作所属数论分支的数学家们错了：他们曾以为，自己的工具还不足以解决准黎曼猜想。他们一直确信，要证明它，必须使用来自数论另一个截然不同分支的技巧。AI 模型“相信”这些工具或许已经足够，这是一种至关重要的视角。“能抱有这种信念，实在是相当大胆！”Radziwiłł 说。</p>
+<p>OpenAI 的工作让数学家们既感到沮丧，又感到兴奋。Sarnak 在一封电子邮件中表示，只有在人类检查并理解了所有细节之后，他才会认可它是“一条定理”。但“大家总体上松了一口气”，Radziwiłł 说。不仅在数论中，而且在几何学和理论计算机科学中，都有大量结果将随着准黎曼猜想得到证明，一举确立为数学真理。</p>
+<p>数论学家们怀疑，这一结果所采用的特定技巧组合，是否能够让他们把 7/8 的界降到那个诱人的 1/2。“在我看来，最有可能的情况是：等数学家们完全消化了这些新方法，梳理清楚了它们的推论，我们仍会觉得，自己距离完整的黎曼猜想和之前一样遥远。”普林斯顿大学的 <a href="https://williamsawin.com/">Will Sawin</a> 说。“但对此我并不确定。”</p>
+<p>曼彻斯特大学数学家 <a href="https://thomasbloom.org/aboutme.html">Thomas Bloom</a> 也认为，完整的黎曼猜想似乎仍然遥不可及。但他补充说：“几周前，我们对准黎曼猜想也会这么说！到了这个时候，发生什么都不会再让我惊讶了。”</p>
+<h2>基本信息</h2>
+<ul>
+<li>原题：<a href="https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/">AI Proved the Quasi-Riemann Hypothesis. What Happens Now?</a></li>
+<li>作者：Konstantin Kakaes</li>
+<li>来源：Quanta Magazine</li>
+<li>原文日期：2026-10-19</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-ai-quasi-riemann-hypothesis-what-happens-now","sender":"Konstantin Kakaes","author":"Konstantin Kakaes","authorAliases":["Konstantin Kakaes"],"publisher":"Quanta Magazine","media":"Quanta Magazine","subject":"AI 证明了准黎曼猜想，接下来呢？","snippet":"OpenAI 公布的准黎曼猜想证明，正在被数学家逐步拆解和理解。它出人意料地组合了已有的数论工具，可能让数学多个领域的大量结果得到确立，但完整的黎曼猜想似乎仍然遥不可及。","date":"2026-10-19","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","数论","黎曼猜想","数学证明"],"mdTheme":"magazine","sourcePath":"essays/ai-quasi-riemann-hypothesis-what-happens-now.md","sourceUrl":"https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/","body":"$3","prompts":[]},"listPosition":{"index":1,"total":607},"matchedPerson":{"id":"konstantin-kakaes","name":"Konstantin Kakaes","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/konstantin-kakaes/","bio":"为 Quanta 撰写数学与人工智能报道，曾负责该刊数学编辑工作，也曾在《经济学人》等媒体工作。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"开放问题","name":"开放问题","count":1}]},"relatedArticles":[{"id":"erdos-problems-falling-to-ai","subject":"传奇Erdős问题为何接连被AI攻克","sender":"Konstantin Kakaes","date":"2026-08-03","matchedPeople":["Konstantin Kakaes"],"matchedTags":["人工智能"]},{"id":"grothendieck-mathematics-revolution","subject":"格罗滕迪克如何重塑现代数学的空间观","sender":"Konstantin Kakaes","date":"2026-05-20","matchedPeople":["Konstantin Kakaes"],"matchedTags":[]},{"id":"navier-stokes-millennium-problem-ai-drama","subject":"站在数学与物理边缘的巨浪：纳维-斯托克斯方程、千禧难题与 AI 时代的大模型“抓马”","sender":"henri","date":"2026-10-10","matchedPeople":[],"matchedTags":["人工智能","数学证明"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

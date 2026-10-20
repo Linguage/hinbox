@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T242e,<p><a id="abstract"></a></p>
+<h2>摘要</h2>
+<p>面对 OpenAI 集中发布的大批数学证明，雨果·迪米尼尔-科潘坦言自己曾经落泪。他并不认为数学已经结束，而是认为数学家与问题之间的关系、培养学生的节奏以及研究方式都在发生剧烈变化。这段节选以“登山与直升机”的比喻解释冲击，并以主持人关于技术进步与克制的追问收尾。</p>
+<p><a id="overview"></a></p>
+<h2>概述</h2>
+<ul>
+<li>熟悉的研究问题集中获得证明，为什么会让数学家感到震动。</li>
+<li>“哭泣的数学家”背后的情绪、共情与社交媒体误读。</li>
+<li>数学的价值为何不只是解决问题和积累登顶记录。</li>
+<li>前沿模型与数学共同体如何协调，学生又需要怎样的成长节奏。</li>
+</ul>
+<p><a id="contents"></a></p>
+<h2>目录</h2>
+<ul>
+<li><a href="#section-1">当熟悉的问题一夜之间有了答案</a></li>
+<li><a href="#section-2">为什么我会哭</a></li>
+<li><a href="#section-3">直升机把你送上数学的山顶</a></li>
+<li><a href="#section-4">怎样让数学家与前沿模型共存</a></li>
+<li><a href="#section-5">原视频说明与相关链接</a></li>
+<li><a href="#information">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/Zh86i_azaQw" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<p><a id="section-1"></a></p>
+<h2>当熟悉的问题一夜之间有了答案</h2>
+<p>布雷迪·哈兰：当你浏览清单，看见那些证明的题目，发现其中那么多都与你自己的研究直接相关时，你是什么感受？是心往下一沉，还是急着点开，因为那些都是你一直想知道答案的问题？你往下看、看到一个个熟悉题目时，最初的反应是什么？</p>
+<p>雨果·迪米尼尔-科潘：所有这些东西一起涌过来，确实让人震惊。我感觉自己像一只被汽车灯光照住、眼看就要被撞上的兔子，僵在那里，不知道该看哪里。</p>
+<p>那是一个情绪非常强烈、也非常奇异的时刻。因为你知道，自己仿佛正翻到山的另一面。从现在起，事情的运转方式会不一样了。</p>
+<p><a id="section-2"></a></p>
+<h2>为什么我会哭</h2>
+<p>布雷迪：我看过你早期的一些采访，也知道你在发布之后不久做过一次发言，引起了很多关注。我给你发邮件的时候，你甚至开玩笑地署名“哭泣的数学家”。能讲讲那件事及其背景吗？你为什么成了“哭泣的数学家”？</p>
+<p>雨果：事情是这样的。法国数学家之间举行了一场线上研讨会，在回答问题的环节，有一位同事说了一番话，其实与其说是提问，不如说是在表达感受。他说，自己看完这份清单后非常痛苦。出于共情，我想告诉大家，我也有过同样的感受。</p>
+<p>周二晚上，我真的哭了。那确实是一次非常强烈的情绪反应。看着这份清单，我想到，作为数学家，你很清楚一件事：你会对自己研究的问题怀有非常深的感情。</p>
+<p>真正重要的，不仅是找到解答；你和那个问题之间会形成一种关系。许多其他人也共享着这段关系，但其中有着真正的热情。所以，看到这样一份清单，当然会触动你。</p>
+<p>我想告诉大家，即便像我这样，职业生涯已经走过很长一段，也解决了许多自己想解决的问题的人，仍然会受到很强烈的情绪冲击。我想呈现这种属于人的一面。因为遇到这样剧烈的范式转变，作为人，我们需要说出自己的情绪，才能走过它，并在之后更好地重新出发。</p>
+<p>问题在于，社交媒体把这段话拿走，得出“他觉得数学已经死了”之类愚蠢的结论。我当时是在对数学家说话。没有哪个数学家会说，数学可以被全部“解完”。那根本没有意义。</p>
+<p>但社交媒体就是把人面对强烈事件时的一种自然情绪反应，当成了笑料。那些鼓吹男子气概的人在网上玩得很开心。挺好。</p>
+<p>布雷迪：而且，雨果，法国人本来就比我们英国人更热情。我们是不表露情绪的。</p>
+<p>雨果：对不起，对不起！那就当我替所有英国人哭了一回吧。</p>
+<p><a id="section-3"></a></p>
+<h2>直升机把你送上数学的山顶</h2>
+<p>布雷迪：你当时的情绪，究竟是失落和哀伤，觉得有些发现你再也没有机会亲自做出了，其他人也没有机会做出了？还是因为一下子涌来了太多信息？你内心到底是什么感受？</p>
+<p>雨果：我觉得是这样：直到周二大约 11 点半，我们穿行数学群山的方式还是亲自攀登。可就在一瞬间，有人告诉你：“好了，今后会有一架直升机直接把你送到山顶。然后你要做的，是理解周围这一切的形状。”</p>
+<p>我不是说这样不好，而是说它不同。我的职业发生了彻底的转变，这种转变带来了冲击。但我一点也不悲观，这恰恰是被彻底误解的地方。我相信我们有适应和恢复的能力。</p>
+<p>而且，数学从来就不只是解决新问题。正如攀登并不只是为了在登顶记录上打勾，标出自己爬过哪些山。</p>
+<p><a id="section-4"></a></p>
+<h2>怎样让数学家与前沿模型共存</h2>
+<p>雨果：今后，那些掌握前沿模型、而数学共同体其他成员还无法使用这些模型的人，必须与数学家沟通互动。如果我们不能共存，就会变成问题。</p>
+<p>人有韧性，我们的共同体也有韧性。我们会继续成长，没问题。事实上，有了现在这些数学成果，我很有信心，我们会做出很棒的工作。</p>
+<p>但我们不可能每六个月就承受一次这样的冲击。这不是人能够适应的速度，也不是能够让学生成长、让想法逐渐成熟的节奏。我们需要找到更好的互动方式。</p>
+<p>布雷迪：有些人，也许包括我自己，会觉得这种说法很难理解。你能举出别的行业或领域的例子吗？明明已经有工具能解决问题、完成工作，但我们为了学生，或者为了那些以更传统、更慢的方式实践的人，而刻意有所保留。世界似乎并不是这样进步的。</p>
+<p>新技术到来时，往往就是势不可挡地冲过去，我们得给它腾出空间，或者改变工作方式。但你似乎是在要求他们克制。有没有别的例子，能说明这种克制真的有效？</p>
+<p><a id="section-5"></a></p>
+<h2>原视频说明与相关链接</h2>
+<p>菲尔兹奖得主雨果·迪米尼尔-科潘正在思考，AI 将如何改变数学。33 分钟的<a href="https://youtu.be/omuJpoV-Ko4">完整访谈视频在此</a>，也可以在播客播放器中搜索 Numberphile。另可阅读<a href="https://linguista.cn/hinbox/mail/talks-hugo-duminil-copin-weeping-mathematician-ai">完整访谈中文译文</a>。以下为原视频说明提供的相关链接与支持信息。</p>
+<ul>
+<li><a href="https://www.unige.ch/~duminil/">雨果在日内瓦大学的个人网站</a></li>
+<li><a href="https://github.com/openai/math/blob/main/CONTENTS.md">OpenAI 发布的 AI 数学证明</a></li>
+<li><a href="https://www.youtube.com/watch?v=9HlIuxnuTKQ">布雷迪与格兰特·桑德森谈 AI</a></li>
+<li><a href="https://youtu.be/3geDF-DAwpg">AI 攻克纳维–斯托克斯问题</a></li>
+<li><a href="https://youtu.be/Mzbtj5nkMXI">特里斯坦·巴克马斯特谈纳维–斯托克斯相关进展</a></li>
+<li><a href="https://www.numberphile.com/videos/hugo-duminil-copin-podcast">雨果此前参加 Numberphile 播客的访谈</a></li>
+<li><a href="https://www.youtube.com/watch?v=JWtD0O-zSWY">雨果出演的另一期 Numberphile 视频</a></li>
+</ul>
+<p>Numberphile 获得 <a href="https://www.numberphile.com/jane-street">Jane Street</a> 的支持，并感谢 <a href="https://delo.org/">Ben Delo 基金会</a>。你也可以通过 <a href="https://www.patreon.com/numberphile">Patreon</a> 支持 Numberphile；<a href="https://www.numberphile.com/patrons">完整支持者名单见此</a>。Numberphile 由布雷迪·哈兰创办。</p>
+<p><a id="information"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li>原题：The End of Mathematical Mountain Climbing - Numberphile</li>
+<li>嘉宾：雨果·迪米尼尔-科潘（Hugo Duminil-Copin），数学家、2022 年菲尔兹奖得主</li>
+<li>主持人：布雷迪·哈兰（Brady Haran）</li>
+<li>发布频道：Numberphile</li>
+<li>视频发布日期：2026 年 10 月 14 日</li>
+<li>视频时长：6 分 45 秒</li>
+<li>相关完整访谈：<a href="https://linguista.cn/hinbox/mail/talks-hugo-duminil-copin-weeping-mathematician-ai">数学证明的露天开采：雨果谈 AI 与数学的未来</a></li>
+<li>原视频：<a href="https://www.youtube.com/watch?v=Zh86i_azaQw">观看原视频</a></li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-hugo-duminil-copin-mathematical-mountain-climbing","sender":"Hugo Duminil-Copin","author":"Numberphile","interviewGuests":["Hugo Duminil-Copin"],"interviewHosts":["Brady Haran"],"authorAliases":["Numberphile","Hugo Duminil-Copin","Brady Haran"],"publisher":"Numberphile","media":"Numberphile","subject":"数学登山时代的终结？雨果·迪米尼尔-科潘谈 AI 的冲击（节选）","snippet":"菲尔兹奖得主雨果·迪米尼尔-科潘谈 AI 数学证明带来的情绪冲击，以及从亲自攀登到被直升机送上山顶的职业转变。","date":"2026-10-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","数学研究","数学教育"],"mdTheme":"magazine","sourcePath":"talks/hugo-duminil-copin-mathematical-mountain-climbing.md","sourceUrl":"https://www.youtube.com/watch?v=Zh86i_azaQw","body":"$3","prompts":[]},"listPosition":{"index":11,"total":607},"matchedPerson":{"id":"hugo-duminil-copin","name":"Hugo Duminil-Copin","email":"","occupation":"数学家","website":"https://www.ihes.fr/en/professeur/hugo-duminil-copin-2/","bio":"运用概率论研究统计物理中的临界现象与相变，研究涉及渗流和伊辛模型，获 2022 年菲尔兹奖。","contentCount":4,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"数学教育","name":"数学教育","count":4},{"id":"数学研究","name":"数学研究","count":4}]},"relatedArticles":[{"id":"hugo-duminil-copin-care-for-a-little-more-ai","subject":"雨果·迪米尼尔-科潘：让数学探索的灯塔多亮一会儿","sender":"Hugo Duminil-Copin","date":"2026-08-30","matchedPeople":["Hugo Duminil-Copin"],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"talks-hugo-duminil-copin-weeping-mathematician-ai","subject":"数学证明的“露天开采”：雨果·迪米尼尔-科潘谈 AI 与数学的未来（完整访谈）","sender":"Hugo Duminil-Copin","date":"2026-10-14","matchedPeople":["Hugo Duminil-Copin"],"matchedTags":["人工智能","数学研究","数学教育"]},{"id":"talks-hugo-duminil-copin-ai-future-mathematics","subject":"AI 会杀死数学吗？——雨果·迪米尼尔-科潘访谈","sender":"Hugo Duminil-Copin","date":"2026-10-08","matchedPeople":["Hugo Duminil-Copin"],"matchedTags":["人工智能","数学研究","数学教育"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

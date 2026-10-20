@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T19bc,<h2>摘要</h2>
+<p>本文探讨了前沿大模型对软件工程行业的真实冲击与职业重构。原文以亲身被裁经历切入，指出企业裁减资深工程师并非因为模型已超越人类，而是其极低的成本和营销声势给予了管理层“靠降本维持运转”的错觉；模型擅长跨领域机械搬运代码，但缺乏对产品边界的克制、品味与长期后果的远见。Hacker News 讨论区则围绕这一现象展开了激烈交锋，重点聚焦在职业心态（斯多葛式脱敏 vs 现实生存危机）、一人开发团队与工程隐患的博弈、核心价值由代码向商业分发与品味的转移，以及工程师转战蓝领实操或独立自研的应对路径。</p>
+<h2>导读</h2>
+<p>Cendyne 将个人失业经历与软件生产方式的变化放在一起，追问模型能力、企业用人成本和产品质量之间究竟是什么关系。阅读这场争论，可以分别关注三个问题：企业为什么决定裁员，模型能够完成哪些工程任务，以及人在长期产品决策中承担什么责任。以下原文观点呈现作者的经验与判断，社区讨论则补充了不同处境下的回应。</p>
+<h2>原文核心观点</h2>
+<p>与其说是前沿大模型在能力上完全胜任了岗位，不如说是铺天盖地的营销叙事给了管理层足够的借口与虚幻信心，让他们相信仅凭低成本的 AI 即可勉强维持运营直至公司被并购。作为团队里留到最后的一名工程师，被裁掉的根本原因在于模型调用费远低于薪酬开销。经历过从亲手执行团队裁员时的痛苦麻木，到自己成为被裁名单一员后的心悸失眠，身边的同行、大厂员工乃至面试官也相继在裁员潮中被波及，这种以 AI 为借口加速的新一轮离岸外包和人力剥离，正在残酷地席卷技术圈。</p>
+<p>当下的顶尖模型根本无法真正替代经验丰富的资深工程师。它们严重缺乏打造优秀产品所需的“品味”（Taste）与克制力——当用户提出零散反馈时，缺乏审美的团队只会盲目添加功能，而真正有品味的领导者懂得适时拒绝，专注于打磨核心需求；模型同样无法预见几周、几个月甚至数年后的架构债务、运维复杂度和长期成本风险。然而，当企业拥有成熟的流程脚手架与持续度量时，模型在机械执行与跨语言搬运（如重构原生移动端或复现代码仓库）上确实展现出极高的效率，甚至连原本的 Bug 都能分毫不差地搬运过来。</p>
+<p>面对不可逆的行业趋势，所谓“超级智能”没有带来真正的智慧，却成功说服了资本减少在人类身上的投入。如今的日常变成了整天对着模型交互界面的“胡思乱想”与反复调试，敲击代码本身的纯粹乐趣正在消亡，唯有交付结果的目标仍在延续。这种转变揭示了残酷的现实：资本看重的从来不是优雅的代码与深远的工程架构，只要能把短期成本压缩到极致，技术决策的平庸与粗制滥造就成了被默许的代价。</p>
+<h2>讨论区核心观点梳理</h2>
+<h3>职业心态与阶级生存的割裂</h3>
+<ul>
+<li><strong>斯多葛式钝感：</strong> 部分观点主张工作本质上是“出卖劳力换取薪水”的交易，不应寄托过多情感认同与自我价值；保持平常心，随时做好降薪或换赛道的准备。</li>
+<li><strong>生存压力与特权反思：</strong> 反对者指出，云淡风轻的心态只属于具备足够积蓄或退路的群体；面对房贷、育儿与劳动价值被系统性贬值，失业带来的财务破产与心理危机是极其真实的。</li>
+<li><strong>历史周期的均值回归：</strong> 亦有声音认为，程序员在过去几十年用软件淘汰了大量传统行业，如今遭遇自动化与资本压榨，只是中产技术阶层失去了溢价特权。</li>
+</ul>
+<h3>工程形态演变：“一人团队”与质量隐患</h3>
+<ul>
+<li><strong>开发门槛骤降：</strong> 实践者指出，借助最新模型，一个懂产品直觉、擅长黑盒测试的人就能完成以往 5 至 10 人工程团队的代码产出。</li>
+<li><strong>架构腐化与调试沼泽：</strong> 质疑者强调，AI 堆砌的代码充斥着隐蔽缺陷，缺乏可维护性与生产就绪度；一旦底层架构失控，缺乏深厚工程素养的团队很难自拔。</li>
+<li><strong>资本对平庸的容忍：</strong> 类似于历史上的离岸外包，资方宁愿承担后期重构与缺陷成本，也倾向于选择短期内能将人力开支缩减数倍的低成本方案。</li>
+</ul>
+<h3>价值重心的转移：品味、分发与护城河</h3>
+<ul>
+<li><strong>代码贬值，品味溢价：</strong> 当功能的生成成本逼近于零，“做什么”和“不做什么”的克制力（Taste）成为最稀缺的素质。</li>
+<li><strong>软件壁垒瓦解，渠道为王：</strong> 纯代码构建门槛降低后，SaaS 订阅的护城河迅速缩水，商业竞争彻底转向销售渠道、品牌信任与网络效应。</li>
+<li><strong>依赖外部模型的脆弱性：</strong> 当前的低价推理很大程度得益于资本补贴，若底层模型厂商未来提高 API 门槛，过度依赖 AI 的小团队将面临成本反噬风险。</li>
+</ul>
+<h3>应对策略与出路选择</h3>
+<ul>
+<li><strong>转向物理现实与蓝领技能：</strong> 鉴于数字白领劳动力极易被虚拟模型吞噬，部分开发者开始考取电工执照、经营修理工坊或投入实体手艺，依靠物理操作的高壁垒避险。</li>
+<li><strong>强化真实在场与沟通价值：</strong> 转向需要真实物理人设、线下演讲和深层人际信任的业务和顾问岗位。</li>
+<li><strong>化身超级个体反击：</strong> 利用低廉的 AI 开发杠杆，以极低的管理和研发成本开发轻量化竞品，反向蚕食大企业的高利润业务。</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题：</strong> Fable took my jorb</li>
+<li><strong>原作者：</strong> Cendyne</li>
+<li><strong>来源：</strong> Cendyne.dev</li>
+<li><strong>原文日期：</strong> 2026 年 10 月 11 日</li>
+<li><strong>文章链接：</strong> <a href="https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html">Fable took my jorb</a></li>
+<li><strong>HN 讨论区链接：</strong> <a href="https://news.ycombinator.com/item?id=50053216">Hacker News：Fable Took My Job</a></li>
+<li><strong>整理日期：</strong> 2026 年 10 月 12 日</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"fable-took-my-job-ai-software-careers","sender":"Cendyne","author":"henri","sourceAuthor":"Cendyne","authorAliases":["henri","Cendyne","Henri","Hinbox"],"publisher":"Cendyne.dev","media":"Cendyne.dev","subject":"AI 没有胜任我的工作，却让公司裁掉了我：软件工程的职业重构","snippet":"从 Cendyne 的被裁经历出发，梳理 AI 降本叙事、软件工程质量与职业价值的争议，以及社区对产品品味、商业分发和个人出路的不同判断。","date":"2026-10-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","软件工程","职业发展","产品设计"],"mdTheme":"magazine","sourcePath":"notes/fable-took-my-job-ai-software-careers.md","sourceUrl":"https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html","body":"$3","prompts":[]},"listPosition":{"index":22,"total":607},"matchedPerson":{"id":"cendyne","name":"Cendyne","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"职业发展","name":"职业发展","count":1}]},"relatedArticles":[{"id":"talks-interview-forward-deployed-engineers-aiewf","subject":"前线部署工程师与软件工程的未来","sender":"Natalie Meurer","date":"2026-07-01","matchedPeople":[],"matchedTags":["软件工程","职业发展"]},{"id":"essays-career-ai-entry-level","subject":"当AI正在做你的入门工作，如何开启职业生涯","sender":"Katie Parrott","date":"2026-05-18","matchedPeople":[],"matchedTags":["人工智能","职业发展"]},{"id":"talks-why-half-of-product-managers-are-in-trouble-nikhyl-singhal-meta-google","subject":"一半产品经理将面临淘汰危机：AI 时代的职场生存指南","sender":"Nikhyl Singhal","date":"2026-04-19","matchedPeople":[],"matchedTags":["人工智能","职业发展"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

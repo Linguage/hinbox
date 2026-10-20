@@ -1,0 +1,290 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T13990,<p><a id="abstract"></a></p>
+<h2>摘要</h2>
+<p>Codex 的崛起并非一条事先规划好的直线。Dan Shipper 通过对 OpenAI 产品、研究、工程与设计团队的采访，回顾了它从早期推理模型、内部研究助手，到 Codex Cloud 受挫，再转向本地智能体与桌面应用的过程。文章的主线是模型能力与产品形态的相互塑造：团队先在真实工作中发现问题，再让模型训练、底层工程和界面设计共同修正方向。尤其关键的一次取舍，是放弃在新应用中内置代码编辑器，迫使团队把智能体协作做到足够好；随着专用模型持续进步，这款编程工具逐渐成为更广泛的知识工作入口。</p>
+<p><a id="guide"></a></p>
+<h2>导读</h2>
+<p>可以沿着三个问题阅读这段产品史：为什么在 OpenAI 内部成功的云端工具，到了外部开发者手里却难以持续使用？为什么终端和编辑器扩展刚刚走红，团队就选择押注桌面应用？又是什么让一款编程智能体逐渐有能力承载聊天、文档和其他知识工作？文中反复出现的“思考中……”段落，把团队的探索、合并、受挫与回溯串成一条叙事线。</p>
+<p><a id="contents"></a></p>
+<h2>目录</h2>
+<ul>
+<li><a href="#before-launch">发布前夜</a></li>
+<li><a href="#thinking">“思考中……”背后的转变</a></li>
+<li><a href="#many-beginnings">许多个起点</a></li>
+<li><a href="#building-the-builders">为构建者打造工具</a></li>
+<li><a href="#convergence">探索之后的汇合</a></li>
+<li><a href="#the-cloud">云端及其局限</a></li>
+<li><a href="#backtracking">回溯，寻找另一条路</a></li>
+<li><a href="#the-desktop-bet">押注桌面应用</a></li>
+<li><a href="#the-codex-app">Codex 应用：从编程走向知识工作</a></li>
+<li><a href="#information">基本信息</a></li>
+</ul>
+<p><a id="before-launch"></a></p>
+<h2>发布前夜</h2>
+<p>我清楚地记得，自己是什么时候开始觉得 OpenAI 将失去“天命”的，也就是自 ChatGPT 最初爆红以来，他们在 AI 编程领域建立起来的、看似不可逾越的领先优势。那是 2025 年夏天，<a href="https://every.to/vibe-check/gpt-5?utm_cta_source=p_how_codex_happened_before_launch_gpt_5_1">GPT-5</a> 发布前夜，我正在他们位于 Mission Bay 的办公室里。</p>
+<p>整栋楼里涌动着一种兴奋的气氛。头顶的灯像舞台灯一样明亮，人们穿行在暖调的铁锈色与棕色走廊中，脚步似乎都比平时快了一点。就连重力都仿佛增强了，像是第二天那场发布的巨大分量，把整个世界都吸引到了它的轨道上。</p>
+<p><a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=awkward-revisit&#x26;utm_cta_source=p_how_codex_happened_before_launch_cite_awkward_revisit#final-20261015-0003" title="阅读访谈">这让我此行要说的话显得有些尴尬。</a></p>
+<p>我经营的公司 Every，已经开始因用真实工作测试新 AI 模型、解释它们能做什么以及不能做什么而积累起口碑。OpenAI 在 GPT-5 发布前大约一个月，就让我们获得了模型的访问权限，希望我们帮他们了解模型的优缺点，并在发布当天刊出我们的 Vibe Check，也就是一篇详细评测。</p>
+<p>我们十个人在纽约州北部的一栋房子里待了一周，参加团队团建。大家围着一张长木桌一起吃饭、一起工作，又聚在大屏幕前的沙发上，测试这个期待已久的模型。我们尤其想试试它的编程能力，因为这是 AI 进步最快的领域。然而，虽然我们喜欢它在日常使用中的表现，对它在 Codex 里的表现却反应平淡。</p>
+<p>如今，Codex 已是 OpenAI 重振旗鼓的核心：这个产品从内部吞下了 ChatGPT，成为公司下一步一切产品建设的基础。但在那个夏天，它仍是一个靠着有限资源、摸索着打造 AI 软件工程师的项目。几个月前<a href="https://every.to/vibe-check/vibe-check-codex-openai-s-new-coding-agent?utm_cta_source=p_how_codex_happened_before_launch_version_launched_in_the_cloud_1">上线的云端版本</a>尚未找到产品与市场的契合点，团队正处在转型途中，要推出一个运行在开发者电脑上、可以在终端和代码编辑器中使用的新版本。</p>
+<p>在 Codex 里，GPT-5 速度很快，看起来也很聪明。我们技术最精湛的工程师之一 <a href="https://every.to/@naveen_6804?utm_cta_source=p_how_codex_happened_before_launch_naveen_naidu_1"><strong>Naveen Naidu</strong></a>，曾用它查出了他自己的语音听写应用 <a href="https://monologue.to/">Monologue</a> 里一个困扰他数日的神秘卡死问题。但它似乎也总是过早停下来，仿佛对越过自身获准行动的边界过分谨慎。它给人的感觉，是被设计成了一个结对编程搭档。</p>
+<p>作为一个团队，我们已经在逐渐摆脱与 AI 模型一步步协作的方式。我们中的一群人在 <a href="https://every.to/@kieran_1355?utm_cta_source=p_how_codex_happened_before_launch_kieran_klaassen_1"><strong>Kieran Klaassen</strong></a> 的带领下，开始使用 Anthropic 的终端智能体 Claude Code，把整个任务交给 Opus 4，然后走开，直到它交回一个做好的功能，有时甚至是一整个应用。在一位工程师极少量的帮助下，专职作者 <a href="https://every.to/@katie.parrott12?utm_cta_source=p_how_codex_happened_before_launch_katie_parrott_1"><strong>Katie Parrott</strong></a> 只用了几天，就构建并部署了自己的 AI 内容管理系统。它还存在一些 bug，但在过去，做出这样一个系统根本不在她的能力范围内。</p>
+<p>与 Claude Code 中的 Opus 4 相比，Codex 中的 GPT-5 显得束手束脚。</p>
+<p>为了分享测试中的发现，我来到了 OpenAI 办公室的一间会议室，与公关团队的 <strong>Lindsay McCallum</strong> 和 Codex 团队的 <strong>Alexander Embiricos</strong> 见面。我感觉，McCallum 对市场风向的变化极其敏锐，她安排这场谈话，是想让我向 Embiricos 解释，为什么我突然对这种新的工作方式念念不忘、说个不停。</p>
+<p>McCallum 坐在会议桌对面，全神贯注地在笔记本电脑上打字。Embiricos 坐在我身旁，边说话边写代码，我觉得这是个好兆头。他正赶着完成一项随 GPT-5 发布的功能，让智能体能够暂停工作，请求人类允许它访问沙箱之外的文件或运行沙箱之外的命令。</p>
+<p>“用 Claude Code，你就放手让它干，”我对 Embiricos 说。“GPT-5 感觉有点胆怯，像是被沙箱束缚住了，似乎不敢发挥自己的力量。”</p>
+<p>McCallum 敲击键盘的声音慢了下来。我记得，她没有从笔记本电脑前抬头，只是说：“跟 Alexander 讲讲你们那套新的工程工作流程吧。”</p>
+<p>Embiricos 转过椅子，把注意力完全集中到我身上。</p>
+<p>“我们甚至已经不怎么看代码了，”我开口说道。但话一出口，我就脸红了。偏偏要向 Embiricos 解释如何把任务委托给智能体，我觉得自己有些可笑，毕竟打造自主编程智能体本来就是他的工作。而且在当时，我也不确定，离开我们这个小团队，这套工程方法是否还行得通。</p>
+<p>一条 Slack 通知点亮了 Embiricos 的屏幕，打破了会议室里突然降临的安静。他把电脑调成静音，再将屏幕合上四分之三，留下的开口刚好能让他的 Codex 智能体继续思考。</p>
+<p>那天晚上离开 Mission Bay 时，我不禁怀疑：OpenAI 是不是正在为一种行将消亡的工作流程打造完美工具？云端智能体的失败让这家公司吃过一次苦头，如今它看起来正在退回代码编辑器，让 AI 帮助程序员一步一步地工作。与此同时，Claude Code 正在那些把整个任务交出去、然后转身离开的人群中迅速流行起来。</p>
+<p>留在编辑器里确实有充分的理由。GPT-5 发布后，Codex 团队推出了一个扩展，把 Codex 放进了微软 Visual Studio Code（VS Code）等代码编辑器，以及 Cursor 的侧边栏里。程序员就是在这些编辑器中编写、运行和调试代码的。到去年 10 月，使用量已增长至原来的十多倍，编辑器扩展很快超过终端，成为 Codex 使用最多的入口。<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=ide-most-used-surface&#x26;utm_cta_source=p_how_codex_happened_before_launch_cite_ide_most_used_surface#final-20261015-0153" title="阅读访谈">[1]</a></p>
+<p>在大多数公司，这都会成为值得加倍投入的业务。但 Embiricos，以及 OpenAI 内部一小群工程师、设计师和研究人员，有着更大的抱负。</p>
+<p>接下来的几个月里，Codex 团队训练了一条专门用于编程的模型产品线，并迅速加以改进。这些模型独立于支撑 ChatGPT 的那些模型。同时，他们还打造了一款桌面应用，用来同时管理多个智能体。到 2026 年 6 月，Codex 的周活跃用户已超过 500 万，并开始从编程领域扩展到其他类型的知识工作。</p>
+<p>到 2026 年 7 月，Codex 已并入旗舰产品 ChatGPT 的桌面应用。其负责人 <strong>Thibault Sottiaux</strong> 也获得晋升，开始统管 OpenAI 的所有核心产品与平台，包括 ChatGPT、Codex 和 API。如今，Codex 与 ChatGPT for Work 合计拥有 4000 万周活跃用户。</p>
+<p>不到一年，Codex 团队就从一次失败的云端发布，走到了成为 OpenAI 旗舰产品基础的位置。在这个过程中，他们也帮助重塑了这家公司。</p>
+<p>这就是 Codex 诞生的故事。</p>
+<p><a id="thinking"></a></p>
+<h2>“思考中……”背后的转变</h2>
+<blockquote>
+<p>思考中……</p>
+</blockquote>
+<blockquote>
+<p><em>有些不对劲。一年前我拥有的领先优势，并没有体现在结果里……</em></p>
+</blockquote>
+<blockquote>
+<p><em>看来问题的起点，比我原先以为的还要早……</em></p>
+</blockquote>
+<blockquote>
+<p><em>回到最开始……</em></p>
+</blockquote>
+<p>OpenAI 的逆转，从一句简单的话开始：“思考中……”</p>
+<p>在 2026 年，只要你向 AI 模型提出任何一种复杂的请求，就会看到这个词——<em>思考中……</em>——在即将显示回答的位置闪动。</p>
+<p>它看起来也许无足轻重：不过是用一个词替代了 macOS 上旋转的沙滩球，或 Windows 光标旁转动的蓝色圆环。它们都表示，电脑忙得暂时无法回应。</p>
+<p>但在这里，“思考中……”意味着一种新的计算方式。没有它，就不会有 Codex。</p>
+<p>第一代大语言模型是在外部展开思考的。它们没有用一个闪动的状态标签来表示内部推理，而是直接通过回答你来进行思考。无论你让它们写一封邮件，还是写一行代码，它们都必须<a href="https://every.to/chain-of-thought/how-language-models-work?utm_cta_source=p_how_codex_happened_thinking_one_word_at_a_time_1">逐词</a>形成答案，既没有机会提前规划，也无法事后修改。</p>
+<p>从这个角度看，早期的聊天模型就像即兴表演演员，观众给出一个提示，它们便以此为基础，当场编出一幕戏。这些工具边写边想，结果有时令人惊叹，有时又会在无意间闹出笑话。（它们会坚称 <a href="https://every.to/chain-of-thought/openai-s-new-model-strawberry-explained?utm_cta_source=p_how_codex_happened_thinking_strawberry_1">“strawberry”</a> 只有两个 r，还会逐字母拼出来证明，最后再自我表扬一番。）</p>
+<p>这些模型的早期用户注意到，如果让模型先一步一步写出推理过程，再给出回答，它往往就能得到更好的答案。这种方法与小学数学老师给学生的建议如出一辙，被称为<a href="https://every.to/also-true-for-humans/7-22?utm_cta_source=p_how_codex_happened_thinking_chain_of_thought_prompting_1">思维链提示</a>。</p>
+<p>思维链提示催生了第二代 AI 模型，也带来了闪动着“思考中……”的用户界面。OpenAI 不再要求用户提示模型一步一步解决问题，而是通过训练，将这种行为植入模型本身。在回答之前，推理模型会先在一块称为“推理轨迹”的草稿区里工作。在那里，它可以从不同角度攻克问题，走进死胡同后回退，再选择一条更有可能成功的路径。只有确定了答案，它才会回应。</p>
+<p>OpenAI 将自己的首个此类模型命名为 <a href="https://every.to/chain-of-thought/openai-s-o1-model-explained?utm_cta_source=p_how_codex_happened_thinking_o1_1">o1</a>，并在 2024 年 9 月发布了预览版。在此之前，进步主要依赖于用更长的时间训练更大的模型。有了 o1，OpenAI 发现，同一个模型只需在难题上多花一些时间，就能给出更好的答案。</p>
+<p>有一种工作从中获益的潜力超过其他任何工作，那就是编程。编程尤其适合推理模型，因为它能够形成闭环：模型可以修改代码、运行代码，然后在几秒钟内看到改动是否奏效。因此，它可以自行测试和修正解决方案，无须有人来检查。</p>
+<p>理论上，只要让推理模型思考足够长的时间，它就能独立完成任何编程任务。</p>
+<p><a id="many-beginnings"></a></p>
+<h2>许多个起点</h2>
+<p>打造 AI 程序员一直是 OpenAI 长期追求的目标，因此 Codex 有过许多个起点。这个故事，要先从它的名字说起。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=many-codex-beginnings&#x26;utm_cta_source=p_how_codex_happened_many_beginnings_cite_many_codex_beginnings#final-20261015-0010" title="阅读访谈">[2]</a></p>
+<p>第一个 Codex 于 2021 年发布，是用公开代码微调过的 <a href="https://every.to/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used?utm_cta_source=p_how_codex_happened_many_beginnings_gpt_3_1">GPT-3</a> 版本，为最初的 <a href="https://every.to/chain-of-thought/i-spent-24-hours-with-github-copilot-workspaces?utm_cta_source=danshipper_main_a_22">GitHub Copilot</a> 提供支持。三年后，o1 预览版展现了推理模型的能力。在随后的几周里，管理层的一声号召，让 OpenAI 内部的几个团队从不同方向，再次追逐起这个梦想。</p>
+<p>其中一个起点，来自 2024 年底的 Embiricos。</p>
+<p>“我第一次真正强烈地‘感受到 AGI’的时刻，是[当]我看到有人运行一个连接了终端的推理模型时。”<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=the-terminal&#x26;utm_cta_source=p_how_codex_happened_many_beginnings_cite_the_terminal#final-20261015-0034" title="阅读访谈">[3]</a>他对我说。他指的是那种时刻：AI 不再让人觉得只是工具，而开始像一台能够像人类一样思考和行动的机器。“我知道，[这事]现在已经没什么让人兴奋的了”，但看着它自己读取文件、运行命令、处理错误，“真他妈酷”。</p>
+<p>Embiricos 就是我在 GPT-5 发布前夜见到的那位产品负责人。2024 年早些时候，OpenAI 收购了他联合创办的 Multi，他也随之加入公司。Multi 是一款面向程序员的多人屏幕共享工具。在 OpenAI，他继续探索一个相关的想法：让人类和智能体在自己使用的应用中协同工作。他先是在 ChatGPT 桌面应用上追逐这个愿景，随后又转向 AI 浏览器 <a href="https://every.to/vibe-check/vibe-check-openai-s-new-ai-browser-atlas?utm_cta_source=p_how_codex_happened_many_beginnings_atlas_1">Atlas</a>。<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=desktop-before-atlas&#x26;utm_cta_source=p_how_codex_happened_many_beginnings_cite_desktop_before_atlas#final-20261015-0028" title="阅读访谈">[4]</a>但<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=multimodal-bet&#x26;utm_cta_source=p_how_codex_happened_many_beginnings_cite_multimodal_bet#final-20261015-0010" title="阅读访谈">当时的模型在读取用户屏幕时既慢又笨拙</a>，还无法发挥实际作用。</p>
+<p>不过，在终端里，模型不必读取屏幕，可以直接处理文本和代码。看到早期推理模型在终端中的表现，Embiricos 确信，它们能够支撑一个真正实用的编程产品。编程产品当时还不是他的全职职责，但他立刻开始构思。他认为，要让这款产品行得通，用户就需要每隔 30 秒、最多每隔一分钟，看到一次模型正在做什么。</p>
+<p>速度再次成了问题。当时的大多数 AI 编程产品都是围绕 VS Code 发展起来的。GitHub Copilot 通过扩展加入 AI 自动补全；Cursor 和 Windsurf 则基于 VS Code 的开源代码打造自己的编辑器，在程序员的工作区旁加入 AI 聊天功能。</p>
+<p>这些工具依赖于紧密的反馈循环。Copilot 会补全你正在输入的那一行；Cursor 和 Windsurf 会在几秒钟内回答问题。它们都不会要求模型独立工作很长时间，因为模型做不到。OpenAI 的早期推理模型则恰恰相反：速度慢，而且一旦思考时间被压缩，能力就会变弱。</p>
+<p>他能否把这些模型的缺点，也就是得到回应需要很长时间，转化成一种优势？</p>
+<p><a id="building-the-builders"></a></p>
+<h2>为构建者打造工具</h2>
+<p>与此同时，在 OpenAI 的另一处，大家称作 Tibo 的 Sottiaux，正在尝试让推理模型反过来作用于它们自身：用它们的能力，帮助研究人员打造下一代模型。</p>
+<p>“我大约从 2024 年 12 月开始参与编程智能体的工作。”<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=research-start-december&#x26;utm_cta_source=p_how_codex_happened_building_the_builders_cite_research_start_december#final-20261015-0012" title="阅读访谈">[5]</a>他对我说。当时我们坐在 OpenAI 的食堂里。他光亮的棕发垂向一侧，细金属框眼镜映着午后的光。如果说鼻子以上的他像一位建筑师，那么鼻子以下就是十足的程序员：棕色的胡茬，印有“Research and Deployment Co”字样的深棕色连帽衫，手里还拿着一片意式辣香肠披萨。</p>
+<p>他一边吃披萨，一边告诉我，目标“是帮助我们更快地编写基础设施代码、开展研究”。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=research-infrastructure-purpose&#x26;utm_cta_source=p_how_codex_happened_building_the_builders_cite_research_infrastructure_purpose#final-20261015-0030" title="阅读访谈">[6]</a></p>
+<p>Sottiaux 职业生涯中的大部分时间都在为研究人员搭建基础设施，先是在 DeepMind，后来是在 OpenAI。研究基础设施，也就是 AI 研究人员运行、评估、复现和部署实验所依赖的共享代码，作为一位最终将领导 Codex 的人的起点，似乎有些出人意料。提起基础设施，你可能会想到服务器和海底电缆，它们相当于科技世界里的水管：不可或缺，却只有在管道漏水时才会被注意到。</p>
+<p>但在 AI 世界里，基础设施，尤其是研究基础设施，恰恰是许多关键进展发生的地方。如果你能缩短运行一次实验所需的时间，就能做更多实验，更早得到更好的模型。</p>
+<p>“你们是什么时候把这条模型产品线独立出来的？”我问。“这个决定是怎么做的？”我想把谈话快进到关键情节。拥有自己的模型产品线，在我看来是 Codex 神奇之处的核心。我脑海里浮现出 OpenAI 内部的一场会议：Sottiaux、总裁兼联合创始人 <strong>Greg Brockman</strong>，或首席执行官 <strong>Sam Altman</strong>，做出了那个高瞻远瞩的决定，把 Codex 从 ChatGPT 的其他部分中分离出来，赋予团队快速发布产品、从内部颠覆公司的自由。</p>
+<p>“<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=no-model-split-decision&#x26;utm_cta_source=p_how_codex_happened_building_the_builders_cite_no_model_split_decision#final-20261015-0028" title="阅读访谈">并不存在一个把模型产品线独立出来的决定</a>，”Sottiaux 平静地说。他说，一开始，“这只是一次研究探索，也是对我们推进速度的优化。”</p>
+<p>Sottiaux 的团队并不是在构建面向公众的模型，而是用 OpenAI 的单体代码仓库来训练内部编程智能体。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=monorepo-training&#x26;utm_cta_source=p_how_codex_happened_building_the_builders_cite_monorepo_training#final-20261015-0012" title="阅读访谈">[7]</a>这是一个集中存放整个组织所有代码的仓库。OpenAI 的研究人员需要运行和改进用来构建新模型的系统，这些智能体就为他们编写所需的 Python 代码。研究人员每天都在使用这些智能体，为团队提供了紧密的反馈循环。</p>
+<p>“我们看到编程能力在快速提升，”Sottiaux 说。他的团队频繁训练模型，使用的技术与整个组织训练公众模型的方式不同，而且有一段时间，两者很难兼容。</p>
+<p>和 AI 实验室里的其他人一样，Sottiaux 对这些训练技术守口如瓶。但它们确实有效，这一点渐渐变得清楚：他的团队成功地让模型反过来参与创造它们的研究过程，而研究人员正利用这些模型打造下一代模型。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=recursive-improvement&#x26;utm_cta_source=p_how_codex_happened_building_the_builders_cite_recursive_improvement#final-20261015-0030" title="阅读相关访谈背景">[8]</a></p>
+<p>工程师把这称为“自举”。先做出一个善于帮助研究人员开展实验的模型，研究人员就能用它打造出更强大的模型；更强的模型又能帮助开展更好的实验，进而带来更好的模型，如此循环。</p>
+<p>这项工作提供了后来成为 Codex 的一半：能够改进用于构建新模型的<a href="https://every.to/p/openai-infrastructure?utm_cta_source=p_how_codex_happened_building_the_builders_infrastructure_1">基础设施</a>的智能体。要成为公司其他人也能使用的产品，并最终走出 OpenAI 的围墙，它还需要另一半：Embiricos 对人们应该如何与这些智能体合作的构想。</p>
+<p><a id="convergence"></a></p>
+<h2>探索之后的汇合</h2>
+<blockquote>
+<p>思考中……</p>
+</blockquote>
+<blockquote>
+<p><em>目前有三种思路……</em></p>
+</blockquote>
+<blockquote>
+<p><em>其中两种有重叠……</em></p>
+</blockquote>
+<blockquote>
+<p><em>我会把它们合并起来，沿着有效的方向继续……</em></p>
+</blockquote>
+<p>探索之后，便是汇合。</p>
+<p>我们可以从上方俯瞰 2024 年最后几个月到 2025 年初的 OpenAI。编程成为公司最高层级的目标之后，<a href="https://every.to/p/how-codex-happened/interviews/greg/?cite=coding-company-goal&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_coding_company_goal#final-20261015-0002" title="阅读访谈">[9]</a> 包括 Sottiaux 和 Embiricos 在内的几支团队，开始从不同的切入角度研究同一个问题。</p>
+<p>Brockman 告诉我，尚待解答的问题是，合适的“产品形态”是什么：这个智能体应该待在开发者执行命令的终端里、编写代码的编辑器里，还是在云端用自己的计算机独立工作。其中有些路是死胡同，但当时没人知道究竟是哪几条。</p>
+<p>Altman 在 <a href="https://stratechery.com/2025/an-interview-with-openai-ceo-sam-altman-about-devday-and-the-ai-buildout/#the-investor-mindset">2025 年接受</a> <strong>Ben Thompson</strong> <a href="https://stratechery.com/2025/an-interview-with-openai-ceo-sam-altman-about-devday-and-the-ai-buildout/#the-investor-mindset">采访时</a>说：“从某种意义上说，OpenAI 是在押注一系列初创公司，只不过它们全都在公司内部。”几位接受我采访的内部人士觉得，公司内部这种并行探索的氛围<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=startup-chaos&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_startup_chaos#final-20261015-0049" title="阅读访谈">有时显得混乱而浪费</a>。<a href="https://every.to/p/how-codex-happened/interviews/greg/?cite=unglamorous-work&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_unglamorous_work#final-20261015-0018" title="阅读访谈">谁愿意在那个做出了 OpenAI 内部第三好智能体产品的团队里工作呢？</a> 我在自己的公司也采用过类似策略，知道给探索留出空间与制造一团乱麻之间，只有一线之隔。</p>
+<p>但在观察 OpenAI 的过程中，尽管我听到过内部的抱怨，我也渐渐认识到，当技术前沿不断向前推进时，这种做法是必要的。在人工智能领域，模型层面快速的<a href="https://www.christenseninstitute.org/graphic/disruptive-vs-sustaining-innovations/">“延续性”</a>进步——借用已故哈佛大学教授 <strong>Clayton Christensen</strong> 的术语——让新类型的应用成为可能，也不断颠覆之前出现的应用。</p>
+<p>能补完一行代码的模型，很适合做自动补全工具；能思考 30 秒的模型，可以在聊天侧栏里回答问题；能连续工作一小时的模型，则需要一种截然不同的形态。围绕上一代模型打造出成功的产品，并不意味着你知道下一步是什么。你需要几支团队尝试不同的想法，等看清什么有用之后，再把他们的成果汇集起来。</p>
+<p>到 2025 年初，OpenAI 已经准备这么做了。“最后，我们觉得应该与另一个名为 Scientist Assistant 的项目合力推进。”<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=scientific-assistant-merge&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_scientific_assistant_merge#final-20261015-0020" title="阅读访谈">[11]</a> Sottiaux 告诉我。这次合并让他和 Embiricos 走到了一起。谈起公司内部的各个编程项目，Brockman 说：“最后我们把其中两个合并了，然后又把另外两个合并了。”<a href="https://every.to/p/how-codex-happened/interviews/greg/?cite=efforts-converge&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_efforts_converge#final-20261015-0006" title="阅读访谈">[12]</a> 合并后的团队规模不大，却汇集了多个领域的人才：有 Embiricos 这样懂技术的产品思考者，Sottiaux 这样的基础设施和工程高手，以及 <strong>Mia Glaese</strong> 这样的研究员。</p>
+<p>Glaese 从 DeepMind 加入 OpenAI，此前她在那里研究 Gemini 和模型对齐。在 OpenAI，她负责用于模型训练和对齐的数据，<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=glaese-data-alignment&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_glaese_data_alignment#final-20261015-0008" title="阅读访谈">[13]</a> 也就是说，她专门获取和使用能够塑造模型具体行为的数据。</p>
+<p>从某个层面来说，她是一位彻底不感情用事的实证主义者。在采访中，她毫不掩饰自己对量化的坚持：“做研究，光凭感觉没什么用。”然而，谈起打造模型的过程，她很快就笑了起来，因为其中太多事情都像是纵身跃入未知。</p>
+<p>“每次训练模型，我们都会踏上一场神奇的冒险，一边走一边想：‘这要怎么做啊？’”她说。</p>
+<p>这种产品人员和研究员并肩工作的跨学科团队，在人工智能领域有些不同寻常。人工智能历来是一个研究驱动的领域，最顶尖的研究员能拿到价值数百万美元、堪比 <strong>LeBron James</strong> 的巨额合同，而其他所有人的薪酬则是行业标准的工程师水平。（人工智能实验室长期以来一直试图淡化这种对超级明星的崇拜，因此，无论是不是研究员，大多数技术员工的职称都是“技术团队成员”。）</p>
+<p>与产品团队并肩工作，让 Glaese 和其他研究员有机会看到他们的模型被如何使用，也能听到人们希望模型接下来做些什么。产品人员可以问：“<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=research-product-together&#x26;utm_cta_source=p_how_codex_happened_convergence_cite_research_product_together#final-20261015-0077" title="阅读访谈">如果模型能做到这件事，岂不是很棒？</a>”然后研究员就能把它变成现实。这又是 Sottiaux 那套自举循环，只不过这一次，循环发生在模型与基于它打造的产品之间。</p>
+<p>OpenAI 终于有了自己的 Codex 团队，产品、设计和研究人员全都在一起工作。现在，他们只需要决定要做什么。</p>
+<p><a id="the-cloud"></a></p>
+<h2>云端及其局限</h2>
+<blockquote>
+<p><em>思考中……<br>
+我可以试试终端、编辑器，或者云端……</em></p>
+</blockquote>
+<blockquote>
+<p><em>哪种方式适合我现有的模型？</em></p>
+</blockquote>
+<blockquote>
+<p><em>我们的研究员在云端工作。其他开发者也能在那里工作吗？</em></p>
+</blockquote>
+<p>在 Anthropic，一条前景可期的路线已经开始起飞。</p>
+<p>2025 年 2 月 24 日，Anthropic 发布了 <a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet</a>，同时推出了 <a href="https://every.to/vibe-check/vibe-check-claude-3-7-sonnet-and-claude-code?utm_cta_source=p_how_codex_happened_the_cloud_research_preview_of_claude_code_1">Claude Code 的研究预览版</a>。与 Cursor 及类似工具不同，Claude Code 没有内置的代码编辑器。它在终端里运行，直接操作你自己计算机上的文件：你告诉它想要什么，它就会阅读代码、进行修改，然后运行。</p>
+<p>因为它在你自己的计算机上运行，它的工作会落到你原本就在处理的同一批文件中，使用你已经安装的同一套工具，并且掌握你们到目前为止共同完成的所有工作的上下文。你可以在它执行任务的途中打断它。你也可以把一次会话中积累的经验带入下一次，让你的系统随着时间不断改进、积累收益，而使用临时云端计算机的 Codex Cloud 无法做到这一点。</p>
+<p>开发者很快就喜欢上了 Claude Code。比如在 Every，<strong>Edmar Ferreira</strong> 在 2025 年 3 月的一篇 <a href="https://every.to/vibe-check/vibe-check-claude-3-7-sonnet-and-claude-code?utm_cta_source=p_how_codex_happened_the_cloud_vibe_check_1">Vibe Check 测评</a>中写道：“在智能体方面，Claude Code 比我用过的任何东西都好。”团队中的其他人也开始认同他的看法。</p>
+<p>到 2025 年春天，合并后的 Codex 团队——Embiricos、Sottiaux、Glaese，以及另外几个人——瞄准了另一种软件工程的未来愿景：Codex Cloud。他们设想了一个云端智能体，拥有自己的计算机，专为异步工作而设计，让用户可以从计算机或手机上把编程任务交给它。他们给自己定下了大约七周的时间，完成开发并上线。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=seven-week-cloud-sprint&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_seven_week_cloud_sprint#final-20261015-0020" title="阅读访谈">[14]</a></p>
+<p>你可以点击 ChatGPT 侧栏里的 Codex，打开一个工作区，在里面描述任务，再点击“编写代码”。这项任务就会被移入队列，提示词输入框随即清空，等待下一项任务。Codex 会把你的代码库复制到一台隔离的云端机器上，编辑文件，运行测试和代码检查工具，后者会扫描代码中的常见错误。它会返回一份总结、一份修改差异，以及一个用于发起拉取请求的按钮。</p>
+<p>Codex Cloud 于 2025 年 5 月 16 日上线，比我在 Mission Bay 与 McCallum 和 Embiricos 见面的那个晚上早了将近三个月。Sottiaux 告诉我，它“在内部非常成功”。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=cloud-internal-success&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_cloud_internal_success#final-20261015-0024" title="阅读访谈">[15]</a> 但在 OpenAI 之外，它的上线虽引发了兴趣，却很少带来持续使用。<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=cloud-usage-limits&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_cloud_usage_limits#final-20261015-0108" title="阅读访谈">[16]</a></p>
+<p>要让它正常工作，开发者必须在云端重建自己笔记本电脑上的软件、权限和设置，<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=cloud-friction-evidence&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_cloud_friction_evidence#final-20261015-0024" title="阅读相关访谈背景">[17]</a> 这个过程可能耗费数小时，因为你需要复制凭据，并安装关键的软件包。配置好后，它可以完成描述清楚的任务。但你无法中途打断它、纠正方向，甚至连追加一条提示词，都会启动一台全新的云端计算机。</p>
+<p>“如果你是一位技术负责人，要在现有代码库中添加功能或修复缺陷，你会用得上这个工具。如果你想靠氛围编程创建一家只有一个人、估值十亿美元的新 SaaS 公司，那就另寻他处吧。”我在上线当天的 <a href="https://every.to/vibe-check/vibe-check-codex-openai-s-new-coding-agent?utm_cta_source=p_how_codex_happened_the_cloud_vibe_check_2">Vibe Check 测评</a>中写道。</p>
+<p>在 OpenAI 内部，标准化的开发环境让配置变成了自动完成的事，研究员手头也有定义清晰的工作可以交出去。团队自身的工作环境，让他们没有意识到自己给其他所有人提出了多高的要求。</p>
+<p>限制 Codex Cloud 的并不只有产品。“时机太早了，因为模型还不够聪明。”<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=cloud-model-limits&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_cloud_model_limits#final-20261015-0052" title="阅读访谈">[18]</a> Embiricos 说。</p>
+<p>“<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=meet-users-on-laptops&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_meet_users_on_laptops#final-20261015-0040" title="阅读访谈">我们有点像是带着一种更面向未来的愿景在做这件事</a>。”Glaese 告诉我，“我们并没有抱着这样的想法去做：‘到用户现在所在的地方去吧。’”而那个地方就是“他们的笔记本电脑”。</p>
+<p>那么，OpenAI 为什么会<a href="https://every.to/p/how-codex-happened/asides/codex-cli/?utm_cta_source=p_how_codex_happened_the_cloud_skip_the_terminal_form_factor_1" title="旁栏：更早出现的 Codex CLI">跳过终端这种产品形态</a>，而它已经开始在 Anthropic 那里奏效了呢？</p>
+<p>“我们没有跳过它。”Sottiaux 在食堂与我交谈时说，他指的是一个未发布的内部原型。“<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=discarded-internal-cli&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_discarded_internal_cli#final-20261015-0022" title="阅读访谈">我们做过那样的一个版本，随后在一个月后把它放弃了，转而去做完整的云端版本</a>。”</p>
+<p>“为什么？”我问。我知道，透过四周巨大的落地窗，如果仔细找找，大概能在远处找到 Anthropic 的办公室。至少走过去肯定不费什么事。旧金山是个小地方。</p>
+<p>“因为我们优化的方向是：假如我们愿意在配置上投入很多精力，什么能让我们受益最大。”<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=internal-cloud-optimization&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_internal_cloud_optimization#final-20261015-0024" title="阅读访谈">[19]</a> 他说。</p>
+<p>这个回答背后，是我反复从 OpenAI 内部人士那里听到的一种信念。对他们来说，人工智能智能体的理想形态，一直都是在云端自主为你工作，即使你合上笔记本电脑，它也不会停止响应。Brockman 在我们的采访中说过同样的话：“如果把目光投向未来，正确的产品形态就是一个待在云端、拥有自己笔记本电脑的人工智能。所以我们真的把它做出来了。”<a href="https://every.to/p/how-codex-happened/interviews/greg/?cite=cloud-agent-ambition&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_cloud_agent_ambition#final-20261015-0006" title="阅读访谈">[20]</a></p>
+<p>这个选择也是对模型局限的一种妥协。团队打造第一版云端产品时，所依据的是能够花更长时间处理一项任务的模型，<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=async-product-choice&#x26;utm_cta_source=p_how_codex_happened_the_cloud_cite_async_product_choice#final-20261015-0047" title="阅读访谈">[21]</a> 而不是能够时时刻刻回应程序员的模型。</p>
+<p>问题在于，这条路没走通。云端产品没能找到产品与市场的契合点。团队的工程经理离职去了 Cursor，这家人工智能编程领域的领跑者估值已达 90 亿美元。大约就在这时，据报道，OpenAI <a href="https://www.bloomberg.com/news/articles/2025-05-06/openai-reaches-agreement-to-buy-startup-windsurf-for-3-billion">达成了一项 30 亿美元的协议</a>，计划收购 Cursor 最接近的竞争对手 Windsurf。这笔交易后来在<a href="https://techcrunch.com/2025/07/11/windsurfs-ceo-goes-to-google-openais-acquisition-falls-apart">七月告吹</a>。</p>
+<p>“最难熬的时候，是我们觉得不知道该做什么的时候。或者我们知道该做什么，却实在很难看到那些[进展]真的发生。”Embiricos 告诉我。</p>
+<p>Codex 团队第一次迷失在了荒野之中。在一定程度上，OpenAI 更宏大的编程雄心也一样。</p>
+<p><a id="backtracking"></a></p>
+<h2>回溯，寻找另一条路</h2>
+<blockquote>
+<p>思考中……</p>
+</blockquote>
+<blockquote>
+<p><em>嗯，这在我们的环境里有效。为什么到了用户那里就不行了呢？……</em></p>
+</blockquote>
+<blockquote>
+<p><em>也许我一直想解决的根本不是该解决的问题……</em></p>
+</blockquote>
+<blockquote>
+<p><em>回到之前被我搁置的本地方案……</em></p>
+</blockquote>
+<blockquote>
+<p><em>这里有点意思。不过我需要把它重建一遍……</em></p>
+</blockquote>
+<p>推理模型之所以强大，在于它能够回溯。如果它认为某个缺陷出在代码的某一部分，于是重写了那里，却发现缺陷依然存在，它通常不会继续自信满满地朝错误方向走下去。它能够重新审视自己的假设，扩大寻找解决方案的范围，并根据已经学到的东西，选择一条新的、更有希望的路线。</p>
+<p>这种利用错误来纠正方向的能力，让推理模型能够找到一开始并不显而易见的答案。</p>
+<p>云端产品发布之后，在 2025 年暮春和夏天，Codex 团队准备尝试另一条路。彼时，这个项目身处 OpenAI 的一个边缘角落，刚刚加入团队的设计师 <strong>Ed Bayes</strong> 回忆说，那是公司的“偏僻之地”。“如果你想成为那个风光的设计师，”他告诉我，“你就会去做 ChatGPT。”</p>
+<p>就在这个被冷落的前哨站里，Sottiaux 升任了团队的工程经理。“我接手了团队，随后大幅调整了方向。”<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=tibo-takes-over&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_tibo_takes_over#final-20261015-0030" title="阅读访谈">[22]</a> 他告诉我，“我们转向了本地。”</p>
+<p>“本地”意味着让智能体像 Claude Code 那样，在开发者自己的计算机上运行，而不是在云端运行。他们以<a href="https://every.to/p/how-codex-happened/asides/codex-cli/?utm_cta_source=p_how_codex_happened_backtracking_the_local_codex_cli_1" title="旁栏：更早出现的 Codex CLI">本地 Codex CLI</a> 为起点。正如 Embiricos 所说，那原本是两个人在主项目之外，“英勇地”做出来的东西。Sottiaux 没有立刻开始往里面添加功能，尽管那样很快就能做出声势，而是采取了另一条路线：他决定重写这个智能体。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=agent-rewrite-bet&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_agent_rewrite_bet#final-20261015-0032" title="阅读访谈">[23]</a></p>
+<p>“我们在拿出真正好用的 CLI 功能这件事上，确实有点慢，”<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=cli-feature-delay&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_cli_feature_delay#final-20261015-0032" title="阅读访谈">[24]</a> 他告诉我，“因为我们一直忙着开发智能体。”</p>
+<p>CLI 是用户与之交互的界面，但 Sottiaux 最优先考虑的是它底下的那套机制，也就是读取文件、运行命令以及执行其他操作的智能体。他想改进它，并把它与终端界面分离开来，让它能够在任何地方运行：代码编辑器、桌面或移动应用、云端，甚至 ChatGPT 本身。</p>
+<p>团队使用 Rust 重建了智能体，<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=shared-agent-infrastructure&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_shared_agent_infrastructure#final-20261015-0032" title="阅读访谈">[25]</a> 这是一种专为注重速度和安全性的系统设计的语言。这样，同一套底层机制就能同时支撑终端 CLI，以及后来推出的编辑器扩展。</p>
+<p>不过，他们仍然缺少一个足够好的模型来驱动它。</p>
+<p>当 Codex 团队在 Sottiaux 的领导下重建智能体时，<strong>Michelle Pokrass</strong> 正在努力让 GPT-5 更擅长现实世界中的编程。</p>
+<p>Pokrass 此前曾领导 <a href="https://every.to/vibe-check/vibe-check-openai-s-o3-gpt-4-1-and-o4-mini?utm_cta_source=p_how_codex_happened_backtracking_gpt_4_1_1">GPT-4.1</a> 的研究工作，这次她负责后训练，也就是进一步调整已经训练好的模型的行为，使其能够应对真正的编程工作。她重点关注的是那些提出希望改善交互式编程体验的客户。<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=interactive-coding-customers&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_interactive_coding_customers#final-20261015-0157" title="阅读访谈">[26]</a></p>
+<p>编程模型可能就像一个 SAT 考了满分、却从未工作过的学生。OpenAI 的模型在编程竞赛中表现优异，但这些成绩没有转化成日常工程工作中的能力。“<a href="https://every.to/p/how-codex-happened/interviews/greg/?cite=messy-codebases&#x26;utm_cta_source=p_how_codex_happened_backtracking_cite_messy_codebases#final-20261015-0002" title="阅读访谈">它们从未见过杂乱的代码库，也没见过程序员可能会怎样在任务做到一半时打断它们</a>。”Brockman 告诉我。</p>
+<p>为了让这些只擅长书本知识的模型获得真实世界的经验，Pokrass 和她的团队坐在程序员身旁，观察他们工作，找出模型在哪里出了问题，再把这些失败转化成可以反复执行的训练任务。</p>
+<p>OpenAI 就是这样打造出了那个模型，也迎来了那个时刻，让我在 2025 年 8 月走进了 Mission Bay 的那间会议室。</p>
+<p>从 Codex 团队那个动荡的夏天看回去，我当晚在 GPT-5 身上感受到的谨慎就说得通了。OpenAI 曾试图借 Codex Cloud 一跃实现完全自主，却吃了苦头；与此同时，客户希望得到一个更好的交互式协作者。在这些因素的引导下，OpenAI 打造出了一个擅长与人类程序员<em>一起</em>、一步步开展工作的模型。它能理解杂乱代码库的各个部分是如何组合在一起的，能解释自己的计划、排查缺陷，并在越界之前停下来征询意见。</p>
+<p>在 Every 的我们看来，与 Claude Code 相比，Codex CLI 中的 GPT-5 仍然落后。Kieran 在我们<a href="https://every.to/vibe-check/gpt-5?utm_cta_source=p_how_codex_happened_backtracking_launch_day_vibe_check_1">发布当天的 Vibe Check 评测</a>中写道：“GPT-5 是 Sonnet 3.5 杀手，却不是通向未来的一次飞跃。”但对当时绝大多数软件工程师来说，他们想要的就是一个谨慎的协作者。那些习惯了亲手写下每一行代码的程序员，普遍仍对把生产环境代码交给自主智能体的做法嗤之以鼻。</p>
+<p>“<a href="https://every.to/p/how-codex-happened/asides/dhh-later/?utm_cta_source=p_how_codex_happened_backtracking_i_don_t_let_it_drive_my_code_1" title="旁注：DHH 改变了主意">我不会让它主导我的代码</a>，”Ruby on Rails 的创造者、在工程师群体中颇具影响力的 <strong>David Heinemeier Hansson</strong> 在<a href="https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/">GPT-5 发布前后</a>说。“程序员的乐趣，对我这个程序员来说，就是亲手把代码敲出来。”此外，他说，当智能体掌舵时，“我真的能感觉到自己的能力正从指尖流失。”</p>
+<p>8 月下旬，Codex 团队在发布 GPT-5 之后又推出了适用于 VS Code 和 Cursor 的扩展，这些开发者蜂拥而至。他们的热情给了 OpenAI 充足的理由，继续改进这款扩展。每增加一名用户、每收到一项功能请求，都会把团队拉向帮助程序员一步一步完成工作的方向，而非构建能够独立承担整个任务的智能体。</p>
+<p>不过，对 Embiricos 来说，同一次发布意味着团队可以追求更大的抱负。经历了数月的迷茫探索后，重建的本地智能体终于有了一个足以驱动它的模型。</p>
+<p>他告诉我，当他们把 GPT-5 与改版后的 CLI 一起发布时，“就形成了一个自我强化的飞轮。”</p>
+<p>他记得自己当时想：“我们终于可以上场一战了。”</p>
+<p><a id="the-desktop-bet"></a></p>
+<h2>押注桌面应用</h2>
+<blockquote>
+<p>思考中……<br>
+<em>CLI 和编辑器扩展终于开始腾飞了……</em></p>
+</blockquote>
+<blockquote>
+<p><em>客户喜欢侧边栏，而在终端里，Claude Code 是我们要击败的产品……</em></p>
+</blockquote>
+<blockquote>
+<p><em>加大对编辑器扩展的投入，并在终端里追赶上去吧……</em></p>
+</blockquote>
+<blockquote>
+<p><em>被 Tibo 打断</em></p>
+</blockquote>
+<p>随着 Codex CLI 和 VS Code 扩展的人气急剧攀升，顺理成章的选择应该是继续投资这两款产品。</p>
+<p>然而，Codex 团队却做了一件出人意料的事。</p>
+<p>“<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=desktop-investment&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_desktop_investment#final-20261015-0038" title="阅读访谈">我们决定继续维护 CLI，但接下来最应该立即投入重兵的，是一款原生桌面应用</a>，”Sottiaux 告诉我。</p>
+<p>在 OpenAI 内部，他看到模型能够完成耗时更长的任务，也能利用代码库之外的信息，而语音和图像功能也即将到来。人们很快就会同时运行多个智能体，并整天与它们共事。“如果你要把所有时间都花在里面，它就必须拥有一个功能非常丰富的界面，”他说。在他看来，试图在一个诞生于 20 世纪 70 年代的纯文本窗口中，同时照管六个用文字、图像、语音和视频交流的智能体，实在有些荒唐。</p>
+<p>对 Embiricos 来说，本地桌面应用也指向了一种他们在 Codex Cloud 上始终未能实现的工作流程；在 Codex Cloud 中，用户无法在任务进行中打断智能体。他想，有了运行在自己电脑上的应用，人们可以先与智能体紧密合作，然后像带新同事入职一样，逐渐弄清哪些任务可以放心交给它。<a href="https://every.to/p/how-codex-happened/interviews/alex/?cite=interactive-teammate&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_interactive_teammate#final-20261015-0122" title="阅读访谈">[27]</a> 同一个界面最终还可以让 Codex 走出开发者圈子，服务那些永远不会打开终端的人。</p>
+<p>为了帮助设计和构建这款应用，Sottiaux 请来了 <strong>Andrew Ambrosino</strong>，他是一名设计师、程序员，也曾是创业公司的创始人。</p>
+<p>Ambrosino 让我想起 B.J. Novak 在 <em>《办公室》</em> 里扮演的角色：深色头发、浓眉，嘴角总挂着一点抿嘴的微笑。无论当面接触还是在网上，他都给人一种<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=pets-shareholders&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_pets_shareholders#final-20261015-0063" title="阅读访谈">永远在心里暗自发笑</a>的感觉；别人是否也能和他一起领会这个笑话，他也会考虑，但这似乎往往没那么重要。</p>
+<p>为了洞悉人工智能的未来而关注他的人，翻看他的动态时，可能会发现一条获得 617 个赞的帖子，全文只有一个词：“ai”。另一条帖子则神秘莫测地只写了<a href="https://every.to/p/how-codex-happened/asides/tibo/?utm_cta_source=p_how_codex_happened_the_desktop_bet_tibo_1" title="旁注：“tibo” 是什么意思">“tibo”</a>（获得了 1,000 多个赞）。</p>
+<p>Ambrosino 加入开发这款应用的小组时，他们知道自己想做一款桌面应用，却不知道它应该长什么样。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=app-starting-uncertainty&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_app_starting_uncertainty#final-20261015-0022" title="阅读访谈">[28]</a> 团队唯一清楚的，是他们想做出自己也会使用的东西。</p>
+<p>Ambrosino 告诉我，他们的第一项要求，就是让这款应用成为自己日常工作的主要工具。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=daily-driver-mandate&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_daily_driver_mandate#final-20261015-0031" title="阅读访谈">[29]</a> “我们知道，自己想要一个可以作为日常主力工具的界面，但它要比 IDE 更轻量，”他说。</p>
+<p>随着 Claude Code 迅速走红，一些应用开始探索：离开终端，编程智能体的工作空间应该是什么样的？Conductor 是一款运行编程智能体的 Mac 应用，它在侧边栏列出任务，每个任务都有自己的智能体和聊天界面，用户可以在那里下达指令、跟进工作。ChatGPT 提供了另一个参考：一侧是对话列表，中间是单个对话。谈及他们的设计过程，Ambrosino 说，Codex 应用“从聊天界面中获得的灵感，比从 VS Code 中获得的更多”。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=chat-design-inspiration&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_chat_design_inspiration#final-20261015-0091" title="阅读访谈">[30]</a> 到那时，Anthropic 也已经有了 Claude 桌面应用。</p>
+<p>团队推进得很快，解决了诸多基础问题：用户如何跟进工作（每项任务都有与智能体单独展开的对话）、<a href="https://every.to/p/how-codex-happened/interviews/ed/?cite=basic-interface-questions&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_basic_interface_questions#final-20261015-0009" title="阅读访谈">侧边栏应该如何组织</a>（对话按项目分组），以及基础界面该如何布局（任务侧边栏位于选中对话的旁边）。</p>
+<p>接下来，一个更难的问题出现了：如果智能体出了错，你能否直接在 Codex 里亲手修正代码？团队选择了一个有风险的答案：不内置代码编辑器。如果想对代码做任何修改，你都<em>必须</em>让智能体来做。</p>
+<p>“我们就是希望它成为一种不同于代码编辑器的东西，”Ambrosino 告诉我。如果允许开发者在应用里敲代码，他们就会期待编辑器拥有的其他一切功能——撤销、搜索、键盘快捷键——进而注意到 Codex 缺少什么。对他们这个四人团队来说，光是满足这些期待就需要付出极大的努力，更不用说超越期待了。</p>
+<p>Codex 不可能靠做一个蹩脚的代码编辑器取胜。用智能体编程的体验必须足够好，好到开发者不再想念编辑器。</p>
+<p>唯一的问题是，他们仍然<em>用着</em> VS Code，来构建一款 VS Code 的替代品。</p>
+<p>“每天 Alexander 都会走进来，说：‘我们挨个问一圈。你在把这款应用当主力工具用吗？你呢？’”<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=maining-the-app&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_maining_the_app#final-20261015-0031" title="阅读访谈">[31]</a> Ambrosino 说。</p>
+<p>起初，答案清一色都是“没有”，没有一个人把 Codex 当作主要的编程工具。没有代码编辑器，哪怕只是一个小改动，也得和智能体聊上几句。负责开发者体验的 <strong>Dominik Kundel</strong> 在早期的一条 Slack 消息中写道，仅仅为了替换一句话，“就得给 Codex 写提示，感觉很麻烦”。</p>
+<p>就连 Ambrosino 也有疑虑。11 月，他在给团队的消息中写道：“在这次上线的范围取舍中，我最怀疑的就是‘不能编辑文件’这一点。”</p>
+<p>外部市场的动向，让不提供代码编辑器这个决定显得更加冒险。2025 年 11 月，Google <a href="https://codelabs.developers.google.com/next26/kcc-ops-skill-antigravity">发布了 Antigravity</a>，这又是一款<a href="https://every.to/p/how-codex-happened/asides/forking/?utm_cta_source=p_how_codex_happened_the_desktop_bet_built_on_vs_code_1" title="旁注：分叉开发是什么意思">基于 VS Code 构建</a>的编程工具，将 AI 智能体与功能完整的编辑器结合在一起。</p>
+<p>“我们当时就有点面面相觑，”Ambrosino 回忆道。“<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=forking-vscode-doubt&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_forking_vscode_doubt#final-20261015-0024" title="阅读访谈">我们没有基于 VS Code 做分叉开发，是不是犯了一个天大的错误？</a> 我们在这件事上非常纠结，而且我觉得团队内部甚至都没有达成一致。”</p>
+<p>支撑这款应用的模型也是个问题。OpenAI 在 9 月推出了专用的 Codex 模型系列，但到了 11 月，它仍然不足以支撑他们正在构建的桌面产品。Ambrosino 告诉我，即使应用的功能已经齐全，“以当时模型的质量，也根本没法发布”。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=unreleasable-models&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_unreleasable_models#final-20261015-0018" title="阅读访谈">[32]</a></p>
+<p>在接下来的几周里，情况开始发生变化。11 月 19 日，OpenAI 发布了 GPT-5.1 Codex Max，它可以一口气连续编程数小时。<a href="https://every.to/vibe-check/vibe-check-gpt-5-2-is-an-incremental-upgrade?utm_cta_source=p_how_codex_happened_the_desktop_bet_gpt_5_2_codex_1">GPT-5.2 Codex</a> 随后于 12 月 18 日推出，在跨大型代码库进行修改方面又有了进一步提升。</p>
+<p>Glaese 与 Codex 团队的其他成员直接合作，进一步缩短开发者反馈与模型改进之间的反馈循环。关键在于，<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=prioritize-real-workflows&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_prioritize_real_workflows#final-20261015-0091" title="阅读访谈">他们把重点放在让 Codex 更好地服务实际使用它的人</a>，而不只是提高模型在热门基准测试中的分数。又因为 Codex 模型系列独立于 ChatGPT 的主力模型，他们可以行动得更快，不必担心这些改动会给使用 ChatGPT 的 8 亿人带来什么影响。</p>
+<p>到 12 月，团队中越来越多的人开始放下代码编辑器，改用 Codex 应用。“我一开始特别想要一个代码编辑器，”Kundel 在 Slack 上写道。“现在大多数修改，我只要留下行内评论就行，而且快得很。”Ambrosino 发现，虽然自己仍然需要引导模型，但已不再需要亲手修改它写的代码。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=no-longer-hand-editing&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_no_longer_hand_editing#final-20261015-0041" title="阅读访谈">[33]</a> Glaese 也意识到，内部的态度已经变了。“5.2 是一个转折点，当时我心想：‘哇，一想到它能为我做些什么<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=glaese-five-two-threshold&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_glaese_five_two_threshold#final-20261015-0048" title="阅读访谈">[34]</a>，我就特别兴奋。’”她说。</p>
+<p>放眼整个行业，这个假期成了一个<a href="https://every.to/context-window/claude-code-in-a-trenchcoat?utm_cta_source=context_window_main_claude_code_in_a_trenchcoat_plus_personal_projects_took_over_the_holiday_break_1">转折点</a>。开发者利用圣诞假期，使用 Anthropic 的 <a href="https://every.to/vibe-check/vibe-check-opus-4-5-is-the-coding-model-we-ve-been-waiting-for?utm_cta_source=p_how_codex_happened_the_desktop_bet_opus_4_5_1">Opus 4.5</a> 和 OpenAI 的 GPT-5.2，从头到尾构建完整的应用，自己一行代码也不碰。</p>
+<p>到 1 月初，整个团队都在使用 Codex 应用。现在，他们需要弄清 OpenAI 的其他人是否也会用它。Ambrosino 说，如果不会，那就得“推倒重来”。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=internal-pmf-release-gate&#x26;utm_cta_source=p_how_codex_happened_the_desktop_bet_cite_internal_pmf_release_gate#final-20261015-0034" title="阅读访谈">[35]</a></p>
+<p>到 2 月，Codex 桌面应用已经在工程和研究团队中得到广泛采用。OpenAI 研究员 <strong>Noam Brown</strong> 说，他已经“完全转用”它，而一直忠于终端和 Emacs 编辑器的 Brockman 也不例外。他说，再回到过去的工作流程，“感觉就像回到了过去。”Altman 后来会把它<a href="https://venturebeat.com/orchestration/openai-launches-a-codex-desktop-app-for-macos-to-run-multiple-ai-coding">形容</a>为“我们有史以来最受欢迎的内部产品”。</p>
+<p>Codex 团队做出了一个深受 OpenAI 内部开发者喜爱的产品。但 Codex Cloud 当初也曾在 OpenAI 内部备受欢迎，却在正式推出后遭遇失败。这一次会不一样吗？</p>
+<p><a id="the-codex-app"></a></p>
+<h2>Codex 应用：从编程走向知识工作</h2>
+<blockquote>
+<p>思考中……</p>
+</blockquote>
+<blockquote>
+<p><em>这里有很多人都在用它……</em></p>
+</blockquote>
+<blockquote>
+<p><em>但以前我也曾把这误当成成功……</em></p>
+</blockquote>
+<blockquote>
+<p><em>这一次，它就在用户原本工作的地方运行……</em></p>
+</blockquote>
+<blockquote>
+<p><em>是时候到外面试试了……</em></p>
+</blockquote>
+<p>2026 年 2 月 2 日，Codex 的 macOS 桌面应用向公众发布。它看起来更像一款聊天应用，而非代码编辑器：侧边栏列着正在进行和过去的任务，点开其中一项，就能看到智能体已经完成了哪些工作，并向它发送进一步的指令。</p>
+<p>你可以让一个智能体修复 bug，再派另一个去开发功能，然后在它们之间来回切换，回答问题或审查修改。每个智能体都能在自己独立的代码副本上工作，不会覆盖其他智能体的成果。你可以紧盯着它们、随时引导，也可以让几个任务同时运行，等它们需要你时再回来。</p>
+<p>在当时，这些功能都算不上特别开创性的突破。比如，Claude 桌面应用早在几个月前，就已经让技术用户和非技术用户都能做到这些。但 Claude 桌面应用是一步一步搭建起来的：先有 Chat，再加入 Code，然后又加入 <a href="https://every.to/vibe-check/vibe-check-claude-cowork-is-claude-code-for-the-rest-of-us?utm_cta_source=p_how_codex_happened_the_codex_app_cowork_1">Cowork</a>，这让它的界面显得混乱，像是东拼西凑而成。用户很难弄清什么任务该用哪个标签页，也不清楚每个标签页里有哪些功能、可以获得哪些权限。</p>
+<p>Codex 应用<a href="https://every.to/p/how-codex-happened/asides/late-comer/?utm_cta_source=p_how_codex_happened_the_codex_app_none_of_these_scars_1" title="旁注：后来者的优势">没有留下这些痕迹</a>。我第一次使用它时，搭配的是在桌面应用发布几天后推出的新 Codex 模型 <a href="https://every.to/vibe-check/gpt-5-3-codex?utm_cta_source=p_how_codex_happened_the_codex_app_gpt_5_3_codex_1">GPT-5.3 Codex</a>。它快速、简洁，而且完全是<a href="https://every.to/guides/agent-native?utm_cta_source=p_how_codex_happened_the_codex_app_agent_native_1">智能体原生</a>的。整个体验流畅自如，就像一款产品的所有细节都恰到好处时，会给人的那种感觉。因为团队早期坚持不内置代码编辑器，他们确保了用户在应用里能做的事情，Codex 智能体几乎也都能做到。这意味着，比如说要连接一个新工具时，你不用在设置里到处翻找。<a href="https://every.to/p/how-codex-happened/interviews/andrew/?cite=nontechnical-worlds&#x26;utm_cta_source=p_how_codex_happened_the_codex_app_cite_nontechnical_worlds#final-20261015-0074" title="阅读访谈">只要直接让智能体来做就行。</a></p>
+<p>GPT-5.3 Codex 也是 OpenAI 模型能力的一个转折点。据 Glaese 说，这是他们第一次开始让 Codex 系列的训练走出编程专用的范畴。他们仍然把它叫作 Codex，她也没有声称它在所有事情上都更强。但<a href="https://every.to/p/how-codex-happened/interviews/mia/?cite=beyond-coding&#x26;utm_cta_source=p_how_codex_happened_the_codex_app_cite_beyond_coding#final-20261015-0024" title="阅读访谈">团队已经开始思考：一个编程智能体还需要掌握什么，才能在各种知识工作中派上用场</a>。</p>
+<p>它对我工作流程的影响立竿见影：我从几乎只用 Claude，变成在大量工作中<a href="https://every.to/vibe-check/gpt-5-3-codex?utm_cta_source=p_how_codex_happened_the_codex_app_using_codex_1">使用 Codex</a>。在我正在开发的文档编辑器 <a href="https://proofeditor.ai/">Proof</a> 上，我看着 Codex 在几乎不需要我介入的情况下，自主修复<a href="https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down?utm_cta_source=p_how_codex_happened_the_codex_app_complex_bugs_1">复杂的 bug</a>。很快，我就开始让它通宵处理难题，而每当遇到特别棘手的任务，我总会先去找 Codex。</p>
+<p>3 月初 <a href="https://every.to/vibe-check/gpt-5-4-openai-is-back?utm_cta_source=p_how_codex_happened_the_codex_app_gpt_5_4_1">GPT-5.4</a> 的到来，让 Codex 彻底坐稳了我的日常主力工具的位置。它依然是编程高手，但现在能够清楚地解释自己的做法，也更理解我想要什么。又因为 Codex 应用的界面简洁、响应迅速，我开始把所有工作都放到里面完成。</p>
+<p>那时，Every 的许多人也开始每天使用 OpenAI 的工具和模型。这与仅仅几个月前的情况完全相反，当时 Claude 还是遥遥领先的首选。正如我们在<a href="https://every.to/vibe-check/gpt-5-4-openai-is-back?utm_cta_source=p_how_codex_happened_the_codex_app_gpt_5_4_vibe_check_1">GPT-5.4 Vibe Check 评测</a>中所说：OpenAI 回来了。</p>
+<p>同样的转变也发生在远远超出 Every 的范围内。截至 3 月 19 日，OpenAI 表示，Codex 的<a href="https://openai.com/index/openai-to-acquire-astral/">周用户数已突破 200 万</a>，总体使用量则增至年初的五倍。4 月，OpenAI 加入了应用内浏览器，让智能体可以查找信息，并在真实网页上检查自己的工作。它也能跨其他 Mac 应用工作，并展示文档、幻灯片和电子表格的预览。即使一个人从没写过代码，也可以要求它制作演示文稿或预算报告，并且无需离开应用就能看到结果。</p>
+<figure>
+<svg style="display:none" data-containment-live="true" viewBox="0 0 1024 1024" aria-hidden="true"><g fill="white" stroke="#0092d1" stroke-width="2.5" stroke-linejoin="miter" stroke-linecap="round"><path data-containment-part="chat-outline" d="M187 189 C403.6667 189.65 620.3333 189.65 837 189 C836.35 363.6667 836.35 538.3333 837 713 C620.3333 712.35 403.6667 712.35 187 713 C187.65 538.3333 187.65 363.6667 187 189 Z"></path><path data-containment-part="chat-chrome" d="M187 213 C403.6667 213.65 620.3333 213.65 837 213" fill="none"></path><g data-containment-part="chat-controls" transform="translate(200 201)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="chat-scroll" d="M819 213 C818.35 379.6667 818.35 546.3333 819 713" fill="none"></path><path data-containment-part="chat-thumb" d="M824 220 C826.6667 220.08 829.3333 220.08 832 220 C831.35 253.6667 831.35 287.3333 832 321 C829.3333 320.92 826.6667 320.92 824 321 C824.65 287.3333 824.65 253.6667 824 220 Z"></path><text x="512" y="513" text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="56">聊天</text> <defs><clipPath id="graphic-builders-live-chrome"><path data-containment-part="codex-clip" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" clip-rule="evenodd"></path></clipPath></defs><path data-containment-part="codex-outline" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" fill-rule="evenodd" stroke-width="3"></path><g clip-path="url(#graphic-builders-live-chrome)"><path data-containment-part="codex-chrome" d="M97 57 C373.6667 57.65 650.3333 57.65 927 57" fill="none"></path><g data-containment-part="codex-controls" transform="translate(110 45)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="codex-scroll" d="M909 57 C908.35 307.3333 908.35 557.6667 909 808" fill="none"></path><path data-containment-part="codex-thumb" d="M914 64 C916.6667 64.08 919.3333 64.08 922 64 C921.35 97.6667 921.35 131.3333 922 165 C919.3333 164.92 916.6667 164.92 914 165 C914.65 131.3333 914.65 97.6667 914 64 Z"></path></g><g data-containment-part="codex-title" visibility="visible" transform="translate(512 109) rotate(0) scale(1)"><text text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="48">CODEX</text></g> </g></svg> <svg style="display:block;width:100%;max-width:420px;height:auto;margin:0 auto" role="img" aria-label="Codex 窗口包容聊天界面的示意图" class="codex-original-poster" viewBox="0 0 1024 1024"><g fill="white" stroke="#0092d1" stroke-width="2.5" stroke-linejoin="miter" stroke-linecap="round"><path data-containment-part="chat-outline" d="M187 189 C403.6667 189.65 620.3333 189.65 837 189 C836.35 363.6667 836.35 538.3333 837 713 C620.3333 712.35 403.6667 712.35 187 713 C187.65 538.3333 187.65 363.6667 187 189 Z"></path><path data-containment-part="chat-chrome" d="M187 213 C403.6667 213.65 620.3333 213.65 837 213" fill="none"></path><g data-containment-part="chat-controls" transform="translate(200 201)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="chat-scroll" d="M819 213 C818.35 379.6667 818.35 546.3333 819 713" fill="none"></path><path data-containment-part="chat-thumb" d="M824 220 C826.6667 220.08 829.3333 220.08 832 220 C831.35 253.6667 831.35 287.3333 832 321 C829.3333 320.92 826.6667 320.92 824 321 C824.65 287.3333 824.65 253.6667 824 220 Z"></path><text x="512" y="513" text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="56">聊天</text> <defs><clipPath id="graphic-builders-poster-chrome"><path data-containment-part="codex-clip" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" clip-rule="evenodd"></path></clipPath></defs><path data-containment-part="codex-outline" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" fill-rule="evenodd" stroke-width="3"></path><g clip-path="url(#graphic-builders-poster-chrome)"><path data-containment-part="codex-chrome" d="M97 57 C373.6667 57.65 650.3333 57.65 927 57" fill="none"></path><g data-containment-part="codex-controls" transform="translate(110 45)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="codex-scroll" d="M909 57 C908.35 307.3333 908.35 557.6667 909 808" fill="none"></path><path data-containment-part="codex-thumb" d="M914 64 C916.6667 64.08 919.3333 64.08 922 64 C921.35 97.6667 921.35 131.3333 922 165 C919.3333 164.92 916.6667 164.92 914 165 C914.65 131.3333 914.65 97.6667 914 64 Z"></path></g><g data-containment-part="codex-title" visibility="visible" transform="translate(512 109) rotate(0) scale(1)"><text text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="48">CODEX</text></g></g></svg>
+<figcaption>图示：桌面应用承载关系的逆转。Codex 从 ChatGPT 窗口内部移到外部，成为包容聊天功能的外层窗口；这并不表示 ChatGPT 的全部基础设施都迁入了 Codex。</figcaption>
+</figure>
+<p>到 6 月，Codex 的周用户数超过了 500 万，其中大约<a href="https://openai.com/index/codex-for-knowledge-work/">每五人就有一名知识工作者</a>。7 月 9 日，OpenAI 把 Codex 桌面应用变成了<a href="https://every.to/context-window/the-urge-to-merge-chatgpt-and-codex?utm_cta_source=p_how_codex_happened_the_codex_app_the_new_chatgpt_desktop_app_1">新版 ChatGPT 桌面应用</a>，将聊天功能纳入其中。<a href="https://every.to/p/how-codex-happened/interviews/tibo/?cite=merge-desktop-identity&#x26;utm_cta_source=p_how_codex_happened_the_codex_app_cite_merge_desktop_identity#final-20261015-0122" title="阅读访谈">[36]</a> 在底层，新版 ChatGPT 告诉你的 Mac，自己的名字依然是 com.openai.codex。</p>
+<figure style="display:none" aria-hidden="true">
+<svg style="display:none" data-containment-live="true" viewBox="0 0 1024 1024" aria-hidden="true"><g fill="white" stroke="#0092d1" stroke-width="2.5" stroke-linejoin="miter" stroke-linecap="round"><path data-containment-part="chat-outline" d="M187 189 C403.6667 189.65 620.3333 189.65 837 189 C836.35 363.6667 836.35 538.3333 837 713 C620.3333 712.35 403.6667 712.35 187 713 C187.65 538.3333 187.65 363.6667 187 189 Z"></path><path data-containment-part="chat-chrome" d="M187 213 C403.6667 213.65 620.3333 213.65 837 213" fill="none"></path><g data-containment-part="chat-controls" transform="translate(200 201)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="chat-scroll" d="M819 213 C818.35 379.6667 818.35 546.3333 819 713" fill="none"></path><path data-containment-part="chat-thumb" d="M824 220 C826.6667 220.08 829.3333 220.08 832 220 C831.35 253.6667 831.35 287.3333 832 321 C829.3333 320.92 826.6667 320.92 824 321 C824.65 287.3333 824.65 253.6667 824 220 Z"></path><text x="512" y="513" text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="56">聊天</text> <defs><clipPath id="graphic-builders-beat-0-live-chrome"><path data-containment-part="codex-clip" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" clip-rule="evenodd"></path></clipPath></defs><path data-containment-part="codex-outline" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" fill-rule="evenodd" stroke-width="3"></path><g clip-path="url(#graphic-builders-beat-0-live-chrome)"><path data-containment-part="codex-chrome" d="M97 57 C373.6667 57.65 650.3333 57.65 927 57" fill="none"></path><g data-containment-part="codex-controls" transform="translate(110 45)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="codex-scroll" d="M909 57 C908.35 307.3333 908.35 557.6667 909 808" fill="none"></path><path data-containment-part="codex-thumb" d="M914 64 C916.6667 64.08 919.3333 64.08 922 64 C921.35 97.6667 921.35 131.3333 922 165 C919.3333 164.92 916.6667 164.92 914 165 C914.65 131.3333 914.65 97.6667 914 64 Z"></path></g><g data-containment-part="codex-title" visibility="visible" transform="translate(512 109) rotate(0) scale(1)"><text text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="48">CODEX</text></g> </g></svg> <svg style="display:block;width:100%;max-width:420px;height:auto;margin:0 auto" role="img" aria-label="Codex 窗口包容聊天界面的示意图" class="codex-original-poster" viewBox="0 0 1024 1024"><g fill="white" stroke="#0092d1" stroke-width="2.5" stroke-linejoin="miter" stroke-linecap="round"><path data-containment-part="chat-outline" d="M187 189 C403.6667 189.65 620.3333 189.65 837 189 C836.35 363.6667 836.35 538.3333 837 713 C620.3333 712.35 403.6667 712.35 187 713 C187.65 538.3333 187.65 363.6667 187 189 Z"></path><path data-containment-part="chat-chrome" d="M187 213 C403.6667 213.65 620.3333 213.65 837 213" fill="none"></path><g data-containment-part="chat-controls" transform="translate(200 201)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="chat-scroll" d="M819 213 C818.35 379.6667 818.35 546.3333 819 713" fill="none"></path><path data-containment-part="chat-thumb" d="M824 220 C826.6667 220.08 829.3333 220.08 832 220 C831.35 253.6667 831.35 287.3333 832 321 C829.3333 320.92 826.6667 320.92 824 321 C824.65 287.3333 824.65 253.6667 824 220 Z"></path><text x="512" y="513" text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="56">聊天</text> <defs><clipPath id="graphic-builders-beat-0-poster-chrome"><path data-containment-part="codex-clip" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" clip-rule="evenodd"></path></clipPath></defs><path data-containment-part="codex-outline" d="M97 33 C373.6667 33.65 650.3333 33.65 927 33 C926.35 291.3333 926.35 549.6667 927 808 C650.3333 807.35 373.6667 807.35 97 808 C97.65 549.6667 97.65 291.3333 97 33 Z M171 177 C398.3333 177.65 625.6667 177.65 853 177 C852.35 356 852.35 535 853 714 C625.6667 713.35 398.3333 713.35 171 714 C171.65 535 171.65 356 171 177 Z" fill-rule="evenodd" stroke-width="3"></path><g clip-path="url(#graphic-builders-beat-0-poster-chrome)"><path data-containment-part="codex-chrome" d="M97 57 C373.6667 57.65 650.3333 57.65 927 57" fill="none"></path><g data-containment-part="codex-controls" transform="translate(110 45)"><circle cx="0" cy="0" r="6.3"></circle><circle cx="18" cy="0" r="6.3"></circle><circle cx="36" cy="0" r="6.3"></circle></g><path data-containment-part="codex-scroll" d="M909 57 C908.35 307.3333 908.35 557.6667 909 808" fill="none"></path><path data-containment-part="codex-thumb" d="M914 64 C916.6667 64.08 919.3333 64.08 922 64 C921.35 97.6667 921.35 131.3333 922 165 C919.3333 164.92 916.6667 164.92 914 165 C914.65 131.3333 914.65 97.6667 914 64 Z"></path></g><g data-containment-part="codex-title" visibility="visible" transform="translate(512 109) rotate(0) scale(1)"><text text-anchor="middle" dominant-baseline="central" fill="#0092d1" stroke="none" font-family="Arial, sans-serif" font-size="48">CODEX</text></g></g></svg>
+</figure>
+<p>Codex Cloud 发布时，只是 ChatGPT 里的一个标签页。如今，ChatGPT 运行在 Codex 之上。</p>
+<p>Ed Bayes 记得，在宣布合并的那次全员大会结束后，他走出会场，感慨团队已经走了这么远。最初不过是“角落里的几个人”，如今却成了“<a href="https://every.to/p/how-codex-happened/interviews/ed/?cite=future-of-chatgpt&#x26;utm_cta_source=p_how_codex_happened_the_codex_app_cite_future_of_chatgpt#final-20261015-0001" title="阅读访谈">ChatGPT 的未来</a>”。</p>
+<p>“这简直是美国企业史上的一段篇章，”他告诉我。</p>
+<p><a id="information"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li>原文：<a href="https://every.to/p/how-codex-happened">How Codex Happened</a></li>
+<li>作者：Dan Shipper</li>
+<li>发布方：Every</li>
+<li>原文发布日期：2026 年 10 月 15 日</li>
+</ul>
+<p><a href="https://every.to/@danshipper?utm_cta_source=post_4512_post_body_dan_shipper_1">Dan Shipper</a> 是 Every 的联合创始人兼首席执行官。他在 Every 撰写<a href="https://every.to/chain-of-thought?utm_cta_source=post_4512_post_body_chain_of_thought_1">《思维链》</a>专栏，并共同主持<a href="https://every.to/podcast?utm_cta_source=post_4512_post_body_the_every_podcast_1">《Every 播客》</a>。</p>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-how-codex-happened","sender":"Dan Shipper","author":"Dan Shipper","authorAliases":["Dan Shipper"],"publisher":"Every","media":"Every","subject":"Codex 是如何诞生的：OpenAI 编程业务的逆转","snippet":"Dan Shipper 追溯 Codex 从云端发布受挫，到重建本地智能体、押注无内置代码编辑器的桌面应用，最终成为 ChatGPT 桌面基础的过程，揭示模型训练、产品设计与真实工作反馈如何相互推动。","date":"2026-10-15","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["Codex","智能体","软件工程","产品设计","知识工作"],"mdTheme":"magazine","sourcePath":"essays/how-codex-happened.md","sourceUrl":"https://every.to/p/how-codex-happened","body":"$3","prompts":[]},"listPosition":{"index":6,"total":607},"relatedArticles":[{"id":"talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper","subject":"AI 悖论：自动化越多，工作越多","sender":"Dan Shipper","date":"2026-05-24","matchedPeople":["Dan Shipper"],"matchedTags":[]},{"id":"talks-claude-code-two-engineers-ship-like-team-of-fifteen","subject":"Claude Code - 两位工程师如何实现15人团队的效率","sender":"Dan Shipper","date":"2025-06-11","matchedPeople":["Dan Shipper"],"matchedTags":[]},{"id":"codex-for-knowledge-work","subject":"Codex 正在变成知识工作的桌面操作台","sender":"Dan Shipper, Austin Tedesco","date":"2026-05-06","matchedPeople":["Dan Shipper"],"matchedTags":["Codex","知识工作"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

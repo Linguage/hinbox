@@ -1,0 +1,1234 @@
+1:"$Sreact.fragment"
+3:I[7121,[],""]
+4:I[4581,[],""]
+6:I[484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+b:I[484,[],"MetadataBoundary"]
+d:I[7123,[],""]
+:HL["/hinbox/_next/static/media/636a5ac981f94f8b-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hinbox/_next/static/css/33f1a2ede3bb50fa.css","style"]
+0:{"P":null,"b":"VnvzBqLYvInhWvRhlLuv6","c":["","mail","talks-lex-fridman-jensen-huang-visiting-taiwan"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-lex-fridman-jensen-huang-visiting-taiwan","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/css/33f1a2ede3bb50fa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[3805,["60","static/chunks/60-026e7e6371f63b1a.js","893","static/chunks/893-0d48ec817eb15e41.js","177","static/chunks/app/layout-90231077f1eba7d7.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"__variable_cd543f","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia' && theme !== 'water') {\n      theme = 'water';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'water';\n    document.documentElement.dataset.theme = 'water';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Le",null,{"weeklyNavCounts":{"inboxWeeklyCount":12,"starredTotalCount":23},"people":[{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":11,"topTags":[{"id":"人工智能","name":"人工智能","count":8},{"id":"数学研究","name":"数学研究","count":7},{"id":"数学教育","name":"数学教育","count":4}]},{"id":"andrej-karpathy","name":"Andrej Karpathy","email":"","occupation":"人工智能研究者与教育者","website":"https://karpathy.ai/","bio":"OpenAI 创始成员，曾领导特斯拉自动驾驶视觉团队，并主讲斯坦福深度学习课程及人工智能视频课程。","contentCount":8,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"智能体","name":"智能体","count":4},{"id":"公众认知","name":"公众认知","count":3}]},{"id":"jensen-huang","name":"Jensen Huang","email":"","occupation":"企业家","website":"https://nvidianews.nvidia.com/bios/jensen-huang","bio":"1993 年创办英伟达，长期领导公司发展图形处理器、加速计算及面向人工智能的计算平台。","contentCount":8,"topTags":[{"id":"gpu","name":"GPU","count":4},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"人工智能","name":"人工智能","count":2}]},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":"","occupation":"计算科学家、企业家","website":"https://www.stephenwolfram.com/about/","bio":"开发 Mathematica 与 Wolfram|Alpha，研究元胞自动机、计算不可约性及计算与自然界的关系。","contentCount":8,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"效率工具","name":"效率工具","count":2}]},{"id":"reiner-pope","name":"Reiner Pope","email":"","contentCount":5,"topTags":[{"id":"大语言模型","name":"大语言模型","count":4},{"id":"模型训练","name":"模型训练","count":4},{"id":"推理优化","name":"推理优化","count":3}]},{"id":"steve-jobs","name":"Steve Jobs","email":"","occupation":"企业家","website":"https://stevejobsarchive.com/","bio":"苹果联合创始人，创办 NeXT，曾领导皮克斯，2005 年在斯坦福大学发表毕业演讲。","contentCount":5,"topTags":[{"id":"苹果","name":"苹果","count":3},{"id":"人生经历","name":"人生经历","count":2},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"hugo-duminil-copin","name":"Hugo Duminil-Copin","email":"","occupation":"数学家","website":"https://www.ihes.fr/en/professeur/hugo-duminil-copin-2/","bio":"运用概率论研究统计物理中的临界现象与相变，研究涉及渗流和伊辛模型，获 2022 年菲尔兹奖。","contentCount":4,"topTags":[{"id":"人工智能","name":"人工智能","count":4},{"id":"数学教育","name":"数学教育","count":4},{"id":"数学研究","name":"数学研究","count":4}]},{"id":"simon-willison","name":"Simon Willison","email":"","occupation":"开源软件开发者","website":"https://simonwillison.net/","bio":"Django 联合创建者和 Datasette 作者，开发数据探索与发布工具，并记录编程和大语言模型实践。","contentCount":4,"topTags":[{"id":"claude","name":"Claude","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"ai编程","name":"AI编程","count":1}]},{"id":"demis-hassabis","name":"Demis Hassabis","email":"","occupation":"人工智能研究者、企业家","website":"https://royalsociety.org/people/demis-hassabis-13817/","bio":"共同创办 DeepMind，推动 AlphaGo 和蛋白质结构预测研究，获 2024 年诺贝尔化学奖。","contentCount":3,"topTags":[{"id":"通用人工智能","name":"通用人工智能","count":3},{"id":"科学发现","name":"科学发现","count":2},{"id":"ai安全","name":"AI安全","count":1}]},{"id":"dylan-patel","name":"Dylan Patel","email":"","contentCount":3,"topTags":[{"id":"数据中心","name":"数据中心","count":2},{"id":"算力","name":"算力","count":2},{"id":"能源","name":"能源","count":2}]},{"id":"elon-musk","name":"Elon Musk","email":"","occupation":"科技企业家","website":"https://ir.tesla.com/corporate/elon-musk","bio":"参与特斯拉与 SpaceX 的发展，联合创办 PayPal，并创办 Neuralink 等科技企业。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"政府改革","name":"政府改革","count":2},{"id":"交通基础设施","name":"交通基础设施","count":1}]},{"id":"ilya-sutskever","name":"Ilya Sutskever","email":"","contentCount":3,"topTags":[{"id":"通用人工智能","name":"通用人工智能","count":2},{"id":"ai安全","name":"AI安全","count":1},{"id":"大语言模型","name":"大语言模型","count":1}]},{"id":"jared-weiss","name":"Jared Weiss","email":"","occupation":"篮球记者","bio":"为 The Athletic 报道马刺与文班亚马，曾长期跟踪凯尔特人，并参与赛后节目制作。","contentCount":3,"topTags":[{"id":"nba","name":"NBA","count":3},{"id":"体育心理","name":"体育心理","count":2},{"id":"篮球","name":"篮球","count":2}]},{"id":"konstantin-kakaes","name":"Konstantin Kakaes","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/konstantin-kakaes/","bio":"为 Quanta 撰写数学与人工智能报道，曾负责该刊数学编辑工作，也曾在《经济学人》等媒体工作。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"开放问题","name":"开放问题","count":1}]},{"id":"sam-altman","name":"Sam Altman","email":"","occupation":"科技企业家","website":"https://blog.samaltman.com/","bio":"2015 年参与创办 OpenAI，曾任创业孵化器 Y Combinator 总裁，参与人工智能与科技创业。","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"产品开发","name":"产品开发","count":1},{"id":"企业战略","name":"企业战略","count":1}]},{"id":"satya-nadella","name":"Satya Nadella","email":"","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"云计算","name":"云计算","count":1}]},{"id":"sauteedveggies","name":"SauteedVeggies","email":"","contentCount":3,"topTags":[{"id":"创造力","name":"创造力","count":3},{"id":"教育","name":"教育","count":2},{"id":"学术文化","name":"学术文化","count":1}]},{"id":"scott-wu","name":"Scott Wu","email":"","contentCount":3,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"devin","name":"Devin","count":2},{"id":"创业","name":"创业","count":2}]},{"id":"tugce-erten","name":"Tugce Erten","email":"","occupation":"定价策略顾问","website":"https://a16z.com/author/tugce-erten/","bio":"在 a16z 关注定价与套餐设计，撰写软件订阅、按用量收费及生成式 AI 商业化的分析文章。","contentCount":3,"topTags":[{"id":"产品定价","name":"产品定价","count":3},{"id":"人工智能","name":"人工智能","count":2},{"id":"商业模式","name":"商业模式","count":2}]},{"id":"ada-palmer","name":"Ada Palmer","email":"","contentCount":2,"topTags":[{"id":"文艺复兴","name":"文艺复兴","count":2},{"id":"印刷术","name":"印刷术","count":1},{"id":"历史解释","name":"历史解释","count":1}]},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":"","occupation":"科技记者、播客主持人","website":"https://alexkantrowitz.com/","bio":"创办 Big Technology 通讯与播客，报道科技巨头及其社会影响，著有《Always Day One》。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"alexandr-wang","name":"Alexandr Wang","email":"","contentCount":2,"topTags":[{"id":"产品设计","name":"产品设计","count":2},{"id":"人工智能","name":"人工智能","count":2},{"id":"智能体","name":"智能体","count":2}]},{"id":"amit-raghuvanshi","name":"Amit Raghuvanshi","email":"","occupation":"软件工程师与技术作者","website":"https://thearchitectsnotebook.substack.com/about","bio":"创办 The Architect’s Notebook，结合软件工程实践，讲解系统设计、分布式架构与可靠性。","contentCount":2,"topTags":[{"id":"分布式系统","name":"分布式系统","count":2},{"id":"可观测性","name":"可观测性","count":1},{"id":"尾延迟","name":"尾延迟","count":1}]},{"id":"andy-matuschak","name":"Andy Matuschak","email":"","occupation":"应用研究者","website":"https://andymatuschak.org/","bio":"设计帮助人们理解、记忆和运用知识的交互工具，曾参与 Apple 的 iOS 开发并负责可汗学院研发。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"软件设计","name":"软件设计","count":2}]},{"id":"anjney-midha","name":"Anjney Midha","email":"","contentCount":2,"topTags":[{"id":"创业","name":"创业","count":1},{"id":"平台经济","name":"平台经济","count":1},{"id":"投资","name":"投资","count":1}]},{"id":"avi-wigderson","name":"Avi Wigderson","email":"","contentCount":2,"topTags":[{"id":"p与np","name":"P与NP","count":2},{"id":"计算复杂性","name":"计算复杂性","count":2},{"id":"零知识证明","name":"零知识证明","count":2}]},{"id":"ben-brubaker","name":"Ben Brubaker","email":"","occupation":"科学记者","website":"https://www.quantamagazine.org/authors/brubaker_ben/","bio":"在 Quanta 报道计算机科学，曾从事物理学研究，拥有耶鲁大学物理学博士学位。","contentCount":2,"topTags":[{"id":"计算复杂性","name":"计算复杂性","count":2},{"id":"人工智能","name":"人工智能","count":1},{"id":"独特博弈","name":"独特博弈","count":1}]},{"id":"boris-cherny","name":"Boris Cherny","email":"","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"claude-code","name":"Claude Code","count":2},{"id":"团队管理","name":"团队管理","count":1}]},{"id":"christian-skau","name":"Christian Skau","email":"","occupation":"数学家","website":"https://www.ntnu.no/ansatte/christian.skau","bio":"挪威科技大学荣休教授，研究算子代数与拓扑动力系统，并长期采访阿贝尔奖得主。","contentCount":2,"topTags":[{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"daron-acemoglu","name":"Daron Acemoglu","email":"","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"劳动经济学","name":"劳动经济学","count":1}]},{"id":"donald-knuth","name":"Donald Knuth","email":"","contentCount":2,"topTags":[{"id":"文学编程","name":"文学编程","count":2},{"id":"算法","name":"算法","count":2},{"id":"人工智能","name":"人工智能","count":1}]},{"id":"elena-verna","name":"Elena Verna","email":"","occupation":"增长顾问、写作者","website":"https://www.elenaverna.com/","bio":"从事企业软件增长与咨询，曾在 Miro、Dropbox 等公司任职，关注产品驱动的增长策略。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"gergely-orosz","name":"Gergely Orosz","email":"","occupation":"软件工程师、科技作者","website":"https://blog.pragmaticengineer.com/about/","bio":"撰写 Pragmatic Engineer 通讯，报道软件工程实践与科技行业，曾负责 Uber 的工程团队。","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"代码审查","name":"代码审查","count":1}]},{"id":"grant-sanderson","name":"Grant Sanderson","email":"","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"数学教育","name":"数学教育","count":2},{"id":"数学研究","name":"数学研究","count":2}]},{"id":"gregory-zuckerman","name":"Gregory Zuckerman","email":"","occupation":"财经记者、作家","website":"https://www.gregoryzuckerman.com/","bio":"长期报道金融机构、对冲基金与能源行业，写作聚焦投资人物、市场交易和企业发展。","contentCount":2,"topTags":[{"id":"人生经历","name":"人生经历","count":1},{"id":"价值投资","name":"价值投资","count":1},{"id":"投资决策","name":"投资决策","count":1}]},{"id":"han-lee","name":"Han Lee","email":"","occupation":"机器学习工程师","website":"https://leehanchung.github.io/","bio":"构建大语言模型、搜索与推荐系统，围绕生产环境中的人工智能、模型评估和工程实践写作。","contentCount":2,"topTags":[{"id":"上下文工程","name":"上下文工程","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"jc","name":"JC","email":"","contentCount":2,"topTags":[{"id":"企业战略","name":"企业战略","count":1},{"id":"企业治理","name":"企业治理","count":1},{"id":"企业管理","name":"企业管理","count":1}]},{"id":"jd-vance","name":"JD Vance","email":"","occupation":"美国政治人物","website":"https://www.whitehouse.gov/administration/jd-vance/","bio":"美国副总统，曾任联邦参议员，早年服役于海军陆战队，著有回忆录《乡下人的悲歌》。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"国际关系","name":"国际关系","count":1}]},{"id":"jordana-cepelewicz","name":"Jordana Cepelewicz","email":"","occupation":"科学记者、编辑","website":"https://www.quantamagazine.org/authors/jordana-cepelewicz/","bio":"曾为 Quanta 报道数学与生物学，拥有耶鲁大学数学与比较文学双学位，亦为科学刊物撰稿。","contentCount":2,"topTags":[{"id":"科研生涯","name":"科研生涯","count":2},{"id":"代数几何","name":"代数几何","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1}]},{"id":"katie-parrott","name":"Katie Parrott","email":"","occupation":"科技作者与工具开发者","website":"https://katieparrott.com/","bio":"在 Every 记录人工智能对知识工作的影响，制作写作与编辑工具，并以个人实验介绍实际使用方法。","contentCount":2,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"开发工作流","name":"开发工作流","count":1}]},{"id":"linus-torvalds","name":"Linus Torvalds","email":"","contentCount":2,"topTags":[{"id":"开源","name":"开源","count":2},{"id":"git","name":"Git","count":1},{"id":"linux","name":"Linux","count":1}]},{"id":"melanie-mitchell","name":"Melanie Mitchell","email":"","occupation":"人工智能研究者、作家","website":"https://melaniemitchell.me/","bio":"研究人工智能、认知科学与复杂系统，关注人类和机器的抽象、类比与推理，并撰写科普著作。","contentCount":2,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"抽象推理","name":"抽象推理","count":1}]},{"id":"michael-truell","name":"Michael Truell","email":"","contentCount":2,"topTags":[{"id":"ai编程","name":"AI编程","count":2},{"id":"cursor","name":"Cursor","count":2},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"natalie-wolchover","name":"Natalie Wolchover","email":"","contentCount":2,"topTags":[{"id":"kakeya猜想","name":"Kakeya猜想","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"几何测度论","name":"几何测度论","count":1}]},{"id":"peter-dizikes","name":"Peter Dizikes","email":"","occupation":"新闻记者","bio":"在 MIT News 撰稿，主要报道人文与社会科学，撰写研究新闻、校园人物和学术活动报道。","contentCount":2,"topTags":[{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":"","occupation":"体育记者","website":"https://espnpressroom.com/bio/ramona-shelburne/","bio":"为 ESPN 报道 NBA 新闻，参与电视与广播节目，并获职业篮球记者协会的专栏写作和突发新闻奖。","contentCount":2,"topTags":[{"id":"体育训练","name":"体育训练","count":2},{"id":"身心健康","name":"身心健康","count":2},{"id":"nba","name":"NBA","count":1}]},{"id":"steven-pinker","name":"Steven Pinker","email":"","contentCount":2,"topTags":[{"id":"写作","name":"写作","count":2},{"id":"认知科学","name":"认知科学","count":2},{"id":"科学传播","name":"科学传播","count":1}]},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":"","occupation":"投资者与企业家","bio":"长期领导伯克希尔·哈撒韦，撰写年度股东信，阐述投资决策、资本配置与企业经营原则。","contentCount":2,"topTags":[{"id":"价值投资","name":"价值投资","count":2},{"id":"企业管理","name":"企业管理","count":2},{"id":"资本配置","name":"资本配置","count":2}]},{"id":"aaron-a-sandel","name":"Aaron A. Sandel","email":"","contentCount":1,"topTags":[{"id":"动物行为","name":"动物行为","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"群体冲突","name":"群体冲突","count":1}]},{"id":"abby-wambach","name":"Abby Wambach","email":"","contentCount":1,"topTags":[{"id":"体育心理","name":"体育心理","count":1},{"id":"职业发展","name":"职业发展","count":1},{"id":"足球","name":"足球","count":1}]},{"id":"abhi-abh1a0","name":"Abhi@abh1a0","email":"","contentCount":1,"topTags":[{"id":"信息检索","name":"信息检索","count":1},{"id":"搜索系统","name":"搜索系统","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"adam-brown","name":"Adam Brown","email":"","contentCount":1,"topTags":[{"id":"广义相对论","name":"广义相对论","count":1},{"id":"科学发现","name":"科学发现","count":1},{"id":"黑洞","name":"黑洞","count":1}]},{"id":"adam-mcneilly","name":"Adam McNeilly","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"addy-osmani","name":"Addy Osmani","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"adrian-sanborn","name":"Adrian Sanborn","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"ahmad-osman","name":"Ahmad Osman","email":"","contentCount":1,"topTags":[{"id":"数据自主权","name":"数据自主权","count":1},{"id":"本地模型","name":"本地模型","count":1},{"id":"算力","name":"算力","count":1}]},{"id":"ajeya-cotra","name":"Ajeya Cotra","email":"","contentCount":1,"topTags":[{"id":"多智能体","name":"多智能体","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"akshat-bubna","name":"Akshat Bubna","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"云计算","name":"云计算","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"akshay-nathan","name":"Akshay Nathan","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"codex","name":"Codex","count":1}]},{"id":"alain-de-botton","name":"Alain de Botton","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"哲学","name":"哲学","count":1},{"id":"心理学","name":"心理学","count":1}]},{"id":"alex-atallah","name":"Alex Atallah","email":"","contentCount":1,"topTags":[{"id":"创业","name":"创业","count":1},{"id":"平台经济","name":"平台经济","count":1},{"id":"模型路由","name":"模型路由","count":1}]},{"id":"alex-imas","name":"Alex Imas","email":"","contentCount":1,"topTags":[{"id":"劳动市场","name":"劳动市场","count":1},{"id":"经济增长","name":"经济增长","count":1},{"id":"资源稀缺","name":"资源稀缺","count":1}]},{"id":"alex-paino","name":"Alex Paino","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"alex-zhang","name":"Alex Zhang","email":"","contentCount":1,"topTags":[{"id":"gpu内核","name":"GPU内核","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"alex-erik-barry-anthropic","name":"Alex, Erik, Barry (Anthropic)","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"ali-taha","name":"Ali Taha","email":"","contentCount":1,"topTags":[{"id":"性能优化","name":"性能优化","count":1},{"id":"推理优化","name":"推理优化","count":1},{"id":"模型服务","name":"模型服务","count":1}]},{"id":"allyn-jackson","name":"Allyn Jackson","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"amin-tootoonchian","name":"Amin Tootoonchian","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"anastasis-germanidis","name":"Anastasis Germanidis","email":"","contentCount":1,"topTags":[{"id":"世界模型","name":"世界模型","count":1},{"id":"实时系统","name":"实时系统","count":1},{"id":"视频生成","name":"视频生成","count":1}]},{"id":"andrew-qu","name":"Andrew Qu","email":"","contentCount":1,"topTags":[{"id":"web开发","name":"Web开发","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"沙箱安全","name":"沙箱安全","count":1}]},{"id":"andrew-wiles","name":"Andrew Wiles","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1}]},{"id":"andrey-mir","name":"Andrey Mir","email":"","contentCount":1,"topTags":[{"id":"媒介生态","name":"媒介生态","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"身份认同","name":"身份认同","count":1}]},{"id":"anish-acharya","name":"Anish Acharya","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创作","name":"创作","count":1},{"id":"媒介","name":"媒介","count":1}]},{"id":"anna-bawden","name":"Anna Bawden","email":"","contentCount":1,"topTags":[{"id":"神经科学","name":"神经科学","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"语言学习","name":"语言学习","count":1}]},{"id":"anne-lamott","name":"Anne Lamott","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"anne-trafton","name":"Anne Trafton","email":"","contentCount":1,"topTags":[{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1}]},{"id":"ari-weinstein","name":"Ari Weinstein","email":"","contentCount":1,"topTags":[{"id":"产品开发","name":"产品开发","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"计算机使用智能体","name":"计算机使用智能体","count":1}]},{"id":"ariana-gaines","name":"Ariana Gaines","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"auriel-wright","name":"Auriel Wright","email":"","contentCount":1,"topTags":[{"id":"奖励投机","name":"奖励投机","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"austin-tedesco","name":"Austin Tedesco","email":"","contentCount":1,"topTags":[{"id":"codex","name":"Codex","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"知识工作","name":"知识工作","count":1}]},{"id":"axel-backlund","name":"Axel Backlund","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"ben-landau-taylor","name":"Ben Landau-Taylor","email":"","contentCount":1,"topTags":[{"id":"人际关系","name":"人际关系","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社群组织","name":"社群组织","count":1}]},{"id":"beren-millidge","name":"Beren Millidge","email":"","contentCount":1,"topTags":[{"id":"模型评估","name":"模型评估","count":1},{"id":"科研自动化","name":"科研自动化","count":1},{"id":"递归自我改进","name":"递归自我改进","count":1}]},{"id":"bilal-tahir","name":"Bilal Tahir","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"政治经济","name":"政治经济","count":1}]},{"id":"bjarne-stroustrup","name":"Bjarne Stroustrup","email":"","contentCount":1,"topTags":[{"id":"c","name":"C++","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"计算机史","name":"计算机史","count":1}]},{"id":"bj-rn-ian-dundas","name":"Bjørn Ian Dundas","email":"","occupation":"数学家","website":"https://www4.uib.no/finn-ansatte/bjorn-ian.dundas","bio":"卑尔根大学数学教授，研究代数 K 理论与同伦论，并参与阿贝尔奖得主访谈。","contentCount":1,"topTags":[{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"bob-nystrom","name":"Bob Nystrom","email":"","contentCount":1,"topTags":[{"id":"异步编程","name":"异步编程","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"bradford-morgan-white","name":"Bradford Morgan White","email":"","contentCount":1,"topTags":[{"id":"企业管理","name":"企业管理","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"科技史","name":"科技史","count":1}]},{"id":"brandon-vigliarolo","name":"Brandon Vigliarolo","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"社交媒体","name":"社交媒体","count":1}]},{"id":"bret-taylor","name":"Bret Taylor","email":"","contentCount":1,"topTags":[{"id":"创业","name":"创业","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"carson-gross","name":"Carson Gross","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"复杂度","name":"复杂度","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"casey-newton","name":"Casey Newton","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"cat-wu","name":"Cat Wu","email":"","contentCount":1,"topTags":[{"id":"claude-code","name":"Claude Code","count":1},{"id":"产品管理","name":"产品管理","count":1},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"c-dric-villani","name":"Cédric Villani","email":"","contentCount":1,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"深度学习","name":"深度学习","count":1}]},{"id":"cendyne","name":"Cendyne","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"charlie-o-neill","name":"Charlie O’Neill","email":"","contentCount":1,"topTags":[{"id":"模型评估","name":"模型评估","count":1},{"id":"科研自动化","name":"科研自动化","count":1},{"id":"递归自我改进","name":"递归自我改进","count":1}]},{"id":"chris-bishop","name":"Chris Bishop","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"深度学习","name":"深度学习","count":1},{"id":"科学计算","name":"科学计算","count":1}]},{"id":"chris-dixon","name":"Chris Dixon","email":"","contentCount":1,"topTags":[{"id":"加密资产","name":"加密资产","count":1},{"id":"科技政策","name":"科技政策","count":1},{"id":"稳定币","name":"稳定币","count":1}]},{"id":"chris-stokel-walker","name":"Chris Stokel-Walker","email":"","contentCount":1,"topTags":[{"id":"可复现研究","name":"可复现研究","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"claire-giangrav","name":"Claire Giangravè","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"社会正义","name":"社会正义","count":1}]},{"id":"clive-thompson","name":"Clive Thompson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"connor-jones","name":"Connor Jones","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"cyrus","name":"Cyrus","email":"","contentCount":1,"topTags":[{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"编程教学","name":"编程教学","count":1}]},{"id":"dan-koe","name":"Dan Koe","email":"","contentCount":1,"topTags":[{"id":"个人品牌","name":"个人品牌","count":1},{"id":"创业","name":"创业","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"dan-mcateer","name":"Dan McAteer","email":"","contentCount":1,"topTags":[{"id":"工具调用","name":"工具调用","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"dan-pupius","name":"Dan Pupius","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"创业","name":"创业","count":1},{"id":"平台经济","name":"平台经济","count":1}]},{"id":"daniel-grant","name":"Daniel Grant","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"daniel-selsam","name":"Daniel Selsam","email":"","contentCount":1,"topTags":[{"id":"样本效率","name":"样本效率","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"darrin-joy","name":"Darrin Joy","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"创造力","name":"创造力","count":1},{"id":"大语言模型","name":"大语言模型","count":1}]},{"id":"david-chapman","name":"David Chapman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"博士培养","name":"博士培养","count":1},{"id":"学术写作","name":"学术写作","count":1}]},{"id":"david-george","name":"David George","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"经济增长","name":"经济增长","count":1}]},{"id":"david-kelly","name":"David Kelly","email":"","contentCount":1,"topTags":[{"id":"代谢健康","name":"代谢健康","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"运动健康","name":"运动健康","count":1}]},{"id":"david-ondrej","name":"David Ondrej","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"david-pogue","name":"David Pogue","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"企业管理","name":"企业管理","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"davide-castelvecchi","name":"Davide Castelvecchi","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"数论","name":"数论","count":1},{"id":"流体力学","name":"流体力学","count":1}]},{"id":"dennis-sullivan","name":"Dennis Sullivan","email":"","contentCount":1,"topTags":[{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"dimitris-koukoulopoulos","name":"Dimitris Koukoulopoulos","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"diogo-almeida","name":"Diogo Almeida","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"开发工具","name":"开发工具","count":1}]},{"id":"edsger-w-dijkstra","name":"Edsger W. Dijkstra","email":"","contentCount":1,"topTags":[{"id":"程序正确性","name":"程序正确性","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"自然语言","name":"自然语言","count":1}]},{"id":"eiso-kant","name":"Eiso Kant","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"ai编程","name":"AI编程","count":1},{"id":"开放模型","name":"开放模型","count":1}]},{"id":"emily-glassberg-sands","name":"Emily Glassberg Sands","email":"","contentCount":1,"topTags":[{"id":"企业数据","name":"企业数据","count":1},{"id":"开发基础设施","name":"开发基础设施","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"eric-blair","name":"Eric Blair","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"文学","name":"文学","count":1}]},{"id":"eric-ries","name":"Eric Ries","email":"","contentCount":1,"topTags":[{"id":"企业治理","name":"企业治理","count":1},{"id":"创业","name":"创业","count":1},{"id":"组织信任","name":"组织信任","count":1}]},{"id":"eric-zakariasson","name":"Eric Zakariasson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"工具调用","name":"工具调用","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"ethan-he","name":"Ethan He","email":"","contentCount":1,"topTags":[{"id":"世界模型","name":"世界模型","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"机器人","name":"机器人","count":1}]},{"id":"evan-schuman","name":"Evan Schuman","email":"","contentCount":1,"topTags":[{"id":"供应链","name":"供应链","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"科技政策","name":"科技政策","count":1}]},{"id":"evan-spiegel","name":"Evan Spiegel","email":"","contentCount":1,"topTags":[{"id":"企业战略","name":"企业战略","count":1},{"id":"消费者产品","name":"消费者产品","count":1},{"id":"社交媒体","name":"社交媒体","count":1}]},{"id":"fernando-borretti","name":"Fernando Borretti","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"学习动机","name":"学习动机","count":1},{"id":"知识社群","name":"知识社群","count":1}]},{"id":"g-h-哈代","name":"G. H. 哈代","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"garanglow","name":"garanglow","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"数学反例","name":"数学反例","count":1}]},{"id":"gary-marcus","name":"Gary Marcus","email":"","occupation":"人工智能研究者与作者","website":"https://mitpress.mit.edu/author/gary-f-marcus-4510/","bio":"纽约大学荣休教授，曾创办机器学习公司，著有《Rebooting AI》等书，讨论人工智能的能力与风险。","contentCount":1,"topTags":[{"id":"ai治理","name":"AI治理","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"george-m-whitesides","name":"George M. Whitesides","email":"","contentCount":1,"topTags":[{"id":"学术写作","name":"学术写作","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"科学传播","name":"科学传播","count":1}]},{"id":"george-saunders","name":"George Saunders","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1}]},{"id":"gerd-faltings","name":"Gerd Faltings","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"算术几何","name":"算术几何","count":1},{"id":"莫德尔猜想","name":"莫德尔猜想","count":1}]},{"id":"gilbert-strang","name":"Gilbert Strang","email":"","contentCount":1,"topTags":[{"id":"julia","name":"Julia","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"数据科学","name":"数据科学","count":1}]},{"id":"gilles-castel","name":"Gilles Castel","email":"","contentCount":1,"topTags":[{"id":"latex","name":"LaTeX","count":1},{"id":"vim","name":"Vim","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"gio-ahern","name":"Gio Ahern","email":"","contentCount":1,"topTags":[{"id":"企业软件","name":"企业软件","count":1},{"id":"数据管理","name":"数据管理","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"guillaume-chillet","name":"Guillaume Chillet","email":"","contentCount":1,"topTags":[{"id":"信息操纵","name":"信息操纵","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"认知科学","name":"认知科学","count":1}]},{"id":"harrison-chase","name":"Harrison Chase","email":"","contentCount":1,"topTags":[{"id":"持续学习","name":"持续学习","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"长期记忆","name":"长期记忆","count":1}]},{"id":"harry-goldstein","name":"Harry Goldstein","email":"","contentCount":1,"topTags":[{"id":"投资","name":"投资","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数据中心","name":"数据中心","count":1}]},{"id":"harry-schwarz","name":"Harry Schwarz","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"任务管理","name":"任务管理","count":1}]},{"id":"hilary-gridley","name":"Hilary Gridley","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"原型设计","name":"原型设计","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"holly-herndon","name":"Holly Herndon","email":"","contentCount":1,"topTags":[{"id":"ai艺术","name":"AI艺术","count":1},{"id":"文化","name":"文化","count":1},{"id":"集体创作","name":"集体创作","count":1}]},{"id":"hunter-harris","name":"Hunter Harris","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"读者社群","name":"读者社群","count":1}]},{"id":"ilaria-parogni","name":"Ilaria Parogni","email":"","contentCount":1,"topTags":[{"id":"博物馆","name":"博物馆","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"艺术史","name":"艺术史","count":1}]},{"id":"ingrid-wickelgren","name":"Ingrid Wickelgren","email":"","contentCount":1,"topTags":[{"id":"情绪调节","name":"情绪调节","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"神经科学","name":"神经科学","count":1}]},{"id":"iqiipi","name":"iqiipi","email":"","contentCount":1,"topTags":[{"id":"ada","name":"Ada","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"ivan-zhao","name":"Ivan Zhao","email":"","contentCount":1,"topTags":[{"id":"notion","name":"Notion","count":1},{"id":"产品设计","name":"产品设计","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"j-k-trotter","name":"J.K. Trotter","email":"","contentCount":1,"topTags":[{"id":"交通安全","name":"交通安全","count":1},{"id":"公共问责","name":"公共问责","count":1},{"id":"执法监督","name":"执法监督","count":1}]},{"id":"ja-westenberg","name":"JA Westenberg","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"创业","name":"创业","count":1},{"id":"劳动观念","name":"劳动观念","count":1}]},{"id":"jacek-krywko","name":"Jacek Krywko","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"火星探索","name":"火星探索","count":1}]},{"id":"jack-murtagh","name":"Jack Murtagh","email":"","contentCount":1,"topTags":[{"id":"整数乘法","name":"整数乘法","count":1},{"id":"算法","name":"算法","count":1},{"id":"计算复杂性","name":"计算复杂性","count":1}]},{"id":"jacob-sujin-kuppermann","name":"jacob sujin kuppermann","email":"","contentCount":1,"topTags":[{"id":"理性决策","name":"理性决策","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"jake-angelo","name":"Jake Angelo","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"投资回报","name":"投资回报","count":1}]},{"id":"jake-orlowitz","name":"Jake Orlowitz","email":"","contentCount":1,"topTags":[{"id":"公共知识","name":"公共知识","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"社区治理","name":"社区治理","count":1}]},{"id":"james-bennett","name":"James Bennett","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"大语言模型","name":"大语言模型","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"james-clear","name":"James Clear","email":"","contentCount":1,"topTags":[{"id":"习惯养成","name":"习惯养成","count":1},{"id":"自我管理","name":"自我管理","count":1},{"id":"行为设计","name":"行为设计","count":1}]},{"id":"james-somers","name":"James Somers","email":"","contentCount":1,"topTags":[{"id":"分布式系统","name":"分布式系统","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"谷歌","name":"谷歌","count":1}]},{"id":"jamie-dimon","name":"Jamie Dimon","email":"","contentCount":1,"topTags":[{"id":"中美关系","name":"中美关系","count":1},{"id":"关税政策","name":"关税政策","count":1},{"id":"国际贸易","name":"国际贸易","count":1}]},{"id":"janna-levin","name":"Janna Levin","email":"","contentCount":1,"topTags":[{"id":"外星生命","name":"外星生命","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"系外行星","name":"系外行星","count":1}]},{"id":"jared-henderson","name":"Jared Henderson","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"自我反思","name":"自我反思","count":1}]},{"id":"jasper-jolly","name":"Jasper Jolly","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"jay-dixit","name":"Jay Dixit","email":"","contentCount":1,"topTags":[{"id":"emacs","name":"Emacs","count":1},{"id":"org-mode","name":"Org Mode","count":1},{"id":"写作","name":"写作","count":1}]},{"id":"jean-pierre-serre","name":"Jean-Pierre Serre","email":"","contentCount":1,"topTags":[{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"数学证明","name":"数学证明","count":1},{"id":"数论","name":"数论","count":1}]},{"id":"jeff-dean","name":"Jeff Dean","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"gemini","name":"Gemini","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1}]},{"id":"jeff-stein","name":"Jeff Stein","email":"","contentCount":1,"topTags":[{"id":"新闻自由","name":"新闻自由","count":1},{"id":"独立媒体","name":"独立媒体","count":1},{"id":"诽谤诉讼","name":"诽谤诉讼","count":1}]},{"id":"jennifer-elias","name":"Jennifer Elias","email":"","contentCount":1,"topTags":[{"id":"搜索系统","name":"搜索系统","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"足球","name":"足球","count":1}]},{"id":"jer-lifeof-jer","name":"JER (@lifeof_jer)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"数据库安全","name":"数据库安全","count":1}]},{"id":"jeremy-hsu","name":"Jeremy Hsu","email":"","contentCount":1,"topTags":[{"id":"医疗技术","name":"医疗技术","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"jerry-han","name":"Jerry Han","email":"","contentCount":1,"topTags":[{"id":"计算规模","name":"计算规模","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"预训练","name":"预训练","count":1}]},{"id":"jim-simons","name":"Jim Simons","email":"","contentCount":1,"topTags":[{"id":"公益慈善","name":"公益慈善","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"量化投资","name":"量化投资","count":1}]},{"id":"joe-schmidt-iv","name":"Joe Schmidt IV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业软件","name":"企业软件","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"joel-khalili","name":"Joel Khalili","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"金融分析","name":"金融分析","count":1}]},{"id":"john-berger","name":"John Berger","email":"","contentCount":1,"topTags":[{"id":"图像传播","name":"图像传播","count":1},{"id":"文化权力","name":"文化权力","count":1},{"id":"视觉文化","name":"视觉文化","count":1}]},{"id":"john-milnor","name":"John Milnor","email":"","contentCount":1,"topTags":[{"id":"代数k理论","name":"代数K理论","count":1},{"id":"动力系统","name":"动力系统","count":1},{"id":"拓扑学","name":"拓扑学","count":1}]},{"id":"john-nash","name":"John Nash","email":"","contentCount":1,"topTags":[{"id":"几何","name":"几何","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"john-paul-brammer","name":"John Paul Brammer","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"john-schulman","name":"John Schulman","email":"","contentCount":1,"topTags":[{"id":"模型评估","name":"模型评估","count":1},{"id":"科研自动化","name":"科研自动化","count":1},{"id":"递归自我改进","name":"递归自我改进","count":1}]},{"id":"jon-brodkin","name":"Jon Brodkin","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动权益","name":"劳动权益","count":1},{"id":"算法歧视","name":"算法歧视","count":1}]},{"id":"jon-yaged","name":"Jon Yaged","email":"","contentCount":1,"topTags":[{"id":"作者收入","name":"作者收入","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"版权","name":"版权","count":1}]},{"id":"joon-sung-park","name":"Joon Sung Park","email":"","contentCount":1,"topTags":[{"id":"数字孪生","name":"数字孪生","count":1},{"id":"生成式智能体","name":"生成式智能体","count":1},{"id":"社会模拟","name":"社会模拟","count":1}]},{"id":"jordan-b-peterson","name":"Jordan B. Peterson","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"joseph-howlett","name":"Joseph Howlett","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"数学","name":"数学","count":1}]},{"id":"julie-foudy","name":"Julie Foudy","email":"","contentCount":1,"topTags":[{"id":"体育心理","name":"体育心理","count":1},{"id":"职业发展","name":"职业发展","count":1},{"id":"足球","name":"足球","count":1}]},{"id":"jumploops","name":"jumploops","email":"","contentCount":1,"topTags":[{"id":"品牌管理","name":"品牌管理","count":1},{"id":"工业设计","name":"工业设计","count":1},{"id":"电动汽车","name":"电动汽车","count":1}]},{"id":"kat-boboris","name":"Kat Boboris","email":"","contentCount":1,"topTags":[{"id":"arxiv","name":"arXiv","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"非营利组织","name":"非营利组织","count":1}]},{"id":"kate-lindsay","name":"Kate Lindsay","email":"","contentCount":1,"topTags":[{"id":"付费内容","name":"付费内容","count":1},{"id":"独立媒体","name":"独立媒体","count":1},{"id":"网络文化","name":"网络文化","count":1}]},{"id":"kathleen-schmidt","name":"Kathleen Schmidt","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"ken-ono","name":"Ken Ono","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"好奇心","name":"好奇心","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"kenneth-chang","name":"Kenneth Chang","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科研伦理","name":"科研伦理","count":1},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":1}]},{"id":"kevin-hartnett","name":"Kevin Hartnett","email":"","contentCount":1,"topTags":[{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"类型论","name":"类型论","count":1}]},{"id":"kevin-kelly","name":"Kevin Kelly","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"内容创作","name":"内容创作","count":1},{"id":"未来预测","name":"未来预测","count":1}]},{"id":"kevin-roose","name":"Kevin Roose","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"kieran-klaassen","name":"Kieran Klaassen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"kunihiko-kodaira","name":"Kunihiko Kodaira","email":"","contentCount":1,"topTags":[{"id":"数学研究","name":"数学研究","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1}]},{"id":"ky","name":"Ky","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科技行业","name":"科技行业","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"kyle-kingsbury","name":"Kyle Kingsbury","email":"","contentCount":1,"topTags":[{"id":"信息生态","name":"信息生态","count":1},{"id":"心理健康","name":"心理健康","count":1},{"id":"机器学习","name":"机器学习","count":1}]},{"id":"lachlan-cartwright","name":"Lachlan Cartwright","email":"","contentCount":1,"topTags":[{"id":"媒体权力","name":"媒体权力","count":1},{"id":"新闻业","name":"新闻业","count":1},{"id":"独立媒体","name":"独立媒体","count":1}]},{"id":"lee-boonstra","name":"Lee Boonstra","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"提示工程","name":"提示工程","count":1}]},{"id":"lee-child","name":"Lee Child","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"类型小说","name":"类型小说","count":1}]},{"id":"lee-robinson","name":"Lee Robinson","email":"","contentCount":1,"topTags":[{"id":"上下文工程","name":"上下文工程","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"智能体安全","name":"智能体安全","count":1}]},{"id":"leerob","name":"leerob","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"cursor","name":"Cursor","count":1},{"id":"上下文工程","name":"上下文工程","count":1}]},{"id":"leiden-declaration","name":"Leiden Declaration","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"开放科学","name":"开放科学","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"leila-sloman","name":"Leila Sloman","email":"","contentCount":1,"topTags":[{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"高维几何","name":"高维几何","count":1}]},{"id":"leo-pp-xiv","name":"LEO PP. XIV","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"宗教","name":"宗教","count":1}]},{"id":"leslie-lamport","name":"Leslie Lamport","email":"","contentCount":1,"topTags":[{"id":"paxos","name":"Paxos","count":1},{"id":"raft","name":"Raft","count":1},{"id":"写作","name":"写作","count":1}]},{"id":"li-lu","name":"Li Lu","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"价值投资","name":"价值投资","count":1},{"id":"全球经济","name":"全球经济","count":1}]},{"id":"lilian-weng","name":"Lilian Weng","email":"","contentCount":1,"topTags":[{"id":"大语言模型","name":"大语言模型","count":1},{"id":"强化学习","name":"强化学习","count":1},{"id":"思维链","name":"思维链","count":1}]},{"id":"lincoln-michel","name":"Lincoln Michel","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"出版业","name":"出版业","count":1},{"id":"学术诚信","name":"学术诚信","count":1}]},{"id":"lionel-martellini","name":"Lionel Martellini","email":"","contentCount":1,"topTags":[{"id":"量子计算","name":"量子计算","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"风险管理","name":"风险管理","count":1}]},{"id":"logan-kugler","name":"Logan Kugler","email":"","contentCount":1,"topTags":[{"id":"容错计算","name":"容错计算","count":1},{"id":"航天工程","name":"航天工程","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"louis-anslow","name":"Louis Anslow","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"四色定理","name":"四色定理","count":1},{"id":"形式化证明","name":"形式化证明","count":1}]},{"id":"lucas-gu","name":"Lucas Gu","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"luciano-nooijen","name":"Luciano Nooijen","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码编辑器","name":"代码编辑器","count":1},{"id":"技能退化","name":"技能退化","count":1}]},{"id":"lukas-petersson","name":"Lukas Petersson","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"软件可靠性","name":"软件可靠性","count":1}]},{"id":"maggie-dong","name":"Maggie Dong","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"malcolm-spittler","name":"Malcolm Spittler","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"marc-andreessen","name":"Marc Andreessen","email":"","contentCount":1,"topTags":[{"id":"加密资产","name":"加密资产","count":1},{"id":"科技政策","name":"科技政策","count":1},{"id":"稳定币","name":"稳定币","count":1}]},{"id":"marc-rowan","name":"Marc Rowan","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"信贷","name":"信贷","count":1},{"id":"私募股权","name":"私募股权","count":1}]},{"id":"marcus-moretti","name":"Marcus Moretti","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"mark-zuckerberg","name":"Mark Zuckerberg","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"marques-brownlee","name":"Marques Brownlee","email":"","contentCount":1,"topTags":[{"id":"产品营销","name":"产品营销","count":1},{"id":"汽车工程","name":"汽车工程","count":1},{"id":"特斯拉","name":"特斯拉","count":1}]},{"id":"martin-alderson","name":"Martin Alderson","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"算力","name":"算力","count":1},{"id":"能源","name":"能源","count":1}]},{"id":"martin-raussen","name":"Martin Raussen","email":"","occupation":"数学家","website":"https://vbn.aau.dk/en/persons/martin-raussen-2/","bio":"研究几何、代数拓扑与变换群，探索拓扑方法在并发计算中的应用，并参与数学家访谈。","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"masaki-kashiwara","name":"Masaki Kashiwara","email":"","contentCount":1,"topTags":[{"id":"d模","name":"D模","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"mat-dryhurst","name":"Mat Dryhurst","email":"","contentCount":1,"topTags":[{"id":"ai艺术","name":"AI艺术","count":1},{"id":"文化","name":"文化","count":1},{"id":"集体创作","name":"集体创作","count":1}]},{"id":"matei-zaharia","name":"Matei Zaharia","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放模型","name":"开放模型","count":1},{"id":"数据平台","name":"数据平台","count":1}]},{"id":"matt-fredrikson","name":"Matt Fredrikson","email":"","contentCount":1,"topTags":[{"id":"ai安全","name":"AI安全","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"红队测试","name":"红队测试","count":1}]},{"id":"matt-pocock","name":"Matt Pocock","email":"","contentCount":1,"topTags":[{"id":"原型设计","name":"原型设计","count":1},{"id":"多智能体","name":"多智能体","count":1},{"id":"项目规划","name":"项目规划","count":1}]},{"id":"max-schoening","name":"Max Schoening","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"产品管理","name":"产品管理","count":1},{"id":"产品设计","name":"产品设计","count":1}]},{"id":"maya-bar-hillel","name":"Maya Bar-Hillel","email":"","contentCount":1,"topTags":[{"id":"心理学","name":"心理学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"认知偏差","name":"认知偏差","count":1}]},{"id":"michael-douglas","name":"Michael Douglas","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"michael-nielsen","name":"Michael Nielsen","email":"","contentCount":1,"topTags":[{"id":"科学发现","name":"科学发现","count":1},{"id":"科研组织","name":"科研组织","count":1},{"id":"科研资助","name":"科研资助","count":1}]},{"id":"michelle-rial","name":"Michelle Rial","email":"","contentCount":1,"topTags":[{"id":"内容创作","name":"内容创作","count":1},{"id":"播客经营","name":"播客经营","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"michelle-starr","name":"Michelle Starr","email":"","contentCount":1,"topTags":[{"id":"x射线成像","name":"X射线成像","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"migoroedu","name":"MigOroEdu","email":"","contentCount":1,"topTags":[{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"组合数学","name":"组合数学","count":1}]},{"id":"mike-perham","name":"Mike Perham","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"指令遵循","name":"指令遵循","count":1}]},{"id":"mike-prada","name":"Mike Prada","email":"","contentCount":1,"topTags":[{"id":"nba","name":"NBA","count":1},{"id":"体育心理","name":"体育心理","count":1},{"id":"团队管理","name":"团队管理","count":1}]},{"id":"mike-stonebraker","name":"Mike Stonebraker","email":"","contentCount":1,"topTags":[{"id":"postgresql","name":"PostgreSQL","count":1},{"id":"分布式系统","name":"分布式系统","count":1},{"id":"大语言模型","name":"大语言模型","count":1}]},{"id":"mike-taylor","name":"Mike Taylor","email":"","contentCount":1,"topTags":[{"id":"开发工作流","name":"开发工作流","count":1},{"id":"成本优化","name":"成本优化","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"moritz-hardt","name":"Moritz Hardt","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"基准测试","name":"基准测试","count":1},{"id":"机器学习","name":"机器学习","count":1}]},{"id":"nat-eliason","name":"Nat Eliason","email":"","contentCount":1,"topTags":[{"id":"创作","name":"创作","count":1},{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"natalie-meurer","name":"Natalie Meurer","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"职业发展","name":"职业发展","count":1},{"id":"软件工程","name":"软件工程","count":1}]},{"id":"nathan-parde","name":"Nathan Parde","email":"","contentCount":1,"topTags":[{"id":"深空通信","name":"深空通信","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"航天工程","name":"航天工程","count":1}]},{"id":"naval-ravikant","name":"Naval Ravikant","email":"","contentCount":1,"topTags":[{"id":"人生哲学","name":"人生哲学","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"幸福","name":"幸福","count":1}]},{"id":"neil-j-rubenking","name":"Neil J. Rubenking","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"nick-mcgreivy","name":"Nick McGreivy","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"可复现研究","name":"可复现研究","count":1}]},{"id":"nikhyl-singhal","name":"Nikhyl Singhal","email":"","contentCount":1,"topTags":[{"id":"产品管理","name":"产品管理","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"职业发展","name":"职业发展","count":1}]},{"id":"nir-eyal","name":"Nir Eyal","email":"","contentCount":1,"topTags":[{"id":"心理健康","name":"心理健康","count":1},{"id":"注意力","name":"注意力","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"noam-brown","name":"Noam Brown","email":"","contentCount":1,"topTags":[{"id":"ai对齐","name":"AI对齐","count":1},{"id":"多智能体","name":"多智能体","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"nolan-lawson","name":"Nolan Lawson","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"代码审查","name":"代码审查","count":1},{"id":"软件质量","name":"软件质量","count":1}]},{"id":"oussama-khatib","name":"Oussama Khatib","email":"","contentCount":1,"topTags":[{"id":"人机协作","name":"人机协作","count":1},{"id":"机器人","name":"机器人","count":1},{"id":"远程操控","name":"远程操控","count":1}]},{"id":"owen-williams","name":"Owen Williams","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"原型设计","name":"原型设计","count":1}]},{"id":"p-w-anderson","name":"P. W. Anderson","email":"","contentCount":1,"topTags":[{"id":"凝聚态物理","name":"凝聚态物理","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"涌现","name":"涌现","count":1}]},{"id":"paul-graham","name":"Paul Graham","email":"","contentCount":1,"topTags":[{"id":"创造力","name":"创造力","count":1},{"id":"审美","name":"审美","count":1},{"id":"设计","name":"设计","count":1}]},{"id":"pauline-brunet","name":"Pauline Brunet","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"企业软件","name":"企业软件","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"peggy-yin","name":"Peggy Yin","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"好奇心","name":"好奇心","count":1},{"id":"数学教育","name":"数学教育","count":1}]},{"id":"pere-villega","name":"Pere Villega","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"软件工程","name":"软件工程","count":1},{"id":"软件经济","name":"软件经济","count":1}]},{"id":"peter-thiel","name":"Peter Thiel","email":"","contentCount":1,"topTags":[{"id":"宗教","name":"宗教","count":1},{"id":"文化","name":"文化","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"peter-yang","name":"Peter Yang","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"codex","name":"Codex","count":1},{"id":"产品开发","name":"产品开发","count":1}]},{"id":"phil-trammell","name":"Phil Trammell","email":"","contentCount":1,"topTags":[{"id":"劳动市场","name":"劳动市场","count":1},{"id":"经济增长","name":"经济增长","count":1},{"id":"资源稀缺","name":"资源稀缺","count":1}]},{"id":"philip-ball","name":"Philip Ball","email":"","contentCount":1,"topTags":[{"id":"生命科学","name":"生命科学","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"科学哲学","name":"科学哲学","count":1}]},{"id":"philip-kiely","name":"Philip Kiely","email":"","contentCount":1,"topTags":[{"id":"性能优化","name":"性能优化","count":1},{"id":"推理优化","name":"推理优化","count":1},{"id":"模型服务","name":"模型服务","count":1}]},{"id":"philippe-tibi","name":"Philippe Tibi","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"piotr-sarnacki","name":"Piotr Sarnacki","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"性能测试","name":"性能测试","count":1},{"id":"系统设计","name":"系统设计","count":1}]},{"id":"r-jimmy","name":"R.Jimmy","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"技能学习","name":"技能学习","count":1}]},{"id":"rahul-kalvapalle","name":"Rahul Kalvapalle","email":"","contentCount":1,"topTags":[{"id":"好奇心","name":"好奇心","count":1},{"id":"科研生涯","name":"科研生涯","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"reece-rogers","name":"Reece Rogers","email":"","contentCount":1,"topTags":[{"id":"即时通信","name":"即时通信","count":1},{"id":"网络安全","name":"网络安全","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"reuben-hersh","name":"Reuben Hersh","email":"","contentCount":1,"topTags":[{"id":"形式主义","name":"形式主义","count":1},{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学实践","name":"数学实践","count":1}]},{"id":"reynold-xin","name":"Reynold Xin","email":"","contentCount":1,"topTags":[{"id":"ai基础设施","name":"AI基础设施","count":1},{"id":"开放模型","name":"开放模型","count":1},{"id":"数据平台","name":"数据平台","count":1}]},{"id":"richard-baraniuk","name":"Richard Baraniuk","email":"","contentCount":1,"topTags":[{"id":"优化算法","name":"优化算法","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"压缩感知","name":"压缩感知","count":1}]},{"id":"richard-conniff","name":"Richard Conniff","email":"","contentCount":1,"topTags":[{"id":"劳工权益","name":"劳工权益","count":1},{"id":"历史","name":"历史","count":1},{"id":"工业革命","name":"工业革命","count":1}]},{"id":"richard-macmanus","name":"Richard MacManus","email":"","occupation":"科技作者与编辑","website":"https://ricmac.org/","bio":"ReadWriteWeb 创办人，长期报道互联网与人工智能，参与 Latent Space 的编辑工作。","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开源","name":"开源","count":1},{"id":"社区治理","name":"社区治理","count":1}]},{"id":"richard-socher","name":"Richard Socher","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"科学发现","name":"科学发现","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"richard-sutton","name":"Richard Sutton","email":"","contentCount":1,"topTags":[{"id":"强化学习","name":"强化学习","count":1},{"id":"机器学习","name":"机器学习","count":1},{"id":"计算规模","name":"计算规模","count":1}]},{"id":"rishi-athavale","name":"Rishi Athavale","email":"","contentCount":1,"topTags":[{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"生物信息学","name":"生物信息学","count":1}]},{"id":"roland-gavrilescu","name":"Roland Gavrilescu","email":"","contentCount":1,"topTags":[{"id":"反馈机制","name":"反馈机制","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"科研自动化","name":"科研自动化","count":1}]},{"id":"rune-kvist","name":"Rune Kvist","email":"","contentCount":1,"topTags":[{"id":"保险","name":"保险","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"法律责任","name":"法律责任","count":1}]},{"id":"russell-kaplan","name":"Russell Kaplan","email":"","contentCount":1,"topTags":[{"id":"devin","name":"Devin","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"生产率","name":"生产率","count":1}]},{"id":"ryan-greenblatt","name":"Ryan Greenblatt","email":"","contentCount":1,"topTags":[{"id":"ai安全","name":"AI安全","count":1},{"id":"科研自动化","name":"科研自动化","count":1},{"id":"递归自我改进","name":"递归自我改进","count":1}]},{"id":"sammy","name":"Sammy","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"开放互联网","name":"开放互联网","count":1},{"id":"网站架构","name":"网站架构","count":1}]},{"id":"sara-hashemi","name":"Sara Hashemi","email":"","contentCount":1,"topTags":[{"id":"低碳技术","name":"低碳技术","count":1},{"id":"材料科学","name":"材料科学","count":1},{"id":"混凝土","name":"混凝土","count":1}]},{"id":"sarah-wang","name":"Sarah Wang","email":"","contentCount":1,"topTags":[{"id":"产品定价","name":"产品定价","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"商业模式","name":"商业模式","count":1}]},{"id":"scott-galloway","name":"Scott Galloway","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人际沟通","name":"人际沟通","count":1},{"id":"劳动市场","name":"劳动市场","count":1}]},{"id":"scott-k-johnson","name":"Scott K. Johnson","email":"","contentCount":1,"topTags":[{"id":"学术诚信","name":"学术诚信","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"高等教育","name":"高等教育","count":1}]},{"id":"sebastian-raschka","name":"Sebastian Raschka","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"shmuel-berman","name":"Shmuel Berman","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"自我管理","name":"自我管理","count":1}]},{"id":"si-sheppard","name":"Si Sheppard","email":"","contentCount":1,"topTags":[{"id":"军事史","name":"军事史","count":1},{"id":"政治制度","name":"政治制度","count":1},{"id":"殖民历史","name":"殖民历史","count":1}]},{"id":"sophie-wu","name":"Sophie Wu","email":"","contentCount":1,"topTags":[{"id":"来源引用","name":"来源引用","count":1},{"id":"知识档案","name":"知识档案","count":1},{"id":"维基百科","name":"维基百科","count":1}]},{"id":"stella-garber","name":"Stella Garber","email":"","contentCount":1,"topTags":[{"id":"产品开发","name":"产品开发","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"用户研究","name":"用户研究","count":1}]},{"id":"steven-levy","name":"Steven Levy","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"企业战略","name":"企业战略","count":1}]},{"id":"steven-vaughan-nichols","name":"Steven Vaughan-Nichols","email":"","contentCount":1,"topTags":[{"id":"git","name":"Git","count":1},{"id":"linux","name":"Linux","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"sundar-pichai","name":"Sundar Pichai","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"算力","name":"算力","count":1},{"id":"谷歌","name":"谷歌","count":1}]},{"id":"susam-pal","name":"Susam Pal","email":"","contentCount":1,"topTags":[{"id":"lisp","name":"Lisp","count":1},{"id":"vim","name":"Vim","count":1},{"id":"开发环境","name":"开发环境","count":1}]},{"id":"tanya-klowden","name":"Tanya Klowden","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"数学研究","name":"数学研究","count":1}]},{"id":"taylor-lorenz","name":"Taylor Lorenz","email":"","contentCount":1,"topTags":[{"id":"ai写作","name":"AI写作","count":1},{"id":"内容创作","name":"内容创作","count":1},{"id":"新闻业","name":"新闻业","count":1}]},{"id":"thariq-shihipar","name":"Thariq Shihipar","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"claude-code","name":"Claude Code","count":1},{"id":"多智能体","name":"多智能体","count":1}]},{"id":"thomas-claburn","name":"Thomas Claburn","email":"","contentCount":1,"topTags":[{"id":"claude-code","name":"Claude Code","count":1},{"id":"模型蒸馏","name":"模型蒸馏","count":1},{"id":"隐私保护","name":"隐私保护","count":1}]},{"id":"timothy-gowers","name":"Timothy Gowers","email":"","contentCount":1,"topTags":[{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"加性数论","name":"加性数论","count":1}]},{"id":"tom-yc-合伙人","name":"Tom (YC 合伙人)","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"开发工作流","name":"开发工作流","count":1},{"id":"版本控制","name":"版本控制","count":1}]},{"id":"tristan-buckmaster","name":"Tristan Buckmaster","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"科研伦理","name":"科研伦理","count":1}]},{"id":"vadim-drobinin","name":"Vadim Drobinin","email":"","contentCount":1,"topTags":[{"id":"ios","name":"iOS","count":1},{"id":"体育","name":"体育","count":1},{"id":"用户体验","name":"用户体验","count":1}]},{"id":"varun-mohan","name":"Varun Mohan","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"windsurf","name":"Windsurf","count":1},{"id":"创业","name":"创业","count":1}]},{"id":"walden-walden-yan","name":"Walden (@walden_yan)","email":"","contentCount":1,"topTags":[{"id":"多智能体","name":"多智能体","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"软件架构","name":"软件架构","count":1}]},{"id":"william-p-thurston","name":"William P. Thurston","email":"","contentCount":1,"topTags":[{"id":"数学哲学","name":"数学哲学","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"数学证明","name":"数学证明","count":1}]},{"id":"wright-thompson","name":"Wright Thompson","email":"","contentCount":1,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"创作","name":"创作","count":1},{"id":"叙事技巧","name":"叙事技巧","count":1}]},{"id":"xinran-ma","name":"Xinran Ma","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"web开发","name":"Web开发","count":1},{"id":"前端开发","name":"前端开发","count":1}]},{"id":"yann-lecun","name":"Yann LeCun","email":"","contentCount":1,"topTags":[{"id":"jepa","name":"JEPA","count":1},{"id":"世界模型","name":"世界模型","count":1},{"id":"开源","name":"开源","count":1}]},{"id":"yoko-li","name":"Yoko Li","email":"","contentCount":1,"topTags":[{"id":"反馈机制","name":"反馈机制","count":1},{"id":"智能体","name":"智能体","count":1},{"id":"模型评估","name":"模型评估","count":1}]},{"id":"z400racer37","name":"z400racer37","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"苹果","name":"苹果","count":1}]},{"id":"zach-lloyd","name":"Zach Lloyd","email":"","contentCount":1,"topTags":[{"id":"ai编程","name":"AI编程","count":1},{"id":"反馈机制","name":"反馈机制","count":1},{"id":"自动化","name":"自动化","count":1}]},{"id":"zach-winn","name":"Zach Winn","email":"","contentCount":1,"topTags":[{"id":"储能","name":"储能","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"材料科学","name":"材料科学","count":1}]},{"id":"zephyr-teachout","name":"Zephyr Teachout","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"企业治理","name":"企业治理","count":1},{"id":"法律责任","name":"法律责任","count":1}]},{"id":"zico-kolter","name":"Zico Kolter","email":"","contentCount":1,"topTags":[{"id":"ai安全","name":"AI安全","count":1},{"id":"模型评估","name":"模型评估","count":1},{"id":"红队测试","name":"红队测试","count":1}]},{"id":"乔治-帕克","name":"乔治·帕克","email":"","contentCount":1,"topTags":[{"id":"科技发展","name":"科技发展","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"风险投资","name":"风险投资","count":1}]},{"id":"保罗-狄拉克","name":"保罗·狄拉克","email":"","contentCount":1,"topTags":[{"id":"宇宙学","name":"宇宙学","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"相对论","name":"相对论","count":1}]},{"id":"倪忆","name":"倪忆","email":"","contentCount":1,"topTags":[{"id":"人才培养","name":"人才培养","count":1},{"id":"数学教育","name":"数学教育","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]},{"id":"凯瑞恩-詹姆斯-caryn-james","name":"凯瑞恩·詹姆斯（Caryn James）","email":"","contentCount":1,"topTags":[{"id":"叙事技巧","name":"叙事技巧","count":1},{"id":"古希腊神话","name":"古希腊神话","count":1},{"id":"电影","name":"电影","count":1}]},{"id":"吕超","name":"吕超","email":"","contentCount":1,"topTags":[{"id":"ci-cd","name":"CI/CD","count":1},{"id":"可观测性","name":"可观测性","count":1},{"id":"智能体","name":"智能体","count":1}]},{"id":"埃马纽埃尔-马克龙","name":"埃马纽埃尔·马克龙","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"劳动市场","name":"劳动市场","count":1},{"id":"医疗技术","name":"医疗技术","count":1}]},{"id":"大内鲁社长","name":"大内鲁社长","email":"","contentCount":1,"topTags":[{"id":"个人理财","name":"个人理财","count":1},{"id":"债务","name":"债务","count":1},{"id":"房地产","name":"房地产","count":1}]},{"id":"布拉德-史密斯","name":"布拉德·史密斯","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"公益慈善","name":"公益慈善","count":1},{"id":"微软","name":"微软","count":1}]},{"id":"布里特-希尔兹","name":"布里特·希尔兹","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","email":"","contentCount":1,"topTags":[{"id":"nba","name":"NBA","count":1},{"id":"体育管理","name":"体育管理","count":1},{"id":"大学体育","name":"大学体育","count":1}]},{"id":"迈克尔-j-巴拉尼","name":"迈克尔·J·巴拉尼","email":"","contentCount":1,"topTags":[{"id":"偏微分方程","name":"偏微分方程","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"计算数学","name":"计算数学","count":1}]},{"id":"迈克尔-桑德尔","name":"迈克尔·桑德尔","email":"","contentCount":1,"topTags":[{"id":"优绩主义","name":"优绩主义","count":1},{"id":"劳动尊严","name":"劳动尊严","count":1},{"id":"政治哲学","name":"政治哲学","count":1}]},{"id":"颜一清","name":"颜一清","email":"","contentCount":1,"topTags":[{"id":"代数几何","name":"代数几何","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"科研生涯","name":"科研生涯","count":1}]}],"media":[{"id":"latent-space","name":"Latent.Space","contentCount":33,"bio":"面向 AI 工程师的技术媒体与播客，访谈模型、智能体和基础设施的开发者。","website":"https://www.latent.space/about","kind":"访谈与技术媒体"},{"id":"dwarkesh-podcast","name":"Dwarkesh Podcast","contentCount":27,"bio":"Dwarkesh Patel 主持的深度访谈节目，围绕嘉宾的研究、技术与思想展开长篇对话。","website":"https://www.dwarkesh.com/about","kind":"访谈播客"},{"id":"bytebytego","name":"ByteByteGo","contentCount":11,"bio":"以图解方式讲解软件工程与系统设计的技术教育平台，提供通讯和学习资料。","website":"https://bytebytego.com/","kind":"技术教育"},{"id":"every","name":"Every","contentCount":11,"bio":"通过文章、播客和软件探索技术变化的媒体，关注 AI 如何影响工作与创造。","website":"https://every.to/about","kind":"科技媒体"},{"id":"lenny-s-podcast","name":"Lenny's Podcast","contentCount":9,"bio":"Lenny Rachitsky 主持的访谈节目，邀请产品与增长领域的嘉宾分享实践经验。","website":"https://www.lennysnewsletter.com/listen","kind":"访谈播客"},{"id":"anthropic","name":"Anthropic","contentCount":7,"bio":"Anthropic 的官方内容来源，介绍 AI 研究、安全方法与 Claude 相关实践。","website":"https://www.anthropic.com/company","kind":"官方频道"},{"id":"how-i-write","name":"How I Write","contentCount":7,"bio":"David Perell 主持的写作访谈节目，探讨作家的创作方法、思考过程与写作生活。","website":"https://perell.com/","kind":"访谈播客"},{"id":"a16z","name":"a16z","contentCount":5,"bio":"Andreessen Horowitz 的文章与播客平台，关注科技创业、投资和行业变化。","website":"https://a16z.com/about/","kind":"创业与科技媒体"},{"id":"numberphile","name":"Numberphile","contentCount":5,"bio":"Brady Haran 制作的数学视频与播客，邀请数学家及其他嘉宾讨论数字、历史发现与近期突破。","website":"https://www.numberphile.com/about","kind":"数学科普与访谈"},{"id":"quanta-magazine","name":"Quanta Magazine","contentCount":5,"bio":"关注基础科学的独立媒体，以报道和故事介绍数学、物理、计算机与生命科学研究。","website":"https://www.quantamagazine.org/about/","kind":"科学报道"},{"id":"stripe","name":"Stripe","contentCount":5,"bio":"Stripe 的官方内容来源，分享金融基础设施、经济发展与产品建设相关观点。","website":"https://stripe.com/about","kind":"官方频道"},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","contentCount":5,"bio":"Steven Bartlett 主持的访谈节目，与企业家、专家和公共人物交流经历与见解。","website":"https://stevenbartlett.com/doac/","kind":"访谈播客"},{"id":"the-peterman-pod","name":"The Peterman Pod","contentCount":5,"bio":"Ryan Peterman 主持的技术访谈节目，邀请资深工程师与研究者讲述职业和技术经历。","website":"https://www.developing.dev/p/behind-the-scenes-of-this-podcast","kind":"访谈播客"},{"id":"lex-fridman-podcast","name":"Lex Fridman Podcast","contentCount":4,"bio":"Lex Fridman 主持的长篇对话节目，主题涵盖科技、科学、历史与哲学。","website":"https://lexfridman.com/podcast/","kind":"访谈播客"},{"id":"mit-news","name":"MIT News","contentCount":4,"bio":"麻省理工学院的官方新闻平台，报道校园、研究成果及科学与技术相关人物。","website":"https://news.mit.edu/mit-news-office","kind":"大学新闻"},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","contentCount":3,"bio":"围绕创业与风险投资展开的访谈平台，邀请创始人、投资者和产品负责人交流。","website":"https://www.thetwentyminutevc.com/","kind":"创业访谈"},{"id":"bloomberg-television","name":"Bloomberg Television","contentCount":3,"bio":"彭博旗下财经新闻频道，提供市场报道与人物访谈。","website":"https://www.bloomberg.com/live","kind":"财经新闻"},{"id":"mind-the-game","name":"Mind the Game","contentCount":3,"bio":"由篮球运动员深入讨论比赛的播客，分析战术、比赛准备与篮球运动的发展。","website":"https://home.wondery.com/shows/mind-the-game","kind":"体育对谈"},{"id":"on-substack","name":"On Substack","contentCount":3,"bio":"Substack 的官方出版物，为写作者、播客及视频创作者提供故事、资源和平台动态。","website":"https://on.substack.com/about","kind":"创作者媒体"},{"id":"openai","name":"OpenAI","contentCount":3,"bio":"OpenAI 的官方内容来源，介绍人工智能研究、产品及其应用。","website":"https://openai.com/about/","kind":"官方频道"},{"id":"turing","name":"Turing","contentCount":3,"bio":"制作科学与数学人物视频的科普频道，介绍数学家的研究与思考方式。","website":"https://www.youtube.com/watch?v=7kC8Id5ephE","kind":"科学视频"},{"id":"bg2pod","name":"BG2Pod","contentCount":2,"bio":"关注科技、市场、投资与资本主义的播客，由 Brad Gerstner 与 Bill Gurley 主持，邀请行业嘉宾展开对谈。","website":"https://www.bg2pod.com/","kind":"科技与投资播客"},{"id":"cursor","name":"Cursor","contentCount":2,"bio":"Cursor 的官方内容来源，介绍 AI 编程工具、工程实践与软件开发。","website":"https://cursor.com/","kind":"官方频道"},{"id":"deeplearningai","name":"DeepLearningAI","contentCount":2,"bio":"Andrew Ng 创办的 AI 教育平台，提供课程、实践训练和学习社区。","website":"https://www.deeplearning.ai/about","kind":"AI 教育"},{"id":"how-i-ai","name":"How I AI","contentCount":2,"bio":"Claire Vo 主持的实践访谈节目，邀请嘉宾演示在工作和生活中使用 AI 的具体流程。","website":"https://www.lennysnewsletter.com/p/introducing-how-i-ai","kind":"实践访谈"},{"id":"sequoia-capital","name":"Sequoia Capital","contentCount":2,"bio":"红杉资本的文章与播客平台，分享创始人故事、技术趋势和创业经验。","website":"https://sequoiacap.com/","kind":"创业与科技媒体"},{"id":"steve-jobs-archive","name":"Steve Jobs Archive","contentCount":2,"bio":"保存和展示 Steve Jobs 相关档案的机构，通过出版物与展览呈现其工作与思想。","website":"https://stevejobsarchive.com/about","kind":"人物档案"},{"id":"world-finance-journal","name":"World Finance Journal","contentCount":2,"bio":"本站收录该频道的 Jamie Dimon 访谈，内容涉及领导力、职业经历与银行业。","website":"https://www.youtube.com/watch?v=wPEXNbKW8Lk","kind":"金融人物访谈"},{"id":"y-combinator","name":"Y Combinator","contentCount":2,"bio":"创业加速器 Y Combinator 的内容来源，面向创业者分享公司建设与创业知识。","website":"https://www.ycombinator.com/about","kind":"创业平台"},{"id":"街-大学","name":"やまぐち街なか大学","contentCount":2,"bio":"日本山口市的公共学习平台，以城市为课堂，组织讲座、课程与社区学习活动。","website":"https://idom.jp/","kind":"公开讲座"},{"id":"3blue1brown","name":"3Blue1Brown","contentCount":1},{"id":"60-minutes","name":"60 Minutes","contentCount":1},{"id":"a16z-news","name":"a16z News","contentCount":1},{"id":"ai-101","name":"AI 101","contentCount":1},{"id":"ai-desk","name":"AI Desk","contentCount":1},{"id":"ai-engineer","name":"AI Engineer","contentCount":1},{"id":"american-optimist","name":"American Optimist","contentCount":1},{"id":"american-psychological-association","name":"American Psychological Association","contentCount":1},{"id":"amp-inc","name":"Amp, Inc.","contentCount":1},{"id":"asher-s-blog","name":"Asher's Blog","contentCount":1},{"id":"asimov-press","name":"Asimov Press","contentCount":1},{"id":"breaking-math","name":"Breaking Math","contentCount":1},{"id":"bytebytego-newsletter","name":"ByteByteGo Newsletter","contentCount":1},{"id":"cendyne-dev","name":"Cendyne.dev","contentCount":1},{"id":"cheeky-pint","name":"Cheeky Pint","contentCount":1},{"id":"chris-williamson","name":"Chris Williamson","contentCount":1},{"id":"clay-mathematics-institute","name":"Clay Mathematics Institute","contentCount":1},{"id":"cloudflare","name":"Cloudflare","contentCount":1},{"id":"cna","name":"CNA","contentCount":1},{"id":"dan-patrick-show","name":"Dan Patrick Show","contentCount":1},{"id":"david-senra","name":"David Senra","contentCount":1},{"id":"department-of-physics","name":"Department of Physics","contentCount":1},{"id":"design-with-ai","name":"Design with AI","contentCount":1},{"id":"econtalk","name":"EconTalk","contentCount":1},{"id":"eo","name":"EO","contentCount":1},{"id":"espn","name":"ESPN","contentCount":1},{"id":"eye-on-ai","name":"Eye on AI","contentCount":1},{"id":"fc-bayern-m-nchen-ag","name":"FC Bayern München AG","contentCount":1},{"id":"finaius","name":"FINAiUS","contentCount":1},{"id":"fox-news","name":"Fox News","contentCount":1},{"id":"future-class","name":"Future Class","contentCount":1},{"id":"future-proof","name":"future/proof","contentCount":1},{"id":"futurology","name":"Futurology","contentCount":1},{"id":"google-deepmind","name":"Google DeepMind","contentCount":1},{"id":"gvsu-student-life","name":"GVSU Student Life","contentCount":1},{"id":"hard-fork","name":"Hard Fork","contentCount":1},{"id":"haskell-org","name":"Haskell.org","contentCount":1},{"id":"institute-for-pure-applied-mathematics-ipam","name":"Institute for Pure & Applied Mathematics (IPAM)","contentCount":1},{"id":"invest-like-the-best","name":"Invest Like The Best","contentCount":1},{"id":"it-s-all-about-the-bit","name":"It's all about the bit","contentCount":1},{"id":"latent-space-ai-for-science","name":"Latent Space: AI for Science","contentCount":1},{"id":"leerob","name":"leerob","contentCount":1},{"id":"lex-clips","name":"Lex Clips","contentCount":1},{"id":"linus-tech-tips","name":"Linus Tech Tips","contentCount":1},{"id":"lux-capital","name":"Lux Capital","contentCount":1},{"id":"lychee-technology","name":"Lychee Technology","contentCount":1},{"id":"machine-learning-street-talk","name":"Machine Learning Street Talk","contentCount":1},{"id":"madrona-ventures","name":"Madrona Ventures","contentCount":1},{"id":"marques-brownlee","name":"Marques Brownlee","contentCount":1},{"id":"milken-institute","name":"Milken Institute","contentCount":1},{"id":"mit-lincoln-laboratory","name":"MIT Lincoln Laboratory","contentCount":1},{"id":"ml-b-blog","name":"ML@B Blog","contentCount":1},{"id":"moonshot-ai","name":"Moonshot AI","contentCount":1},{"id":"morgan-stanley","name":"Morgan Stanley","contentCount":1},{"id":"mortoray","name":"Mortoray","contentCount":1},{"id":"nba-stats-all-seasons","name":"NBA Stats All Seasons","contentCount":1},{"id":"new-york-times-podcasts","name":"New York Times Podcasts","contentCount":1},{"id":"no-priors-ai","name":"No Priors: AI","contentCount":1},{"id":"perfology-clips","name":"Perfology Clips","contentCount":1},{"id":"pessimists-archive-newsletter","name":"Pessimists Archive Newsletter","contentCount":1},{"id":"powerfuljre","name":"PowerfulJRE","contentCount":1},{"id":"princeton-university-computer-science","name":"Princeton University Computer Science","contentCount":1},{"id":"reboot","name":"Reboot","contentCount":1},{"id":"sair","name":"SAIR","contentCount":1},{"id":"sammy-s-blog","name":"Sammy's Blog","contentCount":1},{"id":"silicon-valley-girl","name":"Silicon Valley Girl","contentCount":1},{"id":"smithsonian-magazine","name":"Smithsonian Magazine","contentCount":1},{"id":"stanford-online","name":"Stanford Online","contentCount":1},{"id":"talks-at-google","name":"Talks at Google","contentCount":1},{"id":"tfir","name":"TFIR","contentCount":1},{"id":"the-abel-prize","name":"The Abel Prize","contentCount":1},{"id":"the-art-of-storytelling","name":"The Art Of Storytelling","contentCount":1},{"id":"the-culturist","name":"The Culturist","contentCount":1},{"id":"the-every-podcast","name":"The Every Podcast","contentCount":1},{"id":"the-joe-rogan-experience","name":"The Joe Rogan Experience","contentCount":1},{"id":"the-ohio-state-university","name":"The Ohio State University","contentCount":1},{"id":"tom-rocks-maths","name":"Tom Rocks Maths","contentCount":1},{"id":"tvarchive","name":"TVArchive","contentCount":1},{"id":"ways-of-seeing","name":"Ways of Seeing","contentCount":1},{"id":"welcome-to-the-party","name":"Welcome to the Party","contentCount":1},{"id":"world-science-festival","name":"World Science Festival","contentCount":1},{"id":"x","name":"X","contentCount":1},{"id":"zhipu-ai","name":"Zhipu AI","contentCount":1},{"id":"人民公园说ai","name":"人民公园说AI","contentCount":1},{"id":"最佳拍档","name":"最佳拍档","contentCount":1},{"id":"听闻","name":"听闻","contentCount":1},{"id":"学用复利投资value-insights","name":"学用复利投资Value Insights","contentCount":1},{"id":"知识分子","name":"知识分子","contentCount":1},{"id":"硅谷101","name":"硅谷101","contentCount":1}],"tags":[{"id":"人工智能","name":"人工智能","count":135},{"id":"智能体","name":"智能体","count":74},{"id":"ai编程","name":"AI编程","count":68},{"id":"数学研究","name":"数学研究","count":51},{"id":"大语言模型","name":"大语言模型","count":31},{"id":"软件工程","name":"软件工程","count":28},{"id":"数学教育","name":"数学教育","count":27},{"id":"科研生涯","name":"科研生涯","count":23},{"id":"职业发展","name":"职业发展","count":23},{"id":"企业管理","name":"企业管理","count":22},{"id":"模型评估","name":"模型评估","count":21},{"id":"创业","name":"创业","count":20},{"id":"产品设计","name":"产品设计","count":19},{"id":"写作","name":"写作","count":17},{"id":"开源","name":"开源","count":16},{"id":"开发工作流","name":"开发工作流","count":15},{"id":"劳动市场","name":"劳动市场","count":13},{"id":"科研自动化","name":"科研自动化","count":13},{"id":"nba","name":"NBA","count":11},{"id":"企业战略","name":"企业战略","count":11},{"id":"算力","name":"算力","count":11},{"id":"软件架构","name":"软件架构","count":11},{"id":"上下文工程","name":"上下文工程","count":10},{"id":"模型训练","name":"模型训练","count":10},{"id":"通用人工智能","name":"通用人工智能","count":10},{"id":"ai基础设施","name":"AI基础设施","count":9},{"id":"claude","name":"Claude","count":9},{"id":"claude-code","name":"Claude Code","count":9},{"id":"人机协作","name":"人机协作","count":9},{"id":"创造力","name":"创造力","count":9},{"id":"机器学习","name":"机器学习","count":9},{"id":"苹果","name":"苹果","count":9},{"id":"ai安全","name":"AI安全","count":8},{"id":"gpu","name":"GPU","count":8},{"id":"代码审查","name":"代码审查","count":8},{"id":"创作","name":"创作","count":8},{"id":"多智能体","name":"多智能体","count":8},{"id":"强化学习","name":"强化学习","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"生产率","name":"生产率","count":8},{"id":"知识管理","name":"知识管理","count":8},{"id":"社交媒体","name":"社交媒体","count":8},{"id":"科学发现","name":"科学发现","count":8},{"id":"网络安全","name":"网络安全","count":8},{"id":"能源","name":"能源","count":8},{"id":"自我管理","name":"自我管理","count":8},{"id":"计算机史","name":"计算机史","count":8},{"id":"认知科学","name":"认知科学","count":8},{"id":"软件可靠性","name":"软件可靠性","count":8},{"id":"工具调用","name":"工具调用","count":7},{"id":"心理健康","name":"心理健康","count":7},{"id":"数学史","name":"数学史","count":7},{"id":"科技政策","name":"科技政策","count":7},{"id":"篮球","name":"篮球","count":7},{"id":"编程语言","name":"编程语言","count":7},{"id":"计算复杂性","name":"计算复杂性","count":7},{"id":"ai写作","name":"AI写作","count":6},{"id":"产品开发","name":"产品开发","count":6},{"id":"代数几何","name":"代数几何","count":6},{"id":"叙事技巧","name":"叙事技巧","count":6},{"id":"教育","name":"教育","count":6},{"id":"数学证明","name":"数学证明","count":6},{"id":"版本控制","name":"版本控制","count":6},{"id":"研究方法","name":"研究方法","count":6},{"id":"科学哲学","name":"科学哲学","count":6},{"id":"科学计算","name":"科学计算","count":6},{"id":"科研评价","name":"科研评价","count":6},{"id":"风险投资","name":"风险投资","count":6},{"id":"ai治理","name":"AI治理","count":5},{"id":"codex","name":"Codex","count":5},{"id":"deepseek","name":"DeepSeek","count":5},{"id":"云计算","name":"云计算","count":5},{"id":"产品管理","name":"产品管理","count":5},{"id":"价值投资","name":"价值投资","count":5},{"id":"内容创作","name":"内容创作","count":5},{"id":"分布式系统","name":"分布式系统","count":5},{"id":"平台经济","name":"平台经济","count":5},{"id":"开发基础设施","name":"开发基础设施","count":5},{"id":"开放模型","name":"开放模型","count":5},{"id":"形式化数学","name":"形式化数学","count":5},{"id":"推理优化","name":"推理优化","count":5},{"id":"政府改革","name":"政府改革","count":5},{"id":"数学哲学","name":"数学哲学","count":5},{"id":"数据中心","name":"数据中心","count":5},{"id":"机器人","name":"机器人","count":5},{"id":"生成式ai","name":"生成式AI","count":5},{"id":"科技伦理","name":"科技伦理","count":5},{"id":"科研伦理","name":"科研伦理","count":5},{"id":"航天工程","name":"航天工程","count":5},{"id":"计算规模","name":"计算规模","count":5},{"id":"软件开发","name":"软件开发","count":5},{"id":"量子计算","name":"量子计算","count":5},{"id":"银行业","name":"银行业","count":5},{"id":"领导力","name":"领导力","count":5},{"id":"chatgpt","name":"ChatGPT","count":4},{"id":"cursor","name":"Cursor","count":4},{"id":"devin","name":"Devin","count":4},{"id":"git","name":"Git","count":4},{"id":"lean","name":"Lean","count":4},{"id":"linux","name":"Linux","count":4},{"id":"mcp","name":"MCP","count":4},{"id":"世界模型","name":"世界模型","count":4},{"id":"人生经历","name":"人生经历","count":4},{"id":"企业治理","name":"企业治理","count":4},{"id":"企业软件","name":"企业软件","count":4},{"id":"体育心理","name":"体育心理","count":4},{"id":"体育训练","name":"体育训练","count":4},{"id":"供应链","name":"供应链","count":4},{"id":"信息检索","name":"信息检索","count":4},{"id":"偏微分方程","name":"偏微分方程","count":4},{"id":"国际关系","name":"国际关系","count":4},{"id":"好奇心","name":"好奇心","count":4},{"id":"定理证明","name":"定理证明","count":4},{"id":"成本优化","name":"成本优化","count":4},{"id":"提示工程","name":"提示工程","count":4},{"id":"数论","name":"数论","count":4},{"id":"文化","name":"文化","count":4},{"id":"样本效率","name":"样本效率","count":4},{"id":"模型架构","name":"模型架构","count":4},{"id":"流体力学","name":"流体力学","count":4},{"id":"知识交流","name":"知识交流","count":4},{"id":"科学传播","name":"科学传播","count":4},{"id":"组织信任","name":"组织信任","count":4},{"id":"编程教学","name":"编程教学","count":4},{"id":"芯片","name":"芯片","count":4},{"id":"软件维护","name":"软件维护","count":4},{"id":"量化投资","name":"量化投资","count":4},{"id":"隐私保护","name":"隐私保护","count":4},{"id":"kakeya猜想","name":"Kakeya猜想","count":3},{"id":"p与np","name":"P与NP","count":3},{"id":"windsurf","name":"Windsurf","count":3},{"id":"产品定价","name":"产品定价","count":3},{"id":"人际关系","name":"人际关系","count":3},{"id":"人际沟通","name":"人际沟通","count":3},{"id":"代码编辑器","name":"代码编辑器","count":3},{"id":"企业文化","name":"企业文化","count":3},{"id":"保险","name":"保险","count":3},{"id":"公众认知","name":"公众认知","count":3},{"id":"关税政策","name":"关税政策","count":3},{"id":"出版业","name":"出版业","count":3},{"id":"博士培养","name":"博士培养","count":3},{"id":"原型设计","name":"原型设计","count":3},{"id":"反馈机制","name":"反馈机制","count":3},{"id":"可复现研究","name":"可复现研究","count":3},{"id":"可观测性","name":"可观测性","count":3},{"id":"哲学","name":"哲学","count":3},{"id":"商业模式","name":"商业模式","count":3},{"id":"团队管理","name":"团队管理","count":3},{"id":"复杂度","name":"复杂度","count":3},{"id":"学习动机","name":"学习动机","count":3},{"id":"并行计算","name":"并行计算","count":3},{"id":"开发工具","name":"开发工具","count":3},{"id":"微软","name":"微软","count":3},{"id":"情绪调节","name":"情绪调节","count":3},{"id":"技能学习","name":"技能学习","count":3},{"id":"持续学习","name":"持续学习","count":3},{"id":"搜索系统","name":"搜索系统","count":3},{"id":"政治哲学","name":"政治哲学","count":3},{"id":"数据分析","name":"数据分析","count":3},{"id":"文学编程","name":"文学编程","count":3},{"id":"权限管理","name":"权限管理","count":3},{"id":"模型蒸馏","name":"模型蒸馏","count":3},{"id":"法律责任","name":"法律责任","count":3},{"id":"注意力","name":"注意力","count":3},{"id":"浏览器","name":"浏览器","count":3},{"id":"消费者产品","name":"消费者产品","count":3},{"id":"独立媒体","name":"独立媒体","count":3},{"id":"用户体验","name":"用户体验","count":3},{"id":"用户研究","name":"用户研究","count":3},{"id":"电动汽车","name":"电动汽车","count":3},{"id":"社区治理","name":"社区治理","count":3},{"id":"神经科学","name":"神经科学","count":3},{"id":"科学史","name":"科学史","count":3},{"id":"科技史","name":"科技史","count":3},{"id":"算术几何","name":"算术几何","count":3},{"id":"算法","name":"算法","count":3},{"id":"篮球战术","name":"篮球战术","count":3},{"id":"组织管理","name":"组织管理","count":3},{"id":"经济增长","name":"经济增长","count":3},{"id":"网络讨论","name":"网络讨论","count":3},{"id":"自动化","name":"自动化","count":3},{"id":"药物研发","name":"药物研发","count":3},{"id":"计算机体系结构","name":"计算机体系结构","count":3},{"id":"计算理论","name":"计算理论","count":3},{"id":"调和分析","name":"调和分析","count":3},{"id":"谷歌","name":"谷歌","count":3},{"id":"财政政策","name":"财政政策","count":3},{"id":"资本市场","name":"资本市场","count":3},{"id":"足球","name":"足球","count":3},{"id":"身心健康","name":"身心健康","count":3},{"id":"软件测试","name":"软件测试","count":3},{"id":"量子力学","name":"量子力学","count":3},{"id":"雅可比猜想","name":"雅可比猜想","count":3},{"id":"预训练","name":"预训练","count":3},{"id":"高等教育","name":"高等教育","count":3},{"id":"ai芯片","name":"AI芯片","count":2},{"id":"ai辅助学习","name":"AI辅助学习","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"gemini","name":"Gemini","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"notion","name":"Notion","count":2},{"id":"org-mode","name":"Org Mode","count":2},{"id":"python","name":"Python","count":2},{"id":"saas","name":"SaaS","count":2},{"id":"vim","name":"Vim","count":2},{"id":"web开发","name":"Web开发","count":2},{"id":"个人理财","name":"个人理财","count":2},{"id":"乌克兰战争","name":"乌克兰战争","count":2},{"id":"代码验证","name":"代码验证","count":2},{"id":"代谢健康","name":"代谢健康","count":2},{"id":"仿真","name":"仿真","count":2},{"id":"企业并购","name":"企业并购","count":2},{"id":"信号处理","name":"信号处理","count":2},{"id":"债务","name":"债务","count":2},{"id":"公共问责","name":"公共问责","count":2},{"id":"公益慈善","name":"公益慈善","count":2},{"id":"凝聚态物理","name":"凝聚态物理","count":2},{"id":"出口管制","name":"出口管制","count":2},{"id":"创意产业","name":"创意产业","count":2},{"id":"动力系统","name":"动力系统","count":2},{"id":"动物行为","name":"动物行为","count":2},{"id":"动画电影","name":"动画电影","count":2},{"id":"劳动尊严","name":"劳动尊严","count":2},{"id":"劳动权益","name":"劳动权益","count":2},{"id":"医疗技术","name":"医疗技术","count":2},{"id":"压缩感知","name":"压缩感知","count":2},{"id":"古希腊神话","name":"古希腊神话","count":2},{"id":"品牌管理","name":"品牌管理","count":2},{"id":"团队协作","name":"团队协作","count":2},{"id":"增强现实","name":"增强现实","count":2},{"id":"复利","name":"复利","count":2},{"id":"外星生命","name":"外星生命","count":2},{"id":"多模态","name":"多模态","count":2},{"id":"奖励投机","name":"奖励投机","count":2},{"id":"学术写作","name":"学术写作","count":2},{"id":"学术诚信","name":"学术诚信","count":2},{"id":"宗教","name":"宗教","count":2},{"id":"容错计算","name":"容错计算","count":2},{"id":"工业设计","name":"工业设计","count":2},{"id":"开发环境","name":"开发环境","count":2},{"id":"开放科学","name":"开放科学","count":2},{"id":"开放网络","name":"开放网络","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"形而上学","name":"形而上学","count":2},{"id":"心理学","name":"心理学","count":2},{"id":"思维链","name":"思维链","count":2},{"id":"性能优化","name":"性能优化","count":2},{"id":"技能退化","name":"技能退化","count":2},{"id":"投资","name":"投资","count":2},{"id":"抽象推理","name":"抽象推理","count":2},{"id":"拓扑学","name":"拓扑学","count":2},{"id":"推理模型","name":"推理模型","count":2},{"id":"政治制度","name":"政治制度","count":2},{"id":"效率工具","name":"效率工具","count":2},{"id":"数学基础","name":"数学基础","count":2},{"id":"数据治理","name":"数据治理","count":2},{"id":"数据科学","name":"数据科学","count":2},{"id":"数据管理","name":"数据管理","count":2},{"id":"文艺复兴","name":"文艺复兴","count":2},{"id":"新闻业","name":"新闻业","count":2},{"id":"材料科学","name":"材料科学","count":2},{"id":"概形","name":"概形","count":2},{"id":"概率论","name":"概率论","count":2},{"id":"模型路由","name":"模型路由","count":2},{"id":"民主制度","name":"民主制度","count":2},{"id":"沙箱安全","name":"沙箱安全","count":2},{"id":"注意力机制","name":"注意力机制","count":2},{"id":"涌现","name":"涌现","count":2},{"id":"渗流理论","name":"渗流理论","count":2},{"id":"特斯拉","name":"特斯拉","count":2},{"id":"球员评价","name":"球员评价","count":2},{"id":"理性决策","name":"理性决策","count":2},{"id":"生命科学","name":"生命科学","count":2},{"id":"用户界面","name":"用户界面","count":2},{"id":"电影","name":"电影","count":2},{"id":"知识工作","name":"知识工作","count":2},{"id":"知识档案","name":"知识档案","count":2},{"id":"知识社群","name":"知识社群","count":2},{"id":"视频生成","name":"视频生成","count":2},{"id":"私募股权","name":"私募股权","count":2},{"id":"科学研究","name":"科学研究","count":2},{"id":"科技发展","name":"科技发展","count":2},{"id":"科技行业","name":"科技行业","count":2},{"id":"科研资助","name":"科研资助","count":2},{"id":"算力基础设施","name":"算力基础设施","count":2},{"id":"类型论","name":"类型论","count":2},{"id":"纳维斯托克斯方程","name":"纳维斯托克斯方程","count":2},{"id":"组合数学","name":"组合数学","count":2},{"id":"统计学","name":"统计学","count":2},{"id":"维基百科","name":"维基百科","count":2},{"id":"莫德尔猜想","name":"莫德尔猜想","count":2},{"id":"行为设计","name":"行为设计","count":2},{"id":"计算不可约性","name":"计算不可约性","count":2},{"id":"计算宇宙","name":"计算宇宙","count":2},{"id":"计算数学","name":"计算数学","count":2},{"id":"设计","name":"设计","count":2},{"id":"资本配置","name":"资本配置","count":2},{"id":"软件设计","name":"软件设计","count":2},{"id":"运动健康","name":"运动健康","count":2},{"id":"运动恢复","name":"运动恢复","count":2},{"id":"远程操控","name":"远程操控","count":2},{"id":"递归自我改进","name":"递归自我改进","count":2},{"id":"金融监管","name":"金融监管","count":2},{"id":"长期记忆","name":"长期记忆","count":2},{"id":"零知识证明","name":"零知识证明","count":2},{"id":"青蒿素","name":"青蒿素","count":2},{"id":"风险管理","name":"风险管理","count":2},{"id":"饮食文化","name":"饮食文化","count":2},{"id":"ada","name":"Ada","count":1},{"id":"ai对齐","name":"AI对齐","count":1},{"id":"ai艺术","name":"AI艺术","count":1},{"id":"alphago","name":"AlphaGo","count":1},{"id":"api设计","name":"API设计","count":1},{"id":"arxiv","name":"arXiv","count":1},{"id":"c","name":"C++","count":1},{"id":"ci-cd","name":"CI/CD","count":1},{"id":"cuda","name":"CUDA","count":1},{"id":"d模","name":"D模","count":1},{"id":"ffmpeg","name":"FFmpeg","count":1},{"id":"glm","name":"GLM","count":1},{"id":"gpu内核","name":"GPU内核","count":1},{"id":"grok","name":"Grok","count":1},{"id":"haskell","name":"Haskell","count":1},{"id":"ios","name":"iOS","count":1},{"id":"julia","name":"Julia","count":1},{"id":"kimi","name":"Kimi","count":1},{"id":"kv缓存","name":"KV缓存","count":1},{"id":"latex","name":"LaTeX","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"ocr","name":"OCR","count":1},{"id":"openclaw","name":"OpenClaw","count":1},{"id":"paxos","name":"Paxos","count":1},{"id":"postgresql","name":"PostgreSQL","count":1},{"id":"raft","name":"Raft","count":1},{"id":"transformer","name":"Transformer","count":1},{"id":"usenet","name":"Usenet","count":1},{"id":"vlc","name":"VLC","count":1},{"id":"webassembly","name":"WebAssembly","count":1},{"id":"wolfram-language","name":"Wolfram Language","count":1},{"id":"x射线成像","name":"X射线成像","count":1},{"id":"zed","name":"Zed","count":1},{"id":"个人品牌","name":"个人品牌","count":1},{"id":"个人经验","name":"个人经验","count":1},{"id":"个人财务","name":"个人财务","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"习惯养成","name":"习惯养成","count":1},{"id":"事故复盘","name":"事故复盘","count":1},{"id":"互联网史","name":"互联网史","count":1},{"id":"交易","name":"交易","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"交通安全","name":"交通安全","count":1},{"id":"产业经济","name":"产业经济","count":1},{"id":"产品营销","name":"产品营销","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人性","name":"人性","count":1},{"id":"人才培养","name":"人才培养","count":1},{"id":"人机交互","name":"人机交互","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类尊严","name":"人类尊严","count":1},{"id":"人类进化","name":"人类进化","count":1},{"id":"付费内容","name":"付费内容","count":1},{"id":"代数k理论","name":"代数K理论","count":1},{"id":"代数分析","name":"代数分析","count":1},{"id":"代数拓扑","name":"代数拓扑","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"代际关系","name":"代际关系","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"企业传承","name":"企业传承","count":1},{"id":"企业数据","name":"企业数据","count":1},{"id":"企业经营","name":"企业经营","count":1},{"id":"企业预算","name":"企业预算","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优化算法","name":"优化算法","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"传统医学","name":"传统医学","count":1},{"id":"低碳技术","name":"低碳技术","count":1},{"id":"体育","name":"体育","count":1},{"id":"体育数据分析","name":"体育数据分析","count":1},{"id":"体育管理","name":"体育管理","count":1},{"id":"作者收入","name":"作者收入","count":1},{"id":"供应链安全","name":"供应链安全","count":1},{"id":"信息安全","name":"信息安全","count":1},{"id":"信息操纵","name":"信息操纵","count":1},{"id":"信息熵","name":"信息熵","count":1},{"id":"信息物理","name":"信息物理","count":1},{"id":"信息生态","name":"信息生态","count":1},{"id":"信贷","name":"信贷","count":1},{"id":"储能","name":"储能","count":1},{"id":"儿童保护","name":"儿童保护","count":1},{"id":"全球经济","name":"全球经济","count":1},{"id":"公共治理","name":"公共治理","count":1},{"id":"公共知识","name":"公共知识","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"内存优化","name":"内存优化","count":1},{"id":"内存管理","name":"内存管理","count":1},{"id":"内容传播","name":"内容传播","count":1},{"id":"内容生态","name":"内容生态","count":1},{"id":"军事史","name":"军事史","count":1},{"id":"军事技术","name":"军事技术","count":1},{"id":"冰球","name":"冰球","count":1},{"id":"决策方法","name":"决策方法","count":1},{"id":"凝聚数学","name":"凝聚数学","count":1},{"id":"几何","name":"几何","count":1},{"id":"几何测度论","name":"几何测度论","count":1},{"id":"创业融资","name":"创业融资","count":1},{"id":"创作方法","name":"创作方法","count":1},{"id":"创新","name":"创新","count":1},{"id":"利率","name":"利率","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"前端开发","name":"前端开发","count":1},{"id":"办公技术","name":"办公技术","count":1},{"id":"加密资产","name":"加密资产","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"加速器","name":"加速器","count":1},{"id":"动物福利","name":"动物福利","count":1},{"id":"劳动经济学","name":"劳动经济学","count":1},{"id":"劳动观念","name":"劳动观念","count":1},{"id":"劳工权益","name":"劳工权益","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协作开发","name":"协作开发","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非历史","name":"南非历史","count":1},{"id":"博弈论","name":"博弈论","count":1},{"id":"博物馆","name":"博物馆","count":1},{"id":"卫星通信","name":"卫星通信","count":1},{"id":"印刷术","name":"印刷术","count":1},{"id":"即时通信","name":"即时通信","count":1},{"id":"历史","name":"历史","count":1},{"id":"历史解释","name":"历史解释","count":1},{"id":"古代dna","name":"古代DNA","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"台湾","name":"台湾","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"后量子密码","name":"后量子密码","count":1},{"id":"四色定理","name":"四色定理","count":1},{"id":"固态电池","name":"固态电池","count":1},{"id":"国际合作","name":"国际合作","count":1},{"id":"国际贸易","name":"国际贸易","count":1},{"id":"图像传播","name":"图像传播","count":1},{"id":"图像生成","name":"图像生成","count":1},{"id":"基准测试","name":"基准测试","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"外交政策","name":"外交政策","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多媒体","name":"多媒体","count":1},{"id":"多项式映射","name":"多项式映射","count":1},{"id":"大学体育","name":"大学体育","count":1},{"id":"大学发展","name":"大学发展","count":1},{"id":"天文学","name":"天文学","count":1},{"id":"太空医疗","name":"太空医疗","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"奇点消解","name":"奇点消解","count":1},{"id":"媒介","name":"媒介","count":1},{"id":"媒介生态","name":"媒介生态","count":1},{"id":"媒介素养","name":"媒介素养","count":1},{"id":"媒体权力","name":"媒体权力","count":1},{"id":"存储系统","name":"存储系统","count":1},{"id":"存储芯片","name":"存储芯片","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习方法","name":"学习方法","count":1},{"id":"学术交流","name":"学术交流","count":1},{"id":"学术共同体","name":"学术共同体","count":1},{"id":"学术文化","name":"学术文化","count":1},{"id":"学术生涯","name":"学术生涯","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"完美胚空间","name":"完美胚空间","count":1},{"id":"实时系统","name":"实时系统","count":1},{"id":"审美","name":"审美","count":1},{"id":"客户服务","name":"客户服务","count":1},{"id":"家庭关系","name":"家庭关系","count":1},{"id":"密码学","name":"密码学","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小波","name":"小波","count":1},{"id":"尾延迟","name":"尾延迟","count":1},{"id":"工业革命","name":"工业革命","count":1},{"id":"工作效率","name":"工作效率","count":1},{"id":"干细胞","name":"干细胞","count":1},{"id":"并发控制","name":"并发控制","count":1},{"id":"幸福","name":"幸福","count":1},{"id":"幽默创作","name":"幽默创作","count":1},{"id":"广义相对论","name":"广义相对论","count":1},{"id":"应激反应","name":"应激反应","count":1},{"id":"应用开发","name":"应用开发","count":1},{"id":"开放互联网","name":"开放互联网","count":1},{"id":"开放协作","name":"开放协作","count":1},{"id":"开放获取","name":"开放获取","count":1},{"id":"开放问题","name":"开放问题","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"异步智能体","name":"异步智能体","count":1},{"id":"异步编程","name":"异步编程","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"形式化验证","name":"形式化验证","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"性能测试","name":"性能测试","count":1},{"id":"意识","name":"意识","count":1},{"id":"感知","name":"感知","count":1},{"id":"房地产","name":"房地产","count":1},{"id":"手术机器人","name":"手术机器人","count":1},{"id":"托尔金","name":"托尔金","count":1},{"id":"执法监督","name":"执法监督","count":1},{"id":"执行环境","name":"执行环境","count":1},{"id":"技术与社会","name":"技术与社会","count":1},{"id":"技术伦理","name":"技术伦理","count":1},{"id":"技术债","name":"技术债","count":1},{"id":"投资决策","name":"投资决策","count":1},{"id":"投资回报","name":"投资回报","count":1},{"id":"拉姆齐理论","name":"拉姆齐理论","count":1},{"id":"指令遵循","name":"指令遵循","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提示注入","name":"提示注入","count":1},{"id":"提示缓存","name":"提示缓存","count":1},{"id":"播客经营","name":"播客经营","count":1},{"id":"操作系统","name":"操作系统","count":1},{"id":"政治历史","name":"政治历史","count":1},{"id":"政治经济","name":"政治经济","count":1},{"id":"政治表达","name":"政治表达","count":1},{"id":"散热技术","name":"散热技术","count":1},{"id":"数字劳动","name":"数字劳动","count":1},{"id":"数字孪生","name":"数字孪生","count":1},{"id":"数字技术","name":"数字技术","count":1},{"id":"数字音乐","name":"数字音乐","count":1},{"id":"数学","name":"数学","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学可视化","name":"数学可视化","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学理解","name":"数学理解","count":1},{"id":"数据安全","name":"数据安全","count":1},{"id":"数据平台","name":"数据平台","count":1},{"id":"数据库","name":"数据库","count":1},{"id":"数据库安全","name":"数据库安全","count":1},{"id":"数据检索","name":"数据检索","count":1},{"id":"数据自主权","name":"数据自主权","count":1},{"id":"整数乘法","name":"整数乘法","count":1},{"id":"文化权力","name":"文化权力","count":1},{"id":"文学","name":"文学","count":1},{"id":"文档处理","name":"文档处理","count":1},{"id":"文档管理","name":"文档管理","count":1},{"id":"文献核查","name":"文献核查","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"新闻自由","name":"新闻自由","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"无线网络","name":"无线网络","count":1},{"id":"时间序列","name":"时间序列","count":1},{"id":"星形胶质细胞","name":"星形胶质细胞","count":1},{"id":"智能体安全","name":"智能体安全","count":1},{"id":"有机化学","name":"有机化学","count":1},{"id":"未来预测","name":"未来预测","count":1},{"id":"本地模型","name":"本地模型","count":1},{"id":"权力","name":"权力","count":1},{"id":"来源引用","name":"来源引用","count":1},{"id":"检索增强生成","name":"检索增强生成","count":1},{"id":"椭圆曲线","name":"椭圆曲线","count":1},{"id":"概率方法","name":"概率方法","count":1},{"id":"模型服务","name":"模型服务","count":1},{"id":"模式识别","name":"模式识别","count":1},{"id":"模拟宇宙","name":"模拟宇宙","count":1},{"id":"殖民历史","name":"殖民历史","count":1},{"id":"气候变化","name":"气候变化","count":1},{"id":"汽车工程","name":"汽车工程","count":1},{"id":"泛化能力","name":"泛化能力","count":1},{"id":"流行文化","name":"流行文化","count":1},{"id":"流量管理","name":"流量管理","count":1},{"id":"海岸侵蚀","name":"海岸侵蚀","count":1},{"id":"消费行为","name":"消费行为","count":1},{"id":"深空通信","name":"深空通信","count":1},{"id":"混凝土","name":"混凝土","count":1},{"id":"清代历史","name":"清代历史","count":1},{"id":"漏洞研究","name":"漏洞研究","count":1},{"id":"激光通信","name":"激光通信","count":1},{"id":"激励机制","name":"激励机制","count":1},{"id":"火星探索","name":"火星探索","count":1},{"id":"热力学","name":"热力学","count":1},{"id":"爵士乐","name":"爵士乐","count":1},{"id":"版权","name":"版权","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"独特博弈","name":"独特博弈","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"甜味剂","name":"甜味剂","count":1},{"id":"生成式智能体","name":"生成式智能体","count":1},{"id":"生殖医学","name":"生殖医学","count":1},{"id":"生活方式","name":"生活方式","count":1},{"id":"生物信息学","name":"生物信息学","count":1},{"id":"生物医学工程","name":"生物医学工程","count":1},{"id":"生物技术","name":"生物技术","count":1},{"id":"生物能动性","name":"生物能动性","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"睡眠科学","name":"睡眠科学","count":1},{"id":"知识产权","name":"知识产权","count":1},{"id":"知识分子","name":"知识分子","count":1},{"id":"社交焦虑","name":"社交焦虑","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"社会关系","name":"社会关系","count":1},{"id":"社会压力","name":"社会压力","count":1},{"id":"社会参与","name":"社会参与","count":1},{"id":"社会模拟","name":"社会模拟","count":1},{"id":"社会正义","name":"社会正义","count":1},{"id":"社会治理","name":"社会治理","count":1},{"id":"社会网络","name":"社会网络","count":1},{"id":"社群组织","name":"社群组织","count":1},{"id":"视觉文化","name":"视觉文化","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"科学方法","name":"科学方法","count":1},{"id":"科学解释","name":"科学解释","count":1},{"id":"科幻","name":"科幻","count":1},{"id":"科技监管","name":"科技监管","count":1},{"id":"科研制度","name":"科研制度","count":1},{"id":"科研基础设施","name":"科研基础设施","count":1},{"id":"科研竞争","name":"科研竞争","count":1},{"id":"科研管理","name":"科研管理","count":1},{"id":"科研组织","name":"科研组织","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"程序正确性","name":"程序正确性","count":1},{"id":"程序验证","name":"程序验证","count":1},{"id":"稳定币","name":"稳定币","count":1},{"id":"空间转录组","name":"空间转录组","count":1},{"id":"算法歧视","name":"算法歧视","count":1},{"id":"类型小说","name":"类型小说","count":1},{"id":"类型系统","name":"类型系统","count":1},{"id":"粒子物理","name":"粒子物理","count":1},{"id":"糖尿病","name":"糖尿病","count":1},{"id":"系外行星","name":"系外行星","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"系统架构","name":"系统架构","count":1},{"id":"系统设计","name":"系统设计","count":1},{"id":"红队测试","name":"红队测试","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"纳维-斯托克斯方程","name":"纳维–斯托克斯方程","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"线粒体","name":"线粒体","count":1},{"id":"细胞治疗","name":"细胞治疗","count":1},{"id":"细胞重编程","name":"细胞重编程","count":1},{"id":"经济统计","name":"经济统计","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"结构化日志","name":"结构化日志","count":1},{"id":"编程","name":"编程","count":1},{"id":"编程竞赛","name":"编程竞赛","count":1},{"id":"网站架构","name":"网站架构","count":1},{"id":"网络互连","name":"网络互连","count":1},{"id":"网络文化","name":"网络文化","count":1},{"id":"网络流量","name":"网络流量","count":1},{"id":"网络爬虫","name":"网络爬虫","count":1},{"id":"群体冲突","name":"群体冲突","count":1},{"id":"群论","name":"群论","count":1},{"id":"考古学","name":"考古学","count":1},{"id":"职业培训","name":"职业培训","count":1},{"id":"肠道菌群","name":"肠道菌群","count":1},{"id":"能效","name":"能效","count":1},{"id":"能量模型","name":"能量模型","count":1},{"id":"脑衰老","name":"脑衰老","count":1},{"id":"自主性","name":"自主性","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我反思","name":"自我反思","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自然语言","name":"自然语言","count":1},{"id":"自然选择","name":"自然选择","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"航天产业","name":"航天产业","count":1},{"id":"艺术史","name":"艺术史","count":1},{"id":"艺术批评","name":"艺术批评","count":1},{"id":"艺术教育","name":"艺术教育","count":1},{"id":"芯片设计","name":"芯片设计","count":1},{"id":"范畴论","name":"范畴论","count":1},{"id":"莫尔材料","name":"莫尔材料","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"虚无主义","name":"虚无主义","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"行为科学","name":"行为科学","count":1},{"id":"行为经济学","name":"行为经济学","count":1},{"id":"行为金融","name":"行为金融","count":1},{"id":"表示论","name":"表示论","count":1},{"id":"表达方法","name":"表达方法","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算成本","name":"计算成本","count":1},{"id":"计算机使用智能体","name":"计算机使用智能体","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机硬件","name":"计算机硬件","count":1},{"id":"计算经济","name":"计算经济","count":1},{"id":"订阅经济","name":"订阅经济","count":1},{"id":"认知偏差","name":"认知偏差","count":1},{"id":"认知外包","name":"认知外包","count":1},{"id":"认知工具","name":"认知工具","count":1},{"id":"训练数据","name":"训练数据","count":1},{"id":"设计系统","name":"设计系统","count":1},{"id":"证明助手","name":"证明助手","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"语言学习","name":"语言学习","count":1},{"id":"读者社群","name":"读者社群","count":1},{"id":"诽谤诉讼","name":"诽谤诉讼","count":1},{"id":"谄媚行为","name":"谄媚行为","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财富积累","name":"财富积累","count":1},{"id":"费马大定理","name":"费马大定理","count":1},{"id":"资源稀缺","name":"资源稀缺","count":1},{"id":"资源管理","name":"资源管理","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"跨学科学习","name":"跨学科学习","count":1},{"id":"身份认同","name":"身份认同","count":1},{"id":"软件经济","name":"软件经济","count":1},{"id":"软件质量","name":"软件质量","count":1},{"id":"辛几何","name":"辛几何","count":1},{"id":"进化心理学","name":"进化心理学","count":1},{"id":"递归语言模型","name":"递归语言模型","count":1},{"id":"通缩","name":"通缩","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化","name":"量化","count":1},{"id":"量子模拟","name":"量子模拟","count":1},{"id":"量子证明","name":"量子证明","count":1},{"id":"金融分析","name":"金融分析","count":1},{"id":"金融工程","name":"金融工程","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融科技","name":"金融科技","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"随机算法","name":"随机算法","count":1},{"id":"集体创作","name":"集体创作","count":1},{"id":"集体智能","name":"集体智能","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非营利组织","name":"非营利组织","count":1},{"id":"面向对象编程","name":"面向对象编程","count":1},{"id":"音乐创作","name":"音乐创作","count":1},{"id":"项目规划","name":"项目规划","count":1},{"id":"预测","name":"预测","count":1},{"id":"高维几何","name":"高维几何","count":1},{"id":"黎曼猜想","name":"黎曼猜想","count":1},{"id":"黑洞","name":"黑洞","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":106},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":243},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":72},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":186}],"children":"$Lf"}]]}]]}]
+f:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+10:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+11:T1bc63,<h2>摘要</h2>
+<p>Lex Fridman 第一次来到台湾，跟随黄仁勋穿梭于台北国际电脑展、饶河夜市、宁夏夜市与餐桌之间。这趟旅程既记录了工程师受到摇滚明星般欢迎的热闹场面，也留下了关于芯片、产业与人生的长谈。黄仁勋解释 AI 如何改变计算设备的设计与商业模式，回顾台湾半导体产业的发展，以及英伟达与台积电延续三十年的合作；谈到出口管制时，他强调技术、客户与财富相互促进的循环。童年夜市的记忆、招待记者的食物和一顿接一顿的台湾小吃，则让这些宏大话题落回人与人的善意、信任和共同生活。</p>
+<h2>内容概述</h2>
+<ul>
+<li><strong>工程师之乡与 AI 计算：</strong> 从液冷系统、Vera CPU、内存和老显卡，到主题演讲背后的准备、紧张与产业动员。</li>
+<li><strong>台湾科技产业的来路：</strong> 黄仁勋回顾李国鼎、张忠谋、台积电、联电和个人电脑产业之间的联系，并谈及美国重新工业化与台湾的角色。</li>
+<li><strong>夜市里的童年与日常：</strong> 饶河街和宁夏夜市的包子、地瓜球、蚵仔煎、面条、刨冰与汤圆，串起童年回忆、手艺人的坚持和待客之道。</li>
+<li><strong>竞争、出口管制与共同繁荣：</strong> 两人讨论国家安全、技术平台的全球覆盖、经济与技术的正向循环，以及相互依存如何降低冲突风险。</li>
+<li><strong>一封信与三十年合作：</strong> 早餐桌上，黄仁勋讲述创业初期寻找晶圆代工厂、收到张忠谋回电的经过，以及选择合作伙伴时对诚信、长期主义和彼此成功的看重。</li>
+</ul>
+<h2>目录</h2>
+<ul>
+<li><a href="#taiwan-section-1">精彩片段</a></li>
+<li><a href="#taiwan-section-2">初访台湾</a></li>
+<li><a href="#taiwan-section-3">逛台北国际电脑展</a></li>
+<li><a href="#taiwan-section-4">主题演讲前的紧张与责任</a></li>
+<li><a href="#taiwan-section-5">台湾科技产业的历史</a></li>
+<li><a href="#taiwan-section-6">饶河夜市</a></li>
+<li><a href="#taiwan-section-7">童年的夜市</a></li>
+<li><a href="#taiwan-section-8">NVIDIA 聚会与游戏回忆</a></li>
+<li><a href="#taiwan-section-9">午餐：卤猪脚</a></li>
+<li><a href="#taiwan-section-10">出口管制、AI 与竞争</a></li>
+<li><a href="#taiwan-section-11">宁夏夜市</a></li>
+<li><a href="#taiwan-section-12">台湾早餐</a></li>
+<li><a href="#taiwan-section-13">寻找代工厂与张忠谋的回电</a></li>
+<li><a href="#taiwan-section-14">选择伙伴与三十年的信任</a></li>
+<li><a href="#taiwan-section-15">片尾：感谢这段旅程</a></li>
+<li><a href="#basic-info">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/FGCP2F_7rQk" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>走访与对话全文</h2>
+<p><a id="taiwan-section-1"></a></p>
+<h3>精彩片段（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=0s">0:00</a>）</h3>
+<p><strong>黄仁勋：</strong> 我们要一起待上几天。</p>
+<p><strong>现场人士：</strong> 太好了。</p>
+<p><strong>黄仁勋：</strong> 我要带他看看台湾。</p>
+<p><strong>Lex：</strong> 这趟经历让我大开眼界。</p>
+<p><strong>现场人士：</strong> 看看这个！女士们、先生们，Lex Fridman！</p>
+<p><strong>Lex：</strong> 大家好。</p>
+<p><strong>现场人士：</strong> 这就是著名的蚵仔煎。太棒了，太棒了，太棒了！</p>
+<p><strong>Lex：</strong> 就像六十年代的披头士一样。</p>
+<p><strong>现场人士：</strong> 谢谢你，Jensen。</p>
+<p><strong>Lex：</strong> Jensen 太喜欢逛夜市了，怎么可能不去呢？闻起来真香。看看这是什么，来尝尝这个。简直不可思议。太棒了。这一周堪称我人生中最不可思议的经历之一，就这样告一段落了。</p>
+<p><a id="taiwan-section-2"></a></p>
+<h3>初访台湾（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=46s">0:46</a>）</h3>
+<p><strong>Lex：</strong> 我现在来到了台湾，这是我第一次来。此行的一个目的，是和 NVIDIA 的创始人兼首席执行官黄仁勋一起待一段时间。NVIDIA 是全球市值最高的公司，也是人类文明史上影响最深远的公司之一。我还要参加台北国际电脑展 Computex。这是一场规模庞大的展会，工程师汇聚成海，而这里正是这片工程师之乡的中心——台北。</p>
+<p>台湾这座岛屿有三分之二的面积是山地，却生产着全球超过 90% 的最先进半导体。可以说，没有这一个地方，就不会有我们今天使用的每一台电脑、每一部智能手机、每一块 GPU，以及每一个 AI 数据中心。</p>
+<p><strong>Lex：</strong> 这样的地方，几乎不可能在世界其他地区复制出来。我常常思考古代历史、人类文明，以及哥贝克力石阵、埃及金字塔这样的地方。它们究竟是如何建成的，至今仍有许多谜团。想到地球上还有像这些古代建筑一样、我们尚未完全理解其建造方式的地方，会让人感到自己的渺小。台湾为什么能在半导体产业中占据如此重要的地位？当然，这个问题有答案，其中一部分与文化有关。</p>
+<p>还有一部分与教育体系有关，与工程学在教育体系中受到多大重视有关。而这一切，对未来几年、几十年乃至几个世纪，都有着重大的技术和地缘政治影响。我当然希望我们能够相互竞争，同时保持友好。我认为，这其中很重要的一点，就是了解彼此，了解并尊重彼此的文化与历史，同时携手合作，让经济、技术和供应链彼此连接。</p>
+<p><strong>Lex：</strong> 同样重要的，还有人与人之间的交流：相互交谈，彼此通婚，一起喝啤酒，一起吃饭，等等。这就是我一直想做的，也是我来到这里想做的事情。能在这么多来自世界各地的杰出工程师中间做这些事，是一种莫大的荣幸。能和独一无二的 Jensen 一起经历这一切，同样如此。他是一个非常好的人。经过这么多年，他依然能够保持谦逊，真正倾听别人，把身边的每个人都当作一个值得认真对待的人，也包括我。这真是莫大的荣幸。而且，他还是个美食家。</p>
+<p>要品尝台湾美食，没有比 Jensen 更合适的同行者了。好了，我们出发吧。</p>
+<p><a id="taiwan-section-3"></a></p>
+<h3>逛台北国际电脑展（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=205s">3:25</a>）</h3>
+<p><strong>Lex：</strong> 嗨，Jensen！</p>
+<p><strong>黄仁勋：</strong> Lex，最近怎么样？</p>
+<p><strong>Lex：</strong> 很高兴见到你。</p>
+<p><strong>黄仁勋：</strong> 欢迎来到台湾。大家好！你们知道这是谁吗？大名鼎鼎的——</p>
+<p><strong>现场人士：</strong> 知道！Lex！我爱你！</p>
+<p><strong>Lex：</strong> 我也爱你。</p>
+<p><strong>黄仁勋：</strong> 全世界都只叫他 Lex，跟我一样，大家就叫我 Jensen。</p>
+<p><strong>Lex：</strong> 只要一个名字，别人就知道你是谁，那就说明你真的出名了。</p>
+<p><strong>黄仁勋：</strong> 只要一个名字。</p>
+<p><strong>Lex：</strong> 碧昂丝。Jensen，碧昂丝。</p>
+<p><strong>黄仁勋：</strong> 你在中国玩得怎么样？</p>
+<p><strong>Lex：</strong> 太棒了，真的太棒了。大家都非常友善。</p>
+<p><strong>现场人士：</strong> Lex！你是摇滚明星！</p>
+<p><strong>黄仁勋：</strong> 大家好，很高兴见到你们。你好，你好！大家好！见到大家真高兴。</p>
+<p><strong>Lex：</strong> 大家好。这场面真的太疯狂了。Jensen，我——</p>
+<p><strong>黄仁勋：</strong> Mike，你认识大名鼎鼎的 Lex Fridman 吗？</p>
+<p><strong>现场人士：</strong> 很高兴认识你。</p>
+<p><strong>黄仁勋：</strong> 看看这位。他正在亚洲旅行。大家好！很高兴——大家都认识大名鼎鼎的 Lex Fridman 吗？</p>
+<p><strong>Lex：</strong> 别这样，别这样。</p>
+<p><strong>现场人士：</strong> 哇！Jensen，我爱你！</p>
+<p><strong>黄仁勋：</strong> 看看这个，看看这个。没有线缆，没有软管。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 百分之百液冷。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 上一代 Grace Blackwell 只有 80% 采用液冷，现在是百分之百。组装时间从两小时缩短到了五分钟。容易制造的东西——</p>
+<p><strong>Lex：</strong> 是的。</p>
+<p><strong>黄仁勋：</strong> 也更可靠。</p>
+<p><strong>Lex：</strong> 现在已经正式全面量产了，对吧？</p>
+<p><strong>黄仁勋：</strong> 对，现在已经全面量产了。不可思议吧？</p>
+<p><strong>Lex：</strong> 是，真的不可思议。</p>
+<p><strong>黄仁勋：</strong> 这里所有的东西，全部都是。</p>
+<p><strong>Lex：</strong> 还有 Vera CPU，你们也在全力投入 CPU。我看到了——</p>
+<p><strong>黄仁勋：</strong> 对，对。</p>
+<p><strong>Lex：</strong> 性能是 x86 的 1.8 倍。</p>
+<p><strong>黄仁勋：</strong> 非常惊人。x86 CPU，那些用于超大规模数据中心的 CPU，设计之初是为了出租。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 所以你希望 CPU 核心越多越好。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 因为上一代 CPU 的经济账，算的是每个核心能带来多少美元。可到了这个新世界，情况就不同了。AI 不租用核心。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> AI 生成 token，然后出售 token。</p>
+<p><strong>Lex：</strong> 是的，没错。</p>
+<p><strong>黄仁勋：</strong> 所以，你最根本的目标，是尽可能快地完成这一轮交互，尽可能快地跑完这个循环，尽可能快地生成 token。</p>
+<p><strong>Lex：</strong> 对，对。</p>
+<p><strong>Lex：</strong> 买得越多，赚得越多。你可能是世界上最好的销售员。这句话说得真好。</p>
+<p><strong>黄仁勋：</strong> Lex，这很简单啊，不是什么复杂的事情。</p>
+<p><strong>Lex：</strong> 是。</p>
+<p><strong>黄仁勋：</strong> 技术很复杂，但商业模式……</p>
+<p><strong>现场人士：</strong> 太棒了，太棒了，太棒了！谢谢。</p>
+<p><strong>黄仁勋：</strong> 好了，Lex，你得在这里签个名。Lex 也来过这里。</p>
+<p><strong>Lex：</strong> 好。</p>
+<p><strong>黄仁勋：</strong> 大名鼎鼎的 Lex Fridman。</p>
+<p><strong>现场人士：</strong> 对，没错。</p>
+<p><strong>Lex：</strong> 看看大家给我的这些热情。真是太棒了，太不可思议了。</p>
+<p><strong>现场人士：</strong> 他是碰巧来这里的吗？</p>
+<p><strong>黄仁勋：</strong> 不是，他可不是碰巧来的。他特意飞来和我一起玩。我们要一起待上几天。</p>
+<p><strong>现场人士：</strong> 哦，太好了。</p>
+<p><strong>黄仁勋：</strong> 我要带他看看台湾。Lex 有一档很棒的播客，节目很长。</p>
+<p><strong>Lex：</strong> 非常、非常长。</p>
+<p><strong>现场人士：</strong> 那就能学到很多东西。</p>
+<p><strong>黄仁勋：</strong> 能学到很多。</p>
+<p><strong>现场人士：</strong> 学到很多，学到很多。</p>
+<p><strong>Lex：</strong> 谢谢。</p>
+<p><strong>黄仁勋：</strong> AI 是一个五层蛋糕。我想吃那一块。Lex，尝一口。</p>
+<p><strong>Lex：</strong> 我想吃那个，绿色的那块。</p>
+<p><strong>黄仁勋：</strong> 你吃到一些好吃的东西了吗？</p>
+<p><strong>Lex：</strong> 吃到了，街头小吃。</p>
+<p><strong>黄仁勋：</strong> 是不是特别棒？</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>黄仁勋：</strong> 特别棒吧？很好吃。</p>
+<p><strong>Lex：</strong> 不错。这是展会上的蛋糕。</p>
+<p><strong>现场人士：</strong> 好，就这么办。现在，请 Jensen 和广达、云达 QCT 的各位高管登台，拍最后一张合影。</p>
+<p><strong>Lex：</strong> Jensen 这待遇，真的就像六十年代的披头士一样。</p>
+<p><strong>黄仁勋：</strong> 区别在于，披头士真的有才华。</p>
+<p><strong>Lex：</strong> 得了吧。我看过你在台上跳舞，还不错，真的挺好。</p>
+<p><strong>黄仁勋：</strong> 可没到约翰·特拉沃尔塔那个水平。</p>
+<p><strong>现场人士：</strong> 还记得吗？</p>
+<p><strong>黄仁勋：</strong> 天哪，这是最棒的东西之一。我对它有太多美好的回忆了。</p>
+<p><strong>现场人士：</strong> 是啊。</p>
+<p><strong>黄仁勋：</strong> 女士们、先生们，欢迎来到 SK 海力士。万亿美元级的公司。难怪供应这么紧张，内存这么大。你想要个三明治吗？</p>
+<p><strong>Lex：</strong> SK 海力士，堪称传奇的高带宽内存公司。</p>
+<p><strong>黄仁勋：</strong> 这是我们首创的，把 LPDDR 内存引入数据中心。带宽翻倍，功耗减半。带宽翻倍，功耗减半。</p>
+<p><strong>Lex：</strong> 现在请多生产一些。</p>
+<p><strong>黄仁勋：</strong> 对，对，请多生产一些。哦，看看这个，真美。我年轻的时候，会觉得这样不好。可现在，我喜欢侘寂。你知道，美好的东西也可以不完美。</p>
+<p><strong>Lex：</strong> 是的。</p>
+<p><strong>黄仁勋：</strong> 对，我很喜欢。</p>
+<p><strong>Lex：</strong> 不完美就是美。</p>
+<p><strong>黄仁勋：</strong> 对，看看它，独一无二。</p>
+<p><strong>Lex：</strong> 我最喜欢的，就是大家带来的各种不同的 GPU——</p>
+<p><strong>黄仁勋：</strong> 我懂，太棒了，是不是？</p>
+<p><strong>Lex：</strong> 那些老型号，老款 1080，还有 Titan RTX。</p>
+<p><strong>黄仁勋：</strong> 对，对。这个，看看这个。</p>
+<p><strong>Lex：</strong> 漂亮。这是——</p>
+<p><strong>黄仁勋：</strong> Titan，1080 那一代的 Titan。</p>
+<p><strong>现场人士：</strong> 这个我在电视上看过。让我解释一下。周年纪念。</p>
+<p><strong>黄仁勋：</strong> 我们是兄弟。</p>
+<p><strong>现场人士：</strong> 我们是兄弟。对，我们是兄弟。干杯！给你，朋友。</p>
+<p><strong>Lex：</strong> 好，谢谢。挺不错的。</p>
+<p><strong>现场人士：</strong> 能有一个……真好。我喜欢这个家伙。嘿，我太喜欢这些人了。是啊。</p>
+<p><strong>黄仁勋：</strong> Lex，试试这个。Lex！</p>
+<p><strong>Lex：</strong> 机械键盘？</p>
+<p><strong>黄仁勋：</strong> 天哪，这种最好用了。</p>
+<p><strong>Lex：</strong> 哦，真不错。</p>
+<p><strong>黄仁勋：</strong> 感受一下这个手感，多舒服啊。这就是真正的快乐。</p>
+<p><strong>Lex：</strong> 有个坏消息要告诉你。</p>
+<p><strong>黄仁勋：</strong> 哦？</p>
+<p><strong>Lex：</strong> 未来大部分操作可能都会通过语音完成。</p>
+<p><strong>黄仁勋：</strong> 我也这么觉得。不过，我打字的时候思路更清楚，你不觉得吗？</p>
+<p><strong>Lex：</strong> 是，是。</p>
+<p><strong>黄仁勋：</strong> 如果只是开口说话，我会比较难思考。</p>
+<p><strong>Lex：</strong> 速度并不代表一切。有时候，你得停下来想一想。</p>
+<p><strong>现场人士：</strong> 看看这个，一下回到了八十年代。看看！Jensen，做 AI 你需要这个。这是给你的。这个，这个，这个，还有这个。</p>
+<p><strong>黄仁勋：</strong> 谢谢你，兄弟。</p>
+<p><strong>现场人士：</strong> 女士们、先生们，Lex Fridman！</p>
+<p><a id="taiwan-section-4"></a></p>
+<h3>主题演讲前的紧张与责任（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=552s">9:12</a>）</h3>
+<p><strong>Lex：</strong> 大家好。</p>
+<p><strong>黄仁勋：</strong> 大家都很友善。</p>
+<p><strong>Lex：</strong> 大家太热情了。</p>
+<p><strong>黄仁勋：</strong> 人们真的很好。</p>
+<p><strong>Lex：</strong> 这么多热情，这么多善意。</p>
+<p><strong>黄仁勋：</strong> 是啊。</p>
+<p><strong>Lex：</strong> 主题演讲开始之前，你会紧张吗？全世界都在看着——</p>
+<p><strong>黄仁勋：</strong> 我总会紧张。我当时特别紧张，真的特别紧张。不过，我一直都会紧张。只要是公开讲话，不管是什么场合，我都会这样。</p>
+<p><strong>Lex：</strong> 这能让你保持敏锐？</p>
+<p><strong>黄仁勋：</strong> 是的。我不会把这些机会当成理所当然。我想把事情做好。可所有东西都是在最后一刻才整合起来，根本很难练习，我们也确实没有排练。所以，我并不确切知道自己到时候会说出哪些话。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 而且，没有提词器。</p>
+<p><strong>黄仁勋：</strong> 如果我们要在未来几年里制造并售出价值几万亿美元的计算设备，这整座岛都必须参与进来。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 这整个生态系统都必须参与进来。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 这里的每一家公司，都要在未来几年里投入数千亿美元。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 所以，首先，他们得理解这件事，受到鼓舞，愿意参与进来，也明白自己能从中获得什么。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 因此，在主题演讲中，我努力用尽可能少的话，把这些内容提炼出来。可不像旁边这位。</p>
+<p><strong>Lex：</strong> 顺便说一句，Jensen 对我表现出了极大的热情，我都觉得自己受之有愧。但他对每个人都是如此，每一个人。你也通过笔记本电脑和游戏，向玩家表达了这份热情。</p>
+<p><strong>黄仁勋：</strong> 我爱玩家。我们就是从那里起步的。别忘了自己的根。无论站得多高，都别让双脚离开地面。</p>
+<p><strong>Lex：</strong> 玩家是这个世界上最有热情的一群人。我人生中一些最快乐的时刻，就是用 NVIDIA 的硬件玩电子游戏。看看那里，看看！</p>
+<p><strong>Lex：</strong> 看看……看看这些人。真的不可思议。这是我一生难得的荣幸。谢谢你带我经历这一切。</p>
+<p><strong>黄仁勋：</strong> 哇。我也真的很喜欢和你一起玩。</p>
+<p><strong>现场人士：</strong> 好，我们去把事情办妥吧？</p>
+<p><strong>黄仁勋：</strong> 走，去办吧。</p>
+<p><strong>现场人士：</strong> 走吧。能帮我签个名吗？</p>
+<p><strong>Lex：</strong> FIRST 机器人竞赛的 T 恤。</p>
+<p><strong>黄仁勋：</strong> 哇。</p>
+<p><strong>现场人士：</strong> 谢谢，谢谢。</p>
+<p><strong>黄仁勋：</strong> 我喜欢这个。看，2026 年。</p>
+<p><strong>Lex：</strong> 年轻工程师们在造机器人。其中大部分，可能都装着 NVIDIA 的“大脑”。</p>
+<p><strong>黄仁勋：</strong> 真棒。现在，你也得签个名。</p>
+<p><strong>Lex：</strong> 好。</p>
+<p><strong>黄仁勋：</strong> 来，我帮你拿着。</p>
+<p><strong>Lex：</strong> 谢谢，朋友。</p>
+<p><strong>现场人士：</strong> 谢谢。</p>
+<p><strong>现场人士：</strong> 继续。谢谢。好了，真棒。继续，继续，太好了。谢谢，干得好。嘿，Lex，这里还有。这里也有，还有这里，还有这里。非常感谢！干杯！</p>
+<p><strong>Lex：</strong> 好，大家干杯，干杯！</p>
+<p><strong>现场人士：</strong> 干杯，干杯！还有 Oliver 的。干杯！Jerry，干杯！是的，真的，真的。</p>
+<p><strong>Lex：</strong> 我太喜欢了。</p>
+<p><strong>现场人士：</strong> 对，对，对。</p>
+<p><strong>现场人士：</strong> 好吃吗？</p>
+<p><strong>Lex：</strong> 让我尝尝。好吃都不足以形容。那位已经见识过了。</p>
+<p><strong>现场人士：</strong> 嗯，没错。</p>
+<p><strong>Lex：</strong> 远不止是好吃。</p>
+<p><strong>现场人士：</strong> 吃完以后，请帮我们签个名。</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>现场人士：</strong> 哇，真的好吃。</p>
+<p><strong>Lex：</strong> 我现在真的很需要这个。</p>
+<p><strong>现场人士：</strong> 是啊。</p>
+<p><strong>现场人士：</strong> 你今天一定忙了很久吧，从早上就开始了。</p>
+<p><strong>Lex：</strong> 是啊。面团绵软，带着咸味，再配一杯好啤酒。台湾啤酒。</p>
+<p><strong>现场人士：</strong> 台湾啤酒。</p>
+<p><strong>Lex：</strong> 是。这就是今天参观最棒的部分。</p>
+<p><strong>现场人士：</strong> 完全同意。天哪，太棒了。现在只差用 3D 打印给你做一尊雕像了。</p>
+<p><strong>黄仁勋：</strong> 千万别这么做。好了，各位，谢谢大家。</p>
+<p><a id="taiwan-section-5"></a></p>
+<h3>台湾科技产业的历史（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=783s">13:03</a>）</h3>
+<p><strong>现场人士：</strong> 再见。</p>
+<p><strong>黄仁勋：</strong> 来，Lex，跟着我。Lex，Lex 在哪儿？</p>
+<p><strong>Lex：</strong> 在这里。</p>
+<p><strong>黄仁勋：</strong> 到另一边去。</p>
+<p><strong>Lex：</strong> 你确定吗？没问题？</p>
+<p><strong>黄仁勋：</strong> 当然，当然。</p>
+<p><strong>Lex：</strong> 谢谢，谢谢您。</p>
+<p><strong>黄仁勋：</strong> 我不会把你一个人丢在台湾的。你知道，我肯定会再找到你。</p>
+<p><strong>Lex：</strong> 没错，大概是在某条河里找到我。这真是太不可思议的经历了。</p>
+<p><strong>黄仁勋：</strong> 真是令人惊叹，大家倾注了这么多热情——</p>
+<p><strong>Lex：</strong> 看到一个工程师受到摇滚明星般的欢迎，真的很鼓舞人心。因为工程师建设了这个世界，却常常得不到我认为他们应得的喜爱。你激励了成千上万、甚至数百万的孩子，让他们觉得：“好，我也要当工程师。”</p>
+<p><strong>黄仁勋：</strong> 是的，没错，正是这样。</p>
+<p><strong>Lex：</strong> 你那趟中国之行怎么样？</p>
+<p><strong>黄仁勋：</strong> 天哪，我那趟中国之行简直乱成一团。你看到那些场面了吗？我去北京市中心，结果现场一下就沸腾了，完全失控。</p>
+<p><strong>Lex：</strong> 你也去吃东西了，对吧？</p>
+<p><strong>黄仁勋：</strong> 我每家餐馆的东西都吃了。然后我就成了每一家餐馆的代言人。他们动作可快了，大概半个小时，我就已经出现在网上，替每一家餐馆宣传了。</p>
+<p><strong>黄仁勋：</strong> 我们明天中午有一顿特别棒的午餐。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 怎么样？真的是好吃得不得了。要吃的是粽子。</p>
+<p><strong>Lex：</strong> 不错。</p>
+<p><strong>黄仁勋：</strong> 他们用茶叶把它包起来。</p>
+<p><strong>Lex：</strong> 不错。</p>
+<p><strong>黄仁勋：</strong> 而我们要吃的这一家，就是最顶级的。</p>
+<p><strong>Lex：</strong> 说到 Computex，谢谢你带我来，谢谢你的建议。我好像从来没有经历过这样的场面，到处都是出色的工程师。</p>
+<p><strong>黄仁勋：</strong> 全世界的电脑就是在这里制造出来的。</p>
+<p><strong>Lex：</strong> 是啊。</p>
+<p><strong>黄仁勋：</strong> 而且，大家都特别谦逊。</p>
+<p><strong>Lex：</strong> 对，谦逊。</p>
+<p><strong>黄仁勋：</strong> 真的很谦逊。</p>
+<p><strong>Lex：</strong> 谦逊也是我在中国感受到的一点。我在那里采访了不少做 AI 的人，来到台湾也是一样。就是谦逊，始终如一的谦逊。</p>
+<p><strong>黄仁勋：</strong> 是的。</p>
+<p><strong>Lex：</strong> 这些年轻工程师正在改变世界。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 却一点都不傲慢。</p>
+<p><strong>黄仁勋：</strong> 在美国，我们必须把制造业带回来。AI 热潮是我们投资电网、投资可持续能源、重新投资制造业的最佳机会。需求实在太大了。当需求如此旺盛时，不管你在世界什么地方生产，实际上都负担得起相应的成本。所以，我们也不妨在美国制造。</p>
+<p>抓住这个机会吧。现在，AI 和机器人都在进入制造业，这可能是美国重新工业化的最佳时机，可以把这些年来逐渐失去的许多产业重新带回美国。这就是我的希望。我正在努力推动美国重新工业化，而现在正是一个绝佳的时机。</p>
+<p><strong>Lex：</strong> 台积电的人说，你得去亚利桑那州看看。</p>
+<p><strong>黄仁勋：</strong> 对，确实如此。真正值得肯定的是，台湾是美国重新工业化的战略伙伴。你看，我们要在美国建晶圆厂，他们做了什么？他们派来一大批工程师，投入了大量资金。要在美国建立世界一流的半导体制造能力，并不容易，因为那里还没有足够的人才。</p>
+<p>所以，他们派来很多人，培训当地员工，还带来了……从技术角度来说，台湾确实是美国真正的战略伙伴。我真的希望大家能认识到这一点。</p>
+<p><strong>Lex：</strong> 你能不能分享一些看法，帮助我们理解：为什么这么多杰出的公司，分布在整个技术体系的各个层面，尤其是硬件基础设施领域，却都来自这里？</p>
+<p><strong>黄仁勋：</strong> 这可以追溯到一位叫李国鼎，也就是 K. T. Li 的先生。他当时在负责科学与工业的政府部门任职，被赋予了相关职责。在五十年代，他就有一个愿景：把科学、技术和科技制造业带到这座岛上。正是他的这个愿景，促使 Morris，也就是张忠谋，回到这里。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 而在这一切发生之前——具体的历史经过我记不太清了——飞利浦这家母公司分拆出的晶圆厂，后来成了台积电；分拆出的半导体制造设备业务，后来成了 ASML。这些竟然都来自飞利浦，真是不可思议。那是一家消费电子公司，相当于欧洲的通用电气。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 你应该记得，通用电气早期也从事半导体制造，也做各种先进制造业务。不知通过怎样的努力，李国鼎吸引了飞利浦来到台湾，那才是真正的开端。</p>
+<p><strong>Lex：</strong> 就像把种子种了下来。</p>
+<p><strong>黄仁勋：</strong> 对，对。</p>
+<p><strong>黄仁勋：</strong> 联电和台积电当时都在寻找合适的芯片来生产，恰好遇上了个人电脑革命，时机完美。IBM 做了一件很有远见的事，把所谓“IBM 兼容芯片组”的规格开放了。</p>
+<p>也就是构成主板的那些芯片：缓存控制器、内存控制器、中断控制器、VGA 控制器、图形控制器等等。这些规格都有明确规定，而且是公开的。于是，这些聪明的工程师就根据规格设计出芯片组，再交给台积电和联电制造。这就是个人电脑产业真正发展起来的起点。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 最初是康柏、IBM 这些公司。后来，因为台湾生产的 PC 芯片组向各种公司供应，其中也包括一个叫迈克尔·戴尔的小伙子，整个行业就发展起来了。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 他从台湾买来主板，组装成 PC，再从微软购买、获得操作系统的使用许可。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 这样，他就成了一家 PC 制造商。这一整套链条……迈克尔和台湾的渊源，可追溯到很久以前。</p>
+<p><strong>Lex：</strong> 而他来自得克萨斯州的奥斯汀。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 奥斯汀的骄傲。</p>
+<p><strong>黄仁勋：</strong> 是啊。</p>
+<p><strong>Lex：</strong> 他现在做得——</p>
+<p><strong>黄仁勋：</strong> 真是个好人。</p>
+<p><strong>Lex：</strong> 对，非常好。</p>
+<p><strong>黄仁勋：</strong> 特别友善。</p>
+<p><strong>Lex：</strong> 一个非常好的人。</p>
+<p><strong>黄仁勋：</strong> 对，确实非常好。</p>
+<p><strong>Lex：</strong> 这也与文化有关。有位很友善的女士告诉我，她在台湾长大。她说：“我还是个小女孩的时候，连 Gucci 都还不会拼，就已经会拼 CoWoS 了。”我觉得这句话很妙，也说明了工程技术在这里的文化中有多受重视。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 也就是，什么样的东西会被认为很酷。</p>
+<p><strong>黄仁勋：</strong> CoWoS。</p>
+<p><strong>Lex：</strong> 所以，Jensen，谢谢你让工程技术重新酷了起来。</p>
+<p><strong>黄仁勋：</strong> 对，我们让科技重新变得性感了。</p>
+<p><strong>Lex：</strong> 让性感回归。好，谢谢你，兄弟。</p>
+<p><strong>黄仁勋：</strong> 好。</p>
+<p><strong>Lex：</strong> 非常感谢。</p>
+<p><strong>黄仁勋：</strong> 那就明天晚上一起吃饭。</p>
+<p><strong>Lex：</strong> 好。</p>
+<p><strong>黄仁勋：</strong> 好吗？</p>
+<p><strong>Lex：</strong> 还有夜市。</p>
+<p><strong>黄仁勋：</strong> 对，吃完饭再去夜市。</p>
+<p><strong>Lex：</strong> 好，坚持住。</p>
+<p><strong>黄仁勋：</strong> 好。</p>
+<p><a id="taiwan-section-6"></a></p>
+<h3>饶河夜市（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=1187s">19:47</a>）</h3>
+<p><strong>Lex：</strong> 实在忍不住，非来不可。黄仁勋太爱夜市了，怎么可能不来。</p>
+<p><strong>现场人士：</strong> 太棒了。</p>
+<p><strong>Lex：</strong> 大家真喜欢黄仁勋啊。</p>
+<p><strong>黄仁勋：</strong> 谢谢，谢谢。</p>
+<p><strong>现场人士：</strong> 哇，好烫！刚出炉的，太棒了！</p>
+<p><strong>现场人士：</strong> 不用，不用。</p>
+<p><strong>Lex：</strong> 看起来太诱人了。</p>
+<p><strong>黄仁勋：</strong> 现在就吃，这个最好吃。</p>
+<p><strong>现场人士：</strong> 干杯！</p>
+<p><strong>Lex：</strong> 好，我现在是真的等不及要吃了。</p>
+<p><strong>现场人士：</strong> 干杯！</p>
+<p><strong>Lex：</strong> 这场面太疯狂了。</p>
+<p><strong>黄仁勋：</strong> 别把那个白人小伙子弄丢了。</p>
+<p><strong>现场人士：</strong> 我看着他呢。你可以留一个。菠萝还是西瓜？</p>
+<p><strong>Lex：</strong> 我想选西瓜。</p>
+<p><strong>现场人士：</strong> 西瓜，对吧？</p>
+<p><strong>现场人士：</strong> 西瓜。</p>
+<p><strong>现场人士：</strong> 西瓜。这个有点像汉堡。</p>
+<p><strong>现场人士：</strong> 不错。</p>
+<p><strong>黄仁勋：</strong> 咬一口吧。我觉得可以了，应该已经没那么烫了。</p>
+<p><strong>Lex：</strong> 对，温温热热的正好。</p>
+<p><strong>黄仁勋：</strong> 嗯，应该不烫了。你肯定会很喜欢。</p>
+<p><strong>Lex：</strong> 哇，太好吃了。</p>
+<p><strong>黄仁勋：</strong> 我就知道。很高兴认识你。</p>
+<p><strong>现场人士：</strong> 我来拿摄像机。</p>
+<p><strong>Lex：</strong> 嗯。外面真的很热，这个冰冰凉凉的，特别解暑。</p>
+<p><strong>Lex：</strong> 神秘小圆球。</p>
+<p><strong>现场人士：</strong> 地瓜。</p>
+<p><strong>Lex：</strong> 太好吃了。真的太好吃了。</p>
+<p><strong>现场人士：</strong> 尝一个。</p>
+<p><strong>Lex：</strong> 原来里面是空心的，外面脆脆的。就像地瓜做的棉花糖。</p>
+<p><strong>现场人士：</strong> 真好吃。橙色的……小心。</p>
+<p><strong>现场人士：</strong> 嗯，我想是的，英伟达。</p>
+<p><strong>现场人士：</strong> 一、二、三、四。</p>
+<p><strong>现场人士：</strong> 原味的。</p>
+<p><strong>现场人士：</strong> 我们选这个？</p>
+<p><strong>现场人士：</strong> 我想是，简单点就好。</p>
+<p><strong>现场人士：</strong> 好。会不会太咸？</p>
+<p><strong>现场人士：</strong> 不会，刚刚好。很好吃，对吧？</p>
+<p><strong>现场人士：</strong> 刚才那个好烫。谢谢。</p>
+<p><strong>现场人士：</strong> 哦，好，小弟弟。来这边，小家伙。</p>
+<p><strong>现场人士：</strong> 好。看起来很好吃。</p>
+<p><strong>现场人士：</strong> 我请客。</p>
+<p><strong>黄仁勋：</strong> 不，不，拜托。你这样，我下次就不能来了。</p>
+<p><strong>现场人士：</strong> 没关系，没关系。</p>
+<p><strong>黄仁勋：</strong> 就当小费。</p>
+<p><strong>现场人士：</strong> 不用小费，真的。</p>
+<p><strong>黄仁勋：</strong> 那我就不能再来了。他就是不收我的钱。你看他，你看，他又把钱塞回袋子里了。</p>
+<p><strong>现场人士：</strong> 好吧，好。</p>
+<p><strong>现场人士：</strong> 干杯！干杯！</p>
+<p><strong>现场人士：</strong> 干杯！</p>
+<p><strong>现场人士：</strong> 真好吃。</p>
+<p><strong>现场人士：</strong> 太好吃了。</p>
+<p><strong>现场人士：</strong> 我可不想让你扎到自己。</p>
+<p><strong>现场人士：</strong> 好了，各位。干杯！</p>
+<p><strong>Lex：</strong> 哦，不错。这是冰镇台湾啤酒，真好。</p>
+<p><strong>现场人士：</strong> 这是什么？</p>
+<p><strong>现场人士：</strong> 哦，来一点这个面。</p>
+<p><strong>Lex：</strong> 太好吃了。</p>
+<p><strong>黄仁勋：</strong> 很棒，对吧？</p>
+<p><strong>Lex：</strong> 辣辣的。这面真的很好吃，特别好吃。哇。有人把这个递给了黄仁勋，我吃得太过瘾了。这可能是我吃过最好吃的东西。</p>
+<p><strong>Lex：</strong> 好，看看这个。简直不可思议。</p>
+<p><strong>黄仁勋：</strong> 这是你的蔬菜。</p>
+<p><strong>Lex：</strong> 嗯，我觉得算。</p>
+<p><strong>黄仁勋：</strong> 我们得确保营养均衡。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>现场人士：</strong> 加了点肉桂。</p>
+<p><strong>Lex：</strong> 我猜它有点像肉桂……像是肉桂糖饼干和玉米的结合。</p>
+<p><strong>现场人士：</strong> 嗯，好吃。</p>
+<p><strong>黄仁勋：</strong> 这怎么可能不好吃？太棒了，火候也正好。</p>
+<p><strong>Lex：</strong> 对我来说，第一名大概是那碗面。</p>
+<p><strong>现场人士：</strong> 我也选面。</p>
+<p><strong>Lex：</strong> 对，确实好吃。还有那个地瓜做的……</p>
+<p><strong>现场人士：</strong> 那些小圆球？还剩一些。</p>
+<p><strong>Lex：</strong> 那个也特别好吃。</p>
+<p><strong>现场人士：</strong> 真的好吃，排第二。</p>
+<p><strong>现场人士：</strong> 确实不错。</p>
+<p><strong>Lex：</strong> 再出去吃点刨冰。</p>
+<p><strong>现场人士：</strong> 好，走吧。</p>
+<p><strong>Lex：</strong> 谢谢。再闯一次。谢谢。</p>
+<p><strong>现场人士：</strong> 哇，哇。好了，各位，借过，借过。多赚点钱啊。大家好！</p>
+<p><strong>黄仁勋：</strong> 嘿，那是我，那是我。</p>
+<p><strong>现场人士：</strong> 不，那不是你。</p>
+<p><strong>现场人士：</strong> 嘿，所以我们才要有头发。</p>
+<p><strong>现场人士：</strong> 那不是你。</p>
+<p><strong>现场人士：</strong> 所以我们才要有头发。</p>
+<p><strong>Lex：</strong> 你的衣服款式真够少的。</p>
+<p><strong>黄仁勋：</strong> 没错。不过说“少”，听起来好像除了这身，还有别的。</p>
+<p><strong>Lex：</strong> 好像不止一套。黄仁勋大概一两天前才来过这里，很多人就是因为他前几天来过，才特地过来的。结果现在他们都在想：“没想到你居然也……”基本上，他已经成了这里自带的一部分。</p>
+<p><strong>现场人士：</strong> 回见。而且这感觉像个拍电影的机会，大概从十一点到一点［语音不清］。</p>
+<p><strong>黄仁勋：</strong> Lex，这是你第一次吃刨冰吗？</p>
+<p><strong>Lex：</strong> 第一次。</p>
+<p><strong>黄仁勋：</strong> 哦，这样啊。</p>
+<p><strong>现场人士：</strong> 我能跟你自拍一张吗？</p>
+<p><strong>Lex：</strong> 这也太棒了。</p>
+<p><strong>黄仁勋：</strong> 特别好吃，对吧？好吃得离谱，对吧？</p>
+<p><strong>Lex：</strong> 对，就是好吃得离谱。</p>
+<p><strong>黄仁勋：</strong> 对，对。</p>
+<p><strong>黄仁勋：</strong> 这是我家乡的一部分。</p>
+<p><strong>Lex：</strong> 我知道。</p>
+<p><strong>黄仁勋：</strong> 这没办法用语言解释。</p>
+<p><strong>Lex：</strong> 确实不行。别人以前试着跟我形容过，但完全不是那么回事，差得太远了。</p>
+<p><strong>现场人士：</strong> 西瓜，太棒了。</p>
+<p><strong>现场人士：</strong> 怎么会有这么多？看看这个。</p>
+<p><strong>现场人士：</strong> 这位是 Joy。</p>
+<p><strong>现场人士：</strong> 嗯。</p>
+<p><strong>Lex：</strong> 英伟达在台湾本地有很多团队吗？</p>
+<p><strong>黄仁勋：</strong> 一千人。</p>
+<p><strong>Lex：</strong> 一千人？</p>
+<p><strong>黄仁勋：</strong> 对。供应链，还有很多系统工程方面的人。</p>
+<p><strong>现场人士：</strong> 三位都是女性。</p>
+<p><strong>黄仁勋：</strong> 运营工程。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>现场人士：</strong> 你尝过这个吗？</p>
+<p><strong>现场人士：</strong> 或者晶圆厂。</p>
+<p><strong>现场人士：</strong> 你会喜欢的，味道很温和。</p>
+<p><strong>黄仁勋：</strong> 还有晶圆厂工程师。</p>
+<p><strong>现场人士：</strong> 好吃。</p>
+<p><strong>黄仁勋：</strong> 封装工程师、测试工程师。</p>
+<p><strong>Lex：</strong> 所以都是很厉害的硬件人才。</p>
+<p><strong>黄仁勋：</strong> 是的。我们准备盖一栋楼，跟你之前去过的那栋一样。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 几乎就是复制一栋。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我们得先在这里把事情定下来，找到一块地。那栋楼能容纳四千人，所以我们还会再招聘三千人。</p>
+<p><strong>Lex：</strong> 哇。冰得脑仁疼。</p>
+<p><strong>现场人士：</strong> 是啊。</p>
+<p><strong>Lex：</strong> 外面那么热，这样正好。</p>
+<p><strong>现场人士：</strong> 嗯。天哪。</p>
+<p><strong>现场人士：</strong> 对，对，对。</p>
+<p><strong>现场人士：</strong> 这一份是送的。</p>
+<p><strong>现场人士：</strong> 哇。这个非常好吃。</p>
+<p><strong>现场人士：</strong> 真不错。</p>
+<p><strong>现场人士：</strong> 菠萝配番石榴。</p>
+<p><strong>现场人士：</strong> 现在你知道什么叫糖分上头了。</p>
+<p><strong>现场人士：</strong> 难怪他们把这个当礼物包好送给我们。</p>
+<p><strong>现场人士：</strong> 他们想让你尝点新东西。</p>
+<p><strong>现场人士：</strong> 请我们试吃，拓展市场。挺好吃的。</p>
+<p><strong>现场人士：</strong> 我想……拍张照片，就能传遍社交媒体了。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>现场人士：</strong> 走吧。</p>
+<p><strong>现场人士：</strong> 这里的东西真不错，各位。</p>
+<p><strong>现场人士：</strong> 谢谢。</p>
+<p><strong>现场人士：</strong> 不好意思，各位，再来一个，再来一个。</p>
+<p><strong>黄仁勋：</strong> 这就是著名的蚵仔煎。</p>
+<p><strong>现场人士：</strong> 谢谢。</p>
+<p><strong>Lex：</strong> 哦。</p>
+<p><strong>黄仁勋：</strong> 好吃得不得了，对吧？</p>
+<p><strong>Lex：</strong> 太好吃了。</p>
+<p><strong>黄仁勋：</strong> 对，都吃进去。你吃到牡蛎了吗？</p>
+<p><strong>Lex：</strong> 吃到了。</p>
+<p><strong>黄仁勋：</strong> 好。</p>
+<p><strong>Lex：</strong> 哇，这就是我来这里的理由。哇，太棒了。我得再来一口。</p>
+<p><strong>黄仁勋：</strong> 牡蛎，著名的台湾蚵仔煎。</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><a id="taiwan-section-7"></a></p>
+<h3>童年的夜市（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=1777s">29:37</a>）</h3>
+<p><strong>Lex：</strong> 刚才那个蚵仔煎真是……</p>
+<p><strong>黄仁勋：</strong> 对，对，完美收尾。</p>
+<p><strong>Lex：</strong> 哇。</p>
+<p><strong>黄仁勋：</strong> 完美。</p>
+<p><strong>Lex：</strong> 哇。</p>
+<p><strong>黄仁勋：</strong> 它出名是有原因的。</p>
+<p><strong>黄仁勋：</strong> 我爸妈很爱吃这个。我们以前会来夜市。对我们来说，所谓出去吃晚饭，就是来这种地方，不是去餐馆。</p>
+<p>我们没有那样的钱，所以就来夜市，坐在这些桌子旁吃东西。有一次我要找厕所，就自己走开了。我走到一位厨师旁边，正准备问他哪里有厕所。他当时正在擦刀，我的脸刚好就在刀边上，刀就这样划过来，在我脸上划了一道。我当时五岁，快五岁吧。</p>
+<p>我爸一把抱起我，跑着把我送到医院。从那以后，我还是一直很爱夜市。它始终是我心里很美好的回忆。</p>
+<p><strong>Lex：</strong> 是啊，有时候痛苦反而会让快乐的记忆更牢固，对吧？</p>
+<p><strong>黄仁勋：</strong> 对。你知道，吸引我去的原因就是吃的实在太好了。我爱那个地方。</p>
+<p><strong>Lex：</strong> 你在某种程度上，还是觉得自己像当年那个孩子吗？</p>
+<p><strong>黄仁勋：</strong> 对，是的。</p>
+<p><strong>黄仁勋：</strong> 我是说，我喜欢那里的一切，也喜欢所有的人。每个人都在辛苦谋生，那么努力地干活，却还是愿意分一点东西给你。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 他们并没有多少钱。每卖一份东西，赚的可能也就一毛钱，对吧？</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 他们把利润全都给我了，不是吗？</p>
+<p><strong>Lex：</strong> 是啊。</p>
+<p><strong>黄仁勋：</strong> 就是为了表达一点善意。这就是台湾人的待人方式。看着这些人，看着他们的手艺，感觉真好。</p>
+<p><strong>Lex：</strong> 嗯，而且很多人都做了好多年了。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 一直做同样的东西。有一部很有名的纪录片叫《寿司之神》，但那边就有好多这样的“二郎”。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 他们一直在那个夜市里做同一道吃的。</p>
+<p><strong>黄仁勋：</strong> 天哪，那根猪肉香肠真好吃，太好吃了。还有那个包子也好吃。</p>
+<p><strong>Lex：</strong> 是，包子很好吃。</p>
+<p><strong>黄仁勋：</strong> 还有炸地瓜球。</p>
+<p><strong>Lex：</strong> 嗯，太棒了，都不知道他们怎么做出来的。哦，还有那个松松软软的……</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 米糕。</p>
+<p><strong>黄仁勋：</strong> 上面撒了红糖的那个。</p>
+<p><strong>Lex：</strong> 有人直接递给了你。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 结果一吃，简直神了。</p>
+<p><strong>黄仁勋：</strong> 还有那碗面。</p>
+<p><strong>Lex：</strong> 哦，对，那碗面。</p>
+<p><strong>黄仁勋：</strong> 哎呀，那碗面，还有辣酱。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 还有那个丸子，白色的那个。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 外面有一层鱼浆做的皮，里面是猪肉。天哪，真好吃。</p>
+<p><strong>Lex：</strong> 对，它有层次。你说得对，外面有一点鱼饼那样的东西。</p>
+<p><strong>黄仁勋：</strong> 对，所以吃起来有点 QQ 的，弹弹的。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 我们大概吃了十样东西。那碗面真不错，也是我第一次吃那种面。</p>
+<p><strong>Lex：</strong> 哇。</p>
+<p><strong>黄仁勋：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 真厉害。你去上海了吗？</p>
+<p><strong>Lex：</strong> 去了，去看了 MiniMax，还有一些人工智能公司。</p>
+<p><strong>黄仁勋：</strong> 哦，是啊。那些公司真厉害。</p>
+<p><strong>Lex：</strong> 然后去了杭州，去看宇树科技。那些做机器人的人都很谦逊。机器人公司有很多。你知道那些人工智能公司都在说什么吗？他们缺算力。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 要更多算力。</p>
+<p><strong>黄仁勋：</strong> 是啊，但有意思的是，虽然他们缺算力，这反而逼着他们设计出一些……</p>
+<p><strong>Lex：</strong> 对，没错。</p>
+<p><strong>黄仁勋：</strong> 非常出色、效率极高的架构。</p>
+<p><strong>Lex：</strong> 对，限制某种程度上就是发明之母。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 资源匮乏。</p>
+<p><strong>黄仁勋：</strong> 对，他们受到的限制非常、非常大，可他们仍然能拿到融资，仍然在继续，对吧？</p>
+<p><strong>Lex：</strong> 嗯，对。有公司上市吗？</p>
+<p><strong>黄仁勋：</strong> 对。他们就是一门心思把事情做成，真够拼的。</p>
+<p><strong>Lex：</strong> 好了，黄仁勋，谢谢你带我体验这一生难忘的经历。太好吃了，谢谢。</p>
+<p><strong>黄仁勋：</strong> 谢谢，今天太开心了，太棒了。</p>
+<p><strong>Lex：</strong> 谢谢，真是太棒了。</p>
+<p><strong>现场人士：</strong> 好了，我们拿到数据模型了［语音不清］。准备起来！还没结束呢。</p>
+<p><a id="taiwan-section-8"></a></p>
+<h3>NVIDIA 聚会与游戏回忆（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=2024s">33:44</a>）</h3>
+<p><strong>现场人士：</strong> 现在已经是世界一流了。</p>
+<p><strong>现场人士：</strong> 台湾，最棒的威士忌。</p>
+<p><strong>现场人士：</strong> 是啊。来吧。</p>
+<p><strong>现场人士：</strong> 噶玛兰，好喝。欢迎来到台湾。</p>
+<p><strong>现场人士：</strong> 欢迎来到台湾。</p>
+<p><strong>现场人士：</strong> 这就是……来，转过身，对，转过身。我们绕到这里来。这就是台湾，这就是台湾。</p>
+<p><strong>Lex：</strong> 那个舞台，就是黄仁勋亲口答应我今晚会上去跳舞的地方。</p>
+<p><strong>黄仁勋：</strong> 我们会跳的。再来几瓶威士忌，我们就跳。</p>
+<p><strong>Lex：</strong> 我们现在是在英伟达的员工聚会上。太不可思议了，来了这么多人，很多人都是从世界各地赶来的。</p>
+<p><strong>现场人士：</strong> 这是一桌按五星级标准准备的传统宴席，基本上就是一场盛宴。</p>
+<p><strong>Lex：</strong> 看看这个。派对已经开始了。干杯，我的朋友。谢谢你做的一切，黄仁勋。谢谢你在这里和我见面。</p>
+<p><strong>黄仁勋：</strong> 我希望你好好感受台湾人的热情好客。</p>
+<p><strong>Lex：</strong> 黄仁勋真的在给媒体记者投喂。</p>
+<p><strong>黄仁勋：</strong> 好吗？你们有什么需要就说，需要什么都告诉我，好吗？</p>
+<p><strong>现场人士：</strong> 好，好。</p>
+<p><strong>Lex：</strong> 他在给记者们发吃的，太棒了。外面这么热，也到晚饭时间了。</p>
+<p><strong>现场人士：</strong> 这可是一场大秀。</p>
+<p><strong>黄仁勋：</strong> 他们没日没夜地工作，也需要有人关心。</p>
+<p><strong>现场人士：</strong> 对，Lex Fridman。</p>
+<p><strong>现场人士：</strong> 哦。</p>
+<p><strong>现场人士：</strong> Lex Fridman！</p>
+<p><strong>现场人士：</strong> 呜！</p>
+<p><strong>现场人士：</strong> 你刚见到的是最顶尖的人物，元老级人物。</p>
+<p><strong>现场人士：</strong> Lex Fridman。</p>
+<p><strong>Lex：</strong> 看看，多可爱的人。干杯。</p>
+<p><strong>Lex：</strong> 大家要知道，他今天又花了很多个小时逛展位，之后还这么精神饱满。</p>
+<p><strong>黄仁勋：</strong> 你看到今天发生什么了吗？</p>
+<p><strong>Lex：</strong> 我听说了，现场简直疯狂。</p>
+<p><strong>黄仁勋：</strong> 当时有好几千人在排队。我拐过弯，往那边一看，脑子里只有一个念头：“我完全不知道该怎么办。”真的不知道怎么办，整个人都惊呆了。大家全在尖叫、欢呼。</p>
+<p><strong>Lex：</strong> 全都是爱。</p>
+<p><strong>黄仁勋：</strong> 天哪，太不可思议了。他们那种慷慨、善良、愿意帮助别人的能力，正是这座岛、这里所有公司能处在整个生态系统中心的原因。就是这种根本上的慷慨，以及帮助别人的能力，让他们成为全世界的供应链。根源就在这里。</p>
+<p><strong>Lex：</strong> 还有愿意付出极大的努力。</p>
+<p><strong>黄仁勋：</strong> 特别努力，特别努力。</p>
+<p><strong>Lex：</strong> 就是这两者的结合。</p>
+<p><strong>黄仁勋：</strong> 特别努力。</p>
+<p><strong>黄仁勋：</strong> Lex，我不知道这里怎么回事，但这里有冷气。</p>
+<p><strong>Lex：</strong> 台湾的这个位置……</p>
+<p><strong>黄仁勋：</strong> 就是这里。</p>
+<p><strong>Lex：</strong> 有冷气。就在此时此地，有这么一个特定的位置。</p>
+<p><strong>黄仁勋：</strong> 就在这里，就在这里。</p>
+<p><strong>Lex：</strong> 仿佛宇宙在说，你们该休息一会儿了。你在英伟达工作多久了？</p>
+<p><strong>现场人士：</strong> 十七年。</p>
+<p><strong>Lex：</strong> 十七年。好，看看，他在跟大家自拍。</p>
+<p><strong>现场人士：</strong> 是啊，没错。</p>
+<p><strong>现场人士：</strong> 这里有点神奇。整个台湾都这么热闹……［语音不清］</p>
+<p><strong>现场人士：</strong> 没错。</p>
+<p><strong>现场人士：</strong> ……就在这里。</p>
+<p><strong>现场人士：</strong> 就在这里，真的。这里很凉快。</p>
+<p><strong>现场人士：</strong> 对，那边有气流。</p>
+<p><strong>现场人士：</strong> 那是……冷气是从那边来的。</p>
+<p><strong>现场人士：</strong> 哦，从冰箱里来的。</p>
+<p><strong>现场人士：</strong> 就因为那个？</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>现场人士：</strong> 这真就是空调啊。</p>
+<p><strong>现场人士：</strong> 是个冰箱。刚才那个好吃吗？</p>
+<p><strong>现场人士：</strong> 嗯。</p>
+<p><strong>现场人士：</strong> 关键是酱汁，上面再撒一点胡椒，太棒了。</p>
+<p><strong>黄仁勋：</strong> 嘿，谢谢，谢谢。玩得开心。我爱你们，非常感谢。</p>
+<p><strong>现场人士：</strong> 爱你，Jen！</p>
+<p><strong>黄仁勋：</strong> 我们上大学谈恋爱的时候，我没钱。真的，因为我爸妈不给我们零花钱。我就是按台湾小孩那样养大的，没有零花钱。要是你需要钱，都快活不下去了，就打电话回家。是不是这样？</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 你要是不打电话回家，他们就不会给你钱。我很快就发现，她有零花钱。所以我就开始跟她约会了。</p>
+<p><strong>现场人士：</strong> 哦！呜！</p>
+<p><strong>黄仁勋：</strong> 我是为了她的钱才跟她谈恋爱的。</p>
+<p><strong>现场人士：</strong> 哦！</p>
+<p><strong>黄仁勋：</strong> 每个星期二十五美分，这样我们就能打电子游戏了。</p>
+<p><strong>Lex：</strong> 嘿，大家好。不好意思，稍微打断一下。我现在是在大自然里，这可不是人工智能生成的。但有些东西确实是，比如 Higgsfield 制作的视频，以及用视频讲述的故事。</p>
+<p>在这个过程中，人的参与很重要，但人工智能也完成了许多了不起的工作。我和黄仁勋聊了很多我们有多爱电子游戏，所以我请 Higgsfield 生成了一段简短视频，展示电子游戏的发展史。挑战就是看看我能不能把里面所有的游戏都认出来。开始，播放。</p>
+<p>这是《黑客帝国》里的《乓》。嗯，马里奥配上酒。嗯，《街头霸王》。嗯，《黑暗之魂》。</p>
+<p><strong>Lex：</strong> 哈，可能是我的最爱。嗯，《竞技场》《匕首雨》《天际》，《上古卷轴》的世界。《上古卷轴6》到底什么时候出？</p>
+<p>刚才那个……我好像看到了一点《模拟城市》。还有……我是说，那是《侠盗猎车手》。说到这个，《侠盗猎车手6》什么时候出？这个我们知道答案，十一月的某一天，十九号。不管怎样，感谢那些做出这些精彩游戏的人。</p>
+<p>我人生中许多最快乐的时光，很多很多个小时，都是在玩电子游戏。我也做过不少相关访谈，丹·豪瑟、杰弗里·卡普兰、托德·霍华德、卡马克，名单还很长。以后还会采访更多人。好了，我本来该去跑步的，现在却在拖延。回到视频吧。</p>
+<p><a id="taiwan-section-9"></a></p>
+<h3>午餐：卤猪脚（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=2429s">40:29</a>）</h3>
+<p><strong>黄仁勋：</strong> 你不介意我父母也来吧？</p>
+<p><strong>Lex：</strong> 当然不介意。太好了。</p>
+<p><strong>黄仁勋：</strong> 他们实在太喜欢这家店了。我们现在要吃的是卤猪脚。</p>
+<p><strong>现场人士：</strong> 大家好。</p>
+<p><strong>Lex：</strong> 你好，你们好！真好。我可以和你们坐在一起吗？</p>
+<p><strong>现场人士：</strong> 可以，坐吧。很高兴见到你。</p>
+<p><strong>Lex：</strong> 我也很高兴见到你。</p>
+<p><strong>现场人士：</strong> 你以前吃过猪脚吗？</p>
+<p><strong>现场人士：</strong> 吃过。</p>
+<p><strong>Lex：</strong> 我猜这个味道需要慢慢适应吧。</p>
+<p><strong>现场人士：</strong> 其实味道很好，你现在就算学会欣赏了。</p>
+<p><strong>现场人士：</strong> 看，鸡蛋和豆腐，还有芦笋。准备好开吃吧，这个特别好吃，也是我最喜欢的菜之一。</p>
+<p><strong>Lex：</strong> 所以，这是猪肉，这是豆腐和鸡蛋，那是猪脚。</p>
+<p><strong>现场人士：</strong> 对，猪脚。</p>
+<p><strong>Lex：</strong> 哇，太棒了。</p>
+<p><strong>现场人士：</strong> 听起来可能有点让人犹豫，但吃起来真的很好吃。</p>
+<p><strong>现场人士：</strong> 真的特别好吃。</p>
+<p><strong>现场人士：</strong> 我最喜欢看 Judson 当摄影师的时候。</p>
+<p><strong>现场人士：</strong> 对，他很会同时做好几件事。</p>
+<p><strong>现场人士：</strong> 拍到了，差点错过。</p>
+<p><strong>现场人士：</strong> 你拍到了！拍到了！团队合作。</p>
+<p><strong>现场人士：</strong> 对。她要下手了。那里就是脚趾。</p>
+<p><strong>Lex：</strong> 我觉得这是个品牌包装的问题，关键就在名字上。大家恐怕也花了好多年，才学会正确拼写 NVIDIA。</p>
+<p><strong>黄仁勋：</strong> 大家常常把它拼成……［拼写玩笑］</p>
+<p><strong>现场人士：</strong> No IDIA。</p>
+<p><strong>现场人士：</strong> 对，对。看看这根脚趾，看看！这根脚趾不错。</p>
+<p><strong>Lex：</strong> 美国的台湾菜做得好吗？</p>
+<p><strong>黄仁勋：</strong> 不太好，不过正在进步。</p>
+<p><strong>现场人士：</strong> 那……？［语音不清］</p>
+<p><strong>现场人士：</strong> 所有的。</p>
+<p><strong>现场人士：</strong> ［称呼不清］</p>
+<p><strong>现场人士：</strong> 很高兴见到你。</p>
+<p><strong>现场人士：</strong> 很高兴认识你。我们之前还没机会聊聊。</p>
+<p><strong>现场人士：</strong> 这是我弟弟。</p>
+<p><strong>现场人士：</strong> 跟大家讲讲黄仁勋用 Perplexity 的事。</p>
+<p><strong>现场人士：</strong> 好。刚才我和黄仁勋在聊，他要了解新事物，比如了解一家新公司时，会使用 Perplexity Computer。</p>
+<p><strong>黄仁勋：</strong> 对，我会用。我很喜欢 Perplexity Computer。</p>
+<p><strong>现场人士：</strong> 好，太棒了。</p>
+<p><a id="taiwan-section-10"></a></p>
+<h3>出口管制、AI 与竞争（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=2589s">43:09</a>）</h3>
+<p><strong>Lex：</strong> 六十年代的披头士。</p>
+<p><strong>黄仁勋：</strong> 谢谢。</p>
+<p><strong>Lex：</strong> 经历了这一切，却仍然保持谦逊。黄仁勋，你的人生真是精彩。你肩负着这样的责任，有数百万人仰望你，这份重担会不会有时让你觉得沉重？</p>
+<p><strong>黄仁勋：</strong> 不会，因为我不是这样看待它的。人们一直都对我很好。</p>
+<p><strong>Lex：</strong> 即使你一无所有的时候也是如此。</p>
+<p><strong>黄仁勋：</strong> 对，我也一直善待别人。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我一直很有礼貌，也一直希望别人成功，希望他们快乐。我上学的时候，总希望其他孩子都能取得好成绩。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我也很乐意把自己的作业分享给大家。我喜欢看到别人成功，包括其他公司的同行。</p>
+<p>这个世界的运作方式很有意思。只要你真心为别人喝彩，希望他们成功，不知怎么，你自己也会更加成功。比如说，英伟达的四万三千名员工都希望我成功，真的是这样。你明白我的意思吧？</p>
+<p><strong>Lex：</strong> 而你也希望他们每个人都成功。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 而且，我亲眼见过，你也希望其他公司的人成功。</p>
+<p><strong>黄仁勋：</strong> 他们也希望我成功。</p>
+<p><strong>Lex：</strong> 嗯，所以这会产生一圈圈向外扩散的影响。</p>
+<p><strong>黄仁勋：</strong> 对，正是如此。善意不是零和博弈，它不受物理规律的限制。</p>
+<p><strong>Lex：</strong> 你能谈谈你对出口管制的看法吗？你一直很明确地认为，出口管制不是美国应该用来获胜的方式。</p>
+<p><strong>黄仁勋：</strong> 嗯。</p>
+<p><strong>Lex：</strong> 你能分别把支持和反对这一观点的最有力论据讲一讲吗？</p>
+<p><strong>黄仁勋：</strong> 反方的论据很简单。如果有一种东西很有价值、很有用，能够成倍放大我们的实力，比如稀土、计算机技术，乃至一般意义上的技术，都有这样的作用。你也可以说，知识能放大实力。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 知识产权也是如此。所以，如果我们拥有这样的资产，那么不让别人获得它，就能强化我们的地位，削弱他们的地位。</p>
+<p><strong>Lex：</strong> 也就是说，把某种资源掌握在自己手里，不让别人获得，以此取得竞争优势。</p>
+<p><strong>黄仁勋：</strong> 对，没错，就是不让这些东西落到别人手里。对于实体物资来说，这个道理并非完全不成立。比如提炼后的稀土，子弹、炸弹，都可以这样看。只要对手或其他方面没有能力自己制造出来，这个说法大体上是成立的。</p>
+<p>另一面的论点是，如果我们的目标是长期的国家安全、长期的国内安宁与和谐，那么繁荣才是实现这些目标的最佳途径。世界上最安全的国家，就是最富裕的国家。</p>
+<p>美国之所以有如此强大的军事力量，是因为我们拥有巨大的财富。而巨大的财富，又伴随着卓越的技术而来。技术与财富相互促进，形成一个飞轮，这才是你最终应该优化的东西。所以问题在于，你究竟是要尽量阻止别人获得这项技术，还是要让这个飞轮运转得更好？</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我认为，更高明的长期战略，是着眼于这个飞轮。要让它运转得更好，就必须同时拥有技术领先地位和财富。</p>
+<p>这个飞轮非常重要。许多计算机技术、平台技术，也是同样的道理。在这种情况下，所谓财富，基本上就是客户的参与和已经形成的用户基础。用户基础和客户使用，会带动对技术的更多需求，从而创造更多财富，让你的技术能够比任何人都更快地扩大规模。</p>
+<p>所以，技术领先带来经济领先，经济领先又为技术领先提供动力，进一步带来经济领先。正是这样的飞轮，让企业和国家保持领先。</p>
+<p>相比于那些数量有限、具体有形、无法形成这种正向反馈的东西，我主张，更好的战略是对某些技术的获取设置极其审慎、极其有针对性的限制。除此之外，则要兼顾如何让技术与经济的飞轮运转得最好。</p>
+<p><strong>黄仁勋：</strong> 所以这里存在一个平衡。</p>
+<p><strong>Lex：</strong> 我觉得，问题在于：这个飞轮把中国包括进来，美国会更繁荣，还是不把中国包括进来，美国会更繁荣？</p>
+<p>这是美国尚待回答的问题，也是全人类尚待回答的问题。两个国家之间存在一条界线：它们可以作为竞争对手，甚至可以说是作为地缘政治上的朋友相互竞争；也可能变成敌人之间的竞争。一旦越过这条界线，我认为就有可能把所有人的飞轮都摧毁。</p>
+<p><strong>黄仁勋：</strong> 没错。我认为我们应该尽一切努力避免冲突。我们应该竞争，竞争不可或缺，但也应该尽一切努力避免冲突。所以问题是，当一种关系具有竞争性时，有些策略会把这种关系推向冲突，也有些策略能避免冲突。</p>
+<p><strong>Lex：</strong> 我想，相互依存的程度很重要。这也是你我聊过的，比如人工智能的技术栈。大家使用同样的硬件，使用同样的软件，去彼此的大学求学，建立友谊，开展科研合作。</p>
+<p>不同公司之间会有友好的竞争，但从根本上说，那仍然是一种合作。这样的联系越多，就越难把两国人民分割开来，进而走向全球性冲突之类的局面。</p>
+<p><strong>黄仁勋：</strong> 越难脱钩，就越难发生冲突。这一点我同意。你刚才的描述完全正确，其中有一点很有帮助：人工智能并不只是一个模型，而是一整套技术栈，各个层面都在为人工智能作出贡献。没有能源，就不可能有人工智能。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我们也知道，某些国家和地区在能源方面拥有非常突出的领先地位和能力，另一些地方则没有。如果你沿着这个技术栈逐层观察，就会发现，谈到不同的层面时，领先者也分布在不同地方。</p>
+<p><strong>Lex：</strong> 黄仁勋和我都以身为美国人而自豪。我个人认为，美国拥有最富创新精神的人，那些最疯狂、最天马行空、最大胆、志向最宏大的想法，都能在这里出现。我觉得，美国在这方面是世界第一。所以，当你……</p>
+<p><strong>黄仁勋：</strong> 英伟达就是一家美国公司。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 还有 Anthropic、OpenAI、谷歌。例子实在太多了，有压倒性的证据说明，你说得完全正确。各种因素长期相互作用、不断叠加，形成了这种创新能力，其力量非常惊人。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我们拥有的一个巨大优势，是我们的飞轮也是最强的。原因在于，世界绝大多数地方都能接受英语。所以，如果你是一家美国公司，采用美国的技术栈和美国的标准开发产品，那么产品就比较容易在世界各地部署。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 中国的情况则不同。因此，我们拥有一个全球飞轮的优势。没有客户的技术是没有用的。</p>
+<p><strong>Lex：</strong> 对。你必须利用好这个优势，不能把它当作理所当然。英语作为一种语言，确实拥有全球性的影响力。这也正是美国能够创造一个人人都在使用的生态系统的原因。这是一个实实在在的巨大优势。所以，出于孤立主义确实能带来的某些好处，就把自己与世界其他地方隔绝开来，是要付出真实代价的。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 你会失去这个优势。</p>
+<p><strong>黄仁勋：</strong> 没错。这正是我为什么认为，一方面，我们想把出色的技术留在自己手里；另一方面，我们又需要那个飞轮。我们需要的，正是你刚才那番话所描述的情形，每一个字都很重要。所以，我们希望平台能够尽可能广泛地覆盖市场，因为这会推动飞轮，创造财富，再通过这些财富获得持续创新所需要的研发能力。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 不过，这个飞轮也很脆弱。你可以看到，一旦它转起来，增长就会有点像指数曲线。一个平台明明已经建设了十年、二十年，像我们则是三十年，却似乎一夜之间突然到达临界点，然后无处不在。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 反过来，这个飞轮也可能停下来，而且可能很快就减速。所以，出口管制的问题就在于如何取得这个平衡。</p>
+<p>每个国家都有权决定如何使用自己创造的技术、能力、资产和资源。既然这些是构成国家优势的一部分，它们就有权决定如何运用。这是主权，是国家的权利。另一方面，我们也希望确保，美国的国家财富，包括作为其中一部分的科技产业，能够拥有尽可能大的飞轮，让平台尽可能广泛地触达世界，从而维持经济领先与技术领先相互促进的循环。这就是要把握的平衡。</p>
+<p><strong>Lex：</strong> 说到底，今天我们一起分享了这么多食物，我觉得我们应该记住，全世界的人，共同点远远多于差异。彼此理解、相互合作、成为朋友、一起做事，以朋友的身份展开竞争，这些都是好事，而不是相互分裂，把彼此变成敌人。</p>
+<p><strong>黄仁勋：</strong> 出门旅行时，这一点会让你感触特别深。</p>
+<p><strong>Lex：</strong> 尤其是搭便车旅行的时候。</p>
+<p><strong>黄仁勋：</strong> 尤其是搭便车的时候，你会特别深刻地体会到这一点。对。</p>
+<p><strong>Lex：</strong> 黄仁勋，非常感谢你带我吃这么多美食，真是太棒了。</p>
+<p><strong>黄仁勋：</strong> 今天是不是特别开心？</p>
+<p><strong>Lex：</strong> 是，很开心。</p>
+<p><strong>黄仁勋：</strong> 是不是很开心？</p>
+<p><strong>Lex：</strong> 也许今晚还能再去逛逛夜市。</p>
+<p><strong>黄仁勋：</strong> 好，我带你去一个不同的夜市。</p>
+<p><strong>Lex：</strong> 我已经等不及了。好啊，要更疯狂一点的。</p>
+<p><strong>黄仁勋：</strong> 对，更疯狂一点的，肯定会很精彩。</p>
+<p><a id="taiwan-section-11"></a></p>
+<h3>宁夏夜市（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=3307s">55:07</a>）</h3>
+<p><strong>现场人士：</strong> 好。你怎么跟 Lex 在一起？天哪。很高兴见到你。嘿，Mark，很高兴见到你。</p>
+<p><strong>现场人士：</strong> 很高兴见到你。</p>
+<p><strong>黄仁勋：</strong> 来吧，Christian，我们走。</p>
+<p><strong>现场人士：</strong> 连下雨都挡不住 Jensen。你是在哪儿长大的？</p>
+<p><strong>现场人士：</strong> 台湾。</p>
+<p><strong>现场人士：</strong> 我们俩都是在台湾长大的。走吧，来。</p>
+<p><strong>Lex：</strong> 你好，Christian。不好意思，我是 Lex。</p>
+<p><strong>现场人士：</strong> 你好，Christian。很高兴认识你。</p>
+<p><strong>黄仁勋：</strong> 走吧，我们随便逛逛。Lex 刚才都……</p>
+<p><strong>Lex：</strong> 对，太疯狂了。</p>
+<p><strong>现场人士：</strong> ……招架不住了。</p>
+<p><strong>Lex：</strong> 太疯狂了。</p>
+<p><strong>现场人士：</strong> Morris，就是台积电的创办人。</p>
+<p><strong>现场人士：</strong> 好。Jensen。</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>黄仁勋：</strong> 你们来过这家吗？</p>
+<p><strong>现场人士：</strong> 没有。</p>
+<p><strong>黄仁勋：</strong> 大家普遍认为，这家是最好的。</p>
+<p><strong>Lex：</strong> 所以你就是想让我明确知道，我以前根本没吃过这个。</p>
+<p><strong>现场人士：</strong> 也许吧。辣的也要。</p>
+<p><strong>黄仁勋：</strong> 你倒说说，这鸡肉是不是特别嫩？</p>
+<p><strong>Lex：</strong> 这鸡肉真的很好吃。</p>
+<p><strong>现场人士：</strong> 太棒了。</p>
+<p><strong>现场人士：</strong> 这个才是精髓……好，好。</p>
+<p><strong>Lex：</strong> 我已经不只是在试吃了。这简直……天哪。</p>
+<p><strong>黄仁勋：</strong> 没有，没有，你还是在试吃。</p>
+<p><strong>现场人士：</strong> 还在试吃。还在试吃。还在试吃。</p>
+<p><strong>Lex：</strong> 不可思议。配的酱有点像带烟熏味的烧烤酱。他们真的很会做这种蛋料理，各种菜里鸡蛋的用法都很棒。</p>
+<p><strong>黄仁勋：</strong> 在东南亚，什么菜里都有蛋。鸡蛋就是最便宜的蛋白质来源。他们什么都加蛋，饼里加蛋，蚵仔里也加蛋。</p>
+<p><strong>现场人士：</strong> Jensen？</p>
+<p><strong>黄仁勋：</strong> 嗯？</p>
+<p><strong>现场人士：</strong> 听说你的炒饭做得特别好。</p>
+<p><strong>黄仁勋：</strong> 是的。我平时会看人工智能和炒饭的视频。</p>
+<p><strong>现场人士：</strong> 这绝对是真的，他的推荐算法里就是这些。他工作的时候，我就听见……</p>
+<p><strong>黄仁勋：</strong> 我有人工智能，有炒饭，有地缘政治，还有狗。</p>
+<p><strong>现场人士：</strong> 对。还有熊猫。</p>
+<p><strong>黄仁勋：</strong> 水獭。</p>
+<p><strong>现场人士：</strong> 不知道怎么……水獭，水獭。</p>
+<p><strong>黄仁勋：</strong> 哦，我说的是水獭。我看一会儿地缘政治，然后就得立刻去看熊猫和水獭。</p>
+<p><strong>现场人士：</strong> 缓一缓。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>现场人士：</strong> 哦，这个……不好意思，你继续。</p>
+<p><strong>Lex：</strong> 感觉这就像是在说：“朋友，你需要帮助。”没事，没事，可怜的人。</p>
+<p><strong>黄仁勋：</strong> 旧金山可没有这样的东西。我从小吃这个长大，我妈妈几乎每周都会做。</p>
+<p><strong>Lex：</strong> 这个真不错。</p>
+<p><strong>黄仁勋：</strong> 对吧，有多好吃？</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>黄仁勋：</strong> 一定得是鲜姜。</p>
+<p><strong>现场人士：</strong> 嗯，里面放了些新鲜的姜。</p>
+<p><strong>黄仁勋：</strong> 对，特别好吃吧？</p>
+<p><strong>Lex：</strong> 哇，好。</p>
+<p><strong>现场人士：</strong> 整个感觉都对了。亚洲菜的精髓就是汤。那些女士一直在喊：“Lex，Lex，Lex。”简直像全世界的餐厅都在这里了。</p>
+<p><strong>现场人士：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 首先……</p>
+<p><strong>现场人士：</strong> 效果不错。</p>
+<p><strong>黄仁勋：</strong> ……在这里没有“不”这个字。你知道，你什么都说不要，前菜还是会照样上。</p>
+<p><strong>Lex：</strong> 对。嗯。</p>
+<p><strong>黄仁勋：</strong> 你说三份，来的就是四份。</p>
+<p><strong>现场人士：</strong> 四份。对。</p>
+<p><strong>黄仁勋：</strong> 如果我们全都吃光，他们反而会过意不去，还得再上更多东西。</p>
+<p><strong>Lex：</strong> 对。这是个赢不了的游戏。</p>
+<p><strong>黄仁勋：</strong> 没错。不同的文化不一样。有些文化里，不把东西吃光是不礼貌的。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 有些文化里，吃光反而是不礼貌的。所以你要么是在跟他们的慷慨较劲，要么是在表达你有多欣赏他们的食物。两样都重要，但在不同的文化里，总有一样更重要。在这里，他们的慷慨比你对食物的欣赏更重要。</p>
+<p><strong>Lex：</strong> 是的。嗯，这是个优化问题。</p>
+<p><strong>黄仁勋：</strong> 对。所以你得知道自己在哪个国家。</p>
+<p><strong>Lex：</strong> 得根据所在的国家来确定目标函数。</p>
+<p><strong>黄仁勋：</strong> 没错。</p>
+<p><strong>Lex：</strong> 以国家为条件。</p>
+<p><strong>现场人士：</strong> 不，我们得先弄清是哪个国家……我敢说在法国就得全部吃光，那我们可得在这里待一整晚。</p>
+<p><strong>现场人士：</strong> 对。所以他们吃顿晚餐要三个小时。</p>
+<p><strong>现场人士：</strong> 是啊，得拼命往下吃。</p>
+<p><strong>现场人士：</strong> 没完没了。</p>
+<p><strong>现场人士：</strong> 对，对。下雨也一样。</p>
+<p><strong>现场人士：</strong> Lex 还跟着我们吗？</p>
+<p><strong>Lex：</strong> 在，就在这里。</p>
+<p><strong>现场人士：</strong> 你们应该用条跑步牵引绳拴着他。</p>
+<p><strong>Lex：</strong> 太好吃了，大概是最……</p>
+<p><strong>现场人士：</strong> 可别把这个白人小伙弄丢了。</p>
+<p><strong>Lex：</strong> 我想，我在这里出名是因为我是个白人。</p>
+<p><strong>现场人士：</strong> 没有人比 Lex 更爱台湾了。</p>
+<p><strong>Lex：</strong> 对，没错。我爱上这里了。</p>
+<p><strong>现场人士：</strong> 对，我们也爱 Lex。</p>
+<p><strong>现场人士：</strong> 来吧，Lex。</p>
+<p><strong>Lex：</strong> 好，走吧。我拿了整……</p>
+<p><strong>现场人士：</strong> 来，走了。你好，嘿，你好。</p>
+<p><strong>现场人士：</strong> 我要两个。两个可以吗？</p>
+<p><strong>现场人士：</strong> 当然，两个。这是香肠蛋饼。</p>
+<p><strong>Lex：</strong> 我们现在看到的是什么？</p>
+<p><strong>现场人士：</strong> 你可以把它想成台湾版的玉米热狗。</p>
+<p><strong>Lex：</strong> 果然什么都离不开鸡蛋。看看这个，基本上就是玉米热狗。</p>
+<p><strong>现场人士：</strong> 来。</p>
+<p><strong>Lex：</strong> 这是个放诸四海皆准的概念：有热狗，也有玉米热狗。这种东西可不是人工智能能生成出来的。</p>
+<p><strong>现场人士：</strong> 真不错。这个最好。</p>
+<p><strong>现场人士：</strong> 这个多少钱？</p>
+<p><strong>摊贩：</strong> 这个八十。</p>
+<p><strong>现场人士：</strong> 只要八十？</p>
+<p><strong>摊贩：</strong> 对，八十。</p>
+<p><strong>Lex：</strong> 好，看起来太棒了。哦，这根本说不通。</p>
+<p><strong>现场人士：</strong> 太棒了。</p>
+<p><strong>黄仁勋：</strong> 我们要把冰淇淋放进去……这个是米纸，还有香菜。</p>
+<p><strong>Lex：</strong> 香菜怎么会出现在这里？你的意思是，这样弄出来居然会好吃？</p>
+<p><strong>现场人士：</strong> 特别好吃。</p>
+<p><strong>Lex：</strong> 闻起来不错，真的很香。不管那个是什么，闻起来都特别香。</p>
+<p><strong>现场人士：</strong> 第一次来台湾？</p>
+<p><strong>现场人士：</strong> 哇，从得克萨斯来到台湾。</p>
+<p><strong>Lex：</strong> 是啊，有点不一样。</p>
+<p><strong>现场人士：</strong> 简直是两个星球，Lex。我觉得我们都活在 Jensen 的模拟世界里。</p>
+<p><strong>Lex：</strong> 对，对。</p>
+<p><strong>现场人士：</strong> 对，我觉得我们在这个世界里都不是主角。现在就尽力当好自己的 NPC 吧。</p>
+<p><strong>现场人士：</strong> 那个“beauty sphere”……［短语不清］。对，对。就是……</p>
+<p><strong>Lex：</strong> 我一直在想：“NPC 会怎么做？”我这一路就是这么过来的。好，来尝尝这个。</p>
+<p><strong>现场人士：</strong> 好吃吗？</p>
+<p><strong>Lex：</strong> 太好吃了。他说得没错，这东西毫无道理：冰淇淋、香菜、坚果，吃起来又软又有嚼劲。</p>
+<p><strong>现场人士：</strong> 干得好，Lex。</p>
+<p><strong>Lex：</strong> 谢谢，真的很感谢。很好吃。我以前应该从来没吃过用墨西哥薄饼那样的饼皮包着的冰淇淋……</p>
+<p><strong>现场人士：</strong> 太疯狂了。</p>
+<p><strong>Lex：</strong> ……里面还放了蔬菜。但真的好吃。完全说不通，可就是好吃。我觉得我们已经不叫试吃了，现在分明是在吃饭。</p>
+<p><strong>现场人士：</strong> 我知道，真是说不通。</p>
+<p><strong>Lex：</strong> 不过这冰淇淋真的很需要。</p>
+<p><strong>现场人士：</strong> 是啊，特别清爽。</p>
+<p><strong>黄仁勋：</strong> 对，我们接下来去吃点……</p>
+<p><strong>现场人士：</strong> 芒果。</p>
+<p><strong>黄仁勋：</strong> ……青芒果。Lex，青芒果。</p>
+<p><strong>Lex：</strong> 必须吃。</p>
+<p><strong>黄仁勋：</strong> 好吧？青芒果。</p>
+<p><strong>Lex：</strong> 我都不知道还有这种东西。</p>
+<p><strong>黄仁勋：</strong> 青芒果，并不是没熟，它是熟的，只是颜色是绿的。</p>
+<p><strong>Lex：</strong> 好。</p>
+<p><strong>黄仁勋：</strong> 就像苹果、梨和芒果结合在一起，生出了一颗青芒果。</p>
+<p><strong>Lex：</strong> 这座岛生产半导体，也生产水果。</p>
+<p><strong>现场人士：</strong> 还有水果。</p>
+<p><strong>黄仁勋：</strong> 嘿，我的香肠呢？各位，这个实在太好吃了，一定得咬一口。这个不算，我们不是在……我们没有在吃东西。</p>
+<p><strong>现场人士：</strong> 我们只是在试吃。</p>
+<p><strong>黄仁勋：</strong> 就是试吃。这一口真是好吃得不得了。</p>
+<p><strong>现场人士：</strong> 这些是芋头丸子。</p>
+<p><strong>黄仁勋：</strong> 真的太好吃了。你知道吗，我是吃肉松长大的。</p>
+<p><strong>现场人士：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 拌饭特别好吃。</p>
+<p><strong>现场人士：</strong> 哦，对，对。看起来跟那个很像。</p>
+<p><strong>Lex：</strong> 它的营销有点问题。</p>
+<p><strong>现场人士：</strong> 对，不管怎么……名字这一块……</p>
+<p><strong>Lex：</strong> 问题出在取名上。</p>
+<p><strong>现场人士：</strong> 是啊，台湾不太擅长营销。</p>
+<p><strong>Lex：</strong> “Pork floss”，猪肉的“牙线”。</p>
+<p><strong>现场人士：</strong> 我知道。</p>
+<p><strong>Lex：</strong> “Pork floss”。</p>
+<p><strong>现场人士：</strong> 或者像美国的“bubble gum”，泡泡糖。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>现场人士：</strong> 我就是配着……你就配着吃……</p>
+<p><strong>Lex：</strong> 哇，你看，好漂亮。</p>
+<p><strong>黄仁勋：</strong> 这是葱油饼。葱油饼，主要成分就是油，油排第一位。</p>
+<p><strong>现场人士：</strong> 对，百分之九十是油，百分之十是蛋。</p>
+<p><strong>Lex：</strong> 你看。哦，她真的很懂怎么做。</p>
+<p><strong>现场人士：</strong> 对，估计已经做了很多年了。</p>
+<p><strong>现场人士：</strong> 各位，你们的减肥计划泡汤了。我这趟旅行恐怕已经胖了十磅。</p>
+<p><strong>现场人士：</strong> 光这一趟就胖了这么多，对。</p>
+<p><strong>黄仁勋：</strong> Lex 倒是真的很有节制，他只尝一尝。</p>
+<p><strong>Lex：</strong> 是啊。</p>
+<p><strong>黄仁勋：</strong> 我会说：“我们尝尝就好，别吃了。”可我自己还是照吃。</p>
+<p><strong>Lex：</strong> 我们还吃了很好吃的猪脚。</p>
+<p><strong>现场人士：</strong> 哦，真香。</p>
+<p><strong>Lex：</strong> 这又是个品牌命名问题，名字听着不怎么样，可是真的很好吃。</p>
+<p><strong>现场人士：</strong> 当然……我是认真的。</p>
+<p><strong>Lex：</strong> 当然，OpenAI 一向以名字取得特别清楚、特别完美著称。</p>
+<p><strong>现场人士：</strong> 对，对，对。</p>
+<p><strong>现场人士：</strong> 辣椒……［语音不清］。</p>
+<p><strong>Lex：</strong> 随便加几个数字，大家自然会弄明白。</p>
+<p><strong>现场人士：</strong> 只要数字越来越大，就说明越来越好。</p>
+<p><strong>Lex：</strong> 对，往上加就行，数字越来越大。</p>
+<p><strong>现场人士：</strong> 完美组合。</p>
+<p><strong>Lex：</strong> 你看，真的，看着很好吃。哇。</p>
+<p><strong>现场人士：</strong> 这个好吃吗？</p>
+<p><strong>现场人士：</strong> 好吃。</p>
+<p><strong>现场人士：</strong> 那这个呢？</p>
+<p><strong>现场人士：</strong> 也好吃。</p>
+<p><strong>Lex：</strong> 好。哦，他基本上把所有东西都加上了。</p>
+<p><strong>现场人士：</strong> 我全都加了。</p>
+<p><strong>现场人士：</strong> 这些是芝麻汤圆。</p>
+<p><strong>现场人士：</strong> 特别好吃。</p>
+<p><strong>现场人士：</strong> 他什么都加了。</p>
+<p><strong>现场人士：</strong> 这是我做的。</p>
+<p><strong>Lex：</strong> 哇，真是个什么都有的丸子。好，这是芝麻汤圆。外面特别有嚼劲，有点像面团的口感，里面是芝麻之类的东西。</p>
+<p><strong>黄仁勋：</strong> 底下这个豆腐，你看到了吗？这里这个。</p>
+<p><strong>Lex：</strong> 什么？</p>
+<p><strong>黄仁勋：</strong> 豆腐。</p>
+<p><strong>Lex：</strong> 哦，有意思。</p>
+<p><strong>黄仁勋：</strong> 这才是好东西。</p>
+<p><strong>现场人士：</strong> 风好大。每一样你都得尝尝。这个是仙草，这个是“cai”［名称不清］，它们有点像……这个也是仙草。</p>
+<p><strong>现场人士：</strong> Grass jelly，仙草冻。</p>
+<p><strong>Lex：</strong> 名字取得真好。</p>
+<p><strong>黄仁勋：</strong> 大家以为仙草冻是做出来的，其实把植物里的东西挤出来，它就在那里了。</p>
+<p><strong>Lex：</strong> 真的吗？</p>
+<p><strong>黄仁勋：</strong> 真的。仙草冻不是做出来的。</p>
+<p><strong>Lex：</strong> 好。不会太甜。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>Lex：</strong> 很不错的冻。</p>
+<p><strong>现场人士：</strong> 你刚才说“不会太甜”？</p>
+<p><strong>Lex：</strong> 不会太甜。</p>
+<p><strong>现场人士：</strong> 这就是最高的赞美。</p>
+<p><strong>Lex：</strong> 好，来尝尝这个豆腐的。听说这个是豆腐。</p>
+<p><strong>黄仁勋：</strong> 豆腐，可以喝，早上又可以当奶喝。可以炸，可以卤，也可以煮。</p>
+<p><strong>Lex：</strong> 嗯。这个真好吃。</p>
+<p><strong>现场人士：</strong> 这就像那个“bubble gum shrimp”……［名称不清］。</p>
+<p><strong>Lex：</strong> 嗯。那个黄色的是什么？</p>
+<p><strong>现场人士：</strong> 是个……</p>
+<p><strong>Lex：</strong> 有人知道吗？</p>
+<p><strong>现场人士：</strong> 像是红薯做的东西，那个是芋头。</p>
+<p><strong>Lex：</strong> 也是这种外面软软糯糯、有嚼劲的口感。太棒了。</p>
+<p><strong>黄仁勋：</strong> 有一部分当然是为了味道，另一部分则是为了口感。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 有一种重要的口感叫“QQ”，形容的就是有弹性的感觉。比如……</p>
+<p><strong>Lex：</strong> 像芝麻汤圆。</p>
+<p><strong>黄仁勋：</strong> ……像这个，就有点 QQ。乌冬面也 QQ。</p>
+<p><strong>Lex：</strong> 嗯，有嚼劲的口感。</p>
+<p><strong>黄仁勋：</strong> 得有一点弹性。有这种嚼劲的面条才是最好的。</p>
+<p><strong>Lex：</strong> QQ？</p>
+<p><strong>黄仁勋：</strong> 对，就说 QQ。</p>
+<p><strong>Lex：</strong> QQ，好。所以这是夸面条的话。</p>
+<p><strong>黄仁勋：</strong> QQ。是的。</p>
+<p><strong>Lex：</strong> QQ。</p>
+<p><strong>现场人士：</strong> 对。他们在上面刷了一点辣酱。</p>
+<p><strong>Lex：</strong> 哦，是啊，真不错。</p>
+<p><strong>Lex：</strong> 难怪我这么喜欢，难怪这么好吃。我不打算把它吃完。什么情况？天哪，这个……不，我不吃了，我不会……</p>
+<p><strong>现场人士：</strong> 对，对。</p>
+<p><strong>黄仁勋：</strong> 好吃吧？</p>
+<p><strong>现场人士：</strong> 只要没吃完，就不算吃过。</p>
+<p><strong>现场人士：</strong> 哇，Lex？</p>
+<p><strong>Lex：</strong> 嗯？</p>
+<p><strong>现场人士：</strong> Mark 呢？哦，嘿。</p>
+<p><strong>现场人士：</strong> 各位往后退一点，别站在车前面。</p>
+<p><strong>现场人士：</strong> 没问题，没问题，谢谢，没问题。</p>
+<p><strong>Lex：</strong> 太好吃了。</p>
+<p><strong>黄仁勋：</strong> 哦，这个粉。酸酸甜甜的粉配上梨，酸甜粉。</p>
+<p><strong>Lex：</strong> 哦，太棒了。</p>
+<p><strong>现场人士：</strong> 你吃过红色那个了吗？</p>
+<p><strong>Lex：</strong> 还没有。</p>
+<p><strong>现场人士：</strong> 我来弄。</p>
+<p><strong>Lex：</strong> 还没，还没。谢谢，谢谢。嗯，嗯，嗯。</p>
+<p><strong>现场人士：</strong> 好吃吗？</p>
+<p><strong>现场人士：</strong> 这个粉……</p>
+<p><strong>Lex：</strong> 太好吃了。</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>现场人士：</strong> 哦，你应该吃这个。</p>
+<p><strong>Lex：</strong> 嗯，哦，这是什么？</p>
+<p><strong>现场人士：</strong> 我们有个……对。</p>
+<p><strong>Lex：</strong> 这是什么？</p>
+<p><strong>现场人士：</strong> 榴莲。</p>
+<p><strong>现场人士：</strong> 纽约……榴莲，榴莲。对，那是我的最爱，我喜欢榴莲。</p>
+<p><strong>现场人士：</strong> 我是说，你会又爱它又恨它。</p>
+<p><strong>Lex：</strong> 好，谢谢。榴莲。榴莲，他们又做了一种榴莲的吃法。听说这是种得慢慢习惯的味道。嗯，有气味。甜甜的，但……其实很好吃，可是它的气味，真的很难闻。</p>
+<p><strong>现场人士：</strong> 我知道，太可怕了。</p>
+<p><strong>Lex：</strong> ……可吃起来很好吃。</p>
+<p><strong>现场人士：</strong> 就是这样。对。</p>
+<p><strong>Lex：</strong> 闻起来实在难闻。嗯，好，我明白了，可它真的好吃。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>Lex：</strong> 这就很有意思。我不知道，我脑子理解不了，因为吃起来真的很好。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>Lex：</strong> 不管那个是什么……可就是闻起来很糟。</p>
+<p><strong>现场人士：</strong> 大自然开了个小玩笑。</p>
+<p><strong>Lex：</strong> 李子？哦，这个一定很好吃。哎呀。很不错的李子，是李子，我觉得像一颗小李子。太棒了，谢谢。</p>
+<p><a id="taiwan-section-12"></a></p>
+<h3>台湾早餐（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=4214s">1:10:14</a>）</h3>
+<p><strong>Lex：</strong> 你和 Morris，也就是张忠谋的关系，是从你回台湾的时候开始的吗？</p>
+<p><strong>黄仁勋：</strong> 对，当时我们在找晶圆代工厂。那时，晶圆代工这个行业其实……</p>
+<p><strong>Lex：</strong> 顺便说一下，我们正在吃台湾早餐。</p>
+<p><strong>黄仁勋：</strong> 早餐。</p>
+<p><strong>Lex：</strong> 一大早。</p>
+<p><strong>黄仁勋：</strong> 干杯。那时我们在找代工厂，当时大家都想做晶圆代工，NEC、东芝、富士通、惠普，因为个人电脑革命已经开始了。Windows 95 刚刚发布。记得吗？大家绕着街区排长队，等着买一个盒子，就是那套操作系统。</p>
+<p><strong>Lex：</strong> 是啊，你在主题演讲台上回顾 Windows 95 的那个瞬间。</p>
+<p><strong>黄仁勋：</strong> 那一刻，那些年一下子全从脑海里闪过，所有回忆都涌了上来。</p>
+<p><strong>现场人士：</strong> 是啊。谢谢。尝尝这个。</p>
+<p><strong>Lex：</strong> 这是什么？</p>
+<p><strong>黄仁勋：</strong> 冰豆浆。因为大多数亚洲人都有乳糖不耐受。</p>
+<p><strong>现场人士：</strong> 早餐吃得怎么样？</p>
+<p><strong>Lex：</strong> 百分之一千值得。这是冰豆浆。</p>
+<p><strong>黄仁勋：</strong> 好，这个是咸的。里面有这个，明白吗？这是甜的，这个是咸的，热的咸豆浆。能再拿几把勺子吗？</p>
+<p><strong>现场人士：</strong> 可以，这把……不过 Lex……</p>
+<p><strong>Lex：</strong> 你刚才说，你们在找代工厂。我们刚在讲你第一次回台湾、和台积电建立关系的故事。Windows 95 那会儿。</p>
+<p><strong>现场人士：</strong> 明白，明白。</p>
+<p><strong>黄仁勋：</strong> 这太重要了。这个对我太重要了。</p>
+<p><strong>Lex：</strong> 你是说台积电，还是那个？</p>
+<p><strong>黄仁勋：</strong> 不，我现在没办法说话。</p>
+<p><strong>Lex：</strong> 好，对。人生要分清轻重缓急。</p>
+<p><strong>黄仁勋：</strong> Lex，我一会儿再跟你分享，但这个对我太重要了。</p>
+<p><strong>现场人士：</strong> 来了。</p>
+<p><strong>黄仁勋：</strong> 哦，这是我的最爱。</p>
+<p><strong>Lex：</strong> 哦，好。他们也会做那样的汤吗？不会？</p>
+<p><strong>现场人士：</strong> 就是另一种版本，这是米做的。</p>
+<p><strong>Lex：</strong> 太好吃了。</p>
+<p><strong>黄仁勋：</strong> 好吃得离谱，对吧？</p>
+<p><strong>Lex：</strong> 所以这个，我想是豆腐，当然还配上了特别棒的汤。</p>
+<p><strong>黄仁勋：</strong> 还有油条。</p>
+<p><strong>Lex：</strong> 油炸的甜甜圈？</p>
+<p><strong>黄仁勋：</strong> 对，可以说是一种甜甜圈。</p>
+<p><strong>Lex：</strong> 油炸的甜甜圈。看看这个，真不错。</p>
+<p><strong>现场人士：</strong> 好。历史。</p>
+<p><strong>黄仁勋：</strong> 哇，肉松，你的最爱。米饭、肉松、咸的腌菜，当然还得有鸡蛋。</p>
+<p><strong>Lex：</strong> 嗯。干杯。</p>
+<p><strong>现场人士：</strong> 干杯，谢谢。干杯。</p>
+<p><strong>黄仁勋：</strong> 教教你们门道。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 怎么样？</p>
+<p><strong>Lex：</strong> 不会吧。</p>
+<p><strong>黄仁勋：</strong> 我知道，是肉松。</p>
+<p><strong>Lex：</strong> 肉松加鸡蛋，外面包着……基本上就是糯米。</p>
+<p><strong>现场人士：</strong> 最棒的营销。</p>
+<p><strong>Lex：</strong> 真的很好吃。“Floss”，那是什么？肉松。</p>
+<p><strong>黄仁勋：</strong> 对吧？</p>
+<p><strong>Lex：</strong> 我觉得我以前没有……这个“cha mu”［名称不清］，真是我吃过最棒的东西之一。太不可思议了。</p>
+<p><strong>现场人士：</strong> 哦，对。谢谢，Jim。</p>
+<p><strong>现场人士：</strong> 来了。</p>
+<p><strong>Lex：</strong> 这个算什么？</p>
+<p><strong>黄仁勋：</strong> 甜甜圈。</p>
+<p><strong>Lex：</strong> 所以这是一种甜甜圈。</p>
+<p><strong>现场人士：</strong> 油炸的。</p>
+<p><strong>现场人士：</strong> 夏威夷甜甜圈。</p>
+<p><strong>黄仁勋：</strong> 油炸的甜甜圈。蘸一下汤汁。不过别吃太多……记住，你要是……那样可帮不了你。等热豆浆来了，那个才是它真正该蘸的。</p>
+<p><strong>Lex：</strong> 里面很蓬松，空气感十足，但外面又很脆。他们真知道怎么做。</p>
+<p><strong>Lex：</strong> 哇，我的天。里面是什么？豆腐，鸡蛋？嗯，吃了就知道了。</p>
+<p><strong>现场人士：</strong> 加一点芝麻。</p>
+<p><strong>Lex：</strong> 外面还有芝麻。</p>
+<p><strong>现场人士：</strong> 你喜欢吗？</p>
+<p><strong>现场人士：</strong> 看看那枚钻戒，天哪，真漂亮。哦，他可真行。是不是？哎呀。</p>
+<p><strong>现场人士：</strong> 好。</p>
+<p><strong>现场人士：</strong> 好。</p>
+<p><strong>黄仁勋：</strong> 芝麻确实有加分，对吧？</p>
+<p><strong>Lex：</strong> 对。一般看到芝麻，我会以为只是撒一点在上面，让它看起来好看。但这里真的有作用，我想是那个香气。</p>
+<p><strong>黄仁勋：</strong> 嗯，没错。</p>
+<p><strong>Lex：</strong> 嗯，几乎有一种烟熏香之类的味道。</p>
+<p><strong>黄仁勋：</strong> 对。这是蒸包子，里面有一点馅。</p>
+<p><strong>Lex：</strong> 外皮特别软。太好吃了。</p>
+<p><strong>黄仁勋：</strong> 我知道。</p>
+<p><strong>现场人士：</strong> 所以你们肯定很早就认识了，去了同一个团体？</p>
+<p><strong>现场人士：</strong> 对，很久了。</p>
+<p><strong>现场人士：</strong> 我知道。</p>
+<p><strong>现场人士：</strong> 我们的学校就在 China Mall 里面，所以小时候身边都是中文学校的那些同学。</p>
+<p><strong>黄仁勋：</strong> 所以，这个是萝卜糕。</p>
+<p><strong>Lex：</strong> 萝卜糕？</p>
+<p><strong>黄仁勋：</strong> 萝卜糕，萝卜。对。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 这个很棒，真的很好吃。还是那个问题，名字取得不太好，但你一定会喜欢。</p>
+<p><strong>现场人士：</strong> 那个蒜味怎么样？</p>
+<p><strong>现场人士：</strong> 蒜味很重，但非常好吃。你可以试试，如果你……对。</p>
+<p><strong>现场人士：</strong> 我……</p>
+<p><strong>黄仁勋：</strong> Lori 不太吃蒜。各位，那个蒜酱，如果你们能接受蒜，这个真的太好吃了。</p>
+<p><strong>现场人士：</strong> 很棒，特别好吃。</p>
+<p><strong>现场人士：</strong> 底下。</p>
+<p><strong>Lex：</strong> 现在我嘴里已经像着了火一样，再来点热的可真是太有帮助了。我这是在说反话，因为……</p>
+<p><strong>现场人士：</strong> 嗯。不错吧？</p>
+<p><strong>Lex：</strong> 是啊。</p>
+<p><strong>现场人士：</strong> 很纯。这家店不错。</p>
+<p><strong>Lex：</strong> 这个的热度太绝了。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>Lex：</strong> 哦，他们的做法，让它吃起来几乎有点像土豆……</p>
+<p><strong>黄仁勋：</strong> 嗯。</p>
+<p><a id="taiwan-section-13"></a></p>
+<h3>寻找代工厂与张忠谋的回电（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=4639s">1:17:19</a>）</h3>
+<p><strong>黄仁勋：</strong> 1996 年，个人电脑革命刚刚腾飞。当时个人电脑芯片组这个行业起来了，“芯片组行业”这个说法也是那时候出现的。无晶圆厂半导体行业诞生了。Cirrus Logic 是其中的巨头，还有 S3，各种大大小小的公司……Weitek 是比较小的那家。西部数据以前也做图形芯片。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我跟各种各样的公司竞争过。当时所有代工厂都特别……</p>
+<p><strong>Lex：</strong> 他们可不是随便做做的。</p>
+<p><strong>黄仁勋：</strong> 这个故事我还是一会儿再讲吧。</p>
+<p><strong>Lex：</strong> 不，你继续。</p>
+<p><strong>现场人士：</strong> 这就是……</p>
+<p><strong>Lex：</strong> 我们现在简直身处战场，就在这堆美食里面。</p>
+<p><strong>现场人士：</strong> 来。谢谢，谢谢。</p>
+<p><strong>现场人士：</strong> 所以我其实很……</p>
+<p><strong>黄仁勋：</strong> 对，这个不错，这个很好吃。</p>
+<p><strong>现场人士：</strong> 对，相当不错。</p>
+<p><strong>黄仁勋：</strong> 而且就算按照这道菜本身的标准来评，也是很出色的。</p>
+<p><strong>现场人士：</strong> 哦，好。</p>
+<p><strong>现场人士：</strong> 天哪，九十。</p>
+<p><strong>现场人士：</strong> 我知道，对吧？好。</p>
+<p><strong>Lex：</strong> 你们是 1996 年回来的。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 好，来尝尝这个。真的很好吃，很简单，但特别好吃，做得很好。你够得着吗？</p>
+<p><strong>现场人士：</strong> 好，拿到……对，来，接下来这一步。对，就是这样，往后一点。</p>
+<p><strong>Lex：</strong> 难就难在得把它夹起来，还不能夹破。</p>
+<p><strong>现场人士：</strong> 对。</p>
+<p><strong>Lex：</strong> 而我在这件事上失败得很彻底。哦，这个夹得太完美了。</p>
+<p><strong>黄仁勋：</strong> 这就是汤包，里面有汤。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 当然，大家都会想，这汤到底是怎么装进去的？一开始就……</p>
+<p><strong>Lex：</strong> 这是个大谜团。对，可它怎么不会漏出来？我想他们肯定很懂怎么做。</p>
+<p><strong>黄仁勋：</strong> 是啊，他们确实做得很好。</p>
+<p><strong>Lex：</strong> 我觉得过去二十分钟里，我们的故事才讲过了一年：Windows 95 发布了。</p>
+<p><strong>黄仁勋：</strong> 但我们好像已经吃了十四道菜。</p>
+<p><strong>Lex：</strong> 对，干得不错，干得不错。</p>
+<p><strong>黄仁勋：</strong> 说回代工厂。日本企业进入了晶圆代工业务，几乎大家都在做。美国却很少有代工厂，因为英特尔专注于造自己的产品，AMD 也造自己的产品，德州仪器也是。所以其他国家的芯片公司进入代工业务，想为这个芯片组行业提供服务。</p>
+<p><strong>黄仁勋：</strong> SGS-汤姆逊当时也做代工。我们最初去找了 SGS-汤姆逊，但他们不愿意接我们的生意。那时代工产能很少，如果你想用一家公司的工厂，就得把自己的技术授权给它。这是当时的条件之一。这让我有点想到如今人工智能公司早期的一些交易：你想获得算力或产能，就得把某些东西授权出去。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 在我那个年代，我们必须把自己的知识产权授权给代工厂。后来我听说了台湾的台积电，还有当时的联电。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 他们没有这种附加条件。当然，他们自己当时也没什么钱，都只是勉强撑着。我记得那时台积电大概是一家三亿美元规模的公司，三亿美元。听起来像三千亿美元，可说的是三亿美元。</p>
+<p><strong>Lex：</strong> 哇。</p>
+<p><strong>黄仁勋：</strong> 就是一家很小的公司。我听说了这家公司，也听说了张忠谋，于是想给他们的美国办公室打电话。过去那时候用黄页，我在上面查到台积电，找到号码打过去，结果接电话的是录音。</p>
+<p><strong>黄仁勋：</strong> 你想想，打给一家什么样的公司，接起来会是录音？他们一直没有……于是我留下名字和电话，简单介绍了一下英伟达。我说我们是一家新创公司，在做计算机图形芯片。</p>
+<p><strong>Lex：</strong> 你知道，那段电话留言现在恐怕很值钱。</p>
+<p><strong>黄仁勋：</strong> 可不是。</p>
+<p><strong>Lex：</strong> “你好，我叫 Jensen。”</p>
+<p><strong>黄仁勋：</strong> 就是这样。</p>
+<p><strong>Lex：</strong> “我们是一家新创公司。”</p>
+<p><strong>黄仁勋：</strong> 想想，要是有人回我电话该多好。我打了好几次，没人打给我，没有人回电。</p>
+<p><strong>Lex：</strong> 是啊。</p>
+<p><strong>黄仁勋：</strong> 最后我给 Morris 写了封信，一封长信，寄给了他。很久都没消息。后来有一天，大概六点或六点半，有个人打来电话，说：“我是台积电的张忠谋。”</p>
+<p><strong>Lex：</strong> 哇。</p>
+<p><strong>黄仁勋：</strong> 与此同时，我办公室外面的人都在打电子游戏，又笑又叫。我记得他们当时玩的是第一代 PlayStation。大家都在大笑、尖叫。我说：“嘿，各位，安静点，是张忠谋！”他居然回了电话。我特别高兴，一位创办人真的愿意给我们回电话。因为你想，这意味着……也许我们不用死了。</p>
+<p><strong>Lex：</strong> 是啊，哇。</p>
+<p><strong>黄仁勋：</strong> 于是我们聊了起来，他邀请我来台湾，我就第一次回到了台湾。</p>
+<p><strong>Lex：</strong> 那是你隔了很多年之后……</p>
+<p><strong>黄仁勋：</strong> 三十年来第一次回去。</p>
+<p><strong>Lex：</strong> 那是一切的起点。不只是这段合作关系的起点，从某种意义上说，也是整个行业的起点。</p>
+<p><strong>黄仁勋：</strong> 台积电和他们的主要竞争对手联电，真的就隔着一条街。就是园区里的一条街，差不多相当于隔壁一栋楼。我先去联电，再去台积电，就是这个顺序。两家公司都非常友善，他们愿意和我们谈，我特别高兴。</p>
+<p><a id="taiwan-section-14"></a></p>
+<h3>选择伙伴与三十年的信任（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=5014s">1:23:34</a>）</h3>
+<p><strong>黄仁勋：</strong> 我和联电谈的时候……经常有人问我，为什么最后选择台积电，而没有选联电？其实我同样喜欢这两家公司，两家都是出色的公司。但台积电特别让我欣赏的一点是，我提到很多事情，Morris 都会说：“这件事我们做不了。”我问：“那这样呢？”他说：“这也做不了。”很多事情，他们就是不能做。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 他对经营这家公司有自己的理念，有一套非常在意的核心价值观。他一直在讲公司治理、诚信、伙伴关系，以及着眼长远。从头到尾，他没有聊其他那些东西。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 他还说了一句话：“Jensen，如果我们一起合作，我向你保证，我们会为你想尽办法，克服困难。”整整三十年，他们一直都在为我们这样做。</p>
+<p><strong>Lex：</strong> 是啊，他信守了承诺。</p>
+<p><strong>黄仁勋：</strong> 那家公司的核心价值观非常、非常强，从最开始就是如此。合作中要一起经历顺境和逆境，未来会有很多不可预测的事情。因为你们是在一起造芯片，这是晶圆代工，不是从货架上买件现成产品。你们要一起造芯片，而造芯片真的很难。</p>
+<p><strong>黄仁勋：</strong> 所以，不可能提前知道所有细节，不可能一开始就做完所有决定。你真正选择的，不是买什么，而是跟谁合作。在那个决定上，我是明智的。重点不在于买什么，而在于你选择和谁一起做事。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 这种态度，这种选择合作对象的理念，一直延续到今天。</p>
+<p><strong>Lex：</strong> 不过在科技行业里，特别了不起的不只是选择和谁合作，还有选择和他们合作几十年，是这段关系中的忠诚。</p>
+<p><strong>黄仁勋：</strong> 对。我们跟台积电已经合作了三十年。就是“我们都明白，好，那就干吧”，就这么简单，三十年。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 为什么说这是智慧？因为一段关系里所有未知的事情，你怎么可能提前全都写进去？就好像你要拟一份滴水不漏的婚前协议。问题是，你越想把每件事规定得具体，那段关系反而越脆弱。</p>
+<p><strong>Lex：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 所以我的明智之处，就是给它保留空间，边走边摸索，讲求一种“大体上的公平”。我们会用 rough justice 这个说法。有时候他们占点便宜，有时候我占点便宜。有时候，事情的结果让我比他们更满意；有时候他们比我更满意。时间拉长，最后就会平衡。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 这样说，你是不是就明白台积电为什么会这么传奇了？</p>
+<p><strong>Lex：</strong> 是的，完全明白。</p>
+<p><strong>现场人士：</strong> 没错，绝对是。很好。</p>
+<p><strong>黄仁勋：</strong> 我就是这样跟他们合作的。我不知道别人是不是都这么做，但如果很多人也这样，我不会觉得意外。我更喜欢用这种方式与人共事。你再看看公司的员工，我也没有跟他们签什么滴水不漏的合同，我们是彼此选择一起工作。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 不可能每一回都绝对公平，有时候会稍微偏向某一方。但把时间拉长来看，这种大体上的公平会发挥作用。</p>
+<p><strong>Lex：</strong> 而且这会让每个人都愿意多承担一点。当双方都主动选择一起做事，就会更愿意站出来。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>黄仁勋：</strong> 他们必须知道，你希望他们赢。我所有的员工都知道我希望他们成功，台积电也知道。每一天，台积电都知道我希望他们成功。这体现在我们的伙伴关系里，体现在业务往来里，也体现在我一直帮助他们成为一家更好的公司。他们对我也一直如此。</p>
+<p><strong>黄仁勋：</strong> 你不是在买一件东西，而是在决定一起打造某个东西。</p>
+<p><strong>Lex：</strong> 嗯。</p>
+<p><strong>黄仁勋：</strong> 我们的公司建立在台积电的平台上，也建立在台湾的平台上，所以这些关系很重要。如果你因为一时生气就做了什么，或者只想让所有人竞相压价来争你的生意，或者除了你自己，谁都赚不到钱……这些事情，这座岛上的人会永远记得，而且人人都会知道。</p>
+<p><strong>黄仁勋：</strong> 所以，永远要留一些利益给别人。永远让他们……你要始终考虑别人的可持续发展和成功。去年，我整个供应链上的公司股价都涨了百分之三百，我自己的股价却没动。没有什么比看到他们成功更让我开心。当然，我自己的股价没涨这件事本身并不让我高兴。但这说明我们的平台足够大，所有人都能跟着发展起来，这是一件好事。</p>
+<p><strong>Lex：</strong> 是啊，希望合作伙伴和朋友长期成功，也会带来你自己的成功。</p>
+<p><strong>黄仁勋：</strong> 对。</p>
+<p><strong>Lex：</strong> 百分之百。这套理念很有力量。</p>
+<p><strong>黄仁勋：</strong> 这很有道理。对家人是这样，对员工是这样，为什么对合作伙伴就不是这样呢？对吧？对客户也是如此。</p>
+<p><strong>Lex：</strong> 我特别喜欢的一点是，就连 Morris 在台湾吃东西，也得由你来当美食向导。能让世界上最棒的美食向导带着我们吃，真是一辈子的荣幸。工程和美食，真的没有人比 Jensen 更强。</p>
+<p><strong>黄仁勋：</strong> 我就是在为开自己的播客做准备。</p>
+<p><strong>Lex：</strong> 对，没错。</p>
+<p><strong>现场人士：</strong> 对，对。</p>
+<p><strong>现场人士：</strong> 美食博客。我们说的是 AGI 实现以后。来吧。</p>
+<p><strong>黄仁勋：</strong> 来，再吃一个。</p>
+<p><strong>现场人士：</strong> 再一个。塑料的……他们得把它藏在一块布下面。</p>
+<p><strong>Lex：</strong> 哦，天哪。</p>
+<p><strong>黄仁勋：</strong> 现在你懂什么是真正的亚洲人了。</p>
+<p><strong>Lex：</strong> 太棒了。</p>
+<p><strong>黄仁勋：</strong> 吃东西和肚子饿，完全是两回事。</p>
+<p><strong>Lex：</strong> 好，我人生中最不可思议的一周之一，就这样结束了。Jensen，真的非常感谢你，谢谢你带给我的这一切。</p>
+<p><strong>黄仁勋：</strong> 是啊，太有意思了。和你一起玩、一起聊天，真的很开心。这种事我还可以多来几次。</p>
+<p><strong>Lex：</strong> 还有，这些食物也太棒了。现在，去迎接下一场冒险。</p>
+<p><a id="taiwan-section-15"></a></p>
+<h3>片尾：感谢这段旅程（<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk&#x26;t=5394s">1:29:54</a>）</h3>
+<p><strong>Lex：</strong> 好了，我的台湾之行到这里就结束了。这是一段不可思议的经历：和数百位工程师聊天，吃各种街头美食，和 Jensen 一起玩。我由衷地感恩自己还活着，感谢所有支持，感谢我收到的拥抱和善意，感谢这一切。谢谢你们的一切。我爱你们所有人。</p>
+<p><a id="basic-info"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原题：</strong> Visiting Taiwan w/ Jensen Huang | Lex Fridman</li>
+<li><strong>拍摄、旁白与采访：</strong> Lex Fridman</li>
+<li><strong>主要出镜嘉宾：</strong> 黄仁勋（Jensen Huang），NVIDIA 联合创始人兼首席执行官</li>
+<li><strong>发布频道：</strong> Lex Fridman</li>
+<li><strong>原视频发布日期：</strong> 2026 年 10 月 13 日（美国日期；台湾时间为 10 月 14 日）</li>
+<li><strong>时长：</strong> 约 90 分钟</li>
+<li><strong>主要地点：</strong> 台北国际电脑展 Computex、饶河街夜市、宁夏夜市及台湾餐馆</li>
+<li><strong>原始语言：</strong> 英语</li>
+<li><strong>原视频：</strong> <a href="https://www.youtube.com/watch?v=FGCP2F_7rQk">YouTube</a></li>
+<li><strong>相关完整对谈：</strong> <a href="https://www.youtube.com/watch?v=vif8NQcjVf0">Jensen Huang 与 Lex Fridman 的播客访谈</a></li>
+<li><strong>节目与相关机构：</strong> <a href="https://lexfridman.com/podcast">Lex Fridman</a>、<a href="https://www.nvidia.com/">NVIDIA</a>、<a href="https://www.computextaipei.com.tw/en/">Computex</a></li>
+<li><strong>本期赞助商：</strong> <a href="https://lexfridman.com/s/higgsfield-mv589-sb">Higgsfield AI</a>、<a href="https://lexfridman.com/s/perplexity-mv589-sb">Perplexity</a></li>
+</ul>
+5:["$","$L10",null,{"email":{"id":"talks-lex-fridman-jensen-huang-visiting-taiwan","sender":"Jensen Huang","author":"Lex Fridman","sourceAuthor":"$undefined","interviewGuests":["Jensen Huang"],"interviewHosts":["Lex Fridman"],"authorAliases":["Lex Fridman","Jensen Huang","黄仁勋"],"publisher":"Lex Fridman","media":"Lex Fridman Podcast","publishedAt":"$undefined","subject":"跟随黄仁勋走访台湾：夜市、芯片与长期合作","snippet":"Lex Fridman 随黄仁勋走访台北电脑展与夜市，从 GPU、台积电和出口管制，聊到童年、美食、谦逊与三十年的伙伴关系。","date":"2026-10-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["半导体","人工智能","台湾","企业经营","饮食文化"],"mdTheme":"magazine","sourcePath":"talks/lex-fridman-jensen-huang-visiting-taiwan.md","sourceUrl":"https://www.youtube.com/watch?v=FGCP2F_7rQk","coverImage":"$undefined","body":"$11","prompts":[]},"listPosition":{"index":20,"total":607},"matchedPerson":{"id":"jensen-huang","name":"Jensen Huang","email":"","occupation":"企业家","website":"https://nvidianews.nvidia.com/bios/jensen-huang","bio":"1993 年创办英伟达，长期领导公司发展图形处理器、加速计算及面向人工智能的计算平台。","contentCount":8,"topTags":[{"id":"gpu","name":"GPU","count":4},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"人工智能","name":"人工智能","count":2}]},"relatedArticles":[{"id":"talks-jensen-huang-bg2-ai-capex-singularity-2027","subject":"黄仁勋再访 BG2：AI 收入、2027 年算力瓶颈与通往奇点的道路","sender":"Jensen Huang","date":"2026-10-15","matchedPeople":["Jensen Huang"],"matchedTags":["人工智能"]},{"id":"talks-jensen-huang-will-nvidias-moat-persist","subject":"黄仁勋访谈：英伟达的护城河能否持续？","sender":"Jensen Huang","date":"2026-04-16","matchedPeople":["Jensen Huang"],"matchedTags":[]},{"id":"talks-dwarkesh-jensen-huang","subject":"Jensen Huang：TPU 竞争、为何应向中国出售芯片，以及 Nvidia 的供应链护城河","sender":"Jensen Huang","date":"2026-04-15","matchedPeople":["Jensen Huang"],"matchedTags":[]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[6869,[],"IconMark"]
+c:[["$","title","0",{"children":"跟随黄仁勋走访台湾：夜市、芯片与长期合作 · Hinbox"}],["$","meta","1",{"name":"description","content":"Lex Fridman 随黄仁勋走访台北电脑展与夜市，从 GPU、台积电和出口管制，聊到童年、美食、谦逊与三十年的伙伴关系。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-lex-fridman-jensen-huang-visiting-taiwan"}],["$","meta","4",{"property":"og:title","content":"跟随黄仁勋走访台湾：夜市、芯片与长期合作"}],["$","meta","5",{"property":"og:description","content":"Lex Fridman 随黄仁勋走访台北电脑展与夜市，从 GPU、台积电和出口管制，聊到童年、美食、谦逊与三十年的伙伴关系。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-lex-fridman-jensen-huang-visiting-taiwan"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"跟随黄仁勋走访台湾：夜市、芯片与长期合作"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-10-13T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Lex Fridman"}],["$","meta","16",{"property":"article:tag","content":"半导体"}],["$","meta","17",{"property":"article:tag","content":"人工智能"}],["$","meta","18",{"property":"article:tag","content":"台湾"}],["$","meta","19",{"property":"article:tag","content":"企业经营"}],["$","meta","20",{"property":"article:tag","content":"饮食文化"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:title","content":"跟随黄仁勋走访台湾：夜市、芯片与长期合作"}],["$","meta","23",{"name":"twitter:description","content":"Lex Fridman 随黄仁勋走访台北电脑展与夜市，从 GPU、台积电和出口管制，聊到童年、美食、谦逊与三十年的伙伴关系。"}],["$","meta","24",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","25",{"rel":"icon","href":"/hinbox/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","link","26",{"rel":"icon","href":"/hinbox/icon.svg?6bf83d62ba40c678","type":"image/svg+xml","sizes":"any"}],["$","$L12","27",{}]]
+8:null

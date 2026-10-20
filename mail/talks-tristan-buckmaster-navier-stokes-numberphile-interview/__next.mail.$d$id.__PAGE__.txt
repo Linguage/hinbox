@@ -1,0 +1,266 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Tba27,<h2>摘要</h2>
+<p>Tristan Buckmaster 回顾了他与 Levent 运用智能体系统研究欧拉方程的过程，以及研究传闻扩散后与 OpenAI 的沟通。他解释了自己对未发表成果可能被使用的怀疑；主持人同时明确指出，OpenAI 已公开否认相关说法。访谈还深入讨论了从欧拉方程走向纳维–斯托克斯方程的技术跨越、凸积分的作用，以及企业竞争如何影响数学界的开放交流和信任。</p>
+<h2>内容概述</h2>
+<ul>
+<li>研究历程：纳维–斯托克斯问题如何成为贯穿职业生涯的方向，以及欧拉方程成果为何带来新的可能。</li>
+<li>AI 的实际作用：Levent 搭建的智能体系统、人类研究者的引导，以及模型能力与运行框架之间的关系。</li>
+<li>争议的经过：传闻、泄密、双方通话、未发表成果的使用疑虑，以及 OpenAI 的公开否认。</li>
+<li>技术上的关键：为什么塌缩涡旋本身还不够，以及凸积分与欧拉爆破机制相结合的意义。</li>
+<li>学术文化与未来：抢先发表、合作规范、开放交流，以及在数学研究中继续使用 AI 的可能道路。</li>
+</ul>
+<h2>目录</h2>
+<ul>
+<li><a href="#buckmaster-section-1">风波之后</a></li>
+<li><a href="#buckmaster-section-2">通往纳维–斯托克斯问题的路</a></li>
+<li><a href="#buckmaster-section-3">欧拉方程，以及 AI 在研究中的作用</a></li>
+<li><a href="#buckmaster-section-4">传闻如何扩散</a></li>
+<li><a href="#buckmaster-section-5">OpenAI 的介入与最初的沟通</a></li>
+<li><a href="#buckmaster-section-6">那次通话与双方说法的分歧</a></li>
+<li><a href="#buckmaster-section-7">未发表成果的使用争议</a></li>
+<li><a href="#buckmaster-section-8">泄密、竞争与学术文化</a></li>
+<li><a href="#buckmaster-section-9">抢先发表究竟带来了什么</a></li>
+<li><a href="#buckmaster-section-10">为什么选择公开发声</a></li>
+<li><a href="#buckmaster-section-11">从欧拉到纳维–斯托克斯，关键跨越在哪里</a></li>
+<li><a href="#buckmaster-section-12">数学与 AI 的未来</a></li>
+<li><a href="#buckmaster-section-13">接下来要做什么，以及这次事件的教训</a></li>
+<li><a href="#buckmaster-section-14">片尾摘录</a></li>
+<li><a href="#basic-info">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/Mzbtj5nkMXI" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈全文</h2>
+<p><a id="buckmaster-section-1"></a></p>
+<h3>风波之后</h3>
+<p><strong>Brady Haran：</strong> 你还有什么问题，或者有什么想先问我的吗？还是说，你就觉得「行，开始吧」？（笑）</p>
+<p><strong>Tristan Buckmaster：</strong> 对，开始吧。</p>
+<p><strong>Brady Haran：</strong> 你现在笑得挺开心的，这正好引出了我想问的第一个问题：你现在感觉怎么样？</p>
+<p><strong>Tristan Buckmaster：</strong> 比几个星期前好些了。不过，事情还没有完全平息。最开始的那个星期……你知道，我有个两个月大的孩子，而就在——</p>
+<p><strong>Tristan Buckmaster：</strong> 所有事情发生的那个星期，我平均每晚大概只睡两个小时。不断有人来敲我的办公室门。有时门开着，他们走进来，就会发现我趴在桌上睡着了。我实在是累坏了。（笑）</p>
+<p><strong>Brady Haran：</strong> 你会不会觉得，自己像是被一万个智能体打劫了？从你的角度看，是这种感觉吗？觉得自己成了某件事情的受害者？</p>
+<p><strong>Tristan Buckmaster：</strong> 会。整件事情真的太荒唐了。我并不是不了解这种文化的人。我之前跟 Google DeepMind 合作过，所以对科技行业的运作方式多少有些了解，也知道那里基本上是什么都敢干。</p>
+<p><strong>Tristan Buckmaster：</strong> 我知道他们信奉的是「快速行动，打破常规」。但这种理念和数学是有冲突的。</p>
+<p><strong>Brady Haran：</strong> 所以这一次，被「打破」的就是你？（笑）</p>
+<p><strong>Tristan Buckmaster：</strong> 对。有意思的是，事情本来完全可以很简单。只要他们按合适的方式做，先让我们发表结果，再启动他们的智能体群，那么接下来的路线就会很清楚，整个故事也会很清楚。他们照样能解决纳维–斯托克斯问题。</p>
+<p><strong>Tristan Buckmaster：</strong> Levent 确实在 Anthropic 工作，但数学研究是他的业余项目，他是在跟我合作。这根本不是 Anthropic 投入几百万美元开展的项目。当然，如果当时是 Dario 说「我们要打败 OpenAI」，那就是另一回事了。可实际情况不是那样，我们也从来不希望它变成那样。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，只要他们让我们先发表结果，然后接过来，在这个基础上继续研究，他们一样能得到后面的结果，也就不会闹出这么大一场风波。</p>
+<p><strong>Brady Haran：</strong> 我想先了解一下，你沿着这条路走向纳维–斯托克斯问题，已经走了多久？</p>
+<p><a id="buckmaster-section-2"></a></p>
+<h3>通往纳维–斯托克斯问题的路</h3>
+<p><strong>Brady Haran：</strong> 你走上这段研究旅程有多久了？纳维–斯托克斯这个著名的千禧年难题，对你来说是终点、目标，还是你希望跨过的一座里程碑？这件事酝酿了多久？在这些争议发生之前，它在你心里处在什么位置？</p>
+<p><strong>Tristan Buckmaster：</strong> 这个问题问得很好。我从来没有把解决纳维–斯托克斯问题当成自己非要完成的目标，但在我的整个职业生涯里，它一直像一颗指引方向的北极星。</p>
+<p><strong>Tristan Buckmaster：</strong> 我觉得，它就是摆在那里的一个问题。科学和数学往往就是这样发展的：有一些重大的问题，你很想解决，却又遥不可及。于是，你先把那个目标放在那里，再想一想，有哪些类似的问题是自己能够着手解决的，可以帮助自己沿着这条路，向那个目标走近一些。</p>
+<p><strong>Tristan Buckmaster：</strong> 基本上就是这样。这么多年来，我并不是一直在直接攻克纳维–斯托克斯问题。至于奇点，过去大概六七年，我确实一直在直接研究奇点。但纳维–斯托克斯问题始终只是那颗北极星，我从来没有把亲自解决它当作目标。</p>
+<p><strong>Tristan Buckmaster：</strong> 我一直希望的，只是在它最终被解决的过程中贡献一部分力量。这就是我全部的愿望。我觉得，我已经扮演了这个角色。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，从这个意义上说，我是高兴的。</p>
+<p><strong>Brady Haran：</strong> 据我了解，你先是在欧拉方程上取得了一些进展。在我的理解里，它有点像「轻量版纳维–斯托克斯方程」。两者不完全一样，但关系很密切。你在那方面取得了成功，大家开始觉得下一步也许就能迈向纳维–斯托克斯问题。到了那个时候，你有没有开始想：「也许我就是能解决它的那个人，或者其中一个人」？它是不是突然显得有可能了？</p>
+<p><a id="buckmaster-section-3"></a></p>
+<h3>欧拉方程，以及 AI 在研究中的作用</h3>
+<p><strong>Tristan Buckmaster：</strong> 是的。</p>
+<p><strong>Tristan Buckmaster：</strong> 不过，我甚至不会把它叫作「轻量版纳维–斯托克斯」。欧拉方程包含的就是最主要的机制。纳维–斯托克斯方程和欧拉方程的区别，在于前者包含黏性。黏性就是一种内部摩擦。我一直觉得，这个黏性是个麻烦：它让问题更难了一点，但核心机制就在欧拉方程里。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，从根本上说，解决欧拉问题与解决纳维–斯托克斯问题之间的区别是：你需要欧拉方程中的奇点更强，强到足以克服这种内部摩擦。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，当然有那种感觉。我们解决欧拉问题以后，就开始沿着这条路往前走。不久之后，我们又解决了某种弱耗散的纳维–斯托克斯方程问题，也就是把黏性放回去，但把它稍微减弱一点。接下来，就是不断往前推进，再推进。我想，我当时大致说的是一个月左右。总之，前面的道路已经很清楚了。</p>
+<p><strong>Tristan Buckmaster：</strong> 我们还可以走其他路线，比如考虑更高维的纳维–斯托克斯方程。基本上，通向纳维–斯托克斯问题的下一步已经很清楚了。</p>
+<p><strong>Brady Haran：</strong> 你本来就大量使用 AI。你并不是那种反对 AI、排斥技术的人。甚至在这项研究里，你也在用 AI，对吧？</p>
+<p><strong>Tristan Buckmaster：</strong> 当然。</p>
+<p><strong>Tristan Buckmaster：</strong> 对。这也是有时整个故事会被讲歪的一个地方。因为我是个确实会拿着纸笔做数学、提出想法的数学家，有些人就以为，我使用 AI 可能不过是让它检查一下拼写。不是，完全不是。</p>
+<p><strong>Tristan Buckmaster：</strong> 我在和 Levent 合作，他自己搭建了一套非常出色的系统。事情不是人们想的那样：把问题写进提示词，按一下按钮，结果就出来了。从某种意义上说，这正是 AI 公司想兜售的说法，好像你只需要输入问题，再按一下回车。不是这样的。我已经使用 AI 好几年了，而 Levent——</p>
+<p><strong>Tristan Buckmaster：</strong> 他亲自搭建了这套非常出色的智能体系统，用来模拟我们数学家所做的一些事情。正是这套系统，让我们能够产生那些很棒的想法，最终得到这些解答。</p>
+<p><strong>Brady Haran：</strong> 据我了解，虽然你还没有正式发表，但这个领域里已经有人知道，你在欧拉方程上取得了成功。消息开始传开，大家有些议论，是这样吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 我不觉得当时那些消息一定是和我联系在一起的。当时是有一个传闻。</p>
+<p><a id="buckmaster-section-4"></a></p>
+<h3>传闻如何扩散</h3>
+<p><strong>Tristan Buckmaster：</strong> Anthropic 那边发生了某种泄密。不知怎么的，消息传到了 OpenAI，又传到 DeepMind，接着就在科技行业里流传。几天后，它又出现在网上，引起很大动静，冒出了很多推文。你去看预测市场，就会发现突然都在说，Anthropic 要解决千禧年难题了。我记得，传闻甚至说 Anthropic 已经解决了两个千禧年难题。</p>
+<p><strong>Brady Haran：</strong> 其中一个是纳维–斯托克斯吗？还是当时没说具体是哪几个？毕竟千禧年难题有好几个。</p>
+<p><strong>Tristan Buckmaster：</strong> 我记得，当时普遍传的是纳维–斯托克斯问题和霍奇猜想。当然，还得回头查一下，但我印象里，说的就是这两个问题。后来，传闻又缩小到只剩纳维–斯托克斯了。</p>
+<p><strong>Brady Haran：</strong> 但你不觉得，这个传闻的源头，正是你们几乎在秘密状态下取得的那些欧拉方程研究成果吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 它就是从那里来的。</p>
+<p><strong>Tristan Buckmaster：</strong> 对。</p>
+<p><strong>Brady Haran：</strong> 明白。</p>
+<p><strong>Tristan Buckmaster：</strong> 对，消息确实是直接从 Anthropic 泄露出来的。因为 Anthropic 内部有人能看到 Levent 在做什么，消息就是这样传出去的。</p>
+<p><strong>Brady Haran：</strong> 好。</p>
+<p><strong>Tristan Buckmaster：</strong> 然后，消息被误解了，又添上了别的猜想。但没错，它确实直接来自我们两个人的工作。只是传闻本身是错的：我们实际上并没有解决纳维–斯托克斯问题，我们解决的是欧拉方程问题。</p>
+<p><strong>Tristan Buckmaster：</strong> 最初的传闻只提到了 Anthropic 这家公司，后来大家才发现，原来是在说 Levent。接着，OpenAI 的人就开始打听，比如 Levent 以前的一些朋友会问他：「你在纽约吗？」（笑）最后，他们就渐渐……</p>
+<p><strong>Tristan Buckmaster：</strong> 后来，我收到了英国一位人士的邮件，说：「我们听到一个传闻，说库朗研究所或者纽约大学的人，掌握了有关纳维–斯托克斯问题的内部消息。」事情就是这样开始的。</p>
+<p><strong>Brady Haran：</strong> 好，所以传闻被放大了，已经超出了实际情况，但也不是完全空穴来风，因为你们确实又向纳维–斯托克斯问题迈近了一步。</p>
+<p><strong>Brady Haran：</strong> 听起来，就是在这个时候，OpenAI 像人们说的那样，双脚猛地铲了进来。他们放出了智能体群，启动了那些智能体，然后宣布了他们的成果。</p>
+<p><strong>Brady Haran：</strong> 在谈这件事之前，先确认一下：他们实际上宣布，纳维–斯托克斯问题已经被攻克了，解决了，那个千禧年难题已经完成了。事实是这样吗？</p>
+<p><a id="buckmaster-section-5"></a></p>
+<h3>OpenAI 的介入与最初的沟通</h3>
+<p><strong>Brady Haran：</strong> 因为我看到有人在说：「也许还没有解决，也许还没有。」我知道现在还很早，像你这样的专家还有很多材料要看。但在你们看来，现在已经形成共识，认为这个问题确实被攻克了吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 是的。</p>
+<p><strong>Tristan Buckmaster：</strong> 对，我相信是这样。这个问题已经解决了。他们拿出来的论文，目前还算不上是能让人顺畅读懂的形式，但里面的思路是可以理解、消化的，也可以整理成数学家能够接受的形式。</p>
+<p><strong>Tristan Buckmaster：</strong> 当时到处在传，说我们已经解决了纳维–斯托克斯问题，事情开始变得有点失控。于是，我联系了 OpenAI 的一位数学家，希望让局面冷静下来。他最初回复说：「对，我们不要互相竞争。我们很愿意……」我也对他们说过，我们同样在使用你们的产品。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，我们希望——</p>
+<p><strong>Brady Haran：</strong> 那我们先把这一点说清楚。显然，你的合作者 Levent 在 Anthropic 工作，也使用 Anthropic 的产品，但你们同时也在使用 OpenAI 的产品。</p>
+<p><strong>Tristan Buckmaster：</strong> 没错。更准确地说，是我在使用 OpenAI 的产品。</p>
+<p><strong>Tristan Buckmaster：</strong> 我特意提起这一点，就是想化解局面的敌意。我不希望这变成 Anthropic 对阵 OpenAI。我希望大家看到的是：在人类的引导下，AI 现在能够做些什么，哪些事情已经成为可能。我觉得，我们需要重新思考——</p>
+<p><strong>Tristan Buckmaster：</strong> 数学接下来应该怎样发展。这才是我想讲的故事，而不是「我们的模型强得多」「Anthropic 的模型比 OpenAI 强得多」，或者反过来。我通过邮件联系了他们。那时我们还在写论文，所以我提议见个面，最后提出下个星期再谈。然后——</p>
+<p><strong>Tristan Buckmaster：</strong> 我们收到了那位数学家的一条消息，说 OpenAI「马上要做一件非常愚蠢的事」。这就是他们用的说法。我们不知道具体是什么事，你当然可以做各种猜测，但消息说的是：「OpenAI 马上要做一件非常愚蠢的事，你们得和我们通个话。」那是一个星期六。</p>
+<p><strong>Brady Haran：</strong> 不过，「愚蠢」在这个语境里，听起来也可能是指那种疯狂、出格的事，并不是说他们很笨——</p>
+<p><a id="buckmaster-section-6"></a></p>
+<h3>那次通话与双方说法的分歧</h3>
+<p><strong>Brady Haran：</strong> 「愚蠢」是指……</p>
+<p><strong>Tristan Buckmaster：</strong> 不是。这里不是「笨」的意思，而是说，他们马上要做一件极其不道德的事。</p>
+<p><strong>Tristan Buckmaster：</strong> 基本上就是这个意思。（笑）</p>
+<p><strong>Brady Haran：</strong> 所以，你的理解不是「嘿，我们要干一件很疯狂、很惊人的事了」，而更像是「我们要做一件不该做的事了」。</p>
+<p><strong>Tristan Buckmaster：</strong> 完全正确。</p>
+<p><strong>Tristan Buckmaster：</strong> 对。我们的理解是，他们马上要做一件很糟糕的事，你们必须参加这次通话，阻止这件事发生。</p>
+<p><strong>Brady Haran：</strong> 好吧。（笑）</p>
+<p><strong>Tristan Buckmaster：</strong> 不过，就像我刚才说的，他们没有具体说明，到底打算做什么。</p>
+<p><strong>Brady Haran：</strong> 好，明白。那么，那件「愚蠢的事」到底是什么？</p>
+<p><strong>Tristan Buckmaster：</strong> 我们不知道。如果让我猜，也许是想抢在我们前面发表之类的。当时，他们仍然以为我们已经解决了纳维–斯托克斯问题。</p>
+<p><strong>Brady Haran：</strong> 好。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，我不想猜他们当时打算做的那件「愚蠢的事」究竟是什么。但无论如何，那条消息足以说服我们参加通话。我就是这样上了那次通话。</p>
+<p><strong>Brady Haran：</strong> 他们是在这时告诉你，他们已经解决了问题吗？还是当时还没有解决？</p>
+<p><strong>Tristan Buckmaster：</strong> 我想，Sébastien 好像……具体先后顺序我记不太清了。他们确实在通话开始时告诉我们，他们已经解决了。但如果我没记错，Sébastien 可能在通话开始前几分钟，就通过短信向 Levent 提过这件事。</p>
+<p><strong>Brady Haran：</strong> 好。</p>
+<p><strong>Tristan Buckmaster：</strong> 然后，我问的第一个问题就是：你们解决的是哪一个版本？</p>
+<p><strong>Brady Haran：</strong> 也就是那些细节，因为它有不同的……</p>
+<p><strong>Tristan Buckmaster：</strong> 对。</p>
+<p><strong>Brady Haran：</strong> 有不同的解决方式，也设定了几个不同的终点。所以，作为数学家，你只是从技术角度感到好奇？</p>
+<p><strong>Tristan Buckmaster：</strong> 其实不是，不只是好奇。我想知道，他们是不是用了我们的方法。因为如果他们解决的是有外力的那个版本，那对我来说就是一个警讯，会让我产生怀疑。而他们解决的，恰恰就是那个版本。</p>
+<p><strong>Brady Haran：</strong> 是什么让你觉得，他们用了你的方法，或者有机会接触你的方法？是不是因为你使用了 Codex，也就是 OpenAI 的一个 AI 产品，你立刻就想到：「原来他们是这样拿到的，他们通过这个工具知道了我在做什么」？</p>
+<p><strong>Tristan Buckmaster：</strong> 我当时并不确定发生了什么。有很多种可能的解释。我们不知道，泄露出去的到底是什么。</p>
+<p><strong>Tristan Buckmaster：</strong> 我们不知道，是不是有某些想法被泄露了。其实，你并不需要知道太多。这一点很多人没有意识到。当然，如果能拿到 Codex 的会话记录，那帮助会非常大。但只要你有足够的算力，并不需要太多信息。因此，我们花了一段时间，才慢慢弄清楚发生了什么。不过——</p>
+<p><strong>Tristan Buckmaster：</strong> 一开始的争议，在于他们开始说谎。他们一上来就这么做，而且是有备而来的，并不是临场说错了什么。他们事先准备好了，想把使用的提示词展示给我们看。</p>
+<p><strong>Tristan Buckmaster：</strong> 到这一步，我就知道他们要说谎了，因为他们之前在解决其他数学问题时，就对自己使用的提示词说过谎。那位数学家在屏幕上给我展示。我记得那是一次 Google Meet 通话。他们给我看的是，直接把千禧年难题的题目复制粘贴了进去。他们说，自己就是把题目放进去，按下回车，然后就得到了答案。到了这里，我只能笑出来，因为这实在太荒唐了。</p>
+<p><strong>Tristan Buckmaster：</strong> 几分钟之内，就暴露出这是一句谎话：他们之前已经研究过其他问题，输入过其他提示词。这套说法几分钟就站不住了。但那就是他们事先准备好、打算告诉我的版本。而且，他们也不愿意告诉我，究竟是什么时候开始研究这个问题的。我一直追问：「你们是什么时候开始的？</p>
+<p><strong>Tristan Buckmaster：</strong> 到底是什么时候开始做的？什么时候？」他们只是说：「我们的模型很厉害，我们有非常厉害的模型。」但我不是不了解这件事的人。我就在这个领域里，知道它是怎么运作的，也知道模型本身只是一方面。智能体的数量等等，都很重要，事情不只是模型那么简单。最后，我给 Sébastien 设了一个带有前提的问题。</p>
+<p><a id="buckmaster-section-7"></a></p>
+<h3>未发表成果的使用争议</h3>
+<p><strong>Tristan Buckmaster：</strong> 我问：「所以，你承认，你们是在听到那个传闻以后，才开始研究这个问题的？」他说：「是。」</p>
+<p><strong>Brady Haran：</strong> 不过，听到一个传闻以后立刻行动，并不违法。如果我听说，有人要做一支我正打算制作的 YouTube 视频，我可能也会加快自己的进度，争取先发出来。但关于你输入 OpenAI、输入 Codex 的那些内容，你有没有掌握什么信息，或者形成什么判断：OpenAI 有没有使用这些内容——</p>
+<p><strong>Brady Haran：</strong> 不管是直接查看，还是拿去训练模型？我觉得两者也没有多大区别，不过我也不懂。</p>
+<p><strong>Brady Haran：</strong> 你是怎么看的？或者说，你知道些什么？</p>
+<p><strong>Tristan Buckmaster：</strong> 我没法百分之百地指出，究竟发生了什么，但间接证据很清楚。大家一直盯着纳维–斯托克斯那篇论文，把它和我们的工作进行比较。但该比较的不是那篇，而是无外力欧拉方程的那篇论文。那篇无外力——</p>
+<p><strong>Tristan Buckmaster：</strong> 欧拉方程论文里的所有机制，都和我们尚未发表的另一个版本的欧拉方程论文一模一样。它们本身又都建立在我们已经发表的那篇论文的想法之上。而从——</p>
+<p><strong>Tristan Buckmaster：</strong> 有外力欧拉方程走到无外力欧拉方程，其实只需要跨很小的一步。基本上，他们那篇无外力欧拉方程论文中，整个结构的所有主要组成部分，在我们的工作里都有。而我们的这些工作，本来就会存在他们的服务器上，却还没有发表。</p>
+<p><strong>Brady Haran：</strong> 当时还没有发表？</p>
+<p><strong>Tristan Buckmaster：</strong> 没有，没有，确实还没有发表。</p>
+<p><strong>Brady Haran：</strong> 明白。</p>
+<p><strong>Tristan Buckmaster：</strong> 你还得把这放进一个背景里看：OpenAI 已经承认，在另一个项目中，不是我们的这个项目，他们的智能体为了破解一个数学问题，甚至侵入过竞争团队的 GitHub 仓库。</p>
+<p><strong>Tristan Buckmaster：</strong> 我记得，就在几天前，他们公布了这样一件事：智能体在研究某个数学问题时，发现另一个团队也在做，于是设法拿到了访问令牌之类的东西，借此进入竞争对手的 GitHub 仓库，以解决那个问题。</p>
+<p><strong>Tristan Buckmaster：</strong> 他们接触到研究成果的途径，可能有很多。而这里最关键的是，解决纳维–斯托克斯问题时，他们用了一万个智能体；但解决欧拉问题时，他们没有用一万个，只用了一百个。也就是说，他们只用一百个智能体，就从完全一无所有开始做了出来。</p>
+<p><strong>Tristan Buckmaster：</strong> 智能体的数量很关键，因为它大致决定了你能在多大的范围内搜索。他们只用了一百个智能体，最后却得到了和我们一模一样的结构。</p>
+<p><strong>Brady Haran：</strong> 你后悔使用他们的产品吗？你是不是有些天真了？因为你自己也说，你了解这个行业，知道它是怎么运作的。把那些东西放进 Codex，是不是你犯的一个错误？你后悔吗？</p>
+<p><a id="buckmaster-section-8"></a></p>
+<h3>泄密、竞争与学术文化</h3>
+<p><strong>Brady Haran：</strong> 如果再来一次，你还会这么做吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 我们确实犯了很多错误。首先，那次泄密之所以会发生，就是因为有地方出了错。</p>
+<p><strong>Tristan Buckmaster：</strong> 这里面有很多因素。要是从来没有泄密，就不会触发那种最高警报。如果我从来没有用过 Codex，当然……是的，我想我们确实有些……我见过很多疯狂的事，但没想到他们会做到这个地步。</p>
+<p><strong>Brady Haran：</strong> （笑）你觉得自己是不是应该更保密一点？我听说过安德鲁·怀尔斯研究费马大定理的故事。他对自己在研究什么守口如瓶，直到站到那块黑板前，大家才知道。你们是不是保密做得不够？问题在这里吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 我们以为自己已经够保密了。（笑）不过，那次泄密确实很糟，是一个重大的错误。</p>
+<p><strong>Brady Haran：</strong> 那是因为计算机出了问题，还是只是人们喝咖啡、在茶水间聊天时把消息说了出去？</p>
+<p><strong>Tristan Buckmaster：</strong> 我觉得，正是后面这种情况。说实话，我也不知道具体发生了什么，各种说法互相矛盾。但我感觉，可能就是有人在炫耀，自己的公司能做什么、正在做什么，诸如此类。</p>
+<p><strong>Brady Haran：</strong> 我读过你的声明，也会再放一次链接，让大家可以仔细看看。但你在声明里表达得很清楚：你觉得，如果你的合作者恰好不是 Anthropic 的员工，你可能会得到更多的认可和署名，也会更深入地参与其中。是这样吗？</p>
+<p><strong>Brady Haran：</strong> 你是不是觉得，你之所以落到现在这个处境，很大一部分原因，就是 OpenAI 和 Anthropic 之间的竞争？</p>
+<p><strong>Tristan Buckmaster：</strong> 关于「争取认可」这一点，我想纠正一下。我并不是想为这些工作争取更多个人功劳。我真正想反对的，是这些公司的行事文化，以及它们给数学界带来的负面影响。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，这不是为了多分一点功劳，也不是为了得到什么。我并不在乎能不能拿到克雷数学研究所的千禧年大奖。</p>
+<p><strong>Tristan Buckmaster：</strong> 问题在于，这些实验室之间的竞争已经极端到了这种程度。我还得说，在那个传闻出现以后，开始投入几百万美元攻克纳维–斯托克斯问题的，并不只有他们一家。我听说，另一家知名公司也这么做了。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，我想抵制的是这种「快速行动，打破常规」的文化。它正在和数学界正面相撞，未来也会和我们其余所有人正面相撞。</p>
+<p><strong>Brady Haran：</strong> 先撇开你——</p>
+<p><a id="buckmaster-section-9"></a></p>
+<h3>抢先发表究竟带来了什么</h3>
+<p><strong>Brady Haran：</strong> 还有你的合作者，以及另外几个人受到的对待，撇开那些失礼和不合规矩的地方。除此之外，这难道不是一件好事吗？这种疯狂的竞争，以及他们投入的大量资源，难道没有推动这个领域进步吗？毕竟，他们解决了一个你们所有人都梦想解决的问题。否则，它可能还不会被解决，甚至可能还要再等几十年。现在，它很快就被解决了。</p>
+<p><strong>Brady Haran：</strong> 作为数学家，我想你追求的是真理和更多的知识。从这个角度说，这件事确实把知识的边界向前推了一步。</p>
+<p><strong>Tristan Buckmaster：</strong> 那我们来看看，如果他们没有这样做，会怎么样。他们会晚几天攻克这个问题。</p>
+<p><strong>Tristan Buckmaster：</strong> （笑）世界不会有什么不同。再看看，这件事带来了哪些负面影响。这个千禧年难题是在 9 月 8 日解决的，我记得是这个日期，而不是在 9 月 20 日解决的，世界不会因此有什么不同。但它现在给数学界造成了巨大的负面影响，因为大家都不想再谈自己正在研究的未解决问题了。</p>
+<p><strong>Tristan Buckmaster：</strong> 人们害怕这些 AI 公司突然闯进来，抢先发表，把自己研究的问题当作基准测试题。人们不再信任这些 AI 产品。这对学术界的负面影响非常大。</p>
+<p><strong>Tristan Buckmaster：</strong> 这些 AI 实验室带来的威胁，反而让我们的研究慢了下来。所以，它实际上给科学进步带来了负面影响，而这一切，不过是为了把一个结果——</p>
+<p><strong>Tristan Buckmaster：</strong> 提前几个星期发表。我当然很看重千禧年大奖，可这不是治愈癌症。这个千禧年难题是在 9 月 8 日还是在 9 月 20 日解决，对世界的影响都不会有什么区别。</p>
+<p><strong>Brady Haran：</strong> 但你自己也说，听说还有另一家 AI 公司在研究这个问题，并且投入了大量资源。你当然可以对这种做法有自己的看法，可这也说明了，为什么 OpenAI 可能急着提前几天发出来。那几天对他们而言就是全部区别，因为这决定了究竟是谁能说「是我们做出来的」。他们有竞争心，数学家也有竞争心，这里的每个人都有好胜的一面。</p>
+<p><strong>Tristan Buckmaster：</strong> 是的。</p>
+<p><strong>Tristan Buckmaster：</strong> 对他们而言，这关系到……我并不觉得它像他们想的那么重要，但在他们看来，这几乎关系到自己产品的生死。如果 Anthropic 公布了一个千禧年难题的解答，他们觉得——</p>
+<p><strong>Tristan Buckmaster：</strong> 那会影响到他们的首次公开募股，因为这会让人觉得，Anthropic 的内部模型比他们的强得多。这就是他们背后的思路。</p>
+<p><strong>Tristan Buckmaster：</strong> 所以，对他们来说，这是一个巨大威胁，威胁到他们的财务利益。但这种想法完全没有抓住重点，因为这不只是内部模型的问题，还在于要大规模地使用这些模型。你得会用它们……</p>
+<p><strong>Tristan Buckmaster：</strong> 模型只是其中一部分。我好像看到过一位 OpenAI 员工声称，关键全在内部模型，百分之九十靠内部模型，剩下百分之十才是其他因素。但我觉得，情况恰恰相反。内部模型可能只占——</p>
+<p><strong>Tristan Buckmaster：</strong> 百分之二十、三十，我也说不准。其余的部分，是把这些不同的智能体组织起来，放进某种运行系统或特定框架中，来解决一个问题。</p>
+<p><a id="buckmaster-section-10"></a></p>
+<h3>为什么选择公开发声</h3>
+<p><strong>Brady Haran：</strong> 在这件事上，你已经鲜明地表明了立场。</p>
+<p><strong>Brady Haran：</strong> 你愿意接受像我这样的人的采访，也发表了公开声明。</p>
+<p><strong>Brady Haran：</strong> 但对方是一家规模庞大、财力雄厚、拥有巨大影响力和资源的公司。坚持自己的原则，对你来说是个艰难的决定吗？你完全可以选择另一条路。你有没有想过后果？</p>
+<p><strong>Brady Haran：</strong> 你认真考虑过这些吗？还是觉得，这就是自然而然应该做的事？</p>
+<p><strong>Tristan Buckmaster：</strong> 他们给过我一个机会，让我以唯一作者的身份撰写他们那篇论文，代价是把我的合作者抛弃掉。我有没有考虑过成为唯一作者这个机会？一秒钟都没有。这太不道德了。他们要我抛弃一个已经和我合作了一年的人，而原因仅仅是，他是 Anthropic 的员工。</p>
+<p><strong>Tristan Buckmaster：</strong> 这是唯一的原因。他们说，Levent 是 Anthropic 员工这件事太让人头疼了，否则他们就会把他也列为作者。所以，他们不愿意和 Levent 一起找到解决办法，唯一的原因就是他在 Anthropic 工作。</p>
+<p><a id="buckmaster-section-11"></a></p>
+<h3>从欧拉到纳维–斯托克斯，关键跨越在哪里</h3>
+<p><strong>Brady Haran：</strong> 这一万个智能体，这个攻克了纳维–斯托克斯问题的模型，算不算有过一个天才时刻？你看它解决问题的方式，会不会觉得：「这真的很了不起，这一步很聪明，干得漂亮」？</p>
+<p><strong>Tristan Buckmaster：</strong> 会。</p>
+<p><strong>Tristan Buckmaster：</strong> 最近我接受了不少媒体采访，所以还没有太多时间把那个证明彻底消化。不过，就目前看到的内容而言……我想以后还会专门谈这件事。但其中那个关键想法——</p>
+<p><strong>Tristan Buckmaster：</strong> 也就是让他们从欧拉方程跨越到纳维–斯托克斯方程的想法，确实很聪明。但据我所见，它并不是他们在论文引言里重点谈的东西，也不是外界广泛讨论的东西。大家居然没抓住从欧拉到纳维–斯托克斯这一步的关键，我觉得挺不可思议的。</p>
+<p><strong>Brady Haran：</strong> 你能不能给我们一点提示？我知道你自己还没完全消化，但我毕竟做过一支介绍这件事的视频，真的很想知道，我们到底漏掉了什么。</p>
+<p><strong>Tristan Buckmaster：</strong> 可以。</p>
+<p><strong>Tristan Buckmaster：</strong> 现在大家一直在解释的是，有一个涡旋，一个不断塌缩的涡旋。大家把它说成是解决这个千禧年难题的核心想法。但这个塌缩涡旋不是一个解，不是纳维–斯托克斯方程的解。</p>
+<p><strong>Tristan Buckmaster：</strong> 有外力项的时候，你可以构造出无穷无尽的、并不真正满足纳维–斯托克斯方程的东西，因为你可以把所有问题都塞进外力项里。你哪里弄错了，就把外力设成那个误差。所以，那个塌缩涡旋本身并不是一个解。</p>
+<p><strong>Tristan Buckmaster：</strong> 如果直接把它拿出来，所需的外力会是无穷大的。那就相当于，你往解里注入无穷大的能量，然后出现了一个奇点。这有什么奇怪的？谁都能这样做。</p>
+<p><strong>Brady Haran：</strong> 明白。</p>
+<p><strong>Tristan Buckmaster：</strong> 诀窍在于，怎样把一个原本不是解的东西，变成真正的解，同时又不引入无穷大的外力。你要怎样修正它？怎样把这个「不是解的东西」修好？关键想法就在这里。</p>
+<p><strong>Tristan Buckmaster：</strong> 这个关键想法，是使用一个叫作「凸积分」的概念。说来也不意外，我整个职业生涯就是建立在这方面的研究上的。具体而言，就是把凸积分中的想法，与欧拉方程里的这种增长机制结合起来。</p>
+<p><strong>Tristan Buckmaster：</strong> 也就是结合一些凸积分的技术。凸积分有点像一套修补东西的方法，一种修正误差的机制。在这个证明里，它的用法有所不同，但这套方法的历史，一直可以追溯到约翰·纳什。</p>
+<p><strong>Tristan Buckmaster：</strong> 现在，你要把这些凸积分的想法，与欧拉方程解发生爆破的增长机制结合起来。把两者结合，就会产生一种新的机制，用来修正那个原本不是解的东西。这确实是个很棒的想法，而且它其实也是我……</p>
+<p><strong>Tristan Buckmaster：</strong> 这类想法，我已经试了十多年，可能还更久，一直没能成功。我一直希望能这样使用凸积分的工具。事实上，仅仅过去一年，我还一直在和我的博士后尝试，把这些凸积分的想法与 Luis 和 Diego 的想法结合起来。但我没有做成，我没能实现它。</p>
+<p><strong>Brady Haran：</strong> 那你有没有足够仔细地看过 OpenAI 那篇论文，以至于看到这里会想：「啊，原来如此」？也许再给你十年，你能做出来，也许做不出来。但你现在看过以后，有没有那种感觉：「我明白了，我看见这一步跨越了」？有没有这样一个时刻？</p>
+<p><strong>Tristan Buckmaster：</strong> 这就是那个跨越。关键就在这里。</p>
+<p><strong>Tristan Buckmaster：</strong> 我还没有足够的时间把它完全弄清楚。真的，我一共也就花了几天时间在看它。但跨越就在这里。这也是 AI 公司把这种粗制滥造的东西直接放出来时的问题：参考文献也没好好引，引用工作做得很差。他们确实引用了我和 Vlad 关于凸积分的那篇论文——</p>
+<p><strong>Tristan Buckmaster：</strong> 那算是一条早期线索，但他们并没有具体说明那篇论文是怎么被用到的。他们还引用了 Sara Daneri 和 László Székelyhidi 的另一篇论文。Székelyhidi 是我的导师。在那里，他们才给了一点点、非常少的一点提示（笑），让人知道他们用了这种机制。</p>
+<p><a id="buckmaster-section-12"></a></p>
+<h3>数学与 AI 的未来</h3>
+<p><strong>Brady Haran：</strong> 不幸的是，你正好处在这场争议的中心，而这件事也成了这波反对 AI 的声音的一个源头。我们看到，一些菲尔兹奖得主，包括陶哲轩等人，签署了那封联署信，对 AI 介入这些重大问题发出了警告。但你自己是个拥抱 AI 的人。至少在我看来，你一直很支持使用 AI。</p>
+<p><strong>Brady Haran：</strong> 你怎么看那封联署信？又怎么看自己在它出现的过程中所起的作用？</p>
+<p><strong>Brady Haran：</strong> 你支持那封信吗？还是觉得他们反应过度了？说说你的感受。</p>
+<p><strong>Tristan Buckmaster：</strong> 我不想左右大家的看法，也不想规定什么是对、什么是错。我觉得，就 AI 如今能做的事情而言，我们已经进入了一个全新的世界。我们应该听见每个人的声音。我觉得，我们——</p>
+<p><strong>Tristan Buckmaster：</strong> 需要听见彼此冲突的声音，才能找到一条好的前进道路。（清嗓子）正如你所说，我确实大量使用 AI，而且已经用了好几年。说起来，我自己的经历也挺有意思：我原来是搞计算机的。</p>
+<p><strong>Tristan Buckmaster：</strong> 我十三岁的时候，就在用一种叫 GPU 的奇怪东西写程序。后来证明，那东西还挺重要的。（笑）当时我用它写计算机图形引擎。我十三岁时想做的是游戏程序员。</p>
+<p><strong>Tristan Buckmaster：</strong> 后来，我经历了这样一次转变。我有一位数学家叔叔，叫 Batiki Kovatch（姓名拼写未核实），他说服我去学数学。于是，我转向纸笔，真的是所有东西都在纸上写。后来好像又绕了回来，开始使用 AI 和计算机系统。所以，我不觉得我们能退回去了。数学并不是一种以表演为目的的科学。</p>
+<p><strong>Tristan Buckmaster：</strong> 我曾经用「深蓝」和卡斯帕罗夫的故事打过比方，但一个很大的区别是，我们仍然乐于观看人类棋手下国际象棋。可到目前为止，我还没看到有人有兴趣，把两个数学家放进一个房间，看他们现场解一道数学题。</p>
+<p><strong>Tristan Buckmaster：</strong> 我觉得那算不上什么精彩的娱乐节目。所以，我不认为我们还能退回去。我们必须找到一条积极的前进道路，把 AI 纳入其中。但显然，OpenAI 这次的事件说明，还有很多问题需要解决。</p>
+<p><strong>Brady Haran：</strong> 恰恰因为你这么拥抱 AI，也这么擅长使用它，这整件事多少有点「飞得离太阳太近」的意味。你会有这种感觉吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 会。</p>
+<p><strong>Tristan Buckmaster：</strong> 我经常强调的一件事是，这次的结果并不是我们唯一的成果。我和 Levent 有个 WhatsApp 群，我们在许多不同问题上都已经取得了一批结果。我当然可以装作什么都没变，把这些结果全部发表出来——</p>
+<p><strong>Tristan Buckmaster：</strong> 让我的论文一篇篇登上顶级期刊，就好像……但我觉得，那样很傻。有些人也许会说，明明有真理，却压着不公布，这不是好事。但我们必须现实一点：我暂时不发表一个纯数学证明，并不会改变这个世界。我觉得，这里有更重要的事情，我们需要退后一步，好好想一想。</p>
+<p><a id="buckmaster-section-13"></a></p>
+<h3>接下来要做什么，以及这次事件的教训</h3>
+<p><strong>Tristan Buckmaster：</strong> 而且，（清嗓子）与其让我们继续把方法藏着，暗中解决更多问题，大家应该更想知道，我们究竟是怎么解决这些问题的。我有责任解释我们的方法，解释我们是怎样开展研究、解决这些问题的。接下来的几个月，我想我也会把时间投入到这件事上。</p>
+<p><strong>Brady Haran：</strong> 假设你发现，日本有一位或者几位数学家，和你走在差不多的路线上。你可能是听到一个传闻，或者接到一个电话，才知道这件事。然后，你和 Levent 说：「好，我们得踩下油门，确保抢在他们前面发表。」而你们也确实做到了。</p>
+<p><strong>Brady Haran：</strong> 这和 OpenAI 做的事有什么不同？除了他们能做得更快，快到超出人类能力之外，还有什么区别？我真的想弄清楚这一点。因为你说过，如果 OpenAI 晚几天再做，你就能接受。那么，他们究竟做了哪件你认为很糟糕的事？</p>
+<p><strong>Tristan Buckmaster：</strong> 在你说的那种情况下，假设日本有人正在研究这些问题，而我和 Levent 合作，他可以使用内部模型，我不会试图抢跑、超过他们。我觉得——</p>
+<p><strong>Tristan Buckmaster：</strong> 这很公平，对吧？假设有一组数学家，比如 Luis 和 Diego，我的研究正是建立在他们的工作之上的。如果我觉得，他们已经接近解决无外力欧拉方程问题，或者接近解决纳维–斯托克斯问题，那我绝不可能——</p>
+<p><strong>Tristan Buckmaster：</strong> 利用他们无法获取的资源，抢在他们前面。我认为那是不合适的。数学家行为规范中很重要的一点就是：如果别人和你走到了差不多的位置，你应该和对方携手合作，而不是加速冲刺，把对方击败。</p>
+<p><strong>Tristan Buckmaster：</strong> 我也不想把这种行为规范说得多么完美，因为数学界本身就发生过许多著名的事件：有人展示、讨论自己的研究，或者在会议上做了报告，别人听完回去就把东西写下来，试图抢先发表。</p>
+<p><strong>Tristan Buckmaster：</strong> 这在数学界绝对是不被认可的，绝对会受到谴责，但它确实会发生。</p>
+<p><strong>Brady Haran：</strong> 作为另一个澳大利亚人，我觉得你的态度有点像板球精神，就是「这样做不合规矩」。这不是正确的做法，不符合这项运动的精神。这样想当然没问题，我比谁都尊重这种态度。但如果你想，你也可以选择无情地竞争。</p>
+<p><strong>Tristan Buckmaster：</strong> 不过，我想说，如果仅仅是这样，我是可以应对的。我仍然觉得这种做法不对，但事情不至于变成现在这样。可我认为，实际发生的并不只是这些。</p>
+<p><strong>Brady Haran：</strong> 如果他们进入了 Codex……我也不知道，他们会说自己没有这么做。但如果他们真的进入 Codex，把你出于信任放进去的研究成果拿走了，那确实会让人觉得，自己被人掏了口袋。</p>
+<p><strong>Tristan Buckmaster：</strong> 对。这就是我生气的原因。</p>
+<p><strong>Brady Haran：</strong> 好。我也想明确说明一下，因为我不知道他们会不会接受我的采访：他们的说法是，他们没有这么做。他们已经多次公开否认过，我也会放上相关链接。</p>
+<p><strong>Tristan Buckmaster：</strong> 当然。但他们也说过，自己是一次输入就解决了纳维–斯托克斯问题。</p>
+<p><strong>Brady Haran：</strong> 这会改变你作为数学家使用 AI 的方式吗？</p>
+<p><strong>Tristan Buckmaster：</strong> 当然，肯定改变了我使用 Codex 的方式。（笑）我不会再把任何重要的东西放进 Codex。任何真正有价值的内容（笑），任何真正原创的想法，都不会再放进去。</p>
+<p><a id="buckmaster-section-14"></a></p>
+<h3>片尾摘录</h3>
+<p>片尾片段中的讲述者：这完全说得通。这一部分我们是对的，没有理由认为它不对。但从数学复杂性的角度看，棘手的地方在于，我们不知道解是不是始终存在。所以，我们会想办法「取巧」。比如做一些简化，或者作出某些假设，减少其中一些项，甚至把时间从问题里去掉。通过作出假设和进行简化，你可以找到一些绕过困难的办法。</p>
+<p><a id="basic-info"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原题</strong>：The Buckmaster Interview (Navier-Stokes) - Numberphile</li>
+<li><strong>受访者</strong>：<a href="https://cims.nyu.edu/~tristanb/">Tristan Buckmaster</a>，纽约大学库朗数学科学研究所数学教授。</li>
+<li><strong>采访者</strong>：Brady Haran。</li>
+<li><strong>发布方</strong>：<a href="https://www.numberphile.com/videos/the-buckmaster-interview">Numberphile</a>。</li>
+<li><strong>视频发布日期</strong>：2026 年 9 月 29 日。</li>
+<li><strong>视频时长</strong>：46 分 5 秒。</li>
+<li><strong>原视频</strong>：<a href="https://www.youtube.com/watch?v=Mzbtj5nkMXI">The Buckmaster Interview</a>。</li>
+<li><strong>相关资料</strong>：<a href="https://cims.nyu.edu/~tristanb/statement.pdf">Buckmaster 的声明</a>；<a href="https://openai.com/index/navier-stokes-solution/">OpenAI 的成果介绍与回应</a>；<a href="https://archive.ph/T6tlF">Sébastien Bubeck 的回应存档</a>。</li>
+<li><strong>节目更新</strong>：Numberphile 在视频说明中表示，视频上传后已收到 OpenAI 的回复，正在尝试安排进一步采访。</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-tristan-buckmaster-navier-stokes-numberphile-interview","sender":"Tristan Buckmaster","author":"Tristan Buckmaster","interviewGuests":["Tristan Buckmaster"],"interviewHosts":["Brady Haran"],"authorAliases":["Tristan Buckmaster","Brady Haran"],"publisher":"Numberphile","media":"Numberphile","publishedAt":"2026-09-29T13:05:39-07:00","subject":"巴克马斯特：纳维–斯托克斯风波中的 AI、数学与学术信任","snippet":"Numberphile 专访 Tristan Buckmaster，回顾欧拉方程研究、未发表成果的使用争议，以及凸积分与 AI 协作的未来。","date":"2026-09-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","数学研究","纳维–斯托克斯方程","科研伦理"],"mdTheme":"magazine","sourcePath":"talks/tristan-buckmaster-navier-stokes-numberphile-interview.md","sourceUrl":"https://www.youtube.com/watch?v=Mzbtj5nkMXI","body":"$3","prompts":[]},"listPosition":{"index":62,"total":607},"matchedPerson":{"id":"tristan-buckmaster","name":"Tristan Buckmaster","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"数学研究","name":"数学研究","count":1},{"id":"科研伦理","name":"科研伦理","count":1}]},"relatedArticles":[{"id":"talks-terence-tao-no-more-heroes-ai-mathematics","subject":"告别英雄时代：陶哲轩谈 AI 与数学的未来","sender":"Terence Tao","date":"2026-10-15","matchedPeople":[],"matchedTags":["人工智能","数学研究","科研伦理"]},{"id":"essays-a-severe-misalignment-of-ai-in-mathematics","subject":"数学领域 AI 的严重目标错位","sender":"Artur Avila 等 28 位数学家","date":"2026-09-11","matchedPeople":[],"matchedTags":["人工智能","数学研究","科研伦理"]},{"id":"reports-leiden-declaration-on-artificial-intelligence-and-mathematics","subject":"莱顿宣言：人工智能与数学","sender":"Leiden Declaration","date":"2026-06-03","matchedPeople":[],"matchedTags":["人工智能","数学研究","科研伦理"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

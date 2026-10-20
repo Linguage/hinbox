@@ -1,0 +1,383 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T139b7,<h2>摘要</h2>
+<p>Alexandr Wang 回顾 Muse 从原型到上线的七个月：团队没有追逐最拥挤的编程智能体赛道，而是围绕个人超级智能，逐项打磨模型的可靠性、产品的统一体验，以及用户逐步建立信任的过程。他也讲述扎克伯格如何在 Llama 4 受挫后邀请他加入 Meta、自己如何告别经营九年的 Scale AI，并以小团队、高人才密度和扁平结构重建 AI 实验室。在他看来，个人智能体的长期价值，是替人们跨过生活中的阻碍，让每个人都有能力追求更大的梦想。</p>
+<h2>内容概述</h2>
+<ul>
+<li><strong>从 OpenClaw 的启发到 Muse：</strong> Nat Friedman 和 Wang 的亲身试用让团队看见个人智能体的潜力；一两周完成原型后，团队又用七个月逐项打磨可靠性。</li>
+<li><strong>为什么押注个人超级智能：</strong> Wang 认为，Meta 的产品传统、用户规模与个人兴趣场景，让它在消费级 AI 上拥有特别的优势。</li>
+<li><strong>产品主张、迷因与信任：</strong> 统一的产品品位、能传播的使用案例和截图，加上由小到大的成功任务，共同推动用户理解并信任 Muse。</li>
+<li><strong>离开 Scale，重建实验室：</strong> 从扎克伯格最初征求建议到达成交易，Wang 讲述自己如何做出离开 Scale 的决定，以及在 Meta 从创始人式掌控转向教练式支持。</li>
+<li><strong>挖钻石，而非盖摩天楼：</strong> 面对具有幂律回报的 AI 研究，Wang 主张以高人才密度、扁平组织、技术领导和自由探索，创造顶尖人才发挥潜力的环境。</li>
+<li><strong>让每个人都能做更大的梦：</strong> 他把个人智能体视为实现愿望的桥梁，期待 AI 让人的自主行动力随人生增长，而不是在现实中被消磨。</li>
+</ul>
+<h2>目录</h2>
+<ul>
+<li><a href="#wang-section-1">Muse 背后的愿景</a></li>
+<li><a href="#wang-section-2">发现个人 AI 智能体的潜力</a></li>
+<li><a href="#wang-section-3">一次 AI 对话，仿佛做了三年心理治疗</a></li>
+<li><a href="#wang-section-4">用七个月打造 Muse</a></li>
+<li><a href="#wang-section-5">为什么 Meta 押注个人 AI</a></li>
+<li><a href="#wang-section-6">赞助商：Ramp 与 Deel</a></li>
+<li><a href="#wang-section-7">马克·扎克伯格对改进产品的执着</a></li>
+<li><a href="#wang-section-8">Meta 如何判断 Muse 已经可以发布</a></li>
+<li><a href="#wang-section-9">为什么优秀产品需要一个统一的主张</a></li>
+<li><a href="#wang-section-10">用迷因让 Meta 重新变酷</a></li>
+<li><a href="#wang-section-11">怎样建立对 AI 智能体的信任</a></li>
+<li><a href="#wang-section-12">赞助商：AppLovin</a></li>
+<li><a href="#wang-section-13">口碑和截图如何让产品传播</a></li>
+<li><a href="#wang-section-14">人类抱负的未来</a></li>
+<li><a href="#wang-section-15">改变一切的那通扎克伯格来电</a></li>
+<li><a href="#wang-section-16">离开 Scale AI，加入 Meta</a></li>
+<li><a href="#wang-section-17">从头重建 Meta 的 AI 实验室</a></li>
+<li><a href="#wang-section-18">从创始人到教练</a></li>
+<li><a href="#wang-section-19">十九岁生日聚会上的未来亿万富翁</a></li>
+<li><a href="#wang-section-20">挖钻石与盖摩天楼</a></li>
+<li><a href="#wang-section-21">为什么 Alexandr 有两百多名直接下属</a></li>
+<li><a href="#basic-info">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/S6l3aRsecuE" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈全文</h2>
+<p><a id="wang-section-1"></a></p>
+<h3>Muse 背后的愿景</h3>
+<p><strong>David Senra：</strong> 跟我讲讲 Muse 是怎么诞生的。</p>
+<p><strong>Alexandr Wang：</strong> 我想应该先从我们成立 Meta 超级智能实验室时的愿景讲起。当时，马克发表了一份题为《个人超级智能》的备忘录，我、Nat Friedman 和其他一些同事都跟他密切合作，参与了这份备忘录。核心问题就是：怎样才能打造出强大的 AI，真正让我们每个人的生活变得更好？</p>
+<p><strong>Alexandr Wang：</strong> 更广泛地说，怎样才能做出一种真正提升人类生活体验的东西？那份备忘录谈到了很多想法，其实已经隐约指向了后来 Muse 成为的样子。只不过那时非常早，是 2025 年 6 月，智能体还没有真正形成什么气候。2025 年夏天，AI 所处的阶段和现在完全不同。但那就是我们想走的方向，是 MSL 的使命，也是我们想让所有工作最终汇聚的地方。</p>
+<p><strong>Alexandr Wang：</strong> 然后我们就开始埋头做模型。开发任何一个前沿模型，从头到尾都需要很多很多个月：要搭起完整的技术栈，准备数据集，做预训练，然后再做后训练，后训练也需要一整套基础设施。这是一个非常漫长的端到端过程。</p>
+<p><strong>Alexandr Wang：</strong> 到了今年年初，整个生产流程还在推进。很显然，Opus 4.5 让很多人，包括我们，看到了智能体的未来可能是什么样子，或者说，那个未来已经是什么样子了。它真正把智能体的潜力带到了大家面前。也是在年初，OpenClaw 开始出现。</p>
+<p><a id="wang-section-2"></a></p>
+<h3>发现个人 AI 智能体的潜力</h3>
+<p><strong>Alexandr Wang：</strong> Nat Friedman 是跟我密切合作的人，我想他是 MSL 里第一个上手尝试 OpenClaw 的。他的体验，我会形容为介于恐惧和狂喜之间。我觉得他真的完全投入进去了。</p>
+<p><strong>Alexandr Wang：</strong> 他全盘信任它。他已经公开讲过一些故事，比如在 Stripe Sessions 的访谈里。他告诉自己的 OpenClaw，想多喝一点水，结果 OpenClaw 就通过监控录像看着他，确认他有没有喝水，还会夸他做得好。类似的离奇故事，他有一大堆。这也让你意识到：这里确实正在发生某种相当神奇的事情。</p>
+<p><strong>Alexandr Wang：</strong> 我记得 Nat 对我说过一句话，印象特别深。他说：“我觉得这里真的有点东西。”要知道，“早期采用者 Nat Friedman”可是一个相当可靠的信号。他当年是 Stripe 最早的一批客户，在很多开源开发者项目上也入场很早，还帮助打造了 GitHub Copilot，做过许多类似的事。所以这是一个非常明确的信号：个人智能体这个方向，显然存在一些非常神奇的东西。</p>
+<p><strong>Alexandr Wang：</strong> 当你真正信任个人智能体，把它带进自己的生活，它能做的事情实在太多了。听完这些疯狂的故事之后，我也开始深度使用。我记得连续好几个星期，我们俩几乎把每一段空闲时间都用来跟自己的 OpenClaw 说话，彻底沉浸其中，去探索个人智能体究竟能是什么。</p>
+<p><strong>David Senra：</strong> 那你最初的反应是什么？狂喜，还是恐惧？</p>
+<p><a id="wang-section-3"></a></p>
+<h3>一次 AI 对话，仿佛做了三年心理治疗</h3>
+<p><strong>Alexandr Wang：</strong> 当时 Nat 写了一个提示词，基本上是让 AI 给你做一套完整的心理分析，分好几轮，层层深入地探究你的内心。他写出来，是让人在 OpenClaw 里用的。那应该是我上手自己的 OpenClaw 后做的第一批事情之一。感觉就像把三年的心理治疗，全部压缩进了那一个时刻。</p>
+<p><strong>David Senra：</strong> 等等，我很好奇，第一次有机会用 OpenClaw，为什么你最先做的事之一会是这个？</p>
+<p><strong>Alexandr Wang：</strong> 我下载、安装好了，Nat 就说：“哦，你应该试试这个。”当时我就在他旁边。</p>
+<p><strong>Alexandr Wang：</strong> 我想：“好吧，那就照你说的做。”接着就有了这段疯狂的体验。</p>
+<p><strong>David Senra：</strong> 等等，再多讲讲，这种疯狂的体验到底是什么？</p>
+<p><strong>Alexandr Wang：</strong> 就是强度特别高。还是那句话，像做了三年心理治疗，因为它会接连进行一轮又一轮非常深入的心理追问。它还掌握着关于我的其他信息：能访问我的邮箱、看我的许多照片，也能去查找别的信息，把这些东西汇总起来。整个过程中，我把自己非常脆弱的一面都袒露了出来。</p>
+<p><strong>Alexandr Wang：</strong> 这是在 2 月。我们俩都得出了同一个结论：这里显然有非常特别的事情正在发生。于是我们各自写了备忘录。那阵子正好赶上董事会开会，我们就把这些备忘录提交给了 Meta 董事会。我写的那份主要讲的是，我觉得，从很多角度看，这可能就是……</p>
+<p><strong>Alexandr Wang：</strong> 最终形态的消费产品。至少在消费产品这个范畴里，“超级智能体”在很多方面都像一个明确的终点。Nat 则写了一份，不，其实是两份，标题都很让人过目不忘：《Claw 说了算》（The Claw Is the Law）和《信任不可或缺》（Trust Is a Must）。它们最终奠定了我们打造这些产品时的许多核心原则。所以，在 2 月，我们认定了：这里有一件非常重要的事。随后团队大概用了一周，也可能是两周，就做出了一个原型。</p>
+<p><strong>Alexandr Wang：</strong> 然后就给董事会演示了，整个周期非常快。最终 Muse 产品中的许多设计决策，在第一个原型里就已经有了。Jollybot 在，Muse Charm 的早期版本也在，那次最早的会议上就展示过。不是所有想法和所有标签页都已经成形，但其中很多已经存在了。</p>
+<p><a id="wang-section-4"></a></p>
+<h3>用七个月打造 Muse</h3>
+<p><strong>Alexandr Wang：</strong> 那是 2 月，我们在七个月后推出了产品。中间是一段极其艰难的过程：最初的原型偶尔能正常工作，效果很神奇，但大多数时候不好用，而且不断出故障。我们得把它变成一个高度可靠、精雕细琢的消费产品，做到我们有信心把它带到消费者面前。</p>
+<p><strong>Alexandr Wang：</strong> 那个过程非常漫长，也相当痛苦。</p>
+<p><strong>David Senra：</strong> 说到那里之前，我想先回到原型这件事。你们一两周就做出了原型，拿去给董事会看。马克在其中扮演什么角色？</p>
+<p><strong>Alexandr Wang：</strong> 他跟我们所有人一样，也在同时经历那种狂喜和恐惧。他在一些访谈里提到过：他用它处理很多家里的事情，跟孩子们一起用，也把它用在自己的综合格斗训练里。</p>
+<p><strong>Alexandr Wang：</strong> 比如让它看自己的综合格斗训练视频，给出改进建议。还有一些团队例会，顺便说一句，这后来成了 Meta 很多团队的一个习惯，开会时大家就会问：“你们跟自己的智能体又有过什么疯狂的体验？”别忘了，那时还是 2 月。回头看整个周期很有意思，因为 OpenClaw 这股热潮，显然是在冲到高峰之后又消失了。</p>
+<p><strong>Alexandr Wang：</strong> 对，它没有持续下去。我想很多人的体验都是：偶尔会遇到特别神奇的时刻，但大多数时候，它其实不太好用，还有各种各样的问题，然后热度就慢慢退了。所以，在打造产品的过程中，我们很大一部分精力都放在同一件事上：怎样把它做成一种真正可靠的消费体验，让我们能放心地……</p>
+<p><strong>Alexandr Wang：</strong> 随着时间推移，把它交到数十亿人手里，并且有信心，这些人中的绝大多数都能获得出色的体验。</p>
+<p><strong>David Senra：</strong> 为什么你们能做到，而 OpenClaw 的开发者没做到？</p>
+<p><strong>Alexandr Wang：</strong> 首先，我们非常尊重 Peter Steinberger，也非常尊重每一位为 OpenClaw 做出贡献的人。我觉得 Peter 绝对是一个有远见的人。</p>
+<p><strong>Alexandr Wang：</strong> 他那颗了不起的大脑里发生了什么，最终创造出 OpenClaw，这件事本身就很神奇。而让 Muse 变得如此神奇的那一部分，可能反而没什么光鲜可言，就是实打实地磨，把每一个细节都打磨好，让模型和产品结合起来的整体体验真正出色。光模型本身，我们就做了很多很多轮迭代。</p>
+<p><strong>Alexandr Wang：</strong> 我们把整个模型路线图指向了个人超级智能这个大方向，具体来说，个人智能体当然是……</p>
+<p><strong>David Senra：</strong> 多讲讲这个，以及它和其他竞争对手有什么区别。</p>
+<p><strong>Alexandr Wang：</strong> 好，这一点其实非常有意思。</p>
+<p><a id="wang-section-5"></a></p>
+<h3>为什么 Meta 押注个人 AI</h3>
+<p><strong>Alexandr Wang：</strong> 回到当时那个时间点会很有帮助。今年年初，也就是 2 月，Opus 和 Claude 在编程上遥遥领先，比其他所有人都领先，而且增长迅猛。那是 Anthropic 开始席卷整个行业的时候。我觉得那个时刻总体上挺吓人的，大家都在想：“哇，他们在编程上已经领先这么多了。”后来他们又有了 Mythos，领先优势非常明确。</p>
+<p><strong>Alexandr Wang：</strong> 当时业内的普遍看法是，编程智能体是唯一重要的产品形态，甚至是先进 AI 唯一重要的技术，或者唯一重要的能力。整个行业都有一股极强的力量，推着大家涌向这个应用场景，去跟 Anthropic 竞争编程智能体。但因为我们亲身经历过那些事情……</p>
+<p><strong>Alexandr Wang：</strong> 对个人智能体形成了坚定的信念。而且退一步看，我们最初提出个人超级智能，也是因为我们相信，Meta 在这个方向上有独一无二的优势。这个我们可以再展开……</p>
+<p><strong>David Senra：</strong> 那现在就展开吧。</p>
+<p><strong>Alexandr Wang：</strong> 好，那我们就穿插着聊。甚至在 Scale 和 Meta 的交易发生之前，我就跟马克说过一句话：我认为，如果我们真的有了 AGI、ASI，或者不管你想叫它什么，Meta 会是一家非常特别的公司。</p>
+<p><strong>Alexandr Wang：</strong> 因为 AI 的承诺之一在于：我们每个人的生活里，都混合着想做的事和不得不做的事。而 AGI 的承诺是，我们几乎不再需要把时间花在不得不做的事情上，因为 AI 会开始替我们做掉其中很多事情。这样，我们就可以把时间全部用在真正想做的事上。对我而言，Meta 的产品恰好代表了那些我们想做的事。</p>
+<p><strong>Alexandr Wang：</strong> 比如我用 Instagram、WhatsApp 或 Facebook，都是在追随自己的兴趣、爱好，关注喜欢的人、朋友，以及我在乎的人。Meta 的产品版图，涵盖了“我们想把时间花在哪里”这一整片领域。从一个很长的时间尺度看，Meta 会是这一切中一个非常大的赢家。这是我最早对 Meta 和超级智能形成的看法之一。后来，其中很多想法都进入了“个人超级智能”这个概念。</p>
+<p><strong>Alexandr Wang：</strong> 你可以从几个角度看。第一，这家公司的传统是什么？Meta 的传统是连接人和他们的亲友，帮助人们发现自己的兴趣。这些都是非常贴近人性的事。也可以从商业角度看：Meta 每天能触达使用旗下应用的 35 亿人。所以，消费级 AI 天然就是 Meta 有机会取得成功的领域。</p>
+<p><strong>David Senra：</strong> 不是工作，也不是编程，而是个人生活。</p>
+<p><strong>Alexandr Wang：</strong> 对，正是如此。所以，无论个人智能体、个人 AI，还是更广义的消费级 AI，一直都是我们认为 Meta 能做出特别成果的领域。</p>
+<p><strong>David Senra：</strong> 那就回到 2026 年年初。现在你们有了原型，有了内部支持，大家都知道马克认可这个方向，接下来就是七个月艰难的产品打磨。</p>
+<p><strong>Alexandr Wang：</strong> 是的。当时始终有一个阴影：“个人智能体，是不是已经来过，又过去了？”我们一直觉得，那是因为体验还不够好，还没有打磨到位。但在开发产品时，这无疑是我们必须认真考虑的事情。我们把模型开发路线图集中到了这个方向。</p>
+<p><strong>Alexandr Wang：</strong> 最重要的重点，或者说最重要的重点之一，就是个人智能体。我们有一些很长的电子表格，列出了几百、甚至几千种不同的……倒也没有几千，但确实超过一百种具体的行为和能力。我们知道，模型必须具备它们，才能打造出理想的个人智能体。这项工作细致到了极点。随后，我们逐一建立评估，研究怎样训练模型，让它把每一件事都做到非常好。我们定期开评审会，对着表格找出还做得不好的项目，确保它们不断改善。</p>
+<p><strong>Alexandr Wang：</strong> 我们就是靠这样一个非常细致的过程，一点点持续改进，把模型的每一处毛边都磨平，让它真正能够支撑这个产品。</p>
+<p><strong>David Senra：</strong> 这是不是也很符合 Meta 的文化？不断打磨产品？</p>
+<p><strong>Alexandr Wang：</strong> 是。Meta 文化里很重要的一部分就是：一旦知道要衡量什么，就有非常优秀的人才去优化这些东西，磨平每一个细节，把它做到极好。在 AI 出现之前的消费产品时代，这类工作很大程度上围绕着如何优化转化率、推荐率，如何优化新用户引导流程的每一步，怎样把所有这些东西做到尽善尽美。到了 AI 时代，尤其对 Muse 来说，同样的精神体现为打磨模型的每一个细节，让它完美契合产品。</p>
+<p><strong>David Senra：</strong> 接下来，我想向你介绍本播客的冠名赞助商 Ramp。</p>
+<p><a id="wang-section-6"></a></p>
+<h3>赞助商：Ramp 与 Deel</h3>
+<p><strong>David Senra：</strong> 最近我读了很多关于 SpaceX 的材料。SpaceX 是世界上价值最高的企业之一，而它的发展史中，一条反复出现的主线就是不断审视、质疑和压低成本。Ramp 正在帮助世界上许多最具创新精神的企业做同样的事。使用 Ramp 的企业，费用降幅的中位数达到 5%。SpaceX 证明了一点：近乎虔诚地坚持控制成本，实际上也能推动收入增长，因为你可以去抓住那些原本无法抓住的机会。我们在 Ramp 的数据中也看到了这一点。</p>
+<p><strong>David Senra：</strong> 使用 Ramp 的企业，收入增幅的中位数也达到了 16%。所以，当你用 Ramp 经营企业，而竞争对手没有用时，你就拥有了一项会随着时间不断累积的巨大竞争优势。Ramp 是唯一一个专为让财务团队工作更高效、更开心而设计的平台。我认识的许多顶尖创始人和 CEO 都在用 Ramp 经营自己的企业。我也在用，你也应该试试。前往 ramp.com，了解它如何帮助你的企业节省时间、节省开支、增加收入。网址是 ramp.com。</p>
+<p><strong>David Senra：</strong> Deel 帮助最优秀的创始人，把全世界变成自己的人才库。我研究历史上最伟大的创始人如何做事，已经有十年了。他们有一个共同点：都明白，招募和聘用最优秀的人才，是头等大事。顶尖人才认得出其他顶尖人才，这就是为什么 Ramp、Shopify、ElevenLabs、Uber 和 DoorDash 这样的优秀公司都在使用 Deel。我认识的许多顶尖创始人，在使用产品之后，还亲自投资了 Deel。他们发现，在建设全球招聘基础设施这件事上，Deel 是世界上最出色的公司。无论员工身在世界何处，Deel 都能帮助你的企业招聘、支付薪酬和管理他们。</p>
+<p><strong>David Senra：</strong> 这样，你就能留住各地最优秀的人才，把其余时间专注于自己最擅长的事：为客户创造价值。ElevenLabs 的创始人对 Deel 能带给企业的价值有一段很好的描述。他说：“我们创立 ElevenLabs，是为了打破语言和沟通的障碍。Deel 让我们能够在任何地方招募和支持卓越人才，从而加速创新，把更多声音、故事和想法带到世界的每个角落。”超过四万家企业信赖 Deel，而且这个数字还在快速增长。想了解它如何帮助你的企业，请访问 deel.com/senra。</p>
+<p><strong>David Senra：</strong> 网址是 deel.com/senra。你看过 Jeremy Stern 在 Colossus 上写的那篇扎克伯格人物特写吗？</p>
+<p><strong>Alexandr Wang：</strong> 我看见了。老实说，有点太长，没读。</p>
+<p><strong>David Senra：</strong> 对，有一万五千字。我刚请 Jeremy 来过这个播客，他是我最喜欢的作者。</p>
+<p><a id="wang-section-7"></a></p>
+<h3>马克·扎克伯格对改进产品的执着</h3>
+<p><strong>Alexandr Wang：</strong> 我看见那期了。</p>
+<p><strong>David Senra：</strong> 我觉得他现在写的企业家和投资人人物特写，是全世界最好的。我真的认为，他在自己这个领域里是世界第一。那篇文章里，扎克伯格谈到自己相对于埃隆、Sam Altman 等人的优势。他大意是说：“听着，我的本领没什么光鲜的，但我很擅长组建团队，然后在很长的时间里，一点一点地改进产品。相比埃隆、Sam Altman 和其他人，我不会失去对公司的控制，也不需要再融资，所以我可以把这件事做上极其漫长的一段时间。”</p>
+<p><strong>David Senra：</strong> 你刚才讲到那七个月如何打磨、打造 Muse 时，我脑中就浮现了那一段。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得完全是这样。这需要极大的耐心。七个月，听起来可能不算特别久，但 AI 这个行业竞争实在太激烈了。</p>
+<p><strong>David Senra：</strong> 是 AI 时间里的七个月。</p>
+<p><strong>Alexandr Wang：</strong> 对，AI 时间里的七个月，可能相当于非 AI 世界的十年。对我们所有人都是如此。但这件事上，我尤其要肯定马克：它需要非常大的耐心、克制，以及对整个过程的信任。你可以回头去看，这整个时期他在财报电话会上说过些什么。</p>
+<p><strong>Alexandr Wang：</strong> 从 2 月一直到 9 月，他都会提到我们正在开发个人智能体。我们其实没有刻意隐藏这件事，我们就是在做，也一直在讲。但在整个过程中，外界对公司的怀疑一直很多。华尔街的一种主流说法是：“天哪，Meta 烧了这么多钱，他们在 AI 上到底能做出什么东西吗？”</p>
+<p><strong>David Senra：</strong> 还不止这样。说法是“扎克伯格不可能赢下 AI”。很长一段时间里，这句话被反复地讲。再回到 Jeremy Stern 那篇人物特写。</p>
+<p><strong>David Senra：</strong> 他还私下采访了扎克伯格的竞争对手，其中包括一位以前跟扎克伯格共事、后来去了另一家实验室的研究员。那个人说：“我可不想跟他们竞争，因为马克就是个［消音］……”我记得原话是：“马克就是个［消音］终结者。”意思就是，他根本不会停下来。接着文章还谈到，他的一项超能力是，他从来不会对产品的现状感到满意。</p>
+<p><strong>David Senra：</strong> 所以他永远想继续改进，但他又不是个混蛋。他不是那种……他确实有独断的一面，但他不会粗暴无礼，不会把团队的默契和氛围毁掉。文章里他专门讲到，团队凝聚力对他来说极其重要。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得这些都说得对。</p>
+<p><strong>Alexandr Wang：</strong> Muse 有一件特别的事，就是我们在最终推出产品之前，真的花了相当多时间，认真抠每一个细节。个人智能体这个产品领域，其实像站在刀刃上：如果它能稳定地提供那些神奇的体验，就有潜力成为有史以来最伟大的消费产品之一。但你面对的是模型，是非确定性的系统，是会出故障、会不可靠的智能体。一旦人们反复遇到不可靠的体验，就会觉得这东西是垃圾。</p>
+<p><strong>Alexandr Wang：</strong> 所以必须把产品的质量和价值做到一个程度，让大量下载并使用它的人真正觉得它有用、有共鸣。</p>
+<p><strong>David Senra：</strong> 我想再聊聊这个过程。你们用了多少资源？团队多大，有多少人在做？有没有这样的数据：我用了 Muse，九次体验很好，两次不稳定或者很糟糕，然后我就流失了。你们掌握这类信息吗？</p>
+<p><strong>Alexandr Wang：</strong> 从年初其他很多智能体产品就能看到，几乎所有用户最后都流失了，就是因为它们不可靠。</p>
+<p><a id="wang-section-8"></a></p>
+<h3>Meta 如何判断 Muse 已经可以发布</h3>
+<p><strong>Alexandr Wang：</strong> 我们给 Muse 做了大量用户测试。一轮又一轮地请新用户下载，从零开始使用，看看他们的体验到底怎样。Muse 的一个重要前提，也是我觉得真正被用户理解了的一点，是它和大多数人以前接触过的消费级 AI 很不一样。它不是聊天机器人，它是智能体，能替你完成智能体该做的事情。</p>
+<p><strong>Alexandr Wang：</strong> 对开发者来说，这可能已经不新鲜了，他们早就下载过智能体，也用了一阵子。但对大多数人而言，光是完成这一步认知上的转变，就需要解释，需要非常周到的新手引导。而且我们确实看到，产品体验对模型质量极其敏感。我们测试过不同版本的模型，也一直在做这样的 A/B 测试。</p>
+<p><strong>Alexandr Wang：</strong> 模型能否可靠地执行任务，能否可靠地向用户说明情况，需要指引时能否可靠地回来向用户确认，这些都会极大地影响体验。</p>
+<p><strong>David Senra：</strong> 但你们怎么知道，产品已经可以发布了？</p>
+<p><strong>Alexandr Wang：</strong> 一部分判断是非常量化的。还记得那张列着一百多个项目的表格吗？</p>
+<p><strong>Alexandr Wang：</strong> 对每一行，我们都设定了门槛：低于什么水平就不能发布，高于什么水平才算过关。我们有过很多版本，八十行已经亮绿灯，二十行还亮红灯。我们知道，那还不够好。</p>
+<p><strong>Alexandr Wang：</strong> 后来，终于有了第一个所有项目都亮绿灯的模型版本，那是一个专门训练过的 Muse Spark 1.3。所以，一方面有非常量化的判断，另一方面也有亲身体验的判断：我们自己试用这个模型，能明显感到，它比此前迭代过的任何版本都好得多。</p>
+<p><strong>David Senra：</strong> 回到你说的那七个月，模型研发和产品开发加起来，一共有多少人在做？</p>
+<p><strong>Alexandr Wang：</strong> 总共不到两百人。听起来可能不少，但放在大公司里，规模其实小很多。</p>
+<p><strong>David Senra：</strong> 真不算多。</p>
+<p><strong>Alexandr Wang：</strong> 回头看，这一点很棒。我们知道，这会是最重要的产品；整个高管团队，所有人都知道，它很可能是 Meta 今年推出的最重要的产品之一。但在组织上，我们克制住了自己，确保始终是一个小而专注的团队在做，而没有膨胀成那种公司里大批部门都涌进来的项目。因为我们知道，这是一件完整、统一的艺术作品。</p>
+<p><strong>Alexandr Wang：</strong> 要把它变成一种完整而优美的体验，必须有鲜明的主张和高度的专注。</p>
+<p><strong>David Senra：</strong> 再展开讲讲。为什么你把它称作“一件艺术作品”，而且强调必须有一个统一的视角或主张？</p>
+<p><strong>Alexandr Wang：</strong> 人们经常批评大组织做出来的产品，而我觉得现在很多 AI 实验室也开始出现同样的问题……</p>
+<p><a id="wang-section-9"></a></p>
+<h3>为什么优秀产品需要一个统一的主张</h3>
+<p><strong>Alexandr Wang：</strong> 就是它们会变成某种弗兰肯斯坦式的拼接怪物，甚至像柯南伯格电影里的怪诞混合体，把不同人的视角、愿景和信念全拼在一起。某种意义上，那就是产品经理的地狱：每个产品经理都有一个想硬塞进产品里的东西，最后所有东西搅成了一团，几乎像一杯混合果昔。</p>
+<p><strong>Alexandr Wang：</strong> 作为用户和消费者，你能感受到这一点。你能感觉到，这个产品像是很多不同的人做的，每个人背着不同的目标，最后只是把成果硬凑到一起。Muse 必须完全相反：只有一个清晰的主张，我们要交给世界的是一种统一、连贯的体验。</p>
+<p><strong>David Senra：</strong> 我很喜欢你这么说。还有件纯属巧合的事：我不知道这期节目什么时候上线，但我们录制的今天，恰好是史蒂夫·乔布斯去世十五周年。</p>
+<p><strong>David Senra：</strong> 一说到具有统一主张的消费产品，人们首先想到的当然就是乔布斯。我把关于乔布斯和苹果历史的书都读过了，在我的另一个播客 Founders 里，大概做过十五到二十期相关节目。关于他的影响，我最喜欢的一种描述是：“苹果，就是拥有一万条生命的史蒂夫·乔布斯。”那些产品体现的是他的品位、他的视角、他的主张。他想在世界上看到什么，最终用户拿到的就是什么。</p>
+<p><strong>Alexandr Wang：</strong> 在 Muse 这件事上，Nat Friedman 值得得到很多肯定。他的品位和感受力，最终决定并塑造了这款产品的样子。</p>
+<p><strong>David Senra：</strong> 你们会谈 Muse 的使用人数吗？这方面公开说过没有？</p>
+<p><strong>Alexandr Wang：</strong> 我们说过是“数以百万计”。我还转发过别人贴出来的增长图，那些图表所暗示的是：Muse 是有史以来增长最快的消费应用。</p>
+<p><strong>David Senra：</strong> 消费级 AI 应用。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>David Senra：</strong> 所以你还是不说具体数字。</p>
+<p><strong>Alexandr Wang：</strong> 我们说过，数以百万计。</p>
+<p><strong>David Senra：</strong> 是啊，几亿也可以用“数以百万计”来形容。所以，你只是没说前面的具体数字。我想聊聊你最近在 X 上的表现。我带着善意说，你有点放飞自我了。这是一种营销策略吗？到底怎么回事？我感觉自从 Muse 发布以后，你公开发帖的风格明显变了。你在做什么？</p>
+<p><strong>Alexandr Wang：</strong> 这里面有几件事。</p>
+<p><strong>David Senra：</strong> 这肯定比你当年做 Scale AI 有意思多了。</p>
+<p><a id="wang-section-10"></a></p>
+<h3>用迷因让 Meta 重新变酷</h3>
+<p><strong>David Senra：</strong> 肯定是。这个我们后面再聊，但一定更有意思。</p>
+<p><strong>Alexandr Wang：</strong> 过去这几个星期，是我整个职业生涯里做产品最开心的一段时间之一。这里面有几个原因。首先，我们觉得必须找到一种办法，让 Muse 真正闯进大家的视野。因为外界的信息流，回到刚才的话题，简直是一场倾盆大雨。</p>
+<p><strong>Alexandr Wang：</strong> 对大多数人来说，新的 AI 产品、创业公司、发布会、新模型不断迎面砸来：又一个模型，又一个产品，又一个功能，没完没了。我们甚至专门开过规模不小的团队会议，讨论怎么突破这种信息洪流。Meta 当然拥有很强的分发能力，能让所有人都知道这款产品，但光这样，还不足以让它以一种有趣、有文化影响力、能激起好奇心的方式走出去，让全世界真正注意它。</p>
+<p><strong>Alexandr Wang：</strong> 另外，我生活中碰巧认识了一些特别会玩迷因的人，还跟他们交了朋友。我会亲昵地把他们叫作我的“疯癫朋友”。这些人真的整天都在研究互联网和迷因，特别懂这些东西。</p>
+<p><strong>David Senra：</strong> 我认识一些人，他们既痴迷 Muse，也痴迷你的 X 动态。他们坚信，你肯定养了一百个 Muse，专门替你想那些要发出去的梗。</p>
+<p><strong>David Senra：</strong> 原来，你只是有一群重度网瘾的疯癫朋友。</p>
+<p><strong>Alexandr Wang：</strong> 说明一下，我 X 上的每一条帖子，确实都是我亲自写的。有一阵子，我开会都很难集中注意力，因为脑子里突然冒出一个梗，我就会想：“天哪，我必须马上把它发出来。”就像灵感突然来了。有一次，我跟一位同事吃饭，吃到一半突然说：“等等，我想到了！”然后就发了另一个迷因。</p>
+<p><strong>Alexandr Wang：</strong> 那种感觉，几乎像我又变回了修 bug 的工程师。因为你能感觉到，某个东西一定会击中大家。总之，一件事是我们想让产品突破重围。另一件我觉得重要的事是：怎样让 Meta 重新变酷？说来也奇怪，我们明明拥有 Instagram 这样影响文化的软件，还有……</p>
+<p><strong>Alexandr Wang：</strong> Facebook，但 Meta 已经有好一阵子不酷了。所以，我想让 Meta 变得酷、有意思、好玩。至于那种放飞自我的劲头，是慢慢自然出现的。Muse 刚推出时，我主要在推广那些有趣的使用案例，看见别人用 Muse 做了有意思的事，就会连续转发几十条。后来，因为我发帖实在太多了，有几条根本没怎么想，就是：“管它呢，发吧。”</p>
+<p><strong>Alexandr Wang：</strong> 结果其中一些表现特别好。</p>
+<p><strong>David Senra：</strong> 你看过那个梗吗？就是“花了多久琢磨”和“发出去有多爆”之间的关系那个？</p>
+<p><strong>Alexandr Wang：</strong> 没看过，但我认同。有些帖子，我真的没花多少时间，发完几个小时都没看手机，后来一看：“哇，这条效果真好。”这让我重新想起互联网的一条规律。我不是刻意照着它来做的，但我想起了，互联网会奖励冒险，奖励惊喜，奖励人们意想不到的东西。于是我就放开了。很多同事应该都有点惊讶。那一整周，我不停地发迷因，Nat 在好多次会议上都说过一句话。</p>
+<p><strong>Alexandr Wang：</strong> 他说：“我本来以为，我们这一周会更了解 Muse 的用户，更了解大家怎么用 Muse。结果，我们主要是更了解了 Alex 的脑子。”</p>
+<p><strong>Alexandr Wang：</strong> 那真的很好玩。我感觉自己把这么多年积累的所有互联网知识，都调动到这些时刻里了。我们没有做追踪，所以很难确定，但我真的觉得，这对增长产生了实实在在的影响，想想还挺好笑的。</p>
+<p><strong>David Senra：</strong> 我肯定它有影响。我耳边一直有人聊这个，而且跟我聊的人，都下载了应用，现在也在用。不过回到你刚才说的那件事。</p>
+<p><strong>David Senra：</strong> 你们有分发能力，但这不意味着能做出一个让人回来、真正有黏性的产品。Muse 是怎么做到的？</p>
+<p><strong>Alexandr Wang：</strong> 问题是，怎样让它作为一款产品真正脱颖而出？我觉得有几个部分。一个是怎样把用户带到那个神奇的体验里，怎样尽早让人产生“哇”的瞬间。这款产品天生就很适合做这件事。毕竟它是 AI，能做很多事情。对从来没用过 AI 智能体的人来说，它能带来的惊喜非常多。所以这是很重要的一部分。</p>
+<p><strong>Alexandr Wang：</strong> 另一个部分，是怎样利用这些让人惊叹的真实体验故事，帮助产品真正打动人、传播开。</p>
+<p><strong>David Senra：</strong> 但你们具体怎么用这些故事？</p>
+<p><strong>David Senra：</strong> 你们没在给 Muse 投广告吧？</p>
+<p><strong>Alexandr Wang：</strong> 投过一些。但老实说，最初主要就是我转发了特别多案例。每次看见有人用 Muse 做了有趣的事，我就引用转发。</p>
+<p><strong>David Senra：</strong> 我一直不明白，为什么 Anthropic 和 OpenAI 的广告都那么差。你记得吗，Anthropic 之前铺了很大一轮户外广告，全在讲他们自己。ChatGPT 那边也一样，放一个图标，我甚至不觉得大家认得出那个标志，然后写着 Codex，再放两个人坐在桌前。我就想：“这他妈到底是什么意思？”你们明明有那么多使用案例。广告只要把产品能给用户带来的好处展示出来就行了，就这么简单。你们有几百万个这样的案例。</p>
+<p><strong>David Senra：</strong> 把那些做成广告啊！这太基本了，所以人们一遍又一遍犯同样的错误，反而很让人费解。</p>
+<p><strong>Alexandr Wang：</strong> 对。无论是打造 Muse，还是更广义地在 Meta 做产品，我们经常回到一个问题：别人为什么要在乎？</p>
+<p><strong>David Senra：</strong> 他们不在乎你，也不在乎你的公司。人都关心自己的利益。有一本很老的书……</p>
+<p><strong>David Senra：</strong> 叫《科学的广告》，写于二十世纪初。它太有价值了。当时，一位在二三十年代赚了最多钱的广告公司创始人，拿着这位叫 Hopkins 的顶级文案写下的东西，说：“这就是我赚钱的全部方法。我要把这份手稿锁进保险箱二十年。”但说到底，这本书讲的不是广告，而是不会改变的人性。它的核心观点是：你的广告都在讲你自己，讲你的产品，讲“我有这个东西，快来买”。人们根本不关心这些，他们关心自己。你只需要认真想清楚：“这个东西能为你做什么？”然后把答案放在最前面。后来有人拿着这些……</p>
+<p><strong>David Senra：</strong> 二十世纪初写下的想法，在五十、六十、七十年代，乃至今天，建起了庞大的公司和广告事业。</p>
+<p><strong>Alexandr Wang：</strong> 完全同意。这里有几个洞察。首先，世界上绝大多数人根本不在乎 OpenAI、他们的研究、其他公司和研究，甚至也不在乎我们和我们的研究。他们在乎的是，这东西能为自己做什么。我们很幸运，拥有那个小小的 Jolly 吉祥物。我记得有一条帖子，让我突然意识到：“哇……”</p>
+<p><strong>Alexandr Wang：</strong> “这东西太有发挥空间了。”当时我正在开车去公司的路上，途中生成了一张它拎着公文包的图，然后发帖写：“周一上班时的我。”我记得自己还想，这是我最近发过的最好的一条帖子之一。接着我意识到，你可以把它放进各种各样的情境里。在这个过程中，我慢慢想明白了：我们能不能创造一些让人意想不到的时刻，和大家过去见过的产品营销完全不同？</p>
+<p><strong>Alexandr Wang：</strong> 我都想不起上一次有人用这么大胆、带点擦边意味的迷因来营销产品是什么时候了。我甚至不知道以前有没有人这么干过。但我意识到，这个小家伙让我们可以这么做。这很有意思，能勾起普通人的好奇心。</p>
+<p><strong>David Senra：</strong> 好，这些可能会让人知道产品，甚至让人下载。可应用装到手机上之后，你们怎样让人继续使用？</p>
+<p><a id="wang-section-11"></a></p>
+<h3>怎样建立对 AI 智能体的信任</h3>
+<p><strong>Alexandr Wang：</strong> 那些真正喜欢这款应用的人，会进入一个循环，我们早在 2 月就经历过了。先给它一件小事，它做成了。你会想：“哇，它真的办到了。”然后给它一件稍微大一点的事，它又做成了。“哇，原来这件它也会。第一件会，第二件也会。”接着，你再交给它一个更大的问题。你和 AI 智能体之间，几乎像在做一场信任背摔。起初，你不太信任它，但有点好奇。</p>
+<p><strong>Alexandr Wang：</strong> 所以先试探性地给它一点，然后再大一点，再大一点，再大一点。我跟一些大学生聊天时发现，有些人使用 AI 的方式已经是彻底放手、完全相信它会接住自己。他们直接录语音，把脑子里的所有东西一股脑倒出来，发给 AI，然后相信它会把这些想法整理好，给出清晰的计划、明确的行动步骤，等等。</p>
+<p><strong>Alexandr Wang：</strong> 对那些把 Muse 用得很好的用户来说，关键就是让他们进入这个逐步交付信任的过程：把越来越大的事情交给它，而它每一次都能把事情办好。</p>
+<p><strong>David Senra：</strong> 我在读《从零到一》时，发现了一句一直非常喜欢的话：“我观察到的最有力的规律是，成功者会在意想不到的地方发现价值。”他们之所以能做到，是因为他们从第一性原理出发思考商业，而不是套用公式。AppLovin 的广告平台，做的正是这件事。</p>
+<p><a id="wang-section-12"></a></p>
+<h3>赞助商：AppLovin</h3>
+<p><strong>David Senra：</strong> AppLovin 能让你触达手机游戏中的十多亿潜在新客户，获得他们全神贯注的注意力。AppLovin 的广告是全屏视频，平均观看时长为 35 秒，注意力留存表现远远超过其他广告平台。而且只需几分钟，你就能在 AppLovin 上启动广告投放。你设定目标，AppLovin 帮你实现。不需要复杂的设置，也不需要专业知识。它还能迅速扩大投放规模，把你的广告展示给十多亿潜在客户。</p>
+<p><strong>David Senra：</strong> 已经有企业很快看到了效果，把每天的广告支出扩大到数十万美元，并让收入增加了数百万美元。所以，在你的竞争对手都上 AppLovin 之前，你应该尽快开始。访问 applovin.com 即可。网址是 applovin.com。</p>
+<p><a id="wang-section-13"></a></p>
+<h3>口碑和截图如何让产品传播</h3>
+<p><strong>David Senra：</strong> 我很好奇，这一切有多少其实是口碑驱动的。当然，因为要采访你，我无论如何都会下载应用。但真正勾起我兴趣的，是一个朋友发来的截图，展示他怎样使用 Muse。</p>
+<p><strong>David Senra：</strong> 你下载以后，它其实不会详细告诉你能做什么，有点开放式的感觉，就是一个文本输入框。我的那个朋友管理着一家价值大约一千亿美元的公司。他把身份证件落在了一架 Flexjet 的飞机上，于是就去找 Muse。他跟我说，自己给 Muse 的要求是：“我完全不想参与这个过程。你得想办法把证件取回来。证件在这个地方，我在这个地方。中间所有步骤你自己搞定。”结果它真的安排了跑腿人员，到现场拿到证件，又不知道怎么通过了他办公室的安保，最后送到楼上他的办公室。我看完就想：“我靠，这就是最好的营销。”</p>
+<p><strong>David Senra：</strong> 就是三四张截图，里面是他和 Muse 的对话，他反复说：“我不想参与，你必须全部搞定。”然后它就一路想办法解决。</p>
+<p><strong>Alexandr Wang：</strong> 对。这件事确实很重要。它多少有一点设计的成分，但现代产品营销，真的非常依赖截图。我觉得，一款现代消费产品必须在截图里就能成立。换句话说，这张截图得能传播起来，无论是在群聊里、口口相传，还是在网上。我觉得这确实占了很大一部分。</p>
+<p><strong>Alexandr Wang：</strong> 有件事不是我们刻意策划的：截图里有那个小家伙，后来证明非常重要。因为只要 Jolly，或者你自己的 Muse 角色，出现在截图里，别人立刻就知道这是一张 Muse 截图。</p>
+<p><strong>David Senra：</strong> 这简直是最好的营销。那你自己是不是整天都在用 Muse？你的个人使用方式是什么？</p>
+<p><a id="wang-section-14"></a></p>
+<h3>人类抱负的未来</h3>
+<p><strong>Alexandr Wang：</strong> 我主要用它建立了很多工作流程。因为我有很多时间在开会，实际工作要求我认真听、投入当下，和别人互动。所以我会预先设置一堆流程，把它当作第二个大脑。</p>
+<p><strong>David Senra：</strong> 对，你写的那篇帖子里就是这么说的。文章很短，我上次看到时，好像已经有五百五十万次浏览了。我特别喜欢你描述 Muse 的方式：“如果每个人除了自己的头脑，还能拥有第二个头脑，会怎么样？”</p>
+<p><strong>Alexandr Wang：</strong> 从哲学上说，这是最有意思的问题之一：当我们拥有强大的 AI，身为人类究竟意味着什么？我们和它是什么关系？这种关系具体是什么样子？不同的人有不同的理解。让人害怕的情景当然是，AI 凌驾于我们之上，我们只是在照它说的做。但也有其他可能，人与 AI 的关系可以不一样。</p>
+<p><strong>David Senra：</strong> 继续之前，你自己的看法是什么？</p>
+<p><strong>Alexandr Wang：</strong> 我真的相信 Muse。</p>
+<p><strong>Alexandr Wang：</strong> 我相信个人智能体会是一种长期存在的产品形态。因为拥有愿望、欲望和梦想，是人的天性。</p>
+<p><strong>Alexandr Wang：</strong> 而 AI 和 Muse 这样的个人智能体，会成为让我们实现这些东西、并持续实现它们的机制和桥梁。然后，人类会不断做更大的梦，越来越大。</p>
+<p><strong>Alexandr Wang：</strong> 孩子们也许会梦想拥有自己的恒星系，而 Muse 会帮他们实现。贝索斯曾经写过一句话，我想是在某封股东信里：消费者美妙的地方在于，他们总是“美妙地不开心”，或者说，对眼前的选择“美妙地不满足”。这就是我们与 AI 关系的一种形态。当然，还有别的形态。比如，我认为 AI 会承担越来越多的科学发现工作。</p>
+<p><strong>Alexandr Wang：</strong> AI 也会越来越深入地参与经济的各个部分。但从长远看，我确实相信这种形态：每个人都拥有一个支持自己、支持自己愿望的 AI。</p>
+<p><strong>David Senra：</strong> 所以在你看来，AI 会把生活里那些琐碎、碍事的东西清走，也就是我们不想做的事。你那篇文章里好像说，世界上到处都是守门人和障碍，而 Muse 能替你绕过它们，不再占用你的时间，让你真正专注于想做的事情。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，Muse 可以让每个人都过上自己小时候梦想中的成年生活。</p>
+<p><strong>Alexandr Wang：</strong> 每个人小时候都有宏大的想法和梦想。想象自己未来的人生时，我们会在脑中展开那幅画面：可以成为宇航员，可以拯救地球，可以改变世界，或者其他任何事情。</p>
+<p><strong>Alexandr Wang：</strong> 那时想得很大。但由于种种原因，等人们完成学业、进入职场，工作了一段时间，所有希望、抱负和做梦的能力，好像都被抽干了。</p>
+<p><strong>David Senra：</strong> 不，是被打掉了。生活把他们打得没了生气。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得成年以后，我们根本没有意识到，自己已经在多大程度上变成了行尸走肉。</p>
+<p><strong>Alexandr Wang：</strong> 我们失去了主动塑造生活的能力，也失去了抱负。我觉得“抱负”这个词特别准确。AI 的一个广义承诺，通过 Muse 这样的产品可以实现，就是让童年那股劲头一直延续下去：小时候有很大的梦想，用 AI 帮你实现；然后做更大的梦，再实现；再做更大的梦，再实现。于是，你会在一生中走上一部自主行动力不断上升的扶梯，而不是小时候充满力量，后来却被一点点压垮。</p>
+<p><strong>David Senra：</strong> 你知道，你刚才说话时，我想到了什么吗？</p>
+<p><strong>David Senra：</strong> 你前面提到，你和 Nat Friedman 接受过那种让人不安的心理审视，AI 的追问一轮接一轮地扑过来。如果我们也有这样的东西，但作用恰好相反呢？它让你更自信，让你理解，这个世界是可以塑造的。只要你足够用力地推动，以足够的精力和动力去追求，你真的可以改变自己周围的世界。</p>
+<p><strong>Alexandr Wang：</strong> 对。我觉得，最令人敬佩的企业家身上，确实就有这种特质：先做一个大梦，把它实现；然后做一个更大的梦，也许为之努力十年；等实现了，再把梦做得更大。埃隆显然是很好的例子，马克也是。</p>
+<p><strong>Alexandr Wang：</strong> 很多标志性的企业家，真实生活就是这样的。我觉得，每个人都应该有机会过上某种版本的这种人生。可悲的是，对大多数人来说，原本有远大的梦想和想法，进入公司、走上职场之后，却渐渐变成了行尸走肉。也许某一天，你想再去追梦，但那已经非常困难，因为你有了各种责任。也许有了家庭，也许是别的牵绊。你几乎被困在这种行尸走肉的状态里了。</p>
+<p><strong>David Senra：</strong> 在聊 Scale AI、你和 Meta 的合作，以及你怎么做出那个决定之前，我还想再问一件关于 Muse 的事。你那篇文章，或者说那条短帖里，有一段我很喜欢：“直到今天，世界一直由少数狂热之人塑造，他们不知怎样找到了办法，把自己的愿望变成现实。但我们从未见过，当每一个人的自主行动力都被彻底激活时，人类会是什么样子。”</p>
+<p><strong>Alexandr Wang：</strong> 我所描述的那个世界，是每个人的自主行动力都在一生中不断增长，每个人都有能力实现自己的愿望和梦想。我觉得，那会是一个疯狂的世界，是好的那种疯狂。它会特别有趣，富有艺术性，很酷。你走到世界的不同角落，会发现那里各有各的样子，非常多元。想象一下，当充裕的智能让几十亿人突然都有资源去做成不可思议的事情，那究竟会是什么景象，简直难以想象。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，这就是承诺的一部分。在我脑子里，它几乎像《瑞克和莫蒂》里的跨维度有线电视，只不过以某种方式，变成了人类真实生活的一部分。那可能真的会很棒。</p>
+<p><strong>David Senra：</strong> 我一直想到那部剧里的一句话：“宇宙会把聪明人吃掉。”好，我想回到之前。让我个人特别好奇的是，你创办了 Scale AI，也在经营 Scale AI。然后有一天，马克·扎克伯格联系你，应该是说：“嘿，我想跟你聊聊。”能讲讲这件事吗？</p>
+<p><a id="wang-section-15"></a></p>
+<h3>改变一切的那通扎克伯格来电</h3>
+<p><strong>Alexandr Wang：</strong> 对，我记得原话大概就是：“嘿，有空通个电话吗？”</p>
+<p><strong>David Senra：</strong> 之前你和马克有关系吗？一起待过、聊过吗？背景是什么？</p>
+<p><strong>Alexandr Wang：</strong> 我有个朋友，叫 Alex Schultz。我认识他很多年了，大概 Scale 成立一年时，我们就在旧金山认识了。他现在是 Meta 的首席数据官，此前长期担任 Meta 高管，是马克身边的重要助手。他把我介绍给了马克，我记得大概是在……</p>
+<p><strong>Alexandr Wang：</strong> 2021 年或者 2022 年，目的是聊 AI。因为那时马克对 AI 越来越感兴趣，而 Scale 在 AI 领域做了很多事。我记得，第一次见面光排时间就排了一年，从介绍认识，到真正安排好见面，整整一年。</p>
+<p><strong>David Senra：</strong> 为什么？</p>
+<p><strong>Alexandr Wang：</strong> 马克的日程当然非常夸张，有无数事情要处理。而且他特别善于排优先级。</p>
+<p><strong>Alexandr Wang：</strong> 真正重要的事情，他会花很多时间，有时候甚至多到你觉得过头。他之所以能这样做，同时又当好父亲、伴侣，兼顾其他角色，唯一的办法就是极其严格地取舍。那之后，我又跟他聊过几次，作为创始人向他请教。能得到马克·扎克伯格的建议，当然是很了不起的事。我记得，当时我在 WhatsApp 上问他一个问题，他会回一大段，我特别困惑。</p>
+<p><strong>Alexandr Wang：</strong> 我想：“他哪来的时间写这么长的回复？”现在才知道，他回 WhatsApp 消息就是又快又严谨。他能在很短的时间里写出一段很长、逻辑很扎实的回答。这是他一项特别令人佩服的能力。</p>
+<p><strong>David Senra：</strong> 让你得以窥见，他脑子里究竟在发生什么。</p>
+<p><strong>Alexandr Wang：</strong> 对，他的思维一直在飞快运转。Meta 是 Scale 的一个重要客户。在这件事之前，我们大概每六个月聊一次，差不多是这样的互动频率。</p>
+<p><strong>Alexandr Wang：</strong> 后来，他就打了那个电话。最初，其实并不清楚事情会走向哪里。第一次聊是在 Llama 4 之后，他主要就是问：“你觉得我们应该做什么？”</p>
+<p><strong>David Senra：</strong> 为什么“这次对话发生在 Llama 4 之后”是一个重要信息？</p>
+<p><strong>Alexandr Wang：</strong> 因为 Llama 4 没有达到 Meta 作为一家公司所期待的发展轨迹。</p>
+<p><strong>Alexandr Wang：</strong> 从内部来看，那无疑是一次令人失望的结果。而且与此同时，AI 显然正变得越来越重要，我们都很清楚，它对 Meta 的未来至关重要。所以最初几次通电话，他主要是在征求建议：“你觉得我们应该做什么？应该把注意力放在哪里？”</p>
+<p><strong>David Senra：</strong> 我私下听到的也是这样。他身边有一个很了不起的圈子，不是 Meta 董事会，虽然其中有些人确实也是董事，而是一群世界级的企业家。我跟其中一些人聊过，他们说：“你都不知道，他一直在征求建议，不停联系我们，讲自己生活或者工作里发生了什么，然后问：换成你，你会怎么做？”他一遍又一遍地这样做。我觉得这是一个很了不起的特质。</p>
+<p><strong>Alexandr Wang：</strong> 是的。因为这需要谦逊。尤其在他已经取得那么多非凡成就之后，还能持续这么做。</p>
+<p><strong>Alexandr Wang：</strong> 从他第一次联系我，到我们宣布交易，整个过程也就五六个星期，相当快。</p>
+<p><strong>David Senra：</strong> 这又是世界级企业家的一个共同点。Groq 的创始人 Jonathan Ross 来过这个播客，他与英伟达那笔两百亿美元交易的首次公开访谈，就是在这里。他说：“从黄仁勋第一次打电话，到钱进入我的银行账户，一共三周。”</p>
+<p><strong>Alexandr Wang：</strong> 太厉害了。当时我有很多想法：如果换成是我，我会做什么，会怎样思考 Meta 的 AI 战略。</p>
+<p><strong>Alexandr Wang：</strong> 我最早讲的想法之一，就是前面说过的：Meta 长期以来都在关注人们想做的事，正因为这份传统，在 AI 这场巨大变革中，它其实是占据最特殊位置的公司之一。我把很多很多想法发给他。与此同时，另一条对话也在展开：“也许我们可以想想，有没有某种一起合作的方式。”</p>
+<p><strong>David Senra：</strong> 他这么说的时候，你怎么想？因为这对你来说，应该完全出乎意料。</p>
+<p><strong>Alexandr Wang：</strong> 完全没想到。那整段经历都非常疯狂。我的想法是：“哦，挺好，但这怎么可能……”</p>
+<p><strong>David Senra：</strong> 你知道他们这么说是什么意思吧？他们想把你买下来。永远都是同一回事，只是会说成：“我们得想个办法一起合作。”</p>
+<p><strong>Alexandr Wang：</strong> 当时还没人这样点拨过我。我那时一个很明确的感受是：“这可能根本说不通。”</p>
+<p><strong>Alexandr Wang：</strong> 我自己想的是：“也许他只是提一嘴，抛出一个可能性，但这真的合理吗？”</p>
+<p><strong>David Senra：</strong> 你为什么觉得不合理？</p>
+<p><strong>Alexandr Wang：</strong> 最后当然真的有了交易，所以我当时又懂什么呢？</p>
+<p><strong>David Senra：</strong> 不，不，我问的是当时。结果我们已经知道了，但我特别好奇，你身在其中时的思考过程。你说“这不合理”，为什么不合理？</p>
+<p><strong>Alexandr Wang：</strong> 退一步看，Meta 最标志性的收购是 Instagram 和 WhatsApp，都有非常清晰的产品逻辑。Scale 则是一家深入企业和政府市场、以销售驱动的公司，跟 Meta 完全是不同类型的业务。</p>
+<p><strong>Alexandr Wang：</strong> 所以我当时觉得，如果 Meta 想进入企业和政府这些领域，那收购才有相应的产业逻辑。但这次不是。马克显然主要是想把 Llama 项目，以及整体 AI 项目重新带上正轨。</p>
+<p><strong>David Senra：</strong> 他想要的是人才。</p>
+<p><strong>Alexandr Wang：</strong> 对，他要的是人才。很长一段时间里，这件事都笼着一层雾，不是很清楚。</p>
+<p><strong>David Senra：</strong> 什么时候才清楚的？</p>
+<p><strong>David Senra：</strong> 钱到账以后？</p>
+<p><strong>Alexandr Wang：</strong> 开始谈数字的时候，我就想：“哦，哇，好吧。”事情从那时起变得清楚了一些。</p>
+<p><strong>David Senra：</strong> 一开始你在想“这件事到底是否合理”，但你们不断聊下去。他花了多久说服你，让你相信这对你是条好路？</p>
+<p><strong>Alexandr Wang：</strong> 有一部分感受是：“哇，这个交易结构实在太有意思了。”最后达成的方案是，Meta 投资并持有 Scale 49% 的股份，Scale 继续经营，而我和另外几个人加入 Meta。</p>
+<p><a id="wang-section-16"></a></p>
+<h3>离开 Scale AI，加入 Meta</h3>
+<p><strong>Alexandr Wang：</strong> 我当时觉得不可思议的是，这笔交易的形式这么奇特，却又确实形成了一种非常有意思的多赢局面。</p>
+<p><strong>Alexandr Wang：</strong> 对 Scale 的股东来说是赢，因为所有股东都拿到了很好的条件，获益很多。Scale 还会继续走下去，而且我真心相信，Scale 最好的日子还在前面。</p>
+<p><strong>David Senra：</strong> 但我的问题，或者说我个人最感兴趣的是，他是不是一通电话把这些道理解释给你，你就认同了？还是你会说：“等等，马克，这太他妈疯狂了……”</p>
+<p><strong>David Senra：</strong> “我得花几天想一想。”在能说的范围里，多讲讲这个过程。</p>
+<p><strong>Alexandr Wang：</strong> 好几个星期里，我都在想：“这太疯狂了。这是真的吗？这到底合理吗？如果合理，我自己又是什么感受？”占主导的情绪，就是觉得整件事太不可思议了。后来我开始认真面对：我真的必须决定，到底要不要这样做。光是这件事，就有很多需要谈的。我跟 Scale 的同事、我们的投资人，进行了大量交流。那一边也有很多很有意思的对话。</p>
+<p><strong>David Senra：</strong> 放手离开自己一手养大的孩子，当然很难。毕竟，你做 Scale 做了多久，多少年？</p>
+<p><strong>Alexandr Wang：</strong> 九年，从创立到那时。</p>
+<p><strong>David Senra：</strong> 而且你还很年轻，连三十岁都不到。所以那是你三分之一的人生。</p>
+<p><strong>Alexandr Wang：</strong> Paul Graham 很久以来一直说，如果你把自己的公司当作毕生事业，做事的方式就会不一样。我在 Scale 的那整段时间里，确实一直真心把它当成自己的毕生事业。所以那是一个很艰难的情感过程。</p>
+<p><strong>Alexandr Wang：</strong> 最终打动我的，是两件事结合在一起。第一，这确实是一个让所有参与方都受益的多赢交易。第二，我看到了 Meta 可能实现的潜力。当时，Meta 在 AI 上从很多角度看，都像是已经元气大伤，也许不是最有吸引力的 AI 工作去处。但这反而激起了我作为创业者的那一面：你几乎可以把它重新建一遍。</p>
+<p><strong>David Senra：</strong> 相当于重新创办这个实验室。</p>
+<p><strong>Alexandr Wang：</strong> 对。这也是后来很有意思的一点：正因为大家都清楚，有那么多事情需要做，反而为我扫清了障碍。我可以从头搭建很多东西，确立正确的原则，建立正确的文化。它创造了条件，让我们能做出一些非常棒的东西。</p>
+<p><strong>David Senra：</strong> 你和马克讨论时，也是这么谈的吗？</p>
+<p><strong>David Senra：</strong> 就是：“我们必须重启。如果继续沿着这条路走，显然不行。我们基本上得把现在这套东西推翻，用完全不同层次的人才重新来过。”你们之间是在谈这些吗？感觉他想要的绝不是一点小修小补，你明白我的意思吧？他更像是在说：“这套东西根本不行，也不会行。那就拆到地基，重新建。”</p>
+<p><strong>Alexandr Wang：</strong> 没错。</p>
+<p><a id="wang-section-17"></a></p>
+<h3>从头重建 Meta 的 AI 实验室</h3>
+<p><strong>Alexandr Wang：</strong> 对话是在不断演变的。有一个想法，我始终非常相信，埃隆在职业生涯的多个阶段也证明过：组建一支规模很小、强得离谱、技术能力极高，而且非常扁平的团队，你就能在极短的时间里做成很多事。</p>
+<p><strong>Alexandr Wang：</strong> 我对这一点很有信心，也认为在 AI 领域，这就是正确的做法。尤其当你必须完成我们当时那样的任务，必须行动得非常快时。早期我就经常跟马克聊这一点，他也很兴奋。后来，这成了我们……</p>
+<p><strong>Alexandr Wang：</strong> 整体战略的一根支柱：小团队、高度扁平、技术导向、极高的人才密度。有了这些要素，你到底能跑多快？</p>
+<p><strong>David Senra：</strong> 从外面看，我对马克的感觉是，他会“把弹匣打空”，全力出击。你读过一本叫《拿破仑的头脑》的书吗？</p>
+<p><strong>Alexandr Wang：</strong> 没有。</p>
+<p><strong>David Senra：</strong> 这本书出版于 1957 年。我找到它，是因为看过一次访谈，好像是 Tyler Cowen 采访 Sam Altman，大概在 2018 年。他问：“今年你读过最重要的一本书是什么？”Sam 说是《拿破仑的头脑》。这本书很难找，我后来买到了。三百页，全是拿破仑自己的话，按主题编排。里面，他反复讲：“犹豫是致命的。”</p>
+<p><strong>David Senra：</strong> 但他也说，在决定采取一条行动路线之前，要充分审慎地思考，从各个角度研究，确保自己做的是正确决定。我觉得马克的做法与之呼应：他会花很多功夫思考，确定方向正确；可一旦做出决定，就会全力投入，把弹匣打空。所以在他把你招过来、你们开始重建整个组织时，我看到的就是这种感觉。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，他真正内化了一件事：失败并不重要，重要的是，当你赢的时候，你能赢多大。</p>
+<p><strong>Alexandr Wang：</strong> 这个观念让他在许多情况下真的能够毫无畏惧地行动，因为他非常愿意承担大量风险。</p>
+<p><strong>David Senra：</strong> 他有句很棒的话：“在一个不断变化的世界里，最大的风险就是不冒任何风险。”</p>
+<p><strong>Alexandr Wang：</strong> 对，正是如此。我觉得他对这件事理解得非常深。Meta 本来完全可能走向另一种样子，在某种意义上更像 Google，行动更慢、更官僚，变成一家完全不同的公司。但因为他把这些经验真正内化了，所以能让公司始终保持活力，不断前进，充满生命力。</p>
+<p><strong>David Senra：</strong> 跟我讲讲这两种环境下，你工作方式的区别。以前你是创始人，经营 Scale；现在你和马克一起，重新创办这个实验室。你在这两个地方是怎样开展工作的？</p>
+<p><a id="wang-section-18"></a></p>
+<h3>从创始人到教练</h3>
+<p><strong>Alexandr Wang：</strong> 在 Scale，我深深接受过一个观念。我甚至不记得这条建议最初来自哪里了，大意是：想做一个好创始人，就必须能够做公司的每一份工作。对于公司里每一件小事该怎么发生、怎么运作，我都有非常强烈的主张。因此，那家公司在很大程度上，是我的努力和观点的产物，这一点在公司各处都能看到。但与此同时，我也在很多方面成了瓶颈。这种方式对公司有好处，也有坏处。</p>
+<p><strong>Alexandr Wang：</strong> 不过，如果你是第一次创业，我觉得确实应该采用这种方式，因为比起不这么做，成功的可能性要大得多。</p>
+<p><strong>David Senra：</strong> Scale 是你创办的第一家公司？</p>
+<p><strong>Alexandr Wang：</strong> 对，第一家。但在 Meta，任务完全不同，因为我们必须在极短的时间内完成极多的事情。我没有条件去做实验室里的“每一份工作”。我当然不是 AI 研究员，也不是产品设计师。</p>
+<p><strong>Alexandr Wang：</strong> 还有很多对组织成功至关重要的角色，都不是我的专长。所以在 Meta，我非常明确地采用了另一种理念：怎样创造一个环境，把最出色的人招进来？第一项任务，就是在每一个专业领域，招到站在最前沿、聪明卓越的人。</p>
+<p><strong>David Senra：</strong> 为什么你觉得自己在 Meta 能做到？只是因为资源更多吗？为什么在那里就可以？</p>
+<p><strong>Alexandr Wang：</strong> MSL 刚成立时，有一件很有感召力、很吸引人的事：你有机会和一个非常小的团队，从零开始搭建一座实验室。而且对于要去哪里，我们有非常清晰的主张，就是个人超级智能。我觉得，这个方向引起了很多人的……</p>
+<p><strong>Alexandr Wang：</strong> 共鸣。我想每个做 AI 的人都希望帮助别人，希望自己的工作最终对妈妈、奶奶、爷爷有意义，希望它对世界上每一个人都有意义。而我们又有 Meta 的资源，所以不会受算力、基础设施或者分发能力的限制。创业公司经常遇到的那些瓶颈，我们不会遇到。但同时，这又是一个真正从头打造东西的机会，你可以留下自己的印记，拥有很大的影响力，真正塑造它。对很多人来说，这都特别令人兴奋。</p>
+<p><strong>David Senra：</strong> 所以他才会花那么夸张的一笔钱，至少看起来非常夸张，招来少数几个顶尖人才。因为他知道，这些顶尖人才又会进一步招来其他顶尖人才。但你必须先有这样一个起点。</p>
+<p><strong>Alexandr Wang：</strong> 没错。关于这一点，有个因素可能没有得到足够重视：OpenAI 和 Anthropic 的股权价值都涨了很多。所以，如果你算一算这些人留在 OpenAI 或 Anthropic 能挣多少钱，会发现那同样是一笔非常大的数字。</p>
+<p><strong>Alexandr Wang：</strong> 因此，对很多人才来说，单从薪酬角度看，跳槽前后其实差不多。只是我们很多人平时不会去想，那些股权价值暴涨的实验室里，早期员工、早期研究员的薪酬到底有多高。我们一开始就是坚信：要拥有、招募最聪明、最出色的……</p>
+<p><strong>Alexandr Wang：</strong> 人才，这是第一点。第二点，明确的北极星目标是个人超级智能。然后就是，怎样在 Meta 和 MSL 创造一种环境，让大家做出自己最好的工作？所以，我现在更多是在做所谓传统意义上的管理。我反复思考的是：怎样创造一个环境，让所有这些极其出色、非常特别的人，都能充分发挥，把自己的天赋表达得淋漓尽致？</p>
+<p><strong>Alexandr Wang：</strong> 某种意义上，我思考问题的方式更像一个教练。在 Scale 时则很不一样，那时我像一个作者，我们做的每一件事都必须体现我的主张。</p>
+<p><strong>David Senra：</strong> 再说说。你说自己感觉像个教练。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，我的工作首先是帮助确定北极星和前进方向。还是那些：个人超级智能，在消费级 AI 上取胜，打造对每个人都真正有意义的 AI。然后，在团队里识别出特别的天赋，给予这些人合适的环境和资源，让他们把天赋发挥到极致。</p>
+<p><strong>Alexandr Wang：</strong> 大公司常常搞砸的一件事是，大多数公司其实都有非常优秀的人，但这些人没有得到充分授权，无法做出自己最好的成果。所以他们经常离开，去了小公司、创业公司，或者别的地方。</p>
+<p><strong>David Senra：</strong> 你前面提到贝索斯的股东信。我读过的关于他的书，以及他的股东信，都反复强调一件事：如果你有一群优秀的人，却不让他们做出东西，他们就会离开。</p>
+<p><strong>Alexandr Wang：</strong> 对，正是如此。而且 AI 是一件非常特别的事。“研究”这个词，现在几乎快被说得失去意义了。但从定义上讲，人类确实还不知道这些模型的能力极限在哪里，不知道用它们究竟能做什么。它们真的是一些我们尚未充分理解的未知事物。所以，这确实是科学，确实是研究。</p>
+<p><strong>Alexandr Wang：</strong> 我们在探索这项技术能做到什么，能用它构建什么，它的边界到底在哪里。这个过程需要大量试错，需要聪明的人产生非凡的洞见。不能把它当成一个纯粹靠高强度运营推进的流程。人们需要空间、时间和资源，才能做出自己最好的工作。我会从很多维度考虑这件事。</p>
+<p><strong>Alexandr Wang：</strong> 比如，我认为 Nat Friedman 极其聪明。前面也说了，Muse 的很多部分都来自他；如果要说有哪一个人的统一主张在 Muse 身上得到了体现，那就是 Nat。让他处在能够充分表达这些东西的位置上，非常重要。同时，我们还有一些极其优秀的研究员，带着非常令人兴奋的想法。怎样创造一个环境，让他们能够探索？其中大部分想法都不会成功，但有些会取得惊人的成果。而那些成功，就足以证明所有投入都是值得的。</p>
+<p><strong>Alexandr Wang：</strong> 这里有两种不同的问题，我把它们比作“挖钻石”和“盖摩天楼”。区别取决于，你正在做的事情，其回报服从什么样的分布。有些领域呈现非常强的幂律分布：大多数事情做了都没什么用，但其中某些事情，价值可能真的达到其他事情的一百万倍。风险投资就是一个很好的“挖钻石型”行业例子。</p>
+<p><strong>Alexandr Wang：</strong> 关键就是识别那些特别的想法，并把它们一路推进下去。</p>
+<p><strong>David Senra：</strong> 这还不简单，直接去参加你的十九岁生日聚会就好了。</p>
+<p><strong>Alexandr Wang：</strong> 是啊，那件事真的让人难以置信。</p>
+<p><a id="wang-section-19"></a></p>
+<h3>十九岁生日聚会上的未来亿万富翁</h3>
+<p><strong>David Senra：</strong> 有些听众可能完全不知道我刚才在说什么。你能不能简单讲讲，谁参加了你十九岁的生日聚会？为什么如果把那一桌人全部投一遍，会是个很棒的投资？</p>
+<p><strong>Alexandr Wang：</strong> 现在回想起来，这真的很疯狂。十九岁生日时，我还在 MIT 读大一。生日在 1 月，那时我正在一家叫 HRT 的交易公司做寒假实习。聚会上大概十个人，或者十二个人，差不多这个数。几乎所有人都是哈佛或 MIT 的学生。大多数人早就通过各种数学、科学或者计算机竞赛互相认识了。</p>
+<p><strong>Alexandr Wang：</strong> 其中有 Jeff Yan，后来创办了 Hyperliquid，非常成功；Scott Wu，后来创办了 Cognition，也非常成功；还有 Jesse Zhang，后来创办了 Decagon，同样很成功。另外还有 Vicky，一位我认为非常优秀的研究员，现在在 Anthropic 工作。所有人都非常有才华。最近我还跟 HRT 的创始人聊过。顺便说一句，HRT 本身现在也做得好得惊人。</p>
+<p><strong>David Senra：</strong> HRT 是做什么的？</p>
+<p><strong>Alexandr Wang：</strong> HRT 是一家自营交易公司，也就是用自己的资金做交易。2026 年第二季度，它的收入达到 110 亿美元，利润我记得大概是 80 亿美元，创了纪录。而 HRT 的员工应该还不到一千人，简直不可思议。最近我见到他们的创始人，他们说：“我们开始做一些非上市公司的投资了。”我就说：“直接投你们的实习生啊！每个实习生都发一张种子轮支票。”</p>
+<p><strong>David Senra：</strong> 太棒了。</p>
+<p><strong>Alexandr Wang：</strong> 我从小就参加数学、科学和计算机竞赛，也参加奥林匹克竞赛，认识了来自美国各地的一大群人。看着当年跟自己一起比赛的人，如今变得这么成功，真的有一种不真实的感觉。</p>
+<p><strong>David Senra：</strong> 接下来几十年，你们这群人会做出什么，一定很值得看。被我打断之前，关于挖钻石和盖摩天楼，你是不是还有话没说完？</p>
+<p><a id="wang-section-20"></a></p>
+<h3>挖钻石与盖摩天楼</h3>
+<p><strong>Alexandr Wang：</strong> 归根结底，就是看回报是不是幂律分布。有些事情能带来投入的一百万倍回报；另一些更像盖摩天楼。比如数据标注、数据业务，我会把它们归为后一类，Amazon Prime 配送也是一个例子。它们的回报大致是线性的，你必须建立一套流程，并且把它执行得极其出色。</p>
+<p><strong>Alexandr Wang：</strong> 如果是在盖摩天楼，那就是一种高度依赖运营的业务，关键在于榨出流程里的每一分效率。你会反复审视，发现“这里能提高 2%，那里能提高 1%，另一处能提高 0.5%”，然后把每一点优化空间都挖出来。而挖钻石则是另一种状态：“大家放手去做吧，尝试你们那些疯狂的想法。”你要做的是不断培育那些看起来有前景的想法。</p>
+<p><strong>David Senra：</strong> 这就是你现在在 Meta 做的事？</p>
+<p><strong>Alexandr Wang：</strong> 对，这就是我在 Meta 的感觉。而在 Scale，总体上我觉得自己是在盖摩天楼。这是一个非常大的范式差异。</p>
+<p><a id="wang-section-21"></a></p>
+<h3>为什么 Alexandr 有两百多名直接下属</h3>
+<p><strong>David Senra：</strong> 回到教练这个比喻，以及你在 Meta 和在 Scale 的管理方式有什么不同。为什么你有这么多直接下属？一百个左右？到底多少？</p>
+<p><strong>Alexandr Wang：</strong> 我想超过两百个。</p>
+<p><strong>David Senra：</strong> 怎么做到的？又为什么要这样？</p>
+<p><strong>Alexandr Wang：</strong> 回到根本，MSL 创立和重建这个实验室时的一个核心命题就是：怎样拥有极高的人才密度？怎样让这里成为这些聪明人做出自己最佳工作的最好地方？怎样建立一个以技术为中心的组织，让技术人才可以拿出最好的成果，有机会完成自己一生最重要的事业？其中一条组织设计原则，就是高度扁平。实际上，我们招进 TBD 这个团队的所有研究员，都直接向我汇报。</p>
+<p><strong>Alexandr Wang：</strong> 这更多是一种明确表态：我们反对官僚主义。TBD 就是要反官僚。我们的出发点是，招来的人都非常优秀，你们已经用自己的职业经历证明过，能够做出卓越的工作。所以，不需要我事无巨细地盯着你们，你们自己就能做出来。但我们确实需要技术领导。</p>
+<p><strong>Alexandr Wang：</strong> 因此，有些人会负责为自己的团队确立清晰的技术方向。我们采用一种小组结构，有多个小组，每组都有技术负责人，在技术决策出现分歧时负责拍板。所以，技术领导架构是存在的。但从所谓人员管理，或者官僚层级的角度来说，我们就是要反官僚。另一方面，我们也会做很多集体决策。我们希望充分辩论，因为这是一群聪明人，人才密度极高。</p>
+<p><strong>Alexandr Wang：</strong> 我们希望展开这样的讨论：大家一起谈，什么才是正确的路径。实验室里的每一个人都做出过了不起的事情，我们想听到所有这些观点，最终找到大家都相信是最好的前进方向。这当然是一种不太常规的团队管理方式。要是我说，自己是这两百多个人最好的经理，那是在说谎。但这恰恰是重点之一：他们不需要经理，他们需要一个好环境。</p>
+<p><strong>Alexandr Wang：</strong> 他们都非常聪明，能力极强。他们只是需要一个能放手施展的空间。</p>
+<p><strong>David Senra：</strong> 对。所以，也许你与其说是教练，不如说是一个好环境的守护者，让他们能做出出色的工作。</p>
+<p><strong>Alexandr Wang：</strong> 对，正是如此。</p>
+<p><strong>David Senra：</strong> Alex，今天聊得太棒了。谢谢你抽时间来。</p>
+<p><strong>Alexandr Wang：</strong> 谢谢。</p>
+<p><strong>David Senra：</strong> 希望你喜欢这一期。无论你在哪个平台收听，记得订阅并留下评价。也请一定听听我的另一个播客 Founders。近十年来，我一直如痴如醉地阅读历史上最伟大企业家的传记，已经读了四百多本，从中寻找可以用到你工作里的想法。你在这档节目里听到的大多数嘉宾，最初都是通过 Founders 认识我的。</p>
+<p><a id="basic-info"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原题</strong>：Creating Muse, Building Meta’s AI Lab &#x26; How to Win the AI Race | Alexandr Wang, Meta</li>
+<li><strong>受访者</strong>：Alexandr Wang，Meta 首席 AI 官、Scale AI 联合创始人。</li>
+<li><strong>主持人／节目</strong>：David Senra。</li>
+<li><strong>视频发布日期</strong>：2026 年 10 月 11 日。</li>
+<li><strong>视频时长</strong>：1 小时 12 分 17 秒。</li>
+<li><strong>原视频</strong>：<a href="https://www.youtube.com/watch?v=S6l3aRsecuE">Alexandr Wang 谈 Muse 与 Meta AI 实验室</a>。</li>
+<li><strong>节目页面</strong>：<a href="https://www.davidsenra.com/episode/alexandr-wang">Alexandr Wang — David Senra</a>。</li>
+<li><strong>本期赞助</strong>：<a href="https://ramp.com">Ramp</a>、<a href="https://deel.com/senra">Deel</a>、<a href="https://applovin.com/senra">AppLovin</a>。</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-alexandr-wang-creating-muse-meta-ai-lab","sender":"Alexandr Wang","author":"Alexandr Wang","interviewGuests":["Alexandr Wang"],"interviewHosts":["David Senra"],"authorAliases":["Alexandr Wang","David Senra"],"publisher":"David Senra","media":"David Senra","publishedAt":"2026-10-11T05:00:00-07:00","subject":"对话 Alexandr Wang：Muse 的诞生、Meta 的 AI 重建与每个人的雄心","snippet":"Alexandr Wang 与 David Senra 对谈：从七个月打磨 Muse、个人 AI 智能体的信任与增长，到离开 Scale AI、重建 Meta 的 AI 实验室，以及如何让顶尖人才自由探索。","date":"2026-10-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","智能体","产品设计","组织管理"],"mdTheme":"magazine","sourcePath":"talks/alexandr-wang-creating-muse-meta-ai-lab.md","sourceUrl":"https://www.youtube.com/watch?v=S6l3aRsecuE","body":"$3","prompts":[]},"listPosition":{"index":30,"total":607},"matchedPerson":{"id":"alexandr-wang","name":"Alexandr Wang","email":"","contentCount":2,"topTags":[{"id":"产品设计","name":"产品设计","count":2},{"id":"人工智能","name":"人工智能","count":2},{"id":"智能体","name":"智能体","count":2}]},"relatedArticles":[{"id":"talks-zuckerberg-wang-muse-wonder-personal-superintelligence","subject":"扎克伯格与 Alexandr Wang：Muse Wonder、千亿美元投入与个人超级智能","sender":"Mark Zuckerberg 等","date":"2026-10-12","matchedPeople":["Alexandr Wang"],"matchedTags":["人工智能","智能体","产品设计","组织管理"]},{"id":"anthropic-scion-agent-scale-source-control","subject":"Anthropic 重构版本控制：Scion、智能体规模与工程师的新角色","sender":"Anthropic","date":"2026-10-14","matchedPeople":[],"matchedTags":["人工智能","智能体"]},{"id":"essays-karpathy-llm-capability-perception-gap","subject":"Karpathy：从各说各话到认知漏斗，大模型能力的理解鸿沟","sender":"Andrej Karpathy","date":"2026-10-12","matchedPeople":[],"matchedTags":["人工智能","智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

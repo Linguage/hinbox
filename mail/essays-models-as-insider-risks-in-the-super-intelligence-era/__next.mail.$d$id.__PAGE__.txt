@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1a3d,<h2>摘要</h2>
+<p>当模型能够接触敏感数据并代为执行关键任务时，企业不能只凭模型提供方的保证来建立信任。萨提亚·纳德拉提出，应借鉴企业管理内部高权限主体的经验，将模型视作潜在的内部风险，通过独立于模型的控制与审计机制，确保系统可观测、可验证，并能随时受到约束。</p>
+<h2>内容框架与概述</h2>
+<p>文章从传统软件与模型系统在可解释性上的差异出发，说明为什么责任不能外包给智能提供方；继而讨论思维链透明和模型互相验证的局限，最后提出模型多样性、全面观测、可验证性、独立控制、独立审计、约束隔离和事件披露七项原则。</p>
+<h2>全文</h2>
+<p>过去几十年，随着传统软件系统在经济的各个领域得到部署，我们拥有相应的工具和能力，能够将系统行为追溯到具体的代码路径。</p>
+<p>对于今天的超级智能（Super Intelligence，SI）系统，我们却仍然无法获得同样的机制层面的理解，尽管驱动这些系统的前沿模型，如今已经比传统软件系统更强大。我们无法把模型的行为和输出归因于特定的训练数据输入或模型权重配置。然而，我们正在部署这些复杂的智能体系统和模型，让它们接触我们最敏感的数据，还赋予它们代表我们执行关键任务的能力！</p>
+<p>因此，现在是时候退后一步，重新审视这个新时代的信任架构了。对于智能系统代表我们所做的事情，我们根本不能把责任外包出去。模型提供方的保证，并不能免除我们应负的责任。</p>
+<p>我们不能把超级智能当作一层套一层的黑箱，只是接受或拒绝它给出的建议、答案和行动。我们必须构建受到约束的系统：其行为可以观察，其边界可以测试，其行动始终处于可控范围之内。</p>
+<p>换句话说，我们需要将智能能力的供给与对它的控制权分开。</p>
+<p>暂且把对齐这一难题放在一边，我们需要先从工程入手，建立约束与治理机制。我们需要在非确定性的模型周围，建立坚实的确定性系统设计、人为控制和可靠的操作规程；现有行业标准不足以应对的地方，还需要制定新的标准。</p>
+<p>构建这种系统的一种方式，就是把前沿的封闭权重模型和开放权重模型视作内部风险。这并不是因为它们必然具有恶意，而是因为任何能力足够强、又能接触重要系统的行动主体，都可能犯错或遭到攻陷；约束与控制架构必须考虑到这一点。</p>
+<p>好消息是，对于如何管理企业内部能力强大的行动主体，我们已经积累了很多经验。这并不是什么新问题！几十年来，我们确立了最佳实践，并不断加以完善，例如建立身份、限制权限、记录活动、划定约束边界等。</p>
+<p>如今，我们也开始将同样的原则应用于企业内部的超级智能。首先，模型思维链（CoT）的透明性必须是一项不可妥协的要求。“神经语言”（Neuralese）不能成为模型推理不透明的理由。但仅有思维链透明还不够，也不能完全依赖它，因为我们尚不知道如何让模型输出本身始终保持忠实与透明！</p>
+<p>你可以，也应该，让模型彼此进行对抗性测试和验证。然而，这样做的结果可能是：一个不透明的模型，身处一个不透明的编排层之内，再由另一个不透明的模型监视。本质上，仍然是一层套一层的黑箱。</p>
+<p>正因如此，决定模型能够访问什么、能够采取哪些行动的控制机制，必须置于模型之外。这延续了一条可以追溯到 20 世纪 70 年代的信息安全原则：程序必须无法绕过或篡改落实其权限限制的机制。</p>
+<p>在今天，这意味着要将模型与负责组织其工作的运行框架（harness）分开，也要将模型与界定其可执行操作的行动空间分开。同时，还要将控制措施和安全保障机制外置。</p>
+<p>因此，我们应当围绕可观测性原则来设计这些系统：</p>
+<ul>
+<li><strong>模型多样性：</strong> 任何一个模型都不应成为达成重要结果的唯一依赖，也不应负责验证自己的工作。</li>
+<li><strong>全面观测：</strong> 模型的每一项有实质意义的行动，都必须留下防篡改、可供人类阅读的证据。如果无法观察，就无法信任！我们必须能够还原一个结果是如何产生的，而不依赖模型自行作证。</li>
+<li><strong>可验证性：</strong> 我们需要持续测试整个系统，覆盖故障、攻击、边界情况、系统变更等，而不只是那些成功完成的任务。</li>
+<li><strong>独立控制：</strong> 组织应当能够独立决定模型可以访问什么，以及可以采取哪些行动。</li>
+<li><strong>独立可审计性：</strong> 验证必须独立于被验证的智能系统。不能让同一个模型既控制系统的行为，又控制用于判断这些行为是否符合最初意图的证据。</li>
+<li><strong>约束与隔离：</strong> 我们必须假定模型已经遭到攻陷，并从一开始就对它加以约束。可以把这理解为紧急制动装置。获得授权的人应始终能够在任务执行过程中暂停或关闭模型。更先进的模型需要更先进的约束技术，而这些技术需要形成统一标准。</li>
+<li><strong>事件披露：</strong> 当这些系统发生故障或遭到攻陷时，我们需要及时向受影响者披露情况，并建立相应机制，分享哪里出了问题、哪些控制措施失效，以及如何避免重蹈覆辙，让整个行业都能从中吸取教训。披露内容应包括那些会在运行时改变智能体行为的实现细节。</li>
+</ul>
+<p>最值得信任的超级智能系统，不会是那个搭载了我们最信任的模型的系统，而会是那个让我们最不必依赖对模型的信任的系统。</p>
+<h2>文章基本信息</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>信息</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原文标题</td>
+<td>Models as Insider Risks in the Super Intelligence Era</td>
+</tr>
+<tr>
+<td>作者</td>
+<td>萨提亚·纳德拉（Satya Nadella）</td>
+</tr>
+<tr>
+<td>原文来源</td>
+<td>Satya Nadella 的 X 账号（@satyanadella）</td>
+</tr>
+<tr>
+<td>原文日期</td>
+<td>2026 年 10 月 10 日</td>
+</tr>
+<tr>
+<td>本站发布日期</td>
+<td>2026 年 10 月 12 日</td>
+</tr>
+<tr>
+<td>原文链接</td>
+<td><a href="https://x.com/satyanadella/article/2108931348857827686">在 X 阅读原文</a></td>
+</tr>
+</tbody>
+</table>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-models-as-insider-risks-in-the-super-intelligence-era","sender":"Satya Nadella","author":"Satya Nadella","authorAliases":["Satya Nadella"],"subject":"超级智能时代：把模型视作内部风险","snippet":"萨提亚·纳德拉主张将智能能力的供给与对它的控制权分开，把前沿模型视作内部风险，以模型之外的权限控制、可观测证据、独立审计和约束机制构建可信系统。","date":"2026-10-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["人工智能","智能体","信息安全","AI治理"],"mdTheme":"magazine","sourcePath":"essays/models-as-insider-risks-in-the-super-intelligence-era.md","sourceUrl":"https://x.com/satyanadella/article/2108931348857827686","body":"$3","prompts":[]},"listPosition":{"index":28,"total":607},"matchedPerson":{"id":"satya-nadella","name":"Satya Nadella","email":"","contentCount":3,"topTags":[{"id":"人工智能","name":"人工智能","count":2},{"id":"ai治理","name":"AI治理","count":1},{"id":"云计算","name":"云计算","count":1}]},"relatedArticles":[{"id":"talks-latent-satya-2026","subject":"Satya Nadella：Microsoft Build 上的 No Priors 与 Latent Space 联合访谈","sender":"Satya Nadella","date":"2026-06-03","matchedPeople":["Satya Nadella"],"matchedTags":["人工智能"]},{"id":"talks-dwarkesh-satya-nadella-2","subject":"Satya Nadella：微软如何为 AGI 做准备","sender":"Satya Nadella","date":"2025-11-12","matchedPeople":["Satya Nadella"],"matchedTags":[]},{"id":"talks-satya-nadella-2025-leadership-innovation-future","subject":"座谈 Satya Nadella 2025 谈领导力、创新与未来","sender":"Madrona Ventures","date":"2025-03-25","matchedPeople":["Satya Nadella"],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

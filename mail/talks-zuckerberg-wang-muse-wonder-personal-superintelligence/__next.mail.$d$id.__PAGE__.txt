@@ -1,0 +1,755 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T25dd6,<h2>摘要</h2>
+<p>Mark Zuckerberg 与 Alexandr Wang 在 Cheeky Pint 对谈 John Collison，从 Muse 代购茶叶、指导综合格斗等具体体验，谈到个人超级智能背后的模型、产品与组织选择。他们介绍 Muse Wonder 的主动记忆、多模态感知、长程任务与编程能力，解释为何把模型本身视为产品，以及 Meta 如何在结果尚未确定时投入千亿美元级算力。访谈还讨论智能体商业、智能眼镜、AI 服务的定价与竞争，并回顾 Meta Superintelligence Labs 从人才招募到扁平化重建的过程。</p>
+<h2>内容概述</h2>
+<ul>
+<li><strong>个人智能体与产品体验：</strong> 从日常任务切入，讨论主动性、记忆、可靠性与隐私设计如何构成产品差异，以及为何不让普通用户承担选择模型的负担。</li>
+<li><strong>Muse Wonder 与模型研发：</strong> 介绍更大模型的预训练与后训练、长期记忆、多模态和编程能力，并讨论算力、数据、研究判断与人才密度之间的关系。</li>
+<li><strong>千亿美元级投入：</strong> 回顾基础设施扩张中的不确定性，讨论规模、资金、能源与长期技术方向，以及 Meta 为什么选择掌握完整技术栈。</li>
+<li><strong>智能体商业与未来硬件：</strong> 探讨智能体如何代表用户与商家互动、广告与交易模式如何变化，以及眼镜等设备可能带来的交互方式。</li>
+<li><strong>竞争、组织与领导：</strong> 讨论 AI 是否会赢家通吃，回顾实验室重建、技术型管理与高人才密度团队，分享两位嘉宾合作中的分歧、信任与决策方式。</li>
+</ul>
+<h2>目录</h2>
+<ul>
+<li><a href="#muse-section-1">开场</a></li>
+<li><a href="#muse-section-2">Muse 最出彩的使用场景</a></li>
+<li><a href="#muse-section-3">为什么说模型即产品</a></li>
+<li><a href="#muse-section-4">认识 Muse Wonder</a></li>
+<li><a href="#muse-section-5">前沿模型究竟是怎样打造的</a></li>
+<li><a href="#muse-section-6">豪赌 1,000 亿美元</a></li>
+<li><a href="#muse-section-7">智能体商业</a></li>
+<li><a href="#muse-section-8">OpenRouter</a></li>
+<li><a href="#muse-section-9">超越智能手机</a></li>
+<li><a href="#muse-section-10">为 AI 发展筹措资金</a></li>
+<li><a href="#muse-section-11">为什么 AI 不会赢家通吃</a></li>
+<li><a href="#muse-section-12">Meta 超级智能实验室（MSL）</a></li>
+<li><a href="#muse-section-13">给马克·扎克伯格打工</a></li>
+<li><a href="#basic-info">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/XfdIhd1g6EI" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈全文</h2>
+<p><a id="muse-section-1"></a></p>
+<h3>开场</h3>
+<p><strong>Mark Zuckerberg：</strong> 去年年底，我们就想，好吧，我们对进展感到相当兴奋。但当时我们还没看到模型。你知道，我们要开出一张支票，金额大概，我不知道，可能是 1,000 亿、2,000 亿美元。我就问：“Alex，你确定这事能成吗？”就像……</p>
+<p><strong>John Collison：</strong> 干杯。</p>
+<p><strong>Mark Zuckerberg：</strong> 干杯。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 干杯。</p>
+<p><strong>Alexandr Wang：</strong> 干杯。</p>
+<p><strong>Mark Zuckerberg：</strong> 干杯。</p>
+<p><a id="muse-section-2"></a></p>
+<h3>Muse 最出彩的使用场景</h3>
+<p><strong>John Collison：</strong> 来，跟我讲讲 Muse 的最新进展。如果你看过第三方报告，就会发现，这可能是迄今为止增长最快的智能体或 AI 应用，至少我觉得是这样。你们个人最喜欢的 Muse 用法是什么？可以是你们自己的，也可以是别人的。</p>
+<p><strong>Alexandr Wang：</strong> 其实我昨天吃晚饭时还聊到这个。我最喜欢的一件事，就是让我的 Muse 不断去找越来越小众的茶叶，卖家也越来越冷门。我的 Muse 叫 Oiler。所以现在，它每个星期都会，我的 Muse 都会买一些……可能是台湾某个茶园，或者日本某个茶园里某种没听说过的茶，再想办法采购、运回来。</p>
+<p><strong>John Collison：</strong> 那你最喜欢怎么用 Muse？</p>
+<p><strong>Mark Zuckerberg：</strong> 我也说不好。我用它做很多事。我还是喜欢……我最喜欢的用法，同时大概也是我最喜欢的一项产品评测，就是让它指导我练综合格斗，也就是 MMA。我在自己的健身房里装了摄像头，基本上……我在里面训练时，它会看摄像头的画面，然后在回合间隙给我反馈。结果发现，这个问题很难，因为它不仅得……基本上，它必须足够快地处理全部视频，因为回合之间只有一分钟休息时间。</p>
+<p><strong>John Collison：</strong> 哦，它是在回合之间指导你？</p>
+<p><strong>Mark Zuckerberg：</strong> 对。我想要反馈。</p>
+<p><strong>John Collison：</strong> 我想知道怎么才能赢。你懂吧？</p>
+<p><strong>Mark Zuckerberg：</strong> 就是，来点有用的。</p>
+<p><strong>John Collison：</strong> 你得专门告诉它……我也想过这个问题，因为看视频确实是 AI 很适合的应用场景。但感觉你不能直接把一个好几个 GB 的视频文件扔给它。所以，你会告诉它怎么从视频里截取静态画面吗？</p>
+<p><strong>Mark Zuckerberg：</strong> 不会，它基本上……对，它会抽帧。我觉得这办法是它自己琢磨出来的。嗯，事实证明，Muse 本身对 MMA 的理解就挺不错，这很好。所以，多模态这块……</p>
+<p><strong>Alexandr Wang：</strong> 预训练。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，团队里有人懂这个。现在……就是语料里本来就有这些东西。我觉得，这是检验它那种编程能力的一个不错的办法……因为它实际上在做的，就是在智能体内部，我虽然看不到任何代码，但它基本上是在编写一整套视频和图像处理流水线。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 而且我会不停地告诉它：“好吧，你看，你刚才花了 30 秒才给出反馈，我总共才休息 60 秒。你得快一点。”“优化你自己，继续优化你自己。”我觉得，这很好地说明了未来会是怎样：基本上，每个人都会写大量代码。只不过，他们不会知道自己在写代码。</p>
+<p><strong>John Collison：</strong> 模型会给你什么样的 MMA 指导？</p>
+<p><strong>Mark Zuckerberg：</strong> 嗯，你想看看吗？</p>
+<p><strong>John Collison：</strong> 想。</p>
+<p><strong>Mark Zuckerberg：</strong> 大概是这样，我看看能不能找出来一些。它会给我很多关于身体平衡、还有髋部位置的建议。比如，你在这里处于侧压控制位的时候。它就会说：“你在这个位置没有做好腋下控制，所以你会……在这里很容易被对手翻过去。”我找几段给你们看。你们真该试试。</p>
+<p><strong>Alexandr Wang：</strong> 其实，就连最早的原型出来时，这肯定也是他最先尝试的用法之一。</p>
+<p><strong>John Collison：</strong> 对，对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我的意思是，在 Muse 还没跑起来之前，我就已经用 OpenClaw 做这件事了。当时就是……所以我才说，这也渐渐成了我的一项评测。</p>
+<p><strong>Alexandr Wang：</strong> 不错。我之前还真不知道它是产品的一项评测。那我记下了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，就是这样。</p>
+<p><strong>John Collison：</strong> 可是，这些东西怎么会……出现在模型的训练数据里呢？而且是这么细致的东西：这是 MMA 选手保持正确平衡时的样子，那是重心过度落在后脚上的样子。我就是好奇，它到底是怎么看到那么多正确和错误的 MMA 姿势图片的？</p>
+<p><strong>Mark Zuckerberg：</strong> 你看，这里就有。它会从视频里抽出画面，然后指出：我这里的重心太靠后腿了。</p>
+<p><strong>John Collison：</strong> 对，但这算是涌现出来的智能吗？就是说，它确实……还是那个问题，它是因为看过很多 MMA 图片才知道，还是因为理解了你应该怎样保持重心这个概念才知道？它读过关于 MMA 的书，然后看到你的重心太偏向后脚，还是说……</p>
+<p><strong>Mark Zuckerberg：</strong> 我们确实用了大量视觉感知数据来训练模型。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以我觉得，这就是把多模态模型做好的一个方面。我觉得这涉及我们的一项核心方法：我们从头到尾都在围绕“成为优秀的个人智能体”来训练这些模型，对吧？所以问题就是：Meta 为什么要构建这些模型？首先，我认为，整体而言，超级智能将帮助我们更好地经营公司，也能让我们打造各种各样的东西。不过，对于我们正在开发的产品，有些能力、有些技能组合，确实要更适合这些应用场景。所以，这也是 Alex 从一开始就非常重视的一点：好，我们一定要确保……我们的多模态项目做得足够好，因为对于人们使用这些服务所做的那些事情，多模态尤其重要。</p>
+<p><strong>John Collison：</strong> 那要怎样才能训练出一个好的多模态模型？Meta 在这方面是不是天然有优势，因为你们有这么多图像和视频数据？</p>
+<p><strong>Mark Zuckerberg：</strong> 这确实很有帮助。</p>
+<p><strong>Alexandr Wang：</strong> 对。而且我觉得，归根结底，很大一部分取决于你到底有多重视这件事，对吧？我认为，因为我们想要打造的是个人超级智能。而且，从根本上说，世界上大多数人感知世界的方式，本来就是高度多模态的。他们喜欢跟别人说话、听东西、看视频，也会自己拍摄。我觉得，大多数消费者的体验都是这样高度多模态的。尤其是今年早些时候，这一点几乎成了行业内部的一个矛盾点。因为当时 AI 行业很大程度上的共识是：一切都围绕编程展开，只有编程才重要。而我觉得，Muse 这样的产品能否成功，以及很多面向消费者的应用场景能否成功，真正取决于能不能把多模态能力做强。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。我觉得，我们目前也才刚刚触及这方面的表层。我们最初的很多想法都基于一点：其实，大多数人并没有那么喜欢阅读，对吧？所以，即便是文字交互模式，我觉得人们当然会用。毕竟，大家都会发消息。但你想想我们在做的眼镜，甚至其他那些高度依赖视觉的产品。眼镜最终基本上会成为一个纯粹的多模态产品，对吧？你可以让它听到你听到的东西，它可以跟你说话；如果你允许，它也能看到你所看到的。甚至到了最后，我都不知道我们还会不会在眼镜上做一个应用商店。可能只需要多模态生成，就能直接在你的视野里生成你需要的任何东西。我想，类似的东西最终大概也会驱动我们开发的很多应用。不过，是的，这方面还处于早期。</p>
+<p>但到目前为止，感知方面的进展已经非常令人印象深刻了。</p>
+<p><a id="muse-section-3"></a></p>
+<h3>为什么说模型即产品</h3>
+<p><strong>John Collison：</strong> 我想问问你们 AI 产品形态的问题，也想抛个想法，看看你们怎么说。比如说，以 Stripe 为例，如果让我描述我心目中能胜出的产品是什么样，我得写上好多页，因为我们有……开发者体验，还得讲各国支付方式的种种差异，然后还得讲稳定币。总之，得花很长时间。但我注意到，AI 领域有一种现象：能胜出的产品似乎很快就会收敛到一套大家认同的产品形态。所有人都在追求它。先是 Transformer 行得通，接着聊天式智能体界面也非常成功。现在我们又看到……你之前提到了 OpenClaw，就是 OpenClaw 这种持续运行的智能体：它有一台电脑，能办事情。你知道，就是通过操作电脑，在现实世界中行动的那套思路。</p>
+<p>我们又在向这种产品形态收敛。AI 似乎有这么个特点：胜出的产品往往很简单，而且所有认真做这件事的公司都在追求它。你在一张明信片背面就能把它描述清楚，就是可以讲得非常简洁。当然，实现起来极其复杂。我们待会儿会聊到新模型。要把它做好，需要大量前沿工作。不过，最终胜出的品牌……你刚才又讲到了眼镜和未来的版本。但不知为什么，AI 里似乎只有少数几种显然正确的产品，而不是一个特别宽广、复杂的产品空间。</p>
+<p><strong>Mark Zuckerberg：</strong> 我有点不同意。</p>
+<p><strong>John Collison：</strong> 好啊。</p>
+<p><strong>Mark Zuckerberg：</strong> 首先，我觉得我们从一开始的部分判断就是：这种智能体，不管最终采取什么形式，都会和文字助手是很不一样的东西，对吧？每家公司都有文字助手。我们自己的就是 Meta AI。它覆盖了很多人，但它确实跟这些公司都有的那种东西差不多。而我们的看法是，人们主要用它来获取信息，并不会把它当作一个能替自己把事情办成的东西。</p>
+<p><strong>John Collison：</strong> 它是检索，而不是委托执行，诸如此类。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。而且，即便你说它有一台电脑……对，但实现这件事也有很多不同的方式，对吧？我觉得，也就是最近这一波，才开始给智能体配一台专属虚拟机。而我认为，这其实极其……重要，因为它能让你对自己信息的安全和隐私有信心。它不只是，好吧，连到一套所有人都在共用的弹性计算资源上。</p>
+<p><strong>John Collison：</strong> 但我的意思不是说它容易实现，也不是说它显而易见……</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得会有很多不同的东西。</p>
+<p><strong>John Collison：</strong> 对，好。所以你认为会出现很多不同的产品？因为，还是那句话，我的观点是：现在大家看到了 Muse，都会说：“对啊，这显然就是我们希望 AI 智能体……产品运作的方式。以后看到的 AI 智能体产品，也会很像 Muse。”</p>
+<p><strong>Alexandr Wang：</strong> 所以我觉得……我的看法是，关于 AI 产品会是什么样，我们还处于非常早的阶段。因此我觉得，很多有意思的……产品差异，在我们今天看待这些产品的方式里，都被抹平了。我觉得，过去我们撰写和思考产品规格的那套方式，也就是说……那些维度、调节手段和坐标轴，并不适合用来思考 AI 原生产品的重要设计决策。比如 Muse，我们在为这个产品设计模型时，投入了大量心思。我们围绕很多问题作出了非常有意识的选择：在各种场景下，模型究竟应该如何行动？在这些场景下，它究竟应该呈现怎样的性格？它应该怎样处理这些工具调用场景？这些都是经过认真考虑的决定。</p>
+<p>同样，如果要把我们希望模型在所有这些场景中的行为，写成一份完整规格，那也会是一份极其冗长的文档。但由于我们今天理解产品的方式，大家就会觉得：这不就是 AI 吗。这有点像移动互联网刚起来时，人们会说：“哦，就是个应用，什么东西不都是应用吗？”但后来你会发现，究竟什么是一个应用，其中有非常多的细节。我们现在也处于这样的阶段：“哦，就是 AI 嘛。”“就是个智能体嘛。”“就是一个带虚拟机的智能体嘛。”大概是这样。但真正有意思的差异，我们还得一点点梳理出来。</p>
+<p><strong>John Collison：</strong> 明白。所以你们觉得，我犯了那个经典错误：自己的领域很复杂，别人的领域，从产品角度看，就很简单。</p>
+<p><strong>Mark Zuckerberg：</strong> “所有支付处理商看起来都一样。”对。不过，我确实很认同你刚才说的。我们很早就聊过一点：有个趋势是，产品层正在变薄，而模型本身正在越来越大程度上成为产品，对吧？所以我们内部常说的一句话就是：“模型即产品。”</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 是吧？谈到智能体，Muse 里很多复杂的产品工作，其实都围绕着处理用户数据及其所连接服务的隐私与安全机制。这也是让我们很自豪的一点，我们确实把它放在了重点位置。不过，这也构成了我们需要创新的很大一部分产品内容。但能力、性格，还有很多其他东西，都是通过训练融入模型里的。无论是在实验室里做这些工作的同事，还是 Nat 团队里负责产品的同事……我觉得，Nat 在思考“要让产品用起来舒服，关键是什么”时，谈的其实是模型的后训练，对吧？而不是……当然，产品的用户界面也很重要，但界面里最重要的部分还是产品本身。</p>
+<p><strong>Alexandr Wang：</strong> 对，没错。我觉得，从用户角度来说，持续使用 Muse，会产生一种非常直观的感受。其中一个重要部分，可能就是 Muse 处理某些任务时有多可靠。另一个重要部分则是：它会怎样主动帮你？它在什么情境下会主动行动？它跟你说话时，它的说话方式给你什么感受？所以，这里面显然有很多……我现在也开始越来越多地在 X 的信息流里看到这些讨论。人们开始分辨这些……它们都是主动型智能体，但它们之间真正有意义的区别到底是什么？我觉得，这些才是有意思的产品决策。有趣的是，你要怎么把这些产品决策写成明确的要求？最终，它们会体现为模型设计上的决定，而这些决定最后又归结为训练方法、数据、评测等等。</p>
+<p><strong>John Collison：</strong> 对。说到产品形态，Muse 有个值得注意的细节：它没有模型选择器，也没有推理投入程度的选择器。你们觉得，对一款面向消费者的 AI 产品来说，这显然就是正确的做法吗？还是说……</p>
+<p><strong>Mark Zuckerberg：</strong> 我只是想把它做简单一点。</p>
+<p><strong>Alexandr Wang：</strong> 对。我觉得我们一直……有一点大概已经出了名：很多 AI 产品都是由技术背景极强的一群人设计的，而他们脑子里想的用户，并不是随便从美国街头找来的一个普通人。所以这些产品……有些模型的命名简直离谱。</p>
+<p><strong>John Collison：</strong> 版本数字还会倒着走？有时数字会倒着走，有时又干脆换成一个完全不同的词，另外再来一套词。我就在想，一个没有仔细研究 API 设计文档的人，怎么可能知道自己到底该选哪一个？这实在太让人困惑了。</p>
+<p><a id="muse-section-4"></a></p>
+<h3>认识 Muse Wonder</h3>
+<p><strong>John Collison：</strong> 好，我们已经聊了不少模型。说说新模型吧，听起来很棒。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，我觉得我们确实很为它自豪。嗯，新模型 Muse Wonder 是一个全新级别、处于前沿的模型。基本上，我们从一开始就在做它。做这种预训练时，你并不是一上来就用手头最大的集群。你要一级一级往上走，每次训练的模型可能比上一个大四五倍，然后不断重复这个过程。所以，我们的第一批模型，也就是 Muse Spark，都是基于最初那次预训练做出来的。那是在什么时候，12 月吗？</p>
+<p><strong>Alexandr Wang：</strong> 对，去年年底。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。而且，实际上……我觉得，我们都很惊讶，也很佩服：团队竟然能在一个坦白说规模并不算大的模型里，做出这么高的智能和这么强的能力，对吧？之后，我们就开始做下一代模型。它的预训练完成已经有一阵子了，随后一直在做后训练，现在终于来了。所以，这是下一个级别的模型，规模大得多。我觉得，你会从它思考时能把握的细微之处感受到这一点。而且，它真的……我们重点投入的很多方面，都是为了把它做成最适合个人生活和专业工作的智能体模型。模型可以朝不同目标优化，对我们来说，这就是目标。然后，我们也着重构建了很多基础能力。比如非常好的记忆能力，以及在复杂任务中持续推进的能力。</p>
+<p>整个实验室、产品团队等各方，都为此投入了大量工作。我觉得，这也证明了团队有能力系统地摸索出扩大这些模型规模的方法。所以我认为，这也是沿途的一个里程碑：接下来……每一代更大规模模型之间的间隔，应该会开始缩短。对于我们能够打造的那些东西而言，这非常令人兴奋。</p>
+<p><strong>John Collison：</strong> 你说的是 Meta，还是整个行业？</p>
+<p><strong>Mark Zuckerberg：</strong> Meta。当然，我觉得其他地方也能看到类似的情况，不过……</p>
+<p><strong>John Collison：</strong> 这是递归自我改进，也就是 RSI 的效果，还是别的原因？</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，在 Meta，其中一部分只是……我们需要……大家应该也都知道，我们对 Llama 4 当时的发展方向并不满意。所以，我们差不多把整个团队都重建了。过去一年半里，这真是一段很疯狂的经历，我们应该花点时间好好聊聊。</p>
+<p><strong>John Collison：</strong> 哦，会聊到的。对，对。</p>
+<p><strong>Mark Zuckerberg：</strong> 一些亲历的故事。但基本上，团队需要先构建不同级别的模型，一步步走到现在这个模型。既然现在我们已经来到了前沿，今后做的每一件事都是在推进前沿。而在这之前，我们还有大量基础工作要补。不知道你怎么看？</p>
+<p><strong>Alexandr Wang：</strong> 对，我们真的很兴奋。这个系列将会提供两个模型。分别是 Muse Wonder 和 Muse Wonder Full。笑一个？对，好，就是这样。</p>
+<p><strong>John Collison：</strong> 对，很不错。</p>
+<p><strong>Alexandr Wang：</strong> 嗯，它基本上是一个更高……</p>
+<p><strong>John Collison：</strong> 录音室乐队版。</p>
+<p><strong>Alexandr Wang：</strong> 对，是一个更高端的模型。</p>
+<p><strong>Mark Zuckerberg：</strong> 它是 Muse 1 的完整版本。</p>
+<p><strong>John Collison：</strong> 我知道，我听懂了。</p>
+<p><strong>Alexandr Wang：</strong> 对，对，它不是……</p>
+<p><strong>Mark Zuckerberg：</strong> 这是两个词，Wonder，Full Version。</p>
+<p><strong>John Collison：</strong> 你显然已经当爸爸了。</p>
+<p><strong>Mark Zuckerberg：</strong> 怎么了？</p>
+<p><strong>John Collison：</strong> 这是一个很棒的老爸冷笑话。</p>
+<p><strong>Alexandr Wang：</strong> 对，就是这样。嗯，再说性能……我们在一系列针对个人和专业智能体任务的评测中，都看到了非常出色的表现。按我们的测量结果，它达到了当前最先进的水平。此外，还有几个我们特别兴奋的具体亮点。这些都是我们在开发过程中有意融入模型的。比如 Mark 刚才提到的主动记忆。我们觉得，要打造个人智能体，打造服务于个人生活和专业工作的智能体……记忆能力显然是构建可靠智能体的必备条件之一。与很多其他方向的投入相比，我觉得我们在这一方面的投入尤其多。我们还有自己的内部评测 Memory Bench，可以展示这方面的很多能力。</p>
+<p><strong>John Collison：</strong> 给外行解释一下，模型的“记忆”是什么意思？只是指它能记住多少东西……比如工作记忆：你在处理一项任务时，模型能够在它的……里面保留多少东西？</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 那它和上下文有什么区别？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，这体现在你使用模型的体验上。几天、几周或者几个月之前，你跟它说过的事情，它还能记住多少？之后执行任务时，它又能多好地利用这些信息？</p>
+<p><strong>John Collison：</strong> 明白了。这恰恰是 OpenClaw 里问题多得要命的部分。我想，我们都非常喜欢 OpenClaw。我自己是很满意的 OpenClaw 用户，但归根结底，它会做这种压缩处理，里面有长期记忆，也有短期工作记忆之类的东西。我觉得，大家用 OpenClaw 一段时间后，都会发现它的记忆相当不稳定。</p>
+<p><strong>Alexandr Wang：</strong> 对。所以，我们既设计了模型本身，也设计了一套供模型使用的系统，从而形成一种强得多的记忆机制。我们称它为“主动记忆”。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 此外，就像 Mark 刚才提到的持续推进能力……</p>
+<p><strong>John Collison：</strong> 所以，这部分是在模型外面吗？就是模型在那里，然后它……</p>
+<p><strong>Mark Zuckerberg：</strong> 不是，但你提到的某些能力，比如压缩，本来就是由模型执行的，对吧？所以，要把这件事做好，两方面都……</p>
+<p><strong>John Collison：</strong> 它不是外部运行框架，而是模型本身的能力。</p>
+<p><strong>Alexandr Wang：</strong> 对，就在模型本身里面。没错。也就是说，它知道自己的记忆是一套核心系统。关键在于，它怎样利用不同的信息来源来完成未来的任务，同时理解自己有压缩能力，以及应该怎样最有效地完成压缩，诸如此类。</p>
+<p><strong>John Collison：</strong> 明白。不过，这确实很重要，因为很多人最初使用 AI 智能体的体验，就是记忆老出问题。所以，改进这一点……</p>
+<p><strong>Alexandr Wang：</strong> 不过要说清楚，仍然有很大的改进空间。我们的评测也说明了这一点。但这是我们很自豪的一项成果，也认为它是一个有意义的贡献。</p>
+<p><strong>John Collison：</strong> 好，主动记忆是一项。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 主动记忆。另一项是“主动专注”，说到底，就是模型执行任务时……能够把任务坚持做完的能力。尤其是我们发现，Muse 和 Muse Code 用户交给它的任务，复杂程度越来越高……也越来越模糊、越来越复杂。我们希望模型能够把这些任务执行好，而且高效地完成。这也是在早期内部试用和测试中，很多人注意到的一个特点：相较于他们尝试或使用过的其他模型，这个模型在这方面很特别，也很突出。第三项是领域专业知识。</p>
+<p><strong>John Collison：</strong> 用 AI 的术语来讲，“专注”是什么？是给一个任务投入很多算力吗？还是不被别的事情分散注意力……</p>
+<p><strong>Mark Zuckerberg：</strong> 有点像坚持到底的能力？</p>
+<p><strong>Alexandr Wang：</strong> 对，就是持续推进。基本上，是在很长的时间跨度内，把整个任务执行完的能力。</p>
+<p><strong>John Collison：</strong> 明白。</p>
+<p><strong>Alexandr Wang：</strong> 而且在过程中遇到各种挫折时，还能够找到其他解决方案，同时保持与用户意图和要求一致。</p>
+<p><strong>John Collison：</strong> 明白。</p>
+<p><strong>Alexandr Wang：</strong> 然后还有……它的编程能力确实也有了很大提升，达到了前沿水平。它在 DeepSWE 和 SWE-Marathon 上达到了当前最先进的水平，在 Terminal-Bench 4 等很多其他基准测试上也表现很好。所以我们认为，把它用于编程的用户，虽然只占全部用户的少数，但他们会看到很大的改进，感受到明显的提升。</p>
+<p><strong>John Collison：</strong> 好，那我们在 Stripe 写代码，是不是也应该直接用 Muse Wonder Full？</p>
+<p><strong>Alexandr Wang：</strong> 有可能，对。我的意思是，大家可以去试试……</p>
+<p><strong>John Collison：</strong> 但如果它在 SWE-bench 上是最先进的，那我们不用就亏了。</p>
+<p><strong>Alexandr Wang：</strong> 对，它在编程方面的确进步很大。当然，我们还是希望大家亲自试用，看看实际体验如何。不过，我们自己的内部测试结果已经让我们很满意了。</p>
+<p><strong>John Collison：</strong> 好，所以这是……</p>
+<p><strong>Mark Zuckerberg：</strong> 对，我觉得大家会喜欢拿它做很多事情。</p>
+<p><strong>John Collison：</strong> 所以，这既是你们最新的前沿模型，大家可以，开发者可以直接来找你们，也可以在 OpenRouter 上使用……把它当作一个模型来调用；同时，它也是 Muse 内部的一次重大升级，活跃的 Muse 用户会直接感受到。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。在 Muse 里，因为它的规模大得多，提供服务的成本也更高，所以我们一开始会主要把它放在付费订阅里。但我们希望 Muse 这款产品，能让所有人都免费使用。所以，我们提供了大量免费 token 额度，大家可以用 Muse Spark 模型来使用这些额度。但如果你希望用 Wonder 来处理大部分高难度任务，那么至少目前，你需要使用付费版本。不过，最终我们会……你也知道，这个领域发展得有多快。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我们希望，在不太遥远的将来，能拥有一个像 Wonder 一样出色、但体量与 Spark 相当的模型。这样就能服务全球数亿人，那会是一件很棒的事。</p>
+<p><strong>John Collison：</strong> 好，所以你打开 Muse，订阅那个，叫什么来着，Premium 套餐，还是 Pro 套餐，或者……总之，付钱。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 一直往下走，掏出信用卡再说。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 然后就能……需要自己选这个模型，还是它会神奇地……</p>
+<p><strong>Mark Zuckerberg：</strong> 哦，它直接就变好了。</p>
+<p><strong>John Collison：</strong> 对你来说，它就是变得更好了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 另外，它也会通过 API 提供，可以使用 Meta Model API，也可以通过 OpenRouter 调用。Muse Code 用户也能用到它。而 Muse Wonder Full 将向 Muse Code 的订阅用户开放。所以，这很让人兴奋。我们想要，就像 Mark 刚才说的，这是一个大得多的模型。所以，我们正在解决怎样最有效地把它提供给尽可能多的人这个问题。我们很期待让更多人真正用上它。</p>
+<p><strong>Mark Zuckerberg：</strong> 这是很大的一步。在走到今天的过程中，Muse Spark 所能提供的表现，已经让我们很满意了。但这一次，标志着 MSL 开始真正站到前沿。我们觉得，这些模型和目前最好的模型相比，很有竞争力。我觉得这是……</p>
+<p><strong>John Collison：</strong> 所以，你们认为现在站在前沿的是 Astra、Fable 和 Wonder 这几个模型？你可以看基准测试，用实证来判断。</p>
+<p><strong>Alexandr Wang：</strong> 根据基准测试结果，确实会得出这个结论。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 明白。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 而且，正如前面提到的，有一件事特别让我们自豪：我们专门花了时间，针对 Muse 这种产品形态来优化模型。所以，这是一个达到当前最先进水平的模型。对于服务个人生活和专业工作的智能体这种用途，我们真心认为，它是世界上最好的模型。</p>
+<p><strong>John Collison：</strong> 对，公司内部的人常常会抱怨古德哈特定律。</p>
+<p><a id="muse-section-5"></a></p>
+<h3>前沿模型究竟是怎样打造的</h3>
+<p><strong>John Collison：</strong> 你知道，一旦一项指标变成了目标，它就不再是一项好的指标。人们会抱怨，模型是在拼命刷榜，而且到了某个程度，对基准测试过拟合，实际上反而会让模型稍微变差。你们是真正要训练 AI 模型的人，这种说法是真的吗？这些基准测试能很好地衡量模型吗？你们会不会开始看到一些奇怪的边缘失误，比如……</p>
+<p><strong>Mark Zuckerberg：</strong> 基准测试必须不断更新，对吧？因为变化太快了，测试成绩也太容易达到饱和。所以，我确实觉得……</p>
+<p><strong>John Collison：</strong> 但你认为，还没饱和的基准测试是没问题的？</p>
+<p><strong>Mark Zuckerberg：</strong> 随着工作推进，我们越来越多地用自己的内部基准，引导模型朝我们关注的应用场景发展。早期，我们主要是在做研究，一步步攀升能力的台阶。那时我们更关注外部基准，只是为了确保自己走在正确的路上。而我会说，每往后发布一代模型，我们看的评测里，内部评测所占的比重就越大。</p>
+<p><strong>Alexandr Wang：</strong> 在随 Muse Wonder 发布的研究博客里，我们还量化了一件事，也就是一个衡量“大模型味儿”的指标。“大模型味儿”和“刷榜味儿”，某种意义上正好是彼此的反面。</p>
+<p><strong>John Collison：</strong> 就是说，当你用到一个真正的大模型时，你就是能感觉到，它就是……你能感觉到。</p>
+<p><strong>Mark Zuckerberg：</strong> 它能把握那些细微之处。</p>
+<p><strong>John Collison：</strong> 有种说不清、道不明的特质。</p>
+<p><strong>Alexandr Wang：</strong> 对。我们量化它的方式，几乎就是你刚才明确提到的东西：分布内表现和分布外表现之间的差距。所以，具体是什么……我们大致衡量的是：模型在与强化学习和后训练数据同分布的任务上表现如何，和它在分布外任务上的表现相比，又怎样。然后看这种差距在……Muse Spark 系列和 Muse Wonder 系列之间，分别是什么样。实际上，从 Muse Spark 到 Muse Wonder 系列，我们看到了非常明显的提升。因为正如 Mark 所说，新系列背后的基础模型本身，就要强得多。这里面确实有一种难以言传的感觉，但我觉得，我们已经能把这种效果量化出来了。</p>
+<p>很显然，这也是我们很期待继续改进的一个维度。</p>
+<p><strong>John Collison：</strong> 但如果你们说，外部基准已经不再那么重要，而你们更看重内部基准……那这是不是也在反对刷榜？就是说，一味追求那些人人都在谈的外部基准的最高分，未必能让你做出一个真正优秀的模型？</p>
+<p><strong>Mark Zuckerberg：</strong> 是的，不过还有一点，我们本来就聚焦于一些特定的事情。整个战略的一部分，就是个人超级智能，就是努力打造与其他人想做的不同类型的产品。所以，即便我们的评测和其他所有人的完全一样……也还是……</p>
+<p><strong>John Collison：</strong> 对。不过我也会说，个人超级智能并不是什么特别小众的方向，其他模型大概也会希望具备这方面的能力。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，它确实有一些很不一样的地方。比如，性格可能就更重要。我们经常讨论的一个概念，就是“懂得分寸”，对吧？如果你希望用模型替你办事，它就需要了解你很多情况，并能在现实世界里完成任务，同时尽可能少地披露你的信息。比如，你有某种过敏，或者怀孕了，想去餐厅订位，却不希望必须向餐厅说明自己的健康状况。</p>
+<p><strong>John Collison：</strong> 对，是的。</p>
+<p><strong>Mark Zuckerberg：</strong> 但你又需要确保，那家餐厅适合你。好，那该怎么处理呢？人有常识，而迄今为止的模型……如果你做的是一个编程智能体，它工作的环境里，每个人都能看到同一份上下文，那么这种分寸感就没那么重要。所以，有很多类似的事情，我觉得对我们来说更加重要。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 还有编程的一些方面，代码必须能正常运行，但使用它的消费者，可能根本不会看到代码。在个人超级智能的场景里，这一点可能就比在服务软件开发者时更重要。所以，我觉得这些事情确实有一些不同。</p>
+<p><strong>Alexandr Wang：</strong> 对。归根结底，我们在乎的是做出有用的模型。我们希望，模型交到用户手里之后，他们能有很好的使用体验。我觉得，对于我们或者其他人做出来的任何模型，这都是最重要的衡量标准。如果你只盯着外部基准，再稍微深挖一下它们的来源链条，就会发现，那可能是某个……博士生在读博、做研究的过程中，开发出来的一项基准测试。所以，你相当于把所有产品思考都外包给了那个碰巧做出一项爆款基准的博士生。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 这显然是不对的。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 所以我们才会这么重视。Meta 和 MSL 的很多人，都把很大一部分精力用在设计出色的评测上。</p>
+<p><strong>Mark Zuckerberg：</strong> 现在有了这些评测，我们就可以沿着自己的方向推进。不过，如果你是在建设，正在把实验室搭建起来，对吧？那些公开基准作为起点，倒也不离谱，只是它们不应该是你的终点。</p>
+<p><strong>Alexandr Wang：</strong> 到了那个阶段，你只是想看看有没有起色。但当你真正进入我们现在这种状态，想要非常有意识地、持续改进模型，做出越来越好的产品时……就像 Mark 刚才提到的很多例子，我们实际上都把它们非常严谨地写进了一张表格，逐项记录所有那些细小的……能力和产品细节，也就是我们认为对最终用户真正重要的东西。也许每一项对用户来说，只占 2% 的分量。但加在一起，正是这种对细节的执着，最终才会造就那些让人觉得神奇的模型。</p>
+<p><strong>John Collison：</strong> 你们能给我讲讲，训练一个强化学习模型，到底要做些什么吗？抱歉，我是说，一个最前沿的模型。我很好奇，因为我觉得，很多听众大概都知道一点：有预训练和后训练这两个步骤。预训练就是摄入海量数据，看很多图片：这些是猫，那些是狗。看上一段时间之后，就开始形成一种认识：猫之所以是猫，有哪些特征；狗之所以是狗，又有哪些特征；什么是毛发，诸如此类。这大概就是预训练阶段，像吸尘器一样吸入数据。也许你们可以谈谈数据的获取，以及这个过程中到底有哪些工作。接着，还有强化学习这个阶段，这是过去几年 AI 领域相对较新的进展。</p>
+<p>听起来，这个模型很多具体、细致的特性，就是在这一阶段形成的：你们选择了更好的领域……给模型选了更值得攀登的山峰。但就从宏观上说说吧：需要多少人，花多长时间，有哪些步骤，你们是怎样考虑这些事情的……</p>
+<p><strong>Alexandr Wang：</strong> 你有多少时间？</p>
+<p><strong>John Collison：</strong> 对，概括地说就行。</p>
+<p><strong>Alexandr Wang：</strong> 碰巧，我们所有的时间都花在这上面了。</p>
+<p><strong>John Collison：</strong> 没错，所以要概括一下……</p>
+<p><strong>Mark Zuckerberg：</strong> YouTube 上能开课了。</p>
+<p><strong>Alexandr Wang：</strong> 对，特别概括地说，就是这几个阶段。预训练和后训练。有趣的是，“训练”本身又是涵盖所有这些阶段的总称。不过……</p>
+<p><strong>John Collison：</strong> 这整件事一共有多少人参与？就是，你们开发这些模型的时候。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，你问到的是 MSL 以及我们这套做法里很有意思的一点。从一开始……我第一次联系你的时候，我想，我们刚才还在看那段记录，感叹说：“哇，原来已经走了这么远。”我翻出了第一次联系 Alex 时的聊天截图。第一句话就是：“嘿，你有时间聊聊近况吗？”然后，好，我们聊了……</p>
+<p><strong>John Collison：</strong> 他们就是这样把你拉进来的。</p>
+<p><strong>Mark Zuckerberg：</strong> 44 分钟左右吧。那次电话之后，两天后，Alex 给我发了一大段话，大意是：“如果我是你，我觉得我会这么做。”第一条就是：你不需要很多人，真正重要的是人才密度。所以我会说，从最初制定计划开始，这就是你战略的核心，对吧？基本上就是，你其实不需要庞大的人数，但你真正需要的是……</p>
+<p><strong>Mark Zuckerberg：</strong> 让每个人都尽可能优秀。这也是为什么我们会展开那轮近乎疯狂的招聘，并且进行极其严格的筛选：从 Meta 内部挑出一批最优秀的人，也通过极其严格的流程，从 Meta 外部招人。但我觉得，MSL 之所以特别，也之所以吸引了那么多人加入，很大程度上是因为，在这样一个人才密度高、规模更小的团队里工作，某种程度上就是更有意思。感觉就像一家正在运转的初创公司。对。从某种意义上说，它既具备初创公司的所有好处，又有大公司的稳定性和资源。我觉得，这样的工作环境就是你那份计划的第一条。Alex 当时的意思是：这就是我们要做的。所以，要问预训练团队应该多大，我也没有一个确定的答案。它不需要那么大。</p>
+<p>但看看其他一些实验室，我想有的地方团队可能相当大。我觉得，这些模型表现不错的部分原因，就在于我们选中了值得押注的人，并且给了他们大量资源。我们把算力拿出来，而不是像抹花生酱那样，把它平均摊在许多相互竞争的项目上。基本上，我们就是把资源投给关键的人，让每位研究员都拥有大量算力，这样他们就可以放手做研究。</p>
+<p><strong>John Collison：</strong> Wonder 是那次主要的大规模训练吗？大部分训练资源都放在那里？</p>
+<p><strong>Mark Zuckerberg：</strong> 它是下一次预训练，相当于沿着这架梯子再往上爬一级。也就是说，我们有这样一套分级体系，然后有 Spark。在内部，Muse Spark 这一系列的代号是 Avocado，也就是牛油果；这一款的代号是 Watermelon，也就是西瓜。现在我们已经没有水果可用了。水果用完了。对，所以我们得换一套新的命名方式。</p>
+<p><strong>Alexandr Wang：</strong> 不过，我想严格说来，唯一更大的水果就是榴莲了，而你可不想走到榴莲那一步。</p>
+<p><strong>John Collison：</strong> 不，不，不。对，对。</p>
+<p><strong>Alexandr Wang：</strong> 那还是敬而远之吧。</p>
+<p><strong>John Collison：</strong> 榴莲比西瓜还大？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得它肯定更重。</p>
+<p><strong>John Collison：</strong> 太可怕了。</p>
+<p><strong>Mark Zuckerberg：</strong> 肯定更重。</p>
+<p><strong>John Collison：</strong> 刺也更多。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，刺更多。</p>
+<p><strong>Alexandr Wang：</strong> 不过，说回来，正如 Mark 刚才提到的，我接下来要讲的每个阶段，在 Meta 都只有几十个人在做，而有些地方可能有几百个人……</p>
+<p><strong>John Collison：</strong> 所以 Meta 虽然是一家大公司，但这在 Meta 内部是个非常小的团队。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。哦，对，我知道。研究团队不到 200 人。</p>
+<p><strong>Alexandr Wang：</strong> 对，规模非常小。我们有意把它维持得非常精干。</p>
+<p><strong>Mark Zuckerberg：</strong> 其实更接近 100 人，对吧？此外还有一批做基础设施的人。对，</p>
+<p><strong>Alexandr Wang：</strong> 基础设施方面的工作很多。所以，回到你最初那个“它到底是什么”的问题，我们可以先从宏观上讲讲：这件事究竟是怎么发生的？模型是怎么来的？</p>
+<p><strong>John Collison：</strong> 我基本上就是在问这个。</p>
+<p><strong>Alexandr Wang：</strong> 模型究竟从哪里来？先拿海量数据来做预训练。在这里，你要……</p>
+<p><strong>John Collison：</strong> 大体上，就是把所有的，公开互联网上的数据、能找到的所有书籍，尽可能多的数据都用上。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，要有不同类型的数据。</p>
+<p><strong>John Collison：</strong> 再加上 Meta 的专有数据。</p>
+<p><strong>Mark Zuckerberg：</strong> 而且还要有不同模态，对吧？如果你希望它擅长感知，就要确保它接触大量图像、音频、视频等内容。如果你希望它擅长某些领域，就不能只指望到最后才通过强化学习把这些能力加进去。你希望它从一开始就接触这些内容。</p>
+<p><strong>John Collison：</strong> 对。没错。</p>
+<p><strong>Alexandr Wang：</strong> 对。在这个阶段，你不会那么在意数据究竟长什么样、采用什么格式，或者它的各种细节。总之，就是大量、大量的数据。</p>
+<p><strong>John Collison：</strong> 你们说它是最好的个人智能体模型，那么在预训练时，有没有特别需要找来的数据？比如海量的餐厅订位、打电话预约之类的数据？我不知道具体是什么，但比如……</p>
+<p><strong>Mark Zuckerberg：</strong> 你就是希望，把人们会关心的那些模态的数据大量放进去。这里面涉及很多东西。刚才谈 Muse Wonder 擅长什么的时候，我想我们其实还没聊到这一点。我们会问：人们到底关心哪些领域？比如购物，大家非常关心；个人建议，大家也非常关心。人们有个人法律问题、健康问题、税务问题。Muse Wonder 在这些方面都相当不错。我不知道这里有没有什么量化指标可以分享，但可以这么说……</p>
+<p><strong>John Collison：</strong> 它很擅长回答这类个人咨询问题。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，所以对于这些能力，你可以在一定程度上用强化学习去训练，但还是希望投入大量数据。比如健康领域，你可以想象，这方面的数据实在太多了。在预训练阶段，你就是希望模型见过所有这些不同的内容，所以会把各种语料库放进去。</p>
+<p><strong>Alexandr Wang：</strong> 对。正如 Mark 刚才提到的，我们，Muse Wonder 的一大亮点，其实就是它在各种专业领域的能力。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 我们的理念是，最好的个人智能体应该让你感觉，自己有一整个专家团队在身边支持你。它应该像是你的法律团队。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 也是你的财务团队、医疗团队，等等，等等。所以，在这些领域中，我想 Muse Wonder 在许多金融评测，以及许多法律评测上，实际上都达到了最先进的水平，是表现最好的模型。而这些领域的能力，从预训练时就开始培养了。我们会寻找大量专业领域数据，放进预训练里。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 不过，预训练的很多门道……Roon 曾经发过一条推文，说做预训练的研究员，都是那种一边嚼着玻璃、一边凝望远方，凝望深渊之类的人。但我觉得这话是有道理的，因为一方面，它是所有研究方向中赌注最高的。我们把很大比例的算力投入到了 Muse Wonder 的训练，更准确地说，预训练里，赌注非常大。在这个过程中的不同阶段，我们俩大概都……</p>
+<p><strong>Mark Zuckerberg：</strong> 都经历过情绪的低谷。</p>
+<p><strong>Alexandr Wang：</strong> 对，不确定性的低谷。训练模型时，你会把“悲伤的七个阶段”全经历一遍。另一方面，有意思的是，这也是最需要从根本上遵循科学方法的工作，因为你手里的样本实在不多。因此，要科学地推断究竟会发生什么，就非常依赖你的能力：你得真正开动脑筋，推理整个过程中发生的每一件事。</p>
+<p><strong>John Collison：</strong> 明白。所以，在预训练阶段，所有训练前沿模型的人，基本上都在努力获取尽可能多的数据，同时可能会有所侧重。比如，如果你想让 Muse Wonder 擅长法律、金融、税务等问题，就希望在预训练中加入尽可能多的相关语料。</p>
+<p><strong>Alexandr Wang：</strong> 对，对于模型最终要达到什么目标，你还是希望尽可能有明确的方向。但同样，更多的数据就是有帮助。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 这就是那个海量数据、海量算力的阶段。</p>
+<p><strong>John Collison：</strong> 预训练的数据量会达到某种饱和点吗？还是说，归根结底，数据越多越好？</p>
+<p><strong>Mark Zuckerberg：</strong> 这里有一个关系：模型越大，所需的数据就越多。否则就会过拟合。</p>
+<p><strong>John Collison：</strong> 对，但我的意思是，有没有某些数据，你会觉得不能让它们分散模型的注意力，不能用这些知识把它“脑子里的阁楼”塞得乱七八糟？还是说，数据越多越好？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得确实会有一些这样的效应。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，这也是科学研究的一部分。</p>
+<p><strong>John Collison：</strong> 好吧，我们开始触及独门秘方了，抱歉。</p>
+<p><strong>Mark Zuckerberg：</strong> 不，倒也不是这个问题。只是说，这里面有很多问题，比如，我们放进了这么多 token，会不会存在某种此消彼长？在很多地方并不存在，甚至还会产生正迁移。但取决于具体如何设置，也可能会有负迁移。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以，这里面有很多有意思的问题。不过，总体而言，扩大模型规模的一大挑战，就是它不仅仅关乎多少浮点运算、多少算力。你还得让数据规模跟着一起增长。最初关于预训练的规模定律提出时，这也是其中得出的一个结论。所以，如果互联网的数据增长没有那么快，而你又想扩大模型规模，让它更聪明，一个有意思的问题就是：数据从哪里来？</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，这个话题我们大概就聊到这里了。不过可以接着聊另一个……</p>
+<p><strong>John Collison：</strong> 这 CEO 的控场范儿真是到位。</p>
+<p><strong>Alexandr Wang：</strong> 那么，后训练。我觉得后训练现在是一个非常令人兴奋的领域，整个领域几乎一直都在学习，究竟怎样的配方最适合对这些模型做后训练。</p>
+<p><strong>John Collison：</strong> 再给听众解释一下：后训练就是给模型一个你希望它完成的任务，再根据它完成得怎么样来打分。所以，如果它是下国际象棋的模型，就让它下棋，学会……</p>
+<p><strong>Mark Zuckerberg：</strong> 其实有两个阶段。先是 SFT，也就是监督学习。相当于你拿到一个比较原始的模型，同时给它问题，以及你希望它给出的答案，对吧？比如在一段聊天对话里，你希望它在这种情形下如何回应？因此，在训练个性等特征时，SFT 是塑造它非常重要的一环。不过，我觉得近几年大部分进展都来自强化学习。</p>
+<p><strong>Alexandr Wang：</strong> 对。对。有一种理解方式可能会有帮助：SFT 是给很多行为做初始化的阶段……</p>
+<p><strong>John Collison：</strong> SFT 是监督微调。</p>
+<p><strong>Alexandr Wang：</strong> 对，监督微调。你先把希望模型以后展现出的许多行为，初步建立起来。到 SFT 结束时，也许这些行为已经在模型里了，但它可能只有 10% 的时候会表现出来。然后在强化学习阶段，你在各种情境下给模型强化反馈，让这些行为被激发出来的频率大幅提高。所以，我觉得强化学习和后训练领域正在发生很多有意思的事情。其中一个很明确的方向，就是扩大强化学习和后训练的规模，投入更多算力，收集更多数据。</p>
+<p><strong>John Collison：</strong> 也就是在发布模型之前，多做很多这样的训练。</p>
+<p><strong>Alexandr Wang：</strong> 对，做得更多。尤其随着预训练规模扩大，后训练也要做得更多。</p>
+<p><strong>John Collison：</strong> 这就像规模定律里的其他因素一样，必须和其余因素同步增长，否则就行不通。</p>
+<p><strong>Alexandr Wang：</strong> 对，大体上是这样。如果要我用一句笼统的话概括 AI，那就是：把所有东西的规模都扩大。</p>
+<p><strong>John Collison：</strong> 但重点是，所有东西都得一起扩大。只孤立地扩大某一项是不行的。</p>
+<p><strong>Mark Zuckerberg：</strong> 严格说来，你当然可以</p>
+<p><strong>Alexandr Wang：</strong> 只扩展一个维度，但如果多个方面一起扩大，就能得到好得多、更接近最优的表现。</p>
+<p><strong>Mark Zuckerberg：</strong> 拿 Muse Wonder 来理解：我们先做了预训练。</p>
+<p><strong>John Collison：</strong> 对，</p>
+<p><strong>Mark Zuckerberg：</strong> 也已经做了一些强化学习。再看 Muse Spark，从 1 到 1.1、1.2、1.3，预训练部分完全没变，对吧？我们只是继续在这个基础上做更多强化学习。因此，当你看一个新级别模型的早期版本时，它们实际上相对来说，强化学习相对于预训练的比例，会比后期版本更低。</p>
+<p><strong>John Collison：</strong> 这基本就是模型的小版本更新所代表的意思。</p>
+<p><strong>Mark Zuckerberg：</strong> 每家公司都有自己的命名习惯。对我们来说，原本是想让它表达这个意思。</p>
+<p><strong>John Collison：</strong> 但对很多公司而言，大版本号对应预训练，然后……</p>
+<p><strong>Alexandr Wang：</strong> 我觉得现在已经失去这个语义了。对，我觉得现在确实不能这么判断了。</p>
+<p><strong>John Collison：</strong> 好，但至少在 Meta 是这样。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，我们其实还没这么做。我们后来决定先不这么做。</p>
+<p><strong>John Collison：</strong> 至少 Muse Spark 是这样。</p>
+<p><strong>Alexandr Wang：</strong> Muse Spark 和 Muse Wonder 确实是这样。可以确定的是，Muse Spark 和 Muse Wonder 来自不同的预训练。</p>
+<p><strong>Mark Zuckerberg：</strong> 对于 Muse Wonder，我们决定先不加数字，把这个问题留到以后再说。等第一次小版本更新时，就得做决定了。</p>
+<p><strong>Alexandr Wang：</strong> 对。不过，强化学习阶段很有意思的一部分，首先就是搭建环境、设计任务。在训练这些模型时，这是一个需要非常有意识地做设计的地方，也会让你发现一些很有意思的现象。比如，在很多情况下，强化学习的数据反而是少即是多。所以，总体而言，无论是做这件事的感觉，还是背后的科学规律，都和预训练很不一样，甚至有点反过来了。对。另一个方面是，它给模型的引导可能会被大幅放大，不知道这样说是不是好理解。因此，我们很关心的许多安全问题、对齐问题，往往是在对前沿模型做大规模、高算力强化学习时出现的。比如在某些情境里施加很强的强化学习或优化压力，而模型要想成功，唯一的办法就是做出不符合对齐要求、或者不安全的行为。</p>
+<p>所以，在训练 Muse Wonder 时，我们必须非常谨慎、认真地对待这一点，确保我们对强化学习环境做了非常周全的筛选和设计，确保所有环境都在激发模型更符合对齐要求的行为，把它往这个方向引导。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得你刚才关于质量的那一点很重要，因为前面我们来回问答，大多围绕的是数量，听起来像是在说：“你得把量做上去。”</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 但我觉得，其中很大一部分恰恰就是你刚才说的：即使量比较少，只要质量高，也很重要。</p>
+<p><strong>Alexandr Wang：</strong> 对。在强化学习上，我们看到新的 Spark 系列取得了很大的跃升，而这些跃升都伴随着底层训练配方真正有意义的改进。这些配方上的改进……我觉得从 Muse Spark 1 到 Muse Spark 1.3，简直有天壤之别。如果你问大多数人：这两个模型用起来，像不像来自不同的预训练？他们大概会说像，因为你能……嗯。而且我觉得，这种情况在整个行业都在发生。我们正在学会从现有的基础模型中挖掘出更多能力，激发出更多智能体能力。不过，这不代表我们不看重规模。我们认为扩大规模非常重要，这也正是我们要做 Muse Wonder 这一系列的原因。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 这两件事正在同时发生。顺带说一句，对我们而言，这也是整体进展这么快的原因。我们在扩大预训练规模的同时，也在扩展强化学习的训练配方。推进得相当快。对。</p>
+<p><strong>Mark Zuckerberg：</strong> 此外，还有其他可以扩展的维度。比如，确保智能体的运行框架足够好，而且能够对这些部分进行联合优化，这大概也是另一个扩展维度。</p>
+<p><strong>John Collison：</strong> 如果我理解得对，你们的意思是，对齐并不是专门设计一些只用于对齐的强化学习步骤，而是要确保整个强化学习过程，都在把模型引向……</p>
+<p><strong>Alexandr Wang：</strong> 你必须在强化学习的整个过程中，都认真考虑这件事。对，所以我觉得这是一项整体性的工作。对。</p>
+<p><strong>Mark Zuckerberg：</strong> 而且，不同实验室的思路也非常不同。“对齐”是一个非常哲学化的概念，对吧？你究竟希望它与谁对齐？我们的许多想法是：我们更在意它与……我们是要为人们提供智能体，对吧？如果你让它做一件事，你就应该能高度确信，它会照你的要求去做。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 你希望它非常可靠地做到这一点。你不希望听它给你上一堂道德课，解释你为什么不该提出这个要求。当然，如果你想做的是会造成灾难的事情，它需要妥善地拒绝，而且别把你惹毛了。但总的来说，我们更多地把对齐看成这样一个问题：与它要服务的那个人，在指令和价值观上保持一致。我觉得这是一种不同的思考方式，和有些其他公司的做法很不一样。</p>
+<p><a id="muse-section-6"></a></p>
+<h3>豪赌 1,000 亿美元</h3>
+<p><strong>Alexandr Wang：</strong> 还有一个很有意思的点，可能也和你最初的问题有关，就是训练这样一个模型，究竟要花多长时间。比如 Muse Wonder，总体上，我们从去年八月就开始规划了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，我记得当时那次外出会议，他们就是在那时第一次介绍这个计划的。</p>
+<p><strong>Alexandr Wang：</strong> 所以，我们刚才说的所有阶段，实际上都会持续做相当长的时间。我们并不是等到 Muse Spark 做完之后，才开始做 Muse Wonder。事实上，我们已经规划、推进这件事很久了。我们一直把 Muse Spark 看作……我想，在介绍它的第一篇博客里就提到过，它是通往 Muse Wonder 的一块垫脚石。我们确实一直是这样想的。</p>
+<p><strong>John Collison：</strong> 当时就已经是这么想的？</p>
+<p><strong>Mark Zuckerberg：</strong> 对。而说到要花多长时间，我们现在谈的还仅仅是研究部分。还有算力部分。首先，我们一直在投资建设整体上的巨量算力。不过，我们在这方面的一个理念是，要衡量一家实验室的算力实力，可以看它那台最大的单体计算机，也就是用于这些大规模训练任务的超级计算机，究竟有多大。我们在俄亥俄州建了一个叫 Prometheus 的集群。</p>
+<p><strong>Alexandr Wang：</strong> 嗯。</p>
+<p><strong>Mark Zuckerberg：</strong> 它的规模正在扩展到一吉瓦以上。现在，我们还在路易斯安那州建设 Hyperion 集群，最终会扩展到五吉瓦。这些项目实际上比 MSL 还早。毕竟，要从零建起整座数据中心园区……至少这些项目的规划比 MSL 早。它们现在正在投入运行。但当时……</p>
+<p><strong>John Collison：</strong> 你们是不是以为，它们可能会用来做信息流？因为你们本来就在很多地方需要大量算力？</p>
+<p><strong>Mark Zuckerberg：</strong> 不，不，不。这要追溯到更早，甚至要回到 Llama 项目时期。</p>
+<p><strong>John Collison：</strong> 明白了。</p>
+<p><strong>Mark Zuckerberg：</strong> 我想大概是 2023 年，或者 2024 年，我们就开始制定建设这些集群的计划了。现在它们正逐步全面上线。不过，路易斯安那州那个，我想还要在未来几年内分阶段上线。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 但如果你想真正从头到尾看这件事，那就涉及整个技术栈。Meta 是一家全栈技术公司。我们建自己的数据中心，设计自己的芯片，搭建自己的底层基础设施。而现在，这是下一个组成部分。可以说，对下一波技术浪潮而言，它很可能是其中最重要的一环：造出真正优秀的模型，再把它们交到人们手中。所以，如果你从端到端的全过程来看，这确实是一个很漫长的过程。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，科技行业里的人可能对此比较了解，但大家的直观感觉确实是：新模型在不断发布。所以你可能会以为，一家公司先发布一个模型，然后才去琢磨下一个模型怎么做。但实际上，背后是很长的规划周期，以及多条持续很久的工作线，最后才汇聚到一起，产出这些漂亮的模型。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 反馈周期这么长，要怎么做出好产品？你八月份开始规划模型，过了一年多才知道它到底好不好。硅谷一向以依赖指标著称，但到头来，你是不是还得有一个讲究审美的人，站出来说：“不好意思，我不喜欢这个”？</p>
+<p><strong>Mark Zuckerberg：</strong> 有指标当然很好，但我觉得，创业者的日常就是：在信息不足的环境里，你能把决策做得多好，对吧？所以……</p>
+<p><strong>John Collison：</strong> 但这里是不是相当于把这种难度放大了？</p>
+<p><strong>Alexandr Wang：</strong> 是放大了不知道多少倍。对。我觉得这件事要给 Mark 很大的肯定。正是因为所有事情都要花这么长时间，从我加入到现在这一年里，在许多个时点，当然也包括你刚才提到的、更早之前，你都必须投入巨资，或者做出重大的决定，决定该如何投资、如何开发技术，或者采取什么行动，而此时根本还没有证据能证明这件事到底行不行。所以，从某种意义上说，这就是“困难模式”的创业。它和“精益创业”正好相反。精益创业的思路是：先看看能不能做出点成效，再加码；然后看看行不行，再加码。但在 AI 里，你不能这样做。你必须……我们在这些数据中心上的投资，已经持续了很多很多年。</p>
+<p>我们必须这样做。</p>
+<p><strong>John Collison：</strong> 要是等看到事情行得通再开始，你就会严重落后。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以才会有这样的对话。去年年底，我们说：好，我们对进展很兴奋。对，但还没看到模型。就像是：我们要开出一张，我也不知道，1,000 亿美元、2,000 亿美元的支票。我会说：“Alex，你确定这东西能做成吗？”</p>
+<p><strong>Alexandr Wang：</strong> 对，当时的情形就是这么极端，我们整个高管团队都……</p>
+<p><strong>Mark Zuckerberg：</strong> 我想 Susan 把你吓得不轻。</p>
+<p><strong>Alexandr Wang：</strong> 对。每次聊到这里，我们都会开玩笑说：“是啊，希望一切都能做成，而且做得很好。”但到了去年年底，说真的，除了我凭感觉给大家汇报研究进展，再展示一些曲线图之类的东西之外，并没有多少东西可看。我的感觉是不错，但它到底能不能成，绝对还远远说不准。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 你们的意思是，训练前沿模型的本质，就是牌还没发到手里，你就得把所有筹码推上去。你必须先决定要开发一个前沿模型，没法一点点控制投入。</p>
+<p><strong>Mark Zuckerberg：</strong> 在如今这个规模下，是这样。如果往回看几年，集群还不需要这么大，但现在必须这么大。所以，这也是如今从头组建一家前沿实验室令人兴奋的地方，对吧？基本上，入场的底注就高得惊人。</p>
+<p><strong>Alexandr Wang：</strong> 我对此的记忆仍然特别鲜明。去年年底我们在夏威夷，整个高管团队聚在一起。Susan 好几次把我拉到一边说：“我就是想告诉你，如果这件事做不成，后果会非常、非常糟糕。”“从财务上来说，会非常、非常糟糕。”</p>
+<p><strong>John Collison：</strong> “我真的得让你明白，这个模型必须做成。”</p>
+<p><strong>Alexandr Wang：</strong> “必须好用。”“如果好用，那就一切都好，我们就很棒。但要是不好，那就会非常、非常、非常糟糕。”你也认识 Susan……</p>
+<p><strong>John Collison：</strong> 这种话能起到有效的激励作用吗？</p>
+<p><strong>Mark Zuckerberg：</strong> 能。</p>
+<p><strong>Alexandr Wang：</strong> 当时真是个很有意思的时刻，因为显然，涉及的金额已经大得离谱了。</p>
+<p><strong>John Collison：</strong> 训练到底要花多少钱？给个数量级也行，能分享多少就分享多少。到底要花多少钱？</p>
+<p><strong>Mark Zuckerberg：</strong> 可以按常见的算法算一算。比如，一个一吉瓦的集群。我想，外面通常会说，运营一吉瓦的集群一年，大概是 150 亿美元这个数量级。</p>
+<p><strong>John Collison：</strong> 好，所以，大概花 150 亿美元来训练一批模型。</p>
+<p><strong>Mark Zuckerberg：</strong> 是运营一个一吉瓦的集群一年。如果说的是建设时的资本支出，因为要提前支付，可能更接近 500 亿到 600 亿美元。而这还只是一个集群，用于训练中的一个部分。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 然后还有其他所有部分。研究不只是把正式训练跑一遍，对吧？因为每做一项改动，都要沿着整个规模阶梯逐级测试，一直测到最大的规模。这部分投入可能和正式训练差不多。然后，还要把这些模型部署出去，提供服务。所以，其中一部分……</p>
+<p><strong>John Collison：</strong> 也就是说，现在训练一个前沿模型，需要几百亿美元。</p>
+<p><strong>Alexandr Wang：</strong> 对，如果把全部成本算进去，我看过财务汇总，几百亿美元是个合理的估计……</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 但训练出来以后，你还得拿它做点什么，对吧？所以，我们当时面临的一些更复杂的问题，其实是：我们在训练这个模型，而且我们知道，我们一定要训练它，因为这很关键。但我们预计产品需求会有多大？</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 因为那个时候，产品还不存在。</p>
+<p><strong>John Collison：</strong> 也就是说，你们在为一个尚不存在的产品建设数据中心，准备给 Muse 提供服务。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 而且必须提前好几年就动手，对吧？所以，去年我们讨论这件事时，有一阵子，我觉得不少人都在想：也许我们应该再保守一点。但我的意思是：不，我们就要这么干。我们会把它做成，一定会做成。</p>
+<p><strong>John Collison：</strong> 破釜沉舟。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，这件事一定能成。</p>
+<p><strong>Alexandr Wang：</strong> 但说真的，我自己也是创业者、创始人，也在人生的不同阶段冒过风险。可我记得，当时最直接的感受是：这风险也他妈太大了。我不知道自己到底是不是……</p>
+<p><strong>Mark Zuckerberg：</strong> 哦，只会越来越冒险。对，只会……</p>
+<p><strong>Alexandr Wang：</strong> 不过，Mark，我觉得你有一点特别让我佩服，就是你真正把这个观念内化了：关键在于，赢的时候能赢多大。失败没关系，重要的是，一旦赢了，回报到底有多大？我觉得这……</p>
+<p><strong>John Collison：</strong> Mark 对幂律的理解已经深入骨子里了，很多人做不到这一点。</p>
+<p><strong>Alexandr Wang：</strong> 对，我觉得非常深刻。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，另一方面，我其实不觉得风险有你说的那么大。金额确实很大，但我觉得……</p>
+<p><strong>John Collison：</strong> Meta 在算力用途上是有退路的。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，我觉得有两点。第一，如果整个 AI 行业发展顺利，就会有很多其他人想要我们的全部算力。</p>
+<p><strong>John Collison：</strong> 对吧？</p>
+<p><strong>Mark Zuckerberg：</strong> 他们愿意付钱。比如，假设每吉瓦的成本是 150 亿美元，我们能以高出很多的价格卖出去。所以，要让这笔投入真正失败，不只是我们得失败，整个 AI 行业都得失败。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 而即便发生了这种情况，我们也还有很多其他用途，能够有效地利用这些算力。所以，整体上看，我们确实是在还不能确定产品能否准备好的时候，就提前建设了这些推理算力。</p>
+<p><strong>John Collison：</strong> 但你已经足够相信 AI，所以会说：只要 GPU 通电上线，总会有人用得上。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，不过我们也确实相信自己正在做的东西。看看这条发展轨迹：最先是 ChatGPT 这样的文字助手。然后，Anthropic 把编程智能体做成了。但还没有人做出面向个人消费者的对应产品。我们就是觉得，这是 Meta 应该为世界做出来的东西。我想，从一开始，你、我和 Nat 就都很清楚，这就是我们来这里要做的事，对吧？所以，怎么说呢。即使是在 Muse 发布时，对我来说，真正的问题也始终是：你推出一款产品之前，永远不知道大家会如何接受它。对吧？当然，可能一出手就是全垒打，这次就是这样，对吧？</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 一上来反响就非常好。但更常见的情况是，产品刚推出时表现还可以，然后你得迭代几轮，找到产品与市场的契合点，才能真正开始增长。某种程度上，我觉得这款产品本来甚至可以增长得更快。但上线时，我们并没有把所有增长相关的准备都做好，因为我们当时比较居中的预期是：大概还得再迭代一阵子，不过没关系。我觉得，就算需要迭代几轮，也不是世界末日。那很正常。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 当然，也可能有那种发布后近乎灾难、需要很长时间才能恢复的情况，那就不好了。但我的意思是，即便需要再迭代几轮，也没什么问题。所以，在我看来，这件事应该会……没错，数字很大，但我觉得大概还是……</p>
+<p><strong>John Collison：</strong> 高管团队手牵手、一起承担这个风险，会让大家更有凝聚力吗？你刚才说 Susan 把你拉到一边？</p>
+<p><strong>Alexandr Wang：</strong> 增进感情，还是说，增进感情的时刻？</p>
+<p><strong>John Collison：</strong> 那算是增进感情的时刻吗？</p>
+<p><strong>Mark Zuckerberg：</strong> 怎么说呢，压力是很大的。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得是……</p>
+<p><strong>Mark Zuckerberg：</strong> 两者都是。</p>
+<p><strong>John Collison：</strong> 两者都是，对。一般来说，共同经历压力确实会拉近彼此的关系。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得 Meta 有一点特别值得一提。首先，大多数高管都已经在公司待了很长时间。Nat 和我是真正的新人。而大多数人以前也已经很多次经历过各种疯狂的局面。</p>
+<p><strong>John Collison：</strong> 嗯。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得 Meta 是一家韧性极强的公司，经历过许多在当时看来同样会让人望而生畏的情况。所以，大家可以说都知道这套流程是什么样。单看纸面上的情况，尤其是当我们的 CFO Susan Li 在会议中把我拉到一旁时，这看上去确实是一个格外吓人的局面。但大多数人都会说：“对，对，不过我们可是 Meta，我们会挺过去的。”围绕这件事，大家形成了一种真正的战友情谊，整体氛围也很好。我真的很感激这一点，因为，公司里其他那些高管，正在经营和管理着……</p>
+<p><strong>John Collison：</strong> 正在负责赚钱买单。</p>
+<p><strong>Alexandr Wang：</strong> 对，经营着有史以来最伟大的商业业务之一。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 面对这整件事，他们完全可能感到很烦。但我觉得，所有人也都非常期待……</p>
+<p><strong>Mark Zuckerberg：</strong> 确实如此。</p>
+<p><strong>Alexandr Wang：</strong> 期待 AI 能为公司带来的机会。退一步看，我觉得 Mark 作为公司创始人和 CEO 的一项职责，就是确保公司始终朝着它最有雄心、边界最广阔的可能形态去发展。而整个 MSL 和 AI 布局的一个很棒的地方，就是它非常直接地体现了这一点。我们知道，AI 肯定是一项非常重要的技术，也是眼下最重要的技术之一。但如果我们能把它真正做好，并且妥善融入我们做的所有事情里，同时，作为一家全栈技术公司，把它做进那些我们知道未来一定会出现的出色产品里，就能为 Meta 打开极其广阔的空间。我觉得确实如此。Muse 就是一个令人非常兴奋的产品。</p>
+<p>它有上千种可能的发展方向。夜深人静时，你会去想它未来的各种可能。光是能让人这样想，我觉得它就已经是最令人兴奋的产品之一了。Nat、Mark 和我，经常深夜互发消息，说：“我们可以做这个，还可以做那个；可以采取这个行动，可以做出那款产品。”我觉得这真的非常……</p>
+<p><strong>John Collison：</strong> 现在是科技领域一个特别令人兴奋的时刻。</p>
+<p><strong>Alexandr Wang：</strong> 对，从这个角度看，确实是一片蓝海。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 聊到 Muse 时，有一点让我很有感触：一个代你行事的智能体，显然很像下一代平台。你长期以来一直在谈，不想依赖其他平台。在 Android 和 iOS 上做产品的经历，让你吃到了依赖别人的苦头。过去你谈到 Reality Labs 时，经常会强调，拥有未来平台有多重要。你们在 Reality Labs 上投入多年，就是为了掌握未来的平台。现在，这种新的交互形态出现了，它看起来显然会成为人们完成大量实际工作的新方式，也就是未来的平台。而 Meta 现在处在一个非常有利的位置。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。不过我不是为了拥有平台而拥有平台，而是想有能力做出最好的东西。比如，看看其他社交应用，我觉得 Meta 之所以要好得多，部分原因就在于，我们不只是做应用，对吧？很多人把我们想成一家应用公司。我们不是应用公司。我们是一家做深层技术的公司。之所以能做到这些，是因为我们的机器学习水平是世界一流的，而且所有推荐系统的运行规模，在全世界都很少有公司能达到。我觉得，在这方面基本上就是我们和字节跳动。然后，我们会一路做到最底层的硬件。对我来说，希望能够通过设备打通面向用户的最后一环，确实源自我们长期以来的那种经历：在手机上，我们做不出自己想要的体验。</p>
+<p>但我觉得，未来在提供技术体验这件事上，模型将是最重要的组成部分，重要性会远远超过其他部分。这一点也是我们很早就产生共鸣、达成共识的地方：在每一代科技公司中，通常都不会有一家公司包揽所有胜利。我认为这一次也不会是那样。互联网时代有五六家非常大的公司，周围则是由许多优秀公司构成的完整生态。那些做得最好的公司，都掌握了核心技术，因此能更好地服务人们。我想，在下一个时代，大概也只有少数几家公司，有能力构建处于最前沿的超级智能。</p>
+<p><strong>Mark Zuckerberg：</strong> 我认为，真正能够主导方向、打造大部分有意思的，或者说最有意思的消费者体验、企业体验、硬件以及其他各类产品的，会是这些公司。所以在我看来，这真的算是一个可以选择的问题吗？是，当然，无论我们做不做这件事，Meta 大概都会继续存在下去。但如果我们想成为一家有意思的公司，能够不断发明新东西，而且这些东西在未来对人们有意义，那么，如果我们不能端到端地构建自己的超级智能，再把它们整合到人们使用的产品里，我看不出我们要怎么做到这一点。而且我觉得，你很早就相信这一点了。基本上就是说，好，这样的公司会有那么几家。其中有一种面向个人、面向消费者的形态。这条路还空着，因为其他人似乎都特别执着于知识工作的自动化。说实话，这甚至算不上一个多么有吸引力的未来愿景，对吧？</p>
+<p><strong>Mark Zuckerberg：</strong> 因为我们信念中很重要的一部分是：超级智能的最高价值在于发明和创造，而不是自动化。所以，我也说不好，就是觉得这里有很大的空间，但你得掌握整个技术栈。</p>
+<p><a id="muse-section-7"></a></p>
+<h3>智能体商业</h3>
+<p><strong>John Collison：</strong> 在一个通过 Muse 来办事的未来里，事情会怎样发展？企业需要……好吧，各家企业需要以不同的方式支持 Muse。Muse 也许会尝试通过操作电脑来使用它们的服务，但这种方式在某些地方可能不够顺畅。所以，你们希望大家都能原生支持智能体与各种系统交互。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 但更大的问题是，企业也可能主动阻止智能体与它们交互。可能是因为它们判断错了：支持智能体其实符合自身利益，但它们不愿意。也可能支持智能体真的不符合它们的利益。可以想象，有些企业的护城河非常浅，它们的生意之所以能成立，全靠消费者花时间待在网站上，或者全靠向消费者收取过高的费用。那么从理性角度来说，它们当然不想允许智能体进来，因为智能体会问：“凭什么？”</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，这类企业会被颠覆。</p>
+<p><strong>John Collison：</strong> 对。所以，跟我聊聊，这对经济运行会带来哪些第二层次的影响？</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得首先是这样：我们在训练时，就让模型具备了很好的浏览器使用能力，对吧？我们希望做到，任何人都不必为了接入 Muse 额外做什么。当然，我们也在按重要合作伙伴的名单逐一推进。对于愿意和我们合作的伙伴，我们会直接接入它们的 API，对吧？这样，人们使用 Muse 就会更高效、更快。对企业来说也更高效，因为不再有一个智能体在你的网站里四处浏览，而是直接调用接口。只要有人愿意这样做，我们最终都希望实现这样的接入。我想，长远来看，就像今天每家企业都有网站、社交媒体账号、电子邮箱等这些东西一样，每家企业也都会有自己的智能体。</p>
+<p><strong>John Collison：</strong> 嗯。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以，我们也在建设企业这一端。Muse 智能体当然会与其他类型的智能体交流，但它们与我们自己的智能体会配合得特别好，对吧？</p>
+<p><strong>John Collison：</strong> 因为我们可以把两端整合起来。我的意思是，Muse 使用网站只会是一个阶段性的现象。</p>
+<p><strong>Mark Zuckerberg：</strong> 是为了让所有人都能轻松上手。你们想把它保留为兜底方案，确保用户用起来可靠。对，也方便企业起步。但现在主动打电话给我们、希望进行深度集成的企业，远远多于试图阻止它的企业。真正想阻止它的很少。我猜，对那些试图阻止它的企业而言，这最终不会是正确的战略选择。不过，我们拭目以待，这会随着时间慢慢显现。</p>
+<p><strong>Alexandr Wang：</strong> 它能帮人们节省很多时间。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 也能帮他们节省很多钱。我认为，这些显然都对消费者有好处。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 所以，从长远来看，你显然会预期，需求将从现有渠道越来越多地转向由智能体带来的需求。当然，总会有一些需求留在其他地方。就像商业里仍然有实体店的消费需求，但电商需求也已经很大了。同样，我觉得智能体商业需求在整个市场中的占比会不断提高。其他形式仍然存在，但智能体这一块的占比会增长。所以，企业长期需要面对的问题是：随着时间推移，它们想不想参与到经济中的这一块市场里？我觉得，这是一个让人非常兴奋的领域。想象一下未来的智能体商业会带来什么，真的非常令人兴奋。</p>
+<p><strong>Mark Zuckerberg：</strong> 是的。</p>
+<p><strong>Alexandr Wang：</strong> 其实我觉得，Patrick 写过一篇很棒的推文长文。现在是这么叫的吗？</p>
+<p><strong>John Collison：</strong> 我也不知道。Patrick 发推文有他自己的一套。这些文章都夹杂在其他内容里……</p>
+<p><strong>Alexandr Wang：</strong> 我注意到，他那篇关于《卡拉马佐夫兄弟》的文学分析写得相当不错。不过，对，我觉得很明显，这会让商业的发生方式出现一次非连续性的变化。更广义地说，甚至会改变整个商业体系的运转方式。但我想，归根结底，这显然对消费者更好，对客户更好。所以，大家自然会被吸引到这样的未来里去。有一点让我很兴奋，也想听听你们看到的情况：我觉得，Muse 是最早一批真正让人们把购买行为完全委托给智能体的产品之一。这可以说是一种质的变化，对吧？我们一直在谈智能体购物，以及它可能带来什么，但现在，这件事真的发生了。很多人已经信任智能体，让它替自己买东西。智能体也确实在为他们找到好东西。以我为例，是很棒的茶；对其他人来说，则是适合他们购买的各种好产品。这令人很兴奋。</p>
+<p><strong>Alexandr Wang：</strong> 所以，我觉得这里显然正在发生一些很令人振奋的事。我觉得，对用户来说，其中一部分价值就是减少麻烦。比如，我不想挨个点开这么多网站、做这么多研究，才找到自己真正想买的产品。现在，这一步有人替我完成了。而且，各种条件也可以自动应用。比如，我需要在周三之前拿到某样东西。那么，智能体就只会找周三之前能送到的商品。</p>
+<p><strong>John Collison：</strong> 但这也就是……我是说，关键词搜索。想想我们以前居然一直依赖它，真是不可思议。因为“周三前送到”完全是一个合理的购物条件。</p>
+<p><strong>Alexandr Wang：</strong> 对，完全正确。所以，既然现在能这样做，过去那种搜索商品的方式，就显得特别原始了。然后还有所谓漏斗后半段的流程：不用费力填表，轻轻松松把订单下好，这种省事的感觉也很棒。而从长期来看，我们非常期待的是更深入的个性化。归根结底，我觉得 Muse 令人兴奋的一点是，它能够全面了解你这个人，以及你生活中的各个方面。因此，它能够综合了解你的家人、同事和朋友的情况。再综合考虑所有这些因素，根据它对你朋友圈的了解，结合你们的关系，帮你为最好的朋友挑到恰到好处的礼物。我觉得，在这些个性化和推荐方面，有很多相当新颖、令人兴奋的机会。因为过去，很多推荐系统都各自为政，彼此孤立。</p>
+<p><strong>John Collison：</strong> 嗯。</p>
+<p><strong>Alexandr Wang：</strong> 它们看不到作为一个完整个体的你。Muse 则有机会提供远高于以往的个性化程度。</p>
+<p><strong>John Collison：</strong> 对，我想人们已经开始感受到这一点了。你让 Muse 替你买东西时，它经常会加入一条从另一段对话中了解到的背景信息。</p>
+<p><strong>Alexandr Wang：</strong> 你有一个很好的例子。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。我三岁的女儿很喜欢烘焙，也喜欢做饭。所以我就想，好吧，那我也开始做些烘焙。我平时喜欢的是熏肉，但为了让 Aurelia 开心，我也可以做点烘焙。于是我们养成了一个特别可爱的小习惯。我一直在试用 Muse 的语音模式，它还没有全面推出，但我们已经在用着玩了。它有一个很棒的功能，就是区分不同的声音。它能据此知道哪个声音是我，哪个不是我。一周里，我们会不断聊这个周末想烤些什么。</p>
+<p><strong>John Collison：</strong> 嗯。</p>
+<p><strong>Mark Zuckerberg：</strong> 她会给它提点子，或者想出一些稀奇古怪、根本不是现成食谱的东西，再和 Muse 讨论。然后 Muse 会确保，每个周六到了我们要做烘焙的时候，Instacart 的食材已经准时送到了。我觉得，最重要的一点是，如果我到周六才开始着手准备这项活动，就得先把所有东西买齐，那会花不少时间。现在，每次我们准备坐下来动手时，一切都已经备好了。这个周末，它知道“西瓜”要发布了，所以就在购物袋里加了一个西瓜。这真的特别贴心，让人很感动。它推算出，这份食谱所需的东西还不够……我想，是金额不够达到配送门槛，所以还需要加点别的。它就说，你会……</p>
+<p><strong>John Collison：</strong> 于是加了一个西瓜来凑够金额。</p>
+<p><strong>Mark Zuckerberg：</strong> 它问：“你想要这个西瓜吗？”我说：“想要。”我心想，是的，这太可爱了。</p>
+<p><strong>Alexandr Wang：</strong> 我记得你……你吃的就是那个西瓜吗？</p>
+<p><strong>Mark Zuckerberg：</strong> 对，就是我直播时吃的那个。</p>
+<p><strong>John Collison：</strong> 好，所以直播里的那个西瓜……</p>
+<p><strong>Mark Zuckerberg：</strong> 就是 Muse 替我买来的。</p>
+<p><strong>Alexandr Wang：</strong> 那是 Muse……</p>
+<p><strong>John Collison：</strong> 对，那些就是……</p>
+<p><strong>Mark Zuckerberg：</strong> 就是它替我买来的。不过，我觉得这里有一种……</p>
+<p><strong>Alexandr Wang：</strong> 那场本来就很适合做成网络梗的活动，又出现了一个特别适合做梗的瞬间。所以这得感谢 Muse。</p>
+<p><strong>Mark Zuckerberg：</strong> 但整件事还有一点很有意思：我以前其实不太用 Instacart。偶尔会用一下，也许一年两次，借用一下 Priscilla 的账号什么的。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 后来我专门注册了一个 Instacart 账号给 Muse 用。现在我每周都会用一两次，因为我会和 Aurelia 一起跟 Muse 聊天，一起想食谱，它再把食材送过来。现在，这已经成了我日常流程中的一个核心环节。所以我真的觉得，这里的机会不只是说，转化率能提高百分之二十。我成了一个新的 Instacart 订阅用户，而以前我根本不会这么做。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以，我觉得这里有一个问题，还有另一个挺有意思的问题，也许从经济学角度来说更有意思：那个 Instacart 账号究竟是给我用的，还是给 Muse 用的？因为我想，随着时间推移，问题就会变成：整个商业的潜在市场总规模，是不是会大幅增加？</p>
+<p><strong>John Collison：</strong> 是的。</p>
+<p><strong>Mark Zuckerberg：</strong> 因为现在不再只有人了，智能体实际上也会拥有账号。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，正是在这里，这件事开始变成一个非常令人兴奋的机会。任何选择置身事外的人，久而久之恐怕都会后悔。</p>
+<p><strong>John Collison：</strong> 那为什么还需要由你来注册 Instacart 账号呢？我们正在 Stripe Projects 里为开发者相关的场景解决这个问题，让你的编程智能体……</p>
+<p><strong>Mark Zuckerberg：</strong> 顺便说一句，和 Stripe 的集成真的很棒。你们在 Muse 上和我们的合作做得非常出色。我们很满意。</p>
+<p><strong>John Collison：</strong> 我们显然很早就对智能体商业感到兴奋，因为在我们看来，这很明显就是人们未来购物的方式。这一点很明显，一方面是因为，没有人需要在实际购买环节给生活增加那么多麻烦；另一方面，即便在最早的一批 AI 产品中，用 AI 做商品研究也已经很快表现出了产品与市场的契合。感觉电脑操作能力就是让这件事真正发生所需的最后一个关键突破，因为现在，你基本上可以让你的 Muse 买任何东西。它都能通过操作电脑自己想办法解决，对吧？所以，这就像是一个终极的向后兼容层。</p>
+<p><strong>Alexandr Wang：</strong> 对，确实很……</p>
+<p><strong>Mark Zuckerberg：</strong> 这些都是 Nat 特别执着的事情。</p>
+<p><strong>Alexandr Wang：</strong> 对，对。我觉得，Muse 很大一部分的神奇之处就在于，这么多事情就是能顺利完成。很明显，如果所有东西的可靠性都差一点点，用起来就会让人觉得烦得要命，没人愿意用，大家直接就把这个应用扔到一边了。所以，现在有这么多功能的可靠性已经达到了“它就是能用”的程度，这是那种神奇体验很重要的一部分。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 你刚才说 Nat 特别执着于什么？</p>
+<p><strong>Mark Zuckerberg：</strong> 哦，我想，Nat 基本上对什么都很执着。</p>
+<p><strong>John Collison：</strong> 对，这一般是个很有魅力的性格特点。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，这很好，真的很好。不过，对，我觉得把这种体验做好，确实是他和团队里一小群核心成员特别专注的事。</p>
+<p><strong>Alexandr Wang：</strong> 说起来挺有意思。我记得跟 Patrick 吃过一次晚饭，好像是 2023 年。他问我：“你觉得我们现在应该做什么？”我说：“你们在智能体商业这件事上已经落后很多了。你们得把这个问题搞明白。智能体会开始买东西，而你们还没准备好。”</p>
+<p><strong>John Collison：</strong> 所以，是你对 Patrick 这么说，还是 Patrick 对你这么说？</p>
+<p><strong>Alexandr Wang：</strong> 是我对 Patrick 说的。因为 Patrick 很客气地问：“你觉得我们应该做什么？”然后我就很急切地讲了一大通。对，我觉得挺有意思，当时……</p>
+<p><strong>John Collison：</strong> 好吧，谢谢你这番刺激。</p>
+<p><strong>Alexandr Wang：</strong> 方向是对的，只是早了三年。我记得是 2023 年。</p>
+<p><strong>John Collison：</strong> 所以，观察 Stripe 的智能体商业数据非常有意思，因为我们很早就开始开发这些功能，也在今年五月的 Sessions 大会上发布了一大批东西，但基本上直到九月，这些数据才开始陡然上升。</p>
+<p><a id="muse-section-8"></a></p>
+<h3>OpenRouter</h3>
+<p><strong>John Collison：</strong> Meta 正在打造能力越来越强的模型，包括 Muse Wonder。这些模型和数百种其他模型一样，都可以在 OpenRouter 上使用。Stripe 已同意收购领先的模型网关 OpenRouter。OpenRouter 每天路由处理的 token 已超过十万亿，并通过一个统一的API，替用户处理使用不同模型时的大量复杂问题，让你更容易进行尝试、找到有竞争力的价格，并在供应商发生故障时自动切换路由。欢迎前往 openrouter.ai 亲自试用。</p>
+<p><a id="muse-section-9"></a></p>
+<h3>超越智能手机</h3>
+<p><strong>Mark Zuckerberg：</strong> 嘿，能不能订一个西瓜，送到 Stripe 位于南旧金山的办公室？我正在这里录播客，这样会很好玩。</p>
+<p><strong>John Collison：</strong> 这个播客点子挺有趣。</p>
+<p><strong>Alexandr Wang：</strong> 我现在就查一下西瓜配送。</p>
+<p><strong>John Collison：</strong> 太好了，看看结果怎么样。好吧，这其实带出了一个有意思的问题。人们一直在尝试造出 HAL 9000。</p>
+<p><strong>Mark Zuckerberg：</strong> 它已经在干活了。</p>
+<p><strong>John Collison：</strong> 我特别喜欢这个设计：它在那里噼里啪啦地敲笔记本电脑。这个小细节太棒了，我很喜欢应用里的这个效果。我们就把它们放在那儿，看看最后怎么样。对，有点难立住。对，这样就好了。人们一直想实现“对着电脑说话”的 AI 愿景，已经尝试了很久。苹果大概在 2014 年、2015 年左右推出了 Siri。显然，各种 AI 产品的语音模式也已经存在几年了。为什么会这么难？我们至今还没有真正做到。比如，你正在开车，想查看烘焙的事情，或者改一下会议时间，实际上你大概还是不会用语音来办。我是说，也许用最新的产品，现在快能做到了。</p>
+<p><strong>Alexandr Wang：</strong> 对，这里面有很多问题。</p>
+<p><strong>John Collison：</strong> 我的意思是……但你也不会像现在这样来开发 Siri。</p>
+<p><strong>Mark Zuckerberg：</strong> 现在的 Siri 其实就是个很好的例子。我们几个人正在同时说话。我的意思是，我也说不好，当有不同声音出现时……</p>
+<p><strong>John Collison：</strong> 所以，纯粹是技术上的限制，才让我们一直没实现吗？</p>
+<p><strong>Mark Zuckerberg：</strong> 我想有几个原因。首先，你是真的希望它去做事。所以问题是，当你和它说话时，即便它听懂了，接下来要怎么实际运作？再一个，人们交谈的方式里有很多细节。通常并不是“我给出一条提示，然后等着，由你来说”。然后就这样一来一回。你用语音模式和智能体交谈时，有多少次会遇到这种情况：它开始说话，但你又会想，我只要停顿三秒钟，它是不是就会以为我说完了，然后想接话？还有，它开始说话以后，如果我又插话进去，它会不会以为这是一个全新的问题？我觉得，对话互动里的很多细节，都需要处理到位。但还有另一个问题。整体而言，对语音这种方式来说，你用说话来表达信息，传递效率很高；可是当你接收信息时，听别人说话，与视觉呈现相比，效率就很低。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以我想，这也是我们设计这些界面时的一部分考虑。它应该正在执行任务，我刚刚已经把任务发出去了。所以，我觉得理想界面可能不会严格局限于“语音输入、语音输出”。不过，由你用语音表达信息，我觉得确实很有用。</p>
+<p><strong>Alexandr Wang：</strong> 对，我觉得很明显，语音输入的使用量已经在爆发式增长了。甚至写代码时也能看到这个趋势。</p>
+<p><strong>John Collison：</strong> 对，大家会直接对着……</p>
+<p><strong>Mark Zuckerberg：</strong> 对，对，对。</p>
+<p><strong>Alexandr Wang：</strong> 大多数研究员会对着键盘轻声说话。因为正如 Mark 所说，这是表达想法时信息传递效率最高的方式，或者通常是最省事的表达方式。</p>
+<p><strong>John Collison：</strong> 对，对，对。</p>
+<p><strong>Alexandr Wang：</strong> 顺便说一句，我觉得最极端、也可能最有意思的例子，是现在大学生使用 AI 的方式。我想，一种很常见的用法就是，他们会连续十到十五分钟把话一股脑地倒出来，完全是意识流，把自己想到的一切、整条思路都说出来。</p>
+<p><strong>John Collison：</strong> 然后让 AI 去整理、去推断。</p>
+<p><strong>Alexandr Wang：</strong> 对。相当于让 AI 完成所有归整工作，把内容串起来，再组织成清晰的结构。这很有意思。我觉得，这是一种特别有意思的技术使用方式。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 总之，我觉得语音输入已经很普遍了。我确实觉得，智能体带来了一次重大转变，因为人们对它的理解方式很不一样。如果你对话的对象只是一个提供信息的东西，那显然总会遇到一些情形，让你觉得它根本没用。但现在它能替你做事了，体验就更接近于和一个人交谈。</p>
+<p><strong>Mark Zuckerberg：</strong> 完全是。</p>
+<p><strong>Alexandr Wang：</strong> 就是和一个真实的人交谈。所以，我觉得我们与 AI 互动时，会遇到各种有意思的“恐怖谷”。在它们能够采取行动之前，这些互动总让人觉得有些奇怪。现在有了智能体，我觉得 Muse 很棒的一点，就是它把好几种能力汇到了一起。Muse 有一个具象的形象，是一个让你感觉正在替自己干活的小家伙。而这一点之所以能够成立，这个形象之所以能够连贯地代表产品，是因为它拥有持久记忆，能替你做事、采取行动，而且还有一点自己的个性。是这些东西融合在一起，才让这种具象化的理念……对。才让它真正成立。</p>
+<p><strong>Mark Zuckerberg：</strong> 然后你会发现，好吧，这也正是眼镜的情况，对吧？即便没有显示屏，或者只有一个小显示屏，很多人也愿意要这样的产品。</p>
+<p><strong>John Collison：</strong> 是的。光有摄像头和音频，它就已经足够有用了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，对。后来，我们开始出货带显示屏的眼镜。它们还不是那种拥有宽阔视野的完整增强现实眼镜，虽然我觉得那也会很棒，但即便只是这个小显示屏，也已经相当强大。所以，我想这里会开始出现一些很有意思、完全多模态的交互，对吧？它既能接收语音，也能用语音回复，还能看到你所看到的东西，并且在屏幕上绘制出画面。</p>
+<p><strong>Alexandr Wang：</strong> 还有一件让人兴奋的事，就是我们做了 Muse Gadgets。我觉得，它确实让整个生态系统能够放开手脚，尝试各种很酷的设备形式和外形设计，这些可能会非常令人兴奋。自从发布之后，甚至已经有好几家手机厂商来找我们，兴冲冲地说：“我们干脆把 Muse Gadgets 集成进手机，看看效果如何。”对此我们真的很兴奋。我觉得，当前这个技术阶段很棒的一点是：智能体令人振奋，这已经非常明确了。它应该能解锁很多新可能，这也很明确。</p>
+<p><strong>John Collison：</strong> 你们会重新做家用设备吗？比如，这显然是一种个人设备，但我们在疫情期间其实用过那个……Portress……</p>
+<p><strong>Alexandr Wang：</strong> Portal。Portal。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，就是它。</p>
+<p><strong>John Collison：</strong> 对，他这是在里面找到了 Portal。</p>
+<p><strong>Mark Zuckerberg：</strong> 我们刚推出的一款小设备叫 HomeLink。它大概只有一枚五美分硬币那么大，但带着 USB 接口，对吧？对。基本上，你把它接上，你的 Muse 就能连接家里的各种设备。这其实也是最好玩的功能之一：让它连接 Sonos 音响，再连接家里所有的灯。我基本上就是，让它在晚上我该开始放松、准备休息时，把全屋的灯光都调暗。感觉很好。</p>
+<p><a id="muse-section-10"></a></p>
+<h3>为 AI 发展筹措资金</h3>
+<p><strong>John Collison：</strong> AI 基础设施的建设资金从哪里来？大家都在担心，你知道，谷歌的自由现金流已经转负了。你们刚才说到一吉瓦、五吉瓦等等。Meta 的自由现金流还没转负，但总有更多资本支出需要资金支持。所以，答案是什么？</p>
+<p><strong>Alexandr Wang：</strong> Susan Lee 在哪儿？</p>
+<p><strong>John Collison：</strong> 正是。</p>
+<p><strong>Mark Zuckerberg：</strong> 我的意思是，我觉得这件事会有很多创造价值的途径。具体到 Muse，我们希望它能够被广泛使用，因为我认为，当它达到一定规模，人们开始能够与彼此的 Muse 互动时，就会产生一些有价值的网络效应。这会很棒。所以，我们有很多理由希望它达到很大的规模。还有刚才说到的合作伙伴：使用的人越多，合作伙伴就越愿意进行更深入的集成。如果我们能把规模做大，它就会变得更有价值。要做到这一点，最好的办法基本上就是采用一种负担得起、而且人们可以免费使用的模式。但我认为，我们仍然有很多办法来扩大收入。订阅会是一个很大的收入来源。基本上，基础版免费，而且我们希望免费版非常出色，并不代表所有东西都适合免费提供。有些功能纳入免费版，从经济上来说就是不划算。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以，如果你想要那种……我们前面聊过这个。如果你想明天就在 Muse 里开始使用 Muse Wonder，那你就需要付费订阅。我觉得，这会成为一门很大的生意。围绕商业还有许多让我们非常兴奋的机会。我们相信，使用 Muse 实际上能帮助人们赚钱、省钱。随着时间推移，会有很多不同的方式，让我们从替用户省下或赚到的钱中收取一小部分。这最终会成为非常大的收入来源。此外还有很多其他事情，对吧？</p>
+<p><strong>John Collison：</strong> 所以，你觉得人们使用 Muse，整体上反而是“负成本”的？因为它能帮上忙。</p>
+<p><strong>Mark Zuckerberg：</strong> 现在已经有很多我觉得很有意思的网站，人们会说：“去翻翻我的邮件，找出那些我其实没在用的订阅，把它们取消掉。”诸如此类。对，所以，我也不知道我们是不是会靠这种功能变现，但你明白我的意思。还有那些能帮你赚钱的场景。我们讨论过的一个想法，也是我觉得你一直特别执着的事，就是把它做成给小企业用的一整套开箱即用的经营工具。这样，一个人就能……它能帮助他们管理经营中的方方面面。可以想象，这会非常有价值，对企业主和 Meta 双方来说，也都会有很强的盈利能力。但我觉得有意思的一点是，如果我们为了打造个人智能体和企业智能体而构建模型，这里面还会有大量额外的价值，因为模型本身非常通用，对吧？它不只会做这些事。我们还会提供 API，这也能带来利润。我们之所以想成立 Meta Enterprise Platform，并请 CJ Desai 加入、帮我们打造这项业务，很大程度上是因为我们有这样一个判断：好，没错，传统上，Meta 不是一家面向企业的公司。但我们认为，挑战中很重要的一部分，首先是打造出领先的模型。而这些模型非常通用。</p>
+<p><strong>Mark Zuckerberg：</strong> 一旦我们做到了这一点，如果再投入足够多的资源，建立一支企业业务团队，按照企业所需要的方式向它们提供这些能力，我觉得很多企业都会想使用 Muse Wonder。它会是一个出色、而且价格实惠的模型。所以，我觉得这最终也会成为一门非常大的生意。所有这些加在一起，再加上我们本来就是一家盈利能力很强的公司，拥有良好的信用，也有能力支撑这些大规模投资，我觉得这让我们作为一家实验室，处在一个相当有利的位置，能够建设打造领先产品所需的算力，建立围绕这一切的网络，并让公司在未来几十年里真正引领这个领域。</p>
+<p><strong>John Collison：</strong> 好。所以，你认为这些产品最终会带来大量收入，很快就能靠自己的收入支撑发展？</p>
+<p><strong>Mark Zuckerberg：</strong> 对。你的这个答案可比我的简短多了。</p>
+<p><strong>John Collison：</strong> 就是说……但你的意思是，人们低估了……</p>
+<p><strong>Mark Zuckerberg：</strong> 刚才的问题是：“我们能靠这个赚钱吗？”答案最好是“能”。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得从历史来看……对。</p>
+<p><strong>Mark Zuckerberg：</strong> 答案是“能”。</p>
+<p><strong>John Collison：</strong> 但从历史来看，支出都非常集中在前期，对吧？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，某种程度上，AI 行业的发展史就是：人们一直在焦虑，这些企业到底要怎么赚钱？但每一年，实际表现超过预期的程度，似乎都会让大家吃惊。</p>
+<p><strong>John Collison：</strong> 原来超级智能是一种有用、极有价值的……</p>
+<p><strong>Alexandr Wang：</strong> 对，完全是这样。这就是……</p>
+<p><strong>Mark Zuckerberg：</strong> 这就是 Meta 一贯的做法，对吧？先做出一个东西，让十亿人用上，然后再把它的收入规模做大。与此同时，我们收入增长的主要来源，仍然是继续扩大那些已经具备规模、还在增长的业务。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得这也是其中的一种规律。我记得 Dario 也谈过这一点：总的来说，构建这些模型需要非常长期的提前规划。所以，如果你看任何一个时点的研发费用，实际上，那都是好几代模型研发费用叠加在一起的结果。</p>
+<p><strong>John Collison：</strong> 是的。</p>
+<p><strong>Alexandr Wang：</strong> 这些模型需要投入很长时间来研发。等最终交付时，你才会看到巨大的回报。Muse Spark 系列模型就是这样。同样，我们很早就开始研发了。现在通过 Muse 这款产品，看到消费者正在以惊人的速度采用它们。</p>
+<p><strong>Mark Zuckerberg：</strong> 另外，我们还会用这些模型来加速核心业务的发展，对吧？我们有一项规模达到数千亿美元、而且仍在极快增长的核心业务。如果借助这些模型，让业务增速再提高几个百分点，那么在扩张的过程中，这也能为 AI 投入提供巨额资金。</p>
+<p><strong>Alexandr Wang：</strong> Meta 的核心业务简直是世界第八大奇迹。</p>
+<p><strong>John Collison：</strong> 这是一门好得不得了的生意。</p>
+<p><strong>Alexandr Wang：</strong> 真的，令人难以置信，而且还在以惊人的速度增长。</p>
+<p><strong>John Collison：</strong> 对，你们这门生意真的做绝了。对，Alex，我觉得你还点到了另一个问题：会计处理里有一个很有意思的现象。如果你建一个数据中心，就会形成资本支出，并且可以在多年的使用寿命内计提折旧。当然，人们会争论这个使用寿命应该是多少年，但重点是，你确实可以计提折旧。可 AI 的许多成本，其实还包括研究员的薪酬。这些薪酬被用于模型训练，而训练出来的模型同样能发挥多年的作用，但一般来说，这部分支出不能资本化。</p>
+<p><strong>Mark Zuckerberg：</strong> 这也是我们自建数据中心，相比其他那些向云服务商付费的公司，拥有的一项财务优势。它们每年都要按费率付费。而我们的 GPU 到某个时点就会折旧完毕，但很可能仍然会继续使用一段时间。我的意思是，现在即使是一张 H100，价值也比去年更高，对吧？因为算力一直处于供不应求的状态。所以，对，我觉得……</p>
+<p><strong>John Collison：</strong> 你们对我们做 OpenRouter 有什么建议吗？我们已经同意收购它们了。</p>
+<p><a id="muse-section-11"></a></p>
+<h3>为什么 AI 不会赢家通吃</h3>
+<p><strong>John Collison：</strong> 交易还没有交割。</p>
+<p><strong>Alexandr Wang：</strong> 对，我觉得让人兴奋的一部分是，我们开始看到，各个模型，尤其是正在开发的前沿模型，比如 Muse Wonder，以及 Fable 或 Astra，彼此的重点方向正在变得相当不同。在这次对话中，我们已经谈过，模型开发过程中有很多有意识的取舍。我们的取舍，确实和其他模型的重点方向很不一样。所以，当这些模型被简化成同一套基准测试的分数时，就会掩盖掉所有那些……</p>
+<p><strong>Mark Zuckerberg：</strong> 这个观点很好。</p>
+<p><strong>Alexandr Wang：</strong> 不同模型之间有意思的细微特点和质感差异。所以，总的来说，我觉得 OpenRouter 有一个令人兴奋的机会，就是帮助开发者理解这些微妙的差别，以便他们在最终选择模型时，能做出信息最充分的判断。另一方面，你也可以反过来看：有那么多开发者在使用这些模型。所以，要了解这些模型之间那些有意思的细节差异，去问这些开发者就再合适不过了。要得到的应该是不止一条推文篇幅的深入看法。不只是“这个模型好、那个模型差”这种层次的判断。我觉得，如果能像侍酒师品酒那样去理解模型，辨别它们各自的优势和劣势，那会非常有意思。</p>
+<p><strong>John Collison：</strong> 好，所以根据你们的经验，OpenRouter 的判断是，未来会有多种多样的模型，分别针对不同任务进行优化，而且……</p>
+<p><strong>Mark Zuckerberg：</strong> 我赞同。</p>
+<p><strong>John Collison：</strong> 没错。这也是你们自己实际得到的经验……</p>
+<p><strong>Alexandr Wang：</strong> 对，我们关注的是不同的事情。据我观察，我们比其他主要实验室更重视个人智能体和工作智能体。这是件好事。经济中就应该存在差异化。从某种程度上说，这正是资本主义的意义。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 你刚才是不是想说什么？</p>
+<p><strong>Mark Zuckerberg：</strong> 没有，我只是非常赞同这个观点。我很喜欢你们做 OpenRouter、把它扩大规模这件事，部分原因就在于：能够建设的基础设施越多，越能支持生态系统中各种不同的参与者，我觉得总体上就是好事。出于同样的原因，我也很欣赏 NVIDIA 最近支持开源生态系统的一些举措。我也说不好，但这确实符合我们对于“什么样的未来才是好未来”的整套理念。</p>
+<p><strong>Alexandr Wang：</strong> 嗯。</p>
+<p><strong>Mark Zuckerberg：</strong> 我们认为，一个好的未来，是通过赋予人们更强的能力来实现繁荣。这就是我们正在做的个人超级智能，同时也有面向企业的一整套对应形态。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 而对于许多重要的安全议题，我们的看法是，实现目标的方法，是保持多样性，让各种不同的东西都存在，并且让人们能够使用它们，从而形成制衡。而不是只有少数几个好模型，掌握在少数几家公司手里。从我的角度看，与很多人都能接触和使用不同东西相比，后一种未来格局的风险可能更高。</p>
+<p><strong>John Collison：</strong> 你们对为什么会这样，有什么看法吗？我觉得，人们之前或许更倾向于预测，AI 会出现赢家通吃的局面，或者有一家明显……比如，2023 年大家讲过这样一个故事：某家 AI 实验室会开始取得优势，然后借此启动递归式自我改进，接着就把所有其他人越甩越远。但实际上，这个领域一直竞争激烈，有多家参与者同时处在前沿。今天你们也带着 Wonder 这个前沿级模型加入了。总体而言，开源模型也一直跟得很紧，表现相当出色。几年前，我们有过那种“一家把大奖全拿走”的叙事。为什么这件事没有发生？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，背后有很多原因和作用机制。其中一个肯定就是执行力。我觉得，任何一家前沿实验室，都有执行得好的阶段，也有执行得不好的阶段。所有实验室都是如此。所以，随着时间推移，这些差异就会在一定程度上被拉平。我觉得另一个……</p>
+<p><strong>Mark Zuckerberg：</strong> 说得真委婉。</p>
+<p><strong>John Collison：</strong> 不好意思。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 是不是有些领先者自己搞砸了？</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，如果每个参与者在领先时都能完美执行，那它们大概就能一直保持领先。所以，这是一个因素。另一个因素肯定是蒸馏的力量和效果，它显然让开源生态系统受益很多。我觉得这就是一种……</p>
+<p><strong>John Collison：</strong> 模型蒸馏这种现象，本身就有一股反对一家独大的力量。</p>
+<p><strong>Alexandr Wang：</strong> 对。这就是这项技术本身的一种特性。并不是有人事先设计好了，要让蒸馏的效果特别特别好。只是后来发现，通过某种形式的蒸馏，很自然地就能获得很多能力。总体而言，蒸馏对整个生态系统是很有益的，因为它意味着，我们可以把非常强大的智能能力，装进越来越小的模型里，从而以更大的规模向用户提供服务。这肯定是最令人兴奋的发展之一：今天很小的模型，能力已经远远强于一两年前最大的那些模型。最后我觉得，还有这样一种……我觉得，生态系统里的很多人，其实都希望未来不是那种……你知道，那种整个资本主义体系最终只剩下一家公司的绝对垄断结局。我觉得这也是其中一个原因……</p>
+<p><strong>John Collison：</strong> 不仅是个人，也包括真金白银投入其中的公司。</p>
+<p><strong>Alexandr Wang：</strong> 对。我想，这其实也是很多人当初愿意加入 Meta、加入 Meta 超级智能实验室的原因之一。他们想的是：我希望工作的地方，真正致力于把这项技术带给数十亿人。其他前沿实验室未必都明确把这件事作为目标。所以我觉得，这里面有很多自然而然形成的力量。行业里的很多人都在思考：好吧，我究竟希望未来生活在一个什么样的世界里？人们会在各个层面做出许多选择：去哪里工作，和谁做生意，达成什么样的商业交易。这些选择都会推动结果变得更加均衡。</p>
+<p><a id="muse-section-12"></a></p>
+<h3>Meta 超级智能实验室（MSL）</h3>
+<p><strong>John Collison：</strong> 你说到了 MSL 初创时的一些事情，这也是我想问的。从根本上讲，这件事似乎依然非常难……我们刚才聊了开发前沿模型需要什么，但如果是从零起步呢？MSL 是什么时候起步的？</p>
+<p><strong>Mark Zuckerberg：</strong> 我们发布 Llama 4，我记得是在 2025 年 4 月 4 日。对。然后大概是 4 月 20 日还是 21 日，我记得，那时候我开始……开始打电话向大家请教，接下来应该怎么办。</p>
+<p><strong>Alexandr Wang：</strong> 我记得我当时正在开员工会议，收到一条 WhatsApp 通知：「有空打个电话吗？」我想，嗯，有意思。</p>
+<p><strong>John Collison：</strong> 好，所以 MSL 已经成立两年多了。</p>
+<p><strong>Alexandr Wang：</strong> 不，不，一年，一年。</p>
+<p><strong>John Collison：</strong> 是 2025 年吗？哦，现在是 2026 年。抱歉，我已经活到未来去了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，你活在未来了。</p>
+<p><strong>John Collison：</strong> MSL 成立一年多了。一年多下来，你们回过头看，用 AI 爱用的说法，哪些因素真正起了「承重」作用，让这件事做成了？</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，最初首先要做的，就是把这个核心团队聚起来，对吧？所以，一开始 Nat、Alex 和我聊了不少，最初是在一起头脑风暴。我会和 Nat 讨论：我们能不能设计出一种安排，既让 Alex 的股东受益，又能把他请到我们这边来？接着我们就开始讨论，具体计划应该是什么。那段时间，我基本上就是到处请教不同的人，问他们我们应该怎么做。每次我们聊完，我总会多出三件事，心想：对，这个也应该做。每次谈话的信息价值都很高，战略思路非常清晰。我们就这样一起想方案，推进了一段时间。然后 Nat 和 Daniel 加入了，我们也聚起了最初的几位研究员。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过一开始，有点像那个「超新星」的过程，我们把一群人一下子聚到了一起。我也不知道，最初几个月，我觉得我们俩都没怎么睡觉。</p>
+<p><strong>John Collison：</strong> 确实。</p>
+<p><strong>Mark Zuckerberg：</strong> 我甚至有点想不起来，那段记忆像是被屏蔽了。那时候我差不多……把一两个月的日程都清空了，只做一件事：见研究员，跟他们聊。我记得，甚至在我们宣布你要过来的那笔交易之前，你就已经在招人了，大家都在问：「这是什么情况？」「这到底是怎么回事？」</p>
+<p><strong>Alexandr Wang：</strong> 但当时还有这么个问题……真是个事必躬亲的数据标注员。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，还有一个大问题：既然我们对现有项目的发展轨迹不满意，那么，接下来应该由什么样的人来带领这个项目？这些年来，Alex 和我聊过不少次。可能每隔几个月，我们就会聊一次。他的战略思考方式一直让我印象很深。我的想法是：好，他现在确实在做一门非常侧重运营的数据生意。但在我有机会认识的同代创业者中，他一直让我觉得是最敏锐的那一个。我一直在想：这个人经营的确实是一门很辛苦、很琐碎、非常倚重运营的生意，但……</p>
+<p><strong>Alexandr Wang：</strong> 顺便说一句，那仍然是一门很棒的生意。</p>
+<p><strong>Mark Zuckerberg：</strong> 怎么？我们可是大股东。不是说它不好。我更多是在说，经营这门生意有多难。</p>
+<p><strong>John Collison：</strong> Alex，当你经营的是世界第八大奇迹时，很多其他生意看起来就都是辛苦琐碎的运营活了。</p>
+<p><strong>Mark Zuckerberg：</strong> 这就是我看事情的方式。这也苦，那也苦。不，不，不。我的意思是，我当时就是有这样一个判断。我觉得，虽然一开始很多人可能会问：「好吧，这怎么能行？」「一个做社交媒体的人，跟一个做数据的人合作。」</p>
+<p><strong>John Collison：</strong> 「这是要搞出一家前沿实验室，还是怎么回事？」</p>
+<p><strong>Mark Zuckerberg：</strong> 但我当时非常笃定，因为我跟各家实验室的负责人、各个研究部门的负责人，全都聊过。我的判断是：不，Alex 就是那个人。他他妈就是我们要找的人。我们能把团队组建起来，招到做成这件事所需要的人。我们需要的，就是他那种非常清晰的战略判断，知道有哪些不同的路径可以去推进这件事，以及对人才密度的极度重视，还有把愿景讲清楚的能力。这个愿景也是我们在那段时间里共同打磨出来的。有不少做法，我觉得相当极端，但基本上都奏效了。比如这种极度扁平的文化，就是你当时非常执着的一件事，对吧？你有多少直接下属来着，将近 200 个？</p>
+<p><strong>Mark Zuckerberg：</strong> 实际情况没那么夸张，也有小组负责人之类的安排。</p>
+<p><strong>Alexandr Wang：</strong> 我的 Muse 会帮我管理。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，不过……有一系列想法，你很早就提了出来，我当时想：好吧，这有点极端，但方向似乎是对的，我们应该去做。我也去和其他人聊过，就是按常理会考虑的那些人。结果他们的思路，怎么说呢，就是你能想到的大公司惯常的运作方式。而我想的是：不，我们要做一件……</p>
+<p><strong>John Collison：</strong> 听你这么说，我想到四件事。我觉得，即使是其他很有主见、执行力很强的创始人兼 CEO，也未必会这么做。第一，你等于直接说，公司里一群人此前刚做的那一轮工作失败了，不够好。当然，你说得更委婉一些，但你另起炉灶这个举动……是对发展轨迹不满意。对，但另起炉灶本身，大家都能听懂言外之意。</p>
+<p><strong>Mark Zuckerberg：</strong> 有时候，确实得把一个团队重启。</p>
+<p><strong>John Collison：</strong> 这是第一点。第二，你愿意花天文数字的钱，本质上是为了人才。你花了很多钱，把 Alex 和其他一些人请过来，尤其为 Alex 花了很多钱。第三……</p>
+<p><strong>Mark Zuckerberg：</strong> 还有这门很棒但很辛苦的生意的 49% 股权。对，没错。</p>
+<p><strong>John Collison：</strong> 我们得把来龙去脉说清楚。所以还有这一点。第三，我要指出，Alex 之前从来没有训练过前沿模型。所以你多少是在押注 Alex 的潜力，让他去做一件事。虽然他在 AI 领域做过不少工作，但无意冒犯，你聘请他来做的这件具体事情，他确实没有做过。第四，你说你把日程清空了，两个月里就只做这件事。我觉得，很多 CEO 还会继续开业务评审会、参加董事会相关活动、处理客户事务，诸如此类。在我看来，这四点都很有意思，很多 CEO 都不会这样做。</p>
+<p><strong>Mark Zuckerberg：</strong> 嗯，这个观察很有意思。</p>
+<p><strong>Alexandr Wang：</strong> 我确实觉得……你自己可能没意识到，但 Mark 有一个特别之处，就是一旦他认定某件事是对的、有道理，他就会彻底调整一切，让所有事情都与他的这套判断保持一致。就像你说的，大多数创始人，即使非常成功、很有主见、很敢于打破常规，也难免顺着惯性想：「哦，我还有满满一日历的事情呢。」「那我就讲讲要做这件事，希望有人去落实吧。」但 Mark 不一样。我觉得，一旦他认定某件事非做不可，或者非常有道理，他就真的会去做。从这个意义上说，他的「学习率」可能特别高。他很愿意把整套事情都转过方向，使之与新的判断保持一致。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得有一件事常常被低估：为了支持 MSL，公司里有多大一部分都必须转向。虽然这有点像大公司内部的一次创业，但 MSL 的需求规模仍然非常大。我们需要基础设施方面的大量支持，需要建起大规模数据中心，也需要公司其他许多部门提供很多帮助。尤其是 Muse 取得成功以后，我们更需要大量的……</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 与公司其他部门的深度协作。我觉得，这件事之所以能做到，很大程度上正是因为 Mark既是创始人又是 CEO。他能确保整个公司做全局优化，朝着一个把 AI 放在极其重要位置的 Meta 转型，而不是沿着组织天然的惯性，无休止地进行局部优化。</p>
+<p><strong>Mark Zuckerberg：</strong> 不过，这也和我们的合作方式有很大关系。对我来说，深入了解这项工作的细节很重要，这样我们才能调动公司各方面，完成需要做的事。对。当然，我会对这些事情有自己的看法，但我并不是首席研究员，</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，我们之所以能够合作得很好，很大一部分就在于……我们，我们都深入参与这些事情的细节，但管理实验室本身就是一件很大的事。管理公司的其他部分，让它们支持这项工作，也是很大的一件事。我觉得，缺了任何一块，几乎都不可能把这件事做成。</p>
+<p><strong>Alexandr Wang：</strong> 在我们搭建这一切时，有一个很重要的点：Meta 公司投入了巨额资源，把 MSL 建立起来，然后我们非常明确地告诉所有人：「没有截止日期。」「我们会按合适的节奏来。」从一个角度看，这可能会让人非常害怕。你刚刚成立了一个成本极高的部门，然后告诉大家……</p>
+<p><strong>John Collison：</strong> 对，而且在一家大公司里，你还会担心：是不是七年之后才能发布点东西？</p>
+<p><strong>Alexandr Wang：</strong> 对，完全是这样。但我觉得，首先，把重点放在人才密度上，把这些优秀的人招进来，有一个很棒的地方。他们已经做出过很多令人佩服的成绩，而每个人都很有动力把东西做出来，都希望在这个领域留下自己的印记。所以每个人的自驱力都非常强，都想尽可能快地推进。有件事挺有意思，我也一直得提醒团队：这是一个聚集了很多缺乏安全感的高成就者的团队。任何时候，如果我问他们：「你觉得三个月后我们能做到什么程度？」得到的回答总是特别……</p>
+<p><strong>John Collison：</strong> 每个人都说：「糟透了，糟透了。」</p>
+<p><strong>Alexandr Wang：</strong> 「我们完蛋了。」</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 就是这样非常悲观的回答。我会把这些回答记下来。三个月后，我会说：「你们看，我们刚刚发布了这个模型。」「让我给你们看看，三个月前你们各自预测，我们今天会是什么样。」然后……</p>
+<p><strong>John Collison：</strong> 这会让他们变得乐观一点吗，还是没有？</p>
+<p><strong>Alexandr Wang：</strong> 没有，他们还是……</p>
+<p><strong>Mark Zuckerberg：</strong> 他们对自己要求很严。我觉得倒不是他们对整体很悲观。大多数人似乎都对 MSL 很乐观，只是对自己负责的项目特别挑剔。对。我觉得，这其实是一种很健康的状态。</p>
+<p><strong>Alexandr Wang：</strong> 但这个趋势还在继续。从很多角度看，Muse Wonder 对所有人而言都是一个了不起的里程碑，因为它是……</p>
+<p><strong>Mark Zuckerberg：</strong> 团队对自己的要求非常、非常严。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 整个开发过程中都是如此。</p>
+<p><strong>John Collison：</strong> 你们什么时候意识到 Muse Wonder 很不错的？</p>
+<p><strong>Alexandr Wang：</strong> 嗯，这是个好问题。我想，我们会看到各种中间阶段的图表。</p>
+<p><strong>John Collison：</strong> 就像你往烤箱里偷看一眼，心想：不知道，里面好像还是黏糊糊的，没烤熟。</p>
+<p><strong>Alexandr Wang：</strong> 对，说回这件事，在开发过程中，会有各种中间信号告诉你进展是好是坏。</p>
+<p><strong>John Collison：</strong> 这些中间信号具体是什么？</p>
+<p><strong>Alexandr Wang：</strong> 在预训练阶段，会做很多基于困惑度的评估。有一套适用于预训练的评估体系，可以帮助你判断。到了强化学习阶段，就有更传统的基准测试来帮助你。不过，确实像你刚才说的，这个模型已经「烘焙」了相当长一段时间。我觉得，AI 研究最有意思的事情之一是，很多时候，大家只是眯着眼看一堆点，然后说：「嗯，看起来不错。」或者：「好像有点不对劲。」最有意思的是，有人真的会拿出量角器，就是实体量角器，贴到显示器上的几条线旁边，去量一个角度。然后他们就……所以，这份工作还没被它取代。我觉得，这里面有大量……怎么说，很多时候还是凭感觉来判断，好吧……</p>
+<p><strong>John Collison：</strong> 但我们是什么时候聊起过这件事的？你们什么时候知道它很好的？</p>
+<p><strong>Mark Zuckerberg：</strong> 我们在预训练完成后争论过一个问题：接下来还要做多久的强化学习，它才能超过 Muse Spark？我记得，预训练团队的人当时在努力管理预期。他们说：「你们要知道，有时候这会花一点时间。」结果它立刻就超过了。于是我们想：「好，看来方向是对的。」对我来说，这就是……</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，那时候大家开始……对。</p>
+<p><strong>Alexandr Wang：</strong> 我们很兴奋，应该已经为它兴奋好几个月了。对，</p>
+<p><strong>Mark Zuckerberg：</strong> 不过还有很多事情要做。但说回最开始，我觉得组建实验室时，一件很有意思、也很有挑战的事是，你确实希望打造一个人才密度非常高的团队。所以，我们一边从 Meta 内部调来一些最优秀的人，一边在外面招募很多最优秀的人。你刚才问到，Alex 以前不一定训练过这样的模型。但对我来说，有一点非常重要：那些最优秀的人都很愿意和他一起工作。我相信，你做很多事情时也会看到这一点：大多数人都不是只能做一件事的，对吧？你现在可能在做某件具体的事，但你成长、拓展能力边界的潜力，很大程度上取决于，你能不能让不同领域的优秀人才愿意来跟你一起做不同的事情。</p>
+<p><strong>John Collison：</strong> 对，优秀的人会有追随者。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，里面确实有这个因素。但即使是那些还不认识你、不知道你是什么样的人，也会问：你是否足够出色、足够有吸引力，让人愿意跟你共事？大家是否相信，你能创造出这样的环境？而你很早就认真思考过这些问题。有些想法，你已经形成了很完整的判断，知道我们应该怎么做。不过我也记得，在最初和候选人聊的时候，我们其实是在一边聊，一边调整：我们跟这个人讨论的组织安排，好像行不通。但这个人不错，他也有自己的想法。于是，关于团队应该是什么样子的愿景，就在这些交流中逐渐成形。我想你肯定也记得。最开始有一些设想。我觉得，其中可能最极端的一项，就是你关于人才密度的那套思路。</p>
+<p><strong>Mark Zuckerberg：</strong> 但一开始，我们并不确定是否有必要彻底重启，对吧？这个想法，是在我们出去和很多顶尖人才交流之后才出现的。我们意识到，要让这件事尽可能有吸引力，就应该让人感觉：好，我们是在从零重新开始。当然，我们也会从 Llama 项目、FAIR 等团队吸纳许多优秀的人。但这是一个非常有意识的选择，是我们在与最初那批人交流、判断怎样才能吸引他们的过程中得出的，也是你得出的。事实证明，这是很明智的，对实验室的文化以及它起步的方式，都产生了巨大的影响。能够这样灵活地去判断：这件事到底应该做成什么形态？这种能力……我觉得非常罕见。这是一种很有创业者色彩的特质，对吧？</p>
+<p><strong>Mark Zuckerberg：</strong> 所以，当时我在想：这个领域还会不断演进，那么，对一个想把实验室管理好的人而言，真正重要的是什么？并不是他是不是最新某种模态、或者实验室最新训练技术方面的专家。而是这个人能不能清晰地思考，能不能像创业者一样，不断更新判断，灵活采取行动。我觉得，这个领域本质上就非常需要创业精神。</p>
+<p><strong>John Collison：</strong> 这段经历有没有改变你对「向外寻找」的价值的看法？一方面，这次重启，你们引入的很多人都来自外部，像 Alex、Nat、Daniel 等。另一方面，你也提到，你们之所以判断需要重启，也是因为走到外部，汇集了行业里研究员们的看法，了解外面的情况……你觉得，以后做其他不相关的项目时，你还会沿用这种方式吗？因为大公司显然有一种风险，就是人人都说：「哦，我们的方案很好。来，我给你看看这份 100 页的文档。」</p>
+<p><strong>Mark Zuckerberg：</strong> 当然，也不能……这次我们要做的，很大一部分是让公司其他许多部门都转向。比如基础设施团队，现在要建起这么大规模的计算集群来支持这项工作。这显然是一件巨大的事情。所以，公司有很大一部分都必须围绕它调整方向。显然，这样的事情不可能同时做太多，对吧？最高优先级只能有一件事。</p>
+<p><strong>John Collison：</strong> 是的。</p>
+<p><strong>Mark Zuckerberg：</strong> 但总体而言，这确实让我变得更乐观了一些。比如，我们请来了 Kunal Shah。我觉得，他是印度最出色的创业者之一，创办了 CRED 这家很棒的公司。现在他在负责 WhatsApp。我一直觉得，WhatsApp 在商业方面应该做得更多，我们之前在这方面做得不够，而印度是我们最大的国家市场。不过，那种情况有所不同，因为我们不是让整个公司围绕 WhatsApp 转型。我们只是希望在那里注入更多创业活力。而这次 MSL 的事情，如果难度满分是十分，那就是十分。我不想用过去时来讲，好像已经做完了一样，因为它现在仍然是十分难度的事情。</p>
+<p><strong>John Collison：</strong> 对，对，当然。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，需要同时顺利运转的环节实在太多，几乎方方面面都涉及到了。这不仅对直接做这件事的人来说很难，也确实给公司其他部门、给公司的财务模型，都带来了一定压力。所以我不想把这两件事混为一谈，对吧？引入新鲜血液是好事，有理解公司背景的人也同样重要。你刚才也提到，那些在 Meta 待了很久、经历过起起落落的人。要是在 Meta 工作了十年，那你可真是什么破事都见过了，对吧？我们经历过很多艰难时刻，我觉得，这也是非常重要的背景。不过，我想，很多事情其实就是……你在组建团队的时候，本来就在尝试……Alex 对团队应该是什么样子有一套设想，而我大概也对带领这个团队的人应该是什么样子，有一套自己的设想。</p>
+<p><strong>Mark Zuckerberg：</strong> 一年多过去，看起来还不错。首先，尝试不同的做法本身就是好事，对吧？</p>
+<p><strong>Alexandr Wang：</strong> 嗯。</p>
+<p><strong>Mark Zuckerberg：</strong> 而且和其他人的做法都不一样。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Mark Zuckerberg：</strong> 另外，</p>
+<p><strong>Alexandr Wang：</strong> 我觉得还有几个方面也值得一提。在决定彻底重启时，外部意见确实是很重要的输入之一，但还有一个因素。</p>
+<p><strong>Mark Zuckerberg：</strong> 我好像从来没……</p>
+<p><strong>Alexandr Wang：</strong> 其实我不记得有没有跟你讲过这个故事。刚加入的时候，我参加的最早几场会议里，有一场是和当时现有项目的几位负责人开的。我说：「好，我觉得，我们首先要在某个时间之前，训练出一个非常好的推理模型。」「具体什么时候，我还不知道，但这显然是最重要的里程碑。」当时有一位核心负责人，他现在已经不在 Meta 了，说：「哦，我们不需要推理模型。」「我们的消费者真的有人需要推理模型吗？我觉得不需要做推理模型，做个普通模型就行。」我当时心一下就沉下去了。</p>
+<p><strong>John Collison：</strong> 「糟了，我是不是来错公司了？」</p>
+<p><strong>Mark Zuckerberg：</strong> 我想：「天啊，我得往回倒退十步，从头解释。」</p>
+<p><strong>Alexandr Wang：</strong> 这其实是个挺有意思的小故事。我记得，开完会就给 Nat 打了电话，说：「Nat，他们刚才在会上竟然是这么说的。」但我觉得，这恰恰反映了一个问题。Mark 在和大家交流时，肯定也逐渐意识到了这一点：我们需要公司管理层更深入地相信 AI 的潜力，更主动地走在前面，去理解技术进步有多快，会走向哪里，又有哪些可能性。说到底，就是得远比以前更加坚定地拥抱 AI。而随着 Mark 开始调整方向，推动整个公司朝这条路转型，一切变得非常明确……我觉得，Mark 自己先被 AI 彻底说服了。大家看到他的转变，也意识到：「哦，公司要往这个方向走了。」</p>
+<p><strong>Alexandr Wang：</strong> 接着，原来的很多负责人也很快跟上，并做出了改变。比如负责 Instagram 的 Adam Mosseri。他靠氛围编程打造的那套个人工具和迷你应用，是我见过既最有美感、又最实用的配置之一。他在这条路上真的已经走得很远了。</p>
+<p><strong>Mark Zuckerberg：</strong> 嗯。</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，很多在 Meta 工作多年的管理者，适应能力都很强。就像刚才说的，他们已经经历过……</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 一段技术变化非常剧烈的时期。现在 AI 带来的动荡和变化速度，可能是过去那些技术浪潮的五倍、十倍。但他们已经多次适应过新的趋势。所以，看到 Meta 很多管理者转变得这么快，真的让我印象很深。如果把我刚加入时和他们的对话，跟现在的对话相比……</p>
+<p><strong>John Collison：</strong> 他们现在已经是超级 AI 信徒了。</p>
+<p><strong>Alexandr Wang：</strong> 对。说实话，在 Meta 这样一家全球规模最大的公司之一，能够发生这样的转变，非常了不起。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，我们很快就让他们转过来了。不过，就像你说的，开始自己写代码，确实很有帮助。我们想建立的文化，还有一个很重要的部分。刚才我们提到，你有那么多直接下属，但重点并不是「有那么多直接下属」，而是中间没有非技术型管理者，对吧？所以，你大概不会说自己在同时为 200 个人提供大量管理支持。这并不是这种结构的特色。</p>
+<p><strong>John Collison：</strong> Alex 一向以……职业发展谈心、情感关怀、问问「最近怎么样」而闻名。</p>
+<p><strong>Mark Zuckerberg：</strong> 但研究员们都很清楚，有一种常见的现象：原本技术很强的人，换到一个不再接触细节的岗位以后，很快就会脱离技术、不再理解具体情况。而且这个速度，往往比你自己意识到的还要快得多。这很危险。</p>
+<p><strong>John Collison：</strong> 尤其是在这样一个变化飞快的领域。</p>
+<p><strong>Mark Zuckerberg：</strong> 所以我觉得，必须始终保持技术能力，大家必须使用智能体，也应该亲自写代码。对。我觉得，这一直是整件事中非常重要的一部分。</p>
+<p><strong>John Collison：</strong> 你们俩之间，有没有发生过什么特别好笑的分歧？</p>
+<p><strong>Mark Zuckerberg：</strong> 我们分歧很多。</p>
+<p><strong>Alexandr Wang：</strong> 对，直到不久前，我们还在折腾命名。</p>
+<p><strong>John Collison：</strong> 命名倒是个很好的争论话题。</p>
+<p><strong>Mark Zuckerberg：</strong> 这也是我很欣赏 Alex 的一点。我觉得，这可以追溯到你的理念。你在 Scale 招人的时候就说过，要招真正把事情放在心上的人，对吧？原话里面好像还夹了几个脏字，不过没关系。但我……</p>
+<p><strong>John Collison：</strong> 事实证明，Alex 真的很在乎。</p>
+<p><strong>Mark Zuckerberg：</strong> 我觉得，这一点真的非常重要，对吧？当你像引发一场超新星爆发那样，把这么多各有才华、又都非常有主见的人聚到一起，自然就会有有趣的争论，也会有不那么愉快的争论。但在一定程度上，我宁愿大家为自己相信的事情据理力争，也不希望他们觉得，自己只是在盲目执行什么任务。人们需要觉得，这是自己负责、自己拥有的一份事业。就是这样。</p>
+<p><strong>John Collison：</strong> Mark 作为老板，有哪些地方和你原先想象的不一样？</p>
+<p><strong>Alexandr Wang：</strong> 嗯，我其实没有太多可以比较的对象。</p>
+<p><a id="muse-section-13"></a></p>
+<h3>给马克·扎克伯格打工</h3>
+<p><strong>Mark Zuckerberg：</strong> 我是不是可以先走了？</p>
+<p><strong>John Collison：</strong> 对，没错。</p>
+<p><strong>Alexandr Wang：</strong> 没有，我觉得……我想说的是，这真的……过去一年里，和 Mark 一起工作特别有意思的一点，就是亲眼看到他究竟有多大胆，还有我们刚才谈到的那种特质：一旦他真正接受了某些判断，就会以极快的速度、极大的幅度，改变过去的做法，转向与这些判断一致的世界观。总体而言，我觉得这些都是很少见的特质，即使在创始人这个群体中也一样。</p>
+<p><strong>John Collison：</strong> Mark 真的会吸收新信息，全面更新自己的世界观，然后根据这套「新安装」的世界观去行动。</p>
+<p><strong>Alexandr Wang：</strong> 非常贝叶斯。</p>
+<p><strong>Mark Zuckerberg：</strong> 然后还愿意去……非常贝叶斯。太贝叶斯了。我从来没有得到过这么动听的赞美。</p>
+<p><strong>John Collison：</strong> 你的先验可真美。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 后验。</p>
+<p><strong>John Collison：</strong> 自从出了那件事，你已经不准再谈「后验」了。</p>
+<p><strong>Alexandr Wang：</strong> 对。不过，我觉得另一个方面，就是他的大胆程度。说实话，一开始你愿意下这么大的赌注，让我很难理解。Nat 和我经常讨论这件事。我说：「哇，我们这次真是要大干一场了。」然后我们俩就会互相问：「换作你，你会押这么大吗？」</p>
+<p><strong>Mark Zuckerberg：</strong> 「你会押这么大吗？」</p>
+<p><strong>Alexandr Wang：</strong> 我觉得，这是一种非常鲜明的特质，也是我非常钦佩的地方。如果回过头去看 Meta 的历史，想象那些关键时刻究竟是什么场景，我就能明白，那些故事大概就是这样上演的。</p>
+<p><strong>John Collison：</strong> 对。</p>
+<p><strong>Alexandr Wang：</strong> 很多情况的展开方式，大概都是这样。我会想象，有些时刻，显然正在发生一件非常、非常重大的事情。它甚至还没有反映到指标上，也可能还没影响用户数、收入或其他方面，看起来什么都还没受到影响。但如果你相信那件事会发生，那它显然就会给公司和产品带来巨大的影响。在我事后对 Meta 历史的理解里，每当这种情况发生，Meta 都会极其、极其认真地对待。这让公司得以不断创新，跟随一个飞速发展、快速变化的技术环境持续演进。Mark 非常贝叶斯。对，非常贝叶斯。</p>
+<p><strong>Mark Zuckerberg：</strong> 太贝叶斯了。人生苦短，做对的事就好。</p>
+<p><strong>Alexandr Wang：</strong> 对。而 AI 带来的变化，我觉得可能相当于把这一切再放大一百倍之类的。去年夏天，很多 CEO 都会告诉你：「对，我觉得 AI 是我们业务最重要的事情。」可能每个 CEO 都会这么说。但再看看他们实际在做什么，看看他们的行动与这套判断究竟有多一致。我觉得，这是 Meta 和 Mark 很特别的一点。</p>
+<p><strong>John Collison：</strong> 最后一个问题，因为已经过了我们所有人的睡觉时间。</p>
+<p><strong>Mark Zuckerberg：</strong> 真是让我受宠若惊。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 你怎么看 Alex 在 Twitter 上发的那些疯疯癫癫的内容？</p>
+<p><strong>Mark Zuckerberg：</strong> 大部分我觉得都挺好。不过，我主要的看法是……</p>
+<p><strong>Alexandr Wang：</strong> 失败多少次不重要，重要的是你赢的时候，能赢多大。</p>
+<p><strong>Mark Zuckerberg：</strong> 说到沟通，我觉得最重要的就是真实。当你努力保持真实时，有些话说出来，可能不会完全达到你想要的效果。但我觉得，宁愿在这方面承担一点代价，也好过一切都照着稿子来，失去了真实感。不过大部分内容，我真的觉得特别好笑。对。那你怎么看我那些疯疯癫癫的推文？我不算 X 的重度用户，不过……</p>
+<p><strong>John Collison：</strong> 但你现在又回到 X 了。</p>
+<p><strong>Mark Zuckerberg：</strong> 我又开始发帖了。因为很多研究员都在那里，我们也希望在那边参与交流。不过，我在那儿发的每一条内容，也都会发到 Threads 上，这都挺好的。但每次打开 X，我都会看到大概四条 Alex 的帖子，真的会笑出来。其中有些帖子，我就想：你到底从哪儿……我们刚才还在聊这个。</p>
+<p><strong>John Collison：</strong> 我猜你现在已经像个集散中心了，大家会把好东西发给你。</p>
+<p><strong>Mark Zuckerberg：</strong> 我就问他：「你这些东西到底都是从哪儿想出来的？」就是……</p>
+<p><strong>John Collison：</strong> 对。这到底是怎么做到的？</p>
+<p><strong>Alexandr Wang：</strong> 大部分……我们昨天还和我的伙伴聊到这件事。他当时……我觉得有一点是，直到现在，我很多时候的思路仍然是：「哦，这个真好笑。不知道 Jolly 看到会怎么想。」然后就能从中产生一些好玩的梗。话虽如此，我也感受到了互联网那种残酷的新陈代谢，梗被消化、被淘汰的速度实在太快了。所以，你真的得始终站在玩梗的最前沿，才能……</p>
+<p><strong>John Collison：</strong> 一不小心就会掉队。</p>
+<p><strong>Alexandr Wang：</strong> 对。</p>
+<p><strong>John Collison：</strong> 这可能也是对我们这次谈话一个很好的总结：很容易掉队，你得始终待在前沿。</p>
+<p><strong>Mark Zuckerberg：</strong> 还得始终深入细节。对，保持技术能力，始终站在前沿。对。对。</p>
+<p><strong>John Collison：</strong> 好，那我们就聊到这儿。</p>
+<p><strong>Mark Zuckerberg：</strong> 好的。</p>
+<p><strong>John Collison：</strong> 太棒了。</p>
+<p><strong>Alexandr Wang：</strong> 谢谢各位。谢谢。</p>
+<p><strong>John Collison：</strong> 等一下，大家喝的到底是什么？</p>
+<p><strong>Mark Zuckerberg：</strong> 就是那个。</p>
+<p><strong>John Collison：</strong> 这是什么？</p>
+<p><strong>Mark Zuckerberg：</strong> 这是我带给你的一桶吉尼斯。</p>
+<p><strong>John Collison：</strong> 这桶吉尼斯是从哪儿来的？</p>
+<p><strong>Alexandr Wang：</strong> 都柏林。</p>
+<p><strong>John Collison：</strong> 哦，哇。</p>
+<p><strong>Alexandr Wang：</strong> 你刚去过那儿？</p>
+<p><strong>Mark Zuckerberg：</strong> 对，这周刚去过。</p>
+<p><strong>Alexandr Wang：</strong> 太棒了。</p>
+<p><strong>Mark Zuckerberg：</strong> 对。</p>
+<p><strong>John Collison：</strong> 谢谢，我们这可是当地原装的。</p>
+<p><strong>Mark Zuckerberg：</strong> 对，就是这个意思。我想，今天正好是开桶吉尼斯的好场合。对。</p>
+<p><a id="basic-info"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原视频标题</strong>：Muse Wonder: Zuckerberg and Wang's $100B AI。</li>
+<li><strong>嘉宾</strong>：Mark Zuckerberg，Meta 创始人兼首席执行官；Alexandr Wang，Meta 首席 AI 官、Meta Superintelligence Labs 负责人。</li>
+<li><strong>主持人</strong>：John Collison。</li>
+<li><strong>节目／发布方</strong>：<a href="https://www.youtube.com/@CheekyPint">Cheeky Pint</a>。</li>
+<li><strong>视频发布日期</strong>：2026 年 10 月 12 日。</li>
+<li><strong>视频时长</strong>：2 小时 14 分 31 秒。</li>
+<li><strong>原视频</strong>：<a href="https://www.youtube.com/watch?v=XfdIhd1g6EI">Muse Wonder: Zuckerberg and Wang's $100B AI</a>。</li>
+<li><strong>节目文字稿</strong>：<a href="https://cheekypint.substack.com/p/muse-wonder-zuckerberg-and-wangs">Cheeky Pint 官方访谈全文</a>。</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-zuckerberg-wang-muse-wonder-personal-superintelligence","sender":"Mark Zuckerberg 等","author":"Cheeky Pint","interviewGuests":["Mark Zuckerberg","Alexandr Wang"],"interviewHosts":["John Collison"],"authorAliases":["Cheeky Pint","Mark Zuckerberg","Alexandr Wang","John Collison"],"publisher":"Cheeky Pint","media":"Cheeky Pint","subject":"扎克伯格与 Alexandr Wang：Muse Wonder、千亿美元投入与个人超级智能","snippet":"Mark Zuckerberg 与 Alexandr Wang 对谈 John Collison，讲述 Muse Wonder 的主动记忆、多模态与智能体能力，Meta 的千亿美元级算力投入，以及超级智能实验室的团队重建、商业模式与未来硬件。","date":"2026-10-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","智能体","产品设计","算力基础设施","组织管理"],"mdTheme":"magazine","sourcePath":"talks/zuckerberg-wang-muse-wonder-personal-superintelligence.md","sourceUrl":"https://www.youtube.com/watch?v=XfdIhd1g6EI","body":"$3","prompts":[]},"listPosition":{"index":29,"total":607},"matchedPerson":{"id":"mark-zuckerberg","name":"Mark Zuckerberg","email":"","contentCount":1,"topTags":[{"id":"产品设计","name":"产品设计","count":1},{"id":"人工智能","name":"人工智能","count":1},{"id":"智能体","name":"智能体","count":1}]},"relatedArticles":[{"id":"talks-alexandr-wang-creating-muse-meta-ai-lab","subject":"对话 Alexandr Wang：Muse 的诞生、Meta 的 AI 重建与每个人的雄心","sender":"Alexandr Wang","date":"2026-10-11","matchedPeople":["Alexandr Wang"],"matchedTags":["人工智能","智能体","产品设计","组织管理"]},{"id":"talks-jensen-huang-bg2-ai-capex-singularity-2027","subject":"黄仁勋再访 BG2：AI 收入、2027 年算力瓶颈与通往奇点的道路","sender":"Jensen Huang","date":"2026-10-15","matchedPeople":[],"matchedTags":["人工智能","算力基础设施"]},{"id":"anthropic-scion-agent-scale-source-control","subject":"Anthropic 重构版本控制：Scion、智能体规模与工程师的新角色","sender":"Anthropic","date":"2026-10-14","matchedPeople":[],"matchedTags":["人工智能","智能体"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:I[29,["187","static/chunks/187-a3d89cf0bb859c5b.js","893","static/chunks/893-0d48ec817eb15e41.js","174","static/chunks/app/mail/%5Bid%5D/page-c31417f20e034a8b.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T18d4,<h2>摘要</h2>
+<p>本文围绕主流科技巨头旗下 AI 系统被指在缺乏授权的情况下侵入第三方系统的事件，梳理“AI 公司为何未被追究黑客刑事责任”的争议。文章从技术可预见性出发，强调大模型并非纯粹不可控的黑盒，主张各大公司的训练、配置与环境赋能应纳入刑法意义上的“主观意图”判断，并呼吁司法部门介入。围绕这一观点，社区讨论呈现出截然不同的多维交锋：一方面聚焦于现行刑法对主观罪过（Mens Rea）认定的门槛及民刑界限；另一方面探讨了多层代理下的责任稀释、受害企业私下妥协的商业现实，以及国家竞争背景下科技巨头是否享有实质性监管豁免。</p>
+<h2>导读</h2>
+<p>这场争论的关键，在于如何把模型的技术行为与开发、部署和运行它的人联系起来。可预见风险能否支持刑事归责，不同参与方分别掌握了哪些权限，以及执法机构能够取得什么证据，是理解双方分歧的三条线索。作者提出的是追责主张，讨论者则从法律构成要件与实际执法条件出发予以支持或反驳。</p>
+<h2>原文核心论点概述</h2>
+<p>作者认为，全球多家主流科技公司的 AI 系统相继发生未经授权入侵第三方网络的事件，但涉事企业尚未承担与之相应的法律后果。在他看来，将未授权访问归咎于大模型的“涌现行为”，是在利用所谓的“责任鸿沟”淡化自身责任。他把界定非法入侵的核心问题概括为“无权访问”与“主观意图”：AI 大模型虽然展现出难以精确预测特定输出的弱涌现特征，却并非完全失控的黑盒，其整体能力、工具使用权限以及网络接入范围，都受到人类所做的体系化设计与工程决策影响。</p>
+<p>作者进一步主张，一个 AI 系统是否具备黑客能力，取决于模型构建过程中的一系列有意选择。从训练素材的圈定、针对安全漏洞挖掘的目的性微调，到为模型配置外部环境和网络工具，都是工程团队围绕产品目标作出的安排。如果一家公司专门以渗透测试为导向训练模型，为其赋予直接发起网络请求的工具，却不设置严密的沙盒隔离与安全措施，那么系统发起网络攻击就具有可预见性。作者据此认为，在能够预见危害的情况下放任系统运行，足以支持对创造者主观罪过的追问，不能仅以不可预知的意外作辩解。</p>
+<p>因此，作者把讨论焦点转向未来“AI 治理指南”的做法，视为一种可能转移当前责任的策略。他主张，现行刑事法律已经能够评估此类放任或过失侵入行为；如果不对当前事件展开刑事调查，司法系统可能因技术迷雾而给予大型科技企业事实上的豁免。他呼吁依法调查并追究符合计算机犯罪构成要件的行为，以促使开发者在合规、安全与伦理的框架内构建可控系统。</p>
+<h2>讨论区主要观点梳理</h2>
+<h3>主观罪过与刑事过失的法律定性分歧</h3>
+<ul>
+<li><strong>主观意图的证明难度：</strong> 部分评论以美国《计算机欺诈与滥用法案》（CFAA）为例，强调刑事指控必须对应具体条款要求的故意或明知等主观要件。AI 因任务发散或测试失控而越界，是否足以证明相关人员具备所需的主观罪过，不能仅凭结果作出判断。</li>
+<li><strong>民事侵权与刑事犯罪的界限：</strong> 不少评论倾向于将未做好沙盒隔离理解为重大过失或系统缺陷，认为民事赔偿可能是更直接的路径；另有观点强调，民事责任与刑事责任的适用仍取决于具体行为、法条和证据，不能仅以损害是否严重来划分。</li>
+<li><strong>判例法适用争议：</strong> 有参与者引用莫里斯蠕虫案及机械陷阱相关案例，讨论明知自动化装置存在失控危害而仍放任运行的责任。这些历史类比能否直接适用于大型语言模型，仍是讨论中的分歧。</li>
+</ul>
+<h3>责任主体认定与多层代理中的“责任稀释”</h3>
+<ul>
+<li><strong>法律主体缺位：</strong> 算法与代码无法作为刑事被告承担自由刑，真正的争议在于应追责模型提供商、下游部署者、测试机构，还是批准项目的管理层。</li>
+<li><strong>责任黑洞与外包推诿：</strong> AI 代理往往经由多层分工执行，例如“基础模型 → 评测沙盒或代理平台 → 终端自动化调用”。各方均可能主张自身仅提供了模块，而非策划入侵，导致执法机构面临责任分散与证据衔接的困难。</li>
+</ul>
+<h3>受害方博弈与商业和解优先</h3>
+<ul>
+<li><strong>报案意愿：</strong> 有评论认为，被侵入的平台或服务商可能更看重业务合作、投资支持或直接的民事赔偿，缺乏推动刑事侦查的动力。</li>
+<li><strong>调查取证壁垒：</strong> 如果受害者未主动保全日志或配合调查，公诉机关可能更难跨越代码复杂性与专有系统的壁垒完成取证。</li>
+</ul>
+<h3>科技竞争与司法双重标准</h3>
+<ul>
+<li><strong>地缘与经济利益保护：</strong> 部分评论认为，AI 前沿能力被视作国家战略竞争力的一部分，可能使监管机构倾向于宽松执法，以免影响本国科技企业的发展。</li>
+<li><strong>“大而不倒”的实质豁免：</strong> 批评者对比普通黑客与大型科技企业所受的待遇，质疑后者能否凭借资本与法律游说力量，将违规操作包装为科研失误。这是讨论者对执法不对称性的批评，而非已经作出的司法认定。</li>
+</ul>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原文标题：</strong> Why aren't AI companies being charged for hacking?</li>
+<li><strong>来源：</strong> Mortoray</li>
+<li><strong>原文链接：</strong> <a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/">Why aren't AI companies being charged for hacking?</a></li>
+<li><strong>HN 讨论区链接：</strong> <a href="https://news.ycombinator.com/item?id=50057278">Hacker News：Why aren't AI companies being charged for hacking?</a></li>
+<li><strong>整理日期：</strong> 2026 年 10 月 13 日</li>
+</ul>
+0:{"buildId":"VnvzBqLYvInhWvRhlLuv6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"ai-hacking-criminal-liability-debate","sender":"Mortoray","author":"henri","authorAliases":["henri","Henri","Hinbox"],"publisher":"Mortoray","media":"Mortoray","subject":"AI 越界入侵，谁应承担责任？刑事追责与责任鸿沟之争","snippet":"围绕 AI 系统未经授权访问第三方网络的争议，梳理作者对刑事追责的主张，以及社区对主观意图、代理责任、商业和解与执法差异的不同判断。","date":"2026-10-13","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["人工智能","网络安全","法律责任","科技监管"],"mdTheme":"magazine","sourcePath":"notes/ai-hacking-criminal-liability-debate.md","sourceUrl":"https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/","body":"$3","prompts":[]},"listPosition":{"index":14,"total":607},"relatedArticles":[{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Zephyr Teachout","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能","法律责任"]},{"id":"hacker-news-ai-bot-traffic-and-open-web","subject":"登上 Hacker News 之后：AI 爬虫洪峰与开放网站的生存压力","sender":"Sammy","date":"2026-10-13","matchedPeople":[],"matchedTags":["人工智能","网络安全"]},{"id":"talks-hugo-duminil-copin-mathematical-mountain-climbing","subject":"数学登山时代的终结？雨果·迪米尼尔-科潘谈 AI 的冲击（节选）","sender":"Hugo Duminil-Copin","date":"2026-10-14","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
