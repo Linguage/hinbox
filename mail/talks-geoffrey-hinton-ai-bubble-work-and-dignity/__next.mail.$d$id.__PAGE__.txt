@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[29,["975","static/chunks/975-459f65007612d976.js","413","static/chunks/413-9654c008983da736.js","893","static/chunks/893-dfc5b512597b1999.js","174","static/chunks/app/mail/%5Bid%5D/page-9486d3eb2d96aaef.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T339e,<p><a id="section-1"></a></p>
+<h2>摘要</h2>
+<p>杰弗里·辛顿在 StarTalk 的对谈中区分了两种“AI 泡沫”：一种是技术最终达不到预期，另一种是技术成功了，企业却无法收回投资。他更担心后者所牵涉的社会后果：大量工作被替代，消费者失去收入，政府税基萎缩，而工作带来的尊严也无法仅靠全民基本收入补足。对话同时涉及 AI 竞赛、辛顿获得的奖项，以及这次自动化与过去以机器替代体力劳动的不同。</p>
+<p><a id="section-2"></a></p>
+<h2>概述</h2>
+<p>对谈先从系外行星、科学与宗教的玩笑谈起，随后回顾辛顿的图灵奖与诺贝尔奖，并强调其他 AI 先驱的贡献。话题转入各家公司的竞争、资本市场对 AI 的期待，以及大规模替代脑力劳动可能造成的经济与社会问题，最后讨论全民基本收入的必要性及其局限。</p>
+<h2>阅读目录</h2>
+<ul>
+<li><a href="#section-2">概述</a></li>
+<li><a href="#section-3">正文</a>
+<ul>
+<li><a href="#section-4">太空趣闻、科学与宗教</a></li>
+<li><a href="#section-5">图灵奖、诺贝尔奖与 AI 先驱</a></li>
+<li><a href="#section-6">谁会赢得 AI 竞赛？</a></li>
+<li><a href="#section-7">两种不同的 AI 泡沫</a></li>
+<li><a href="#section-8">这次自动化为什么不同？</a></li>
+<li><a href="#section-9">全民基本收入能解决什么，又解决不了什么？</a></li>
+<li><a href="#section-10">节目简介与相关链接</a></li>
+</ul>
+</li>
+<li><a href="#section-11">基本信息</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/UJ5QpCQ4_34" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<p><a id="section-3"></a></p>
+<h2>正文</h2>
+<p><a id="section-4"></a></p>
+<h3>太空趣闻、科学与宗教</h3>
+<p><strong>节目开场：</strong> 太空小知识：1995 年，我们发现了第一颗真正的系外行星，也就是围绕另一颗仍在燃烧的恒星运行的行星。因此，我现在宣布，所有从 1995 年起出生的人，都属于“系外行星一代”！</p>
+<p><strong>主持人：</strong> 接着，我想引用史蒂文·温伯格的一句话。杰弗里，你知道这句话吗？</p>
+<p><strong>辛顿：</strong> 不知道。</p>
+<p><strong>主持人：</strong> 温伯格说：“世界上总会有好人，也总会有坏人。但要让一个好人去做坏事，就需要宗教。”</p>
+<p><strong>主持人：</strong> 那是因为他们是在以宗教的名义行事。你是以某种东西的名义去做的。</p>
+<p><strong>辛顿：</strong> 我想，此时我们需要承认，我们也有一种宗教。我们管它叫科学。当然，它与其他宗教不同。不同之处在于，它是对的。</p>
+<p><strong>主持人：</strong> 这话可以直接丢下麦克风了！等等，我觉得我们得给杰弗里·辛顿颁个图灵奖。凭他刚才这番贡献，你们觉得要不要再给他一个诺贝尔奖？</p>
+<p><strong>另一位主持人：</strong> 那就和他已经有的那个配成一对。</p>
+<p><strong>主持人：</strong> 对，做成耳环！</p>
+<p><a id="section-5"></a></p>
+<h3>图灵奖、诺贝尔奖与 AI 先驱</h3>
+<p><strong>主持人：</strong> 我在开头漏说了。先生，您在 2018 年获得了图灵奖，这是计算机科学领域极负盛名的奖项。节目开头我们也提到过图灵。首先，恭喜您获奖。但这还不够。</p>
+<p>诺贝尔奖委员会觉得，几十年前从杰弗里的工作中孕育出来的这些 AI 技术，对今天世界发生的一切实在太根本了，必须给这个人颁一个诺贝尔奖。于是，您获得了 2024 年诺贝尔物理学奖。</p>
+<p><strong>辛顿：</strong> 稍微纠正一下：AI 是一大批人共同开创的。尤其是反向传播算法，大卫·鲁梅尔哈特重新发明了它。他患上了一种严重的脑部疾病，英年早逝。他获得的认可还不够。</p>
+<p><strong>主持人：</strong> 谢谢你特地指出这一点。而且，如果一个人已经去世，诺贝尔奖委员会就不会再把奖颁给他。公布获奖名单时，你必须还在世。</p>
+<p><strong>另一位主持人：</strong> 否则就没有奖。</p>
+<p><strong>主持人：</strong> 对。如果是在公布名单之后、颁奖典礼之前去世，还是可以获得奖项，但此前去世就不行。总之，恭喜您。我不是想炫耀我们的播客，不过，您大概已经是我们采访过的第五位诺贝尔奖得主了。</p>
+<p><strong>另一位主持人：</strong> 还不止呢。</p>
+<p><strong>主持人：</strong> 对，我真的不是在炫耀。</p>
+<p><strong>另一位主持人：</strong> 不过这确实很酷。好，继续。</p>
+<p><a id="section-6"></a></p>
+<h3>谁会赢得 AI 竞赛？</h3>
+<p><strong>主持人：</strong> 我有一个追问。刚才我们谈到了末日般的情景，希望那终究不会发生。但人类天生好胜，尤其是在美国。人工智能这场竞赛现在由谁领跑？谁最有可能率先冲过终点，拿到大奖？</p>
+<p><strong>辛顿：</strong> 如果非要让我押注一群人，我大概会选 Google。不过，我过去在 Google 工作过，所以别太把我的判断当回事。我对他们赢得竞赛是有利益关联的。Anthropic 可能会赢，OpenAI 也可能会赢。我觉得微软或者 Facebook 获胜的可能性要小一些。</p>
+<p><strong>主持人：</strong> 我们都知道，不会是 Facebook。</p>
+<p><strong>辛顿：</strong> 你怎么知道？</p>
+<p><strong>主持人：</strong> 看看是谁在经营 Facebook 就知道了，好吗？</p>
+<p><strong>另一位主持人：</strong> 不，关键不在于谁在经营，而在于谁有资源找到合适的人来完成这些工作。杰弗里，接着问一句：无论谁先冲过终点，奖品到底是什么？比别人先到，他们会得到什么回报？</p>
+<p><a id="section-7"></a></p>
+<h3>两种不同的 AI 泡沫</h3>
+<p><strong>主持人：</strong> 等等，先退一步。说说过去一年股市的市值变化。我从媒体报道中得到的印象是，美国股市市值增长的 80%，可以归因于大型 AI 公司的市值增长。</p>
+<p><strong>另一位主持人：</strong> 是的。</p>
+<p><strong>主持人：</strong> 增长的 80%。有没有人想到“泡沫”这个词？</p>
+<p><strong>另一位主持人：</strong> 大家确实就是这么叫的：AI 泡沫。</p>
+<p><strong>辛顿：</strong> 问题在这里。“泡沫”有两种含义。第一种是，最后发现 AI 并没有人们以为的那么好用。它并没有真正发展出取代人类全部脑力劳动的能力，而大多数开发 AI 的人相信，最终会走到那一步。</p>
+<p><strong>主持人：</strong> 那确实是让人害怕的部分。</p>
+<p><strong>辛顿：</strong> 对。另一种泡沫是，企业无法收回投资。在我看来，这种泡沫更有可能出现。据我理解，这些企业都在假设：只要我们率先做到，就能把足以取代大量工作的 AI 卖给客户。客户当然愿意为此付很多钱，所以我们就能赚很多钱。</p>
+<p>但他们没有认真考虑社会后果。如果真的取代了大量工作，社会后果会非常糟糕。</p>
+<p><strong>主持人：</strong> 没错。工作被替代以后，你还想卖产品，却没有人有收入来购买这些产品了。</p>
+<p><strong>另一位主持人：</strong> 对，这是一条会限制自身发展的道路。</p>
+<p><strong>主持人：</strong> 这是凯恩斯主义的看法。还有一个问题是，高失业率会带来大量社会动荡。再往下看，社会就会形成两个阶层：第一层是所有从 AI 中获益的人；第二层则像封建时代的农民一样，因为 AI 而被迫过上那种生活。</p>
+<p><a id="section-8"></a></p>
+<h3>这次自动化为什么不同？</h3>
+<p><strong>主持人：</strong> 我想问一个不只涉及 AI 的问题，因为你对这些问题思考得很深入。自动化刚出现的时候，大家也是这么说的：所有人都会失业，工作会全部消失，社会会走向崩溃。但后来，社会发展出了新的需求和新的事情供人们去做。这就是为什么如今我们不再有 90% 的人口务农。</p>
+<p>我们用机器来完成那些工作，又创造出了其他事情，比如度假休闲产业。</p>
+<p><strong>另一位主持人：</strong> 但那花了几十年，这次所需的时间会短得多。</p>
+<p><strong>主持人：</strong> 是这样吗？所以，杰弗里，问题是不是在于，我们可能会迅速制造出一个失业阶层，而人们失去工作的速度快到社会根本来不及调整？</p>
+<p><strong>辛顿：</strong> 这当然是问题的一个重要方面。但还有另一个方面：用拖拉机替代体力劳动后，所需的人手大大减少，其他人可以转去从事脑力劳动。可是，如果连人类智能也被替代了，他们还能去哪里？当 AI 能以更低的成本、更好的效果完成呼叫中心员工的工作时，这些人还能去哪里？</p>
+<p><strong>主持人：</strong> 对。哦，也就是说，不会再有另一个可以转去做的事情了。</p>
+<p><strong>另一位主持人：</strong> 没有别的事情可转了。就算再开辟一个新领域，AI 也会去做。无论你开辟什么，AI 都能做。</p>
+<p><strong>辛顿：</strong> 你可以用一种有趣的方式看待人类历史：它是一段不断摆脱限制的历史。很久以前，我们受到的限制是，必须担心下一顿饭从哪里来。农业让我们摆脱了这个限制。它带来了许多其他问题，但确实消除了那一种忧虑。</p>
+<p>后来，我们受到的限制是无法去很远的地方。自行车在这方面帮了大忙，之后还有汽车和飞机。我们又摆脱了这一类限制。</p>
+<p>很长一段时间里，我们受到的限制是：思考必须由我们自己来做。我们现在即将摆脱这个限制。但当所有限制都被摆脱以后，会发生什么，并不清楚。像萨姆·奥特曼这样的人认为，那会非常美好。</p>
+<p><strong>主持人：</strong> 所以，我们会成为 AI 的宠物？</p>
+<p><a id="section-9"></a></p>
+<h3>全民基本收入能解决什么，又解决不了什么？</h3>
+<p><strong>主持人：</strong> 倒也不是。有很多人相信全民收入这条路，推动这种想法的运动很多年前就开始了。</p>
+<p>那么，杰弗里，你是否认为，随着 AI 的能力变强，全民基本收入这个理念的“股价”，打个比方说，也在不断上涨？</p>
+<p><strong>辛顿：</strong> 它显得越来越有必要，但也有很多问题。其中一个问题是，很多人的自我价值感来自自己所做的工作，而全民基本收入无法解决尊严问题。</p>
+<p>另一个问题是税基。如果用 AI 替代劳动者，政府就会失去自己的税基。它必须设法对 AI 征税，但大公司不会喜欢这样做。</p>
+<p><strong>主持人：</strong> 我觉得，我们应该让 AI 来解决这个问题。</p>
+<p><a id="section-10"></a></p>
+<h3>节目简介与相关链接</h3>
+<p>尼尔·德格拉斯·泰森与联合主持人查克·尼斯、加里·奥赖利，对谈诺贝尔奖得主杰弗里·辛顿，讨论如果 AI 真正成功，世界会发生什么。辛顿认为，真正的 AI 泡沫不一定是技术失败，而可能是企业押注替代劳动者，却没有正视其后果：人们没有收入购买产品，政府税基崩塌，而全民基本收入也无法弥补尊严的流失。拖拉机曾把人们从体力劳动中解放出来，使他们转向脑力劳动；AI 则在替代思考本身，让人们无处可去。</p>
+<p>本片段选自：<a href="https://youtu.be/l6ZcFa8pybE?si=9QUxOafayDLMoBxm">《AI 是否在隐藏它的全部实力？对谈 Geoffrey Hinton》</a>。</p>
+<ul>
+<li>StarTalk 新书：《Lost in Space: 5,000 Facts for Navigating the Universe》，<a href="https://amzn.to/4cCD19e">Amazon 购买链接</a>。</li>
+<li><a href="https://www.patreon.com/startalkradio">在 Patreon 支持 StarTalk</a>。</li>
+<li>关注或订阅 StarTalk：<a href="http://twitter.com/startalkradio">Twitter</a>、<a href="https://www.facebook.com/StarTalk">Facebook</a>、<a href="https://www.instagram.com/startalk">Instagram</a>、<a href="https://www.tiktok.com/@neildegrassetyson">TikTok</a>。</li>
+</ul>
+<p><a id="section-11"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li>原题：Geoffrey Hinton: The AI Bubble Isn’t What You Think</li>
+<li>嘉宾：Geoffrey Hinton（杰弗里·辛顿）</li>
+<li>主持阵容：Neil deGrasse Tyson、Chuck Nice、Gary O'Reilly</li>
+<li>发布频道：StarTalk Plus</li>
+<li>原视频：<a href="https://www.youtube.com/watch?v=UJ5QpCQ4_34">YouTube</a></li>
+<li>发布日期：2026 年 10 月 30 日</li>
+</ul>
+0:{"buildId":"vqqd2ZHkvKZMdlh7GTQBg","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-geoffrey-hinton-ai-bubble-work-and-dignity","sender":"Geoffrey Hinton","author":"StarTalk Plus","interviewGuests":["Geoffrey Hinton"],"interviewHosts":["Neil deGrasse Tyson","Chuck Nice","Gary O'Reilly"],"authorAliases":["StarTalk Plus","Geoffrey Hinton","Neil deGrasse Tyson","Chuck Nice","Gary O'Reilly"],"publisher":"StarTalk Plus","media":"StarTalk Plus","subject":"Geoffrey Hinton：AI 泡沫并不是你以为的那回事","snippet":"Geoffrey Hinton 与 StarTalk 主持人讨论 AI 泡沫、劳动替代与经济需求，以及工作尊严、基本收入和人类未来面临的难题。","date":"2026-10-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","就业","经济","社会"],"mdTheme":"magazine","sourcePath":"talks/geoffrey-hinton-ai-bubble-work-and-dignity.md","sourceUrl":"https://www.youtube.com/watch?v=UJ5QpCQ4_34","body":"$3","prompts":[]},"listPosition":{"index":4,"total":436},"matchedPerson":{"id":"geoffrey-hinton","name":"Geoffrey Hinton","email":"","contentCount":1,"topTags":[{"id":"人工智能","name":"人工智能","count":1},{"id":"就业","name":"就业","count":1},{"id":"社会","name":"社会","count":1}]},"relatedArticles":[{"id":"talks-hugo-duminil-copin-mathematical-mountain-climbing","subject":"数学登山时代的终结？雨果·迪米尼尔-科潘谈 AI 的冲击（节选）","sender":"Hugo Duminil-Copin","date":"2026-10-14","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-interview-can-companies-like-openai-keep-getting","subject":"OpenAI 这样的公司还能一直逃避责任吗？访谈法学教授 Zephyr Teachout","sender":"Zephyr Teachout","date":"2026-09-30","matchedPeople":[],"matchedTags":["人工智能"]},{"id":"talks-latent-recursive","subject":"人类最后的发明——对话 Recursive 的 Richard Socher","sender":"Richard Socher","date":"2026-09-14","matchedPeople":[],"matchedTags":["人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

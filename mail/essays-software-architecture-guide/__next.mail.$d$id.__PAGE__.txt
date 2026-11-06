@@ -1,0 +1,57 @@
+1:"$Sreact.fragment"
+2:I[29,["975","static/chunks/975-459f65007612d976.js","413","static/chunks/413-9654c008983da736.js","893","static/chunks/893-dfc5b512597b1999.js","174","static/chunks/app/mail/%5Bid%5D/page-9486d3eb2d96aaef.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T21bf,<h2>摘要</h2>
+<p>软件架构关乎系统设计中真正重要的部分，也关乎开发者对这些部分的共同理解。Martin Fowler 强调，好的架构应当支持自身演进，并与编程紧密相连；关注内部质量，能够减少妨碍理解和修改软件的累赘，让新功能交付得更快。文章进一步区分应用架构与企业架构，并讨论跨团队协调的收益、成本及其边界。</p>
+<h2>内容概述</h2>
+<ul>
+<li><strong>架构是什么</strong>：从专家开发者对系统设计的共同理解出发，辨认那些值得持续投入精力的重要部分。</li>
+<li><strong>架构为什么重要</strong>：内部质量影响软件的可修改性，进而影响功能交付速度与缺陷数量。</li>
+<li><strong>应用架构</strong>：应用的边界是一种社会建构，其规模取决于围绕共同目标协作的人群。</li>
+<li><strong>企业架构</strong>：在跨团队协调与分散决策之间权衡，既避免重复劳动和系统割裂，也避免过度集中控制。</li>
+</ul>
+<h2>引言</h2>
+<p>软件行业的人谈论“架构”（architecture）时，指的是一个定义模糊的概念：软件系统内部设计中最重要的那些方面。好的架构很重要，否则，日后增加新功能就会变得更慢、成本更高。</p>
+<p>和软件界的许多人一样，我长期以来一直对“架构”这个词心存戒备，因为它往往暗示着与编程的割裂，还带着过头的自命不凡。不过，我会通过强调这样一点来化解自己的顾虑：好的架构应当支持自身的演进，并与编程紧密交织在一起。我的大部分职业生涯都围绕着这些问题展开：好的架构是什么样的，团队如何创造好的架构，以及如何在开发组织中更好地培养架构思维。本页概述了我对软件架构的看法，并指引你阅读本站更多相关资料。</p>
+<p>这是一份介绍 martinfowler.com 上软件架构相关资料的指南。</p>
+<h2>什么是架构？</h2>
+<p>软件界对于架构的定义争论已久。对一些人来说，架构类似于系统的基本组织方式，或最高层组件之间的连接方式。<a href="https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf">与 Ralph Johnson 的一次邮件交流</a>塑造了我对此的思考。他质疑这种表述，认为没有客观的方法来界定什么是“基本的”，什么是“高层的”；更好的理解是，架构是<strong>专家开发者对系统设计所形成的共同理解</strong>。</p>
+<p><img src="https://martinfowler.com/architecture/ralph.png" alt="Ralph Johnson 在 QCon 演讲"></p>
+<p><em>Ralph Johnson 在 QCon 演讲。</em></p>
+<p>另一类常见的架构定义是“项目早期必须做出的设计决策”。不过，Ralph 对此也有异议。他认为，这更像是<strong>你希望能在项目早期就做对的那些决策</strong>。</p>
+<p>他的结论是：<strong>“架构关乎重要的东西，不管那是什么。”</strong> 乍看之下，这句话似乎平淡无奇，但我觉得它蕴含着丰富的含义。它意味着，对软件进行架构层面的思考，核心在于决定什么是重要的，也就是什么属于架构，然后投入精力，让这些架构要素保持良好的状态。一个开发者要成为架构师，就需要能够识别哪些要素是重要的，认出哪些要素如果不加以控制，就可能引发严重问题。</p>
+<p><a href="https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf"><img src="https://martinfowler.com/architecture/ieee-arch.png" alt="《Who Needs an Architect?》文章配图"></a></p>
+<p>Ralph 的邮件构成了<a href="https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf">我在《IEEE Software》上发表的一篇专栏文章</a>的核心，文章讨论了软件架构的含义和架构师的角色。</p>
+<h2>架构为什么重要？</h2>
+<p>对于软件产品的客户和用户来说，架构是一个不容易把握的话题，因为他们无法直接感知它。然而，糟糕的架构会显著助长累赘代码与结构（cruft）的积累，也就是那些妨碍开发者理解软件的东西。包含大量这类累赘的软件<a href="https://martinfowler.com/articles/is-quality-worth-cost.html">修改起来要困难得多</a>，因此，新功能交付得更慢，缺陷也更多。</p>
+<p><a href="https://martinfowler.com/articles/is-quality-worth-cost.html"><img src="https://martinfowler.com/articles/is-quality-worth-cost/card.png" alt="《Is High Quality Software Worth the Cost?》文章配图"></a></p>
+<p>这种情况与我们的日常经验相反。我们习惯于认为，“高质量”的东西成本也更高。对于软件的某些方面，比如用户体验，情况确实可能如此。但在架构以及内部质量的其他方面，这种关系却是反过来的。<strong>高内部质量能够加快新功能的交付速度</strong>，因为挡路的累赘更少。</p>
+<p>在累赘的积累尚未产生影响之前，我们确实可以在短期内牺牲质量来加快交付；但人们低估了这些累赘会多快拖慢整体交付。虽然这无法客观衡量，但有经验的开发者认为，<strong>关注内部质量，几周内就能获得回报，而不必等上几个月。</strong></p>
+<p><a href="https://martinfowler.com/articles/is-quality-worth-cost.html"><img src="https://martinfowler.com/articles/is-quality-worth-cost/both.png" alt="比较不同内部质量下功能交付进展的图示"></a></p>
+<p><a href="https://martinfowler.com/articles/is-quality-worth-cost.html">阅读更多……</a></p>
+<p><a href="https://martinfowler.com/videos.html#2015-oscon"><img src="https://martinfowler.com/architecture/oscon.png" alt="Martin Fowler 在 OSCON 2015 演讲"></a></p>
+<p>2015 年，我在 OSCON 做了一次<a href="https://martinfowler.com/videos.html#2015-oscon">简短演讲</a>（14 分钟），介绍架构是什么，以及它为什么重要。</p>
+<h2>应用架构</h2>
+<p>软件开发中哪些决策重要，取决于我们所考虑的情境尺度。一个常见的尺度是应用，因此有了“应用架构”（application architecture）。</p>
+<p>定义应用架构时遇到的第一个问题，是“应用”本身没有清晰的定义。我的看法是，<a href="https://martinfowler.com/bliki/ApplicationBoundary.html">应用是一种社会建构</a>：</p>
+<ul>
+<li>开发者视为一个整体的一组代码。</li>
+<li>业务客户视为一个整体的一组功能。</li>
+<li>掌握资金的人视为一项预算的一项工作。</li>
+</ul>
+<p>如此宽泛的定义，使得应用的规模可能有很大差异：开发团队可以只有几个人，也可以有几百人。（你会注意到，我是按照参与人数来衡量规模的，因为我认为这是衡量这类事物最有用的方式。）它与企业架构的关键区别在于，围绕这种社会建构，人们的目标在很大程度上是一致的。</p>
+<h2>企业架构</h2>
+<p>应用架构关注的是某种概念上的应用边界之内的架构，而企业架构（enterprise architecture）考察的是整个大型企业范围内的架构。这类组织通常规模过大，无法把所有软件组织成某种连贯的整体，因此需要在拥有许多代码库的团队之间进行协调。这些代码库彼此独立地发展，其资金来源和用户也各自独立运作。</p>
+<p>企业架构的很大一部分工作，在于弄清哪些事情值得付出集中协调的成本，以及这种协调应该采取什么形式。一个极端是设立中央架构团队，要求企业内每个软件系统的所有架构决策都经过它批准。这样的团队会拖慢决策速度，而且不可能真正理解如此广泛的系统组合中的各种问题，因而容易做出糟糕的决策。另一个极端则是完全不做协调，导致各团队重复劳动，不同系统之间无法互操作，团队之间也缺乏技能发展与相互学习。</p>
+<p>和大多数具有敏捷思维的人一样，我更倾向于分权，因此宁愿驶近混乱的暗礁，也不愿受到令人窒息的控制。但即使选择航道的这一侧，我们仍然必须避开暗礁，并找到一种方式，在尽量扩大局部决策空间的同时，把实际产生的成本降到最低。</p>
+<h2>原文信息</h2>
+<ul>
+<li><strong>原题</strong>：Software Architecture Guide</li>
+<li><strong>作者</strong>：Martin Fowler</li>
+<li><strong>发布日期</strong>：2019 年 8 月 1 日</li>
+<li><strong>来源</strong>：<a href="https://martinfowler.com/architecture/">martinfowler.com</a></li>
+</ul>
+0:{"buildId":"vqqd2ZHkvKZMdlh7GTQBg","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-software-architecture-guide","sender":"Martin Fowler","author":"Martin Fowler","authorAliases":["Martin Fowler"],"publisher":"martinfowler.com","media":"martinfowler.com","subject":"软件架构指南","snippet":"Martin Fowler 从架构的含义、内部质量与交付速度的关系谈起，说明应用架构与企业架构的不同尺度，以及如何在团队自主决策和跨团队协调之间取得平衡。","date":"2019-08-01","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["软件架构","软件质量","软件工程","团队协作"],"mdTheme":"magazine","sourcePath":"essays/software-architecture-guide.md","sourceUrl":"https://martinfowler.com/architecture/","body":"$3","prompts":[]},"listPosition":{"index":402,"total":436},"matchedPerson":{"id":"martin-fowler","name":"Martin Fowler","email":"","contentCount":2,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"写作风格","name":"写作风格","count":1},{"id":"团队协作","name":"团队协作","count":1}]},"relatedArticles":[{"id":"essays-llm-voice","subject":"LLM 腔调","sender":"Martin Fowler","date":"2026-10-29","matchedPeople":["Martin Fowler"],"matchedTags":[]},{"id":"talks-software-fundamentals-matter-more-than-ever-matt-pocock","subject":"AI 时代的软件基本功","sender":"Alex Kantrowitz","date":"2026-04-23","matchedPeople":[],"matchedTags":["软件架构","软件工程"]},{"id":"essays-complexity-cost-centre","subject":"复杂度是一个成本中心","sender":"The Architect’s Notebook","date":"2026-08-30","matchedPeople":[],"matchedTags":["软件架构","软件工程"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

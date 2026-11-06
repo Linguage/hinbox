@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[29,["975","static/chunks/975-459f65007612d976.js","413","static/chunks/413-9654c008983da736.js","893","static/chunks/893-dfc5b512597b1999.js","174","static/chunks/app/mail/%5Bid%5D/page-9486d3eb2d96aaef.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T1dcf,<h1>LLM Voice</h1>
+<p><a href="https://martinfowler.com/bliki/LLM-Voice.html">原文链接</a></p>
+<p>读一篇帖子，有时会越读越觉得这是 LLM 写的，却说不出为什么。Martin Fowler 把这种让人读不下去的感觉称作散文的恐怖谷。他劝作者自己把句子写上：交给模型起草或改写，腔调很难再洗掉。写作对他几乎就是思考。帕金森病、跨语言沟通，以及没人会读的公文，是他留下的例外。</p>
+<hr>
+<p>有时候我读一篇帖子，会渐渐觉得自己读到的是 LLM 的输出。我说不清究竟为什么，尽管那些常见的破绽都在（不是破折号，是那些“承重的挂毯”）。读着读着，我想继续读下去的欲望就萎缩了，有时甚至到了厌恶的地步。</p>
+<p>市面上有些工具，声称分得清 LLM 写的散文和老派的、出自生物之手的东西。我对它们有戒心：一半是怀疑它们准不准，一半是觉得这么做多少没抓到要点。对 LLM 腔调的反应是人的反应，是那种我们正处在散文的<a href="https://en.wikipedia.org/wiki/Uncanny_valley">恐怖谷</a>里的感觉。等我想到要拿个工具来告诉我自己正在读什么，已经太晚了——哪怕它很有把握地说，这里并没有 LLM。</p>
+<p>我也怀疑，自己到底能不能准确地认出 LLM 腔调。语言会随时间变化，抱怨年轻人的说法，本就是上了年纪的常见迹象。我很容易对这样的句子生出反感：什么“adopting a new sales <em>motion</em>”（采用一套新的销售打法），什么“a <em>sharp</em> round-up of news”（一篇“犀利的”新闻综述）。可这些说法我听人嘴里说过，所以这更多是代际差异，而不是碳与硅的差异。（再说，我是移居过来的英国人，美式用语就更别让我起头；我相信我马上就会习惯——momentarily。）</p>
+<p>眼下，我敦促作者对 LLM 腔调格外警惕。我尤其要强烈建议：不要掉进让 LLM 写初稿的陷阱。即便事后由人来改，也很难把 LLM 腔调驱逐出去，于是就引起那种恐怖谷反应。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> 哪怕只是接受它建议的另一种说法，也很危险。我听说有人用 LLM 来拟提纲、定结构，那<em>也许</em>可以，但只能到提纲为止。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> 散文本身，应当由作者自己来填。</p>
+<p>在 LLM 的时代，<a href="https://martinfowler.com/bliki/SayYourWriting.html">《先把文章说出来》</a>（<em>Say Your Writing</em>）这件事更加重要。我习惯先在脑子里把句子说一遍，再写下来（然后再改刚刚写下的东西）。这条建议，对任何一个还希望经常用写作来沟通的人，都尤其要紧。和许多事情一样，学会把文章写好，靠的是大量练习。这门手艺值得花时间去学，可一旦向 LLM 投降，已经有的进步就会被挖空。</p>
+<p>假以时日，LLM 也许会好到我们分不出来。从很多方面看，那更令人担心。和大多数写作者一样，我觉得写作几乎是一种必不可少的思考工具。常常只有写下来，我才能把对一个题目的想法真正理顺。我经常明知自己对一件事还没真正弄懂，就动笔写文章；正是跟字句较劲的过程，逼着我把那些困惑克服掉。当更多人把写作委托给 LLM，他们也会把思考和理解委托给 LLM。我不想那样。那写作的乐趣还在哪里？</p>
+<p>尽管避开 LLM 腔调是一条通则，它却不是绝对的。一个重要的例子是 Jim Highsmith（他也在 martinfowler.com 上写东西）。他发现，为了<a href="https://bjsm.bmj.com/content/60/9/677">克服帕金森病这个祸害</a>，与 LLM 一起工作对他的写作必不可少。我乐意对付 LLM 腔调，以便继续汲取这位老友的智慧。</p>
+<p>更叫人为难的，是翻译。我的许多同事用英语并不自在，那是他们的第二语言，或者第四语言。有些人发现，LLM 翻译是他们与我们沟通时重要的一环——而我们对马拉地语，实在懂得有限。可我还是宁要真人写出来的笨拙文字，也不要流畅却没有灵魂的 LLM 文字。</p>
+<p>也有些场合，即便一个地道的英格兰人把散文交给 LLM 来写，也说得通。比如我要给一位官员写一封格式信，或者准备一份我怀疑根本不会有人读的报告。<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> 也许未来大多数文档只会由 LLM 来读，它们不会有我这种恐怖谷的忧虑。可如果我想和人沟通，我的人性就得从散文里亮出来（或者至少渗出来）。</p>
+<h2>致谢</h2>
+<p>Alessio Ferri、Caer Sanders、Ian Cartwright、Jie Jessie Xia、Joshua Kerievsky、Michael Feathers、Michael Nygard、Scott Davies 和 Wei Zhang 对本文的草稿提出了意见。</p>
+<p>撰写本文时，我没有以任何方式使用 AI 或 LLM。</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LLM Voice / LLM-Voice</td>
+<td>LLM 腔调</td>
+</tr>
+<tr>
+<td>uncanny valley</td>
+<td>恐怖谷</td>
+</tr>
+<tr>
+<td>load-bearing tapestries</td>
+<td>承重的挂毯（看着像装饰，实际却撑住整段意思的套话）</td>
+</tr>
+<tr>
+<td>Say Your Writing</td>
+<td>先把文章说出来</td>
+</tr>
+<tr>
+<td>sales motion</td>
+<td>销售打法（企业用语，不是物理上的动作）</td>
+</tr>
+<tr>
+<td>momentarily</td>
+<td>马上（美式用法；英式多指“短暂地”。作者用这个词自嘲）</td>
+</tr>
+<tr>
+<td>Marathi</td>
+<td>马拉地语</td>
+</tr>
+<tr>
+<td>form letter</td>
+<td>格式信</td>
+</tr>
+<tr>
+<td>cybernetic organism</td>
+<td>控制论有机体</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>很难，但不是不可能。我碰到过一个例子：我确知初稿完全是 LLM 写的，可读到终稿时并没有察觉 LLM 腔调。不过，那篇文章确实得靠一家大型刊物的专业编辑来收拾干净。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>我这个网站的规矩是：凡借助 AI 帮助写作的人，都应当说明自己是怎么用的，通常写在致谢里。一半是为了透明，一半是为了让读者学到一些有用的用法。就我自己而言，我不用 AI 来生成散文，也不用它帮忙组织结构。我把它用于写作的唯一方式，是当作检索工具（但任何信息，我都会回到出处去核实）。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>Michael Nygard 评论道：“在那种情况下，你其实并不是要把一个人的想法传达给其他人。你沟通的对象是一套流程，而不是一个人。也许会有人拆开信封，可那个人只是在充当一个控制论有机体里的组件。” <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vqqd2ZHkvKZMdlh7GTQBg","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-llm-voice","sender":"Martin Fowler","author":"Martin Fowler","authorAliases":["Martin Fowler"],"subject":"LLM 腔调","snippet":"Martin Fowler 把读到 LLM 腔调时的不适称为散文的恐怖谷，并劝作者自己写句子，不要让模型起草或改写。写作对他几乎就是思考；疾病、翻译和无人阅读的公文则是例外。","date":"2026-10-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["大语言模型","写作","写作风格"],"mdTheme":"magazine","sourcePath":"essays/llm-voice.md","sourceUrl":"https://martinfowler.com/bliki/LLM-Voice.html","body":"$3","prompts":[]},"listPosition":{"index":5,"total":436},"matchedPerson":{"id":"martin-fowler","name":"Martin Fowler","email":"","contentCount":2,"topTags":[{"id":"写作","name":"写作","count":1},{"id":"写作风格","name":"写作风格","count":1},{"id":"团队协作","name":"团队协作","count":1}]},"relatedArticles":[{"id":"essays-software-architecture-guide","subject":"软件架构指南","sender":"Martin Fowler","date":"2019-08-01","matchedPeople":["Martin Fowler"],"matchedTags":[]},{"id":"essays-ai-may-be-making-us-think-and-write-more-alike","subject":"AI 可能正在让我们的思考与写作趋于同质化","sender":"Darrin Joy","date":"2026-03-12","matchedPeople":[],"matchedTags":["大语言模型","写作"]},{"id":"talks-interview-model-behavior-george-saunders","subject":"模型行为：George Saunders","sender":"George Saunders","date":"2026-09-30","matchedPeople":[],"matchedTags":["写作"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
