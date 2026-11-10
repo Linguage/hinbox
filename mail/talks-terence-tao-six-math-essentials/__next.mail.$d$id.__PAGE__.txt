@@ -1,0 +1,178 @@
+1:"$Sreact.fragment"
+2:I[29,["975","static/chunks/975-459f65007612d976.js","413","static/chunks/413-9654c008983da736.js","893","static/chunks/893-dfc5b512597b1999.js","174","static/chunks/app/mail/%5Bid%5D/page-9486d3eb2d96aaef.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T4a2d,<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/p2AAz24AzU4" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<p><a id="section-1"></a></p>
+<h2>摘要</h2>
+<p>陶哲轩在 Numberphile 访谈中介绍面向大众的新书《Six Math Essentials》。他谈到如何通过与编辑对话完成写作，为什么与真人交流更容易激发类比，以及怎样把大学课堂上的解释变成普通读者也能理解的文字。他也讨论 AI 对数学研究与数学理解的不同影响，以生态系统比喻纯数学和应用研究的关系，最后聊起阿德莱德、童年与肉馅派。</p>
+<p><a id="section-2"></a></p>
+<h2>概述</h2>
+<ul>
+<li>从数学故事集到六个核心主题：一本书如何在对话与编辑中成形。</li>
+<li>理解读者已有的知识，放慢解释速度，让数学不再令人害怕。</li>
+<li>童年阅读、数学小说，以及 AI 尚未改变的数学理解方式。</li>
+<li>纯数学、应用与好奇心如何共同组成一个生态系统。</li>
+<li>英美拼写差异、故乡阿德莱德，以及一本简短、不吓人的数学书。</li>
+</ul>
+<h2>阅读目录</h2>
+<ul>
+<li><a href="#section-2">概述</a></li>
+<li><a href="#section-3">完整译文</a>
+<ul>
+<li><a href="#section-4">一、介绍这本书</a></li>
+<li><a href="#section-5">二、通过对话写作</a></li>
+<li><a href="#section-6">三、找到自己的声音，也找到与读者的联系</a></li>
+<li><a href="#section-7">四、怎样向非数学专业的人解释数学</a></li>
+<li><a href="#section-8">五、把解释放慢：编辑的作用</a></li>
+<li><a href="#section-9">六、童年阅读带来的启发</a></li>
+<li><a href="#section-10">七、AI 时代，数学书会过时吗？</a></li>
+<li><a href="#section-11">八、公式、图示与对数学的恐惧</a></li>
+<li><a href="#section-12">九、阅读与时间</a></li>
+<li><a href="#section-13">十、数学是一整个生态系统</a></li>
+<li><a href="#section-14">十一、Math 还是 Maths？</a></li>
+<li><a href="#section-15">十二、阿德莱德、肉馅派与结尾</a></li>
+</ul>
+</li>
+<li><a href="#section-16">基本信息与相关链接</a>
+<ul>
+<li><a href="#section-17">书籍与延伸内容</a></li>
+<li><a href="#section-18">节目支持与社区</a></li>
+</ul>
+</li>
+</ul>
+<p><a id="section-3"></a></p>
+<h2>完整译文</h2>
+<p><a id="section-4"></a></p>
+<h3>一、介绍这本书</h3>
+<p>【音乐】</p>
+<p><strong>布雷迪·哈兰（旁白）：</strong> 陶哲轩是一位备受赞誉的数学家，有人甚至认为，他是当今在世最伟大的数学家。现在，他第一次推出一本面向大众的书，书名叫《Six Math Essentials》。我问了他关于这本书的事，聊着聊着，话题竟然变成了肉馅派。不过，我们稍后会聊到那里。</p>
+<p><a id="section-5"></a></p>
+<h3>二、通过对话写作</h3>
+<p><strong>布雷迪：</strong> 陶哲轩是怎么写这本书的？我想你应该不是拿笔手写的那种人，应该是在电脑上打字吧？你怎么写一本书？整个过程是什么样的？你会去哪里，比如跑到树林里的小木屋吗？你是怎么写书的？</p>
+<p><strong>陶哲轩：</strong> 我的编辑托马斯·林帮了很大的忙。我们聊过很多次。我先发给他一些初步想法，大概是一些数学小故事。</p>
+<p>后来，他提出了一个想法：围绕六个简单的主题来组织。我最初想的更像是一部故事选集，但他觉得，聚焦于最基本的东西会是个好主意。我觉得这个框架非常棒。</p>
+<p>最后，我们实际采用的方式就是见面，他带着录音机，我们长时间地聊天。我们深入聊过数，也深入聊过几何。然后把这些对话转写成初稿，再调整各个段落的位置。所以，编辑过程非常充分。</p>
+<p>书上虽然写着我的名字，但对最终文字作出贡献的不止我一个人。书里也感谢了编辑、校对人员和出版方。所以，这真的不是我一个人坐在键盘前敲出来的。</p>
+<p><a id="section-6"></a></p>
+<h3>三、找到自己的声音，也找到与读者的联系</h3>
+<p><strong>布雷迪：</strong> 你回头读它的时候，会觉得这是你自己的声音吗？我读的时候，感觉就像在跟一个人聊天。它有一种明确的声音。你觉得那是你的声音吗？</p>
+<p><strong>陶哲轩：</strong> 那是我和别人交谈时的声音。我注意到，当我独自写作，或者一个人在黑板前思考时，我的思考方式，和我跟你这样的人交流时有点不同。</p>
+<p>比如，你提到类比。我跟别人交谈时，更容易想到类比。不知为什么，独处的时候，我大多只看得到眼前的东西，看不到其他联系。但因为我还需要考虑你的观点，试着进入你的视角，这就会自然而然地帮我发现平时发现不了的联系。</p>
+<p>所以，这种从对话中发展出来的写书方式，确实带出了一些观点。如果只有我和一台笔记本电脑，或者只有我和一个 AI，我可能很难把这些观点表达出来。和 AI 聊天时，我得不到那种灵感，因为我没办法看进 AI 的头脑，AI 也没办法看进我的头脑。</p>
+<p><strong>布雷迪：</strong> 不管恰当不恰当，你显然有这样一种名声：你是“数学界的莫扎特”，你知道吧？</p>
+<p><a id="section-7"></a></p>
+<h3>四、怎样向非数学专业的人解释数学</h3>
+<p><strong>陶哲轩：</strong> 我听说过。</p>
+<p><strong>布雷迪：</strong> 你是这么高水平的天才，是菲尔兹奖得主，思考仿佛处在更高的层次。那么，对你来说，和不是数学家的人谈数学，是一件很容易的事吗？我不想用“降低水平”这个说法，但你觉得，向非数学专业的人讲数学容易吗？</p>
+<p><strong>陶哲轩：</strong> 我已经教了二三十年书。教学的一个重要诀窍，是理解学生的思维状态：他们已经知道什么？哪些是他们应该知道、但还不知道的？</p>
+<p>这里存在一种“翻译”的问题。有个概念对我来说很容易，是因为我知道一些其他事实，借助那些事实，很快就能把它解释清楚。但如果听众不知道这些前提知识，我该怎样解释这个事实？</p>
+<p>我是先解释前面的知识，再一步步搭起来？还是建立一个类比，或者给一个例子？我要怎样重新组织自己对一个概念的思考方式，让它适合某个特定的听众？</p>
+<p>如果你一直在做这件事，随着时间推移，自然会越来越擅长。</p>
+<p><strong>布雷迪：</strong> 可是，你教的学生毕竟还是大学生。他们都很聪明，也懂数学。这本书的门槛感觉比那还要低一些，确实像是写给非数学专业读者的，对吧？</p>
+<p><a id="section-8"></a></p>
+<h3>五、把解释放慢：编辑的作用</h3>
+<p><strong>陶哲轩：</strong> 是的，这对我来说需要付出更多努力。我和编辑录下来的那些对话里，有一些过程不会出现在书中：他有时会提出异议，问：“你能不能把这个地方解释得更清楚一点？”</p>
+<p>他最常做的，就是让我放慢速度。在校对和编辑时，也会遇到类似的问题：“你能解释一下这里吗？这一句推进得太快了。”幕后做了大量编辑工作。</p>
+<p>我觉得，书的第一稿更接近面向本科生的水平。后来，我们有意识地把门槛再降下来。这对我来说确实是个挑战，我不太习惯这样做，但我觉得很值得。</p>
+<p><a id="section-9"></a></p>
+<h3>六、童年阅读带来的启发</h3>
+<p><strong>布雷迪：</strong> 大家都知道，你小时候很快就变得非常擅长数学。不过，你还记得自己小时候读过哪些这个层次的数学书吗？有没有哪本书启发过你，或者是你常读的，甚至给这本书带来了一些灵感？</p>
+<p><strong>陶哲轩：</strong> 有几本科普数学书给我留下了很深的印象。侯世达的《哥德尔、艾舍尔、巴赫》里面充满了非常有创造力的想法，而且还涉及其他领域。还有霍金的《时间简史》，卡尔·萨根的《宇宙》，包括电视节目和书。</p>
+<p>美国数学协会出版过一些很棒的小书，其中有一本介绍各种不同的数系。还有一些经典，比如阿伯特写的《平面国》。那真是一本好书，已经有一百多年历史了，今天读起来依然很好。书里有些社会评论，实际上到现在仍然很有现实意义。</p>
+<p>数学小说是一个规模很小的类型，知道的人不多，但其中确实藏着一些佳作。</p>
+<p><a id="section-10"></a></p>
+<h3>七、AI 时代，数学书会过时吗？</h3>
+<p><strong>布雷迪：</strong> 现在数学领域变化得特别快，AI 以及其他相关发展，大家都看到了。这些变化会不会让你觉得，这本书有些过时了？我看到你在书里有几句话谈到纳维－斯托克斯问题。我想在写下那些话的时候，那个问题还没有被解决。面对事情突然加快的变化速度，你怎么看？</p>
+<p><strong>陶哲轩：</strong> 这本书大部分内容，我想是在去年或者今年年初完成的。AI 确实对它产生了一些间接影响，但这本书讲的并不是最新研究结果。</p>
+<p>我讨论的成果，有的是二十年前的，有的是两百年前的，还有的是两千年前的。这本书关注的是理解、概念，以及我们如何在头脑中描绘这个世界。而 AI 还没有真正影响到这一层面。</p>
+<p>AI 还没有带来一种全新的数学思考方式，或者一种新的洞见。当然，也有零星的例子：AI 生成了某些数学问题的解答，后来人类数学家从中提炼出一个核心概念，把它解释清楚，从而增进了我们对数学的理解。</p>
+<p>但这样的例子非常少。我们还没有经历一场因为 AI 而必须把所有教科书重写的革命。很多前沿研究文献需要改写，可是数学教科书本来就常常落后十年、二十年，到目前为止，还没有发生这种变化。</p>
+<p>也许以后会发生，但不是眼下这一波 AI 所带来的。</p>
+<p><a id="section-11"></a></p>
+<h3>八、公式、图示与对数学的恐惧</h3>
+<p><strong>布雷迪：</strong> 你刚才提到斯蒂芬·霍金的《时间简史》。我记得霍金说过，有人告诉他，书里每多一个方程，销量就会减半。你对公式和图示是什么态度？我注意到，书里有很多图，但公式不多。</p>
+<p><strong>陶哲轩：</strong> 对，只有一两个公式。我们确实认真听取了霍金的建议。</p>
+<p>公式不是重点。大家都见过公式。我们希望通过概念和文字建立联系，基本上就是设法消除那种恐惧反应。我觉得，你只要给一些人看数学内容，这种反应就会自动被触发。</p>
+<p><a id="section-12"></a></p>
+<h3>九、阅读与时间</h3>
+<p><strong>布雷迪：</strong> 你会读很多数学以外的东西吗？你读小说之类的吗？你都读些什么？</p>
+<p><strong>陶哲轩：</strong> 我现在已经没有时间做这些事了。我读的东西越来越短，比如文章、博客。</p>
+<p>我最近读的一本书，我想是《The Proof in the Code》，凯文·哈特内特（Kevin Hartnett）新出的、关于 Lean 的书。那本书很好，但也花了我好几个小时。我现在已经没有那样的闲暇了，不过我很想有。</p>
+<p>说到退休，我今年五十一岁，还没到退休年龄。但把这些责任交给别人，自己在海滩上读书，这种想法的吸引力，确实一年比一年大。</p>
+<p>【笑声】</p>
+<p><a id="section-13"></a></p>
+<h3>十、数学是一整个生态系统</h3>
+<p><strong>布雷迪：</strong> 我读到了一些围绕这本书的介绍，谈到数学与现实世界的联系、数学的应用，以及理解现实世界。你真的认同这种强调吗？</p>
+<p>因为有时候，数学最吸引我的地方，恰恰是它完全抽象，似乎和现实世界没有什么联系。比如，孪生素数是否有无穷多对，看上去并不影响什么。但我很喜欢人们依然在努力弄清楚它。</p>
+<p>所以，你怎样看待这种观点：数学在现实世界中的应用，以及它与现实世界的联系，非常重要？</p>
+<p><strong>陶哲轩：</strong> 科学，以及 STEM，也就是科学、技术、工程和数学，是一个生态系统。</p>
+<p>想想一个普通的生态系统：里面有土壤、昆虫、植物、动物，还有果实。有些东西是我们想要收获的，因为它们能为人类所用，比如树上结出的果实。</p>
+<p>但要得到果实，你需要土壤，需要小虫子，需要传粉者。有时候，你也可以单纯欣赏蝴蝶，并不是因为它们能产出什么有价值的东西，而只是因为它们很漂亮。</p>
+<p>所以，至少在 AI 出现以前，这里面可以容纳各种各样的人。有人研究数学，只是出于审美，或者为了满足好奇心。但在这个过程中，他们也会产生洞见。</p>
+<p>比如，他们研究孪生素数，却可能由此理解素数的某些规律，甚至理解更一般的规律：怎样判断一个序列有没有某种模式？</p>
+<p>接着，也许现实世界里某个信号处理应用，恰好需要大量关于模式以及缺乏模式的洞见。那些钻研素数的数学家，就能以非常间接的方式作出贡献。</p>
+<p>这就是生态系统的一部分。如果你拿走其中一个部分，比如把森林里的蝴蝶拿走，也许不会立刻失去所有果实，或者其他有价值的产物，但确实有某些东西消失了。再过一代，还可能出现一些无法预料的影响。</p>
+<p><a id="section-14"></a></p>
+<h3>十一、Math 还是 Maths？</h3>
+<p><strong>布雷迪：</strong> 陶哲轩总能想出类比，我太喜欢了。【笑声】《Six Math Essentials》。我很高兴看到，这本书在英国，以及我猜在澳大利亚，会叫《Six Maths Essentials》。这件事你有参与吗？还是说，这是根据市场来决定的？</p>
+<p><strong>陶哲轩：</strong> 没有。我自己也经常在英联邦拼写和美式拼写之间摇摆，会根据语境来回切换。所以，在英联邦地区，我们使用英联邦的拼写方式。</p>
+<p><a id="section-15"></a></p>
+<h3>十二、阿德莱德、肉馅派与结尾</h3>
+<p><strong>布雷迪：</strong> 我得问一个私人问题。你和我年龄差不多，你来自澳大利亚的阿德莱德，我也是。你是阿德莱德人，这让我特别自豪。</p>
+<p>你现在还觉得自己和阿德莱德有联系吗？还会回去吗？还是说，那只是你出生和上学的地方？你对那里还留有感情吗？</p>
+<p><strong>陶哲轩：</strong> 我确实会回去，我妈妈还住在那里。那里变化不算太大，倒是有了一座新机场。每次回去，都会涌上一阵怀旧之情。</p>
+<p>不过，我现在很多朋友和家人都在美国。所以，同时属于两个国家，是一种挺奇妙的感觉。</p>
+<p><strong>布雷迪：</strong> 回阿德莱德时，你喜欢看到什么？有没有什么地方，是你开车经过时，就会突然涌起那种怀旧感的？</p>
+<p><strong>陶哲轩：</strong> 嗯，一个像样的肉馅派。在欧洲可吃不到。</p>
+<p><strong>布雷迪：</strong> 我知道，我知道。在英国也很难吃到，找不到一个像样的肉馅派。</p>
+<p><strong>陶哲轩：</strong> 哇，真没想到。</p>
+<p><strong>布雷迪：</strong> 对啊。而且现在 Magic Mountain 也没了。那一直是我最喜欢的地方，可他们把它拆掉了。那就说格莱内尔格海滩吧。</p>
+<p><strong>陶哲轩：</strong> 对，格莱内尔格海滩。</p>
+<p><strong>布雷迪：</strong> 我就是在格莱内尔格出生的。你在阿德莱德的哪里出生？</p>
+<p><strong>陶哲轩：</strong> 布莱克伍德附近。</p>
+<p><strong>布雷迪：</strong> 布莱克伍德附近，真不错。关于《Six Maths Essentials》，你还有什么想说的吗？大家去买就行了？你希望大家买这本书吧？</p>
+<p><strong>陶哲轩：</strong> 是的。它不吓人，而且很短。所以，请试着读读吧。</p>
+<p><strong>布雷迪（旁白）：</strong> 你可以在许多不错的书店买到《Six Math Essentials》，或者《Six Maths Essentials》，当然也可以在网上订购。我会把一些链接放在平常放链接的地方。我是布雷迪·哈兰，这期 Numberphile 播客比平时短一些。</p>
+<p><a id="section-16"></a></p>
+<h2>基本信息与相关链接</h2>
+<ul>
+<li>原标题：Terence Tao's Math(s) Essentials - Numberphile</li>
+<li>节目／发布者：Numberphile</li>
+<li>嘉宾：陶哲轩（Terence Tao）</li>
+<li>主持人／视频制作：布雷迪·哈兰（Brady Haran）</li>
+<li>视频：<a href="https://www.youtube.com/watch?v=p2AAz24AzU4">YouTube 原视频</a></li>
+<li>发布日期：2026 年 11 月 9 日。</li>
+<li>时长：13 分 22 秒。</li>
+</ul>
+<p><a id="section-17"></a></p>
+<h3>书籍与延伸内容</h3>
+<ul>
+<li><a href="https://www.quantabooks.org/books/six-math-essentials/">Six Math Essentials：Quanta Books 介绍与订购</a></li>
+<li><a href="https://link.amazon/B0bCSas3B">Amazon 英国站</a></li>
+<li><a href="https://link.amazon/B0dxNUQxL">Amazon 美国站</a></li>
+<li><a href="https://www.quantabooks.org/books/the-proof-in-the-code/">The Proof in the Code：Quanta Books 书籍介绍</a></li>
+<li><a href="https://terrytao.wordpress.com/">陶哲轩博客</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLY7wcvVEDTvU">陶哲轩此前参与的视频与播客</a></li>
+<li><a href="https://youtu.be/ZNiRzZ66YN0">用肉馅派计算圆周率：Calculating Pie with Meat Pies</a></li>
+</ul>
+<p><a id="section-18"></a></p>
+<h3>节目支持与社区</h3>
+<ul>
+<li><a href="http://www.numberphile.com/">Numberphile 官网</a></li>
+<li><a href="http://www.patreon.com/numberphile">Patreon</a></li>
+<li><a href="https://bit.ly/numberphile-janestreet">Jane Street：节目支持方及职业机会</a></li>
+<li><a href="https://delo.org/">Ben Delo Foundation</a></li>
+<li><a href="https://teespring.com/stores/numberphile">Numberphile T 恤及周边</a></li>
+<li><a href="http://www.reddit.com/r/BradyHaran/">Brady Haran 的 Reddit 社区</a></li>
+<li><a href="http://www.bradyharanblog.com/">Brady 各频道最新视频</a></li>
+<li><a href="http://eepurl.com/YdjL9">订阅偶尔发送的节目邮件</a></li>
+</ul>
+0:{"buildId":"hwa4EBYyD3e3izAXMPk3w","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-terence-tao-six-math-essentials","sender":"Terence Tao","author":"Numberphile","interviewGuests":["Terence Tao"],"interviewHosts":["Brady Haran"],"authorAliases":["Numberphile","Terence Tao","Brady Haran","陶哲轩","陶哲轩（Terence Tao）"],"publisher":"Numberphile","media":"Numberphile","subject":"陶哲轩：把数学讲给每个人听","snippet":"陶哲轩介绍新书《Six Math Essentials》，谈对话式写作、数学理解、AI 的影响，以及从纯数学到日常生活的联系。","date":"2026-11-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["数学","数学教育","写作","人工智能"],"mdTheme":"magazine","sourcePath":"talks/terence-tao-six-math-essentials.md","sourceUrl":"https://www.youtube.com/watch?v=p2AAz24AzU4","body":"$3","prompts":[]},"listPosition":{"index":3,"total":444},"matchedPerson":{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":11,"topTags":[{"id":"人工智能","name":"人工智能","count":10},{"id":"数学研究","name":"数学研究","count":9},{"id":"数学教育","name":"数学教育","count":5}]},"relatedArticles":[{"id":"talks-terence-tao-ai-mathematics-understanding-and-responsibility","subject":"当 AI 解出百万美元数学难题之后：陶哲轩谈数学、理解与责任","sender":"Terence Tao","date":"2026-10-28","matchedPeople":["Terence Tao"],"matchedTags":["数学教育","人工智能"]},{"id":"talks-terence-tao-big-math-futurology","subject":"人工智能能证明吗？陶哲轩谈“大数学”与理论研究的未来","sender":"Terence Tao","date":"2026-10-18","matchedPeople":["Terence Tao"],"matchedTags":["数学教育","人工智能"]},{"id":"talks-terence-tao-no-more-heroes-ai-mathematics","subject":"告别英雄时代：陶哲轩谈 AI 与数学的未来","sender":"Terence Tao","date":"2026-10-15","matchedPeople":["Terence Tao"],"matchedTags":["数学教育","人工智能"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
