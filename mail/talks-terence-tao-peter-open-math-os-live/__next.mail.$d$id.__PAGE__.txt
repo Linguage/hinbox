@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[29,["975","static/chunks/975-459f65007612d976.js","413","static/chunks/413-9654c008983da736.js","893","static/chunks/893-dfc5b512597b1999.js","174","static/chunks/app/mail/%5Bid%5D/page-9486d3eb2d96aaef.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T30e0,<p><a id="section-1"></a></p>
+<h2>摘要</h2>
+<p>在 Caltech 与 SAIR 联合举办的 Mathathon 活动中，Open Math OS 团队介绍了面向数学研究的共享工作环境。陶哲轩随后以威尔逊定理为例，展示如何让多个 AI 智能体协作完成 Lean 证明与 LaTeX 文稿。演示之外，他强调：形式化应当服务于理解，而不是取代理解。研究者仍然需要拆解论证、考察简单例子，并判断哪些工作适合交给工具，哪些需要自己动笔思考。</p>
+<p><a id="section-2"></a></p>
+<h2>概述</h2>
+<p>活动首先介绍平台的三个出发点：开放模型、团队协作与数据自主权。介绍涵盖共享云端环境、多智能体分工、API、文件和 GitHub 同步，以及社区对数据使用和训练授权的控制。后半部分转入现场操作：陶哲轩选择模型与技能，提出形式化任务，观察文件生成，并将一个熟悉定理的演示延伸为对日常数学研究方法的建议。</p>
+<h2>阅读目录</h2>
+<ul>
+<li><a href="#section-3">基本信息</a></li>
+<li><a href="#section-4">现场演示全文</a>
+<ul>
+<li><a href="#section-5">为每支团队准备一间数学实验室</a></li>
+<li><a href="#section-6">把协作、工具与研究过程连接起来</a></li>
+<li><a href="#section-7">数学共同体掌握自己的数据</a></li>
+<li><a href="#section-8">从威尔逊定理开始</a></li>
+<li><a href="#section-9">多个智能体怎样分工</a></li>
+<li><a href="#section-10">形式化之前，先理解问题</a></li>
+<li><a href="#section-11">能做什么，也要知道暂时做不到什么</a></li>
+</ul>
+</li>
+</ul>
+<p><a id="section-3"></a></p>
+<h2>基本信息</h2>
+<ul>
+<li><strong>原题</strong>：Terence Tao and Peter L.: LIVE Math with Open Math OS</li>
+<li><strong>活动</strong>：Caltech × SAIR Mathathon</li>
+<li><strong>出场人物</strong>：Peter L.、陶哲轩（Terence Tao）</li>
+<li><strong>发布方</strong>：SAIR</li>
+<li><strong>时长</strong>：13 分 57 秒</li>
+<li><strong>发布日期</strong>：2026 年 11 月 14 日</li>
+<li><strong>原视频</strong>：<a href="https://www.youtube.com/watch?v=rCZFomL5WBg">SAIR · YouTube</a></li>
+<li><strong>平台</strong>：<a href="https://www.openmathmodel.org/">Open Math OS</a></li>
+<li><strong>活动页面</strong>：<a href="https://competition.sair.foundation/competitions/mathathon">Caltech × SAIR Mathathon</a></li>
+</ul>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/rCZFomL5WBg" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<p><a id="section-4"></a></p>
+<h2>现场演示全文</h2>
+<p><a id="section-5"></a></p>
+<h3>为每支团队准备一间数学实验室</h3>
+<p><strong>Peter L.：</strong> 大家晚上好。开始之前，我想感谢我们的联合主办方 Caltech，以及赞助方 XTX 和 National Compute。</p>
+<p>今天，我主要想向大家介绍 Open Math OS。我们已经为它投入了一段时间。最初的想法，是为数学研究建立一个集中工作的地方。设计这个平台时，我们考虑了三个关键点：使用开放模型，让所有人都能协作，并确保数据自主权。</p>
+<p>因此，我们做出的是一间每支团队都可以直接使用的数学实验室。你可以在团队的云端虚拟机中开展形式化验证、数学计算，也可以写作、绘图；底层使用先进的开放前沿模型，包括 Muse Spark Open、Mistral Large 4、DeepSeek、Kimi、GLM 等。</p>
+<p>它的特别之处是什么？首先，它是团队成员共享的 AI 智能体。这是一个共同的工作空间：不仅你自己，整个团队都可以使用同一个 AI 开展同一个项目，一起下达指令，在彼此工作的基础上继续推进。同时，所有工作都保存在同一个地方，每个人都能访问。</p>
+<p>接下来这一点，大家听起来可能觉得有些有趣：我们加入了 Ultramath。这是一档新的智能体工作强度。在这种模式下，多个 AI 智能体可以分别探索不同的解题路径，互相分享发现，再提交报告，交给主智能体审阅。</p>
+<p>这样一来，不同路径之间可以交流结果，同时避免重复劳动。作为统筹整个过程的人，你也可以看到这些解法，以及有理由支撑的判断。</p>
+<p><a id="section-6"></a></p>
+<h3>把协作、工具与研究过程连接起来</h3>
+<p><strong>Peter L.：</strong> 我们一直很重视的一点，是让 Open Math OS 能接入你已经在使用的工具。因此，我们开放了模型 API 和平台 API。你可以使用 Open Math OS 提供的 API 密钥，在自己的编程工具里调用开放前沿模型；也可以通过代码操作团队、项目、文件和对话，完成在 Open Math OS 中能够完成的事情。这些操作都遵循你已有的权限。</p>
+<p>另一个重要功能是文件浏览与 GitHub 连接。现在，你可以浏览、上传、查找、审阅、编辑和保存文件，还可以连接 GitHub，将仓库同步到最新版本。</p>
+<p>我们同样重视分享结果背后的工作，而不只是分享结果本身。因此，你可以通过一个链接分享对话，让别人沿着你的研究过程查看并验证结果是如何得出的。</p>
+<p>我们希望 Open Math OS 能与社区一起成长。为此，我们采用开放的数学智能体运行框架：平台背后的开源运行时会持续更新，社区可以检查它，也可以在它的基础上继续开发。我们还加入了技能库，可以把它理解为一种扩展库，让你调整 AI 智能体的某些能力和行为。</p>
+<p><a id="section-7"></a></p>
+<h3>数学共同体掌握自己的数据</h3>
+<p><strong>Peter L.：</strong> 最根本的一点，是数学共同体应当掌握自己的数据。这对我们非常重要。Open Math OS 遵循 Open Math Model 的一项核心原则：数学共同体拥有自己的数据，并决定怎样使用这些数据。</p>
+<p>因此，你的数据默认是私密的。不愿意分享，就不需要分享。数据的使用由社区自己治理，工作的署名与功劳仍然属于你。若要把数据用于模型训练，必须事先取得你的同意。</p>
+<p>我们想建立的是一个由社区塑造的平台。大家可以在真实研究任务中使用它，探索它的长处与不足，再把经验、反馈、错误报告和改进建议分享给我们。希望我们能共同塑造接下来的发展，把社区的优先事项带入未来的模型与工具。</p>
+<p>我希望我们能够一起建设 Math 2.0。再次感谢 XTX、National Compute，以及所有其他赞助方。</p>
+<p>最后，有请 SAIR 联合创始人兼主席陶哲轩教授，为大家现场演示 Open Math OS。谢谢。</p>
+<p><a id="section-8"></a></p>
+<h3>从威尔逊定理开始</h3>
+<p><strong>陶哲轩：</strong> 我们昨天刚排练过，今天也许不会那么顺利。不过，这是一次模型实际工作的现场演示。让我先把这个关掉，再打开。</p>
+<p>好，这就是界面。你会有一个团队账号，通过浏览器访问 openmathmodel.org 就能使用。它看起来很像普通聊天机器人的网页界面，打开以后就可以开始。</p>
+<p>你可以选择不同的模型。目前这里接入了大约八个开源模型，我今天使用 DeepSeek Flash。和其他聊天机器人一样，你也可以选择工作强度。这里有专门的智能体模式，也就是 Ultramath，会启动多个智能体。你还可以加载各种技能。</p>
+<p>如果想做形式化……哪一个是形式化技能？好，我们来选 Lean 项目。你可以上传不同技能。然后，就像使用其他聊天机器人那样，用自然语言提出要求。</p>
+<p>举个例子，我们来形式化威尔逊定理。我想在 Lean 中证明威尔逊定理：当且仅当 n 是素数时，(n−1)! 在模 n 的意义下等于 −1。这里我也使用 DeepSeek 子智能体，主模型和子智能体都用 DeepSeek。</p>
+<p>接下来让它运行。它会加载你选择的技能，然后开始思考。界面会展示它的思考过程，看起来挺有意思。运行过程中也会创建各种文件。</p>
+<p>啊，我之前已经创建过这个了。应该把测试时的旧版本删掉，我刚才没有清理好。让我移除之前的版本。</p>
+<p>你可以先建立一个项目，项目会创建目录，后续文件都放在这个目录里。因为这是团队空间，所以所有成员都能访问同一段对话。</p>
+<p><a id="section-9"></a></p>
+<h3>多个智能体怎样分工</h3>
+<p><strong>陶哲轩：</strong> 它正在准备启动智能体群。在哪里看呢？现在还没启动，还在思考。好，接下来它会启动不同的智能体，最多可以同时启动八个。统筹模型会决定给每个智能体分配什么任务。</p>
+<p>除了形式化，我还想要一份用 LaTeX 写出来的 Lean 证明。通常会这样分工：一个智能体先准备证明思路，另一个把它形式化，第三个负责写成文稿。过一会儿，你就会看到文件目录中陆续出现文件。</p>
+<p>如果你以前用过智能体，这个界面应该挺熟悉。好，Lean 文件已经生成了。它似乎已经完成整个任务了。对，它已经把威尔逊定理完整地形式化，还给出了几个例子。</p>
+<p>其中一个智能体选择证明方向，另一个在做形式化。我想，接下来还会安排一个去制作 LaTeX 文件。</p>
+<p>这里的文件界面看起来很像 GitHub。目前还没有直接集成 VS Code 这样的 IDE。如果想用自己喜欢的编辑器，你需要把文件下载下来，再放进自己的编辑环境。不过，至少我们已经支持 GitHub 同步。</p>
+<p>基本流程就是这样。现在，其他智能体正在生成 LaTeX 文件，很快我们就会得到一份 LaTeX 证明。</p>
+<p><a id="section-10"></a></p>
+<h3>形式化之前，先理解问题</h3>
+<p><strong>陶哲轩：</strong> 我选的例子足够简单，语言模型本来就知道证明。因此，它选用了威尔逊定理的一种标准证明。</p>
+<p>但如果你面对的是复杂得多的论证，我不建议一上来就让模型一次性完成整个证明。那样做，你自己学不到多少东西。</p>
+<p>你可以上传一篇论文，请模型概括它，找出关键的子定理，或者先给出一个高层次的表述。进入形式化之前，最好先对结果建立非形式化的理解。形式化更像是最后一步，用来确保各个陈述和整个论证确实正确。</p>
+<p>一般来说，就像没有 AI 时一样，要理解一个结果，你应该先尝试一些例子。比如，某个结果在所有维数下都成立，你可以问 AI：能不能把论证简化到一维情形，把所有只与高维有关的部分去掉？这样，你也许会得到一份更简单的文稿，可以先试着理解它。</p>
+<p>你需要搭起一个骨架，从中提取出几个本身就有意义的关键子命题，先理解它们，再重新组合起来。也就是说，要把任务拆开，然后重新组装。其中相当一部分工作，仍然应当在白板、黑板或者纸笔上完成。</p>
+<p>这些工具很适合帮你把东西整理清楚。假如有一段繁琐的计算，你并不想逐个弄清符号怎样变化，只需要知道结果，那么可以交给工具。但什么时候不该使用它们，也同样是需要学习的事情。</p>
+<p><a id="section-11"></a></p>
+<h3>能做什么，也要知道暂时做不到什么</h3>
+<p><strong>陶哲轩：</strong> 以上就是一个很简短的工具演示。这些开放模型的能力，还没有赶上当前最前沿的模型。粗略地说，大约落后十二个月，但使用成本便宜得多。</p>
+<p>大家会获得价值数千美元的计算资源。我想，用来完成这些任务应该绰绰有余。当然，它们不会替你证明纳维–斯托克斯方程之类的大问题。</p>
+<p>不过，它们可以概括论文，在 Lean 中做形式化，检查论证；也可以按照你需要的方式，重新组织一篇论文，生成一个新的版本。生成代码、图片等通常的任务，做起来也应该相当直接。</p>
+0:{"buildId":"iSX3Jj-P_03ZqnHK8OZFh","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-terence-tao-peter-open-math-os-live","sender":"Terence Tao 等","author":"SAIR","interviewGuests":["Terence Tao","Peter L."],"authorAliases":["SAIR","Terence Tao","Peter L.","陶哲轩","陶哲轩（Terence Tao）"],"publisher":"SAIR","media":"SAIR","subject":"陶哲轩现场演示：用 Open Math OS 做数学","snippet":"从团队协作、数据自主权到威尔逊定理的 Lean 形式化，陶哲轩现场演示 Open Math OS，并说明如何在使用 AI 时保留对数学的理解。","date":"2026-11-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","数学","形式化证明","科研工具"],"mdTheme":"magazine","sourcePath":"talks/terence-tao-peter-open-math-os-live.md","sourceUrl":"https://www.youtube.com/watch?v=rCZFomL5WBg","body":"$3","prompts":[]},"listPosition":{"index":12,"total":464},"matchedPerson":{"id":"terence-tao","name":"Terence Tao","email":"","occupation":"数学家","website":"https://www.math.ucla.edu/~tao/","bio":"研究调和分析、偏微分方程、组合数学与解析数论，在加州大学洛杉矶分校从事数学教学与研究。","contentCount":14,"topTags":[{"id":"人工智能","name":"人工智能","count":13},{"id":"数学研究","name":"数学研究","count":9},{"id":"数学教育","name":"数学教育","count":7}]},"relatedArticles":[{"id":"talks-terence-tao-six-math-essentials-harvard","subject":"陶哲轩谈《数学六讲》：当证明不再稀缺","sender":"Terence Tao","date":"2026-11-23","matchedPeople":["Terence Tao"],"matchedTags":["人工智能","数学"]},{"id":"talks-terence-tao-proof-beauty-future-mathematics","subject":"陶哲轩：证明、美与数学的未来","sender":"Terence Tao","date":"2026-11-11","matchedPeople":["Terence Tao"],"matchedTags":["人工智能","数学"]},{"id":"talks-terence-tao-six-math-essentials","subject":"陶哲轩：把数学讲给每个人听","sender":"Terence Tao","date":"2026-11-09","matchedPeople":["Terence Tao"],"matchedTags":["人工智能","数学"]}]}],null,"$L4"]}],"loading":null,"isPartial":false}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null
